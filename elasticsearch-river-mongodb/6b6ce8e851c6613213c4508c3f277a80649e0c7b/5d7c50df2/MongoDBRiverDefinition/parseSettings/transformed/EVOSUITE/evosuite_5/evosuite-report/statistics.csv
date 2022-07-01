@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.elasticsearch.river.mongodb.MongoDBRiverDefinition,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.7932621259187513,2612,1873

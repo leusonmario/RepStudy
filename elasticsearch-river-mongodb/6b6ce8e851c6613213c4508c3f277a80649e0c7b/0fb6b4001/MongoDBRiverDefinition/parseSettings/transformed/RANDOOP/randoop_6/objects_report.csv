@@ -1,0 +1,23 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,26987,48,2.5219138398280534,0.00448556209700028
+class java.lang.Long,3,1,2.803476310625175E-4,9.344921035417251E-5
+class org.elasticsearch.common.unit.ByteSizeValue,103,1,0.009625268666479768,9.344921035417251E-5
+class java.lang.Integer,3533,10,0.33015606018129146,9.344921035417251E-4
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,1053,12,0.09840201850294365,0.00112139052425007
+class org.elasticsearch.common.logging.jdk.JdkESLogger,410,1,0.038314176245210725,9.344921035417251E-5
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,9.344921035417251E-5,9.344921035417251E-5
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,215,1,0.02009158022614709,9.344921035417251E-5
+class java.util.LinkedHashSet,1367,10,0.12774507055415382,9.344921035417251E-4
+class sun.security.ssl.SSLSocketFactoryImpl,1,1,9.344921035417251E-5,9.344921035417251E-5
+class com.mongodb.BasicDBObject,9413,3,0.8796374170638258,2.803476310625175E-4
+class java.lang.Object,6,1,5.60695262125035E-4,9.344921035417251E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,42681,3592,3.9885057471264367,0.33566956359218764
+class org.elasticsearch.script.ScriptService$CacheKey,71,71,0.006634893935146248,0.006634893935146248
+class java.lang.Boolean,25192,2,2.3541725072423136,1.8689842070834502E-4
+class java.lang.Class,62,8,0.005793851041958695,7.475936828333801E-4
+class [Lcom.mongodb.ServerAddress;,4201,1,0.3925801326978787,9.344921035417251E-5
+class org.elasticsearch.common.unit.TimeValue,196,1,0.01831604522941781,9.344921035417251E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,5539,226,0.5176151761517616,0.021119521540042988
+class org.elasticsearch.river.RiverSettings,264,2,0.02467059153350154,1.8689842070834502E-4
+class java.util.ArrayList,5288,2,0.4941594243528642,1.8689842070834502E-4
+class [Ljava.lang.String;,1273,9,0.11896084478086161,8.410428931875525E-4

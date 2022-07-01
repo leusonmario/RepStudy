@@ -1,0 +1,22 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,19250,55,1.5544250645994833,0.0044412144702842375
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,43348,3821,3.5003229974160206,0.3085432816537468
+class org.elasticsearch.common.logging.jdk.JdkESLogger,218,1,0.017603359173126616,8.074935400516796E-5
+class org.elasticsearch.script.ScriptService$ScriptType,3,3,2.4224806201550387E-4,2.4224806201550387E-4
+class java.util.ArrayList,1676,3,0.1353359173126615,2.4224806201550387E-4
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,8.074935400516796E-5,8.074935400516796E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,18807,576,1.5186531007751938,0.046511627906976744
+class java.lang.Boolean,18978,2,1.5324612403100775,1.6149870801033592E-4
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,1151,15,0.09294250645994832,0.0012112403100775194
+class java.lang.Integer,4494,10,0.3628875968992248,8.074935400516795E-4
+class org.elasticsearch.common.unit.ByteSizeValue,579,1,0.04675387596899225,8.074935400516796E-5
+class com.mongodb.BasicDBObject,2699,4,0.2179425064599483,3.2299741602067185E-4
+class org.elasticsearch.script.ScriptService$CacheKey,725,725,0.05854328165374677,0.05854328165374677
+class org.elasticsearch.common.ParseField,10,10,8.074935400516795E-4,8.074935400516795E-4
+class org.elasticsearch.river.RiverSettings,3265,2,0.2636466408268734,1.6149870801033592E-4
+class sun.security.ssl.SSLSocketFactoryImpl,1,1,8.074935400516796E-5,8.074935400516796E-5
+class java.lang.Class,67,6,0.005410206718346253,4.8449612403100775E-4
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,232,1,0.018733850129198967,8.074935400516796E-5
+class java.util.LinkedHashSet,5432,7,0.43863049095607237,5.652454780361757E-4
+class [Ljava.lang.String;,5186,6,0.418766149870801,4.8449612403100775E-4
+class org.elasticsearch.common.unit.TimeValue,175,1,0.014131136950904392,8.074935400516796E-5

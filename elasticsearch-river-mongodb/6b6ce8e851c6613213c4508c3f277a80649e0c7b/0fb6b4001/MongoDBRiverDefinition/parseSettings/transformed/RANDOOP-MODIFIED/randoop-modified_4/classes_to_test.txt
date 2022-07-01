@@ -1,0 +1,3 @@
+org.elasticsearch.river.mongodb.MongoDBRiverDefinition
+org.elasticsearch.river.RiverSettings
+org.elasticsearch.script.ScriptService

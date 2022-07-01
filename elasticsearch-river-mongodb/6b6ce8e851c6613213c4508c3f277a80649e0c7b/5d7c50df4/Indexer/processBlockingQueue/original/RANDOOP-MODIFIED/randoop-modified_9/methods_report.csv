@@ -1,0 +1,14 @@
+Methods called,Number of times,Number of times (Normalized)
+"org.elasticsearch.river.mongodb.Timestamp$GTID([B, java.util.Date)",19532,0.9997952497952498
+"public static int org.elasticsearch.river.mongodb.Timestamp.compare(org.elasticsearch.river.mongodb.Timestamp,org.elasticsearch.river.mongodb.Timestamp)",1,5.118755118755119E-5
+"byte[5]",3125,0.15996109746109746
+"byte[6]",15625,0.7998054873054873
+"byte[1]",5,2.5593775593775594E-4
+"byte[2]",25,0.0012796887796887796
+"byte[3]",125,0.0063984438984438985
+"byte[4]",625,0.03199221949221949
+"byte[0]",1,5.118755118755119E-5
+"public static org.elasticsearch.river.mongodb.Timestamp org.elasticsearch.river.mongodb.Timestamp.on(com.mongodb.DBObject)",1,5.118755118755119E-5
+"public static org.elasticsearch.river.mongodb.Timestamp org.elasticsearch.river.mongodb.Timestamp.on(java.util.Map)",1,5.118755118755119E-5
+"java.lang.Object()",1,5.118755118755119E-5
+"public final native java.lang.Class java.lang.Object.getClass()",1,5.118755118755119E-5

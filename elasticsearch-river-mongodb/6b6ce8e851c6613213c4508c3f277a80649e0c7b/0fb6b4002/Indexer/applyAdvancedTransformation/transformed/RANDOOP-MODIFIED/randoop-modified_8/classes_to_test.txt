@@ -1,0 +1,2 @@
+org.elasticsearch.river.mongodb.Indexer
+org.elasticsearch.river.mongodb.Timestamp$GTID

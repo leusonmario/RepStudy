@@ -1,0 +1,24 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Float,774,1,0.06682783629770334,8.634087376964255E-5
+class java.lang.String,11354,59,0.9803142807805215,0.00509411155240891
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,126944,4015,10.960455879813503,0.34665860818511485
+class java.lang.Byte,145,2,0.01251942669659817,1.726817475392851E-4
+class [Lcom.mongodb.ServerAddress;,180,1,0.015541357278535659,8.634087376964255E-5
+class java.lang.Short,7,1,6.043861163874979E-4,8.634087376964255E-5
+class java.lang.Double,9,1,7.77067863926783E-4,8.634087376964255E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,10753,880,0.9284234156449663,0.07597996891728544
+class java.util.LinkedHashSet,3345,6,0.28881022275945434,5.180452426178552E-4
+class java.lang.Boolean,19779,2,1.70773614228976,1.726817475392851E-4
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,8.634087376964255E-5,8.634087376964255E-5
+class java.lang.Object,1,1,8.634087376964255E-5,8.634087376964255E-5
+class java.lang.Integer,2735,6,0.23614228975997237,5.180452426178552E-4
+class org.elasticsearch.common.unit.TimeValue,1,1,8.634087376964255E-5,8.634087376964255E-5
+class org.elasticsearch.common.unit.ByteSizeValue,1,1,8.634087376964255E-5,8.634087376964255E-5
+class org.elasticsearch.river.RiverSettings,5981,2,0.5164047660162321,1.726817475392851E-4
+class [Ljava.lang.String;,3294,5,0.2844068381972026,4.3170436884821275E-4
+class org.elasticsearch.script.ScriptService$CacheKey,887,887,0.07658435503367295,0.07658435503367295
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,4914,13,0.42427905370402347,0.0011224313590053531
+class java.lang.Class,226,8,0.019513037471939217,6.907269901571404E-4
+class java.util.ArrayList,1456,3,0.12571231220859955,2.590226213089276E-4
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,1817,1,0.15688136763944052,8.634087376964255E-5
+class com.mongodb.BasicDBObject,4360,2,0.3764462096356415,1.726817475392851E-4

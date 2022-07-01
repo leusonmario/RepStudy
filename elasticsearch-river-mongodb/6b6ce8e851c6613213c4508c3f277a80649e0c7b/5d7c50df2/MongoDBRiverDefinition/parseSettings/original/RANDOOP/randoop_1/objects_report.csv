@@ -1,0 +1,25 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,5697,68,0.5345782115041756,0.006380782584216946
+class java.lang.Short,4,1,3.753401520127616E-4,9.38350380031904E-5
+class java.lang.Long,1805,1,0.16937224359575864,9.38350380031904E-5
+class org.elasticsearch.common.unit.TimeValue,1,1,9.38350380031904E-5,9.38350380031904E-5
+class java.lang.Integer,6774,9,0.6356385474336117,8.445153420287135E-4
+class org.elasticsearch.common.unit.ByteSizeValue,1,1,9.38350380031904E-5,9.38350380031904E-5
+class java.lang.Float,59,1,0.005536267242188233,9.38350380031904E-5
+class [Ljava.lang.String;,1392,7,0.13061837290044104,6.568452660223327E-4
+class org.elasticsearch.script.ScriptService$CacheKey,221,221,0.020737543398705077,0.020737543398705077
+class org.elasticsearch.script.ScriptService$ScriptType,4,3,3.753401520127616E-4,2.815051140095712E-4
+class org.elasticsearch.common.ParseField,932,10,0.08745425541897345,9.38350380031904E-4
+class com.mongodb.BasicDBObject,5504,1,0.5164680491695599,9.38350380031904E-5
+class java.lang.Byte,1,1,9.38350380031904E-5,9.38350380031904E-5
+class java.util.LinkedHashSet,1401,8,0.13146288824246974,7.506803040255232E-4
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,2653,1,0.2489443558224641,9.38350380031904E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,126713,3956,11.890119170498265,0.37121141034062116
+class java.util.ArrayList,3050,3,0.2861968659097307,2.815051140095712E-4
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,9.38350380031904E-5,9.38350380031904E-5
+class java.lang.Boolean,22307,2,2.093178192737168,1.876700760063808E-4
+class java.lang.Class,199,9,0.01867317256263489,8.445153420287135E-4
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,6038,15,0.5665759594632636,0.0014075255700478559
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,11149,1257,1.0461668386975698,0.11795064277001033
+class org.elasticsearch.river.RiverSettings,1638,2,0.15370179224922587,1.876700760063808E-4
+class [Lcom.mongodb.ServerAddress;,1656,1,0.1553908229332833,9.38350380031904E-5

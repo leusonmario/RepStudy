@@ -1,0 +1,138 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final int org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DEFAULT_DB_PORT",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SSL_VERIFY_CERT_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.BULK_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.EXCLUDE_FIELDS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.STORE_STATISTICS_FIELD",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.SCRIPT_INLINE",1,3.9492911022471465E-5
+"byte[0]",1,3.9492911022471465E-5
+"public static org.elasticsearch.river.mongodb.Timestamp org.elasticsearch.river.mongodb.MongoDBRiver.getLastTimestamp(org.elasticsearch.client.Client,org.elasticsearch.river.mongodb.MongoDBRiverDefinition)",1,3.9492911022471465E-5
+"public static java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.addPrefix(java.lang.String,java.lang.String)",3056,0.1206903360846728
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.VALUE_SCRIPT_INLINE",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.USER_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.STATUS_ID",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.VALUE_SCRIPT_ID",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_OPERATION",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.PORT_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_TO",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.MONGODB_OR_OPERATOR",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DEFAULT_DB_HOST",1,3.9492911022471465E-5
+"public static int org.elasticsearch.river.mongodb.Timestamp.compare(org.elasticsearch.river.mongodb.Timestamp,org.elasticsearch.river.mongodb.Timestamp)",2,7.898582204494293E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_COMMAND_OPERATION",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.COLLECTION_FIELD",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.SCRIPT_FILE",1,3.9492911022471465E-5
+"org.elasticsearch.river.mongodb.MongoDBRiver(org.elasticsearch.river.RiverName, org.elasticsearch.river.RiverSettings, java.lang.String, org.elasticsearch.client.Client, org.elasticsearch.script.ScriptService)",87,0.0034358832589550174
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.BULK_TIMEOUT_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_INSERT_OPERATION",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.TYPE",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.MONGODB_ADMIN_DATABASE",1,3.9492911022471465E-5
+"public static synchronized org.elasticsearch.river.mongodb.MongoDBRiverDefinition org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService)",3102,0.1225070099917065
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SOCKET_TIMEOUT",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.unit.TimeValue org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DEFAULT_FLUSH_INTERVAL",1,3.9492911022471465E-5
+"public static java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.removePrefix(java.lang.String,java.lang.String)",3104,0.12258599581375143
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.PARENT_TYPES_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DROP_COLLECTION_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SECONDARY_READ_PREFERENCE_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DISABLE_INDEX_REFRESH_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_RENAME_COLLECTION_COMMAND_OPERATION",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.ADVANCED_TRANSFORMATION_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.ADMIN_DB_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.THROTTLE_SIZE_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.MONGODB_CONFIG_DATABASE",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.IS_MONGOS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_DROP_DATABASE_COMMAND_OPERATION",1,3.9492911022471465E-5
+"public final native java.lang.Class java.lang.Object.getClass()",2686,0.10607795900635836
+"public static final java.lang.String org.elasticsearch.script.ScriptService.DEFAULT_SCRIPTING_LANGUAGE_SETTING",1,3.9492911022471465E-5
+"public static com.mongodb.BasicDBObject org.elasticsearch.river.mongodb.MongoDBRiverDefinition.convertToBasicDBObject(java.lang.String)",3745,0.14790095177915563
+"public static long org.elasticsearch.river.mongodb.MongoDBRiver.getIndexCount(org.elasticsearch.client.Client,org.elasticsearch.river.mongodb.MongoDBRiverDefinition)",1,3.9492911022471465E-5
+"java.util.LinkedHashSet()",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.STATUS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_NOOP_OPERATION",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_OPS",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.script.ScriptService.DISABLE_DYNAMIC_SCRIPTING_SETTING",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_UPDATE",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_CREATE_COMMAND",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_DROP_COMMAND_OPERATION",1,3.9492911022471465E-5
+"byte[5]",2651,0.10469570712057186
+"byte[6]",5045,0.19924173610836854
+"org.elasticsearch.river.mongodb.MongoDBRiverDefinition(org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder)",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.LOCAL_DB_FIELD",1,3.9492911022471465E-5
+"byte[1]",5,1.9746455511235735E-4
+"public static final org.elasticsearch.common.logging.ESLogger org.elasticsearch.river.mongodb.MongoDBRiverDefinition.logger",1,3.9492911022471465E-5
+"byte[2]",25,9.873227755617866E-4
+"byte[3]",125,0.0049366138778089335
+"byte[4]",625,0.024683069389044666
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.GRIDFS_CHUNKS_SUFFIX",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SCRIPT_FIELD",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.unit.ByteSizeValue org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DEFAULT_BULK_SIZE",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.KEY_SCRIPT_ID",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.DESCRIPTION",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.CREDENTIALS_FIELD",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.KEY_SCRIPT_INLINE",1,3.9492911022471465E-5
+"org.elasticsearch.script.ScriptService(org.elasticsearch.common.settings.Settings, org.elasticsearch.env.Environment, java.util.Set, org.elasticsearch.watcher.ResourceWatcherService)",2,7.898582204494293E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.INCLUDE_FIELDS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_DELETE_OPERATION",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.MONGODB_NATURAL_OPERATOR",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_UPDATE_OPERATION",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.script.ScriptService.DISABLE_DYNAMIC_SCRIPTING_DEFAULT",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.NAME",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_NAMESPACE_COMMAND",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.HOST_FIELD",1,3.9492911022471465E-5
+"org.elasticsearch.river.mongodb.Indexer(org.elasticsearch.river.mongodb.MongoDBRiver, org.elasticsearch.river.mongodb.MongoDBRiverDefinition, org.elasticsearch.river.mongodb.SharedContext, org.elasticsearch.client.Client, org.elasticsearch.script.ScriptService)",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_COLLECTION",1,3.9492911022471465E-5
+"public static final int org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DEFAULT_CONCURRENT_REQUESTS",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.INITIAL_TIMESTAMP_SCRIPT_TYPE_FIELD",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.SCRIPT_ID",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SKIP_INITIAL_IMPORT_FIELD",1,3.9492911022471465E-5
+"public static java.lang.String org.elasticsearch.script.ScriptService.getScriptFromResponse(org.elasticsearch.action.get.GetResponse)",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_NAMESPACE",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.TYPE_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.PASSWORD_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.INITIAL_TIMESTAMP_SCRIPT_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_ADMIN_COMMAND",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.LAST_GTID_FIELD",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.KEY_SCRIPT_FILE",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.CONCURRENT_REQUESTS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.ACTIONS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.MONGODB_IN_OPERATOR",1,3.9492911022471465E-5
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",1,3.9492911022471465E-5
+"org.elasticsearch.script.ScriptEngineService[0]",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.BULK_SIZE_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SCRIPT_TYPE_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.FILTER_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.GRIDFS_FIELD",1,3.9492911022471465E-5
+"public static final int org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DEFAULT_SOCKET_TIMEOUT",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.INDEX_OBJECT",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.SCRIPT_LANG",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SERVERS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_TIMESTAMP",1,3.9492911022471465E-5
+"public static final org.elasticsearch.common.ParseField org.elasticsearch.script.ScriptService.VALUE_SCRIPT_FILE",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.INCLUDE_COLLECTION_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.MONGODB_AND_OPERATOR",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.INSERTION_ORDER_KEY",1,3.9492911022471465E-5
+"public static javax.net.SocketFactory org.elasticsearch.river.mongodb.MongoDBRiverDefinition.getSSLSocketFactory()",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SSL_CONNECTION_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.CONCURRENT_BULK_REQUESTS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.MONGODB_LOCAL_DATABASE",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.SIZE_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.OPTIONS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.GRIDFS_FILES_SUFFIX",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.IMPORT_ALL_COLLECTIONS_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_OBJECT",1,3.9492911022471465E-5
+"public static java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.addRemovePrefix(java.lang.String,java.lang.String,boolean)",3628,0.1432802811895265
+"org.elasticsearch.river.mongodb.Timestamp$GTID([B, java.util.Date)",8478,0.3348208996485131
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.CONNECT_TIMEOUT",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.LAST_TIMESTAMP_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.INITIAL_TIMESTAMP_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_UPDATE_ROW_OPERATION",1,3.9492911022471465E-5
+"public static final int org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DEFAULT_CONNECT_TIMEOUT",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.NAME_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.script.ScriptService.SCRIPT_INDEX",1,3.9492911022471465E-5
+"public static final int org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DEFAULT_BULK_ACTIONS",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.MONGODB_ID_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.DB_FIELD",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiverDefinition.FLUSH_INTERVAL_FIELD",1,3.9492911022471465E-5
+"public static org.elasticsearch.river.mongodb.Timestamp org.elasticsearch.river.mongodb.Timestamp.on(com.mongodb.DBObject)",25646,1.0128351960823032
+"public static org.elasticsearch.river.mongodb.Timestamp org.elasticsearch.river.mongodb.Timestamp.on(java.util.Map)",27293,1.0778800205363137
+"java.lang.Object()",1,3.9492911022471465E-5
+"public static final java.lang.String org.elasticsearch.river.mongodb.MongoDBRiver.OPLOG_FROM_MIGRATE",1,3.9492911022471465E-5

@@ -1,0 +1,2 @@
+org.elasticsearch.river.mongodb.Slurper
+org.elasticsearch.river.mongodb.Timestamp$GTID

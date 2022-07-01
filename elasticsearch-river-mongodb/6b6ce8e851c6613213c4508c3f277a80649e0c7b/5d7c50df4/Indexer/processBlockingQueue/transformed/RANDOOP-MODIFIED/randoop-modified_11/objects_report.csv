@@ -1,0 +1,15 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,3.9492911022471465E-5,3.9492911022471465E-5
+class org.elasticsearch.common.unit.TimeValue,1,1,3.9492911022471465E-5,3.9492911022471465E-5
+class java.lang.String,394,86,0.015560206942853757,0.003396390347932546
+class org.elasticsearch.common.logging.jdk.JdkESLogger,1,1,3.9492911022471465E-5,3.9492911022471465E-5
+class java.util.LinkedHashSet,1,1,3.9492911022471465E-5,3.9492911022471465E-5
+class org.elasticsearch.common.unit.ByteSizeValue,1,1,3.9492911022471465E-5,3.9492911022471465E-5
+class [B,8477,8477,0.3347814067374906,0.3347814067374906
+class sun.security.ssl.SSLSocketFactoryImpl,1,1,3.9492911022471465E-5,3.9492911022471465E-5
+class org.elasticsearch.common.ParseField,10,10,3.949291102247147E-4,3.949291102247147E-4
+class java.lang.Boolean,1,1,3.9492911022471465E-5,3.9492911022471465E-5
+class java.lang.Object,1,1,3.9492911022471465E-5,3.9492911022471465E-5
+class com.mongodb.BasicDBObject,3659,1,0.1445045614312231,3.9492911022471465E-5
+class java.lang.Integer,5,5,1.9746455511235735E-4,1.9746455511235735E-4
+class java.lang.Class,1353,7,0.05343390861340389,2.7645037715730026E-4

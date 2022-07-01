@@ -1,0 +1,9 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Long,1,1,6.01286753652817E-5,6.01286753652817E-5
+class java.lang.Object,1,1,6.01286753652817E-5,6.01286753652817E-5
+class java.util.ArrayList,1,1,6.01286753652817E-5,6.01286753652817E-5
+class [B,16619,16619,0.9992784558956166,0.9992784558956166
+class java.lang.Boolean,1,1,6.01286753652817E-5,6.01286753652817E-5
+class java.lang.Class,2,2,1.202573507305634E-4,1.202573507305634E-4
+class [Lcom.mongodb.ServerAddress;,1,1,6.01286753652817E-5,6.01286753652817E-5
+class org.elasticsearch.common.logging.jdk.JdkESLogger,1,1,6.01286753652817E-5,6.01286753652817E-5

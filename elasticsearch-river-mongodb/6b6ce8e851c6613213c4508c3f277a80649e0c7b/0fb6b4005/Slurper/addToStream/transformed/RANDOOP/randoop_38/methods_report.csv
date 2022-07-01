@@ -1,0 +1,22 @@
+Methods called,Number of times,Number of times (Normalized)
+"org.elasticsearch.river.mongodb.Timestamp$GTID([B, java.util.Date)",16620,0.9993385845709819
+"public static final long org.elasticsearch.river.mongodb.Slurper$SlurperException.serialVersionUID",1,6.01286753652817E-5
+"public static final org.elasticsearch.common.logging.ESLogger org.elasticsearch.river.mongodb.Slurper.logger",1,6.01286753652817E-5
+"org.elasticsearch.river.mongodb.Slurper(java.util.List, org.elasticsearch.river.mongodb.MongoDBRiverDefinition, org.elasticsearch.river.mongodb.SharedContext, org.elasticsearch.client.Client)",2,1.202573507305634E-4
+"public static int org.elasticsearch.river.mongodb.Timestamp.compare(org.elasticsearch.river.mongodb.Timestamp,org.elasticsearch.river.mongodb.Timestamp)",1,6.01286753652817E-5
+"byte[5]",3125,0.18790211051650532
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",1,6.01286753652817E-5
+"byte[6]",12713,0.7644158499188263
+"byte[1]",5,3.006433768264085E-4
+"byte[2]",25,0.0015032168841320427
+"byte[3]",125,0.0075160844206602125
+"java.util.ArrayList()",1,6.01286753652817E-5
+"byte[4]",625,0.037580422103301064
+"org.elasticsearch.river.mongodb.Slurper$SlurperException(org.elasticsearch.river.mongodb.Slurper)",1,6.01286753652817E-5
+"org.elasticsearch.river.mongodb.Slurper$SlurperException(org.elasticsearch.river.mongodb.Slurper, java.lang.String)",2,1.202573507305634E-4
+"byte[0]",1,6.01286753652817E-5
+"public static org.elasticsearch.river.mongodb.Timestamp org.elasticsearch.river.mongodb.Timestamp.on(com.mongodb.DBObject)",1,6.01286753652817E-5
+"public static org.elasticsearch.river.mongodb.Timestamp org.elasticsearch.river.mongodb.Timestamp.on(java.util.Map)",1,6.01286753652817E-5
+"com.mongodb.ServerAddress[0]",1,6.01286753652817E-5
+"java.lang.Object()",1,6.01286753652817E-5
+"public final native java.lang.Class java.lang.Object.getClass()",2,1.202573507305634E-4

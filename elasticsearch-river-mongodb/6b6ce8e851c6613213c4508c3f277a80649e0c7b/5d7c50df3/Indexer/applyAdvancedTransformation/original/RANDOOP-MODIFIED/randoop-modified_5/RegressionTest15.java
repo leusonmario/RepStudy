@@ -1,0 +1,8510 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest15 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test07501() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07501");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 100, (byte) 100, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 100, 100, 100, 10]");
+    }
+
+    @Test
+    public void test07502() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07502");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 10, (byte) 10, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 10, 10, -1, 1]");
+    }
+
+    @Test
+    public void test07503() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07503");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 0, (byte) -1, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 0, -1, 100, 1]");
+    }
+
+    @Test
+    public void test07504() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07504");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 0, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 0, 0, 100, 100]");
+    }
+
+    @Test
+    public void test07505() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07505");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 0, (byte) 10, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 0, 10, 10, 0]");
+    }
+
+    @Test
+    public void test07506() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07506");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 10, (byte) 1, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 10, 1, 0, 100]");
+    }
+
+    @Test
+    public void test07507() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07507");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 100, (byte) 0, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 100, 0, 0, -1]");
+    }
+
+    @Test
+    public void test07508() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07508");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 100, (byte) 100, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 100, 100, 0, 0]");
+    }
+
+    @Test
+    public void test07509() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07509");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 10, (byte) 10, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 10, 10, 1, 0]");
+    }
+
+    @Test
+    public void test07510() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07510");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 0, (byte) 1, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 0, 1, 10, 100]");
+    }
+
+    @Test
+    public void test07511() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07511");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 10, (byte) 10, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 10, 10, 1, 100]");
+    }
+
+    @Test
+    public void test07512() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07512");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 0, (byte) -1, (byte) 10, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 0, -1, 10, 10]");
+    }
+
+    @Test
+    public void test07513() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07513");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 1, (byte) 100, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 1, 100, 100, 1]");
+    }
+
+    @Test
+    public void test07514() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07514");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 0, (byte) 0, (byte) 0, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 0, 0, 0, 100]");
+    }
+
+    @Test
+    public void test07515() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07515");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 100, (byte) 10, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 100, 10, 0, 10]");
+    }
+
+    @Test
+    public void test07516() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07516");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 10, (byte) 100, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 10, 100, 0, 0]");
+    }
+
+    @Test
+    public void test07517() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07517");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 100, (byte) 10, (byte) -1, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 100, 10, -1, 10]");
+    }
+
+    @Test
+    public void test07518() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07518");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 0, (byte) 10, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 0, 10, -1, 1]");
+    }
+
+    @Test
+    public void test07519() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07519");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) -1, (byte) 1, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, -1, 1, 10, 1]");
+    }
+
+    @Test
+    public void test07520() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07520");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 100, (byte) 100, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 100, 100, 10, 1]");
+    }
+
+    @Test
+    public void test07521() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07521");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 100, (byte) 0, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 100, 0, -1, 100]");
+    }
+
+    @Test
+    public void test07522() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07522");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) -1, (byte) 100, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, -1, 100, 0, 0]");
+    }
+
+    @Test
+    public void test07523() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07523");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 10, (byte) 10, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 10, 10, 100, 100]");
+    }
+
+    @Test
+    public void test07524() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07524");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 0, (byte) 10, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 0, 10, 0, -1]");
+    }
+
+    @Test
+    public void test07525() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07525");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) -1, (byte) -1, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, -1, -1, 100, 1]");
+    }
+
+    @Test
+    public void test07526() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07526");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) -1, (byte) -1, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, -1, -1, 1, 100]");
+    }
+
+    @Test
+    public void test07527() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07527");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) -1, (byte) 10, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, -1, 10, 0, 0]");
+    }
+
+    @Test
+    public void test07528() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07528");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 10, (byte) 1, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 10, 1, -1, 1]");
+    }
+
+    @Test
+    public void test07529() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07529");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 1, (byte) 1, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 1, 1, 10, -1]");
+    }
+
+    @Test
+    public void test07530() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07530");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 0, (byte) -1, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 0, -1, 0, 10]");
+    }
+
+    @Test
+    public void test07531() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07531");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 0, (byte) 0, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 0, 0, 10, 0]");
+    }
+
+    @Test
+    public void test07532() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07532");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 100, (byte) -1, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 100, -1, 0, 100]");
+    }
+
+    @Test
+    public void test07533() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07533");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07534() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07534");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 10, (byte) 0, (byte) 100, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 10, 0, 100, 0]");
+    }
+
+    @Test
+    public void test07535() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07535");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 1, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 1, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07536() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07536");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) -1, (byte) -1, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, -1, -1, -1, -1]");
+    }
+
+    @Test
+    public void test07537() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07537");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 0, (byte) -1, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 0, -1, 0, 100]");
+    }
+
+    @Test
+    public void test07538() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07538");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 0, (byte) 10, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 0, 10, 10, -1]");
+    }
+
+    @Test
+    public void test07539() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07539");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) -1, (byte) -1, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, -1, -1, 0, 0]");
+    }
+
+    @Test
+    public void test07540() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07540");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 0, (byte) 100, (byte) 10, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 0, 100, 10, 0]");
+    }
+
+    @Test
+    public void test07541() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07541");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 10, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 10, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07542() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07542");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 1, (byte) 100, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 1, 100, -1, 100]");
+    }
+
+    @Test
+    public void test07543() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07543");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 100, (byte) 100, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 100, 100, -1, 0]");
+    }
+
+    @Test
+    public void test07544() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07544");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 100, (byte) -1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 100, -1, 10, 10]");
+    }
+
+    @Test
+    public void test07545() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07545");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) 0, (byte) -1, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, 0, -1, 0, 1]");
+    }
+
+    @Test
+    public void test07546() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07546");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 10, (byte) 10, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 10, 10, 10, 0]");
+    }
+
+    @Test
+    public void test07547() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07547");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 1, (byte) -1, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 1, -1, 100, -1]");
+    }
+
+    @Test
+    public void test07548() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07548");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 0, (byte) 0, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 0, 0, 100, 10]");
+    }
+
+    @Test
+    public void test07549() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07549");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 100, (byte) 1, (byte) -1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 100, 1, -1, 1]");
+    }
+
+    @Test
+    public void test07550() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07550");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 1, (byte) 100, (byte) 0, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 1, 100, 0, 10]");
+    }
+
+    @Test
+    public void test07551() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07551");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) -1, (byte) -1, (byte) 0, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, -1, -1, 0, 100]");
+    }
+
+    @Test
+    public void test07552() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07552");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) 100, (byte) 100, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, 100, 100, 1]");
+    }
+
+    @Test
+    public void test07553() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07553");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) 10, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 0, 10, 10, 1]");
+    }
+
+    @Test
+    public void test07554() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07554");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 0, (byte) 1, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 0, 1, -1, 1]");
+    }
+
+    @Test
+    public void test07555() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07555");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 1, (byte) -1, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 1, -1, 1, 10]");
+    }
+
+    @Test
+    public void test07556() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07556");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 0, (byte) 1, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 0, 1, 0, 1]");
+    }
+
+    @Test
+    public void test07557() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07557");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 1, (byte) 10, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 1, 10, 0, 10]");
+    }
+
+    @Test
+    public void test07558() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07558");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) -1, (byte) 0, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, -1, 0, -1, 10]");
+    }
+
+    @Test
+    public void test07559() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07559");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 10, (byte) -1, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 10, -1, 0, 1]");
+    }
+
+    @Test
+    public void test07560() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07560");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) -1, (byte) 10, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, -1, 10, 10, -1]");
+    }
+
+    @Test
+    public void test07561() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07561");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 1, (byte) 100, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 1, 100, 10, 10]");
+    }
+
+    @Test
+    public void test07562() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07562");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) -1, (byte) -1, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, -1, -1, -1, -1]");
+    }
+
+    @Test
+    public void test07563() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07563");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 1, (byte) 10, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 1, 10, 1, 10]");
+    }
+
+    @Test
+    public void test07564() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07564");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 10, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 10, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07565() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07565");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 0, (byte) 1, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 0, 1, -1, 0]");
+    }
+
+    @Test
+    public void test07566() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07566");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 10, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 10, 0, 100, 100]");
+    }
+
+    @Test
+    public void test07567() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07567");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 10, (byte) 100, (byte) 0, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 10, 100, 0, -1]");
+    }
+
+    @Test
+    public void test07568() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07568");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) -1, (byte) 0, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, -1, 0, -1, -1]");
+    }
+
+    @Test
+    public void test07569() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07569");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 10, (byte) -1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 10, -1, 10, 10]");
+    }
+
+    @Test
+    public void test07570() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07570");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) -1, (byte) 100, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, -1, 100, -1, 0]");
+    }
+
+    @Test
+    public void test07571() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07571");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 10, (byte) 0, (byte) 1, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 10, 0, 1, -1]");
+    }
+
+    @Test
+    public void test07572() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07572");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 0, (byte) 1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 0, 1, 10, 10]");
+    }
+
+    @Test
+    public void test07573() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07573");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 10, (byte) -1, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 10, -1, 100, 0]");
+    }
+
+    @Test
+    public void test07574() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07574");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) -1, (byte) 10, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, -1, 10, 100, 1]");
+    }
+
+    @Test
+    public void test07575() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07575");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 10, (byte) -1, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 10, -1, 1, 0]");
+    }
+
+    @Test
+    public void test07576() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07576");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 0, (byte) 0, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 0, 0, -1, 100]");
+    }
+
+    @Test
+    public void test07577() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07577");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 10, (byte) 100, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 10, 100, 0, 0]");
+    }
+
+    @Test
+    public void test07578() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07578");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 10, (byte) 10, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 10, 10, -1, 0]");
+    }
+
+    @Test
+    public void test07579() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07579");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 1, (byte) 100, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 1, 100, 100, 100]");
+    }
+
+    @Test
+    public void test07580() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07580");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) -1, (byte) 10, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, -1, 10, -1, 10]");
+    }
+
+    @Test
+    public void test07581() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07581");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 0, (byte) 100, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 0, 100, 100, 1]");
+    }
+
+    @Test
+    public void test07582() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07582");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 1, (byte) 10, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 1, 10, 0, 0]");
+    }
+
+    @Test
+    public void test07583() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07583");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) -1, (byte) -1, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, -1, -1, -1, 0]");
+    }
+
+    @Test
+    public void test07584() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07584");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 10, (byte) 100, (byte) -1, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 10, 100, -1, 0]");
+    }
+
+    @Test
+    public void test07585() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07585");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 1, (byte) -1, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 1, -1, 100, 100]");
+    }
+
+    @Test
+    public void test07586() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07586");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) -1, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, -1, 0, 100, 100]");
+    }
+
+    @Test
+    public void test07587() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07587");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 1, (byte) 1, (byte) -1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 1, 1, -1, 100]");
+    }
+
+    @Test
+    public void test07588() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07588");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 1, (byte) 0, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 1, 0, 0, 0]");
+    }
+
+    @Test
+    public void test07589() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07589");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) 0, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 10, 0, 0, -1]");
+    }
+
+    @Test
+    public void test07590() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07590");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) -1, (byte) 0, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, -1, 0, 10, 0]");
+    }
+
+    @Test
+    public void test07591() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07591");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 10, (byte) 10, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 10, 10, 100, 100]");
+    }
+
+    @Test
+    public void test07592() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07592");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) 0, (byte) 0, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, 0, 0, 10, -1]");
+    }
+
+    @Test
+    public void test07593() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07593");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 0, (byte) 10, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 0, 10, 0, 100]");
+    }
+
+    @Test
+    public void test07594() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07594");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 1, (byte) 100, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 1, 100, 10, 100]");
+    }
+
+    @Test
+    public void test07595() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07595");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 1, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 1, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07596() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07596");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 0, (byte) 100, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 0, 100, 10, -1]");
+    }
+
+    @Test
+    public void test07597() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07597");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 10, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 10, 0, 100, 1]");
+    }
+
+    @Test
+    public void test07598() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07598");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 10, (byte) 1, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 10, 1, 0, 10]");
+    }
+
+    @Test
+    public void test07599() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07599");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 100, (byte) 1, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 100, 1, 100, -1]");
+    }
+
+    @Test
+    public void test07600() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07600");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) -1, (byte) -1, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, -1, -1, 10, 1]");
+    }
+
+    @Test
+    public void test07601() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07601");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 1, (byte) 100, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 1, 100, 1, 0]");
+    }
+
+    @Test
+    public void test07602() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07602");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 0, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 0, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07603() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07603");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 1, (byte) 10, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 1, 10, 10, 10]");
+    }
+
+    @Test
+    public void test07604() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07604");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 10, (byte) 100, (byte) -1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 10, 100, -1, 1]");
+    }
+
+    @Test
+    public void test07605() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07605");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 100, (byte) 1, (byte) 10, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 100, 1, 10, 10]");
+    }
+
+    @Test
+    public void test07606() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07606");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 0, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 0, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07607() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07607");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 0, (byte) 10, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 0, 10, 100, 10]");
+    }
+
+    @Test
+    public void test07608() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07608");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 100, (byte) 1, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 100, 1, 10, -1]");
+    }
+
+    @Test
+    public void test07609() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07609");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 1, (byte) 1, (byte) 1, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 1, 1, 1, -1]");
+    }
+
+    @Test
+    public void test07610() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07610");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) -1, (byte) 10, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, -1, 10, 10, 100]");
+    }
+
+    @Test
+    public void test07611() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07611");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) -1, (byte) -1, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, -1, -1, 0, 1]");
+    }
+
+    @Test
+    public void test07612() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07612");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 0, (byte) 100, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 0, 100, 10, -1]");
+    }
+
+    @Test
+    public void test07613() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07613");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 0, (byte) 10, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 0, 10, 0, 0]");
+    }
+
+    @Test
+    public void test07614() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07614");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 10, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07615() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07615");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) -1, (byte) 1, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, -1, 1, -1, 0]");
+    }
+
+    @Test
+    public void test07616() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07616");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 0, (byte) -1, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 0, -1, 100, 1]");
+    }
+
+    @Test
+    public void test07617() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07617");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 10, (byte) 0, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 10, 0, 100, 0]");
+    }
+
+    @Test
+    public void test07618() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07618");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) -1, (byte) 0, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, -1, 0, 10, 10]");
+    }
+
+    @Test
+    public void test07619() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07619");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 100, (byte) 10, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 100, 10, -1, 10]");
+    }
+
+    @Test
+    public void test07620() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07620");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 0, (byte) 1, (byte) 100, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 0, 1, 100, 0]");
+    }
+
+    @Test
+    public void test07621() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07621");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) -1, (byte) 1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, -1, 1, 10, 10]");
+    }
+
+    @Test
+    public void test07622() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07622");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 0, (byte) -1, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 0, -1, 100, 100]");
+    }
+
+    @Test
+    public void test07623() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07623");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 100, (byte) 100, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 100, 100, 10, -1]");
+    }
+
+    @Test
+    public void test07624() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07624");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) -1, (byte) 10, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, -1, 10, 10, 0]");
+    }
+
+    @Test
+    public void test07625() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07625");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) -1, (byte) 0, (byte) 1, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, -1, 0, 1, 10]");
+    }
+
+    @Test
+    public void test07626() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07626");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 1, (byte) 10, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 1, 10, 1, 0]");
+    }
+
+    @Test
+    public void test07627() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07627");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 0, (byte) 100, (byte) 1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 0, 100, 1, 100]");
+    }
+
+    @Test
+    public void test07628() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07628");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 0, (byte) 1, (byte) 0, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 0, 1, 0, -1]");
+    }
+
+    @Test
+    public void test07629() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07629");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 1, (byte) 10, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 1, 10, 1, 10]");
+    }
+
+    @Test
+    public void test07630() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07630");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) -1, (byte) -1, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, -1, -1, -1]");
+    }
+
+    @Test
+    public void test07631() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07631");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 0, (byte) -1, (byte) 1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 0, -1, 1, 100]");
+    }
+
+    @Test
+    public void test07632() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07632");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 1, (byte) 1, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 1, 1, 0, 100]");
+    }
+
+    @Test
+    public void test07633() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07633");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 100, (byte) 0, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 100, 0, -1, 1]");
+    }
+
+    @Test
+    public void test07634() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07634");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 100, (byte) 100, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 100, 100, 10, -1]");
+    }
+
+    @Test
+    public void test07635() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07635");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 100, (byte) 10, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 100, 10, 10, 100]");
+    }
+
+    @Test
+    public void test07636() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07636");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 1, (byte) 0, (byte) -1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 1, 0, -1, 100]");
+    }
+
+    @Test
+    public void test07637() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07637");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 0, (byte) 0, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 0, 0, 100, 0]");
+    }
+
+    @Test
+    public void test07638() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07638");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 100, (byte) 10, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 100, 10, 100, -1]");
+    }
+
+    @Test
+    public void test07639() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07639");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 1, (byte) -1, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 1, -1, 0, 100]");
+    }
+
+    @Test
+    public void test07640() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07640");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) -1, (byte) 1, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, -1, 1, -1, 100]");
+    }
+
+    @Test
+    public void test07641() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07641");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) -1, (byte) 100, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, -1, 100, 100, -1]");
+    }
+
+    @Test
+    public void test07642() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07642");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) 0, (byte) 1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, 0, 1, 100]");
+    }
+
+    @Test
+    public void test07643() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07643");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 10, (byte) 10, (byte) -1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 10, 10, -1, 1]");
+    }
+
+    @Test
+    public void test07644() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07644");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) -1, (byte) 10, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, -1, 10, 100, -1]");
+    }
+
+    @Test
+    public void test07645() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07645");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) 1, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 10, 1, 1, 100]");
+    }
+
+    @Test
+    public void test07646() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07646");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 100, (byte) 0, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 100, 0, 100, 10]");
+    }
+
+    @Test
+    public void test07647() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07647");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 100, (byte) 1, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 100, 1, 10, -1]");
+    }
+
+    @Test
+    public void test07648() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07648");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) -1, (byte) -1, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, -1, -1, -1, -1]");
+    }
+
+    @Test
+    public void test07649() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07649");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 100, (byte) 1, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 100, 1, 100, 1]");
+    }
+
+    @Test
+    public void test07650() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07650");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 1, (byte) 1, (byte) 100, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 1, 1, 100, -1]");
+    }
+
+    @Test
+    public void test07651() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07651");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 0, (byte) 100, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 0, 100, -1, 10]");
+    }
+
+    @Test
+    public void test07652() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07652");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 10, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 10, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07653() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07653");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 1, (byte) 10, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 1, 10, 0, -1]");
+    }
+
+    @Test
+    public void test07654() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07654");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 0, (byte) 1, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 0, 1, -1, 0]");
+    }
+
+    @Test
+    public void test07655() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07655");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 10, (byte) 10, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 10, 10, 0, 0]");
+    }
+
+    @Test
+    public void test07656() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07656");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 1, (byte) 1, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 1, 1, -1, 10]");
+    }
+
+    @Test
+    public void test07657() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07657");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 0, (byte) 100, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 0, 100, 1, 10]");
+    }
+
+    @Test
+    public void test07658() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07658");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 1, (byte) -1, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 1, -1, -1, 1]");
+    }
+
+    @Test
+    public void test07659() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07659");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 100, (byte) 10, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 100, 10, 100, 0]");
+    }
+
+    @Test
+    public void test07660() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07660");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 100, (byte) 100, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 100, 100, 10, 100]");
+    }
+
+    @Test
+    public void test07661() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07661");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 1, (byte) 1, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 1, 1, 100, -1]");
+    }
+
+    @Test
+    public void test07662() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07662");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 0, 0, 100, 100]");
+    }
+
+    @Test
+    public void test07663() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07663");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) -1, (byte) 0, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, -1, 0, -1, 10]");
+    }
+
+    @Test
+    public void test07664() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07664");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 10, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 10, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07665() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07665");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) -1, (byte) 100, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, -1, 100, -1, 10]");
+    }
+
+    @Test
+    public void test07666() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07666");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 100, (byte) 10, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 100, 10, -1, 1]");
+    }
+
+    @Test
+    public void test07667() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07667");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 100, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 100, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07668() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07668");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 100, (byte) 100, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 100, 100, 0, 1]");
+    }
+
+    @Test
+    public void test07669() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07669");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 0, (byte) -1, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 0, -1, -1, 1]");
+    }
+
+    @Test
+    public void test07670() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07670");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) 10, (byte) -1, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, 10, -1, 0]");
+    }
+
+    @Test
+    public void test07671() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07671");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 0, (byte) 100, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 0, 100, -1, 0]");
+    }
+
+    @Test
+    public void test07672() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07672");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) -1, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, -1, 0, 100, 100]");
+    }
+
+    @Test
+    public void test07673() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07673");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) 100, (byte) 100, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, 100, 100, 10]");
+    }
+
+    @Test
+    public void test07674() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07674");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 1, (byte) 10, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 1, 10, 1, 0]");
+    }
+
+    @Test
+    public void test07675() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07675");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 10, (byte) 1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 10, 1, 10, 10]");
+    }
+
+    @Test
+    public void test07676() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07676");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) -1, (byte) 10, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, -1, 10, 1, 1]");
+    }
+
+    @Test
+    public void test07677() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07677");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 10, (byte) 10, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 10, 10, 10, 1]");
+    }
+
+    @Test
+    public void test07678() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07678");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 1, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 1, 0, 100, 100]");
+    }
+
+    @Test
+    public void test07679() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07679");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 0, (byte) 10, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 0, 10, 10, 1]");
+    }
+
+    @Test
+    public void test07680() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07680");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) -1, (byte) -1, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, -1, -1, 0, 100]");
+    }
+
+    @Test
+    public void test07681() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07681");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 10, (byte) -1, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 10, -1, 10, 100]");
+    }
+
+    @Test
+    public void test07682() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07682");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 10, (byte) -1, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 10, -1, 1, 1]");
+    }
+
+    @Test
+    public void test07683() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07683");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 1, (byte) 100, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 1, 100, 1, 100]");
+    }
+
+    @Test
+    public void test07684() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07684");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 10, (byte) 0, (byte) 100, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 10, 0, 100, -1]");
+    }
+
+    @Test
+    public void test07685() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07685");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 1, (byte) 100, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 1, 100, 100, 10]");
+    }
+
+    @Test
+    public void test07686() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07686");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 1, (byte) 100, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 1, 100, 10, 1]");
+    }
+
+    @Test
+    public void test07687() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07687");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) 1, (byte) -1, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, 1, -1, 0]");
+    }
+
+    @Test
+    public void test07688() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07688");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 0, (byte) 1, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 0, 1, 0, 0]");
+    }
+
+    @Test
+    public void test07689() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07689");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) -1, (byte) 0, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, -1, 0, 0, 0]");
+    }
+
+    @Test
+    public void test07690() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07690");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 1, (byte) -1, (byte) -1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 1, -1, -1, 100]");
+    }
+
+    @Test
+    public void test07691() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07691");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 0, (byte) 10, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 0, 10, 1, 100]");
+    }
+
+    @Test
+    public void test07692() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07692");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 1, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 1, 0, 100, 1]");
+    }
+
+    @Test
+    public void test07693() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07693");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 0, (byte) 100, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 0, 100, 0, 10]");
+    }
+
+    @Test
+    public void test07694() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07694");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 1, (byte) 1, (byte) 1, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 1, 1, 1, 10]");
+    }
+
+    @Test
+    public void test07695() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07695");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 1, (byte) 10, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 1, 10, 0, 1]");
+    }
+
+    @Test
+    public void test07696() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07696");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) -1, (byte) 1, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, -1, 1, 0, 10]");
+    }
+
+    @Test
+    public void test07697() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07697");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 100, (byte) 10, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 100, 10, 10, -1]");
+    }
+
+    @Test
+    public void test07698() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07698");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 100, (byte) 1, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 100, 1, 1, 1]");
+    }
+
+    @Test
+    public void test07699() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07699");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 1, (byte) 0, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 1, 0, -1, 1]");
+    }
+
+    @Test
+    public void test07700() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07700");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 0, (byte) -1, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 0, -1, -1, 10]");
+    }
+
+    @Test
+    public void test07701() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07701");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 1, (byte) -1, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 1, -1, 100, 100]");
+    }
+
+    @Test
+    public void test07702() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07702");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 1, (byte) 100, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 1, 100, 100, 0]");
+    }
+
+    @Test
+    public void test07703() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07703");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 100, (byte) 10, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 100, 10, 0, 0]");
+    }
+
+    @Test
+    public void test07704() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07704");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 1, (byte) 10, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 1, 10, 0, -1]");
+    }
+
+    @Test
+    public void test07705() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07705");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 0, (byte) 100, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 0, 100, 100, -1]");
+    }
+
+    @Test
+    public void test07706() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07706");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) 10, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 0, 10, -1, -1]");
+    }
+
+    @Test
+    public void test07707() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07707");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 100, (byte) 10, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 100, 10, 1, 1]");
+    }
+
+    @Test
+    public void test07708() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07708");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) -1, (byte) 0, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, -1, 0, 10]");
+    }
+
+    @Test
+    public void test07709() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07709");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 0, (byte) -1, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 0, -1, 1, -1]");
+    }
+
+    @Test
+    public void test07710() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07710");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 1, (byte) -1, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 1, -1, 0, -1]");
+    }
+
+    @Test
+    public void test07711() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07711");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 1, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 1, 0, 100, 1]");
+    }
+
+    @Test
+    public void test07712() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07712");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) -1, (byte) 0, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, -1, 0, 1, 0]");
+    }
+
+    @Test
+    public void test07713() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07713");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 10, (byte) -1, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 10, -1, 100, 100]");
+    }
+
+    @Test
+    public void test07714() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07714");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) -1, (byte) -1, (byte) 0, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, -1, -1, 0, 10]");
+    }
+
+    @Test
+    public void test07715() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07715");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) 0, (byte) 0, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, 0, 0, 100, 0]");
+    }
+
+    @Test
+    public void test07716() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07716");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) -1, (byte) 1, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, -1, 1, 1, 100]");
+    }
+
+    @Test
+    public void test07717() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07717");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) 100, (byte) 100, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, 100, 100, 100, 0]");
+    }
+
+    @Test
+    public void test07718() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07718");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 10, (byte) 100, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 10, 100, 10, 1]");
+    }
+
+    @Test
+    public void test07719() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07719");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 10, (byte) 0, (byte) 100, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 10, 0, 100, -1]");
+    }
+
+    @Test
+    public void test07720() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07720");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) 100, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 0, 10, 100, 0]");
+    }
+
+    @Test
+    public void test07721() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07721");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) -1, (byte) -1, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, -1, -1, 1, 10]");
+    }
+
+    @Test
+    public void test07722() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07722");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 0, (byte) 1, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 0, 1, -1, 0]");
+    }
+
+    @Test
+    public void test07723() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07723");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 1, (byte) 1, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 1, 1, 100, 0]");
+    }
+
+    @Test
+    public void test07724() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07724");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 10, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 10, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07725() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07725");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) 10, (byte) 100, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, 10, 100, 1]");
+    }
+
+    @Test
+    public void test07726() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07726");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 0, (byte) 10, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 0, 10, 10, 1]");
+    }
+
+    @Test
+    public void test07727() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07727");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 10, (byte) 1, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 10, 1, 1, 10]");
+    }
+
+    @Test
+    public void test07728() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07728");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 10, (byte) 10, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 10, 10, 0, 1]");
+    }
+
+    @Test
+    public void test07729() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07729");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) -1, (byte) 0, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, -1, 0, 100, 10]");
+    }
+
+    @Test
+    public void test07730() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07730");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 100, (byte) 0, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 100, 0, 0, 10]");
+    }
+
+    @Test
+    public void test07731() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07731");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 100, (byte) 10, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 100, 10, -1, 1]");
+    }
+
+    @Test
+    public void test07732() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07732");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 1, (byte) 100, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 1, 100, 100, 1]");
+    }
+
+    @Test
+    public void test07733() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07733");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) -1, (byte) 100, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, -1, 100, 100, 100]");
+    }
+
+    @Test
+    public void test07734() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07734");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) -1, (byte) 10, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, -1, 10, 10, 1]");
+    }
+
+    @Test
+    public void test07735() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07735");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 0, (byte) 1, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 0, 1, 100, 0]");
+    }
+
+    @Test
+    public void test07736() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07736");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) -1, (byte) -1, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, -1, -1, 10, 1]");
+    }
+
+    @Test
+    public void test07737() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07737");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 10, (byte) 1, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 10, 1, 0, -1]");
+    }
+
+    @Test
+    public void test07738() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07738");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) -1, (byte) 100, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, -1, 100, -1, 10]");
+    }
+
+    @Test
+    public void test07739() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07739");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) 100, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 0, 100, 0, -1]");
+    }
+
+    @Test
+    public void test07740() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07740");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 100, (byte) 1, (byte) 1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 100, 1, 1, 100]");
+    }
+
+    @Test
+    public void test07741() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07741");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 100, (byte) 10, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 100, 10, 1, 10]");
+    }
+
+    @Test
+    public void test07742() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07742");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 10, (byte) 100, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 10, 100, 1, -1]");
+    }
+
+    @Test
+    public void test07743() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07743");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) -1, (byte) 0, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, -1, 0, 1, 1]");
+    }
+
+    @Test
+    public void test07744() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07744");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) -1, (byte) 1, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, -1, 1, 0, 0]");
+    }
+
+    @Test
+    public void test07745() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07745");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 100, (byte) 0, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 100, 0, 1, 100]");
+    }
+
+    @Test
+    public void test07746() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07746");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) -1, (byte) 1, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, -1, 1, 1, 0]");
+    }
+
+    @Test
+    public void test07747() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07747");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 1, (byte) 10, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 1, 10, 1, 100]");
+    }
+
+    @Test
+    public void test07748() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07748");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 100, (byte) 1, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 100, 1, 0, 10]");
+    }
+
+    @Test
+    public void test07749() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07749");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 0, (byte) 10, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 0, 10, 0, 1]");
+    }
+
+    @Test
+    public void test07750() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07750");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 1, (byte) 1, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 1, 1, 0, -1]");
+    }
+
+    @Test
+    public void test07751() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07751");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 0, (byte) 100, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 0, 100, 0, 10]");
+    }
+
+    @Test
+    public void test07752() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07752");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 100, (byte) 10, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 100, 10, 1, 1]");
+    }
+
+    @Test
+    public void test07753() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07753");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 0, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 0, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07754() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07754");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 100, (byte) -1, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 100, -1, 1, -1]");
+    }
+
+    @Test
+    public void test07755() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07755");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 1, (byte) 0, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 1, 0, 100, -1]");
+    }
+
+    @Test
+    public void test07756() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07756");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 1, (byte) 1, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 1, 1, 0, 0]");
+    }
+
+    @Test
+    public void test07757() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07757");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) -1, (byte) 0, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, -1, 0, 10, 1]");
+    }
+
+    @Test
+    public void test07758() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07758");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) 1, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 0, 1, 10, 1]");
+    }
+
+    @Test
+    public void test07759() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07759");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 10, (byte) 0, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 10, 0, 100, -1]");
+    }
+
+    @Test
+    public void test07760() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07760");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 0, (byte) 1, (byte) 100, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 0, 1, 100, 100]");
+    }
+
+    @Test
+    public void test07761() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07761");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 10, (byte) 10, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 10, 10, -1, 10]");
+    }
+
+    @Test
+    public void test07762() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07762");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 100, (byte) 10, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 100, 10, 10, 10]");
+    }
+
+    @Test
+    public void test07763() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07763");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) -1, (byte) 100, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, -1, 100, 100, 0]");
+    }
+
+    @Test
+    public void test07764() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07764");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 100, (byte) 100, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 100, 100, -1, 100]");
+    }
+
+    @Test
+    public void test07765() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07765");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 1, (byte) -1, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 1, -1, -1, 10]");
+    }
+
+    @Test
+    public void test07766() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07766");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 100, (byte) 0, (byte) 10, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 100, 0, 10, 10]");
+    }
+
+    @Test
+    public void test07767() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07767");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 0, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 0, 0, 100, 1]");
+    }
+
+    @Test
+    public void test07768() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07768");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 1, (byte) 1, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 1, 1, 100, 0]");
+    }
+
+    @Test
+    public void test07769() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07769");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) 10, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, 0, 10, 100]");
+    }
+
+    @Test
+    public void test07770() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07770");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 1, (byte) 0, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 1, 0, 0, -1]");
+    }
+
+    @Test
+    public void test07771() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07771");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) -1, (byte) -1, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, -1, -1, 10, -1]");
+    }
+
+    @Test
+    public void test07772() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07772");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 100, (byte) 100, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 100, 100, 1, 100]");
+    }
+
+    @Test
+    public void test07773() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07773");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 100, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 100, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07774() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07774");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 100, (byte) 100, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 100, 100, 100, 1]");
+    }
+
+    @Test
+    public void test07775() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07775");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) 1, (byte) 10, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, 1, 10, 0]");
+    }
+
+    @Test
+    public void test07776() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07776");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) -1, (byte) 10, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, -1, 10, -1, 10]");
+    }
+
+    @Test
+    public void test07777() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07777");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 100, (byte) 1, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 100, 1, -1, -1]");
+    }
+
+    @Test
+    public void test07778() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07778");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 1, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 1, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07779() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07779");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) 100, (byte) 0, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, 100, 0, 1]");
+    }
+
+    @Test
+    public void test07780() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07780");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 100, (byte) 10, (byte) 1, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 100, 10, 1, 0]");
+    }
+
+    @Test
+    public void test07781() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07781");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) -1, (byte) 10, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, -1, 10, 1, 1]");
+    }
+
+    @Test
+    public void test07782() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07782");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 10, (byte) 0, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 10, 0, 10, 10]");
+    }
+
+    @Test
+    public void test07783() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07783");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 0, (byte) 100, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 0, 100, 1, 10]");
+    }
+
+    @Test
+    public void test07784() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07784");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 0, (byte) 1, (byte) 100, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 0, 1, 100, 1]");
+    }
+
+    @Test
+    public void test07785() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07785");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 10, (byte) 0, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 10, 0, 0, 10]");
+    }
+
+    @Test
+    public void test07786() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07786");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 100, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 100, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07787() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07787");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 10, (byte) 1, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 10, 1, 1, -1]");
+    }
+
+    @Test
+    public void test07788() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07788");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 1, (byte) 10, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 1, 10, 10, 10]");
+    }
+
+    @Test
+    public void test07789() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07789");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 0, (byte) 0, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 0, 0, -1, 10]");
+    }
+
+    @Test
+    public void test07790() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07790");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) 10, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 0, 10, -1, 100]");
+    }
+
+    @Test
+    public void test07791() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07791");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 100, (byte) 1, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 100, 1, -1, 1]");
+    }
+
+    @Test
+    public void test07792() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07792");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 10, (byte) 1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 10, 1, 100, 10]");
+    }
+
+    @Test
+    public void test07793() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07793");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) -1, (byte) 0, (byte) 0, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, -1, 0, 0, 100]");
+    }
+
+    @Test
+    public void test07794() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07794");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 1, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 1, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07795() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07795");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 10, (byte) -1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 10, -1, 10, 10]");
+    }
+
+    @Test
+    public void test07796() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07796");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 0, (byte) -1, (byte) -1, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 0, -1, -1, -1]");
+    }
+
+    @Test
+    public void test07797() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07797");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 100, (byte) 1, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 100, 1, 1, 100]");
+    }
+
+    @Test
+    public void test07798() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07798");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 0, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 0, 0, 100, 1]");
+    }
+
+    @Test
+    public void test07799() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07799");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 1, (byte) 10, (byte) 100, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 1, 10, 100, 100]");
+    }
+
+    @Test
+    public void test07800() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07800");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 100, (byte) 100, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 100, 100, 100, 100]");
+    }
+
+    @Test
+    public void test07801() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07801");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 100, (byte) 1, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 100, 1, 0, 10]");
+    }
+
+    @Test
+    public void test07802() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07802");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 100, (byte) -1, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 100, -1, 10, -1]");
+    }
+
+    @Test
+    public void test07803() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07803");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 0, (byte) -1, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 0, -1, 100, 100]");
+    }
+
+    @Test
+    public void test07804() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07804");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 0, (byte) -1, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 0, -1, -1, 1]");
+    }
+
+    @Test
+    public void test07805() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07805");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 10, (byte) 0, (byte) -1, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 10, 0, -1, -1]");
+    }
+
+    @Test
+    public void test07806() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07806");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 0, (byte) 0, (byte) 10, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 0, 0, 10, 10]");
+    }
+
+    @Test
+    public void test07807() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07807");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 100, (byte) 100, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 100, 100, 0, -1]");
+    }
+
+    @Test
+    public void test07808() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07808");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 100, (byte) -1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 100, -1, 10, 10]");
+    }
+
+    @Test
+    public void test07809() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07809");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 100, (byte) 0, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 100, 0, -1, 0]");
+    }
+
+    @Test
+    public void test07810() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07810");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 10, (byte) 10, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 10, 10, -1, -1]");
+    }
+
+    @Test
+    public void test07811() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07811");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 100, (byte) 100, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 100, 100, 1, 100]");
+    }
+
+    @Test
+    public void test07812() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07812");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 10, (byte) 100, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 10, 100, 1, 0]");
+    }
+
+    @Test
+    public void test07813() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07813");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) -1, (byte) -1, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, -1, -1, -1, 10]");
+    }
+
+    @Test
+    public void test07814() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07814");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) -1, (byte) 10, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, -1, 10, 1, 100]");
+    }
+
+    @Test
+    public void test07815() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07815");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) -1, (byte) 100, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, -1, 100, 10, -1]");
+    }
+
+    @Test
+    public void test07816() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07816");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 100, (byte) -1, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 100, -1, -1, -1]");
+    }
+
+    @Test
+    public void test07817() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07817");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 1, (byte) -1, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 1, -1, 10, 1]");
+    }
+
+    @Test
+    public void test07818() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07818");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 0, (byte) 10, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 0, 10, 100, 10]");
+    }
+
+    @Test
+    public void test07819() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07819");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 10, (byte) 1, (byte) 1, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 10, 1, 1, 0]");
+    }
+
+    @Test
+    public void test07820() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07820");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 1, (byte) 1, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 1, 1, -1, 100]");
+    }
+
+    @Test
+    public void test07821() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07821");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 10, (byte) 100, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 10, 100, 10, 1]");
+    }
+
+    @Test
+    public void test07822() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07822");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) -1, (byte) 10, (byte) 10, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, -1, 10, 10, -1]");
+    }
+
+    @Test
+    public void test07823() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07823");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 0, (byte) 0, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 0, 0, 0, 1]");
+    }
+
+    @Test
+    public void test07824() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07824");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 1, (byte) 0, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 1, 0, -1, 1]");
+    }
+
+    @Test
+    public void test07825() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07825");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 1, (byte) 1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 1, 1, 100, 10]");
+    }
+
+    @Test
+    public void test07826() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07826");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) -1, (byte) -1, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, -1, -1, -1, 10]");
+    }
+
+    @Test
+    public void test07827() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07827");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 100, (byte) -1, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 100, -1, -1, 1]");
+    }
+
+    @Test
+    public void test07828() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07828");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 0, (byte) 10, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 0, 10, 1, 1]");
+    }
+
+    @Test
+    public void test07829() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07829");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) -1, (byte) -1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, -1, -1, 10, 10]");
+    }
+
+    @Test
+    public void test07830() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07830");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 100, (byte) 100, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 100, 100, 0, 100]");
+    }
+
+    @Test
+    public void test07831() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07831");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) -1, (byte) 0, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, -1, 0, 0, 100]");
+    }
+
+    @Test
+    public void test07832() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07832");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 0, (byte) -1, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 0, -1, 1, 100]");
+    }
+
+    @Test
+    public void test07833() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07833");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 100, (byte) 100, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 100, 100, 1, -1]");
+    }
+
+    @Test
+    public void test07834() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07834");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 1, (byte) 10, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 1, 10, -1, 0]");
+    }
+
+    @Test
+    public void test07835() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07835");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 10, (byte) 100, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 10, 100, 0, 100]");
+    }
+
+    @Test
+    public void test07836() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07836");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) -1, (byte) 10, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, -1, 10, 1, -1]");
+    }
+
+    @Test
+    public void test07837() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07837");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 0, (byte) 100, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 0, 100, -1, 0]");
+    }
+
+    @Test
+    public void test07838() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07838");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 10, (byte) -1, (byte) 0, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 10, -1, 0, 10]");
+    }
+
+    @Test
+    public void test07839() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07839");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) 10, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, 0, 10, 0]");
+    }
+
+    @Test
+    public void test07840() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07840");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 1, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 1, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07841() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07841");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) -1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, 0, -1, 100]");
+    }
+
+    @Test
+    public void test07842() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07842");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 10, (byte) 100, (byte) 1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 10, 100, 1, 100]");
+    }
+
+    @Test
+    public void test07843() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07843");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 1, (byte) 1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 1, 1, 100, 10]");
+    }
+
+    @Test
+    public void test07844() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07844");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 1, (byte) 0, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 1, 0, 1, -1]");
+    }
+
+    @Test
+    public void test07845() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07845");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 0, (byte) 100, (byte) 100, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 0, 100, 100, 100]");
+    }
+
+    @Test
+    public void test07846() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07846");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 10, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 10, 0, 100, 1]");
+    }
+
+    @Test
+    public void test07847() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07847");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 10, (byte) 1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 10, 1, 10, 10]");
+    }
+
+    @Test
+    public void test07848() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07848");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 0, (byte) -1, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 0, -1, 100, 0]");
+    }
+
+    @Test
+    public void test07849() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07849");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 100, (byte) 10, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 100, 10, 0, 1]");
+    }
+
+    @Test
+    public void test07850() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07850");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) 0, (byte) 1, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, 0, 1, 10, -1]");
+    }
+
+    @Test
+    public void test07851() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07851");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) -1, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 0, -1, 0, 10]");
+    }
+
+    @Test
+    public void test07852() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07852");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 1, (byte) -1, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 1, -1, 0, 1]");
+    }
+
+    @Test
+    public void test07853() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07853");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) -1, (byte) 10, (byte) 0, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, -1, 10, 0, 1]");
+    }
+
+    @Test
+    public void test07854() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07854");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 100, (byte) 0, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 100, 0, 10, 10]");
+    }
+
+    @Test
+    public void test07855() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07855");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 10, (byte) 10, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 10, 10, -1, 100]");
+    }
+
+    @Test
+    public void test07856() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07856");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 0, (byte) 1, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 0, 1, 0, 100]");
+    }
+
+    @Test
+    public void test07857() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07857");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) -1, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, -1, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07858() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07858");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 1, (byte) -1, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 1, -1, -1, -1]");
+    }
+
+    @Test
+    public void test07859() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07859");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 100, (byte) 1, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 100, 1, 100, 100]");
+    }
+
+    @Test
+    public void test07860() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07860");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 1, (byte) 0, (byte) 0, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 1, 0, 0, 10]");
+    }
+
+    @Test
+    public void test07861() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07861");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 1, (byte) -1, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 1, -1, 0, -1]");
+    }
+
+    @Test
+    public void test07862() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07862");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) 10, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 10, 10, 0, 0]");
+    }
+
+    @Test
+    public void test07863() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07863");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 100, (byte) 1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 100, 1, 10, 10]");
+    }
+
+    @Test
+    public void test07864() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07864");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 0, (byte) 0, (byte) 10, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 0, 0, 10, 1]");
+    }
+
+    @Test
+    public void test07865() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07865");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) -1, (byte) -1, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, -1, -1, 1, 10]");
+    }
+
+    @Test
+    public void test07866() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07866");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) 0, (byte) 10, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, 0, 10, 1, 1]");
+    }
+
+    @Test
+    public void test07867() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07867");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 0, (byte) 1, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 0, 1, 10, 0]");
+    }
+
+    @Test
+    public void test07868() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07868");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 1, (byte) 1, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 1, 1, -1, -1]");
+    }
+
+    @Test
+    public void test07869() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07869");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 100, (byte) 1, (byte) 0, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 100, 1, 0, -1]");
+    }
+
+    @Test
+    public void test07870() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07870");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 10, (byte) -1, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 10, -1, 1, 1]");
+    }
+
+    @Test
+    public void test07871() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07871");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) -1, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 0, -1, 100, 100]");
+    }
+
+    @Test
+    public void test07872() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07872");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 100, (byte) -1, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 100, -1, 100, 1]");
+    }
+
+    @Test
+    public void test07873() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07873");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 1, (byte) 100, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 1, 100, -1, 1]");
+    }
+
+    @Test
+    public void test07874() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07874");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 1, (byte) -1, (byte) 10, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 1, -1, 10, 100]");
+    }
+
+    @Test
+    public void test07875() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07875");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 100, (byte) 10, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 100, 10, 0, 0]");
+    }
+
+    @Test
+    public void test07876() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07876");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) 0, (byte) -1, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, 0, -1, 1, 0]");
+    }
+
+    @Test
+    public void test07877() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07877");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 1, (byte) 0, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 1, 0, 100, 10]");
+    }
+
+    @Test
+    public void test07878() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07878");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) -1, (byte) 10, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, -1, 10, 0, 1]");
+    }
+
+    @Test
+    public void test07879() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07879");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 100, (byte) 100, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 100, 100, 100, 10]");
+    }
+
+    @Test
+    public void test07880() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07880");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 1, (byte) -1, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 1, -1, 10, 1]");
+    }
+
+    @Test
+    public void test07881() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07881");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) 100, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 10, 100, 100, -1]");
+    }
+
+    @Test
+    public void test07882() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07882");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 10, (byte) 100, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 10, 100, 1, 10]");
+    }
+
+    @Test
+    public void test07883() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07883");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) -1, (byte) 1, (byte) 0, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, -1, 1, 0, 100]");
+    }
+
+    @Test
+    public void test07884() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07884");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 0, (byte) 0, (byte) 100, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 0, 0, 100, 0]");
+    }
+
+    @Test
+    public void test07885() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07885");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 100, (byte) 0, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 100, 0, 1, 0]");
+    }
+
+    @Test
+    public void test07886() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07886");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 1, (byte) 0, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 1, 0, 100, 10]");
+    }
+
+    @Test
+    public void test07887() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07887");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 10, (byte) 100, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 10, 100, 100, 0]");
+    }
+
+    @Test
+    public void test07888() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07888");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 0, (byte) 10, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 0, 10, -1, 100]");
+    }
+
+    @Test
+    public void test07889() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07889");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 100, (byte) 10, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 100, 10, -1, 100]");
+    }
+
+    @Test
+    public void test07890() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07890");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) -1, (byte) -1, (byte) 0, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, -1, -1, 0, -1]");
+    }
+
+    @Test
+    public void test07891() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07891");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 1, (byte) 0, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 1, 0, -1, 10]");
+    }
+
+    @Test
+    public void test07892() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07892");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 1, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 1, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07893() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07893");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 0, (byte) -1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 0, -1, 10, 10]");
+    }
+
+    @Test
+    public void test07894() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07894");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) 100, (byte) 10, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, 100, 10, 10, 0]");
+    }
+
+    @Test
+    public void test07895() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07895");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) -1, (byte) 10, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, -1, 10, 0, 100]");
+    }
+
+    @Test
+    public void test07896() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07896");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) -1, (byte) 1, (byte) 1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, -1, 1, 1, 100]");
+    }
+
+    @Test
+    public void test07897() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07897");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) -1, (byte) 100, (byte) 1, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, -1, 100, 1, 10]");
+    }
+
+    @Test
+    public void test07898() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07898");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) -1, (byte) -1, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, -1, -1, 100, 1]");
+    }
+
+    @Test
+    public void test07899() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07899");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 0, (byte) 1, (byte) -1, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 0, 1, -1, -1]");
+    }
+
+    @Test
+    public void test07900() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07900");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 0, (byte) 0, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 0, 0, -1, 10]");
+    }
+
+    @Test
+    public void test07901() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07901");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 1, (byte) 100, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 1, 100, 100, 0]");
+    }
+
+    @Test
+    public void test07902() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07902");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 10, (byte) -1, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 10, -1, 1, 10]");
+    }
+
+    @Test
+    public void test07903() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07903");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 0, (byte) 100, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 0, 100, 1, 0]");
+    }
+
+    @Test
+    public void test07904() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07904");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) -1, (byte) 0, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, -1, 0, 10, -1]");
+    }
+
+    @Test
+    public void test07905() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07905");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) -1, (byte) 100, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, -1, 100, 1, 10]");
+    }
+
+    @Test
+    public void test07906() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07906");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) -1, (byte) 100, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, -1, 100, 0, 0]");
+    }
+
+    @Test
+    public void test07907() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07907");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) -1, (byte) 10, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, -1, 10, 1, -1]");
+    }
+
+    @Test
+    public void test07908() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07908");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) 10, (byte) 0, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, 10, 0, 1, 100]");
+    }
+
+    @Test
+    public void test07909() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07909");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) -1, (byte) 1, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, -1, 1, 1, -1]");
+    }
+
+    @Test
+    public void test07910() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07910");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 0, (byte) 0, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 0, 0, -1, 0]");
+    }
+
+    @Test
+    public void test07911() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07911");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) -1, (byte) -1, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, -1, -1, -1, 100]");
+    }
+
+    @Test
+    public void test07912() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07912");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) -1, (byte) -1, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, -1, -1, 100, -1]");
+    }
+
+    @Test
+    public void test07913() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07913");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 1, (byte) 10, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 1, 10, 1, 1]");
+    }
+
+    @Test
+    public void test07914() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07914");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) -1, (byte) 0, (byte) -1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, -1, 0, -1, 1]");
+    }
+
+    @Test
+    public void test07915() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07915");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) 1, (byte) 0, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, 1, 0, 0, 100]");
+    }
+
+    @Test
+    public void test07916() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07916");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 1, (byte) 1, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 1, 1, 0, -1]");
+    }
+
+    @Test
+    public void test07917() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07917");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) -1, (byte) -1, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, -1, -1, 0, 10]");
+    }
+
+    @Test
+    public void test07918() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07918");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 1, (byte) 1, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 1, 1, 1, 10]");
+    }
+
+    @Test
+    public void test07919() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07919");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 10, (byte) 10, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 10, 10, 1, 10]");
+    }
+
+    @Test
+    public void test07920() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07920");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 1, (byte) 100, (byte) 0, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 1, 100, 0, 100, 0]");
+    }
+
+    @Test
+    public void test07921() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07921");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 0, (byte) -1, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 0, -1, 0, 1]");
+    }
+
+    @Test
+    public void test07922() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07922");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 100, (byte) -1, (byte) 100, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 100, -1, 100, 0, -1]");
+    }
+
+    @Test
+    public void test07923() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07923");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 10, (byte) 1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 10, 1, 10, 10]");
+    }
+
+    @Test
+    public void test07924() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07924");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) -1, (byte) 10, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, -1, 10, 10, 10]");
+    }
+
+    @Test
+    public void test07925() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07925");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) 100, (byte) 1, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, 100, 1, 10, 100]");
+    }
+
+    @Test
+    public void test07926() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07926");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) -1, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, -1, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07927() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07927");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) -1, (byte) 0, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, -1, 0, 1, -1]");
+    }
+
+    @Test
+    public void test07928() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07928");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 0, (byte) 10, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 0, 10, 10, -1]");
+    }
+
+    @Test
+    public void test07929() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07929");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 1, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 1, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07930() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07930");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 10, (byte) 0, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 10, 0, 100, -1]");
+    }
+
+    @Test
+    public void test07931() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07931");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) 10, (byte) -1, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, 10, -1, 100, -1]");
+    }
+
+    @Test
+    public void test07932() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07932");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07933() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07933");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 1, (byte) 10, (byte) 1, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 1, 10, 1, 0]");
+    }
+
+    @Test
+    public void test07934() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07934");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) -1, (byte) 100, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, -1, 100, 10, 10]");
+    }
+
+    @Test
+    public void test07935() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07935");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) 10, (byte) 100, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, 10, 100, 10]");
+    }
+
+    @Test
+    public void test07936() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07936");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 1, (byte) -1, (byte) 1, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 1, -1, 1, 10]");
+    }
+
+    @Test
+    public void test07937() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07937");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) -1, (byte) 0, (byte) 10, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, -1, 0, 10, 0]");
+    }
+
+    @Test
+    public void test07938() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07938");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 100, (byte) 0, (byte) 10, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 100, 0, 10, -1]");
+    }
+
+    @Test
+    public void test07939() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07939");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 1, (byte) 10, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 1, 10, 1, 100]");
+    }
+
+    @Test
+    public void test07940() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07940");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 100, (byte) 1, (byte) 10, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 100, 1, 10, 1, 100]");
+    }
+
+    @Test
+    public void test07941() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07941");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 0, (byte) 0, (byte) 1, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 0, 0, 1, 10]");
+    }
+
+    @Test
+    public void test07942() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07942");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 1, (byte) -1, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 1, -1, 100, 100]");
+    }
+
+    @Test
+    public void test07943() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07943");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 100, (byte) -1, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 100, -1, -1, 10]");
+    }
+
+    @Test
+    public void test07944() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07944");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 100, (byte) 0, (byte) 10, (byte) 1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 100, 0, 10, 1, 10]");
+    }
+
+    @Test
+    public void test07945() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07945");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 1, (byte) 0, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 1, 0, 100, 0]");
+    }
+
+    @Test
+    public void test07946() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07946");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 100, (byte) 100, (byte) -1, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 100, 100, -1, 0]");
+    }
+
+    @Test
+    public void test07947() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07947");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 1, (byte) 1, (byte) 1, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 1, 1, 1, 0]");
+    }
+
+    @Test
+    public void test07948() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07948");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) -1, (byte) 1, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, -1, 1, -1, 10]");
+    }
+
+    @Test
+    public void test07949() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07949");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) -1, (byte) 0, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, -1, 0, 1, 1]");
+    }
+
+    @Test
+    public void test07950() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07950");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 1, (byte) 100, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 1, 100, 10, 100]");
+    }
+
+    @Test
+    public void test07951() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07951");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 1, (byte) 0, (byte) 10, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 1, 0, 10, 0]");
+    }
+
+    @Test
+    public void test07952() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07952");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 1, (byte) 100, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 1, 100, 0, 100]");
+    }
+
+    @Test
+    public void test07953() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07953");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) 10, (byte) 10, (byte) 10, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, 10, 10, 10, 10]");
+    }
+
+    @Test
+    public void test07954() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07954");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) -1, (byte) -1, (byte) 0, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, -1, -1, 0, 10, 100]");
+    }
+
+    @Test
+    public void test07955() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07955");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 0, (byte) 1, (byte) 0, (byte) -1, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 0, 1, 0, -1, 10]");
+    }
+
+    @Test
+    public void test07956() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07956");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 100, (byte) 0, (byte) -1, (byte) -1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 100, 0, -1, -1, 0]");
+    }
+
+    @Test
+    public void test07957() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07957");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) -1, (byte) 100, (byte) 100, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, -1, 100, 100, -1]");
+    }
+
+    @Test
+    public void test07958() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07958");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 10, (byte) 10, (byte) 1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 10, 10, 1, 100]");
+    }
+
+    @Test
+    public void test07959() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07959");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 100, (byte) 100, (byte) 10, (byte) 1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 100, 100, 10, 1, -1]");
+    }
+
+    @Test
+    public void test07960() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07960");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 1, (byte) -1, (byte) 0, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 1, -1, 0, -1]");
+    }
+
+    @Test
+    public void test07961() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07961");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 0, (byte) -1, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 0, -1, 10, 1]");
+    }
+
+    @Test
+    public void test07962() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07962");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 10, (byte) -1, (byte) 100, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 10, -1, 100, 10]");
+    }
+
+    @Test
+    public void test07963() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07963");
+        byte[] byteArray5 = new byte[] { (byte) 0, (byte) 10, (byte) 0, (byte) 0, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[0, 10, 0, 0, 10]");
+    }
+
+    @Test
+    public void test07964() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07964");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 10, (byte) -1, (byte) 10, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 10, -1, 10, 100, 1]");
+    }
+
+    @Test
+    public void test07965() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07965");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) -1, (byte) 1, (byte) 0, (byte) 1, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, -1, 1, 0, 1, 0]");
+    }
+
+    @Test
+    public void test07966() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07966");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) 100, (byte) 0, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, 100, 0, 10, 1]");
+    }
+
+    @Test
+    public void test07967() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07967");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 1, (byte) 0, (byte) 100, (byte) 0, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 1, 0, 100, 0, 0]");
+    }
+
+    @Test
+    public void test07968() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07968");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 100, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 100, 0, 100, 1]");
+    }
+
+    @Test
+    public void test07969() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07969");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 1, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 1, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07970() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07970");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) -1, (byte) 0, (byte) 1, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, -1, 0, 1, 1]");
+    }
+
+    @Test
+    public void test07971() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07971");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 100, (byte) 100, (byte) 0, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 100, 100, 0, 10]");
+    }
+
+    @Test
+    public void test07972() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07972");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 10, (byte) 0, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 10, 0, 10, 100]");
+    }
+
+    @Test
+    public void test07973() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07973");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) 10, (byte) 0, (byte) 1, (byte) 100 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, 10, 0, 1, 100]");
+    }
+
+    @Test
+    public void test07974() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07974");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 10, (byte) 1, (byte) 10, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 10, 1, 10, 1]");
+    }
+
+    @Test
+    public void test07975() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07975");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 1, (byte) -1, (byte) -1, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 1, -1, -1, 10, 10]");
+    }
+
+    @Test
+    public void test07976() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07976");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) -1, (byte) 10, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, -1, 10, 100, 0]");
+    }
+
+    @Test
+    public void test07977() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07977");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 1, (byte) -1, (byte) 10, (byte) 0 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 1, -1, 10, 0]");
+    }
+
+    @Test
+    public void test07978() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07978");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 10, (byte) 100, (byte) 1, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 10, 100, 1, 0, -1]");
+    }
+
+    @Test
+    public void test07979() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07979");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) 1, (byte) -1, (byte) 100, (byte) 10, (byte) 10 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, 1, -1, 100, 10, 10]");
+    }
+
+    @Test
+    public void test07980() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07980");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) -1, (byte) 10, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, -1, 10, 0, 100, 100]");
+    }
+
+    @Test
+    public void test07981() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07981");
+        byte[] byteArray5 = new byte[] { (byte) 1, (byte) 100, (byte) 10, (byte) 0, (byte) -1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[1, 100, 10, 0, -1]");
+    }
+
+    @Test
+    public void test07982() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07982");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 10, (byte) 0, (byte) 1, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 10, 0, 1, 0, 100]");
+    }
+
+    @Test
+    public void test07983() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07983");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) 1, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, 1, 0, 100, 1]");
+    }
+
+    @Test
+    public void test07984() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07984");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 1, (byte) -1, (byte) 100, (byte) 100, (byte) 0 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 1, -1, 100, 100, 0]");
+    }
+
+    @Test
+    public void test07985() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07985");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) 1, (byte) -1, (byte) -1, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, 1, -1, -1, -1]");
+    }
+
+    @Test
+    public void test07986() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07986");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) -1, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 10, -1, -1, 1]");
+    }
+
+    @Test
+    public void test07987() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07987");
+        byte[] byteArray5 = new byte[] { (byte) -1, (byte) -1, (byte) 0, (byte) 10, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[-1, -1, 0, 10, 10]");
+    }
+
+    @Test
+    public void test07988() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07988");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 1, (byte) 100, (byte) 1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 1, 100, 1, 1]");
+    }
+
+    @Test
+    public void test07989() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07989");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 1, (byte) -1, (byte) 0, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 1, -1, 0, 1]");
+    }
+
+    @Test
+    public void test07990() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07990");
+        byte[] byteArray6 = new byte[] { (byte) -1, (byte) 0, (byte) 10, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[-1, 0, 10, 0, 100, 100]");
+    }
+
+    @Test
+    public void test07991() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07991");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 10, (byte) -1, (byte) 10, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 10, -1, 10, 100, 1]");
+    }
+
+    @Test
+    public void test07992() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07992");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 10, (byte) 10, (byte) 10, (byte) 100, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 10, 10, 10, 100, 1]");
+    }
+
+    @Test
+    public void test07993() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07993");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) -1, (byte) -1, (byte) -1, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, -1, -1, -1, 100]");
+    }
+
+    @Test
+    public void test07994() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07994");
+        byte[] byteArray5 = new byte[] { (byte) 100, (byte) 10, (byte) 0, (byte) 10, (byte) 10 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[100, 10, 0, 10, 10]");
+    }
+
+    @Test
+    public void test07995() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07995");
+        byte[] byteArray6 = new byte[] { (byte) 100, (byte) -1, (byte) -1, (byte) 0, (byte) 0, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[100, -1, -1, 0, 0, 100]");
+    }
+
+    @Test
+    public void test07996() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07996");
+        byte[] byteArray6 = new byte[] { (byte) 0, (byte) 0, (byte) 10, (byte) 100, (byte) -1, (byte) 1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[0, 0, 10, 100, -1, 1]");
+    }
+
+    @Test
+    public void test07997() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07997");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) 0, (byte) 100, (byte) 100, (byte) 10, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, 0, 100, 100, 10, 100]");
+    }
+
+    @Test
+    public void test07998() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07998");
+        byte[] byteArray6 = new byte[] { (byte) 1, (byte) 0, (byte) 100, (byte) 10, (byte) 0, (byte) -1 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[1, 0, 100, 10, 0, -1]");
+    }
+
+    @Test
+    public void test07999() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test07999");
+        byte[] byteArray6 = new byte[] { (byte) 10, (byte) -1, (byte) 10, (byte) 0, (byte) 100, (byte) 100 };
+        java.util.Date date7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID8 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray6, date7);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray6);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray6), "[10, -1, 10, 0, 100, 100]");
+    }
+
+    @Test
+    public void test08000() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest15.test08000");
+        byte[] byteArray5 = new byte[] { (byte) 10, (byte) -1, (byte) 0, (byte) 100, (byte) 1 };
+        java.util.Date date6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.elasticsearch.river.mongodb.Timestamp.GTID gTID7 = new org.elasticsearch.river.mongodb.Timestamp.GTID(byteArray5, date6);
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: gtid must encode two unsigned longs (128 total bits in length)");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(byteArray5);
+        org.junit.Assert.assertEquals(java.util.Arrays.toString(byteArray5), "[10, -1, 0, 100, 1]");
+    }
+}
+

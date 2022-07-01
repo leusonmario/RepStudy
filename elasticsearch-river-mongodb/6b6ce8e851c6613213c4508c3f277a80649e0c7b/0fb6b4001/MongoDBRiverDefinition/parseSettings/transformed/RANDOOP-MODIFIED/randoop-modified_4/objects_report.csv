@@ -1,0 +1,21 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,20487,49,1.6610183233338738,0.003972758229284903
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,42829,4052,3.4724339224906764,0.32852278255229445
+class org.elasticsearch.common.logging.jdk.JdkESLogger,219,1,0.017755796983946814,8.107669855683477E-5
+class [Lcom.mongodb.ServerAddress;,1346,1,0.1091292362574996,8.107669855683477E-5
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,8.107669855683477E-5,8.107669855683477E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,19065,635,1.5457272579860548,0.05148370358359008
+class java.util.LinkedHashSet,2167,8,0.17569320577266093,6.486135884546781E-4
+class org.elasticsearch.common.unit.ByteSizeValue,322,1,0.026106696935300794,8.107669855683477E-5
+class com.mongodb.BasicDBObject,3162,3,0.2563645208367115,2.432300956705043E-4
+class java.lang.Boolean,18101,2,1.4675693205772662,1.6215339711366953E-4
+class java.lang.Integer,5293,11,0.4291389654613264,8.918436841251824E-4
+class org.elasticsearch.river.RiverSettings,3240,2,0.2626885033241446,1.6215339711366953E-4
+class [Ljava.lang.String;,2033,7,0.16482892816604508,5.675368898978433E-4
+class org.elasticsearch.script.ScriptService$CacheKey,667,667,0.05407815793740879,0.05407815793740879
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,1399,12,0.11342630128101183,9.729203826820172E-4
+class java.util.ArrayList,4099,3,0.3323333873844657,2.432300956705043E-4
+class java.lang.Class,67,6,0.005432138803307929,4.864601913410086E-4
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,584,1,0.0473487919571915,8.107669855683477E-5
+class sun.security.ssl.SSLSocketFactoryImpl,1,1,8.107669855683477E-5,8.107669855683477E-5
+class org.elasticsearch.common.unit.TimeValue,283,1,0.022944705691584237,8.107669855683477E-5

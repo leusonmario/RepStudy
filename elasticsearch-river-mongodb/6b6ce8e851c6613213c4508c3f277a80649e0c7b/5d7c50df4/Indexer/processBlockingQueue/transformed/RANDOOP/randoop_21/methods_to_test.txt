@@ -1,0 +1,1 @@
+org.elasticsearch.river.mongodb.Indexer.processBlockingQueue(org.elasticsearch.river.mongodb.MongoDBRiver$QueueEntry)

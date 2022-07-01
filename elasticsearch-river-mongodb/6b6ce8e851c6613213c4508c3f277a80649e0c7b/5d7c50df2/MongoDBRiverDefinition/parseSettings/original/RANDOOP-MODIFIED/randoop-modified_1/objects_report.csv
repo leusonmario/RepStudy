@@ -1,0 +1,22 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,7493,62,0.7055555555555556,0.005838041431261771
+class com.mongodb.BasicDBObject,3623,1,0.3411487758945386,9.416195856873823E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,100895,3730,9.500470809792844,0.3512241054613936
+class org.elasticsearch.script.ScriptService$ScriptType,3,3,2.824858757062147E-4,2.824858757062147E-4
+class org.elasticsearch.common.ParseField,10,10,9.416195856873823E-4,9.416195856873823E-4
+class java.lang.Double,338,1,0.031826741996233525,9.416195856873823E-5
+class java.util.ArrayList,4146,3,0.3903954802259887,2.824858757062147E-4
+class org.elasticsearch.common.unit.ByteSizeValue,1,1,9.416195856873823E-5,9.416195856873823E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,8722,821,0.8212806026365348,0.07730696798493408
+class java.lang.Boolean,21391,2,2.0142184557438796,1.8832391713747646E-4
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,3610,15,0.339924670433145,0.0014124293785310734
+class [Lcom.mongodb.ServerAddress;,615,1,0.05790960451977401,9.416195856873823E-5
+class java.lang.Integer,6102,10,0.5745762711864407,9.416195856873823E-4
+class org.elasticsearch.script.ScriptService$CacheKey,914,914,0.08606403013182674,0.08606403013182674
+class org.elasticsearch.river.RiverSettings,4220,2,0.3973634651600753,1.8832391713747646E-4
+class org.elasticsearch.common.unit.TimeValue,2,1,1.8832391713747646E-4,9.416195856873823E-5
+class java.lang.Class,240,8,0.022598870056497175,7.532956685499058E-4
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,760,1,0.07156308851224105,9.416195856873823E-5
+class java.util.LinkedHashSet,2648,11,0.24934086629001884,0.0010357815442561206
+class [Ljava.lang.String;,2639,10,0.24849340866290018,9.416195856873823E-4
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,9.416195856873823E-5,9.416195856873823E-5

@@ -1,0 +1,22 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,11332,60,1.0314007463365795,0.005460999362883408
+class java.lang.Short,1,1,9.101665604805679E-5,9.101665604805679E-5
+class java.lang.Integer,3326,8,0.3027213980158369,7.281332483844543E-4
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,5039,13,0.45863292982615816,0.0011832165286247383
+class java.lang.Character,6,1,5.460999362883408E-4,9.101665604805679E-5
+class com.mongodb.BasicDBObject,2694,1,0.245198871393465,9.101665604805679E-5
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,9.101665604805679E-5,9.101665604805679E-5
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,1008,1,0.09174478929644125,9.101665604805679E-5
+class java.util.LinkedHashSet,1617,10,0.14717393282970784,9.101665604805679E-4
+class java.lang.Object,1,1,9.101665604805679E-5,9.101665604805679E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,133547,4103,12.155001365249841,0.373441339765177
+class org.elasticsearch.common.unit.TimeValue,10,1,9.101665604805679E-4,9.101665604805679E-5
+class [Lcom.mongodb.ServerAddress;,631,1,0.05743150996632384,9.101665604805679E-5
+class org.elasticsearch.script.ScriptService$CacheKey,225,225,0.020478747610812777,0.020478747610812777
+class java.lang.Boolean,16534,2,1.504869391098571,1.8203331209611358E-4
+class java.lang.Class,304,9,0.027669063438609264,8.191499044325111E-4
+class org.elasticsearch.common.unit.ByteSizeValue,1,1,9.101665604805679E-5,9.101665604805679E-5
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,8463,914,0.7702739601347046,0.08318922362792391
+class org.elasticsearch.river.RiverSettings,1605,2,0.14608173295713114,1.8203331209611358E-4
+class java.util.ArrayList,2441,3,0.22217165741330663,2.730499681441704E-4
+class [Ljava.lang.String;,1608,9,0.14635478292527532,8.191499044325111E-4
