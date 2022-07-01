@@ -1,0 +1,14055 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest21 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test10501() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10501");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper17;
+        org.apache.lucene.search.Filter filter19 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference20 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext21 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean22 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean23 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertNull(filter19);
+        org.junit.Assert.assertNull(bytesReference20);
+        org.junit.Assert.assertNull(queryParseContext21);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
+    }
+
+    @Test
+    public void test10502() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10502");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "object";
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.Query query9 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query9;
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10503() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10503");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query10;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper12;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.filterFound = true;
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10504() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10504");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper12;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference18 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference18);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(queryParseContext17);
+    }
+
+    @Test
+    public void test10505() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10505");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter10;
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter13);
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter15);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query12);
+        org.junit.Assert.assertNull(objectMapper17);
+    }
+
+    @Test
+    public void test10506() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10506");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Filter filter17 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter17;
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference19;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter21 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper22 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext23 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bytesReference12);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter21);
+        org.junit.Assert.assertNull(objectMapper22);
+        org.junit.Assert.assertNull(queryParseContext23);
+    }
+
+    @Test
+    public void test10507() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10507");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Filter filter8 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(filter8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test10508() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10508");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(bytesReference16);
+    }
+
+    @Test
+    public void test10509() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10509");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter15);
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query17;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10510() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10510");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Filter filter17 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter17);
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Filter filter20 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter22 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter22;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter24 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter25 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(filter20);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + true + "'", boolean21 == true);
+        org.junit.Assert.assertNull(bitDocIdSetFilter24);
+        org.junit.Assert.assertNull(bitDocIdSetFilter25);
+    }
+
+    @Test
+    public void test10511() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10511");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference22 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(bytesReference22);
+    }
+
+    @Test
+    public void test10512() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10512");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter8);
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(query11);
+    }
+
+    @Test
+    public void test10513() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10513");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext13 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference14);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(queryParseContext13);
+    }
+
+    @Test
+    public void test10514() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10514");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter10;
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        java.lang.String str16 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        java.lang.Class<?> wildcardClass21 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNotNull(wildcardClass21);
+    }
+
+    @Test
+    public void test10515() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10515");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference17);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter19);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext21 = nestedInnerQueryParseSupport1.getparseContext();
+        boolean boolean22 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(queryParseContext14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(queryParseContext21);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
+    }
+
+    @Test
+    public void test10516() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10516");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.query();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(objectMapper8);
+    }
+
+    @Test
+    public void test10517() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10517");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound();
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10518() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10518");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "object";
+        org.elasticsearch.index.query.QueryParseContext queryParseContext7 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(queryParseContext7);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference11);
+    }
+
+    @Test
+    public void test10519() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10519");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter19 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter19);
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+    }
+
+    @Test
+    public void test10520() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10520");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bytesReference12);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+    }
+
+    @Test
+    public void test10521() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10521");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter10;
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference15;
+        boolean boolean17 = nestedInnerQueryParseSupport1.filterParsed;
+        java.lang.String str18 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Filter filter19 = nestedInnerQueryParseSupport1.childFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertNull(str18);
+        org.junit.Assert.assertNull(filter19);
+    }
+
+    @Test
+    public void test10522() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10522");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper7;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+    }
+
+    @Test
+    public void test10523() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10523");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter6;
+        org.apache.lucene.search.Filter filter8 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter8);
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        java.lang.String str11 = nestedInnerQueryParseSupport1.path;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+    }
+
+    @Test
+    public void test10524() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10524");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.path = "nested";
+        java.lang.String str17 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter18 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.path = "";
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "nested" + "'", str17, "nested");
+        org.junit.Assert.assertNull(filter18);
+    }
+
+    @Test
+    public void test10525() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10525");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean19 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterFound;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + true + "'", boolean20 == true);
+    }
+
+    @Test
+    public void test10526() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10526");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter8);
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query15;
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertNull(queryParseContext18);
+    }
+
+    @Test
+    public void test10527() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10527");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10528() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10528");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        boolean boolean8 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+    }
+
+    @Test
+    public void test10529() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10529");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter8);
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter15;
+        org.apache.lucene.search.Filter filter17 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference21 = nestedInnerQueryParseSupport1.source;
+        org.apache.lucene.search.Filter filter22 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter22;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertNull(filter17);
+        org.junit.Assert.assertNull(queryParseContext18);
+        org.junit.Assert.assertNull(bytesReference21);
+    }
+
+    @Test
+    public void test10530() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10530");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+    }
+
+    @Test
+    public void test10531() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10531");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query17;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.common.bytes.BytesReference bytesReference21 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference21;
+        boolean boolean23 = nestedInnerQueryParseSupport1.getqueryFound();
+        boolean boolean24 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter25 = nestedInnerQueryParseSupport1.parentFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query26 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertNull(objectMapper19);
+        org.junit.Assert.assertNull(objectMapper20);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
+        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter25);
+    }
+
+    @Test
+    public void test10532() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10532");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference17);
+        nestedInnerQueryParseSupport1.queryFound = false;
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryFound;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+    }
+
+    @Test
+    public void test10533() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10533");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper14;
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+    }
+
+    @Test
+    public void test10534() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10534");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Query query6 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query6;
+        org.apache.lucene.search.Query query8 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query8;
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference11);
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(query10);
+    }
+
+    @Test
+    public void test10535() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10535");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query9 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query9;
+        org.apache.lucene.search.Query query11 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query11;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper16;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter19;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+    }
+
+    @Test
+    public void test10536() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10536");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query17;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean20 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.Filter filter24 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter24);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper26 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper26;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+    }
+
+    @Test
+    public void test10537() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10537");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean13 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper17;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query19 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
+    }
+
+    @Test
+    public void test10538() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10538");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean10 = nestedInnerQueryParseSupport1.getqueryFound();
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10539() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10539");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper10;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean14 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter15;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+    }
+
+    @Test
+    public void test10540() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10540");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter13;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(queryParseContext10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(objectMapper12);
+    }
+
+    @Test
+    public void test10541() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10541");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query4;
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Filter filter9 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter9);
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference11);
+        nestedInnerQueryParseSupport1.filterFound = true;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Filter filter17 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(filter17);
+    }
+
+    @Test
+    public void test10542() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10542");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean19 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean21 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        boolean boolean24 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean25 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean26 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(objectMapper20);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + true + "'", boolean24 == true);
+        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + true + "'", boolean25 == true);
+        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + true + "'", boolean26 == true);
+    }
+
+    @Test
+    public void test10543() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10543");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Filter filter17 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean20 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(query15);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertNull(filter17);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10544() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10544");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean5 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = nestedInnerQueryParseSupport1.getsource();
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(bytesReference8);
+    }
+
+    @Test
+    public void test10545() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10545");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query7 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query7;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+    }
+
+    @Test
+    public void test10546() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10546");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInRoot();
+        boolean boolean6 = nested2.isNested();
+        boolean boolean7 = nested2.isNested();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        boolean boolean9 = nested2.isNested();
+        boolean boolean10 = nested2.isNested();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+    }
+
+    @Test
+    public void test10547() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10547");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter13);
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean17 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10548() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10548");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Query query6 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query6;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext13 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(bytesReference8);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(queryParseContext13);
+    }
+
+    @Test
+    public void test10549() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10549");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter7 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean14 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper15;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(objectMapper6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper17);
+    }
+
+    @Test
+    public void test10550() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10550");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper9;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+    }
+
+    @Test
+    public void test10551() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10551");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertNull(objectMapper14);
+    }
+
+    @Test
+    public void test10552() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10552");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        boolean boolean6 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        nestedInnerQueryParseSupport1.path = "object";
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+    }
+
+    @Test
+    public void test10553() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10553");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference16);
+        org.elasticsearch.common.bytes.BytesReference bytesReference18 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference18);
+        org.apache.lucene.search.Filter filter20 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext21 = nestedInnerQueryParseSupport1.getparseContext();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertNull(filter20);
+        org.junit.Assert.assertNull(queryParseContext21);
+    }
+
+    @Test
+    public void test10554() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10554");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query17;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean20 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.Filter filter24 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter24);
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper28 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertNull(objectMapper28);
+    }
+
+    @Test
+    public void test10555() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10555");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper9;
+        org.apache.lucene.search.Query query11 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query11;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(objectMapper17);
+    }
+
+    @Test
+    public void test10556() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10556");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter14 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.apache.lucene.search.Filter filter19 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Filter filter20 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter20);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter22 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter22;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter24 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference25 = nestedInnerQueryParseSupport1.source;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter26 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(filter14);
+        org.junit.Assert.assertNull(filter19);
+        org.junit.Assert.assertNull(bitDocIdSetFilter24);
+        org.junit.Assert.assertNull(bytesReference25);
+        org.junit.Assert.assertNull(bitDocIdSetFilter26);
+    }
+
+    @Test
+    public void test10557() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10557");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query17;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.path = "object";
+        boolean boolean22 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper23 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean24 = nestedInnerQueryParseSupport1.filterParsed;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
+        org.junit.Assert.assertNull(objectMapper23);
+        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + true + "'", boolean24 == true);
+    }
+
+    @Test
+    public void test10558() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10558");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext8 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(queryParseContext8);
+        org.junit.Assert.assertNull(bitDocIdSetFilter9);
+    }
+
+    @Test
+    public void test10559() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10559");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean5 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean9 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper13);
+    }
+
+    @Test
+    public void test10560() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10560");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Filter filter18 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter18);
+        org.apache.lucene.search.Filter filter20 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter20;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10561() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10561");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper12;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query16;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+    }
+
+    @Test
+    public void test10562() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10562");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query15;
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean20 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper21 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper21;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10563() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10563");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        java.lang.String str12 = nestedInnerQueryParseSupport1.path;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.source;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference16;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(bytesReference15);
+    }
+
+    @Test
+    public void test10564() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10564");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter16;
+        org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext19 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertNull(query18);
+        org.junit.Assert.assertNull(queryParseContext19);
+    }
+
+    @Test
+    public void test10565() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10565");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(query12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertNull(objectMapper16);
+    }
+
+    @Test
+    public void test10566() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10566");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.Class<?> wildcardClass18 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertNull(bytesReference17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test10567() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10567");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        nestedInnerQueryParseSupport1.path = "nested";
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+        org.junit.Assert.assertNull(objectMapper19);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10568() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10568");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query17;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean20 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference21 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference21);
+        org.elasticsearch.common.bytes.BytesReference bytesReference23 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference23);
+        org.apache.lucene.search.Query query25 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.common.bytes.BytesReference bytesReference26 = nestedInnerQueryParseSupport1.getsource();
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertNull(query25);
+        org.junit.Assert.assertNull(bytesReference26);
+    }
+
+    @Test
+    public void test10569() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10569");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter14;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean17 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+    }
+
+    @Test
+    public void test10570() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10570");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter17 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter18);
+        org.apache.lucene.search.Query query20 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query20;
+        org.elasticsearch.common.bytes.BytesReference bytesReference22 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter23 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter23);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext25 = nestedInnerQueryParseSupport1.getparseContext();
+        boolean boolean26 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter27 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(filter17);
+        org.junit.Assert.assertNull(bytesReference22);
+        org.junit.Assert.assertNull(queryParseContext25);
+        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter27);
+    }
+
+    @Test
+    public void test10571() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10571");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Filter filter12 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.innerFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(filter12);
+        org.junit.Assert.assertNull(query13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(query15);
+    }
+
+    @Test
+    public void test10572() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10572");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.getInnerQuery();
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter19);
+        org.apache.lucene.search.Filter filter21 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter21);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(query15);
+        org.junit.Assert.assertNull(filter16);
+    }
+
+    @Test
+    public void test10573() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10573");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean16 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.parentFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query19 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(queryParseContext17);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+    }
+
+    @Test
+    public void test10574() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10574");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.getsource();
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(bytesReference15);
+    }
+
+    @Test
+    public void test10575() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10575");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query19 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query19;
+        org.apache.lucene.search.Filter filter21 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        java.lang.String str26 = nestedInnerQueryParseSupport1.getPath();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("object");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertNull(filter21);
+        org.junit.Assert.assertNull(str26);
+    }
+
+    @Test
+    public void test10576() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10576");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query14;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.childFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(filter16);
+    }
+
+    @Test
+    public void test10577() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10577");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        java.lang.String str12 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter15);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(queryParseContext17);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertNull(bitDocIdSetFilter19);
+    }
+
+    @Test
+    public void test10578() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10578");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter13);
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter15);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper19;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(queryParseContext18);
+    }
+
+    @Test
+    public void test10579() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10579");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean12 = nestedInnerQueryParseSupport1.getqueryFound();
+        boolean boolean13 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter14);
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query17;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(query16);
+    }
+
+    @Test
+    public void test10580() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10580");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean17 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.source;
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterFound;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+        org.junit.Assert.assertNull(bytesReference19);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10581() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10581");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean4 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query5;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertNull(queryParseContext10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+    }
+
+    @Test
+    public void test10582() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10582");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound();
+        java.lang.String str10 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference11);
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test10583() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10583");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(queryParseContext14);
+        org.junit.Assert.assertNull(objectMapper15);
+    }
+
+    @Test
+    public void test10584() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10584");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference20 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference20);
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(bytesReference19);
+    }
+
+    @Test
+    public void test10585() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10585");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter13);
+        nestedInnerQueryParseSupport1.path = "object";
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterParsed;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+    }
+
+    @Test
+    public void test10586() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10586");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInParent();
+        boolean boolean6 = nested2.isNested();
+        boolean boolean7 = nested2.isIncludeInParent();
+        boolean boolean8 = nested2.isNested();
+        boolean boolean9 = nested2.isIncludeInRoot();
+        boolean boolean10 = nested2.isIncludeInParent();
+        boolean boolean11 = nested2.isIncludeInRoot();
+        boolean boolean12 = nested2.isIncludeInRoot();
+        boolean boolean13 = nested2.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+    }
+
+    @Test
+    public void test10587() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10587");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInParent();
+        boolean boolean5 = nested2.isNested();
+        boolean boolean6 = nested2.isIncludeInRoot();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        boolean boolean9 = nested2.isIncludeInParent();
+        boolean boolean10 = nested2.isNested();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+    }
+
+    @Test
+    public void test10588() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10588");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+    }
+
+    @Test
+    public void test10589() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10589");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.apache.lucene.search.Filter filter12 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference13;
+        org.junit.Assert.assertNull(filter12);
+    }
+
+    @Test
+    public void test10590() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10590");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query15;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+    }
+
+    @Test
+    public void test10591() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10591");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test10592() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10592");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.Query query17 = nestedInnerQueryParseSupport1.innerQuery;
+        java.lang.String str18 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Query query19 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Query query22 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean23 = nestedInnerQueryParseSupport1.getqueryFound();
+        boolean boolean24 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(queryParseContext14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(query17);
+        org.junit.Assert.assertNull(str18);
+        org.junit.Assert.assertNull(query19);
+        org.junit.Assert.assertNull(query22);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + true + "'", boolean23 == true);
+        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
+    }
+
+    @Test
+    public void test10593() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10593");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean4 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query5;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerQuery;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = nestedInnerQueryParseSupport1.source;
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter13;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext16 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(bytesReference12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(queryParseContext16);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+    }
+
+    @Test
+    public void test10594() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10594");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean20 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.Query query21 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper22 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(queryParseContext14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertNull(query21);
+        org.junit.Assert.assertNull(objectMapper22);
+    }
+
+    @Test
+    public void test10595() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10595");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Query query4 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean5 = nestedInnerQueryParseSupport1.getfilterParsed();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertNull(query4);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+    }
+
+    @Test
+    public void test10596() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10596");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter10;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.path = "nested";
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(objectMapper14);
+    }
+
+    @Test
+    public void test10597() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10597");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter11);
+        boolean boolean13 = nestedInnerQueryParseSupport1.filterFound();
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(bytesReference15);
+    }
+
+    @Test
+    public void test10598() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10598");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter10;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(objectMapper17);
+    }
+
+    @Test
+    public void test10599() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10599");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.parseContext;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query15;
+        org.apache.lucene.search.Query query17 = nestedInnerQueryParseSupport1.getInnerFilter();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter10);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(query17);
+    }
+
+    @Test
+    public void test10600() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10600");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        java.lang.String str16 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(queryParseContext17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10601() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10601");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean5 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean6 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(filter7);
+        org.junit.Assert.assertNull(bitDocIdSetFilter10);
+    }
+
+    @Test
+    public void test10602() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10602");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter14);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper17;
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+    }
+
+    @Test
+    public void test10603() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10603");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Filter filter18 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter18;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10604() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10604");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        boolean boolean14 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter16;
+        org.elasticsearch.common.bytes.BytesReference bytesReference18 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference18;
+        org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper21 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper22 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertNull(query20);
+        org.junit.Assert.assertNull(objectMapper21);
+        org.junit.Assert.assertNull(objectMapper22);
+    }
+
+    @Test
+    public void test10605() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10605");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.parseContext;
+        java.lang.String str19 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter23 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter23;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query25 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertNull(queryParseContext18);
+        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "hi!" + "'", str19, "hi!");
+        org.junit.Assert.assertNull(query20);
+    }
+
+    @Test
+    public void test10606() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10606");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter5 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter5;
+        java.lang.String str7 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter8 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter8);
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertNull(query11);
+    }
+
+    @Test
+    public void test10607() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10607");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper16;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.Filter filter19 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper20;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(query15);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+        org.junit.Assert.assertNull(filter19);
+    }
+
+    @Test
+    public void test10608() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10608");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query4;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference8;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper10;
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+    }
+
+    @Test
+    public void test10609() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10609");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        java.lang.String str12 = nestedInnerQueryParseSupport1.path;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(queryParseContext10);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test10610() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10610");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query15;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper17;
+        org.apache.lucene.search.Query query19 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query19;
+        org.elasticsearch.common.bytes.BytesReference bytesReference21 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference21);
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(query14);
+    }
+
+    @Test
+    public void test10611() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10611");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter13);
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter15);
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference17;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.junit.Assert.assertNull(filter4);
+    }
+
+    @Test
+    public void test10612() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10612");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean7 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(filter9);
+    }
+
+    @Test
+    public void test10613() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10613");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean5 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter7 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext8 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper9;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.source;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter7);
+        org.junit.Assert.assertNull(queryParseContext8);
+        org.junit.Assert.assertNull(bytesReference11);
+    }
+
+    @Test
+    public void test10614() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10614");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext20 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bytesReference12);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(query18);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(queryParseContext20);
+    }
+
+    @Test
+    public void test10615() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10615");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter15);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext19 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean20 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.Query query21 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query21;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(queryParseContext14);
+        org.junit.Assert.assertNull(queryParseContext19);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10616() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10616");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper12;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(queryParseContext14);
+        org.junit.Assert.assertNull(query15);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10617() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10617");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        org.apache.lucene.search.Filter filter8 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter8);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(objectMapper12);
+    }
+
+    @Test
+    public void test10618() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10618");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        java.lang.String str7 = nestedInnerQueryParseSupport1.path;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(filter9);
+    }
+
+    @Test
+    public void test10619() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10619");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter11;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference13);
+    }
+
+    @Test
+    public void test10620() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10620");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper13;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertNull(query12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10621() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10621");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.common.bytes.BytesReference bytesReference6 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.apache.lucene.search.Filter filter17 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter17);
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.junit.Assert.assertNull(bytesReference6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference19);
+    }
+
+    @Test
+    public void test10622() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10622");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10623() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10623");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference15;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter18);
+        org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Query query21 = nestedInnerQueryParseSupport1.innerFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(queryParseContext17);
+        org.junit.Assert.assertNull(query20);
+        org.junit.Assert.assertNull(query21);
+    }
+
+    @Test
+    public void test10624() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10624");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+    }
+
+    @Test
+    public void test10625() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10625");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound();
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10626() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10626");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        org.apache.lucene.search.Filter filter8 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Filter filter12 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter12;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        boolean boolean17 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext19 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertNull(filter8);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertNull(queryParseContext19);
+    }
+
+    @Test
+    public void test10627() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10627");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference14;
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter16;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(bytesReference11);
+    }
+
+    @Test
+    public void test10628() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10628");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query4;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter6;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = nestedInnerQueryParseSupport1.source;
+        boolean boolean9 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper10;
+        org.junit.Assert.assertNull(bytesReference8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test10629() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10629");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test10630() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10630");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext5 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("object");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(queryParseContext5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+    }
+
+    @Test
+    public void test10631() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10631");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query10;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertNull(objectMapper12);
+    }
+
+    @Test
+    public void test10632() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10632");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference10;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter16);
+        java.lang.String str18 = nestedInnerQueryParseSupport1.path;
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(str18);
+    }
+
+    @Test
+    public void test10633() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10633");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.path = "";
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+    }
+
+    @Test
+    public void test10634() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10634");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter19;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean25 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
+    }
+
+    @Test
+    public void test10635() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10635");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter12 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter14);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference17;
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterFound();
+        org.apache.lucene.search.Filter filter20 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter20);
+        boolean boolean22 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext23 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Query query24 = nestedInnerQueryParseSupport1.innerQuery;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
+        org.junit.Assert.assertNull(queryParseContext23);
+        org.junit.Assert.assertNull(query24);
+    }
+
+    @Test
+    public void test10636() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10636");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.common.bytes.BytesReference bytesReference6 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(bytesReference6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+    }
+
+    @Test
+    public void test10637() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10637");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean10 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.source;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference13;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertNull(objectMapper12);
+    }
+
+    @Test
+    public void test10638() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10638");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        java.lang.String str15 = nestedInnerQueryParseSupport1.path;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test10639() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10639");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(false, false);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInParent();
+        boolean boolean6 = nested2.isIncludeInRoot();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        boolean boolean9 = nested2.isIncludeInParent();
+        boolean boolean10 = nested2.isIncludeInRoot();
+        boolean boolean11 = nested2.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10640() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10640");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter14;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean17 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Query query23 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query23;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext25 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertNull(queryParseContext18);
+        org.junit.Assert.assertNull(queryParseContext25);
+    }
+
+    @Test
+    public void test10641() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10641");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter8;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.source;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        org.apache.lucene.search.Filter filter17 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter17);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext19 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(queryParseContext10);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(queryParseContext19);
+    }
+
+    @Test
+    public void test10642() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10642");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Filter filter5 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(filter5);
+        org.junit.Assert.assertNull(objectMapper6);
+        org.junit.Assert.assertNull(filter11);
+    }
+
+    @Test
+    public void test10643() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10643");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query10;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query17 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(objectMapper16);
+    }
+
+    @Test
+    public void test10644() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10644");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.source;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query16;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean22 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
+    }
+
+    @Test
+    public void test10645() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10645");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter15);
+        boolean boolean17 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter18;
+        boolean boolean20 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10646() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10646");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query5;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper7;
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(filter9);
+    }
+
+    @Test
+    public void test10647() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10647");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter13;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext15 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference16;
+        org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(queryParseContext15);
+        org.junit.Assert.assertNull(query18);
+        org.junit.Assert.assertNull(objectMapper19);
+    }
+
+    @Test
+    public void test10648() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10648");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query10;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertNull(objectMapper15);
+    }
+
+    @Test
+    public void test10649() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10649");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        boolean boolean9 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference11);
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(query10);
+    }
+
+    @Test
+    public void test10650() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10650");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean19 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper20;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+    }
+
+    @Test
+    public void test10651() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10651");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference7 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference7;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference13;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean16 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Filter filter19 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(filter19);
+    }
+
+    @Test
+    public void test10652() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10652");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean20 = nestedInnerQueryParseSupport1.queryParsed;
+        java.lang.String str21 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.common.bytes.BytesReference bytesReference22 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference22;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(queryParseContext14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertNull(str21);
+    }
+
+    @Test
+    public void test10653() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10653");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference13;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext15 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter16);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(queryParseContext15);
+    }
+
+    @Test
+    public void test10654() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10654");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Filter filter12 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter12;
+        boolean boolean14 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter17);
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+    }
+
+    @Test
+    public void test10655() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10655");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.path = "nested";
+        java.lang.String str17 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter18 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Query query21 = nestedInnerQueryParseSupport1.getInnerQuery();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertEquals("'" + str17 + "' != '" + "nested" + "'", str17, "nested");
+        org.junit.Assert.assertNull(filter18);
+        org.junit.Assert.assertNull(query21);
+    }
+
+    @Test
+    public void test10656() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10656");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query17;
+        org.apache.lucene.search.Query query19 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query19;
+        java.lang.String str21 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query24 = nestedInnerQueryParseSupport1.innerQuery;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bytesReference12);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(str21);
+        org.junit.Assert.assertNull(query24);
+    }
+
+    @Test
+    public void test10657() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10657");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Filter filter5 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext7 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference8);
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(filter5);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext7);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10658() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10658");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        java.lang.String str7 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter8 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(filter8);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+    }
+
+    @Test
+    public void test10659() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10659");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter14;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter16;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean19 = nestedInnerQueryParseSupport1.queryParsed;
+        java.lang.String str20 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(queryParseContext18);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(str20);
+    }
+
+    @Test
+    public void test10660() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10660");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+    }
+
+    @Test
+    public void test10661() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10661");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference7 = nestedInnerQueryParseSupport1.source;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter14);
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(bytesReference7);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(query16);
+    }
+
+    @Test
+    public void test10662() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10662");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test10663() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10663");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        java.lang.String str12 = nestedInnerQueryParseSupport1.path;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test10664() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10664");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query4;
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Filter filter9 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter9);
+        boolean boolean11 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        java.lang.String str15 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter16);
+        org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.innerFilter;
+        java.lang.Class<?> wildcardClass19 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(query13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "" + "'", str15, "");
+        org.junit.Assert.assertNull(query18);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test10665() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10665");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query5;
+        org.apache.lucene.search.Query query7 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query7;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        java.lang.Class<?> wildcardClass11 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test10666() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10666");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference9);
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference21 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference21);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper23 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        java.lang.String str24 = nestedInnerQueryParseSupport1.path;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertNull(objectMapper23);
+        org.junit.Assert.assertEquals("'" + str24 + "' != '" + "hi!" + "'", str24, "hi!");
+    }
+
+    @Test
+    public void test10667() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10667");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean19 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+    }
+
+    @Test
+    public void test10668() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10668");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bytesReference12);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(bytesReference16);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10669() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10669");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getqueryFound();
+        java.lang.String str19 = nestedInnerQueryParseSupport1.getPath();
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+        org.junit.Assert.assertNull(str19);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10670() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10670");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInParent();
+        boolean boolean5 = nested2.isIncludeInParent();
+        boolean boolean6 = nested2.isIncludeInParent();
+        boolean boolean7 = nested2.isIncludeInParent();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        boolean boolean9 = nested2.isNested();
+        boolean boolean10 = nested2.isIncludeInRoot();
+        boolean boolean11 = nested2.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+    }
+
+    @Test
+    public void test10671() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10671");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter11);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper13;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+    }
+
+    @Test
+    public void test10672() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10672");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter14;
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter16);
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference20 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference20;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference24 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter25 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter25);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(bytesReference24);
+    }
+
+    @Test
+    public void test10673() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10673");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean14 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+    }
+
+    @Test
+    public void test10674() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10674");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        boolean boolean13 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Filter filter17 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter17);
+        java.lang.String str19 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(bytesReference14);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(bytesReference16);
+        org.junit.Assert.assertNull(str19);
+    }
+
+    @Test
+    public void test10675() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10675");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryFound();
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean20 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter21 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+        org.junit.Assert.assertNull(queryParseContext18);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + true + "'", boolean20 == true);
+        org.junit.Assert.assertNull(bitDocIdSetFilter21);
+    }
+
+    @Test
+    public void test10676() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10676");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(bytesReference19);
+    }
+
+    @Test
+    public void test10677() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10677");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        boolean boolean16 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10678() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10678");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.source;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext20 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(bytesReference15);
+        org.junit.Assert.assertNull(queryParseContext20);
+    }
+
+    @Test
+    public void test10679() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10679");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.Filter filter17 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        boolean boolean22 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(filter17);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
+    }
+
+    @Test
+    public void test10680() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10680");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query15;
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryFound;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference22 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference22);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10681() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10681");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter16;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter18);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper20;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.Filter filter24 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query25 = nestedInnerQueryParseSupport1.innerQuery;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertNull(filter24);
+        org.junit.Assert.assertNull(query25);
+    }
+
+    @Test
+    public void test10682() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10682");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+        org.junit.Assert.assertNull(objectMapper14);
+    }
+
+    @Test
+    public void test10683() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10683");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter13);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        java.lang.String str17 = nestedInnerQueryParseSupport1.path;
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(str17);
+    }
+
+    @Test
+    public void test10684() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10684");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.source;
+        org.elasticsearch.common.bytes.BytesReference bytesReference20 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference20);
+        org.elasticsearch.common.bytes.BytesReference bytesReference22 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper23 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertNull(bytesReference19);
+        org.junit.Assert.assertNull(bytesReference22);
+        org.junit.Assert.assertNull(objectMapper23);
+    }
+
+    @Test
+    public void test10685() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10685");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter20 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext21 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference9);
+        org.junit.Assert.assertNull(bitDocIdSetFilter20);
+        org.junit.Assert.assertNull(queryParseContext21);
+    }
+
+    @Test
+    public void test10686() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10686");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter16;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter18);
+        org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query21 = nestedInnerQueryParseSupport1.innerFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query22 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertNull(query20);
+        org.junit.Assert.assertNull(query21);
+    }
+
+    @Test
+    public void test10687() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10687");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInParent();
+        boolean boolean6 = nested2.isNested();
+        boolean boolean7 = nested2.isIncludeInParent();
+        boolean boolean8 = nested2.isIncludeInParent();
+        boolean boolean9 = nested2.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+    }
+
+    @Test
+    public void test10688() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10688");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.source;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10689() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10689");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext8 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(queryParseContext8);
+    }
+
+    @Test
+    public void test10690() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10690");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query4;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10691() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10691");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.getInnerFilter();
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+    }
+
+    @Test
+    public void test10692() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10692");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.common.bytes.BytesReference bytesReference7 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference7;
+        nestedInnerQueryParseSupport1.path = "object";
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter11;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference13);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+    }
+
+    @Test
+    public void test10693() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10693");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        boolean boolean8 = nestedInnerQueryParseSupport1.queryFound();
+        java.lang.String str9 = nestedInnerQueryParseSupport1.getPath();
+        boolean boolean10 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter11;
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+    }
+
+    @Test
+    public void test10694() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10694");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query4;
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        java.lang.String str10 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter11;
+        org.apache.lucene.search.Query query13 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query13;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper16;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.query();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertEquals("'" + str10 + "' != '" + "" + "'", str10, "");
+        org.junit.Assert.assertNull(objectMapper15);
+    }
+
+    @Test
+    public void test10695() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10695");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10696() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10696");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference14);
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference17);
+        org.apache.lucene.search.Filter filter19 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter19;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper21 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper21;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10697() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10697");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerFilter;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(query12);
+    }
+
+    @Test
+    public void test10698() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10698");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query19 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query19;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        boolean boolean23 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Query query24 = nestedInnerQueryParseSupport1.innerQuery;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(bytesReference12);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(query18);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + true + "'", boolean23 == true);
+        org.junit.Assert.assertNull(query24);
+    }
+
+    @Test
+    public void test10699() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10699");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter17;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(objectMapper19);
+    }
+
+    @Test
+    public void test10700() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10700");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = nestedInnerQueryParseSupport1.source;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(bytesReference14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10701() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10701");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.Query query11 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+    }
+
+    @Test
+    public void test10702() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10702");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query7 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query7;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+    }
+
+    @Test
+    public void test10703() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10703");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper8;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(bytesReference10);
+    }
+
+    @Test
+    public void test10704() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10704");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter14);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference18 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference18);
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean22 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper23 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
+        org.junit.Assert.assertNull(objectMapper23);
+    }
+
+    @Test
+    public void test10705() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10705");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.childFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+    }
+
+    @Test
+    public void test10706() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10706");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference16);
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10707() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10707");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean14 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        java.lang.Class<?> wildcardClass17 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test10708() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10708");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper16;
+        org.apache.lucene.search.Query query18 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query18;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper20;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10709() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10709");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference9);
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(objectMapper8);
+    }
+
+    @Test
+    public void test10710() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10710");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.apache.lucene.search.Query query4 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query5;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(query4);
+    }
+
+    @Test
+    public void test10711() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10711");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter13;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10712() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10712");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(bytesReference10);
+    }
+
+    @Test
+    public void test10713() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10713");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.path = "hi!";
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference17;
+        java.lang.String str19 = nestedInnerQueryParseSupport1.path;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        java.lang.Class<?> wildcardClass22 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "hi!" + "'", str19, "hi!");
+        org.junit.Assert.assertNotNull(wildcardClass22);
+    }
+
+    @Test
+    public void test10714() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10714");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        nestedInnerQueryParseSupport1.path = "object";
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference10);
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query9);
+    }
+
+    @Test
+    public void test10715() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10715");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(filter13);
+    }
+
+    @Test
+    public void test10716() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10716");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+    }
+
+    @Test
+    public void test10717() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10717");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        java.lang.String str16 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper22 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext23 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Query query24 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper27 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(objectMapper22);
+        org.junit.Assert.assertNull(queryParseContext23);
+        org.junit.Assert.assertNull(query24);
+        org.junit.Assert.assertNull(objectMapper27);
+    }
+
+    @Test
+    public void test10718() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10718");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter6;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        org.junit.Assert.assertNull(bytesReference8);
+        org.junit.Assert.assertNull(bytesReference11);
+    }
+
+    @Test
+    public void test10719() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10719");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference13);
+    }
+
+    @Test
+    public void test10720() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10720");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter8;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter17);
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterFound();
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(queryParseContext10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+    }
+
+    @Test
+    public void test10721() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10721");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(query15);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertNull(objectMapper17);
+    }
+
+    @Test
+    public void test10722() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10722");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference7 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference7;
+        org.apache.lucene.search.Query query9 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query9;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.parentFilter;
+        java.lang.String str14 = nestedInnerQueryParseSupport1.getPath();
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterParsed;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+    }
+
+    @Test
+    public void test10723() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10723");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter13);
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+    }
+
+    @Test
+    public void test10724() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10724");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.source;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query16;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        boolean boolean20 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter21 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext22 = nestedInnerQueryParseSupport1.getparseContext();
+        java.lang.String str23 = nestedInnerQueryParseSupport1.path;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter21);
+        org.junit.Assert.assertNull(queryParseContext22);
+        org.junit.Assert.assertEquals("'" + str23 + "' != '" + "hi!" + "'", str23, "hi!");
+    }
+
+    @Test
+    public void test10725() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10725");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query7 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query7;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.getparentFilter();
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+    }
+
+    @Test
+    public void test10726() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10726");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        java.lang.String str4 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+    }
+
+    @Test
+    public void test10727() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10727");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Query query12 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query12;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10728() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10728");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.source;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+    }
+
+    @Test
+    public void test10729() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10729");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query5;
+        org.apache.lucene.search.Query query7 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query7;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.path = "";
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(objectMapper9);
+    }
+
+    @Test
+    public void test10730() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10730");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper8;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference13);
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.getInnerFilter();
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertNull(query15);
+        org.junit.Assert.assertNull(filter16);
+    }
+
+    @Test
+    public void test10731() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10731");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.getInnerQuery();
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = nestedInnerQueryParseSupport1.source;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(query13);
+        org.junit.Assert.assertNull(bytesReference14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10732() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10732");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper10;
+        java.lang.String str12 = nestedInnerQueryParseSupport1.path;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(filter15);
+    }
+
+    @Test
+    public void test10733() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10733");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.Filter filter21 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query24 = nestedInnerQueryParseSupport1.innerQuery;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+        org.junit.Assert.assertNull(filter21);
+        org.junit.Assert.assertNull(query24);
+    }
+
+    @Test
+    public void test10734() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10734");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter16);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(bytesReference15);
+    }
+
+    @Test
+    public void test10735() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10735");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query16;
+        org.elasticsearch.common.bytes.BytesReference bytesReference18 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference18;
+        org.apache.lucene.search.Filter filter20 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(filter20);
+    }
+
+    @Test
+    public void test10736() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10736");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query16;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper18;
+        java.lang.String str20 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper21 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(str20);
+        org.junit.Assert.assertNull(objectMapper21);
+    }
+
+    @Test
+    public void test10737() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10737");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter14 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean17 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(filter14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+    }
+
+    @Test
+    public void test10738() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10738");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter14;
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter16);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean20 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean21 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+    }
+
+    @Test
+    public void test10739() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10739");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.query.QueryParseContext queryParseContext15 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference16);
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound();
+        java.lang.String str19 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(queryParseContext15);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "" + "'", str19, "");
+    }
+
+    @Test
+    public void test10740() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10740");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference9);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        java.lang.Class<?> wildcardClass15 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test10741() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10741");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10742() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10742");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext2 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext2);
+        org.junit.Assert.assertNull(filter3);
+    }
+
+    @Test
+    public void test10743() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10743");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper7;
+        java.lang.String str9 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Filter filter10 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter10;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(objectMapper20);
+    }
+
+    @Test
+    public void test10744() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10744");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInParent();
+        boolean boolean5 = nested2.isNested();
+        boolean boolean6 = nested2.isIncludeInRoot();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        boolean boolean9 = nested2.isIncludeInRoot();
+        boolean boolean10 = nested2.isNested();
+        boolean boolean11 = nested2.isIncludeInRoot();
+        boolean boolean12 = nested2.isNested();
+        boolean boolean13 = nested2.isIncludeInRoot();
+        boolean boolean14 = nested2.isNested();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+    }
+
+    @Test
+    public void test10745() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10745");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter7 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.parseContext;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(queryParseContext12);
+    }
+
+    @Test
+    public void test10746() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10746");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter10;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        java.lang.String str16 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(str16);
+    }
+
+    @Test
+    public void test10747() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10747");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isNested();
+        boolean boolean5 = nested2.isNested();
+        boolean boolean6 = nested2.isNested();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+    }
+
+    @Test
+    public void test10748() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10748");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.getInnerQuery();
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+        org.junit.Assert.assertNull(query20);
+    }
+
+    @Test
+    public void test10749() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10749");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested0 = org.elasticsearch.index.mapper.object.ObjectMapper.Defaults.NESTED;
+        boolean boolean1 = nested0.isIncludeInParent();
+        boolean boolean2 = nested0.isIncludeInParent();
+        boolean boolean3 = nested0.isIncludeInParent();
+        boolean boolean4 = nested0.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested0);
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+    }
+
+    @Test
+    public void test10750() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10750");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference17;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10751() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10751");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+    }
+
+    @Test
+    public void test10752() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10752");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10753() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10753");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext5 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(queryParseContext5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+    }
+
+    @Test
+    public void test10754() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10754");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter13);
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference17;
+        org.junit.Assert.assertNull(filter4);
+    }
+
+    @Test
+    public void test10755() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10755");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        java.lang.String str17 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean21 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean22 = nestedInnerQueryParseSupport1.filterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + true + "'", boolean21 == true);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + true + "'", boolean22 == true);
+    }
+
+    @Test
+    public void test10756() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10756");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean13 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        java.lang.String str16 = nestedInnerQueryParseSupport1.path;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterParsed;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+    }
+
+    @Test
+    public void test10757() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10757");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext13 = nestedInnerQueryParseSupport1.getparseContext();
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertNull(queryParseContext13);
+    }
+
+    @Test
+    public void test10758() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10758");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference8);
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10759() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10759");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        java.lang.Class<?> wildcardClass11 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test10760() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10760");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter17);
+        org.apache.lucene.search.Query query19 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Filter filter20 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter20;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(query19);
+    }
+
+    @Test
+    public void test10761() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10761");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(bytesReference8);
+    }
+
+    @Test
+    public void test10762() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10762");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        java.lang.String str14 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10763() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10763");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(objectMapper16);
+    }
+
+    @Test
+    public void test10764() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10764");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper24 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertNull(bytesReference17);
+        org.junit.Assert.assertNull(objectMapper24);
+    }
+
+    @Test
+    public void test10765() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10765");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Query query5 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean6 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext7 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.Filter filter8 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(query5);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(queryParseContext7);
+        org.junit.Assert.assertNull(filter8);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10766() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10766");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        boolean boolean21 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper22 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference23 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference23;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertNull(objectMapper22);
+    }
+
+    @Test
+    public void test10767() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10767");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        boolean boolean6 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertNull(objectMapper12);
+    }
+
+    @Test
+    public void test10768() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10768");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.apache.lucene.search.Filter filter6 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter6;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10769() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10769");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter8;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.getInnerFilter();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(query13);
+    }
+
+    @Test
+    public void test10770() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10770");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter17);
+        org.apache.lucene.search.Query query19 = nestedInnerQueryParseSupport1.innerFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("object");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(query19);
+    }
+
+    @Test
+    public void test10771() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10771");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter14);
+        boolean boolean16 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Filter filter17 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter17;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter19);
+    }
+
+    @Test
+    public void test10772() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10772");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean13 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
+    }
+
+    @Test
+    public void test10773() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10773");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.Filter filter14 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(filter14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertNull(bitDocIdSetFilter19);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + true + "'", boolean20 == true);
+    }
+
+    @Test
+    public void test10774() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10774");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        java.lang.String str16 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter17 = nestedInnerQueryParseSupport1.childFilter;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(filter17);
+    }
+
+    @Test
+    public void test10775() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10775");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter10;
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query12);
+        org.junit.Assert.assertNull(bitDocIdSetFilter19);
+    }
+
+    @Test
+    public void test10776() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10776");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Filter filter2 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Filter filter3 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter3);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper5;
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str8 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.junit.Assert.assertNull(filter2);
+        org.junit.Assert.assertNull(filter7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(filter9);
+    }
+
+    @Test
+    public void test10777() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10777");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(query11);
+    }
+
+    @Test
+    public void test10778() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10778");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.common.bytes.BytesReference bytesReference7 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference7;
+        nestedInnerQueryParseSupport1.path = "object";
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter11;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference13);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.junit.Assert.assertNull(str6);
+    }
+
+    @Test
+    public void test10779() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10779");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(bytesReference15);
+    }
+
+    @Test
+    public void test10780() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10780");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.Query query8 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        java.lang.String str12 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter14);
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query16;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query8);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(query13);
+    }
+
+    @Test
+    public void test10781() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10781");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter18 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter18;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper20;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+    }
+
+    @Test
+    public void test10782() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10782");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.common.bytes.BytesReference bytesReference6 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference8);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter14;
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter16);
+        org.junit.Assert.assertNull(bytesReference6);
+        org.junit.Assert.assertNull(filter7);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10783() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10783");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10784() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10784");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean6 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+    }
+
+    @Test
+    public void test10785() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10785");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10786() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10786");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference15;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter18);
+        org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(queryParseContext17);
+        org.junit.Assert.assertNull(query20);
+    }
+
+    @Test
+    public void test10787() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10787");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.filterFound = true;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(bytesReference10);
+    }
+
+    @Test
+    public void test10788() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10788");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(bitDocIdSetFilter9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference11);
+    }
+
+    @Test
+    public void test10789() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10789");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10790() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10790");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.Query query23 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference24 = nestedInnerQueryParseSupport1.getsource();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference9);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertNull(query23);
+        org.junit.Assert.assertNull(bytesReference24);
+    }
+
+    @Test
+    public void test10791() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10791");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.common.bytes.BytesReference bytesReference6 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.getparentFilter();
+        java.lang.String str16 = nestedInnerQueryParseSupport1.path;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterFound();
+        org.junit.Assert.assertNull(bytesReference6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+    }
+
+    @Test
+    public void test10792() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10792");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean12 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertNull(queryParseContext14);
+    }
+
+    @Test
+    public void test10793() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10793");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.path = "nested";
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("object");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test10794() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10794");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        boolean boolean9 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext13 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(queryParseContext13);
+        org.junit.Assert.assertNull(objectMapper14);
+    }
+
+    @Test
+    public void test10795() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10795");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference13;
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.getInnerQuery();
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(query15);
+    }
+
+    @Test
+    public void test10796() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10796");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query4;
+        org.apache.lucene.search.Filter filter6 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter6);
+        org.apache.lucene.search.Query query8 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query13 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query13;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertNull(query8);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10797() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10797");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter5);
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query8 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query8;
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(filter7);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10798() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10798");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Query query11 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.Query query19 = nestedInnerQueryParseSupport1.getInnerFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext20 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(queryParseContext18);
+        org.junit.Assert.assertNull(query19);
+        org.junit.Assert.assertNull(queryParseContext20);
+    }
+
+    @Test
+    public void test10799() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10799");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Filter filter18 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter18);
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference22 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(bytesReference22);
+    }
+
+    @Test
+    public void test10800() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10800");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInRoot();
+        boolean boolean6 = nested2.isNested();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        boolean boolean9 = nested2.isIncludeInParent();
+        boolean boolean10 = nested2.isIncludeInParent();
+        boolean boolean11 = nested2.isNested();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+    }
+
+    @Test
+    public void test10801() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10801");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        java.lang.String str7 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter8 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference9);
+        boolean boolean11 = nestedInnerQueryParseSupport1.getfilterFound();
+        java.lang.String str12 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(filter8);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test10802() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10802");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "object";
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.path = "";
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(query7);
+    }
+
+    @Test
+    public void test10803() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10803");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInRoot();
+        boolean boolean6 = nested2.isNested();
+        boolean boolean7 = nested2.isNested();
+        boolean boolean8 = nested2.isIncludeInParent();
+        boolean boolean9 = nested2.isIncludeInRoot();
+        boolean boolean10 = nested2.isNested();
+        boolean boolean11 = nested2.isIncludeInRoot();
+        boolean boolean12 = nested2.isIncludeInParent();
+        boolean boolean13 = nested2.isNested();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+    }
+
+    @Test
+    public void test10804() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10804");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Query query11 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext14 = nestedInnerQueryParseSupport1.getparseContext();
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(queryParseContext14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10805() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10805");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference8;
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query10;
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(objectMapper7);
+    }
+
+    @Test
+    public void test10806() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10806");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        java.lang.String str4 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        java.lang.String str7 = nestedInnerQueryParseSupport1.getPath();
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+    }
+
+    @Test
+    public void test10807() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10807");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(filter7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10808() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10808");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Filter filter17 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query18 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query18;
+        boolean boolean20 = nestedInnerQueryParseSupport1.getfilterFound();
+        java.lang.String str21 = nestedInnerQueryParseSupport1.path;
+        nestedInnerQueryParseSupport1.path = "nested";
+        org.apache.lucene.search.Filter filter24 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter24;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("object");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(filter17);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + true + "'", boolean20 == true);
+        org.junit.Assert.assertNull(str21);
+    }
+
+    @Test
+    public void test10809() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10809");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(bytesReference14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10810() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10810");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean12 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter13);
+        java.lang.String str15 = nestedInnerQueryParseSupport1.getPath();
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Filter filter17 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter17;
+        org.apache.lucene.search.Filter filter19 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(filter19);
+    }
+
+    @Test
+    public void test10811() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10811");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+    }
+
+    @Test
+    public void test10812() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10812");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Filter filter10 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter10;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Filter filter19 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+        org.junit.Assert.assertNull(filter19);
+    }
+
+    @Test
+    public void test10813() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10813");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Query query6 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query6;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter12 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter12;
+        org.apache.lucene.search.Filter filter14 = nestedInnerQueryParseSupport1.childFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(bytesReference8);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(filter14);
+    }
+
+    @Test
+    public void test10814() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10814");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Query query6 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query6;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.Filter filter12 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getfilterFound();
+        java.lang.String str16 = nestedInnerQueryParseSupport1.path;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(bytesReference8);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertNull(filter12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertNull(str16);
+    }
+
+    @Test
+    public void test10815() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10815");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference18 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference18);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter20 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter20;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(queryParseContext17);
+    }
+
+    @Test
+    public void test10816() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10816");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        org.apache.lucene.search.Filter filter17 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(filter17);
+        org.junit.Assert.assertNull(objectMapper18);
+    }
+
+    @Test
+    public void test10817() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10817");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper13;
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter16;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext19 = nestedInnerQueryParseSupport1.parseContext;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(query15);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+        org.junit.Assert.assertNull(queryParseContext19);
+    }
+
+    @Test
+    public void test10818() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10818");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query10;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper12;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        java.lang.String str17 = nestedInnerQueryParseSupport1.path;
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.source;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertNull(bytesReference19);
+    }
+
+    @Test
+    public void test10819() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10819");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        java.lang.String str14 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(filter7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+    }
+
+    @Test
+    public void test10820() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10820");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter10;
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query12);
+    }
+
+    @Test
+    public void test10821() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10821");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean5 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.path = "object";
+        org.apache.lucene.search.Query query8 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        java.lang.Class<?> wildcardClass11 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertNull(query8);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test10822() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10822");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter7 = nestedInnerQueryParseSupport1.parentFilter;
+        java.lang.String str8 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper10;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(bytesReference9);
+    }
+
+    @Test
+    public void test10823() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10823");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter8);
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(query12);
+        org.junit.Assert.assertNull(filter13);
+    }
+
+    @Test
+    public void test10824() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10824");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+    }
+
+    @Test
+    public void test10825() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10825");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        java.lang.Class<?> wildcardClass20 = nestedInnerQueryParseSupport1.getClass();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test10826() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10826");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        java.lang.String str14 = nestedInnerQueryParseSupport1.path;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference20 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean23 = nestedInnerQueryParseSupport1.getqueryFound();
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query24 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+        org.junit.Assert.assertNull(bytesReference20);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + false + "'", boolean23 == false);
+    }
+
+    @Test
+    public void test10827() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10827");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext5 = nestedInnerQueryParseSupport1.getparseContext();
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(queryParseContext5);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+    }
+
+    @Test
+    public void test10828() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10828");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper13;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter16);
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertNull(query12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10829() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10829");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean14 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10830() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10830");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper9;
+        org.apache.lucene.search.Query query11 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper13;
+        java.lang.String str15 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper16;
+        org.elasticsearch.common.bytes.BytesReference bytesReference18 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNull(bytesReference18);
+    }
+
+    @Test
+    public void test10831() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10831");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Filter filter18 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter18);
+        org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Query query21 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query21;
+        boolean boolean23 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean24 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference25 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference25);
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(query20);
+        org.junit.Assert.assertTrue("'" + boolean23 + "' != '" + true + "'", boolean23 == true);
+        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
+    }
+
+    @Test
+    public void test10832() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10832");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isNested();
+        boolean boolean4 = nested2.isIncludeInParent();
+        boolean boolean5 = nested2.isIncludeInParent();
+        boolean boolean6 = nested2.isNested();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isNested();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+    }
+
+    @Test
+    public void test10833() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10833");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.common.bytes.BytesReference bytesReference6 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        nestedInnerQueryParseSupport1.path = "nested";
+        org.apache.lucene.search.Query query12 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query12;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.path = "object";
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertNull(bytesReference6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+    }
+
+    @Test
+    public void test10834() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10834");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Filter filter5 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(filter5);
+        org.junit.Assert.assertNull(objectMapper6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test10835() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10835");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10836() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10836");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference17);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter19);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+    }
+
+    @Test
+    public void test10837() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10837");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter13);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext15 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext16 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(queryParseContext15);
+        org.junit.Assert.assertNull(queryParseContext16);
+    }
+
+    @Test
+    public void test10838() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10838");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query10;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext16 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertNull(queryParseContext16);
+    }
+
+    @Test
+    public void test10839() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10839");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        java.lang.String str17 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.getparseContext();
+        boolean boolean19 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext20 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.apache.lucene.search.Query query23 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query23;
+        boolean boolean25 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNull(queryParseContext18);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+        org.junit.Assert.assertNull(queryParseContext20);
+        org.junit.Assert.assertTrue("'" + boolean25 + "' != '" + false + "'", boolean25 == false);
+    }
+
+    @Test
+    public void test10840() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10840");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "object";
+        org.elasticsearch.index.query.QueryParseContext queryParseContext7 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(queryParseContext7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test10841() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10841");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        nestedInnerQueryParseSupport1.path = "nested";
+        org.apache.lucene.search.Filter filter12 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("object");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+    }
+
+    @Test
+    public void test10842() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10842");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Filter filter5 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext7 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(filter5);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext7);
+        org.junit.Assert.assertNull(objectMapper8);
+    }
+
+    @Test
+    public void test10843() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10843");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper7;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        java.lang.String str14 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter15);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertEquals("'" + str14 + "' != '" + "hi!" + "'", str14, "hi!");
+    }
+
+    @Test
+    public void test10844() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10844");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter13;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext15 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(queryParseContext15);
+        org.junit.Assert.assertNull(objectMapper16);
+    }
+
+    @Test
+    public void test10845() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10845");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.getInnerFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean20 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper21 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper21;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10846() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10846");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(false, true);
+        boolean boolean3 = nested2.isIncludeInRoot();
+        boolean boolean4 = nested2.isNested();
+        boolean boolean5 = nested2.isIncludeInParent();
+        boolean boolean6 = nested2.isIncludeInRoot();
+        boolean boolean7 = nested2.isIncludeInParent();
+        boolean boolean8 = nested2.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+    }
+
+    @Test
+    public void test10847() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10847");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertNull(objectMapper16);
+    }
+
+    @Test
+    public void test10848() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10848");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        java.lang.String str16 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(objectMapper19);
+    }
+
+    @Test
+    public void test10849() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10849");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean14 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter16);
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10850() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10850");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext15 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter18;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(queryParseContext15);
+    }
+
+    @Test
+    public void test10851() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10851");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter13;
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10852() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10852");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter15;
+        org.apache.lucene.search.Query query17 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Filter filter18 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter18);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query17);
+    }
+
+    @Test
+    public void test10853() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10853");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper17);
+    }
+
+    @Test
+    public void test10854() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10854");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Query query20 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter21 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(query20);
+        org.junit.Assert.assertNull(bitDocIdSetFilter21);
+    }
+
+    @Test
+    public void test10855() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10855");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper9;
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Query query13 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query13;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(objectMapper15);
+    }
+
+    @Test
+    public void test10856() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10856");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean19 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext21 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(objectMapper20);
+        org.junit.Assert.assertNull(queryParseContext21);
+    }
+
+    @Test
+    public void test10857() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10857");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query15;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertNull(bytesReference19);
+    }
+
+    @Test
+    public void test10858() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10858");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.Query query6 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("nested");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10859() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10859");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.getInnerFilter();
+        org.apache.lucene.search.Query query17 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter20 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter20);
+        org.apache.lucene.search.Query query22 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query22;
+        org.apache.lucene.search.Query query24 = nestedInnerQueryParseSupport1.innerQuery;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertNull(query17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(query24);
+    }
+
+    @Test
+    public void test10860() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10860");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        nestedInnerQueryParseSupport1.path = "nested";
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext16 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound;
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(queryParseContext16);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10861() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10861");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.getInnerFilter();
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10862() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10862");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query4;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.Filter filter8 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter11;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.getInnerFilter();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter8);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10863() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10863");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        java.lang.String str7 = nestedInnerQueryParseSupport1.path;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.source;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Query query12 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query12;
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter14;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10864() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10864");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+    }
+
+    @Test
+    public void test10865() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10865");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query7 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query7;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Filter filter14 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryFound;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(query13);
+        org.junit.Assert.assertNull(filter14);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+    }
+
+    @Test
+    public void test10866() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10866");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query8 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query8;
+        java.lang.String str10 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(objectMapper13);
+    }
+
+    @Test
+    public void test10867() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10867");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.common.bytes.BytesReference bytesReference14 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference14);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper20;
+        org.apache.lucene.search.Filter filter22 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(filter22);
+    }
+
+    @Test
+    public void test10868() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10868");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter8;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper10;
+        org.apache.lucene.search.Filter filter12 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter13;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(filter12);
+    }
+
+    @Test
+    public void test10869() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10869");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean5 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext8 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerQuery;
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertNull(queryParseContext8);
+        org.junit.Assert.assertNull(query9);
+    }
+
+    @Test
+    public void test10870() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10870");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.source;
+        org.elasticsearch.common.bytes.BytesReference bytesReference20 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference20);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper22 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference23 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.apache.lucene.search.Filter filter26 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean27 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertNull(bytesReference19);
+        org.junit.Assert.assertNull(objectMapper22);
+        org.junit.Assert.assertNull(bytesReference23);
+        org.junit.Assert.assertNull(filter26);
+        org.junit.Assert.assertTrue("'" + boolean27 + "' != '" + true + "'", boolean27 == true);
+    }
+
+    @Test
+    public void test10871() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10871");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.apache.lucene.search.Query query9 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query9;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper12;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10872() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10872");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.Filter filter19 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter19);
+        org.apache.lucene.search.Filter filter21 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter21);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter23 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter23);
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10873() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10873");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Query query8 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query8;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(queryParseContext10);
+        org.junit.Assert.assertNull(objectMapper13);
+    }
+
+    @Test
+    public void test10874() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10874");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.apache.lucene.search.Query query17 = nestedInnerQueryParseSupport1.innerQuery;
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean19 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(query17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(objectMapper20);
+    }
+
+    @Test
+    public void test10875() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10875");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter8);
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.source;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean18 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean19 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+    }
+
+    @Test
+    public void test10876() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10876");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper2 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper2;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter4 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.Filter filter5 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.apache.lucene.search.Query query8 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.source;
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter4);
+        org.junit.Assert.assertNull(filter5);
+        org.junit.Assert.assertNull(query8);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertNull(query12);
+    }
+
+    @Test
+    public void test10877() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10877");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean5 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+    }
+
+    @Test
+    public void test10878() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10878");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter14 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(filter14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter19);
+    }
+
+    @Test
+    public void test10879() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10879");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInParent();
+        boolean boolean5 = nested2.isNested();
+        boolean boolean6 = nested2.isIncludeInRoot();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        boolean boolean9 = nested2.isNested();
+        boolean boolean10 = nested2.isIncludeInParent();
+        boolean boolean11 = nested2.isIncludeInParent();
+        boolean boolean12 = nested2.isNested();
+        boolean boolean13 = nested2.isIncludeInRoot();
+        boolean boolean14 = nested2.isNested();
+        boolean boolean15 = nested2.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+    }
+
+    @Test
+    public void test10880() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10880");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference16;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(objectMapper15);
+    }
+
+    @Test
+    public void test10881() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10881");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.common.bytes.BytesReference bytesReference7 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference7;
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10882() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10882");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext24 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext25 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertNull(bytesReference17);
+        org.junit.Assert.assertNull(queryParseContext24);
+        org.junit.Assert.assertNull(queryParseContext25);
+    }
+
+    @Test
+    public void test10883() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10883");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        org.apache.lucene.search.Filter filter14 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        java.lang.String str18 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext19 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query21 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean22 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertNull(filter14);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(str18);
+        org.junit.Assert.assertNull(queryParseContext19);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertNull(query21);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
+    }
+
+    @Test
+    public void test10884() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10884");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(query16);
+    }
+
+    @Test
+    public void test10885() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10885");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper9;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(objectMapper15);
+    }
+
+    @Test
+    public void test10886() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10886");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter8;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference16;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(queryParseContext10);
+        org.junit.Assert.assertNull(bytesReference13);
+    }
+
+    @Test
+    public void test10887() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10887");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter7 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterParsed;
+        java.lang.String str9 = nestedInnerQueryParseSupport1.path;
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10888() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10888");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter5 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter5;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+    }
+
+    @Test
+    public void test10889() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10889");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInRoot();
+        boolean boolean6 = nested2.isNested();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInParent();
+        boolean boolean9 = nested2.isNested();
+        boolean boolean10 = nested2.isIncludeInRoot();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+    }
+
+    @Test
+    public void test10890() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10890");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query13 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query13;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.getparentFilter();
+        java.lang.String str16 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(queryParseContext17);
+    }
+
+    @Test
+    public void test10891() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10891");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query8 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query8;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext11 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean12 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter13);
+        boolean boolean15 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query16;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(queryParseContext11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+    }
+
+    @Test
+    public void test10892() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10892");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound();
+        java.lang.String str15 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test10893() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10893");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.getparentFilter();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+    }
+
+    @Test
+    public void test10894() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10894");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.filterFound = true;
+        java.lang.String str11 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+    }
+
+    @Test
+    public void test10895() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10895");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.parentFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+    }
+
+    @Test
+    public void test10896() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10896");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Query query5 = nestedInnerQueryParseSupport1.innerQuery;
+        boolean boolean6 = nestedInnerQueryParseSupport1.filterFound();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query10;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(query5);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+    }
+
+    @Test
+    public void test10897() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10897");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        boolean boolean6 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(queryParseContext10);
+    }
+
+    @Test
+    public void test10898() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10898");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Query query12 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query12;
+        java.lang.String str14 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper15;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter18);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper21 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean22 = nestedInnerQueryParseSupport1.queryFound;
+        java.lang.String str23 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+        org.junit.Assert.assertNull(objectMapper20);
+        org.junit.Assert.assertNull(objectMapper21);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
+        org.junit.Assert.assertNull(str23);
+    }
+
+    @Test
+    public void test10899() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10899");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        nestedInnerQueryParseSupport1.path = "nested";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+    }
+
+    @Test
+    public void test10900() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10900");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(bytesReference17);
+    }
+
+    @Test
+    public void test10901() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10901");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query9 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query9;
+        org.apache.lucene.search.Query query11 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+    }
+
+    @Test
+    public void test10902() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10902");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Filter filter12 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.path = "";
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean17 = nestedInnerQueryParseSupport1.filterFound();
+        org.apache.lucene.search.Query query18 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query18;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(filter12);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+    }
+
+    @Test
+    public void test10903() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10903");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInParent();
+        boolean boolean6 = nested2.isIncludeInRoot();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+    }
+
+    @Test
+    public void test10904() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10904");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean21 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.common.bytes.BytesReference bytesReference22 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertNull(bytesReference22);
+    }
+
+    @Test
+    public void test10905() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10905");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean5 = nestedInnerQueryParseSupport1.getqueryFound();
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.Query query8 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.source;
+        org.apache.lucene.search.Filter filter11 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter11;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertNull(query8);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(objectMapper15);
+    }
+
+    @Test
+    public void test10906() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10906");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext13 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.Filter filter14 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter15);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(queryParseContext13);
+        org.junit.Assert.assertNull(filter14);
+        org.junit.Assert.assertNull(objectMapper17);
+    }
+
+    @Test
+    public void test10907() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10907");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        java.lang.String str5 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Filter filter9 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter9;
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertNull(queryParseContext12);
+    }
+
+    @Test
+    public void test10908() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10908");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.Filter filter12 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertNull(filter12);
+    }
+
+    @Test
+    public void test10909() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10909");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.apache.lucene.search.Query query17 = nestedInnerQueryParseSupport1.innerQuery;
+        org.apache.lucene.search.Query query18 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query18;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(query17);
+    }
+
+    @Test
+    public void test10910() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10910");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.queryFound = true;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter17;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean21 = nestedInnerQueryParseSupport1.filterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper22 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(bytesReference16);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertNull(objectMapper22);
+    }
+
+    @Test
+    public void test10911() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10911");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter15;
+        boolean boolean17 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.Filter filter20 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertNull(queryParseContext18);
+        org.junit.Assert.assertNull(objectMapper19);
+        org.junit.Assert.assertNull(filter20);
+    }
+
+    @Test
+    public void test10912() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10912");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean19 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter20 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean22 = nestedInnerQueryParseSupport1.getqueryFound();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter20);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
+    }
+
+    @Test
+    public void test10913() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10913");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper14;
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter16;
+        // The following exception was thrown during execution in test generation
+        try {
+            org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.getInnerQuery();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10914() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10914");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter14);
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query16;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(objectMapper18);
+    }
+
+    @Test
+    public void test10915() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10915");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter6;
+        org.apache.lucene.search.Filter filter8 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter8);
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference10);
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test10916() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10916");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference7 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference7;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference13;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryFound;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+    }
+
+    @Test
+    public void test10917() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10917");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.apache.lucene.search.Filter filter5 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext7 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference8);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean12 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext13 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter14);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(filter5);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext7);
+        org.junit.Assert.assertNull(objectMapper10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(queryParseContext13);
+    }
+
+    @Test
+    public void test10918() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10918");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.source;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = nestedInnerQueryParseSupport1.getsource();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(bytesReference15);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(bytesReference17);
+    }
+
+    @Test
+    public void test10919() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10919");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper4;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = nestedInnerQueryParseSupport1.getparentFilter();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertNull(bitDocIdSetFilter9);
+    }
+
+    @Test
+    public void test10920() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10920");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean4 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query5;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.apache.lucene.search.Query query9 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query9;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext13 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(queryParseContext13);
+    }
+
+    @Test
+    public void test10921() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10921");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean11 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter12;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.getparentFilter();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass15 = bitDocIdSetFilter14.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+    }
+
+    @Test
+    public void test10922() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10922");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.queryParsed;
+        org.apache.lucene.search.Query query8 = nestedInnerQueryParseSupport1.innerQuery;
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+    }
+
+    @Test
+    public void test10923() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10923");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.source;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean17 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter19);
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(bytesReference15);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + true + "'", boolean17 == true);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+    }
+
+    @Test
+    public void test10924() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10924");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference9);
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Filter filter21 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter21;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertNull(query16);
+    }
+
+    @Test
+    public void test10925() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10925");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference9);
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper14;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.getparseContext();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext18 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Query query19 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query19;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertNull(queryParseContext17);
+        org.junit.Assert.assertNull(queryParseContext18);
+    }
+
+    @Test
+    public void test10926() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10926");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isNested();
+        boolean boolean5 = nested2.isNested();
+        boolean boolean6 = nested2.isIncludeInParent();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isIncludeInRoot();
+        boolean boolean9 = nested2.isNested();
+        boolean boolean10 = nested2.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+    }
+
+    @Test
+    public void test10927() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10927");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        boolean boolean6 = nestedInnerQueryParseSupport1.getfilterFound();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference13 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter15;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(bytesReference13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+    }
+
+    @Test
+    public void test10928() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10928");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        java.lang.String str14 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(filter7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+    }
+
+    @Test
+    public void test10929() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10929");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query5;
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter14;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(filter7);
+    }
+
+    @Test
+    public void test10930() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10930");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean4 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference10);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.Filter filter16 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.getparseContext();
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound();
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(filter16);
+        org.junit.Assert.assertNull(queryParseContext17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10931() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10931");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter6;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterFound;
+        org.junit.Assert.assertNull(bytesReference8);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+    }
+
+    @Test
+    public void test10932() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10932");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        java.lang.String str14 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Query query15 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter16;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertEquals("'" + str14 + "' != '" + "hi!" + "'", str14, "hi!");
+        org.junit.Assert.assertNull(query15);
+    }
+
+    @Test
+    public void test10933() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10933");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryParsed;
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+    }
+
+    @Test
+    public void test10934() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10934");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.parseContext;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(queryParseContext17);
+    }
+
+    @Test
+    public void test10935() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10935");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "hi!";
+        java.lang.String str14 = nestedInnerQueryParseSupport1.getPath();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference11);
+        org.junit.Assert.assertEquals("'" + str14 + "' != '" + "hi!" + "'", str14, "hi!");
+    }
+
+    @Test
+    public void test10936() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10936");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query4;
+        nestedInnerQueryParseSupport1.path = "";
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Filter filter9 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter9);
+        boolean boolean11 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        java.lang.String str15 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Filter filter16 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter16);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        boolean boolean19 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.common.bytes.BytesReference bytesReference20 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(query13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertEquals("'" + str15 + "' != '" + "" + "'", str15, "");
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+        org.junit.Assert.assertNull(bytesReference20);
+    }
+
+    @Test
+    public void test10937() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10937");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter10;
+        org.apache.lucene.search.Query query12 = nestedInnerQueryParseSupport1.innerQuery;
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean18 = nestedInnerQueryParseSupport1.getqueryParsed();
+        java.lang.String str19 = nestedInnerQueryParseSupport1.path;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter24 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter24;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(query12);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertEquals("'" + str19 + "' != '" + "nested" + "'", str19, "nested");
+    }
+
+    @Test
+    public void test10938() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10938");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.queryFound = true;
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        org.apache.lucene.search.Query query13 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(query13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+    }
+
+    @Test
+    public void test10939() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10939");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.childFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(filter13);
+    }
+
+    @Test
+    public void test10940() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10940");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference16);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(objectMapper13);
+    }
+
+    @Test
+    public void test10941() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10941");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean16 = nestedInnerQueryParseSupport1.getfilterFound();
+        java.lang.String str17 = nestedInnerQueryParseSupport1.path;
+        boolean boolean18 = nestedInnerQueryParseSupport1.queryFound;
+        nestedInnerQueryParseSupport1.setfilterFound(true);
+        org.elasticsearch.common.bytes.BytesReference bytesReference21 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference21);
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
+    }
+
+    @Test
+    public void test10942() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10942");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query15;
+        boolean boolean17 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean20 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean21 = nestedInnerQueryParseSupport1.getfilterParsed();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+    }
+
+    @Test
+    public void test10943() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10943");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryParsed;
+        boolean boolean16 = nestedInnerQueryParseSupport1.getfilterFound();
+        java.lang.String str17 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.path = "nested";
+        org.apache.lucene.search.Filter filter20 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter20);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(str17);
+    }
+
+    @Test
+    public void test10944() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10944");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean11 = nestedInnerQueryParseSupport1.filterParsed;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(query10);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+    }
+
+    @Test
+    public void test10945() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10945");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.queryFound = true;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter17;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean20 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(bytesReference16);
+        org.junit.Assert.assertNull(objectMapper19);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10946() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10946");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, false);
+        boolean boolean3 = nested2.isNested();
+        boolean boolean4 = nested2.isIncludeInParent();
+        boolean boolean5 = nested2.isNested();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+    }
+
+    @Test
+    public void test10947() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10947");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference12);
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean16 = nestedInnerQueryParseSupport1.filterFound;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.Filter filter19 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter19);
+        boolean boolean21 = nestedInnerQueryParseSupport1.filterFound();
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+    }
+
+    @Test
+    public void test10948() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10948");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter8);
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertNull(filter10);
+    }
+
+    @Test
+    public void test10949() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10949");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.Query query6 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean9 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference10);
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference12;
+        boolean boolean14 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query15;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext17 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper18;
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(queryParseContext17);
+    }
+
+    @Test
+    public void test10950() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10950");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        org.apache.lucene.search.Query query6 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query6;
+        org.apache.lucene.search.Query query8 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query8;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(bitDocIdSetFilter10);
+    }
+
+    @Test
+    public void test10951() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10951");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.path = "object";
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference19);
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+    }
+
+    @Test
+    public void test10952() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10952");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested0 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.NO;
+        boolean boolean1 = nested0.isIncludeInRoot();
+        boolean boolean2 = nested0.isNested();
+        boolean boolean3 = nested0.isNested();
+        boolean boolean4 = nested0.isIncludeInParent();
+        boolean boolean5 = nested0.isNested();
+        boolean boolean6 = nested0.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested0);
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+    }
+
+    @Test
+    public void test10953() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10953");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.path = "object";
+        boolean boolean19 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference20 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference20);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + false + "'", boolean19 == false);
+    }
+
+    @Test
+    public void test10954() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10954");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext15 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(queryParseContext15);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertNull(objectMapper19);
+    }
+
+    @Test
+    public void test10955() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10955");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter3 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter3);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext5 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter6);
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(queryParseContext5);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+    }
+
+    @Test
+    public void test10956() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10956");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query16;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter18;
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterFound();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference9);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+    }
+
+    @Test
+    public void test10957() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10957");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean5 = nestedInnerQueryParseSupport1.getqueryParsed();
+        nestedInnerQueryParseSupport1.path = "object";
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Query query10 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query10;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(objectMapper9);
+    }
+
+    @Test
+    public void test10958() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10958");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query19 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query19;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10959() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10959");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(queryParseContext12);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertNull(objectMapper14);
+    }
+
+    @Test
+    public void test10960() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10960");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean5 = nestedInnerQueryParseSupport1.getqueryFound();
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper7;
+        nestedInnerQueryParseSupport1.path = "object";
+        nestedInnerQueryParseSupport1.queryFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter13 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper14;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper19;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter13);
+        org.junit.Assert.assertNull(objectMapper16);
+    }
+
+    @Test
+    public void test10961() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10961");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = nestedInnerQueryParseSupport1.source;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.Filter filter18 = nestedInnerQueryParseSupport1.childFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertNull(bytesReference16);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(filter18);
+    }
+
+    @Test
+    public void test10962() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10962");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Filter filter12 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerQuery;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound();
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(filter12);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(query16);
+        org.junit.Assert.assertNull(bytesReference17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10963() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10963");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        java.lang.String str19 = nestedInnerQueryParseSupport1.path;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
+        org.junit.Assert.assertNull(str19);
+    }
+
+    @Test
+    public void test10964() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10964");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter7);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper9;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean14 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound();
+        org.junit.Assert.assertNull(filter4);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + true + "'", boolean14 == true);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+    }
+
+    @Test
+    public void test10965() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10965");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested2 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.newNested(true, true);
+        boolean boolean3 = nested2.isIncludeInParent();
+        boolean boolean4 = nested2.isIncludeInRoot();
+        boolean boolean5 = nested2.isIncludeInParent();
+        boolean boolean6 = nested2.isIncludeInRoot();
+        boolean boolean7 = nested2.isIncludeInRoot();
+        boolean boolean8 = nested2.isNested();
+        boolean boolean9 = nested2.isIncludeInParent();
+        boolean boolean10 = nested2.isNested();
+        boolean boolean11 = nested2.isIncludeInRoot();
+        boolean boolean12 = nested2.isIncludeInParent();
+        boolean boolean13 = nested2.isIncludeInParent();
+        org.junit.Assert.assertNotNull(nested2);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + true + "'", boolean4 == true);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + true + "'", boolean5 == true);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + true + "'", boolean6 == true);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + true + "'", boolean7 == true);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + true + "'", boolean9 == true);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + true + "'", boolean10 == true);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + true + "'", boolean11 == true);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+    }
+
+    @Test
+    public void test10966() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10966");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference17 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference17);
+        nestedInnerQueryParseSupport1.queryFound = false;
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper22 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference23 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference23);
+        org.apache.lucene.search.Query query25 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query25;
+        org.elasticsearch.common.bytes.BytesReference bytesReference27 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference27;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + false + "'", boolean21 == false);
+        org.junit.Assert.assertNull(objectMapper22);
+    }
+
+    @Test
+    public void test10967() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10967");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter7 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper8;
+        org.apache.lucene.search.Query query10 = nestedInnerQueryParseSupport1.innerFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.filterParsed = false;
+        org.apache.lucene.search.Filter filter15 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter15);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter7);
+        org.junit.Assert.assertNull(query10);
+    }
+
+    @Test
+    public void test10968() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10968");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Filter filter2 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.apache.lucene.search.Filter filter3 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter3);
+        org.apache.lucene.search.Query query5 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query5;
+        boolean boolean7 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean8 = nestedInnerQueryParseSupport1.filterFound;
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.filter();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(filter2);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+    }
+
+    @Test
+    public void test10969() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10969");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference9;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryParsed;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+    }
+
+    @Test
+    public void test10970() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10970");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        nestedInnerQueryParseSupport1.filterFound = false;
+        boolean boolean6 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper7 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference8 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference8);
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.getchildFilter();
+        nestedInnerQueryParseSupport1.path = "object";
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(objectMapper7);
+        org.junit.Assert.assertNull(filter10);
+    }
+
+    @Test
+    public void test10971() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10971");
+        org.elasticsearch.index.mapper.object.ObjectMapper.Nested nested0 = org.elasticsearch.index.mapper.object.ObjectMapper.Nested.NO;
+        boolean boolean1 = nested0.isIncludeInRoot();
+        boolean boolean2 = nested0.isNested();
+        boolean boolean3 = nested0.isIncludeInRoot();
+        boolean boolean4 = nested0.isIncludeInRoot();
+        boolean boolean5 = nested0.isIncludeInRoot();
+        boolean boolean6 = nested0.isIncludeInParent();
+        boolean boolean7 = nested0.isNested();
+        org.junit.Assert.assertNotNull(nested0);
+        org.junit.Assert.assertTrue("'" + boolean1 + "' != '" + false + "'", boolean1 == false);
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertTrue("'" + boolean5 + "' != '" + false + "'", boolean5 == false);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+    }
+
+    @Test
+    public void test10972() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10972");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query7 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query7;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.Query query15 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query15;
+        org.junit.Assert.assertNull(filter4);
+    }
+
+    @Test
+    public void test10973() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10973");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean13 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean14 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference16;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter21 = nestedInnerQueryParseSupport1.childFilter;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertNull(filter21);
+    }
+
+    @Test
+    public void test10974() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10974");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query14 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query14;
+        boolean boolean16 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Query query17 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query17;
+        boolean boolean19 = nestedInnerQueryParseSupport1.getqueryFound();
+        boolean boolean20 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean21 = nestedInnerQueryParseSupport1.queryFound;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + true + "'", boolean16 == true);
+        org.junit.Assert.assertTrue("'" + boolean19 + "' != '" + true + "'", boolean19 == true);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertTrue("'" + boolean21 + "' != '" + true + "'", boolean21 == true);
+    }
+
+    @Test
+    public void test10975() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10975");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean7 = nestedInnerQueryParseSupport1.queryParsed;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.apache.lucene.search.Query query9 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query9;
+        org.apache.lucene.search.Filter filter11 = nestedInnerQueryParseSupport1.childFilter;
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertNull(filter11);
+    }
+
+    @Test
+    public void test10976() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10976");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        boolean boolean7 = nestedInnerQueryParseSupport1.getfilterFound();
+        boolean boolean8 = nestedInnerQueryParseSupport1.getqueryFound();
+        // The following exception was thrown during execution in test generation
+        try {
+// flaky:             nestedInnerQueryParseSupport1.query();
+// flaky:             org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+    }
+
+    @Test
+    public void test10977() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10977");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference9 = nestedInnerQueryParseSupport1.getsource();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter10 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter10);
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper14 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Query query16 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query16;
+        boolean boolean18 = nestedInnerQueryParseSupport1.filterFound();
+        org.apache.lucene.search.Filter filter19 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Filter filter20 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter20);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bytesReference9);
+        org.junit.Assert.assertNull(objectMapper14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + false + "'", boolean18 == false);
+        org.junit.Assert.assertNull(filter19);
+    }
+
+    @Test
+    public void test10978() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10978");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Filter filter12 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter14);
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference16;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean20 = nestedInnerQueryParseSupport1.getfilterFound();
+        java.lang.String str21 = nestedInnerQueryParseSupport1.getPath();
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertTrue("'" + boolean20 + "' != '" + false + "'", boolean20 == false);
+        org.junit.Assert.assertEquals("'" + str21 + "' != '" + "" + "'", str21, "");
+    }
+
+    @Test
+    public void test10979() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10979");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference18 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference19);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(bytesReference18);
+    }
+
+    @Test
+    public void test10980() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10980");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        boolean boolean6 = nestedInnerQueryParseSupport1.getqueryParsed();
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean8 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext10 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertNull(queryParseContext10);
+    }
+
+    @Test
+    public void test10981() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10981");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        org.elasticsearch.common.bytes.BytesReference bytesReference11 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference11;
+        org.apache.lucene.search.Filter filter13 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean14 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(filter13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(filter15);
+    }
+
+    @Test
+    public void test10982() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10982");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference10);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper15 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        java.lang.String str16 = nestedInnerQueryParseSupport1.path;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.innerFilter;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(bitDocIdSetFilter12);
+        org.junit.Assert.assertNull(objectMapper15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(objectMapper17);
+        org.junit.Assert.assertNull(query18);
+    }
+
+    @Test
+    public void test10983() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10983");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Query query4 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query4;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper8 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.apache.lucene.search.Filter filter9 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter9);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryParsed;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPath("object");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertNull(objectMapper8);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+    }
+
+    @Test
+    public void test10984() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10984");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.common.bytes.BytesReference bytesReference6 = nestedInnerQueryParseSupport1.getsource();
+        boolean boolean7 = nestedInnerQueryParseSupport1.getqueryFound();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        boolean boolean10 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        nestedInnerQueryParseSupport1.setfilterFound(false);
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter17 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        org.elasticsearch.common.bytes.BytesReference bytesReference19 = nestedInnerQueryParseSupport1.source;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter20 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter20);
+        org.junit.Assert.assertNull(bytesReference6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter17);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertNull(bytesReference19);
+    }
+
+    @Test
+    public void test10985() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10985");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.apache.lucene.search.Query query6 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query6;
+        boolean boolean8 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.Filter filter10 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter10);
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter13;
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + false + "'", boolean8 == false);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+    }
+
+    @Test
+    public void test10986() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10986");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter9;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
+    }
+
+    @Test
+    public void test10987() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10987");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper6 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper6;
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        boolean boolean10 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = null;
+        nestedInnerQueryParseSupport1.parentFilter = bitDocIdSetFilter11;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.queryFound = false;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper19 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper19;
+        nestedInnerQueryParseSupport1.setqueryParsed(true);
+        org.apache.lucene.search.Query query23 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query23;
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+    }
+
+    @Test
+    public void test10988() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10988");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.getparentFilter();
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        nestedInnerQueryParseSupport1.setfilterParsed(false);
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Query query16 = nestedInnerQueryParseSupport1.innerQuery;
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertNull(query16);
+    }
+
+    @Test
+    public void test10989() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10989");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter9 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter9);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter11 = nestedInnerQueryParseSupport1.parentFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        boolean boolean14 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Filter filter15 = nestedInnerQueryParseSupport1.getchildFilter();
+        org.elasticsearch.common.bytes.BytesReference bytesReference16 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference16;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter18 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(bitDocIdSetFilter11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + true + "'", boolean12 == true);
+        org.junit.Assert.assertNull(objectMapper13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(filter15);
+        org.junit.Assert.assertNull(bitDocIdSetFilter18);
+    }
+
+    @Test
+    public void test10990() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10990");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.apache.lucene.search.Query query9 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper10 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper10;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext12 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper13 = null;
+        nestedInnerQueryParseSupport1.parentObjectMapper = objectMapper13;
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.resetPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(query9);
+        org.junit.Assert.assertNull(queryParseContext12);
+    }
+
+    @Test
+    public void test10991() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10991");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Filter filter3 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.filterFound = true;
+        boolean boolean6 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.Filter filter7 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter7;
+        nestedInnerQueryParseSupport1.path = "hi!";
+        org.apache.lucene.search.Query query11 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean12 = nestedInnerQueryParseSupport1.filterParsed;
+        org.apache.lucene.search.Query query13 = null;
+        nestedInnerQueryParseSupport1.innerQuery = query13;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNull(filter3);
+        org.junit.Assert.assertTrue("'" + boolean6 + "' != '" + false + "'", boolean6 == false);
+        org.junit.Assert.assertNull(query11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+    }
+
+    @Test
+    public void test10992() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10992");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = nestedInnerQueryParseSupport1.getsource();
+        java.lang.String str11 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper12 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext13 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter14 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter14;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper16 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.filterFound = false;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = nestedInnerQueryParseSupport1.getparentFilter();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference21 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.queryParsed = true;
+        boolean boolean24 = nestedInnerQueryParseSupport1.getqueryFound();
+        org.apache.lucene.search.Query query25 = nestedInnerQueryParseSupport1.innerFilter;
+        boolean boolean26 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter27 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter27);
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertNull(bytesReference10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(objectMapper12);
+        org.junit.Assert.assertNull(queryParseContext13);
+        org.junit.Assert.assertNull(objectMapper16);
+        org.junit.Assert.assertNull(bitDocIdSetFilter19);
+        org.junit.Assert.assertNull(objectMapper20);
+        org.junit.Assert.assertNull(bytesReference21);
+        org.junit.Assert.assertTrue("'" + boolean24 + "' != '" + false + "'", boolean24 == false);
+        org.junit.Assert.assertNull(query25);
+        org.junit.Assert.assertTrue("'" + boolean26 + "' != '" + false + "'", boolean26 == false);
+    }
+
+    @Test
+    public void test10993() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10993");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        boolean boolean2 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean3 = nestedInnerQueryParseSupport1.queryFound();
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext5 = nestedInnerQueryParseSupport1.parseContext;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter6 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean7 = nestedInnerQueryParseSupport1.filterParsed;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.common.bytes.BytesReference bytesReference10 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference10;
+        org.apache.lucene.search.Filter filter12 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter12;
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + false + "'", boolean3 == false);
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(queryParseContext5);
+        org.junit.Assert.assertNull(bitDocIdSetFilter6);
+        org.junit.Assert.assertTrue("'" + boolean7 + "' != '" + false + "'", boolean7 == false);
+    }
+
+    @Test
+    public void test10994() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10994");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = null;
+        nestedInnerQueryParseSupport1.setsource(bytesReference15);
+        org.apache.lucene.search.Filter filter17 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter17;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+    }
+
+    @Test
+    public void test10995() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10995");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference4;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.getparseContext();
+        nestedInnerQueryParseSupport1.setqueryParsed(false);
+        boolean boolean9 = nestedInnerQueryParseSupport1.filterFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        boolean boolean11 = nestedInnerQueryParseSupport1.queryFound();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter12 = null;
+        nestedInnerQueryParseSupport1.setparentFilter(bitDocIdSetFilter12);
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter14 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter15 = nestedInnerQueryParseSupport1.parentFilter;
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper18 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter19 = nestedInnerQueryParseSupport1.parentFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper20 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        java.lang.String str21 = nestedInnerQueryParseSupport1.getPath();
+        org.apache.lucene.search.Filter filter22 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter22;
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter14);
+        org.junit.Assert.assertNull(bitDocIdSetFilter15);
+        org.junit.Assert.assertNull(objectMapper18);
+        org.junit.Assert.assertNull(bitDocIdSetFilter19);
+        org.junit.Assert.assertNull(objectMapper20);
+        org.junit.Assert.assertNull(str21);
+    }
+
+    @Test
+    public void test10996() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10996");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.common.bytes.BytesReference bytesReference4 = nestedInnerQueryParseSupport1.getsource();
+        nestedInnerQueryParseSupport1.path = "nested";
+        nestedInnerQueryParseSupport1.path = "";
+        org.apache.lucene.search.Filter filter9 = nestedInnerQueryParseSupport1.childFilter;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        nestedInnerQueryParseSupport1.filterParsed = true;
+        org.apache.lucene.search.Query query14 = nestedInnerQueryParseSupport1.innerQuery;
+        boolean boolean15 = nestedInnerQueryParseSupport1.queryFound;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext16 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.setqueryFound(true);
+        org.junit.Assert.assertNull(bytesReference4);
+        org.junit.Assert.assertNull(filter9);
+        org.junit.Assert.assertNull(query14);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + true + "'", boolean15 == true);
+        org.junit.Assert.assertNull(queryParseContext16);
+    }
+
+    @Test
+    public void test10997() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10997");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        boolean boolean4 = nestedInnerQueryParseSupport1.getfilterFound();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper5 = nestedInnerQueryParseSupport1.getParentObjectMapper();
+        java.lang.String str6 = nestedInnerQueryParseSupport1.getPath();
+        java.lang.String str7 = nestedInnerQueryParseSupport1.path;
+        org.apache.lucene.search.Filter filter8 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper9 = nestedInnerQueryParseSupport1.parentObjectMapper;
+        nestedInnerQueryParseSupport1.queryParsed = false;
+        org.elasticsearch.common.bytes.BytesReference bytesReference12 = nestedInnerQueryParseSupport1.source;
+        java.lang.String str13 = nestedInnerQueryParseSupport1.getPath();
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterFound;
+        java.lang.String str15 = nestedInnerQueryParseSupport1.getPath();
+        org.elasticsearch.index.query.QueryParseContext queryParseContext16 = nestedInnerQueryParseSupport1.parseContext;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper17 = nestedInnerQueryParseSupport1.getNestedObjectMapper();
+        // The following exception was thrown during execution in test generation
+        try {
+            nestedInnerQueryParseSupport1.setPathLevel();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertTrue("'" + boolean4 + "' != '" + false + "'", boolean4 == false);
+        org.junit.Assert.assertNull(objectMapper5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(filter8);
+        org.junit.Assert.assertNull(objectMapper9);
+        org.junit.Assert.assertNull(bytesReference12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNull(queryParseContext16);
+        org.junit.Assert.assertNull(objectMapper17);
+    }
+
+    @Test
+    public void test10998() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10998");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.apache.lucene.search.Query query2 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query2;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper4 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        org.elasticsearch.common.bytes.BytesReference bytesReference5 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference5;
+        org.apache.lucene.search.Query query7 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter8 = nestedInnerQueryParseSupport1.getparentFilter();
+        boolean boolean9 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean10 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = nestedInnerQueryParseSupport1.nestedObjectMapper;
+        boolean boolean12 = nestedInnerQueryParseSupport1.queryFound;
+        org.apache.lucene.search.Filter filter13 = null;
+        nestedInnerQueryParseSupport1.setchildFilter(filter13);
+        org.elasticsearch.common.bytes.BytesReference bytesReference15 = nestedInnerQueryParseSupport1.source;
+        org.junit.Assert.assertNull(objectMapper4);
+        org.junit.Assert.assertNull(query7);
+        org.junit.Assert.assertNull(bitDocIdSetFilter8);
+        org.junit.Assert.assertTrue("'" + boolean9 + "' != '" + false + "'", boolean9 == false);
+        org.junit.Assert.assertTrue("'" + boolean10 + "' != '" + false + "'", boolean10 == false);
+        org.junit.Assert.assertNull(objectMapper11);
+        org.junit.Assert.assertTrue("'" + boolean12 + "' != '" + false + "'", boolean12 == false);
+        org.junit.Assert.assertNull(bytesReference15);
+    }
+
+    @Test
+    public void test10999() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test10999");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        org.elasticsearch.common.bytes.BytesReference bytesReference2 = null;
+        nestedInnerQueryParseSupport1.source = bytesReference2;
+        nestedInnerQueryParseSupport1.setqueryFound(false);
+        org.elasticsearch.index.query.QueryParseContext queryParseContext6 = nestedInnerQueryParseSupport1.parseContext;
+        nestedInnerQueryParseSupport1.queryFound = true;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext9 = nestedInnerQueryParseSupport1.getparseContext();
+        org.apache.lucene.search.Filter filter10 = nestedInnerQueryParseSupport1.childFilter;
+        org.elasticsearch.index.mapper.object.ObjectMapper objectMapper11 = null;
+        nestedInnerQueryParseSupport1.nestedObjectMapper = objectMapper11;
+        boolean boolean13 = nestedInnerQueryParseSupport1.queryFound;
+        boolean boolean14 = nestedInnerQueryParseSupport1.filterParsed;
+        boolean boolean15 = nestedInnerQueryParseSupport1.getqueryParsed();
+        org.apache.lucene.search.join.BitDocIdSetFilter bitDocIdSetFilter16 = nestedInnerQueryParseSupport1.parentFilter;
+        org.apache.lucene.search.Query query17 = nestedInnerQueryParseSupport1.innerFilter;
+        org.apache.lucene.search.Query query18 = nestedInnerQueryParseSupport1.innerFilter;
+        org.elasticsearch.index.query.QueryParseContext queryParseContext19 = nestedInnerQueryParseSupport1.getparseContext();
+        org.junit.Assert.assertNull(queryParseContext6);
+        org.junit.Assert.assertNull(queryParseContext9);
+        org.junit.Assert.assertNull(filter10);
+        org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + true + "'", boolean13 == true);
+        org.junit.Assert.assertTrue("'" + boolean14 + "' != '" + false + "'", boolean14 == false);
+        org.junit.Assert.assertTrue("'" + boolean15 + "' != '" + false + "'", boolean15 == false);
+        org.junit.Assert.assertNull(bitDocIdSetFilter16);
+        org.junit.Assert.assertNull(query17);
+        org.junit.Assert.assertNull(query18);
+        org.junit.Assert.assertNull(queryParseContext19);
+    }
+
+    @Test
+    public void test11000() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest21.test11000");
+        org.elasticsearch.index.query.QueryParseContext queryParseContext0 = null;
+        org.elasticsearch.index.query.support.NestedInnerQueryParseSupport nestedInnerQueryParseSupport1 = new org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(queryParseContext0);
+        nestedInnerQueryParseSupport1.setfilterParsed(true);
+        org.apache.lucene.search.Filter filter4 = null;
+        nestedInnerQueryParseSupport1.childFilter = filter4;
+        org.apache.lucene.search.Filter filter6 = nestedInnerQueryParseSupport1.childFilter;
+        org.apache.lucene.search.Filter filter7 = nestedInnerQueryParseSupport1.getchildFilter();
+        boolean boolean8 = nestedInnerQueryParseSupport1.getfilterParsed();
+        org.apache.lucene.search.Query query9 = null;
+        nestedInnerQueryParseSupport1.innerFilter = query9;
+        org.junit.Assert.assertNull(filter6);
+        org.junit.Assert.assertNull(filter7);
+        org.junit.Assert.assertTrue("'" + boolean8 + "' != '" + true + "'", boolean8 == true);
+    }
+}

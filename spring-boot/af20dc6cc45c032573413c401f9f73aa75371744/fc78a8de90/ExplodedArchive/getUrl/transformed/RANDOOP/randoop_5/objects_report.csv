@@ -1,0 +1,25 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.util.Comparator$$Lambda$201/365926255,13331,1,1.3264676616915423,9.950248756218905E-5
+class java.io.File,17008,6,1.6923383084577115,5.970149253731343E-4
+class org.springframework.boot.loader.archive.ExplodedArchive$FileEntry,2831,66,0.2816915422885572,0.006567164179104477
+class org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator,40552,34530,4.0350248756218905,3.435820895522388
+class java.util.Collections$UnmodifiableRandomAccessList,805,1,0.08009950248756219,9.950248756218905E-5
+class java.lang.Boolean,18922,2,1.8827860696517413,1.990049751243781E-4
+class sun.net.www.protocol.file.FileURLConnection,991,991,0.09860696517412935,0.09860696517412935
+class java.util.Collections$ReverseComparator2,787,637,0.07830845771144279,0.06338308457711443
+class java.util.Spliterators$IteratorSpliterator,1503,1503,0.14955223880597016,0.14955223880597016
+class java.lang.String,15816,34,1.573731343283582,0.003383084577114428
+class sun.net.www.protocol.ftp.FtpURLConnection,33,33,0.0032835820895522386,0.0032835820895522386
+class java.util.LinkedList,36827,1,3.6643781094527363,9.950248756218905E-5
+class org.springframework.boot.loader.archive.ExplodedArchive,18364,16,1.8272636815920398,0.0015920398009950248
+class java.net.URL,10934,80,1.0879601990049752,0.007960199004975124
+class java.util.LinkedHashSet,14,12,0.0013930348258706469,0.0011940298507462687
+class java.net.URI,1227,13,0.12208955223880597,0.0012935323383084577
+class java.util.Collections$EmptyIterator,2959,1,0.29442786069651744,9.950248756218905E-5
+class [Ljava.lang.String;,14,12,0.0013930348258706469,0.0011940298507462687
+class java.util.ArrayDeque,142,1,0.014129353233830846,9.950248756218905E-5
+class java.lang.Class,369,15,0.03671641791044776,0.0014925373134328358
+class java.lang.Integer,4680,6,0.46567164179104475,5.970149253731343E-4
+class java.lang.Object,1,1,9.950248756218905E-5,9.950248756218905E-5
+class org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator$EntryComparator,32631,1,3.246865671641791,9.950248756218905E-5
+class [Ljava.lang.Class;,103,41,0.010248756218905473,0.004079601990049751

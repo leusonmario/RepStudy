@@ -1,0 +1,12 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static void com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization.initialize(com.thinkaurelius.titan.graphdb.database.serialize.Serializer)",24,0.18461538461538463
+"public static int com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization.RESERVED_ID_OFFSET",1,0.007692307692307693
+"com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer(boolean)",85,0.6538461538461539
+"public static int com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization.RESERVED_ID_OFFSET",20,0.15384615384615385
+"com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization()",1,0.007692307692307693
+"public static int com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization.KRYO_OFFSET",20,0.15384615384615385
+"public static int com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization.KRYO_OFFSET",1,0.007692307692307693
+"java.lang.Object()",1,0.007692307692307693
+"public final native java.lang.Class java.lang.Object.getClass()",26,0.2
+"public java.lang.Object com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer.readClassAndObject(com.thinkaurelius.titan.diskstorage.ReadBuffer)",18,0.13846153846153847
+"public com.thinkaurelius.titan.graphdb.database.serialize.DataOutput com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer.getDataOutput(int,boolean)",225,1.7307692307692308

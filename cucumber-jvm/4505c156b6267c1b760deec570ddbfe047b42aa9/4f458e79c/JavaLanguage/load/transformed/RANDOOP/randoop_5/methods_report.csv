@@ -1,0 +1,18 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void cuke4duke.internal.language.ProgrammingLanguage.addStepDefinition(cuke4duke.internal.language.StepDefinition)",2299,0.08523022169496552
+"public void cuke4duke.internal.java.JavaLanguage.end_scenario()",2473,0.09168087788240528
+"cuke4duke.internal.java.JavaLanguage(cuke4duke.internal.language.LanguageMixin)",1,3.707273670942389E-5
+"cuke4duke.internal.java.JavaLanguage()",205334,7.612293319492845
+"public cuke4duke.internal.language.LanguageMixin cuke4duke.internal.java.JavaLanguage.languageMixin",116084,4.303551568176763
+"public cuke4duke.internal.language.LanguageMixin cuke4duke.internal.java.JavaLanguage.languageMixin",69778,2.58686142211018
+"public void cuke4duke.internal.java.JavaLanguage.registerBeforeMaybe(java.lang.reflect.Method)",2386,0.0884555497886854
+"public void cuke4duke.internal.java.JavaLanguage.registerAfterMaybe(java.lang.reflect.Method)",2393,0.08871505894565136
+"public void cuke4duke.internal.java.JavaLanguage.begin_scenario()",2419,0.08967895010009638
+"public java.util.List cuke4duke.internal.language.ProgrammingLanguage.step_definitions_for(java.lang.String) throws java.lang.Exception",2742,0.1016534440572403
+"public void cuke4duke.internal.java.JavaLanguage.registerStepDefinitionsFor(java.lang.Class)",178524,6.6183732483131905
+"public cuke4duke.internal.java.ObjectFactory cuke4duke.internal.java.JavaLanguage.objectFactory",173880,6.446207459034626
+"public java.lang.Class cuke4duke.internal.java.JavaLanguage.loadClass(java.lang.String) throws java.lang.ClassNotFoundException",2710,0.10046711648253874
+"public cuke4duke.internal.java.ObjectFactory cuke4duke.internal.java.JavaLanguage.objectFactory",98319,3.6449544005338472
+"public final native java.lang.Class java.lang.Object.getClass()",106864,3.9617409357158744
+"public void cuke4duke.internal.java.JavaLanguage.registerStepDefinitionMaybe(java.lang.reflect.Method)",2431,0.09012382294060947
+"public void cuke4duke.internal.java.JavaLanguage.load(java.lang.String) throws java.lang.ClassNotFoundException",2679,0.0993178616445466

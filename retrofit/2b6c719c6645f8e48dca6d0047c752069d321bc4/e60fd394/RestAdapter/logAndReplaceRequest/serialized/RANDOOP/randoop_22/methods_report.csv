@@ -1,0 +1,78 @@
+Methods called,Number of times,Number of times (Normalized)
+"public retrofit.RestAdapter retrofit.SerializedObjectSupporter.deserializeObjectLogLevel3() throws java.io.IOException",1,0.006289308176100629
+"retrofit.client.Header[0]",16,0.10062893081761007
+"public abstract void retrofit.RestAdapter$Log.log(java.lang.String)",44,0.27672955974842767
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setExecutors(java.util.concurrent.Executor,java.util.concurrent.Executor)",13,0.08176100628930817
+"public retrofit.RestAdapter retrofit.SerializedObjectSupporter.deserializeObjectLogLevel1() throws java.io.IOException",1,0.006289308176100629
+"public void retrofit.RestAdapter$Builder.sethttpExecutor(java.util.concurrent.Executor)",41,0.2578616352201258
+"public static final java.lang.String retrofit.RestAdapter.IDLE_THREAD_NAME",1,0.006289308176100629
+"public retrofit.client.Client$Provider retrofit.RestAdapter$Builder.clientProvider",41,0.2578616352201258
+"public retrofit.client.Client$Provider retrofit.RestAdapter$Builder.clientProvider",32,0.20125786163522014
+"public java.lang.String retrofit.client.Request.getMethod()",6,0.03773584905660377
+"public java.util.concurrent.Executor retrofit.RestAdapter$Builder.getcallbackExecutor()",6,0.03773584905660377
+"public retrofit.client.Response retrofit.SerializedObjectSupporter.deserializeObjectResponse2() throws java.io.IOException",1,0.006289308176100629
+"NONE",2,0.012578616352201259
+"public java.lang.String retrofit.SerializedObjectSupporter.deserializeObjectString8() throws java.io.IOException",2,0.012578616352201259
+"public retrofit.client.Response retrofit.SerializedObjectSupporter.deserializeObjectResponse3() throws java.io.IOException",1,0.006289308176100629
+"public java.lang.String retrofit.SerializedObjectSupporter.deserializeObjectString9() throws java.io.IOException",1,0.006289308176100629
+"public retrofit.client.Response retrofit.SerializedObjectSupporter.deserializeObjectResponse7() throws java.io.IOException",2,0.012578616352201259
+"public static final int retrofit.RestAdapter.LOG_CHUNK_SIZE",1,0.006289308176100629
+"public java.lang.Long retrofit.SerializedObjectSupporter.deserializeObjectLong3() throws java.io.IOException",2,0.012578616352201259
+"public java.lang.String retrofit.SerializedObjectSupporter.deserializeObjectString3() throws java.io.IOException",3,0.018867924528301886
+"public java.lang.String retrofit.SerializedObjectSupporter.deserializeObjectString1() throws java.io.IOException",1,0.006289308176100629
+"public retrofit.Server retrofit.RestAdapter$Builder.server",20,0.12578616352201258
+"public retrofit.RequestInterceptor retrofit.SerializedObjectSupporter.deserializeObjectRequestInterceptor1() throws java.io.IOException",1,0.006289308176100629
+"public retrofit.Server retrofit.RestAdapter$Builder.server",1,0.006289308176100629
+"public java.lang.String retrofit.SerializedObjectSupporter.deserializeObjectString10() throws java.io.IOException",5,0.031446540880503145
+"public retrofit.RestAdapter$Log retrofit.RestAdapter$Builder.log",10,0.06289308176100629
+"public retrofit.RestAdapter$Log retrofit.RestAdapter$Builder.log",6,0.03773584905660377
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setLogLevel(retrofit.RestAdapter$LogLevel)",8,0.050314465408805034
+"public retrofit.SerializedObjectSupporter retrofit.RestAdapter$Builder.serializedObjectSupporter",92,0.5786163522012578
+"public retrofit.SerializedObjectSupporter retrofit.RestAdapter$Builder.serializedObjectSupporter",18,0.11320754716981132
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",16,0.10062893081761007
+"public retrofit.RequestInterceptor retrofit.RestAdapter$Builder.requestInterceptor",10,0.06289308176100629
+"public boolean retrofit.RestAdapter$LogLevel.log()",20,0.12578616352201258
+"public retrofit.RequestInterceptor retrofit.RestAdapter$Builder.requestInterceptor",1,0.006289308176100629
+"public java.lang.Class retrofit.SerializedObjectSupporter.deserializeObjectClass1() throws java.io.IOException",1,0.006289308176100629
+"public static final java.lang.String retrofit.RestAdapter.THREAD_PREFIX",1,0.006289308176100629
+"public retrofit.client.Client$Provider retrofit.RestAdapter$Builder.getclientProvider()",11,0.06918238993710692
+"retrofit.SerializedObjectSupporter()",99,0.6226415094339622
+"public retrofit.RestAdapter$LogLevel retrofit.RestAdapter$Builder.logLevel",9,0.05660377358490566
+"public retrofit.RestAdapter$LogLevel retrofit.RestAdapter$Builder.logLevel",21,0.1320754716981132
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setProfiler(retrofit.Profiler)",11,0.06918238993710692
+"public java.util.concurrent.Executor retrofit.RestAdapter$Builder.httpExecutor",31,0.1949685534591195
+"public java.util.concurrent.Executor retrofit.RestAdapter$Builder.httpExecutor",14,0.0880503144654088
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setLog(retrofit.RestAdapter$Log)",28,0.1761006289308176
+"public void retrofit.RestAdapter$Builder.setclientProvider(retrofit.client.Client$Provider)",11,0.06918238993710692
+"public retrofit.Profiler retrofit.RestAdapter$Builder.profiler",9,0.05660377358490566
+"public retrofit.Profiler retrofit.RestAdapter$Builder.profiler",27,0.16981132075471697
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter6() throws java.io.IOException",1,0.006289308176100629
+"public void retrofit.RestAdapter$Builder.ensureSaneDefaults()",7,0.0440251572327044
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setServer(java.lang.String)",8,0.050314465408805034
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter7() throws java.io.IOException",2,0.012578616352201259
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter2() throws java.io.IOException",3,0.018867924528301886
+"java.util.ArrayList()",16,0.10062893081761007
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter1() throws java.io.IOException",2,0.012578616352201259
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setClient(retrofit.client.Client)",7,0.0440251572327044
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setClient(retrofit.client.Client$Provider)",1,0.006289308176100629
+"retrofit.RestAdapter$RestHandler(retrofit.RestAdapter)",2,0.012578616352201259
+"BASIC",1,0.006289308176100629
+"public retrofit.ErrorHandler retrofit.RestAdapter$Builder.errorHandler",12,0.07547169811320754
+"public retrofit.ErrorHandler retrofit.RestAdapter$Builder.errorHandler",1,0.006289308176100629
+"public final native java.lang.Class java.lang.Object.getClass()",2,0.012578616352201259
+"public java.util.concurrent.Executor retrofit.RestAdapter$Builder.gethttpExecutor()",5,0.031446540880503145
+"retrofit.RestAdapter$Builder()",125,0.7861635220125787
+"HEADERS",17,0.1069182389937107
+"public retrofit.converter.Converter retrofit.RestAdapter$Builder.converter",6,0.03773584905660377
+"public retrofit.converter.Converter retrofit.RestAdapter$Builder.converter",1,0.006289308176100629
+"public void retrofit.RestAdapter$Builder.setcallbackExecutor(java.util.concurrent.Executor)",3,0.018867924528301886
+"public java.lang.String retrofit.client.Request.getUrl()",11,0.06918238993710692
+"public java.util.concurrent.Executor retrofit.RestAdapter$Builder.callbackExecutor",64,0.4025157232704403
+"public java.util.concurrent.Executor retrofit.RestAdapter$Builder.callbackExecutor",16,0.10062893081761007
+"public retrofit.RestAdapter retrofit.RestAdapter$Builder.build()",7,0.0440251572327044
+"retrofit.client.Request(java.lang.String, java.lang.String, java.util.List, retrofit.mime.TypedOutput)",26,0.16352201257861634
+"public static final retrofit.RestAdapter$Log retrofit.RestAdapter$Log.NONE",36,0.22641509433962265
+"public retrofit.Server retrofit.SerializedObjectSupporter.deserializeObjectServer1() throws java.io.IOException",1,0.006289308176100629
+"public retrofit.mime.TypedOutput retrofit.client.Request.getBody()",12,0.07547169811320754
+"FULL",1,0.006289308176100629
+"public java.util.List retrofit.client.Request.getHeaders()",6,0.03773584905660377

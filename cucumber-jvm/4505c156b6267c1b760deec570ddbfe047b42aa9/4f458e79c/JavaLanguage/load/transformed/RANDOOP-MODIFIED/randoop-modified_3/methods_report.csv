@@ -1,0 +1,19 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void cuke4duke.internal.language.ProgrammingLanguage.addStepDefinition(cuke4duke.internal.language.StepDefinition)",2426,0.08636832923920396
+"public void cuke4duke.internal.java.JavaLanguage.end_scenario()",2510,0.08935882373883015
+"cuke4duke.internal.java.JavaLanguage()",148913,5.301470326462316
+"cuke4duke.internal.java.JavaLanguage(cuke4duke.internal.language.LanguageMixin)",1,3.560112499554986E-5
+"public cuke4duke.internal.language.LanguageMixin cuke4duke.internal.java.JavaLanguage.languageMixin",167670,5.969240628003845
+"public cuke4duke.internal.language.LanguageMixin cuke4duke.internal.java.JavaLanguage.languageMixin",120768,4.299476663462565
+"public void cuke4duke.internal.java.JavaLanguage.begin_scenario()",2494,0.08878920573890135
+"public void cuke4duke.internal.java.JavaLanguage.registerBeforeMaybe(java.lang.reflect.Method)",2479,0.0882551888639681
+"public void cuke4duke.internal.java.JavaLanguage.registerAfterMaybe(java.lang.reflect.Method)",2554,0.09092527323863434
+"public java.util.List cuke4duke.internal.language.ProgrammingLanguage.step_definitions_for(java.lang.String) throws java.lang.Exception",2815,0.10021716686247285
+"public void cuke4duke.internal.java.JavaLanguage.registerStepDefinitionsFor(java.lang.Class)",120996,4.307593719961551
+"public cuke4duke.internal.java.ObjectFactory cuke4duke.internal.java.JavaLanguage.objectFactory",194771,6.934066716508242
+"public java.lang.Class cuke4duke.internal.java.JavaLanguage.loadClass(java.lang.String) throws java.lang.ClassNotFoundException",2780,0.09897112748762861
+"public cuke4duke.internal.java.ObjectFactory cuke4duke.internal.java.JavaLanguage.objectFactory",94860,3.3771227170778597
+"public void cuke4duke.internal.java.JavaLanguage.registerStepDefinitionMaybe(java.lang.reflect.Method)",2515,0.0895368293638079
+"public void cuke4duke.internal.java.JavaLanguage.load(java.lang.String) throws java.lang.ClassNotFoundException",2767,0.09850831286268646
+"public final native java.lang.Class java.lang.Object.getClass()",64025,2.27936202784008
+"java.lang.Object()",1,3.560112499554986E-5

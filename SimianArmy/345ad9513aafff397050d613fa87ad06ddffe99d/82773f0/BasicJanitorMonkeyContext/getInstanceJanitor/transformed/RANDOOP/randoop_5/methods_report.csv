@@ -1,0 +1,89 @@
+Methods called,Number of times,Number of times (Normalized)
+"public com.netflix.simianarmy.ResourceType com.netflix.simianarmy.janitor.AbstractJanitor.getResourceType()",4,0.02702702702702703
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorResourceTracker()",4,0.02702702702702703
+"public com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.sesClient",149,1.0067567567567568
+"public com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.sesClient",4,0.02702702702702703
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.calendar()",4,0.02702702702702703
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.recorder()",3,0.02027027027027027
+"public com.netflix.simianarmy.CloudClient com.netflix.simianarmy.basic.BasicSimianArmyContext.cloudClient()",2,0.013513513513513514
+"public java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.getEventReport()",128,0.8648648648648649
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.monkeyRegion",174,1.1756756756756757
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.monkeyRegion",17,0.11486486486486487
+"public int com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.daysBeforeTermination",2,0.013513513513513514
+"public int com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.daysBeforeTermination",3,0.02027027027027027
+"public java.util.List com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitors()",18,0.12162162162162163
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitorResourceTracker",13,0.08783783783783784
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitorResourceTracker",45,0.30405405405405406
+"public com.netflix.simianarmy.aws.janitor.EBSVolumeJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getEBSVolumeJanitor()",2,0.013513513513513514
+"public java.util.Set com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getEnabledResourceSet()",9,0.060810810810810814
+"public com.netflix.simianarmy.janitor.JanitorCrawler com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorCrawler()",1,0.006756756756756757
+"public java.util.Collection com.netflix.simianarmy.janitor.AbstractJanitor.getMarkedResources()",3,0.02027027027027027
+"public java.lang.String[] com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.ccEmails",6,0.04054054054054054
+"public java.lang.String[] com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.ccEmails",4,0.02702702702702703
+"public java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.region()",2,0.013513513513513514
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.configuration()",2,0.013513513513513514
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.resourceTracker()",18,0.12162162162162163
+"public com.netflix.simianarmy.janitor.JanitorEmailBuilder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitorEmailBuilder",8,0.05405405405405406
+"public com.netflix.simianarmy.janitor.JanitorEmailBuilder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitorEmailBuilder",10,0.06756756756756757
+"public java.lang.String com.netflix.simianarmy.janitor.AbstractJanitor.getRegion()",2,0.013513513513513514
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.calendar",5,0.033783783783783786
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.calendar",1,0.006756756756756757
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.recorder",2,0.013513513513513514
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.recorder",4,0.02702702702702703
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.emailNotifier()",45,0.30405405405405406
+"public com.netflix.simianarmy.aws.janitor.LaunchConfigJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getLaunchConfigJanitor()",16,0.10810810810810811
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.config",2,0.013513513513513514
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.config",2,0.013513513513513514
+"public com.netflix.simianarmy.aws.janitor.ASGJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getASGJanitor()",36,0.24324324324324326
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.ownerEmailDomain",7,0.0472972972972973
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.ownerEmailDomain",9,0.060810810810810814
+"public void com.netflix.simianarmy.janitor.AbstractJanitor.cleanupResources()",2,0.013513513513513514
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.sourceEmail",25,0.16891891891891891
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.sourceEmail",2,0.013513513513513514
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.exportCredentials(java.lang.String,java.lang.String)",15,0.10135135135135136
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.resourceTracker",23,0.1554054054054054
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.resourceTracker",1,0.006756756756756757
+"public java.util.Collection com.netflix.simianarmy.janitor.AbstractJanitor.getFailedToCleanResources()",3,0.02027027027027027
+"public static org.slf4j.Logger com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.LOGGER",1,0.006756756756756757
+"public static org.slf4j.Logger com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.LOGGER",3,0.02027027027027027
+"public java.util.Collection com.netflix.simianarmy.janitor.AbstractJanitor.getUnmarkedResources()",9,0.060810810810810814
+"public com.netflix.simianarmy.MonkeyScheduler com.netflix.simianarmy.basic.BasicSimianArmyContext.scheduler()",5,0.033783783783783786
+"public com.netflix.simianarmy.client.edda.EddaClient com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.createEddaClient()",6,0.04054054054054054
+"public static java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.GLOBAL_OWNER_TAGKEY",2,0.013513513513513514
+"public static java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.GLOBAL_OWNER_TAGKEY",1,0.006756756756756757
+"com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext(java.lang.String, com.netflix.simianarmy.janitor.JanitorRuleEngine, com.netflix.simianarmy.janitor.JanitorCrawler, com.netflix.simianarmy.janitor.JanitorResourceTracker, com.netflix.simianarmy.MonkeyCalendar, com.netflix.simianarmy.MonkeyConfiguration, com.netflix.simianarmy.MonkeyRecorder)",34,0.22972972972972974
+"com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext()",1,0.006756756756756757
+"public com.netflix.simianarmy.client.aws.AWSClient com.netflix.simianarmy.basic.BasicSimianArmyContext.awsClient()",44,0.2972972972972973
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.emailNotifier",140,0.9459459459459459
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.emailNotifier",54,0.36486486486486486
+"java.lang.String[2]",2,0.013513513513513514
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.region()",1,0.006756756756756757
+"public com.netflix.simianarmy.aws.janitor.EBSSnapshotJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getEBSSnapshotJanitor()",25,0.16891891891891891
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.BasicSimianArmyContext.configuration()",39,0.2635135135135135
+"public final native java.lang.Class java.lang.Object.getClass()",4,0.02702702702702703
+"java.lang.String[5]",3,0.02027027027027027
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.resetEventReport()",8,0.05405405405405406
+"public com.netflix.simianarmy.aws.janitor.InstanceJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getInstanceJanitor()",3,0.02027027027027027
+"public com.netflix.simianarmy.janitor.JanitorRuleEngine com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.ruleEngine",29,0.19594594594594594
+"public com.netflix.simianarmy.janitor.JanitorRuleEngine com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.ruleEngine",2,0.013513513513513514
+"public com.amazonaws.auth.AWSCredentialsProvider com.netflix.simianarmy.basic.BasicSimianArmyContext.getAwsCredentialsProvider()",4,0.02702702702702703
+"public void com.netflix.simianarmy.janitor.AbstractJanitor.markResources()",4,0.02702702702702703
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.BasicSimianArmyContext.recorder()",38,0.25675675675675674
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.BasicSimianArmyContext.calendar()",48,0.32432432432432434
+"com.netflix.simianarmy.aws.janitor.InstanceJanitor(com.netflix.simianarmy.client.aws.AWSClient, com.netflix.simianarmy.janitor.AbstractJanitor$Context)",4,0.02702702702702703
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier$Context com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getJanitorEmailNotifierContext()",3,0.02027027027027027
+"public com.netflix.simianarmy.aws.janitor.ImageJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getImageJanitor()",2,0.013513513513513514
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.defaultEmail",3,0.02027027027027027
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.defaultEmail",3,0.02027027027027027
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.region",15,0.10135135135135136
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.region",6,0.04054054054054054
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.reportEvent(com.netflix.simianarmy.MonkeyRecorder$Event)",50,0.33783783783783783
+"com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext()",338,2.2837837837837838
+"public java.util.Collection com.netflix.simianarmy.janitor.AbstractJanitor.getCleanedResources()",6,0.04054054054054054
+"public com.netflix.simianarmy.janitor.JanitorCrawler com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.crawler",3,0.02027027027027027
+"public com.netflix.simianarmy.janitor.JanitorCrawler com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.crawler",4,0.02702702702702703
+"public java.util.List com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitors",56,0.3783783783783784
+"public java.util.List com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitors",6,0.04054054054054054
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.monkeyCalendar",52,0.35135135135135137
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.monkeyCalendar",7,0.0472972972972973
+"public com.netflix.simianarmy.janitor.JanitorRuleEngine com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorRuleEngine()",5,0.033783783783783786

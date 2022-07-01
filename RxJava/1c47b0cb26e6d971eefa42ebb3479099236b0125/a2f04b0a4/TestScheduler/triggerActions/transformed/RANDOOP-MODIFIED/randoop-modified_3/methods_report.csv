@@ -1,0 +1,21 @@
+Methods called,Number of times,Number of times (Normalized)
+"public rx.Subscription rx.Scheduler.schedulePeriodically(rx.util.functions.Action0,long,long,java.util.concurrent.TimeUnit)",1802,0.10777511961722488
+"public void rx.concurrency.TestScheduler.settime(long)",18237,1.0907296650717704
+"public void rx.concurrency.TestScheduler.advanceTimeBy(long,java.util.concurrent.TimeUnit)",1767,0.10568181818181818
+"public java.util.Queue rx.concurrency.TestScheduler.getqueue()",13615,0.8142942583732058
+"public default java.util.Comparator java.util.Comparator.reversed()",54171,3.2398923444976075
+"public long rx.concurrency.TestScheduler.gettime()",13996,0.8370813397129186
+"public default java.util.Comparator java.util.Comparator.thenComparing(java.util.Comparator)",18140,1.0849282296650717
+"public long rx.concurrency.TestScheduler.time",13898,0.8312200956937799
+"public long rx.concurrency.TestScheduler.time",10819,0.6470693779904306
+"public final java.util.Queue rx.concurrency.TestScheduler.queue",10166,0.6080143540669857
+"rx.concurrency.TestScheduler()",15074,0.901555023923445
+"public void rx.concurrency.TestScheduler.triggerActions()",19499,1.166208133971292
+"public void rx.concurrency.TestScheduler.triggerActions(long)",11419,0.6829545454545455
+"rx.concurrency.TestScheduler$CompareActionsByTime()",19691,1.1776913875598085
+"public void rx.concurrency.TestScheduler.advanceTimeTo(long,java.util.concurrent.TimeUnit)",1732,0.10358851674641148
+"public long rx.concurrency.TestScheduler.now()",13045,0.7802033492822966
+"public rx.Subscription rx.Scheduler.schedule(rx.util.functions.Action0,long,java.util.concurrent.TimeUnit)",1738,0.10394736842105264
+"public rx.Subscription rx.Scheduler.schedule(rx.util.functions.Action0)",10248,0.6129186602870813
+"public final native java.lang.Class java.lang.Object.getClass()",1663,0.09946172248803828
+"java.lang.Object()",1,5.980861244019139E-5

@@ -1,0 +1,20 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Boolean,1126,2,0.10645740758249031,1.8908953389429895E-4
+class retrofit.Utils$SynchronousExecutor,7252,1,0.685638649900728,9.454476694714947E-5
+class java.util.ArrayList,57,1,0.00538905171598752,9.454476694714947E-5
+class retrofit.Server,7985,2,0.7549399640729886,1.8908953389429895E-4
+class [Lretrofit.client.Header;,57,1,0.00538905171598752,9.454476694714947E-5
+class retrofit.Platform$Base$1,4914,1,0.46459298477829253,9.454476694714947E-5
+class java.lang.String,2,2,1.8908953389429895E-4,1.8908953389429895E-4
+class retrofit.RestAdapter,60126,13512,5.684598657464309,1.2774888909898836
+class retrofit.RestAdapter$RestHandler,33693,1,3.1854968327503075,9.454476694714947E-5
+class retrofit.RequestInterceptor$1,6686,1,0.6321263118086414,9.454476694714947E-5
+class retrofit.RestAdapter$Log$1,7154,1,0.6763732627399074,9.454476694714947E-5
+class retrofit.RestAdapter$LogLevel,46328,4,4.380069963127541,3.781790677885979E-4
+class retrofit.converter.GsonConverter,3627,3333,0.34291386971731114,0.3151177082348492
+class retrofit.RestAdapter$Builder,103696,31718,9.803914153351611,2.998770918029687
+class [Ljava.lang.Object;,14,3,0.0013236267372600927,2.8363430084144843E-4
+class java.lang.Class,423,13,0.03999243641864423,0.0012290819703129432
+class retrofit.ErrorHandler$1,8683,1,0.8209322114020989,9.454476694714947E-5
+class retrofit.Platform$Base$3,2557,1,0.2417509690838612,9.454476694714947E-5
+class java.util.concurrent.ThreadPoolExecutor,2420,2213,0.22879833601210173,0.2092275692540418

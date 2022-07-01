@@ -1,0 +1,24 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setWindowListener(com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener)",44993,1.380153374233129
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setTitle(java.lang.String)",73252,2.246993865030675
+"public static com.badlogic.gdx.graphics.glutils.GLVersion com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.glVersion",1,3.067484662576687E-5
+"public static com.badlogic.gdx.graphics.glutils.GLVersion com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.glVersion",1,3.067484662576687E-5
+"com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application(com.badlogic.gdx.ApplicationListener, com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration)",1,3.067484662576687E-5
+"public static org.lwjgl.glfw.GLFWErrorCallback com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.errorCallback",1,3.067484662576687E-5
+"public static org.lwjgl.glfw.GLFWErrorCallback com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.errorCallback",1,3.067484662576687E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setDecorated(boolean)",29890,0.9168711656441718
+"public static long com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.createGlfwWindow(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration,long)",1,3.067484662576687E-5
+"public static final int com.badlogic.gdx.Application.LOG_INFO",1,3.067484662576687E-5
+"com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration()",32588,0.9996319018404908
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setResizable(boolean)",43868,1.3456441717791412
+"public static final int com.badlogic.gdx.Application.LOG_ERROR",1,3.067484662576687E-5
+"public static final int com.badlogic.gdx.Application.LOG_DEBUG",1,3.067484662576687E-5
+"public static final int com.badlogic.gdx.Application.LOG_NONE",1,3.067484662576687E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setFullscreenMode(com.badlogic.gdx.Graphics$DisplayMode)",40510,1.242638036809816
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setWindowPosition(int,int)",43298,1.328159509202454
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setInitialBackgroundColor(com.badlogic.gdx.graphics.Color)",29981,0.9196625766871166
+"public final native java.lang.Class java.lang.Object.getClass()",6272,0.1923926380368098
+"public static void com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.initiateGL()",1,3.067484662576687E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setInitialVisible(boolean)",53442,1.6393251533742332
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setWindowedMode(int,int)",33719,1.034325153374233
+"public static boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.supportsFBO()",1,3.067484662576687E-5

@@ -1,0 +1,19 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.commentTableShouldReturnNull()",3009,0.095275790006966
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.settable(fitnesse.testsystems.slim.Table)",38382,1.2153125197897536
+"public fitnesse.testsystems.slim.Table fitnesse.testsystems.slim.tables.SlimTableFactoryTest.table",45378,1.4368311063263886
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.checkTableTypeDefineUsedForTable()",2858,0.09049458552339941
+"public fitnesse.testsystems.slim.Table fitnesse.testsystems.slim.tables.SlimTableFactoryTest.table",27070,0.8571338103983281
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.shouldCreateCorrectSlimTableForTablesType()",2990,0.09467418149578874
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactoryTest.map",23375,0.7401367867772782
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.tableTypeStartingWithcommentColonShouldReturnNull()",2954,0.0935342916851371
+"public fitnesse.testsystems.slim.tables.SlimTableFactory fitnesse.testsystems.slim.tables.SlimTableFactoryTest.getslimTableFactory()",24109,0.7633778734722311
+"public fitnesse.testsystems.slim.tables.SlimTableFactory fitnesse.testsystems.slim.tables.SlimTableFactoryTest.slimTableFactory",45289,1.4340130454056108
+"public fitnesse.testsystems.slim.tables.SlimTableFactory fitnesse.testsystems.slim.tables.SlimTableFactoryTest.slimTableFactory",30324,0.9601671838388955
+"public fitnesse.testsystems.slim.Table fitnesse.testsystems.slim.tables.SlimTableFactoryTest.gettable()",26138,0.8276233297447914
+"fitnesse.testsystems.slim.tables.SlimTableFactoryTest()",31582,1.0
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.addTableTypeImport(java.lang.String,java.lang.String)",3219,0.1019251472357672
+"public final native java.lang.Class java.lang.Object.getClass()",3023,0.09571908048888607
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.checkTableTypeDefinesIgnoredIfDifferentSpecified()",2905,0.09198277499841682
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactoryTest.getmap()",30746,0.9735292255082009
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.setslimTableFactory(fitnesse.testsystems.slim.tables.SlimTableFactory)",19519,0.6180419226141473

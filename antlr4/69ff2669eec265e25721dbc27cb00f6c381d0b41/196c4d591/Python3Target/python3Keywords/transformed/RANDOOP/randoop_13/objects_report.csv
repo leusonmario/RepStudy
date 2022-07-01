@@ -1,0 +1,12 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Boolean,31513,2,1.7290134972017996,1.097333479644464E-4
+class org.stringtemplate.v4.STGroupFile,585,522,0.03209700427960057,0.02864040381872051
+class java.lang.Integer,51288,2,2.8140019752002634,1.097333479644464E-4
+class org.antlr.v4.codegen.target.Python3Target$PythonStringRenderer,385,1,0.02112366948315593,5.48666739822232E-5
+class [Ljava.lang.String;,32715,9,1.7949632393284318,4.938000658400088E-4
+class org.antlr.v4.codegen.target.Python3Target,43570,1899,2.390540985405465,0.10419181389224186
+class [I,6142,6,0.3369911115988149,3.292000438933392E-4
+class java.util.HashSet,11192,7,0.6140678152090421,3.840667178755624E-4
+class java.lang.Class,578,7,0.03171293756172501,3.840667178755624E-4
+class java.util.LinkedHashSet,4880,12,0.2677493690332492,6.584000877866784E-4
+class java.lang.String,51389,528,2.819543509272468,0.02896960386261385

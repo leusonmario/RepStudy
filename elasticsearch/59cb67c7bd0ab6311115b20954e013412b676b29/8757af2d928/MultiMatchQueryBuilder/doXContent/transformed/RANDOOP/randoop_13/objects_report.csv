@@ -1,0 +1,19 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,8875,231,0.6483781414377557,0.016876095850379896
+class org.elasticsearch.index.search.MatchQuery$Type,2395,3,0.1749707773232028,2.1917007597895967E-4
+class org.elasticsearch.common.xcontent.ToXContent$1,502,1,0.03667445938047925,7.305669199298655E-5
+class java.util.ArrayList,1833,65,0.13391291642314437,0.004748684979544126
+class org.elasticsearch.common.unit.Fuzziness,731,27,0.05340444184687317,0.001972530683810637
+class java.lang.Integer,1,1,7.305669199298655E-5,7.305669199298655E-5
+class [Ljava.lang.String;,21973,10,1.6052746931618935,7.305669199298656E-4
+class java.lang.Float,4248,6,0.3103448275862069,4.3834015195791935E-4
+class org.elasticsearch.index.query.MultiMatchQueryBuilder,115625,8436,8.44718001168907,0.6163062536528346
+class org.elasticsearch.index.query.MultiMatchQueryBuilder$Type,3346,5,0.24444769140853304,3.652834599649328E-4
+class org.elasticsearch.common.ParseField,1838,4,0.1342781998831093,2.922267679719462E-4
+class java.lang.Byte,1,1,7.305669199298655E-5,7.305669199298655E-5
+class org.joda.time.format.DateTimeFormatter,1,1,7.305669199298655E-5,7.305669199298655E-5
+class org.elasticsearch.common.bytes.PagedBytesReference,2,2,1.461133839859731E-4,1.461133839859731E-4
+class org.elasticsearch.common.xcontent.XContentBuilder$FieldCaseConversion,140,3,0.010227936879018119,2.1917007597895967E-4
+class com.carrotsearch.hppc.ObjectFloatHashMap,459,428,0.03353302162478083,0.031268264172998245
+class java.lang.Boolean,1361,2,0.0994301578024547,1.461133839859731E-4
+class java.lang.Class,345,9,0.025204558737580363,6.57510227936879E-4

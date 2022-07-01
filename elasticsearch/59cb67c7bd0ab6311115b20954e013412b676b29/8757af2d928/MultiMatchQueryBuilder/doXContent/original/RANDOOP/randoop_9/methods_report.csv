@@ -1,0 +1,66 @@
+Methods called,Number of times,Number of times (Normalized)
+"public final org.apache.lucene.search.Query org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(org.elasticsearch.index.query.QueryShardContext) throws java.io.IOException",759,0.045007115749525616
+"public org.elasticsearch.common.ParseField org.elasticsearch.index.query.MultiMatchQueryBuilder$Type.parseField()",2665,0.15802893738140417
+"public static org.elasticsearch.index.query.MultiMatchQueryBuilder$Type org.elasticsearch.index.query.MultiMatchQueryBuilder$Type.parse(java.lang.String,org.elasticsearch.common.ParseFieldMatcher)",316,0.018738140417457305
+"UNDERSCORE",50,0.0029648956356736244
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream)",1,5.929791271347249E-5
+"public final org.elasticsearch.common.bytes.BytesReference org.elasticsearch.action.support.ToXContentToBytes.buildAsBytes(org.elasticsearch.common.xcontent.XContentType)",781,0.04631166982922201
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;)",256,0.015180265654648957
+"public final org.elasticsearch.common.bytes.BytesReference org.elasticsearch.action.support.ToXContentToBytes.buildAsBytes()",299,0.017730075901328274
+"public float org.elasticsearch.index.query.MultiMatchQueryBuilder$Type.tieBreaker()",8035,0.4764587286527514
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.analyzer(java.lang.String)",10331,0.6126067362428842
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.useDisMax(boolean)",4609,0.2733040796963947
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.prefixLength(int)",4887,0.28978889943074004
+"java.lang.String[4]",17,0.0010080645161290322
+"java.lang.String[5]",6,3.557874762808349E-4
+"java.lang.String[6]",30635,1.8165915559772297
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.slop(int)",5184,0.30740037950664134
+"java.lang.String[0]",28,0.0016603415559772296
+"java.lang.String[1]",629,0.037298387096774195
+"java.lang.String[2]",3,1.7789373814041745E-4
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.lenient(boolean)",14948,0.8863851992409867
+"public static final java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.NAME",1,5.929791271347249E-5
+"java.lang.String[3]",60,0.003557874762808349
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.minimumShouldMatch(java.lang.String)",5503,0.32631641366223907
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.getWriteableName()",4269,0.253142789373814
+"public java.lang.String org.elasticsearch.index.query.AbstractQueryBuilder.getName()",8122,0.48161764705882354
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.maxExpansions(int)",7625,0.4521465844402277
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.zeroTermsQuery(org.elasticsearch.index.query.MatchQueryBuilder$ZeroTermsQuery)",11051,0.6553012333965844
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.rewrite(java.lang.String)",6352,0.3766603415559772
+"CROSS_FIELDS",1033,0.06125474383301708
+"public final boolean org.elasticsearch.index.query.AbstractQueryBuilder.equals(java.lang.Object)",3540,0.2099146110056926
+"org.elasticsearch.index.query.MultiMatchQueryBuilder(java.lang.Object, [Ljava.lang.String;)",40334,2.391722011385199
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.doXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",694,0.041152751423149905
+"MOST_FIELDS",50,0.0029648956356736244
+"public final java.lang.String org.elasticsearch.action.support.ToXContentToBytes.toString()",2329,0.1381048387096774
+"BEST_FIELDS",2114,0.12535578747628084
+"NONE",17,0.0010080645161290322
+"public org.elasticsearch.index.query.QueryValidationException org.elasticsearch.index.query.AbstractQueryBuilder.validate()",2532,0.15014231499051234
+"public static final float org.elasticsearch.index.query.AbstractQueryBuilder.DEFAULT_BOOST",1,5.929791271347249E-5
+"public static final org.joda.time.format.DateTimeFormatter org.elasticsearch.common.xcontent.XContentBuilder.defaultDatePrinter",2,1.1859582542694497E-4
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.fuzzyRewrite(java.lang.String)",53095,3.1484226755218216
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.tieBreaker(float)",11118,0.6592741935483871
+"PHRASE_PREFIX",6960,0.4127134724857685
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.type(org.elasticsearch.index.query.MultiMatchQueryBuilder$Type)",12576,0.74573055028463
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.type(java.lang.Object)",1008,0.05977229601518026
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.fuzziness(java.lang.Object)",3366,0.19959677419354838
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.operator(org.elasticsearch.index.query.Operator)",7891,0.46791982922201136
+"public final native java.lang.Class java.lang.Object.getClass()",1071,0.06350806451612903
+"public final org.elasticsearch.index.query.AbstractQueryBuilder org.elasticsearch.index.query.AbstractQueryBuilder.queryName(java.lang.String)",12485,0.740334440227704
+"public final java.lang.String org.elasticsearch.index.query.AbstractQueryBuilder.queryName()",3705,0.21969876660341556
+"public final float org.elasticsearch.index.query.AbstractQueryBuilder.boost()",5177,0.3069852941176471
+"public final org.elasticsearch.index.query.AbstractQueryBuilder org.elasticsearch.index.query.AbstractQueryBuilder.boost(float)",5673,0.33639705882352944
+"public final void org.elasticsearch.index.query.AbstractQueryBuilder.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",764,0.04530360531309298
+"public org.elasticsearch.index.search.MatchQuery$Type org.elasticsearch.index.query.MultiMatchQueryBuilder$Type.matchQueryType()",10044,0.5955882352941176
+"public org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.index.query.AbstractQueryBuilder.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",795,0.047141840607210626
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.field(java.lang.String)",7247,0.4297319734345351
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.field(java.lang.String,float)",5432,0.3221062618595825
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent) throws java.io.IOException",1,5.929791271347249E-5
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[]) throws java.io.IOException",278,0.01648481973434535
+"public static void org.elasticsearch.common.xcontent.XContentBuilder.globalFieldCaseConversion(org.elasticsearch.common.xcontent.XContentBuilder$FieldCaseConversion)",313,0.018560246679316886
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.cutoffFrequency(float)",10017,0.5939871916508539
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1393,0.08260199240986717
+"PHRASE",248,0.014705882352941176
+"public final org.apache.lucene.search.Query org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(org.elasticsearch.index.query.QueryShardContext) throws java.io.IOException",789,0.04678605313092979
+"CAMELCASE",5,2.964895635673624E-4
+"public final org.elasticsearch.index.query.AbstractQueryBuilder org.elasticsearch.index.query.AbstractQueryBuilder.readFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",801,0.047497628083491464

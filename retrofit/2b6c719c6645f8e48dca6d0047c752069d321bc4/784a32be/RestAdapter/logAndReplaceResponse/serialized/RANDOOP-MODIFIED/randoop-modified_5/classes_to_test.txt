@@ -1,0 +1,3 @@
+retrofit.RestAdapter
+retrofit.client.Response
+retrofit.SerializedObjectSupporter

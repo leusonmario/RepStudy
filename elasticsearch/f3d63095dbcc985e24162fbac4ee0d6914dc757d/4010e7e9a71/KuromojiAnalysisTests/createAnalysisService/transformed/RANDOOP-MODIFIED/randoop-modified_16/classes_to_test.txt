@@ -1,0 +1,2 @@
+org.elasticsearch.index.analysis.KuromojiAnalysisTests
+org.elasticsearch.index.analysis.AnalysisService

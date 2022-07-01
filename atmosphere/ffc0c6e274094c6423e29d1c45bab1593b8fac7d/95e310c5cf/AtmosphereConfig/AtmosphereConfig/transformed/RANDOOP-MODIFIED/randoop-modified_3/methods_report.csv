@@ -1,0 +1,63 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final org.slf4j.Logger org.atmosphere.cpr.AtmosphereConfig.logger",1,6.766815536608472E-5
+"org.atmosphere.cpr.AtmosphereConfig()",41874,2.8335363377994316
+"org.atmosphere.cpr.AtmosphereConfig(org.atmosphere.cpr.AtmosphereFramework)",21810,1.4758424685343077
+"public org.atmosphere.cpr.AtmosphereFramework org.atmosphere.cpr.AtmosphereConfig.getframework()",3058,0.20692921910948708
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.startUpHook",26400,1.7864393016646367
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.startUpHook",5531,0.37427256732981456
+"public boolean org.atmosphere.cpr.AtmosphereConfig.isThrowExceptionOnCloned()",5895,0.3989037758830694
+"public org.atmosphere.cpr.AtmosphereConfig org.atmosphere.cpr.AtmosphereConfig.startupHook(org.atmosphere.cpr.AtmosphereConfig$StartupHook)",9047,0.6121938015969685
+"public java.util.Map org.atmosphere.cpr.AtmosphereConfig.properties()",26047,1.7625524428204087
+"public java.util.Map org.atmosphere.cpr.AtmosphereConfig.handlers()",516,0.034916768168899714
+"public java.util.Map org.atmosphere.cpr.AtmosphereConfig.getproperties()",4386,0.2967925294356476
+"public boolean org.atmosphere.cpr.AtmosphereConfig.sessionTimeoutRemovalAllowed",3722,0.2518608742725673
+"public boolean org.atmosphere.cpr.AtmosphereConfig.sessionTimeoutRemovalAllowed",5556,0.3759642712139667
+"public org.atmosphere.cpr.AtmosphereFramework org.atmosphere.cpr.AtmosphereConfig.framework()",6984,0.4725943970767357
+"public org.atmosphere.cpr.AtmosphereConfig org.atmosphere.cpr.AtmosphereConfig.populate(org.atmosphere.cpr.AtmosphereConfig)",7535,0.5098795506834484
+"public int org.atmosphere.cpr.AtmosphereConfig.getInitParameter(java.lang.String,int)",6356,0.4300987955068345
+"public java.lang.String org.atmosphere.cpr.AtmosphereConfig.getInitParameter(java.lang.String,java.lang.String)",7412,0.5015563675734199
+"public java.lang.String org.atmosphere.cpr.AtmosphereConfig.getInitParameter(java.lang.String)",7190,0.48653403708214915
+"public boolean org.atmosphere.cpr.AtmosphereConfig.getInitParameter(java.lang.String,boolean)",2906,0.1966436594938422
+"public java.util.Enumeration org.atmosphere.cpr.AtmosphereConfig.getInitParameterNames()",489,0.03308972797401543
+"public java.lang.String org.atmosphere.cpr.AtmosphereConfig.getWebServerName()",485,0.03281905535255109
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.getstartUpHook()",4280,0.2896197049668426
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",2956,0.20002706726214645
+"public javax.servlet.ServletContext org.atmosphere.cpr.AtmosphereConfig.getServletContext()",494,0.03342806875084585
+"public org.atmosphere.cpr.MetaBroadcaster org.atmosphere.cpr.AtmosphereConfig.metaBroadcaster()",492,0.03329273244011368
+"public void org.atmosphere.cpr.AtmosphereConfig.setframework(org.atmosphere.cpr.AtmosphereFramework)",5089,0.34436324265800516
+"public void org.atmosphere.cpr.AtmosphereConfig.setSessionTimeoutRemovalAllowed(boolean)",2956,0.20002706726214645
+"public org.atmosphere.cpr.AtmosphereResourceSessionFactory org.atmosphere.cpr.AtmosphereConfig.sessionFactory()",495,0.03349573690621194
+"public org.slf4j.Logger org.atmosphere.cpr.AtmosphereConfig.getlogger()",7196,0.48694004601434565
+"org.atmosphere.cpr.AtmosphereConfig$StartupHook[0]",2427,0.16423061307348763
+"public void org.atmosphere.cpr.AtmosphereConfig.destroy()",3408,0.23061307348761673
+"public boolean org.atmosphere.cpr.AtmosphereConfig.throwExceptionOnCloned",7585,0.5132629584517526
+"public boolean org.atmosphere.cpr.AtmosphereConfig.throwExceptionOnCloned",2713,0.18358370550818784
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.getAtmosphereHandlerConfig()",11514,0.7791311408850995
+"java.util.ArrayList()",2956,0.20002706726214645
+"public org.atmosphere.cpr.BroadcasterFactory org.atmosphere.cpr.AtmosphereConfig.getBroadcasterFactory()",504,0.0341047503045067
+"public final native java.lang.Class java.lang.Object.getClass()",555,0.03755582622817702
+"public void org.atmosphere.cpr.AtmosphereConfig.setproperties(java.util.Map)",4460,0.30179997293273786
+"public void org.atmosphere.cpr.AtmosphereConfig.setshutdownHooks(java.util.List)",5560,0.37623494383543105
+"public boolean org.atmosphere.cpr.AtmosphereConfig.isSessionTimeoutRemovalAllowed()",4760,0.32210041954256324
+"public void org.atmosphere.cpr.AtmosphereConfig.setSupportSession(boolean)",3973,0.26884558126945457
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.getshutdownHooks()",4977,0.33678440925700365
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.shutdownHooks",13112,0.8872648531601028
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.shutdownHooks",3455,0.2337934767898227
+"public void org.atmosphere.cpr.AtmosphereConfig.initComplete()",3852,0.26065773447015833
+"public org.atmosphere.cpr.AtmosphereConfig org.atmosphere.cpr.AtmosphereConfig.shutdownHook(org.atmosphere.cpr.AtmosphereConfig$ShutdownHook)",16367,1.1075246988767087
+"public void org.atmosphere.cpr.AtmosphereConfig.setstartUpHook(java.util.List)",4806,0.32521315468940315
+"public boolean org.atmosphere.cpr.AtmosphereConfig.supportSession",4964,0.3359047232372446
+"public boolean org.atmosphere.cpr.AtmosphereConfig.isSupportSession()",5076,0.34348355663824603
+"public boolean org.atmosphere.cpr.AtmosphereConfig.supportSession",4669,0.31594261740424956
+"public void org.atmosphere.cpr.AtmosphereConfig.setThrowExceptionOnCloned(boolean)",10981,0.7430640140749764
+"public javax.servlet.ServletConfig org.atmosphere.cpr.AtmosphereConfig.getServletConfig()",502,0.03396941399377453
+"public org.atmosphere.util.UUIDProvider org.atmosphere.cpr.AtmosphereConfig.uuidProvider()",501,0.033901745838408444
+"public java.util.Map org.atmosphere.cpr.AtmosphereConfig.properties",18041,1.2208011909595344
+"public java.util.Map org.atmosphere.cpr.AtmosphereConfig.properties",5134,0.34740830964947894
+"org.atmosphere.config.AtmosphereHandlerConfig[0]",38,0.002571389903911219
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.atmosphereHandlerConfig",3495,0.2365002030044661
+"public java.util.List org.atmosphere.cpr.AtmosphereConfig.atmosphereHandlerConfig",3275,0.22161320882392746
+"public org.atmosphere.cpr.AtmosphereResourceFactory org.atmosphere.cpr.AtmosphereConfig.resourcesFactory()",524,0.03545811341182839
+"org.atmosphere.cpr.AtmosphereConfig$ShutdownHook[0]",491,0.0332250642847476
+"public org.atmosphere.cpr.AtmosphereFramework org.atmosphere.cpr.AtmosphereConfig.framework",6294,0.42590336987413724
+"public org.atmosphere.cpr.AtmosphereFramework org.atmosphere.cpr.AtmosphereConfig.framework",4971,0.33637840032480715

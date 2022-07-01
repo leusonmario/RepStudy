@@ -1,0 +1,2 @@
+com.metamx.druid.loading.S3SegmentPusher
+com.metamx.druid.client.DataSegment

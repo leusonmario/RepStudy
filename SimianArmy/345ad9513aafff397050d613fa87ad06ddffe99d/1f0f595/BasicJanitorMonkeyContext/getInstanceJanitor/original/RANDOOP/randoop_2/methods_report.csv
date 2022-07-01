@@ -1,0 +1,28 @@
+Methods called,Number of times,Number of times (Normalized)
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorResourceTracker()",40,0.26666666666666666
+"public com.netflix.simianarmy.MonkeyScheduler com.netflix.simianarmy.basic.BasicSimianArmyContext.scheduler()",5,0.03333333333333333
+"com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext(java.lang.String, com.netflix.simianarmy.janitor.JanitorRuleEngine, com.netflix.simianarmy.janitor.JanitorCrawler, com.netflix.simianarmy.janitor.JanitorResourceTracker, com.netflix.simianarmy.MonkeyCalendar, com.netflix.simianarmy.MonkeyConfiguration, com.netflix.simianarmy.MonkeyRecorder)",88,0.5866666666666667
+"public com.netflix.simianarmy.client.aws.AWSClient com.netflix.simianarmy.basic.BasicSimianArmyContext.awsClient()",39,0.26
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.calendar()",26,0.17333333333333334
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.recorder()",25,0.16666666666666666
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.region()",23,0.15333333333333332
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.BasicSimianArmyContext.configuration()",59,0.3933333333333333
+"public com.netflix.simianarmy.CloudClient com.netflix.simianarmy.basic.BasicSimianArmyContext.cloudClient()",78,0.52
+"public java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.getEventReport()",13,0.08666666666666667
+"public final native java.lang.Class java.lang.Object.getClass()",10,0.06666666666666667
+"public java.util.List com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitors()",67,0.44666666666666666
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.resetEventReport()",9,0.06
+"public com.amazonaws.auth.AWSCredentialsProvider com.netflix.simianarmy.basic.BasicSimianArmyContext.getAwsCredentialsProvider()",16,0.10666666666666667
+"public com.netflix.simianarmy.janitor.JanitorCrawler com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorCrawler()",28,0.18666666666666668
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.BasicSimianArmyContext.recorder()",47,0.31333333333333335
+"public java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.region()",22,0.14666666666666667
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.BasicSimianArmyContext.calendar()",69,0.46
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.configuration()",39,0.26
+"com.netflix.simianarmy.aws.janitor.InstanceJanitor(com.netflix.simianarmy.client.aws.AWSClient, com.netflix.simianarmy.janitor.AbstractJanitor$Context)",14,0.09333333333333334
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.resourceTracker()",88,0.5866666666666667
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier$Context com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getJanitorEmailNotifierContext()",33,0.22
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.emailNotifier()",72,0.48
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.reportEvent(com.netflix.simianarmy.MonkeyRecorder$Event)",73,0.4866666666666667
+"com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext()",208,1.3866666666666667
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.exportCredentials(java.lang.String,java.lang.String)",18,0.12
+"public com.netflix.simianarmy.janitor.JanitorRuleEngine com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorRuleEngine()",27,0.18

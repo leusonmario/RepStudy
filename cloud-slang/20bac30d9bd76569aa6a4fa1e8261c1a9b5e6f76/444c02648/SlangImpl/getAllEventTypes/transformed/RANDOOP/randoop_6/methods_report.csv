@@ -1,0 +1,22 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void io.cloudslang.lang.api.SlangImpl.subscribeOnAllEvents(io.cloudslang.score.events.ScoreEventListener)",4109,0.13206273703156135
+"java.lang.String[2]",6,1.9283923635662404E-4
+"java.lang.String[1]",1,3.2139872726104E-5
+"io.cloudslang.lang.api.SlangImpl()",35804,1.1507360030854277
+"public void io.cloudslang.lang.api.SlangImpl.subscribeOnEvents(io.cloudslang.score.events.ScoreEventListener,java.util.Set)",4942,0.158835251012406
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",4046,0.13003792504981682
+"io.cloudslang.lang.compiler.SlangSource[0]",4039,0.1298129459407341
+"public static org.apache.log4j.Logger io.cloudslang.lang.api.SlangImpl.logger",7,2.2497910908272803E-4
+"public static org.apache.log4j.Logger io.cloudslang.lang.api.SlangImpl.logger",4,1.28559490904416E-4
+"public io.cloudslang.lang.compiler.SlangCompiler io.cloudslang.lang.api.SlangImpl.compiler",43097,1.3851320948769044
+"public java.util.Set io.cloudslang.lang.api.SlangImpl.getAllEventTypes()",54591,1.7545477919907437
+"public io.cloudslang.lang.compiler.SlangCompiler io.cloudslang.lang.api.SlangImpl.compiler",48843,1.5698078035610978
+"public void io.cloudslang.lang.api.SlangImpl.unSubscribeOnEvents(io.cloudslang.score.events.ScoreEventListener)",4160,0.13370187054059265
+"public io.cloudslang.score.api.Score io.cloudslang.lang.api.SlangImpl.score",58722,1.8873176062222794
+"public io.cloudslang.score.api.Score io.cloudslang.lang.api.SlangImpl.score",51480,1.6545606479398343
+"public final native java.lang.Class java.lang.Object.getClass()",4338,0.13942276788583918
+"java.lang.Object()",1,3.2139872726104E-5
+"public io.cloudslang.lang.entities.CompilationArtifact io.cloudslang.lang.api.SlangImpl.compile(io.cloudslang.lang.compiler.SlangSource,java.util.Set)",4275,0.13739795590409462
+"public io.cloudslang.score.events.EventBus io.cloudslang.lang.api.SlangImpl.eventBus",54688,1.757665359645176
+"public io.cloudslang.score.events.EventBus io.cloudslang.lang.api.SlangImpl.eventBus",41375,1.3297872340425532
+"java.util.LinkedHashSet()",4046,0.13003792504981682

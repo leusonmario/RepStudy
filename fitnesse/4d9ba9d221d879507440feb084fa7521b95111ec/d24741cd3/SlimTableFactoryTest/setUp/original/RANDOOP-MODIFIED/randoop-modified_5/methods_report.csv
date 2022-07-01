@@ -1,0 +1,9 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.commentTableShouldReturnNull()",1,0.14285714285714285
+"fitnesse.testsystems.slim.tables.SlimTableFactoryTest()",6,0.8571428571428571
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.checkTableTypeDefineUsedForTable()",1,0.14285714285714285
+"public final native java.lang.Class java.lang.Object.getClass()",2,0.2857142857142857
+"java.lang.Object()",1,0.14285714285714285
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.checkTableTypeDefinesIgnoredIfDifferentSpecified()",1,0.14285714285714285
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.shouldCreateCorrectSlimTableForTablesType()",1,0.14285714285714285
+"public void fitnesse.testsystems.slim.tables.SlimTableFactoryTest.tableTypeStartingWithcommentColonShouldReturnNull()",1,0.14285714285714285

@@ -1,0 +1,16 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Integer,26374,9,2.082596336070752,7.106759317751105E-4
+class org.apache.kafka.common.header.internals.RecordHeaders,11363,1,0.8972678458622868,7.896399241945672E-5
+class java.lang.Double,181,4,0.014292482627921668,3.158559696778269E-4
+class java.lang.Short,49,4,0.00386923562855338,3.158559696778269E-4
+class java.lang.Object,1,1,7.896399241945672E-5,7.896399241945672E-5
+class java.lang.Boolean,221,2,0.017451042324699937,1.5792798483891344E-4
+class java.util.Optional,15238,1,1.2032533164876815,7.896399241945672E-5
+class java.lang.Long,43179,9,3.409586228679722,7.106759317751105E-4
+class java.lang.Character,604,4,0.04769425142135186,3.158559696778269E-4
+class org.apache.kafka.clients.consumer.ConsumerRecord,40049,9833,3.1624289324068227,0.776452937460518
+class org.apache.kafka.common.record.TimestampType,4363,1,0.3445198989260897,7.896399241945672E-5
+class java.lang.Byte,323,5,0.025505369551484525,3.9481996209728365E-4
+class java.lang.Float,102,5,0.008054327226784586,3.9481996209728365E-4
+class java.lang.Class,6552,13,0.5173720783322805,0.0010265319014529375
+class java.lang.String,26796,160,2.1159191408717626,0.012634238787113077

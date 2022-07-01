@@ -1,0 +1,10 @@
+Methods called,Number of times,Number of times (Normalized)
+"public cuke4duke.internal.java.JavaLanguage cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectJavaLanguage2() throws java.io.IOException",3520,1.8172431595250387
+"public java.lang.String cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectString1() throws java.io.IOException",5652,2.917914300464636
+"public cuke4duke.internal.java.JavaLanguage cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectJavaLanguage1() throws java.io.IOException",4932,2.546205472379969
+"public java.lang.String cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectComparator1() throws java.io.IOException",570,0.29426948890036136
+"java.lang.Object()",1,5.162622612287042E-4
+"public final native java.lang.Class java.lang.Object.getClass()",586,0.30252968508002065
+"cuke4duke.internal.java.SerializedObjectSupporter()",1935,0.9989674754775426
+"public java.lang.String cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectString2() throws java.io.IOException",3487,1.8002065049044915
+"cuke4duke.internal.java.JavaLanguage(cuke4duke.internal.language.LanguageMixin)",1,5.162622612287042E-4

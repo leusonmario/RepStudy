@@ -1,0 +1,1 @@
+retrofit.RestAdapter.logAndReplaceRequest(retrofit.client.Request)

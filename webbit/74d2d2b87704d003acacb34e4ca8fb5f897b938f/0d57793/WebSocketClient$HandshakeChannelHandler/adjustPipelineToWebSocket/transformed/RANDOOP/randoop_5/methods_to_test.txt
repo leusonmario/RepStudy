@@ -1,0 +1,1 @@
+org.webbitserver.netty.WebSocketClient$HandshakeChannelHandler.adjustPipelineToWebSocket(org.jboss.netty.channel.ChannelHandlerContext, org.jboss.netty.channel.MessageEvent, org.jboss.netty.channel.ChannelHandler, org.jboss.netty.channel.ChannelHandler)

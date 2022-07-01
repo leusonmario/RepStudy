@@ -1,0 +1,2 @@
+org.elasticsearch.index.query.support.NestedInnerQueryParseSupport
+org.elasticsearch.index.mapper.object.ObjectMapper

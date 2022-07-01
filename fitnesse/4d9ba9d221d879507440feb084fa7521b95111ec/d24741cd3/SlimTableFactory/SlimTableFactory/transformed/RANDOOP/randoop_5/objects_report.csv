@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,82580,2,4.5448541552008805,1.100715465052284E-4
+class java.lang.Object,1,1,5.50357732526142E-5,5.50357732526142E-5
+class java.util.logging.Logger,1,1,5.50357732526142E-5,5.50357732526142E-5
+class java.lang.Boolean,25887,1,1.4247110621904238,5.50357732526142E-5
+class java.lang.Class,2564,4,0.1411117226197028,2.201430930104568E-4
+class java.util.HashMap,88050,4,4.8458998348926805,2.201430930104568E-4
+class fitnesse.testsystems.slim.tables.SlimTableFactory,118790,2,6.537699504678041,1.100715465052284E-4

@@ -1,0 +1,68 @@
+Methods called,Number of times,Number of times (Normalized)
+"public java.lang.String org.antlr.v4.codegen.Target.getTokenTypeAsTargetLabel(org.antlr.v4.tool.Grammar,int)",172,0.03403244954491492
+"public java.lang.String org.antlr.v4.codegen.Target.language",2040,0.4036406806489909
+"public java.lang.String org.antlr.v4.codegen.Target.language",769,0.1521567075583696
+"org.antlr.v4.codegen.target.Python2Target$PythonStringRenderer()",141,0.027898694103680254
+"public void org.antlr.v4.codegen.Target.genListenerFile(org.antlr.v4.tool.Grammar,org.stringtemplate.v4.ST)",170,0.033636723387415905
+"public java.lang.String org.antlr.v4.codegen.Target.getLanguage()",1456,0.2880886426592798
+"public java.lang.String org.antlr.v4.codegen.Target.getAltLabelContextStructName(java.lang.String)",1773,0.35081123862287295
+"public boolean org.antlr.v4.codegen.target.Python2Target.wantsBaseVisitor()",2213,0.43787099327265533
+"public java.util.Set org.antlr.v4.codegen.target.Python2Target.badWords",6078,1.2026117926394935
+"public java.util.Set org.antlr.v4.codegen.target.Python2Target.badWords",1159,0.22932330827067668
+"org.antlr.v4.codegen.target.Python2Target()",9579,1.8953304313415116
+"org.antlr.v4.codegen.target.Python2Target(org.antlr.v4.codegen.CodeGenerator)",2279,0.4509299564701227
+"public java.lang.String org.antlr.v4.codegen.Target.getTargetStringLiteralFromANTLRStringLiteral(org.antlr.v4.codegen.CodeGenerator,java.lang.String,boolean)",3943,0.7801741195092996
+"public java.lang.String org.antlr.v4.codegen.Target.getImplicitRuleLabel(java.lang.String)",831,0.16442421844083893
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",2727,0.5395726157499011
+"public org.stringtemplate.v4.STGroup org.antlr.v4.codegen.Target.templates",2650,0.5243371586861891
+"public org.stringtemplate.v4.STGroup org.antlr.v4.codegen.Target.templates",993,0.1964780371982588
+"int[6]",1,1.9786307874950534E-4
+"int[5]",4,7.914523149980214E-4
+"public java.lang.String org.antlr.v4.codegen.Target.getRuleFunctionContextStructName(org.antlr.v4.tool.Rule)",158,0.03126236644242184
+"public java.lang.String org.antlr.v4.codegen.Target.getRuleFunctionContextStructName(org.antlr.v4.codegen.model.RuleFunction)",164,0.032449544914918874
+"public java.lang.String org.antlr.v4.codegen.Target.getElementListName(java.lang.String)",190,0.03759398496240601
+"public java.lang.String org.antlr.v4.codegen.Target.getTargetStringLiteralFromString(java.lang.String,boolean)",2283,0.4517214087851207
+"public java.lang.String org.antlr.v4.codegen.Target.getTargetStringLiteralFromString(java.lang.String)",3515,0.6954887218045113
+"public java.lang.String[] org.antlr.v4.codegen.Target.getTokenTypesAsTargetLabels(org.antlr.v4.tool.Grammar,int[])",1219,0.241195092995647
+"public int org.antlr.v4.codegen.Target.getInlineTestSetWordSize()",7000,1.3850415512465375
+"public java.lang.String org.antlr.v4.codegen.Target.getElementName(java.lang.String)",157,0.03106450336367234
+"public void org.antlr.v4.codegen.Target.genRecognizerHeaderFile(org.antlr.v4.tool.Grammar,org.stringtemplate.v4.ST,java.lang.String)",767,0.1517609814008706
+"public static java.lang.String org.stringtemplate.v4.StringRenderer.escapeHTML(java.lang.String)",113,0.022358527898694105
+"public java.lang.String org.antlr.v4.codegen.Target.getLoopCounter(org.antlr.v4.tool.ast.GrammarAST)",168,0.0332409972299169
+"public org.stringtemplate.v4.STGroup org.antlr.v4.codegen.target.Python2Target.loadTemplates()",872,0.17253660466956866
+"public java.util.Set org.antlr.v4.codegen.target.Python2Target.getBadWords()",1414,0.27977839335180055
+"public java.lang.String org.antlr.v4.codegen.Target.getImplicitTokenLabel(java.lang.String)",160,0.031658092599920855
+"public java.lang.String org.antlr.v4.codegen.Target.getListLabel(java.lang.String)",321,0.06351404827859121
+"public boolean org.antlr.v4.codegen.target.Python2Target.wantsBaseListener()",730,0.1444400474871389
+"int[4]",2,3.957261574990107E-4
+"int[3]",1,1.9786307874950534E-4
+"int[2]",2,3.957261574990107E-4
+"int[1]",1,1.9786307874950534E-4
+"public boolean org.antlr.v4.codegen.Target.grammarSymbolCausesIssueInGeneratedCode(org.antlr.v4.tool.ast.GrammarAST)",169,0.033438860308666406
+"int[0]",308,0.060941828254847646
+"public final native java.lang.Class java.lang.Object.getClass()",174,0.03442817570241393
+"public java.lang.String[] org.antlr.v4.codegen.Target.targetCharValueEscape",1563,0.30925999208547683
+"public java.lang.String[] org.antlr.v4.codegen.Target.targetCharValueEscape",1696,0.33557578155916107
+"public java.lang.String org.antlr.v4.codegen.target.Python2Target$PythonStringRenderer.toString(java.lang.Object,java.lang.String,java.util.Locale)",458,0.09062129006727344
+"java.util.LinkedHashSet()",2727,0.5395726157499011
+"public org.antlr.v4.codegen.CodeGenerator org.antlr.v4.codegen.Target.gen",1416,0.28017411950929955
+"public org.antlr.v4.codegen.CodeGenerator org.antlr.v4.codegen.Target.gen",2528,0.5001978630787495
+"public boolean org.antlr.v4.codegen.target.Python2Target.visibleGrammarSymbolCausesIssueInGeneratedCode(org.antlr.v4.tool.ast.GrammarAST)",159,0.03146022952117135
+"public int org.antlr.v4.codegen.Target.getSerializedATNSegmentLimit()",751,0.1485951721408785
+"public org.stringtemplate.v4.STGroup org.antlr.v4.codegen.Target.getTemplates()",372,0.07360506529481599
+"public void org.antlr.v4.codegen.target.Python2Target.addBadWords()",1463,0.2894736842105263
+"public java.lang.String org.antlr.v4.codegen.Target.getLoopLabel(org.antlr.v4.tool.ast.GrammarAST)",172,0.03403244954491492
+"java.lang.String[5]",642,0.12702809655718242
+"public void org.antlr.v4.codegen.Target.genFile(org.antlr.v4.tool.Grammar,org.stringtemplate.v4.ST,java.lang.String)",177,0.03502176493866244
+"java.lang.String[4]",2,3.957261574990107E-4
+"java.lang.String[3]",2695,0.5332409972299169
+"java.lang.String[1]",1,1.9786307874950534E-4
+"public java.lang.String org.antlr.v4.codegen.target.Python2Target.getVersion()",2034,0.4024535021764939
+"public java.lang.String org.antlr.v4.codegen.Target.encodeIntAsCharEscape(int)",3730,0.7380292837356549
+"public org.antlr.v4.codegen.CodeGenerator org.antlr.v4.codegen.Target.getCodeGenerator()",1049,0.2075583696082311
+"java.lang.String[8]",32,0.006331618519984171
+"public boolean org.antlr.v4.codegen.target.Python2Target.supportsOverloadedMethods()",633,0.1252473288484369
+"public java.lang.String org.antlr.v4.codegen.Target.getImplicitSetLabel(java.lang.String)",237,0.046893549663632766
+"public boolean org.antlr.v4.codegen.Target.templatesExist()",1592,0.3149980213692125
+"public static java.lang.String[] org.antlr.v4.codegen.target.Python2Target.python2Keywords",52,0.010288880094974277
+"public static java.lang.String[] org.antlr.v4.codegen.target.Python2Target.python2Keywords",1213,0.24000791452314998

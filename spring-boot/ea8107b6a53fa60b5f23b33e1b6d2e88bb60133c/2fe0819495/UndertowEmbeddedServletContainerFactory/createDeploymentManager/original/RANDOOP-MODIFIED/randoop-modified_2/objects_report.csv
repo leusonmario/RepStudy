@@ -1,0 +1,15 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.springframework.boot.context.embedded.MimeMappings,5606,1,0.4279716008855638,7.634170547370028E-5
+class [Lorg.springframework.boot.context.embedded.ErrorPage;,18743,2,1.4308725856935645,1.5268341094740057E-4
+class java.lang.String,10287,1,0.7853271242079548,7.634170547370028E-5
+class org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory,47015,5425,3.589205282846019,0.41415375219482403
+class java.util.ArrayList,13311,6,1.0161844415604244,4.580502328422017E-4
+class [Lorg.springframework.boot.context.embedded.undertow.UndertowDeploymentInfoCustomizer;,2191,2,0.1672646766928773,1.5268341094740057E-4
+class [Lorg.springframework.boot.context.embedded.ServletContextInitializer;,3897,568,0.29750362623101,0.04336208870906176
+class java.lang.Boolean,35024,2,2.6737918925108786,1.5268341094740057E-4
+class [Lorg.springframework.boot.context.embedded.undertow.UndertowBuilderCustomizer;,2190,2,0.16718833498740363,1.5268341094740057E-4
+class java.lang.Integer,9138,11,0.6976105046186731,8.397587602107031E-4
+class org.springframework.boot.context.embedded.InitParameterConfiguringServletContextInitializer,1146,1,0.08748759447286053,7.634170547370028E-5
+class java.util.LinkedHashSet,28687,2,2.19001450492404,1.5268341094740057E-4
+class java.lang.Class,700,10,0.053439193831590195,7.634170547370029E-4
+class org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainer,7974,7974,0.608748759447286,0.608748759447286

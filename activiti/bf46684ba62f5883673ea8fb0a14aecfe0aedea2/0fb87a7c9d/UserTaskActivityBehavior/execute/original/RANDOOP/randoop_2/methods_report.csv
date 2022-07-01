@@ -1,0 +1,160 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.removeEventSubscription(org.activiti.engine.impl.persistence.entity.EventSubscriptionEntity)",246,0.01615339155558474
+"public boolean org.activiti.engine.impl.persistence.entity.VariableScopeImpl.hasVariableLocal(java.lang.String)",179,0.011753890603453937
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setProcessDefinitionId(java.lang.String)",1230,0.0807669577779237
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isConcurrent()",2121,0.13927375402193184
+"public org.activiti.engine.impl.pvm.PvmProcessElement org.activiti.engine.impl.persistence.entity.ExecutionEntity.getEventSource()",1499,0.09843062577976229
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.removeVariableLocal(java.lang.String)",194,0.012738853503184714
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.updateProcessBusinessKey(java.lang.String)",188,0.012344868343292403
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isSuspended()",2241,0.14715345721977804
+"public org.activiti.engine.impl.persistence.entity.ExecutionEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.getSuperExecution()",11068,0.7267712916146826
+"public org.activiti.engine.impl.pvm.runtime.StartingExecution org.activiti.engine.impl.persistence.entity.ExecutionEntity.getStartingExecution()",1390,0.09127322870838532
+"org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior(org.activiti.engine.impl.task.TaskDefinition)",441,0.02895790925208484
+"public java.lang.Integer org.activiti.engine.impl.persistence.entity.ExecutionEntity.getExecutionListenerIndex()",9,5.909777398384661E-4
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setSuperExecution(org.activiti.engine.impl.persistence.entity.ExecutionEntity)",1467,0.09632937159366997
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getTasks()",224,0.014708779302646267
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.deleteVariablesInstanceForLeavingScope()",184,0.012082211570030862
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.removeJob(org.activiti.engine.impl.persistence.entity.JobEntity)",867,0.0569308556044389
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setTransition(org.activiti.engine.impl.pvm.process.TransitionImpl)",1612,0.10585067962440081
+"public void org.activiti.engine.impl.bpmn.behavior.AbstractBpmnActivityBehavior.setMultiInstanceActivityBehavior(org.activiti.engine.impl.bpmn.behavior.MultiInstanceActivityBehavior)",1090,0.07157397071376978
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.remove()",152,0.009980957383938538
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.destroyScope(java.lang.String)",187,0.012279204149977017
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.setVariables(java.util.Map)",809,0.05312233239214656
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.inactivate()",6874,0.45137566484995734
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setEventSource(org.activiti.engine.impl.pvm.PvmProcessElement)",4501,0.29555453411254845
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getId()",4048,0.265808654540679
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.setVariablesLocal(java.util.Map)",2256,0.14813842011950884
+"public void org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior.execute(org.activiti.engine.impl.pvm.delegate.ActivityExecution) throws java.lang.Exception",164,0.010768927703723159
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getProcessDefinitionId()",856,0.05620854947796966
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getEventName()",6341,0.41637664981285705
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.setVariable(java.lang.String,java.lang.Object)",130,0.008536345131000066
+"public int org.activiti.engine.impl.persistence.entity.ExecutionEntity.getRevisionNext()",5902,0.38755006894740296
+"public boolean org.activiti.engine.impl.persistence.entity.VariableScopeImpl.hasVariable(java.lang.String)",177,0.011622562216823167
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getActivityId()",1591,0.10447173156477772
+"public java.util.Map org.activiti.engine.impl.persistence.entity.VariableScopeImpl.getVariablesLocal()",163,0.010703263510407774
+"public org.activiti.engine.impl.pvm.PvmProcessInstance org.activiti.engine.impl.persistence.entity.ExecutionEntity.createSubProcessInstance(org.activiti.engine.impl.pvm.PvmProcessDefinition)",183,0.012016547376715477
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.createVariableLocal(java.lang.String,java.lang.Object)",152,0.009980957383938538
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isEnded()",1957,0.12850482631820867
+"public org.activiti.engine.impl.javax.el.ELContext org.activiti.engine.impl.persistence.entity.VariableScopeImpl.getCachedElContext()",1077,0.07072033620066978
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.end()",187,0.012279204149977017
+"public org.activiti.engine.impl.bpmn.behavior.MultiInstanceActivityBehavior org.activiti.engine.impl.bpmn.behavior.AbstractBpmnActivityBehavior.getMultiInstanceActivityBehavior()",1064,0.06986670168756977
+"public org.activiti.engine.impl.pvm.process.ProcessDefinitionImpl org.activiti.engine.impl.persistence.entity.ExecutionEntity.getProcessDefinition()",1051,0.06901306717446976
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.removeVariablesLocal(java.util.Collection)",364,0.023901766366800185
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setExecutions(java.util.List)",1973,0.12955545341125485
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.removeVariablesLocal()",176,0.011556898023507782
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.removeVariables()",168,0.0110315844769847
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setTransitionBeingTaken(org.activiti.engine.impl.pvm.process.TransitionImpl)",6456,0.4239280320441263
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.removeVariables(java.util.Collection)",191,0.012541860923238559
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.start()",189,0.012410532536607788
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.addEventSubscription(org.activiti.engine.impl.persistence.entity.EventSubscriptionEntity)",494,0.03243811149780025
+"public org.activiti.engine.impl.pvm.process.TransitionImpl org.activiti.engine.impl.persistence.entity.ExecutionEntity.getTransitionBeingTaken()",1336,0.08772736226935451
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getEventSubscriptions()",908,0.05962308753036969
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.createVariablesLocal(java.util.Map)",1256,0.08247422680412371
+"public org.activiti.engine.impl.persistence.entity.ExecutionEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.getParent()",2902,0.1905574890012476
+"java.util.ArrayList()",4883,0.32063825595902556
+"public org.activiti.engine.impl.pvm.process.ActivityImpl org.activiti.engine.impl.persistence.entity.ExecutionEntity.getActivity()",995,0.0653358723488082
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setEventScope(boolean)",1307,0.08582310066320835
+"org.activiti.engine.impl.persistence.entity.ExecutionEntity[7]",641,0.04209074791516186
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.executeActivity(org.activiti.engine.impl.pvm.PvmActivity)",176,0.011556898023507782
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setScope(boolean)",1592,0.10453739575809311
+"public final native java.lang.Class java.lang.Object.getClass()",183,0.012016547376715477
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setSubProcessInstance(org.activiti.engine.impl.pvm.runtime.InterpretableExecution)",6445,0.4232057259176571
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.take(org.activiti.engine.impl.pvm.PvmTransition)",173,0.011359905443561627
+"public int org.activiti.engine.impl.persistence.entity.ExecutionEntity.getCachedEntityState()",1220,0.08011031584476985
+"java.lang.String[4]",45,0.0029548886991923305
+"java.lang.String[3]",60,0.003939851598923108
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.removeIdentityLinks()",150,0.009849628997307769
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isActive()",2002,0.131459715017401
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isActive(java.lang.String)",163,0.010703263510407774
+"java.lang.String[6]",30,0.001969925799461554
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setReplacedBy(org.activiti.engine.impl.pvm.runtime.InterpretableExecution)",169,0.011097248670300085
+"java.lang.String[5]",35,0.002298246766038479
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getSuperExecutionId()",1371,0.090025609035393
+"public boolean org.activiti.engine.impl.persistence.entity.VariableScopeImpl.hasVariables()",178,0.011688226410138551
+"java.lang.String[2]",61,0.004005515792238492
+"java.lang.String[1]",73,0.0047934861120231135
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getCompensateEventSubscriptions(java.lang.String)",264,0.017335347035261673
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getCompensateEventSubscriptions()",220,0.014446122529384726
+"java.lang.String[8]",16,0.0010506270930461619
+"java.lang.String[7]",16,0.0010506270930461619
+"public java.lang.Object org.activiti.engine.impl.persistence.entity.VariableScopeImpl.getVariable(java.lang.String)",165,0.010834591897038545
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setCachedEntityState(int)",2866,0.18819357804189377
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setEventName(java.lang.String)",1050,0.06894740298115437
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setId(java.lang.String)",734,0.04819751789349268
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setParent(org.activiti.engine.impl.pvm.runtime.InterpretableExecution)",1963,0.128898811478101
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.disposeStartingExecution()",1014,0.06658349202180051
+"public org.activiti.engine.impl.persistence.entity.ExecutionEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.createExecution()",182,0.011950883183400093
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getBusinessKey()",1929,0.1266662289053779
+"public java.util.Set org.activiti.engine.impl.persistence.entity.VariableScopeImpl.getVariableNamesLocal()",156,0.01024361415720008
+"public org.activiti.engine.impl.persistence.entity.IdentityLinkEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.addIdentityLink(java.lang.String,java.lang.String)",171,0.011228577056930856
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.removeTask(org.activiti.engine.impl.persistence.entity.TaskEntity)",1850,0.12147875763346247
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.destroy()",185,0.012147875763346248
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getCurrentActivityName()",4074,0.267515923566879
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.addJob(org.activiti.engine.impl.persistence.entity.JobEntity)",192,0.012607525116553943
+"public org.activiti.engine.impl.persistence.entity.ExecutionEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.getSubProcessInstance()",223,0.014643115109330881
+"public java.util.Map org.activiti.engine.impl.persistence.entity.ExecutionEntity.getProcessVariables()",5481,0.35990544356162585
+"public java.lang.Object org.activiti.engine.impl.persistence.entity.VariableScopeImpl.getVariableLocal(java.lang.String)",192,0.012607525116553943
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.initialize()",163,0.010703263510407774
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.removeVariable(java.lang.String)",193,0.012673189309869328
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.takeAll(java.util.List,java.util.List)",142,0.009324315450784687
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getCurrentActivityId()",2341,0.15371987655131655
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.addTask(org.activiti.engine.impl.persistence.entity.TaskEntity)",236,0.015496749622430889
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setActive(boolean)",7877,0.5172368507452886
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getEventSubscriptionsInternal()",198,0.013001510276446254
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getIdentityLinks()",172,0.01129424125024624
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getJobs()",177,0.011622562216823167
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setActivity(org.activiti.engine.impl.pvm.process.ActivityImpl)",909,0.059688751723685075
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",4883,0.32063825595902556
+"public void org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior.signal(org.activiti.engine.impl.pvm.delegate.ActivityExecution,java.lang.String,java.lang.Object) throws java.lang.Exception",131,0.00860200932431545
+"public java.util.Set org.activiti.engine.impl.persistence.entity.VariableScopeImpl.getVariableNames()",186,0.012213539956661633
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setProcessInstance(org.activiti.engine.impl.pvm.runtime.InterpretableExecution)",1223,0.080307308424716
+"org.activiti.engine.impl.pvm.delegate.ActivityExecution[10]",1,6.566419331538512E-5
+"public org.activiti.engine.impl.persistence.entity.ExecutionEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.getReplacedBy()",1881,0.12351434762623942
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.signal(java.lang.String,java.lang.Object)",123,0.00807669577779237
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setSuspensionState(int)",7664,0.5032503775691116
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setRevision(int)",11771,0.7729332195153983
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getProcessInstanceId()",6123,0.4020618556701031
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.deleteCascade(java.lang.String)",166,0.01090025609035393
+"public org.activiti.engine.impl.persistence.entity.IdentityLinkEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.involveUser(java.lang.String,java.lang.String)",192,0.012607525116553943
+"public java.lang.Object org.activiti.engine.impl.persistence.entity.ExecutionEntity.getPersistentState()",3138,0.2060542386236785
+"org.activiti.engine.impl.persistence.entity.VariableInstanceEntity[0]",3772,0.24768533718563268
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getDeleteReason()",2219,0.14570884496683958
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setProcessDefinition(org.activiti.engine.impl.pvm.process.ProcessDefinitionImpl)",157,0.010309278350515464
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getTenantId()",1642,0.10782060542386236
+"public org.activiti.engine.impl.persistence.entity.ExecutionEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.getProcessInstance()",2525,0.16580208812134742
+"public org.activiti.engine.impl.persistence.entity.ExecutionEntity org.activiti.engine.impl.persistence.entity.ExecutionEntity.findExecution(java.lang.String)",180,0.011819554796769322
+"public java.util.Map org.activiti.engine.impl.persistence.entity.VariableScopeImpl.getVariables()",155,0.010177949963884693
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.forceUpdate()",4912,0.3225425175651717
+"public int org.activiti.engine.impl.persistence.entity.ExecutionEntity.getSuspensionState()",3842,0.25228183071770965
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.findActiveActivityIds()",189,0.012410532536607788
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isScope()",953,0.06257797622956202
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isDeleteRoot()",1044,0.06855341782126206
+"org.activiti.engine.impl.persistence.entity.ExecutionEntity(org.activiti.engine.impl.pvm.process.ActivityImpl)",35401,2.3245781075579486
+"org.activiti.engine.impl.persistence.entity.ExecutionEntity()",2969,0.19495698995337843
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isProcessInstanceType()",1595,0.10473438833803926
+"public org.activiti.engine.EngineServices org.activiti.engine.impl.persistence.entity.ExecutionEntity.getEngineServices()",1279,0.08398450325037757
+"public boolean org.activiti.engine.impl.persistence.entity.VariableScopeImpl.hasVariablesLocal()",177,0.011622562216823167
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setBusinessKey(java.lang.String)",7410,0.4865716724670037
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getParentId()",2534,0.1663930658611859
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getExecutions()",208,0.013658152209600104
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.toString()",1139,0.07479151618622365
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setParentId(java.lang.String)",2222,0.14590583754678574
+"org.activiti.engine.impl.pvm.PvmTransition[0]",133,0.008733337710946221
+"public org.activiti.engine.impl.pvm.process.TransitionImpl org.activiti.engine.impl.persistence.entity.ExecutionEntity.getTransition()",3088,0.20277102895790924
+"public java.lang.String org.activiti.engine.impl.persistence.entity.ExecutionEntity.getProcessBusinessKey()",192,0.012607525116553943
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(org.activiti.engine.impl.pvm.runtime.AtomicOperation)",167,0.010965920283669314
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.findInactiveConcurrentExecutions(org.activiti.engine.impl.pvm.PvmActivity)",4306,0.28275001641604836
+"public org.activiti.engine.impl.task.TaskDefinition org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior.getTaskDefinition()",873,0.05732484076433121
+"public java.util.List org.activiti.engine.impl.persistence.entity.ExecutionEntity.getQueryVariables()",1510,0.09915293190623153
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setDeleteReason(java.lang.String)",13004,0.8538971698732681
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.insert()",167,0.010965920283669314
+"public boolean org.activiti.engine.impl.persistence.entity.ExecutionEntity.isEventScope()",932,0.061199028169938934
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setExecutionListenerIndex(java.lang.Integer)",1801,0.1182612121610086
+"public java.lang.Object org.activiti.engine.impl.persistence.entity.VariableScopeImpl.setVariableLocal(java.lang.String,java.lang.Object)",141,0.009258651257469303
+"public java.lang.Object org.activiti.engine.impl.persistence.entity.VariableScopeImpl.setVariableLocal(java.lang.String,java.lang.Object,org.activiti.engine.impl.persistence.entity.ExecutionEntity)",95,0.006238098364961586
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setConcurrent(boolean)",1033,0.06783111169479283
+"public int org.activiti.engine.impl.persistence.entity.ExecutionEntity.getRevision()",824,0.05410729529187734
+"java.lang.Object()",1,6.566419331538512E-5
+"public void org.activiti.engine.impl.persistence.entity.VariableScopeImpl.setCachedElContext(org.activiti.engine.impl.javax.el.ELContext)",3700,0.24295751526692494
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setTenantId(java.lang.String)",1523,0.10000656641933153
+"public void org.activiti.engine.impl.persistence.entity.ExecutionEntity.setQueryVariables(java.util.List)",5143,0.33771094622102565

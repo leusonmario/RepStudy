@@ -1,0 +1,10 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Boolean,17330,2,0.7332656342557332,8.462384700008462E-5
+class java.lang.Float,4788,609,0.2025894897182026,0.025767961411525767
+class com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration$HdpiMode,1843,2,0.07798087501057797,8.462384700008462E-5
+class java.lang.String,4086,112,0.1728865194211729,0.004738935432004739
+class java.lang.Integer,52481,1681,2.2205720572057204,0.07112634340357113
+class com.badlogic.gdx.graphics.Color,59704,2568,2.526191080646526,0.10865701954810866
+class java.lang.Class,253,4,0.010704916645510706,1.6924769400016924E-4
+class com.badlogic.gdx.Files$FileType,6031,5,0.2551832106287552,2.1155961750021155E-4
+class com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration,41352,10779,1.7496826605737497,0.4560802234069561

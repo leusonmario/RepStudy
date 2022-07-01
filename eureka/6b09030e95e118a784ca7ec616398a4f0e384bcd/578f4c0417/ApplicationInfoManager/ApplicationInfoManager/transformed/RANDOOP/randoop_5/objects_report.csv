@@ -1,0 +1,20 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,23345,18,1.7766362252663623,0.0013698630136986301
+class com.netflix.appinfo.InstanceInfo$PortType,2225,2,0.1693302891933029,1.5220700152207003E-4
+class java.lang.Long,1293,281,0.09840182648401827,0.02138508371385084
+class com.netflix.appinfo.LeaseInfo,36,1,0.0027397260273972603,7.610350076103501E-5
+class java.util.concurrent.ConcurrentHashMap,5929,134,0.45121765601217656,0.010197869101978691
+class [Ljava.lang.String;,209,27,0.015905631659056316,0.002054794520547945
+class java.lang.Integer,19019,10,1.447412480974125,7.6103500761035E-4
+class com.netflix.appinfo.MyDataCenterInstanceConfig,21934,18497,1.6692541856925418,1.4076864535768645
+class com.netflix.appinfo.InstanceInfo$ActionType,2077,3,0.15806697108066972,2.2831050228310502E-4
+class java.util.LinkedHashSet,1951,2,0.1484779299847793,1.5220700152207003E-4
+class com.netflix.appinfo.AbstractInstanceConfig$1,1431,1,0.10890410958904109,7.610350076103501E-5
+class org.slf4j.helpers.NOPLogger,1,1,7.610350076103501E-5,7.610350076103501E-5
+class com.netflix.appinfo.InstanceInfo,22278,16264,1.695433789954338,1.2377473363774734
+class com.netflix.appinfo.InstanceInfo$Builder,140947,116,10.726560121765601,0.008828006088280061
+class java.util.LinkedHashMap,2699,25,0.2054033485540335,0.001902587519025875
+class com.netflix.appinfo.ApplicationInfoManager,14981,11886,1.1401065449010654,0.9045662100456621
+class java.lang.Boolean,16620,2,1.264840182648402,1.5220700152207003E-4
+class java.lang.Class,224,10,0.01704718417047184,7.6103500761035E-4
+class com.netflix.appinfo.InstanceInfo$InstanceStatus,7408,5,0.5637747336377473,3.80517503805175E-4

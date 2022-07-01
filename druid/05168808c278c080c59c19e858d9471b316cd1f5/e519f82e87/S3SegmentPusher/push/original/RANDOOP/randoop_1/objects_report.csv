@@ -1,0 +1,9 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class com.metamx.druid.client.DataSegment$Builder,248312,4253,23.096642172821134,0.3955911078039252
+class java.util.ArrayList,31377,15,2.91851920751558,0.0013952190493907544
+class com.metamx.druid.loading.S3SegmentPusher,2,1,1.8602920658543392E-4,9.301460329271696E-5
+class com.metamx.druid.client.DataSegment$2,1,1,9.301460329271696E-5,9.301460329271696E-5
+class java.lang.Class,1878,3,0.17468142498372244,2.7904380987815085E-4
+class java.lang.String,1,1,9.301460329271696E-5,9.301460329271696E-5
+class [Ljava.lang.String;,31377,15,2.91851920751558,0.0013952190493907544
+class java.lang.Boolean,31377,1,2.91851920751558,9.301460329271696E-5

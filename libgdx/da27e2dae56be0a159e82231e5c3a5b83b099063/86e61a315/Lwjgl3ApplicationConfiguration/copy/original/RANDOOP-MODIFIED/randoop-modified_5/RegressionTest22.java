@@ -1,0 +1,12362 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest22 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test11001() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11001");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 10);
+        com.badlogic.gdx.graphics.Color color9 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color9);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 100, (int) '#');
+    }
+
+    @Test
+    public void test11002() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11002");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (int) ' ', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) 'a', 1, 100, (-1));
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.Files.FileType fileType29 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType29);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (short) 100, (int) (byte) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) '4', 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, 100, (int) (byte) 1, (int) (short) -1, (int) (short) 1, (int) (short) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 1, 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (short) 1);
+        java.lang.Class<?> wildcardClass65 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass65);
+    }
+
+    @Test
+    public void test11003() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11003");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 100, (int) (short) -1, (int) (byte) 10, (int) (short) 100);
+        com.badlogic.gdx.Files.FileType fileType33 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType33);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (short) 10);
+    }
+
+    @Test
+    public void test11004() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11004");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) (short) -1, 10, 0, (int) (byte) 100, (int) (byte) 10, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) ' ', (int) (byte) -1);
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType31);
+    }
+
+    @Test
+    public void test11005() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11005");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener20 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) (short) 100);
+    }
+
+    @Test
+    public void test11006() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11006");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode9 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode9);
+        com.badlogic.gdx.Files.FileType fileType12 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType12);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 100, (int) ' ');
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType23);
+    }
+
+    @Test
+    public void test11007() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11007");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) '#');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) (short) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener19 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener19);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) 'a', 10, (int) (short) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) (short) 10, 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 0, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) (byte) 1, (int) (byte) 0, (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener43 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener43);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11008() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11008");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) ' ');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, 10, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+    }
+
+    @Test
+    public void test11009() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11009");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) ' ', (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode28 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode28);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode30 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode30);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, (-1));
+    }
+
+    @Test
+    public void test11010() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11010");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, 0, 1, (int) (short) -1, (int) ' ', (int) (short) -1, (int) (short) 1);
+        com.badlogic.gdx.graphics.Color color30 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color30);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener32 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener32);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, (-1));
+    }
+
+    @Test
+    public void test11011() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11011");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.Files.FileType fileType22 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType22);
+        com.badlogic.gdx.Files.FileType fileType25 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType25);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 1, 0, (int) '4', (int) ' ', 10, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color39);
+    }
+
+    @Test
+    public void test11012() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11012");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) -1, (int) (byte) -1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11013() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11013");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, (int) (short) 100, (int) '4', 10, (int) (byte) 100, (int) 'a', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) 100, (int) (byte) 1, 0);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.graphics.Color color36 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color36);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11014() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11014");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode14 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode14);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) 'a', (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener20 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener20);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+    }
+
+    @Test
+    public void test11015() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11015");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 0, (int) (byte) 1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 0, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, (int) (byte) 0, (int) '#');
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11016() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11016");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (byte) 0, (int) (short) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+    }
+
+    @Test
+    public void test11017() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11017");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) 'a', (int) (byte) 100, 10);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener14 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener14);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.Graphics.DisplayMode displayMode18 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode18);
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType21);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) ' ', (int) ' ');
+        com.badlogic.gdx.graphics.Color color27 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color27);
+    }
+
+    @Test
+    public void test11018() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11018");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, (-1));
+    }
+
+    @Test
+    public void test11019() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11019");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, (int) (byte) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration32 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color33 = null;
+        lwjgl3ApplicationConfiguration32.setInitialBackgroundColor(color33);
+        com.badlogic.gdx.graphics.Color color35 = null;
+        lwjgl3ApplicationConfiguration32.setInitialBackgroundColor(color35);
+        lwjgl3ApplicationConfiguration32.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration32.setResizable(true);
+        lwjgl3ApplicationConfiguration32.setTitle("");
+        lwjgl3ApplicationConfiguration32.setResizable(true);
+        lwjgl3ApplicationConfiguration32.useOpenGL3(false, (int) '#', (int) (byte) 0);
+        lwjgl3ApplicationConfiguration32.setAudioConfig((int) (byte) 0, (int) '4', (int) (short) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration55 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode56 = null;
+        lwjgl3ApplicationConfiguration55.setHdpiMode(hdpiMode56);
+        lwjgl3ApplicationConfiguration55.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode61 = null;
+        lwjgl3ApplicationConfiguration55.setFullscreenMode(displayMode61);
+        lwjgl3ApplicationConfiguration55.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color67 = null;
+        lwjgl3ApplicationConfiguration55.setInitialBackgroundColor(color67);
+        lwjgl3ApplicationConfiguration55.setResizable(false);
+        lwjgl3ApplicationConfiguration55.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration73 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode74 = null;
+        lwjgl3ApplicationConfiguration73.setHdpiMode(hdpiMode74);
+        lwjgl3ApplicationConfiguration73.useVsync(false);
+        lwjgl3ApplicationConfiguration73.setDecorated(false);
+        lwjgl3ApplicationConfiguration73.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration82 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration82.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode85 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration82.setHdpiMode(hdpiMode85);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode87 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration82.setHdpiMode(hdpiMode87);
+        lwjgl3ApplicationConfiguration73.setHdpiMode(hdpiMode87);
+        lwjgl3ApplicationConfiguration55.setHdpiMode(hdpiMode87);
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode87);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode87);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode85 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode85.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode87 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode87.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11020() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11020");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) -1, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener14 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener14);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, (int) (short) -1, (int) (byte) 100, (int) '#', 100, (int) (byte) 10, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener28 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener28);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener30);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11021() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11021");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+    }
+
+    @Test
+    public void test11022() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11022");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.Files.FileType fileType9 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType9);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration13 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = null;
+        lwjgl3ApplicationConfiguration13.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration13.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode19 = null;
+        lwjgl3ApplicationConfiguration13.setFullscreenMode(displayMode19);
+        lwjgl3ApplicationConfiguration13.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration13.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration13.setWindowPosition((int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode36 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration13.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode36 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode36.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11023() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11023");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) ' ', 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Files.FileType fileType33 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType33);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color37 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color37);
+    }
+
+    @Test
+    public void test11024() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11024");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (int) (byte) 0, (int) '#', (int) (byte) 0, (int) 'a', (int) '#', (int) 'a');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, 100, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) (short) 100);
+    }
+
+    @Test
+    public void test11025() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11025");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType17 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType17);
+    }
+
+    @Test
+    public void test11026() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11026");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode27 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode27);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', 0);
+        com.badlogic.gdx.graphics.Color color32 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color32);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode34 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode34);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(100, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11027() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11027");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (int) ' ', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) 'a', 1, 100, (-1));
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode24);
+        com.badlogic.gdx.Files.FileType fileType27 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType27);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11028() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11028");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, 1, (int) (short) 10, (int) '#', (int) (byte) 1, (int) (short) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) '#', (int) (byte) 100);
+        com.badlogic.gdx.Files.FileType fileType22 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType22);
+    }
+
+    @Test
+    public void test11029() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11029");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', 0, 0, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType12 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType12);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 1, (int) (short) 0, 100, (int) (short) 100, (int) (short) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration24.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration24.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color31 = null;
+        lwjgl3ApplicationConfiguration24.setInitialBackgroundColor(color31);
+        com.badlogic.gdx.graphics.Color color33 = null;
+        lwjgl3ApplicationConfiguration24.setInitialBackgroundColor(color33);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration35 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode36 = null;
+        lwjgl3ApplicationConfiguration35.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration35.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode41 = null;
+        lwjgl3ApplicationConfiguration35.setFullscreenMode(displayMode41);
+        lwjgl3ApplicationConfiguration35.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration35.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration35.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration35.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration60 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color61 = null;
+        lwjgl3ApplicationConfiguration60.setInitialBackgroundColor(color61);
+        com.badlogic.gdx.graphics.Color color63 = null;
+        lwjgl3ApplicationConfiguration60.setInitialBackgroundColor(color63);
+        lwjgl3ApplicationConfiguration60.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration67 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode68 = null;
+        lwjgl3ApplicationConfiguration67.setHdpiMode(hdpiMode68);
+        lwjgl3ApplicationConfiguration67.useVsync(false);
+        lwjgl3ApplicationConfiguration67.setDecorated(false);
+        lwjgl3ApplicationConfiguration67.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration76 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration76.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode79 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration76.setHdpiMode(hdpiMode79);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode81 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration76.setHdpiMode(hdpiMode81);
+        lwjgl3ApplicationConfiguration67.setHdpiMode(hdpiMode81);
+        lwjgl3ApplicationConfiguration60.setHdpiMode(hdpiMode81);
+        lwjgl3ApplicationConfiguration35.setHdpiMode(hdpiMode81);
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode81);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode81);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) (byte) 0, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        java.lang.Class<?> wildcardClass96 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertTrue("'" + hdpiMode79 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode79.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode81 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode81.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertNotNull(wildcardClass96);
+    }
+
+    @Test
+    public void test11030() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11030");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color26);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 0, (int) (short) 0, 0, (int) (short) -1, 1, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode36 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode36);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, (int) (short) 100, 0, (int) (byte) -1, (int) (short) 100, (-1), (int) '#');
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11031() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11031");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode24);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color26);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener28 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener28);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '#', (int) '#');
+    }
+
+    @Test
+    public void test11032() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11032");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.graphics.Color color13 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color13);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 10, 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, (int) (byte) 0, (int) (byte) 100, (-1), (int) (short) 1, (int) (byte) 0, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) ' ', (-1), (int) '4');
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener38 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener38);
+        com.badlogic.gdx.graphics.Color color40 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color40);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '#', 100);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11033() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11033");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) '#', 100, (int) 'a', (int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11034() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11034");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) '4', (int) 'a', (-1));
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (int) (short) -1, 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', 10, (int) (byte) 10, (int) (short) 10);
+    }
+
+    @Test
+    public void test11035() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11035");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(1, 0, 0, (int) 'a', (int) 'a', (int) (short) 100, (-1));
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11036() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11036");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '#', (int) 'a', 100, (int) (short) 10, (int) (byte) 10, (int) (byte) 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (byte) 10, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (short) 0, (int) (byte) 10, 1);
+    }
+
+    @Test
+    public void test11037() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11037");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode18 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode18);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) 'a');
+        com.badlogic.gdx.Files.FileType fileType24 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType24);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, 0, (int) ' ', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (byte) 100, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 0, (int) (byte) -1, (int) (short) 10, 100, (int) (short) 100, (int) (short) 100);
+    }
+
+    @Test
+    public void test11038() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11038");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(100, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = null;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration24.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration24.setPreferencesConfig("hi!", fileType31);
+        lwjgl3ApplicationConfiguration24.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode37 = null;
+        lwjgl3ApplicationConfiguration24.setFullscreenMode(displayMode37);
+        lwjgl3ApplicationConfiguration24.disableAudio(false);
+        lwjgl3ApplicationConfiguration24.setBackBufferConfig((int) (short) 0, (int) 'a', 1, 1, (int) (short) 1, (int) '4', 0);
+        lwjgl3ApplicationConfiguration24.setWindowedMode(1, (int) '#');
+        lwjgl3ApplicationConfiguration24.setAudioConfig((int) (byte) 0, (int) (short) 0, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration56 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode57 = null;
+        lwjgl3ApplicationConfiguration56.setHdpiMode(hdpiMode57);
+        lwjgl3ApplicationConfiguration56.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration56.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode72 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration56.setHdpiMode(hdpiMode72);
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode72);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode72);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, 0, 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (byte) -1);
+        org.junit.Assert.assertTrue("'" + hdpiMode72 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode72.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11039() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11039");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        com.badlogic.gdx.graphics.Color color23 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color23);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener25 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener25);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode27 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode27);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode29 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode29);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11040() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11040");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.graphics.Color color9 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color9);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', (int) (short) 10, 10, (int) (short) 10, (int) ' ', (int) '#', (int) '4');
+        com.badlogic.gdx.Files.FileType fileType24 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType24);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (byte) 100, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11041() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11041");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) -1, (int) (short) 10, (-1), (int) (byte) 1, 0, 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11042() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11042");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener27 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener27);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color31 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color31);
+        com.badlogic.gdx.Files.FileType fileType34 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType34);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode38 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode38);
+        com.badlogic.gdx.Files.FileType fileType41 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType41);
+        java.lang.Class<?> wildcardClass43 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass43);
+    }
+
+    @Test
+    public void test11043() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11043");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration9 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration9.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode19 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode19);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) (short) 10);
+        org.junit.Assert.assertTrue("'" + hdpiMode12 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode12.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode14 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode14.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11044() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11044");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, 1, (int) ' ', (int) 'a');
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType31);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode33 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode33);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11045() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11045");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration20.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode26 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode26);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode26);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 1, (int) (short) -1, (int) (byte) 100, (int) 'a', (int) (byte) 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 0, (int) ' ', (-1), (int) (byte) 10);
+        java.lang.Class<?> wildcardClass47 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertTrue("'" + hdpiMode26 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode26.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertNotNull(wildcardClass47);
+    }
+
+    @Test
+    public void test11046() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11046");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode4 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode4);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (-1), (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode4 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode4.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11047() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11047");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (byte) 1, 0, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration17 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode18 = null;
+        lwjgl3ApplicationConfiguration17.setHdpiMode(hdpiMode18);
+        lwjgl3ApplicationConfiguration17.useVsync(false);
+        lwjgl3ApplicationConfiguration17.disableAudio(false);
+        lwjgl3ApplicationConfiguration17.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration17.setWindowListener(lwjgl3WindowListener26);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration28 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration28.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode31 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration28.setHdpiMode(hdpiMode31);
+        lwjgl3ApplicationConfiguration17.setHdpiMode(hdpiMode31);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode31);
+        java.lang.Class<?> wildcardClass35 = hdpiMode31.getClass();
+        org.junit.Assert.assertTrue("'" + hdpiMode31 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode31.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertNotNull(wildcardClass35);
+    }
+
+    @Test
+    public void test11048() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11048");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+    }
+
+    @Test
+    public void test11049() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11049");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, 100, 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener34 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener34);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11050() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11050");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, 1, (int) (short) 10, (int) '#', (int) (byte) 1, (int) (short) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) (byte) 0, (int) '#', 10, (int) '4', 10, (-1));
+        com.badlogic.gdx.Graphics.DisplayMode displayMode25 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode25);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) ' ', (int) (byte) 100);
+        com.badlogic.gdx.Files.FileType fileType32 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType32);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 100, (int) (byte) 10, 0, 10);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color39);
+        com.badlogic.gdx.graphics.Color color41 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color41);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration43 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode44 = null;
+        lwjgl3ApplicationConfiguration43.setHdpiMode(hdpiMode44);
+        lwjgl3ApplicationConfiguration43.useVsync(false);
+        lwjgl3ApplicationConfiguration43.setResizable(false);
+        lwjgl3ApplicationConfiguration43.disableAudio(true);
+        lwjgl3ApplicationConfiguration43.useOpenGL3(false, 0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration43.disableAudio(false);
+        lwjgl3ApplicationConfiguration43.setBackBufferConfig((int) (byte) -1, (int) ' ', (int) (byte) 10, (int) (byte) 100, (int) '#', (int) (short) 1, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration66 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration66.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener70 = null;
+        lwjgl3ApplicationConfiguration66.setWindowListener(lwjgl3WindowListener70);
+        lwjgl3ApplicationConfiguration66.setAudioConfig(100, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener76 = null;
+        lwjgl3ApplicationConfiguration66.setWindowListener(lwjgl3WindowListener76);
+        lwjgl3ApplicationConfiguration66.setWindowedMode((int) (short) 10, (int) (short) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration81 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode82 = null;
+        lwjgl3ApplicationConfiguration81.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration81.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener87 = null;
+        lwjgl3ApplicationConfiguration81.setWindowListener(lwjgl3WindowListener87);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode89 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration81.setHdpiMode(hdpiMode89);
+        lwjgl3ApplicationConfiguration66.setHdpiMode(hdpiMode89);
+        lwjgl3ApplicationConfiguration43.setHdpiMode(hdpiMode89);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode89);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener94 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener94);
+        org.junit.Assert.assertTrue("'" + hdpiMode89 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode89.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11051() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11051");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode18 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode18);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) 'a');
+        com.badlogic.gdx.Files.FileType fileType24 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType24);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, 0, (int) ' ', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.Files.FileType fileType34 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType34);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) (short) -1);
+    }
+
+    @Test
+    public void test11052() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11052");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode16 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode16);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener22 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener22);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 100, 10, (int) (short) 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 1, (int) (short) 1);
+        org.junit.Assert.assertTrue("'" + hdpiMode16 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode16.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11053() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11053");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        com.badlogic.gdx.Files.FileType fileType17 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType17);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) ' ', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', 10);
+    }
+
+    @Test
+    public void test11054() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11054");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Files.FileType fileType10 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.Files.FileType fileType17 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType17);
+    }
+
+    @Test
+    public void test11055() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11055");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        com.badlogic.gdx.Files.FileType fileType17 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType17);
+        java.lang.Class<?> wildcardClass19 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test11056() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11056");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', 0, (-1));
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType21);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (byte) 10, (int) (byte) -1, 100, (int) 'a', (int) (short) 1, (int) (byte) 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode35 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode35);
+    }
+
+    @Test
+    public void test11057() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11057");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.graphics.Color color5 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color5);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), 0);
+        java.lang.Class<?> wildcardClass21 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass21);
+    }
+
+    @Test
+    public void test11058() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11058");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, 1, (int) (short) 10, (int) '#', (int) (byte) 1, (int) (short) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) '#', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11059() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11059");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (short) 0, 1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration18 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode19 = null;
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration18.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration18.setFullscreenMode(displayMode24);
+        lwjgl3ApplicationConfiguration18.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration18.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration18.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration18.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color43 = null;
+        lwjgl3ApplicationConfiguration18.setInitialBackgroundColor(color43);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener45 = null;
+        lwjgl3ApplicationConfiguration18.setWindowListener(lwjgl3WindowListener45);
+        lwjgl3ApplicationConfiguration18.useOpenGL3(true, (int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration18.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration53 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode54 = null;
+        lwjgl3ApplicationConfiguration53.setHdpiMode(hdpiMode54);
+        lwjgl3ApplicationConfiguration53.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener59 = null;
+        lwjgl3ApplicationConfiguration53.setWindowListener(lwjgl3WindowListener59);
+        lwjgl3ApplicationConfiguration53.setDecorated(true);
+        lwjgl3ApplicationConfiguration53.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener65 = null;
+        lwjgl3ApplicationConfiguration53.setWindowListener(lwjgl3WindowListener65);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode67 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration53.setHdpiMode(hdpiMode67);
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode67);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode67);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode67 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode67.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11060() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11060");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 0, 0, (int) (byte) 10, (int) (short) 0, 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.Files.FileType fileType38 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType38);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener42 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener42);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) (short) 10, 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(1, (int) (byte) 0, (int) ' ', (int) ' ', 0, 1, (int) '4');
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11061() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11061");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType8 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType8);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, (int) '4', (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (byte) 100, 0, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener26);
+    }
+
+    @Test
+    public void test11062() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11062");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener4 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener4);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) 'a', (int) (short) 100, 10, 1, 0, (int) (byte) 10, 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11063() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11063");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) 10);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode24);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) 'a', (int) (short) 10, (int) (short) 100, (int) (short) 0, 10, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, 0, (int) ' ', (int) (short) 10, (int) (short) 1, 0, 100);
+    }
+
+    @Test
+    public void test11064() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11064");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (int) ' ', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) 'a', 1, 100, (-1));
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener29);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) 'a', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 100, (int) (byte) 10, (int) (byte) 100, (int) (byte) 100);
+    }
+
+    @Test
+    public void test11065() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11065");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        com.badlogic.gdx.graphics.Color color17 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color17);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 10, (int) '4', (int) (byte) 0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 10);
+    }
+
+    @Test
+    public void test11066() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11066");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType23);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) ' ');
+    }
+
+    @Test
+    public void test11067() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11067");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.Files.FileType fileType18 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType18);
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType21);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '#', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11068() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11068");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 10, 10);
+    }
+
+    @Test
+    public void test11069() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11069");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 100, (int) '#', (int) 'a', (int) (short) 1, 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (byte) -1, (int) (short) 100, (int) ' ');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11070() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11070");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) 'a', (int) (byte) 100, 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) 'a', (int) (byte) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, (int) (short) 1, 0, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener29);
+    }
+
+    @Test
+    public void test11071() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11071");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration10 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode11 = null;
+        lwjgl3ApplicationConfiguration10.setHdpiMode(hdpiMode11);
+        lwjgl3ApplicationConfiguration10.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode16 = null;
+        lwjgl3ApplicationConfiguration10.setFullscreenMode(displayMode16);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration18 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration18.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode21 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode21);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode23 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode23);
+        lwjgl3ApplicationConfiguration10.setHdpiMode(hdpiMode23);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode23);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (short) -1);
+        com.badlogic.gdx.graphics.Color color30 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color30);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 100, (int) (byte) 1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType37 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType37);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener41 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener41);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, (int) (byte) 1);
+        org.junit.Assert.assertTrue("'" + hdpiMode21 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode21.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode23 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode23.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11072() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11072");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration20.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode23 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode23);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener30);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color35 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color35);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, 0, 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 10, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, (int) (short) -1);
+        org.junit.Assert.assertTrue("'" + hdpiMode23 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode23.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode25 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode25.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11073() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11073");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11074() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11074");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode27 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode27);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11075() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11075");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Files.FileType fileType10 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) (byte) 10, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) '#', 0, (int) (short) 1, (int) (byte) 100, (int) (byte) -1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) (short) 1, 0, 0);
+    }
+
+    @Test
+    public void test11076() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11076");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (byte) 10, (int) ' ', 0);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode5 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode5.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11077() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11077");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener15 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener15);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, (int) (short) 10, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.Graphics.DisplayMode displayMode23 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode23);
+        java.lang.Class<?> wildcardClass25 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass25);
+    }
+
+    @Test
+    public void test11078() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11078");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color5 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color5);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener7 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener7);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode11 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode11);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11079() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11079");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) (byte) 10, (int) (byte) -1, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '#', 10, (int) (short) 10, (int) ' ', 10, (int) (byte) -1, (int) (byte) 100);
+    }
+
+    @Test
+    public void test11080() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11080");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration18 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode19 = null;
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration18.useVsync(false);
+        lwjgl3ApplicationConfiguration18.setDecorated(false);
+        lwjgl3ApplicationConfiguration18.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration27 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration27.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode30 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration27.setHdpiMode(hdpiMode30);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode32 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration27.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode32);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration36 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color37 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color37);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color39);
+        lwjgl3ApplicationConfiguration36.setDecorated(false);
+        lwjgl3ApplicationConfiguration36.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration36.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration36.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration56 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color57 = null;
+        lwjgl3ApplicationConfiguration56.setInitialBackgroundColor(color57);
+        lwjgl3ApplicationConfiguration56.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode62 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration56.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) 0, (int) (short) 10, (int) '4');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 1, (int) (byte) 10, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (int) 'a', (int) (short) 1, (int) '4', (int) 'a', (int) (byte) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (-1), (int) 'a');
+        org.junit.Assert.assertTrue("'" + hdpiMode30 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode30.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode32 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode32.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode62 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode62.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11081() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11081");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, 1, 1, 1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+    }
+
+    @Test
+    public void test11082() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11082");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 1, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration15 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration15.setInitialBackgroundColor(color16);
+        lwjgl3ApplicationConfiguration15.setWindowedMode(0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration15.setWindowSizeLimits((int) '#', 0, 0, (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration26 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode27 = null;
+        lwjgl3ApplicationConfiguration26.setHdpiMode(hdpiMode27);
+        lwjgl3ApplicationConfiguration26.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode32 = null;
+        lwjgl3ApplicationConfiguration26.setFullscreenMode(displayMode32);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration34 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration34.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode37 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration34.setHdpiMode(hdpiMode37);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode39 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration34.setHdpiMode(hdpiMode39);
+        lwjgl3ApplicationConfiguration26.setHdpiMode(hdpiMode39);
+        lwjgl3ApplicationConfiguration15.setHdpiMode(hdpiMode39);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode39);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, (int) (byte) 0, (int) (short) 1);
+        org.junit.Assert.assertTrue("'" + hdpiMode37 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode37.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode39 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode39.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11083() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11083");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, 10, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) '4', (int) (short) -1, (int) 'a');
+    }
+
+    @Test
+    public void test11084() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11084");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) (short) 100, (int) (short) 1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) 0, 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) '4', (int) (byte) -1, (int) (byte) 10);
+    }
+
+    @Test
+    public void test11085() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11085");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, 100, 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) (short) 1, (int) (short) 100);
+    }
+
+    @Test
+    public void test11086() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11086");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (int) (byte) 100, (int) (byte) 1, (int) (short) -1, (int) (short) 10, 10, 100);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11087() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11087");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) 'a', (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, (int) (byte) 10, (int) (short) 1, (int) (short) 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode27 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode27);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11088() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11088");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener26);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, (int) (byte) 10, (int) (byte) 1, (int) ' ', (int) (byte) -1, 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Files.FileType fileType41 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType41);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, (int) 'a');
+    }
+
+    @Test
+    public void test11089() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11089");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) 'a', (int) (short) 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', 10, (int) '4', (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) 'a', (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener29);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode31 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode31);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, (int) ' ');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener36 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener36);
+    }
+
+    @Test
+    public void test11090() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11090");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration20.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode23 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode23);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode25);
+        com.badlogic.gdx.graphics.Color color28 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color28);
+        com.badlogic.gdx.graphics.Color color30 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color30);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.Files.FileType fileType35 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType35);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        org.junit.Assert.assertTrue("'" + hdpiMode23 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode23.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode25 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode25.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11091() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11091");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode10 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) 'a', (int) '4');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11092() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11092");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.Files.FileType fileType22 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType22);
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (-1));
+        com.badlogic.gdx.graphics.Color color29 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color29);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', (int) (short) 1);
+    }
+
+    @Test
+    public void test11093() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11093");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 100, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (short) -1, (int) (byte) 100);
+        com.badlogic.gdx.Files.FileType fileType37 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType37);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11094() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11094");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', (int) '#', 10);
+    }
+
+    @Test
+    public void test11095() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11095");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) 10, (int) (byte) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+    }
+
+    @Test
+    public void test11096() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11096");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(100, 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (short) -1, (int) 'a', (-1), 10, (int) (short) 10, (int) (byte) 100);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+    }
+
+    @Test
+    public void test11097() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11097");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setAudioConfig((-1), 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, (int) (byte) 10, (int) (byte) -1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', (int) (byte) 1);
+    }
+
+    @Test
+    public void test11098() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11098");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType21);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Files.FileType fileType26 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType26);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener30);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, 1, (int) (byte) 10);
+    }
+
+    @Test
+    public void test11099() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11099");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '#', (int) (byte) 0, 100, (int) (short) 100, (int) (byte) 0, (int) (short) 10, 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener20 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener20);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Files.FileType fileType28 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType28);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 100, (int) '4', (int) '#');
+    }
+
+    @Test
+    public void test11100() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11100");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration11 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = null;
+        lwjgl3ApplicationConfiguration11.setHdpiMode(hdpiMode12);
+        lwjgl3ApplicationConfiguration11.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration11.setWindowListener(lwjgl3WindowListener17);
+        com.badlogic.gdx.Files.FileType fileType20 = null;
+        lwjgl3ApplicationConfiguration11.setPreferencesConfig("", fileType20);
+        lwjgl3ApplicationConfiguration11.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = null;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration24.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode30 = null;
+        lwjgl3ApplicationConfiguration24.setFullscreenMode(displayMode30);
+        lwjgl3ApplicationConfiguration24.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration24.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration24.setWindowPosition((int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode47 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode47);
+        lwjgl3ApplicationConfiguration11.setHdpiMode(hdpiMode47);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode47);
+        com.badlogic.gdx.graphics.Color color51 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color51);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (byte) -1);
+        org.junit.Assert.assertTrue("'" + hdpiMode47 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode47.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11101() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11101");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) 'a', (int) (byte) 100, 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) 'a', (int) (byte) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) ' ', (int) (short) -1, (int) (short) 10);
+    }
+
+    @Test
+    public void test11102() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11102");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 0, (int) (byte) 1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, (int) (byte) -1, 0, (int) (byte) -1, 100, (int) '4', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, (int) (short) -1, (int) (short) 10, (int) '4', 10, (int) '4', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11103() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11103");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 0, (int) '#');
+        com.badlogic.gdx.Files.FileType fileType28 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType28);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 1, (int) (byte) 100);
+    }
+
+    @Test
+    public void test11104() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11104");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType21);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (-1), 1);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11105() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11105");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color26);
+        com.badlogic.gdx.graphics.Color color28 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color28);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (byte) -1, (int) (byte) -1, (int) (short) 100);
+    }
+
+    @Test
+    public void test11106() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11106");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, 10, (int) 'a', (int) 'a', (int) (byte) 10, (int) (byte) 100, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode24);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (byte) 0, 0);
+    }
+
+    @Test
+    public void test11107() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11107");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode26 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode26);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '#', (int) '4');
+        com.badlogic.gdx.graphics.Color color34 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color34);
+    }
+
+    @Test
+    public void test11108() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11108");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (byte) 1, (int) 'a');
+        java.lang.Class<?> wildcardClass25 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass25);
+    }
+
+    @Test
+    public void test11109() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11109");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode24);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color26);
+        com.badlogic.gdx.graphics.Color color28 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color28);
+    }
+
+    @Test
+    public void test11110() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11110");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode15 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode15);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, 100, (int) (byte) 100, (int) (short) 1, 0, (int) '4', (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11111() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11111");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode12 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode12);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) (short) 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode21 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode21);
+    }
+
+    @Test
+    public void test11112() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11112");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) (short) 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) (short) 1, 100);
+        com.badlogic.gdx.Files.FileType fileType40 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType40);
+    }
+
+    @Test
+    public void test11113() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11113");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) 10, (int) (byte) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11114() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11114");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) 10, (int) (byte) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', (int) (short) -1);
+    }
+
+    @Test
+    public void test11115() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11115");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        com.badlogic.gdx.graphics.Color color23 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color23);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener27 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener27);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, (int) (byte) 1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (-1), 1, (int) (byte) 100);
+    }
+
+    @Test
+    public void test11116() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11116");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 10, 100);
+    }
+
+    @Test
+    public void test11117() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11117");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) 'a', (int) (short) 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration22 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode23 = null;
+        lwjgl3ApplicationConfiguration22.setHdpiMode(hdpiMode23);
+        lwjgl3ApplicationConfiguration22.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener28 = null;
+        lwjgl3ApplicationConfiguration22.setWindowListener(lwjgl3WindowListener28);
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration22.setPreferencesConfig("", fileType31);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration33 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode34 = null;
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode34);
+        lwjgl3ApplicationConfiguration33.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode39 = null;
+        lwjgl3ApplicationConfiguration33.setFullscreenMode(displayMode39);
+        lwjgl3ApplicationConfiguration33.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color45 = null;
+        lwjgl3ApplicationConfiguration33.setInitialBackgroundColor(color45);
+        lwjgl3ApplicationConfiguration33.setResizable(false);
+        lwjgl3ApplicationConfiguration33.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration51 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode52 = null;
+        lwjgl3ApplicationConfiguration51.setHdpiMode(hdpiMode52);
+        lwjgl3ApplicationConfiguration51.useVsync(false);
+        lwjgl3ApplicationConfiguration51.setDecorated(false);
+        lwjgl3ApplicationConfiguration51.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration60 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration60.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode63 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration60.setHdpiMode(hdpiMode63);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode65 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration60.setHdpiMode(hdpiMode65);
+        lwjgl3ApplicationConfiguration51.setHdpiMode(hdpiMode65);
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode65);
+        lwjgl3ApplicationConfiguration22.setHdpiMode(hdpiMode65);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode65);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', 0, (int) '4', (int) '#', 0, (int) ' ', (int) (byte) 1);
+        org.junit.Assert.assertTrue("'" + hdpiMode63 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode63.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode65 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode65.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11118() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11118");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, (int) (short) 10, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', (int) (byte) 10);
+        java.lang.Class<?> wildcardClass27 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass27);
+    }
+
+    @Test
+    public void test11119() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11119");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener15 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener15);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+    }
+
+    @Test
+    public void test11120() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11120");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration9 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration9.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (byte) -1, (int) (short) 10, (int) (byte) -1, (int) '4', 0, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 10, (int) '#');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 1, 0);
+        org.junit.Assert.assertTrue("'" + hdpiMode12 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode12.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode14 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode14.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11121() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11121");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, 0, (int) ' ', (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 0, (int) (short) 0, (int) (byte) 1, (int) (short) 0, (int) (short) 1, 0);
+        com.badlogic.gdx.graphics.Color color20 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color20);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) 'a', (int) (byte) 10, (int) '#', (int) (byte) 100, 100, 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) 0);
+    }
+
+    @Test
+    public void test11122() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11122");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) 'a', 1, 1, (int) (short) 1, (int) '4', 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (short) 0, (int) ' ', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) (byte) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration33 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color34 = null;
+        lwjgl3ApplicationConfiguration33.setInitialBackgroundColor(color34);
+        com.badlogic.gdx.graphics.Color color36 = null;
+        lwjgl3ApplicationConfiguration33.setInitialBackgroundColor(color36);
+        lwjgl3ApplicationConfiguration33.setDecorated(false);
+        lwjgl3ApplicationConfiguration33.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration33.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration33.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration33.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode60 = null;
+        lwjgl3ApplicationConfiguration33.setFullscreenMode(displayMode60);
+        lwjgl3ApplicationConfiguration33.useVsync(false);
+        lwjgl3ApplicationConfiguration33.setAudioConfig((int) '#', 1, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration68 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration68.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration68.setResizable(false);
+        com.badlogic.gdx.graphics.Color color75 = null;
+        lwjgl3ApplicationConfiguration68.setInitialBackgroundColor(color75);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener77 = null;
+        lwjgl3ApplicationConfiguration68.setWindowListener(lwjgl3WindowListener77);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration79 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode80 = null;
+        lwjgl3ApplicationConfiguration79.setHdpiMode(hdpiMode80);
+        lwjgl3ApplicationConfiguration79.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode85 = null;
+        lwjgl3ApplicationConfiguration79.setFullscreenMode(displayMode85);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration87 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration87.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode90 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration87.setHdpiMode(hdpiMode90);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode92 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration87.setHdpiMode(hdpiMode92);
+        lwjgl3ApplicationConfiguration79.setHdpiMode(hdpiMode92);
+        lwjgl3ApplicationConfiguration68.setHdpiMode(hdpiMode92);
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode92);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode92);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode90 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode90.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode92 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode92.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11123() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11123");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, (int) (byte) 10, (int) (short) 0, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) 'a', (int) (short) 10, (int) (short) -1, 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) '#', 10, 100, 10, (int) (short) 0, 10);
+    }
+
+    @Test
+    public void test11124() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11124");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration20.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode26 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode26);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode26);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration29 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color30 = null;
+        lwjgl3ApplicationConfiguration29.setInitialBackgroundColor(color30);
+        com.badlogic.gdx.graphics.Color color32 = null;
+        lwjgl3ApplicationConfiguration29.setInitialBackgroundColor(color32);
+        lwjgl3ApplicationConfiguration29.setDecorated(false);
+        lwjgl3ApplicationConfiguration29.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration29.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration29.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration47 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode48 = null;
+        lwjgl3ApplicationConfiguration47.setHdpiMode(hdpiMode48);
+        lwjgl3ApplicationConfiguration47.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration47.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration47.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration47.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration69 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode70 = null;
+        lwjgl3ApplicationConfiguration69.setHdpiMode(hdpiMode70);
+        lwjgl3ApplicationConfiguration69.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode75 = null;
+        lwjgl3ApplicationConfiguration69.setFullscreenMode(displayMode75);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration77 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration77.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode80 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration77.setHdpiMode(hdpiMode80);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode82 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration77.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration69.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration47.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration29.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', 10, (int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode98 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode98);
+        org.junit.Assert.assertTrue("'" + hdpiMode26 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode26.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode80 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode80.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode82 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode82.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11125() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11125");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode8 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode8);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 1, (int) (byte) 1, (int) (short) 1, (int) (byte) 100, (-1), (int) (byte) 10);
+        com.badlogic.gdx.Files.FileType fileType19 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType19);
+        org.junit.Assert.assertTrue("'" + hdpiMode8 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode8.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11126() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11126");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, 1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11127() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11127");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) 10);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode24);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener31 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener31);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11128() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11128");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.Files.FileType fileType15 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType15);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, (-1));
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, (int) (byte) 10, (int) (short) 0, (int) (byte) -1, (int) ' ', (-1), 0);
+    }
+
+    @Test
+    public void test11129() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11129");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (short) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) (byte) -1, (-1), (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 10, (int) (short) 1);
+    }
+
+    @Test
+    public void test11130() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11130");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (short) 100, (int) ' ', (int) (short) 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode31 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode31);
+    }
+
+    @Test
+    public void test11131() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11131");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode27 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode27);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener29);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11132() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11132");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) -1, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (short) 100);
+        com.badlogic.gdx.Files.FileType fileType15 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType15);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11133() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11133");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        com.badlogic.gdx.graphics.Color color7 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color7);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', 10, (int) (short) 100, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) '#');
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11134() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11134");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (short) 0, 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, (int) (short) 100);
+        com.badlogic.gdx.graphics.Color color23 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color23);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener27 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener27);
+    }
+
+    @Test
+    public void test11135() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11135");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.graphics.Color color15 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color15);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener17);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) (short) 10, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, 0, 1, 100, (int) (byte) 100, (int) '#', 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', 0);
+        java.lang.Class<?> wildcardClass39 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass39);
+    }
+
+    @Test
+    public void test11136() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11136");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', 100);
+    }
+
+    @Test
+    public void test11137() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11137");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color25 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color25);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+    }
+
+    @Test
+    public void test11138() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11138");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 100, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (int) (byte) 10, (int) (byte) 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode26 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode26);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11139() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11139");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.Files.FileType fileType9 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType9);
+        com.badlogic.gdx.graphics.Color color11 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color11);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 10, (int) '4');
+    }
+
+    @Test
+    public void test11140() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11140");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.graphics.Color color13 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color13);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode19 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode19);
+    }
+
+    @Test
+    public void test11141() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11141");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (byte) 10, (int) (byte) 100);
+        java.lang.Class<?> wildcardClass27 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass27);
+    }
+
+    @Test
+    public void test11142() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11142");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, 1, (int) ' ', (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener30);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11143() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11143");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        com.badlogic.gdx.Files.FileType fileType13 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType13);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (byte) 100);
+        com.badlogic.gdx.Files.FileType fileType22 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType22);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 0, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11144() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11144");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) '#', (int) (byte) 10, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        com.badlogic.gdx.graphics.Color color14 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color14);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (short) -1, 0, (int) (byte) 0);
+    }
+
+    @Test
+    public void test11145() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11145");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode16 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode16);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', (int) '#', 10);
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color26);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (byte) 100, (int) (byte) 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) '4');
+    }
+
+    @Test
+    public void test11146() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11146");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color5 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color5);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener7 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, 10, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) -1, (int) (short) 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode21 = null;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode21);
+        lwjgl3ApplicationConfiguration20.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration20.setTitle("");
+        lwjgl3ApplicationConfiguration20.disableAudio(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration30 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration30.setResizable(true);
+        lwjgl3ApplicationConfiguration30.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration30.setWindowPosition((int) (byte) 1, 100);
+        lwjgl3ApplicationConfiguration30.setDecorated(false);
+        lwjgl3ApplicationConfiguration30.setAudioConfig((int) (byte) -1, (int) 'a', 10);
+        lwjgl3ApplicationConfiguration30.setAudioConfig((-1), 0, (int) '#');
+        lwjgl3ApplicationConfiguration30.setWindowedMode(0, (int) ' ');
+        lwjgl3ApplicationConfiguration30.useOpenGL3(false, 100, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration30.useVsync(true);
+        lwjgl3ApplicationConfiguration30.setWindowPosition((int) (byte) 10, 0);
+        lwjgl3ApplicationConfiguration30.setAudioConfig((int) (short) -1, (int) (short) -1, 10);
+        com.badlogic.gdx.Files.FileType fileType67 = null;
+        lwjgl3ApplicationConfiguration30.setPreferencesConfig("", fileType67);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration69 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode70 = null;
+        lwjgl3ApplicationConfiguration69.setHdpiMode(hdpiMode70);
+        lwjgl3ApplicationConfiguration69.useVsync(false);
+        lwjgl3ApplicationConfiguration69.setDecorated(false);
+        lwjgl3ApplicationConfiguration69.setWindowSizeLimits((int) (short) 1, 0, (int) ' ', (int) (short) 1);
+        lwjgl3ApplicationConfiguration69.disableAudio(true);
+        lwjgl3ApplicationConfiguration69.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration85 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration85.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode89 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration85.setHdpiMode(hdpiMode89);
+        lwjgl3ApplicationConfiguration69.setHdpiMode(hdpiMode89);
+        lwjgl3ApplicationConfiguration30.setHdpiMode(hdpiMode89);
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode89);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode89);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode89 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode89.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11147() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11147");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration7 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration7.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode10 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration7.setHdpiMode(hdpiMode10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration7.setHdpiMode(hdpiMode12);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode12);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode15 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode15);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, (int) (byte) 10, 0, (int) (byte) -1);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode5 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode5.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode10 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode10.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode12 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode12.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11148() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11148");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color7 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color7);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        java.lang.Class<?> wildcardClass15 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test11149() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11149");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration18 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode19 = null;
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration18.useVsync(false);
+        lwjgl3ApplicationConfiguration18.setDecorated(false);
+        lwjgl3ApplicationConfiguration18.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration27 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration27.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode30 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration27.setHdpiMode(hdpiMode30);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode32 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration27.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode32);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration36 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color37 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color37);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color39);
+        lwjgl3ApplicationConfiguration36.setDecorated(false);
+        lwjgl3ApplicationConfiguration36.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration36.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration36.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration56 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color57 = null;
+        lwjgl3ApplicationConfiguration56.setInitialBackgroundColor(color57);
+        lwjgl3ApplicationConfiguration56.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode62 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration56.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, (int) (short) 0, (int) (short) 1, (int) (byte) -1, (int) (byte) 100, (-1), (int) (byte) 0);
+        com.badlogic.gdx.graphics.Color color78 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color78);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (byte) -1);
+        com.badlogic.gdx.Files.FileType fileType85 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType85);
+        org.junit.Assert.assertTrue("'" + hdpiMode30 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode30.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode32 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode32.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode62 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode62.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11150() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11150");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) -1, 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, 0, (int) (short) 100);
+    }
+
+    @Test
+    public void test11151() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11151");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode14 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode14);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener19 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener19);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (int) (short) -1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, 100, (int) '4', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener41 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener41);
+    }
+
+    @Test
+    public void test11152() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11152");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode10 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) 'a', (int) '4');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 0, 10, (int) (byte) 10, 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, (int) '#', 1);
+    }
+
+    @Test
+    public void test11153() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11153");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration20.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode26 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode26);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode26);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 1, (int) (short) -1, (int) (byte) 100, (int) 'a', (int) (byte) 0, (int) (short) -1);
+        com.badlogic.gdx.graphics.Color color40 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color40);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (byte) 10, (int) (byte) -1);
+        com.badlogic.gdx.Files.FileType fileType57 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType57);
+        org.junit.Assert.assertTrue("'" + hdpiMode26 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode26.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11154() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11154");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', (int) '4', (int) '4', (int) (short) 1, (int) (short) 100, (int) '4', (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) 'a', 0, 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (short) 100, (int) (short) 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) ' ', (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 100, 1, (int) (short) 100, (int) (byte) -1);
+        com.badlogic.gdx.graphics.Color color47 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color47);
+    }
+
+    @Test
+    public void test11155() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11155");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) '#', (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) 'a', 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (byte) 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode5 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode5.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11156() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11156");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color25 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color25);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener27 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener27);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11157() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11157");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 100, (int) (byte) 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode34 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode34);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, 1, (-1));
+        com.badlogic.gdx.Files.FileType fileType41 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType41);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11158() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11158");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) -1, (int) (byte) -1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) '4', (int) (short) 10, (-1));
+    }
+
+    @Test
+    public void test11159() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11159");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode9 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode9);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) (short) 1, (int) '4');
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) 1, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, (int) (short) 10, 1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener35 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener35);
+    }
+
+    @Test
+    public void test11160() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11160");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) (short) 10, (int) (short) 1);
+        com.badlogic.gdx.graphics.Color color23 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color23);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, (int) (byte) 1, 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Files.FileType fileType32 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType32);
+    }
+
+    @Test
+    public void test11161() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11161");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode8 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode8);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, (int) '4');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (int) (byte) 1, (-1));
+    }
+
+    @Test
+    public void test11162() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11162");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration7 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode8 = null;
+        lwjgl3ApplicationConfiguration7.setHdpiMode(hdpiMode8);
+        lwjgl3ApplicationConfiguration7.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration7.setPreferencesConfig("hi!", fileType14);
+        lwjgl3ApplicationConfiguration7.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration7.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration24.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode27 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode27);
+        lwjgl3ApplicationConfiguration7.setHdpiMode(hdpiMode27);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode27);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) '#', (int) 'a');
+        com.badlogic.gdx.Files.FileType fileType36 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType36);
+        com.badlogic.gdx.graphics.Color color38 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color38);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, (int) (short) -1, 100, (int) '#', (int) '4', (int) (short) 10, (int) (byte) 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode27 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode27.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11163() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11163");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) '4', (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (-1));
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.Files.FileType fileType34 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType34);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.Files.FileType fileType39 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType39);
+    }
+
+    @Test
+    public void test11164() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11164");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (int) ' ', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) 'a', 1, 100, (-1));
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener29);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration31 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode32 = null;
+        lwjgl3ApplicationConfiguration31.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration31.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode37 = null;
+        lwjgl3ApplicationConfiguration31.setFullscreenMode(displayMode37);
+        lwjgl3ApplicationConfiguration31.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration31.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration31.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration31.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color56 = null;
+        lwjgl3ApplicationConfiguration31.setInitialBackgroundColor(color56);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener58 = null;
+        lwjgl3ApplicationConfiguration31.setWindowListener(lwjgl3WindowListener58);
+        lwjgl3ApplicationConfiguration31.useOpenGL3(true, (int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration31.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration66 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode67 = null;
+        lwjgl3ApplicationConfiguration66.setHdpiMode(hdpiMode67);
+        lwjgl3ApplicationConfiguration66.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener72 = null;
+        lwjgl3ApplicationConfiguration66.setWindowListener(lwjgl3WindowListener72);
+        lwjgl3ApplicationConfiguration66.setDecorated(true);
+        lwjgl3ApplicationConfiguration66.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener78 = null;
+        lwjgl3ApplicationConfiguration66.setWindowListener(lwjgl3WindowListener78);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode80 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration66.setHdpiMode(hdpiMode80);
+        lwjgl3ApplicationConfiguration31.setHdpiMode(hdpiMode80);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode80);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (-1), 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) (short) 10, (int) 'a');
+        org.junit.Assert.assertTrue("'" + hdpiMode80 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode80.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11165() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11165");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener4 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener4);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, 100, (int) (byte) 100, 1, (int) (byte) 10, (int) '4', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 0, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode23 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode23);
+    }
+
+    @Test
+    public void test11166() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11166");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, 100, 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener34 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener34);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', 100, (int) (byte) -1, 100, (int) '4', (int) '#', 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) ' ', (int) (short) 10);
+        com.badlogic.gdx.graphics.Color color47 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color47);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener49 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener49);
+    }
+
+    @Test
+    public void test11167() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11167");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 0, 0, (int) (byte) 10, (int) (short) 0, 0, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType36 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType36);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener38 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener38);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(1, (-1), (int) (byte) 100, (int) (short) 0, 0, (int) (byte) -1, 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, 10);
+    }
+
+    @Test
+    public void test11168() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11168");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration5 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode6 = null;
+        lwjgl3ApplicationConfiguration5.setHdpiMode(hdpiMode6);
+        lwjgl3ApplicationConfiguration5.useVsync(false);
+        lwjgl3ApplicationConfiguration5.setDecorated(false);
+        lwjgl3ApplicationConfiguration5.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration14 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration14.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode17 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode17);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode19 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration5.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 0, 100);
+        com.badlogic.gdx.Files.FileType fileType28 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType28);
+        com.badlogic.gdx.graphics.Color color30 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color30);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode17 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode17.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode19 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode19.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11169() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11169");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.graphics.Color color5 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color5);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (-1));
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, (int) 'a', 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (byte) 0, (int) (byte) 100, (int) (short) 1, (int) 'a', (int) 'a', 100);
+        java.lang.Class<?> wildcardClass24 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass24);
+    }
+
+    @Test
+    public void test11170() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11170");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration14 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode15 = null;
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode15);
+        lwjgl3ApplicationConfiguration14.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration14.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration14.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration14.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration14.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration14.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration14.setInitialBackgroundColor(color39);
+        lwjgl3ApplicationConfiguration14.setAudioConfig(10, (int) (byte) 0, 10);
+        lwjgl3ApplicationConfiguration14.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration47 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode48 = null;
+        lwjgl3ApplicationConfiguration47.setHdpiMode(hdpiMode48);
+        lwjgl3ApplicationConfiguration47.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener53 = null;
+        lwjgl3ApplicationConfiguration47.setWindowListener(lwjgl3WindowListener53);
+        com.badlogic.gdx.Files.FileType fileType56 = null;
+        lwjgl3ApplicationConfiguration47.setPreferencesConfig("", fileType56);
+        lwjgl3ApplicationConfiguration47.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration60 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode61 = null;
+        lwjgl3ApplicationConfiguration60.setHdpiMode(hdpiMode61);
+        lwjgl3ApplicationConfiguration60.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode66 = null;
+        lwjgl3ApplicationConfiguration60.setFullscreenMode(displayMode66);
+        lwjgl3ApplicationConfiguration60.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration60.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration60.setWindowPosition((int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode83 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration60.setHdpiMode(hdpiMode83);
+        lwjgl3ApplicationConfiguration47.setHdpiMode(hdpiMode83);
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode83);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode83);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, (int) (byte) 0, (int) 'a', 0, 0, (-1), (int) (byte) -1);
+        org.junit.Assert.assertTrue("'" + hdpiMode83 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode83.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11171() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11171");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, 0, (int) '4', (int) 'a', (int) ' ', 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (byte) 10);
+        com.badlogic.gdx.graphics.Color color20 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color20);
+    }
+
+    @Test
+    public void test11172() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11172");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', 0, 0);
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, 1, (int) '4');
+    }
+
+    @Test
+    public void test11173() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11173");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), 1);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) -1, (int) ' ', (int) (byte) 1, (int) (byte) -1, (int) ' ', (int) (short) 10, 0);
+    }
+
+    @Test
+    public void test11174() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11174");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) ' ', 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType31);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode33 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode33);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) 0, (int) (short) 1, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener43 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener43);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, (int) (short) -1, 1, (int) (short) 0);
+    }
+
+    @Test
+    public void test11175() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11175");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 100, (int) (byte) 0);
+        com.badlogic.gdx.graphics.Color color34 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color34);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11176() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11176");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) 'a', 0);
+    }
+
+    @Test
+    public void test11177() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11177");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) (byte) -1, (int) '#');
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(1, (int) (byte) 0, 0, (int) (short) 100, (-1), (int) '4', (int) (short) -1);
+    }
+
+    @Test
+    public void test11178() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11178");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) 'a', (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 100, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11179() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11179");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener15 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener15);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, (int) (short) 10, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11180() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11180");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        com.badlogic.gdx.graphics.Color color9 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color9);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration21 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode22 = null;
+        lwjgl3ApplicationConfiguration21.setHdpiMode(hdpiMode22);
+        lwjgl3ApplicationConfiguration21.useVsync(false);
+        lwjgl3ApplicationConfiguration21.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener28 = null;
+        lwjgl3ApplicationConfiguration21.setWindowListener(lwjgl3WindowListener28);
+        lwjgl3ApplicationConfiguration21.disableAudio(false);
+        lwjgl3ApplicationConfiguration21.setAudioConfig((int) (short) -1, (int) (byte) 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration21.setBackBufferConfig(0, 0, (int) 'a', (int) '4', (int) (short) -1, 0, (int) (byte) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode44 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration21.setHdpiMode(hdpiMode44);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode44);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) (short) -1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) -1, (int) (byte) 100, (-1), 100, (int) (short) -1, (int) (byte) 1, 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) 'a', 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode44 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode44.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11181() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11181");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode12 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration23 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode24 = null;
+        lwjgl3ApplicationConfiguration23.setHdpiMode(hdpiMode24);
+        lwjgl3ApplicationConfiguration23.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration23.setWindowListener(lwjgl3WindowListener29);
+        com.badlogic.gdx.Files.FileType fileType32 = null;
+        lwjgl3ApplicationConfiguration23.setPreferencesConfig("", fileType32);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration34 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode35 = null;
+        lwjgl3ApplicationConfiguration34.setHdpiMode(hdpiMode35);
+        lwjgl3ApplicationConfiguration34.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode40 = null;
+        lwjgl3ApplicationConfiguration34.setFullscreenMode(displayMode40);
+        lwjgl3ApplicationConfiguration34.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color46 = null;
+        lwjgl3ApplicationConfiguration34.setInitialBackgroundColor(color46);
+        lwjgl3ApplicationConfiguration34.setResizable(false);
+        lwjgl3ApplicationConfiguration34.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration52 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode53 = null;
+        lwjgl3ApplicationConfiguration52.setHdpiMode(hdpiMode53);
+        lwjgl3ApplicationConfiguration52.useVsync(false);
+        lwjgl3ApplicationConfiguration52.setDecorated(false);
+        lwjgl3ApplicationConfiguration52.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration61 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration61.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode64 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration61.setHdpiMode(hdpiMode64);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode66 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration61.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration52.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration34.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration23.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (byte) 1, (int) (byte) 1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) '#', 0, 100);
+        com.badlogic.gdx.graphics.Color color87 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color87);
+        org.junit.Assert.assertTrue("'" + hdpiMode64 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode64.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode66 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode66.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11182() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11182");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 100, 1);
+        com.badlogic.gdx.graphics.Color color23 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color23);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode25 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode25);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (byte) 0, (int) (byte) -1, (int) (byte) -1);
+        com.badlogic.gdx.Files.FileType fileType33 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType33);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode35 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode35);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 100, (int) (short) 1);
+    }
+
+    @Test
+    public void test11183() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11183");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (int) ' ', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) 'a', 1, 100, (-1));
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener29);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, 0, (-1), (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) -1);
+        com.badlogic.gdx.graphics.Color color40 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color40);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) ' ', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '#', (int) (short) 0);
+    }
+
+    @Test
+    public void test11184() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11184");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) -1, (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color17 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color17);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, 0);
+    }
+
+    @Test
+    public void test11185() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11185");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 100, (int) '#', (int) 'a', (int) (short) 1, 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) 'a', (int) '4');
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, 10, 0, (int) '4', 0, 0, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color44 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color44);
+    }
+
+    @Test
+    public void test11186() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11186");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (int) (short) 1, (-1));
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) '4');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, (int) '#', 0, 1, (int) (short) 0, (int) 'a', 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode46 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode46);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, (int) '4', (int) ' ', (int) (short) -1, (int) (byte) 0, (int) (short) -1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, 10);
+    }
+
+    @Test
+    public void test11187() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11187");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType8 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType8);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) '#');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration19 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color20 = null;
+        lwjgl3ApplicationConfiguration19.setInitialBackgroundColor(color20);
+        lwjgl3ApplicationConfiguration19.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration19.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration19.setDecorated(true);
+        lwjgl3ApplicationConfiguration19.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color31 = null;
+        lwjgl3ApplicationConfiguration19.setInitialBackgroundColor(color31);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration33 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode34 = null;
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode34);
+        lwjgl3ApplicationConfiguration33.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener39 = null;
+        lwjgl3ApplicationConfiguration33.setWindowListener(lwjgl3WindowListener39);
+        com.badlogic.gdx.Files.FileType fileType42 = null;
+        lwjgl3ApplicationConfiguration33.setPreferencesConfig("", fileType42);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration44 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode45 = null;
+        lwjgl3ApplicationConfiguration44.setHdpiMode(hdpiMode45);
+        lwjgl3ApplicationConfiguration44.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode50 = null;
+        lwjgl3ApplicationConfiguration44.setFullscreenMode(displayMode50);
+        lwjgl3ApplicationConfiguration44.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color56 = null;
+        lwjgl3ApplicationConfiguration44.setInitialBackgroundColor(color56);
+        lwjgl3ApplicationConfiguration44.setResizable(false);
+        lwjgl3ApplicationConfiguration44.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration62 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode63 = null;
+        lwjgl3ApplicationConfiguration62.setHdpiMode(hdpiMode63);
+        lwjgl3ApplicationConfiguration62.useVsync(false);
+        lwjgl3ApplicationConfiguration62.setDecorated(false);
+        lwjgl3ApplicationConfiguration62.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration71 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration71.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode74 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration71.setHdpiMode(hdpiMode74);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode76 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration71.setHdpiMode(hdpiMode76);
+        lwjgl3ApplicationConfiguration62.setHdpiMode(hdpiMode76);
+        lwjgl3ApplicationConfiguration44.setHdpiMode(hdpiMode76);
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode76);
+        lwjgl3ApplicationConfiguration19.setHdpiMode(hdpiMode76);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode76);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener87 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener87);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) '4');
+        org.junit.Assert.assertTrue("'" + hdpiMode25 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode25.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode74 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode74.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode76 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode76.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11188() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11188");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (short) 100, (int) (short) 1, (int) '4', (int) (short) 1, (int) (short) 10, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (short) -1, (int) (byte) 0, (int) (byte) 100);
+    }
+
+    @Test
+    public void test11189() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11189");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11190() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11190");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) -1, (int) (short) 0, 0, (int) (byte) -1, (int) (byte) 100, 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) -1, (int) (byte) 10, (int) (short) 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode26 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode26);
+    }
+
+    @Test
+    public void test11191() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11191");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration20.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode23 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode23);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode25);
+        com.badlogic.gdx.graphics.Color color28 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color28);
+        com.badlogic.gdx.graphics.Color color30 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color30);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '#', (int) '4');
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode23 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode23.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode25 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode25.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11192() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11192");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) -1, (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color17 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color17);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener19 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener19);
+    }
+
+    @Test
+    public void test11193() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11193");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode16 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode16);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', (int) '#', 10);
+        com.badlogic.gdx.Files.FileType fileType25 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType25);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 1, (int) (byte) 10, (int) (short) 0, (int) (short) 100, (-1), (int) (short) 1, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener35 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener35);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11194() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11194");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 10, (int) '#');
+    }
+
+    @Test
+    public void test11195() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11195");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 0, (-1));
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+    }
+
+    @Test
+    public void test11196() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11196");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, (int) (byte) 1, (int) (short) 0, (int) '#', (int) (byte) 10, 0, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration18 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode19 = null;
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration18.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType25 = null;
+        lwjgl3ApplicationConfiguration18.setPreferencesConfig("hi!", fileType25);
+        lwjgl3ApplicationConfiguration18.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration18.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration35 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration35.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode38 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration35.setHdpiMode(hdpiMode38);
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode38);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode38);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 0, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 10, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (byte) -1, (-1));
+        org.junit.Assert.assertTrue("'" + hdpiMode38 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode38.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11197() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11197");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (byte) 10, (-1), (int) '4');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) (byte) 100, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) ' ');
+    }
+
+    @Test
+    public void test11198() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11198");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) '#', 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11199() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11199");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(100, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (byte) 0);
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener26);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (short) 1, (int) 'a', (int) 'a');
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11200() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11200");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) 'a', (int) '4', (int) (short) 10, (int) (byte) 100, (int) (byte) 0, (-1), (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) '4', (int) (byte) -1, (int) ' ', (int) '4', (int) (byte) 100, 1);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11201() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11201");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener17);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11202() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11202");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration18 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration18.setResizable(true);
+        lwjgl3ApplicationConfiguration18.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration18.setTitle("");
+        lwjgl3ApplicationConfiguration18.setWindowedMode((int) (short) 0, (int) '#');
+        com.badlogic.gdx.graphics.Color color30 = null;
+        lwjgl3ApplicationConfiguration18.setInitialBackgroundColor(color30);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode32 = null;
+        lwjgl3ApplicationConfiguration18.setFullscreenMode(displayMode32);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration34 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode35 = null;
+        lwjgl3ApplicationConfiguration34.setHdpiMode(hdpiMode35);
+        lwjgl3ApplicationConfiguration34.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType41 = null;
+        lwjgl3ApplicationConfiguration34.setPreferencesConfig("hi!", fileType41);
+        lwjgl3ApplicationConfiguration34.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode47 = null;
+        lwjgl3ApplicationConfiguration34.setFullscreenMode(displayMode47);
+        lwjgl3ApplicationConfiguration34.useOpenGL3(false, (int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration34.setDecorated(false);
+        lwjgl3ApplicationConfiguration34.useVsync(true);
+        lwjgl3ApplicationConfiguration34.disableAudio(false);
+        lwjgl3ApplicationConfiguration34.setWindowSizeLimits((int) (byte) 0, 1, (int) (short) 1, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration64 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color65 = null;
+        lwjgl3ApplicationConfiguration64.setInitialBackgroundColor(color65);
+        com.badlogic.gdx.graphics.Color color67 = null;
+        lwjgl3ApplicationConfiguration64.setInitialBackgroundColor(color67);
+        lwjgl3ApplicationConfiguration64.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration71 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode72 = null;
+        lwjgl3ApplicationConfiguration71.setHdpiMode(hdpiMode72);
+        lwjgl3ApplicationConfiguration71.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType78 = null;
+        lwjgl3ApplicationConfiguration71.setPreferencesConfig("hi!", fileType78);
+        lwjgl3ApplicationConfiguration71.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration71.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration88 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration88.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode91 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration88.setHdpiMode(hdpiMode91);
+        lwjgl3ApplicationConfiguration71.setHdpiMode(hdpiMode91);
+        lwjgl3ApplicationConfiguration64.setHdpiMode(hdpiMode91);
+        lwjgl3ApplicationConfiguration34.setHdpiMode(hdpiMode91);
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode91);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode91);
+        org.junit.Assert.assertTrue("'" + hdpiMode91 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode91.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11203() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11203");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 100, 1);
+        com.badlogic.gdx.graphics.Color color23 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color23);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode25 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode25);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (byte) 0, (int) (byte) -1, (int) (byte) -1);
+        com.badlogic.gdx.Files.FileType fileType33 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType33);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) (short) -1);
+    }
+
+    @Test
+    public void test11204() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11204");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', (int) (byte) 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration16 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode17 = null;
+        lwjgl3ApplicationConfiguration16.setHdpiMode(hdpiMode17);
+        lwjgl3ApplicationConfiguration16.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration16.setFullscreenMode(displayMode22);
+        lwjgl3ApplicationConfiguration16.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color28 = null;
+        lwjgl3ApplicationConfiguration16.setInitialBackgroundColor(color28);
+        lwjgl3ApplicationConfiguration16.setResizable(false);
+        lwjgl3ApplicationConfiguration16.setAudioConfig((int) 'a', 0, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration36 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color37 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color37);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color39);
+        lwjgl3ApplicationConfiguration36.setDecorated(false);
+        lwjgl3ApplicationConfiguration36.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration36.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration36.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration36.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode63 = null;
+        lwjgl3ApplicationConfiguration36.setFullscreenMode(displayMode63);
+        lwjgl3ApplicationConfiguration36.useVsync(false);
+        lwjgl3ApplicationConfiguration36.setWindowedMode((int) (short) 10, (int) (short) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration70 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode71 = null;
+        lwjgl3ApplicationConfiguration70.setHdpiMode(hdpiMode71);
+        lwjgl3ApplicationConfiguration70.useVsync(false);
+        lwjgl3ApplicationConfiguration70.disableAudio(false);
+        lwjgl3ApplicationConfiguration70.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener79 = null;
+        lwjgl3ApplicationConfiguration70.setWindowListener(lwjgl3WindowListener79);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration81 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration81.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode84 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration81.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration70.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration16.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, (int) (short) 10, 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, (int) '#');
+        org.junit.Assert.assertTrue("'" + hdpiMode84 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode84.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11205() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11205");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener7 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener7);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, 10, 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener17);
+        com.badlogic.gdx.Files.FileType fileType20 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType20);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11206() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11206");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 0, (int) (byte) 1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, (int) (byte) -1, 0, (int) (byte) -1, 100, (int) '4', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) 'a', 0);
+    }
+
+    @Test
+    public void test11207() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11207");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) 'a', 0);
+        com.badlogic.gdx.graphics.Color color20 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color20);
+    }
+
+    @Test
+    public void test11208() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11208");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, 0, (int) (short) 0, (int) '4');
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) (short) -1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode15 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode15);
+    }
+
+    @Test
+    public void test11209() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11209");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        com.badlogic.gdx.graphics.Color color20 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (byte) -1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode28 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode28);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) ' ', (int) (byte) 1);
+    }
+
+    @Test
+    public void test11210() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11210");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode27 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode27);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, (int) (short) 1);
+    }
+
+    @Test
+    public void test11211() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11211");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.graphics.Color color34 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color34);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (byte) -1, (int) (short) 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, 0, (int) (byte) 10, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, (int) '4');
+    }
+
+    @Test
+    public void test11212() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11212");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode27 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode27);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration29 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration29.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode33 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration29.setHdpiMode(hdpiMode33);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode33);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode36 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode36);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, (int) (short) 1, 0, (int) 'a');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode45 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode45);
+        org.junit.Assert.assertTrue("'" + hdpiMode33 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode33.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11213() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11213");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode14 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode14);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode16 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode16);
+        java.lang.Class<?> wildcardClass18 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test11214() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11214");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration20.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode23 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode23);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener30);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 100, 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode23 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode23.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode25 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode25.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11215() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11215");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) (short) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, 1);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11216() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11216");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 0, 10, (-1), (int) (short) 0, 0, (int) (short) 0);
+    }
+
+    @Test
+    public void test11217() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11217");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode14 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode14);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, 100, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener20 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener20);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 1, 10);
+    }
+
+    @Test
+    public void test11218() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11218");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener28 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener28);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11219() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11219");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) (short) 100, (int) (short) 1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) 'a', 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) (byte) 100, 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11220() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11220");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) 0, (int) (short) 10, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+    }
+
+    @Test
+    public void test11221() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11221");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Files.FileType fileType19 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType19);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) 'a', 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) '#', (int) (short) 0, 100, (int) (short) 0, (int) (byte) 10, (int) (byte) 0);
+        com.badlogic.gdx.Files.FileType fileType34 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType34);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 1, (int) (byte) 100);
+    }
+
+    @Test
+    public void test11222() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11222");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11223() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11223");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) '#', (-1), (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, 10, (int) ' ');
+    }
+
+    @Test
+    public void test11224() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11224");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) -1, 10, (int) (byte) 100, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) '4');
+    }
+
+    @Test
+    public void test11225() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11225");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration11 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = null;
+        lwjgl3ApplicationConfiguration11.setHdpiMode(hdpiMode12);
+        lwjgl3ApplicationConfiguration11.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration11.setWindowListener(lwjgl3WindowListener17);
+        com.badlogic.gdx.Files.FileType fileType20 = null;
+        lwjgl3ApplicationConfiguration11.setPreferencesConfig("", fileType20);
+        lwjgl3ApplicationConfiguration11.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = null;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration24.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode30 = null;
+        lwjgl3ApplicationConfiguration24.setFullscreenMode(displayMode30);
+        lwjgl3ApplicationConfiguration24.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration24.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration24.setWindowPosition((int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode47 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode47);
+        lwjgl3ApplicationConfiguration11.setHdpiMode(hdpiMode47);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode47);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', (int) (byte) 10, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode47 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode47.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11226() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11226");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType8 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType8);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, 0, (-1), 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 100, 0, (int) (byte) 100, (int) 'a');
+    }
+
+    @Test
+    public void test11227() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11227");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) '4');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener34 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener34);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener36 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener36);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener40 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener40);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11228() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11228");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.Files.FileType fileType9 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType9);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '4');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) '4', 0, (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration23 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode24 = null;
+        lwjgl3ApplicationConfiguration23.setHdpiMode(hdpiMode24);
+        lwjgl3ApplicationConfiguration23.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode29 = null;
+        lwjgl3ApplicationConfiguration23.setFullscreenMode(displayMode29);
+        lwjgl3ApplicationConfiguration23.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration23.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration23.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration23.setWindowSizeLimits((int) ' ', 1, (int) (byte) 1, 0);
+        lwjgl3ApplicationConfiguration23.useVsync(false);
+        lwjgl3ApplicationConfiguration23.disableAudio(true);
+        lwjgl3ApplicationConfiguration23.setDecorated(false);
+        lwjgl3ApplicationConfiguration23.setBackBufferConfig((int) (byte) -1, 100, (int) '#', (int) (short) 0, (-1), (int) (byte) 10, (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode65 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration23.setHdpiMode(hdpiMode65);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode65);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', 1, (int) ' ', 100);
+        com.badlogic.gdx.Files.FileType fileType74 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType74);
+        org.junit.Assert.assertTrue("'" + hdpiMode65 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode65.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11229() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11229");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Files.FileType fileType10 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, 10);
+        java.lang.Class<?> wildcardClass20 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test11230() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11230");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) '4');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode28 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode28);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) -1, 10, (-1), (int) (byte) 1, (int) (short) 0, (int) '#', (int) 'a');
+    }
+
+    @Test
+    public void test11231() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11231");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (short) 0, 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, (int) (short) 100);
+        com.badlogic.gdx.graphics.Color color23 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color23);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11232() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11232");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode16 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode16);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', 10, (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = null;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration24.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration24.setWindowListener(lwjgl3WindowListener30);
+        lwjgl3ApplicationConfiguration24.setDecorated(true);
+        lwjgl3ApplicationConfiguration24.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener36 = null;
+        lwjgl3ApplicationConfiguration24.setWindowListener(lwjgl3WindowListener36);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode38 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode38);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode38);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (byte) 10, (int) '#', 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) (byte) 10, (int) '#', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, 0, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, (int) '#');
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) '#');
+        org.junit.Assert.assertTrue("'" + hdpiMode16 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode16.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode38 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode38.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11233() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11233");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.graphics.Color color29 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color29);
+    }
+
+    @Test
+    public void test11234() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11234");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 100, (int) '#', (int) 'a', (int) (short) 1, 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) 'a', (int) '4');
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 100, (int) (short) -1, (int) (byte) -1, (int) 'a');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode36 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode36);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode38 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode38);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 0, (-1));
+    }
+
+    @Test
+    public void test11235() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11235");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) '#');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) (short) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) 10);
+        java.lang.Class<?> wildcardClass20 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test11236() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11236");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 0, 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) -1, 1, (int) (byte) -1, (int) '4');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) 'a', (int) (short) 100);
+    }
+
+    @Test
+    public void test11237() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11237");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, 100, 0, (int) (short) 100, (int) (byte) 100, (int) (byte) 0, (int) (short) 1);
+        com.badlogic.gdx.Files.FileType fileType24 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType24);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        java.lang.Class<?> wildcardClass28 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass28);
+    }
+
+    @Test
+    public void test11238() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11238");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) ' ', (int) '#');
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 100, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11239() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11239");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', 0, (int) (byte) 10, (int) (byte) -1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, 1);
+    }
+
+    @Test
+    public void test11240() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11240");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 100, (int) (byte) 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode34 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode34);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 0, (int) (short) 1, 100, 1);
+    }
+
+    @Test
+    public void test11241() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11241");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, (int) '#');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) (byte) 100, (int) (short) 100);
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType21);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (-1), (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, (int) (byte) 10, (int) ' ', (int) (byte) 1, (int) (byte) 100, (int) (byte) 1, (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration45 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration45.setResizable(true);
+        lwjgl3ApplicationConfiguration45.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration45.setTitle("");
+        lwjgl3ApplicationConfiguration45.useVsync(true);
+        com.badlogic.gdx.Files.FileType fileType57 = null;
+        lwjgl3ApplicationConfiguration45.setPreferencesConfig("", fileType57);
+        lwjgl3ApplicationConfiguration45.useVsync(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration61 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode62 = null;
+        lwjgl3ApplicationConfiguration61.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration61.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration61.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode77 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration61.setHdpiMode(hdpiMode77);
+        lwjgl3ApplicationConfiguration45.setHdpiMode(hdpiMode77);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode77);
+        org.junit.Assert.assertTrue("'" + hdpiMode77 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode77.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11242() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11242");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Files.FileType fileType10 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType10);
+        com.badlogic.gdx.Files.FileType fileType13 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType13);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) ' ', (int) ' ', (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener22 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener22);
+    }
+
+    @Test
+    public void test11243() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11243");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Files.FileType fileType19 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType19);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '#', (int) (short) -1, 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, 10, 100, 0);
+        com.badlogic.gdx.graphics.Color color30 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color30);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener32 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener32);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11244() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11244");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode11 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, (int) (short) 0, 0, (int) (byte) 1, (int) '4', (int) (byte) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Files.FileType fileType34 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType34);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (-1), 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) '4', 1, 10);
+    }
+
+    @Test
+    public void test11245() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11245");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 1, (int) (byte) 1);
+        com.badlogic.gdx.graphics.Color color36 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color36);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener38 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener38);
+        com.badlogic.gdx.Files.FileType fileType41 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType41);
+    }
+
+    @Test
+    public void test11246() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11246");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 1, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (byte) 10, (int) (short) 1, 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', (int) (byte) -1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) ' ');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener55 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener55);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) '#');
+    }
+
+    @Test
+    public void test11247() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11247");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode6 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode16 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode16);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode6 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode6.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11248() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11248");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) (byte) 0, 100);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (-1), (int) (short) 100, (int) (byte) 0, (int) (byte) 0, (int) (byte) 0, (-1));
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 1, (int) '4');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.Files.FileType fileType27 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType27);
+    }
+
+    @Test
+    public void test11249() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11249");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType16 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType16);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (short) 10, (int) (short) 1, (int) '#', (int) (short) 100, 10, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+    }
+
+    @Test
+    public void test11250() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11250");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, 100, (int) (byte) -1, (-1));
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color40 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color40);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (-1), (int) (short) 10, (int) (byte) 0, (int) ' ', (int) (byte) 100, (-1));
+        com.badlogic.gdx.Files.FileType fileType51 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType51);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, (int) '#', (int) '4', 0, (int) (short) 1, (int) ' ', 100);
+    }
+
+    @Test
+    public void test11251() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11251");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 100, (int) (byte) -1, (int) (byte) 0, 1);
+    }
+
+    @Test
+    public void test11252() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11252");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) '#', (int) (byte) 10, (-1));
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, 1, 0, 100, (int) (byte) -1, (int) (short) 0, (int) (short) 10);
+        com.badlogic.gdx.graphics.Color color27 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color27);
+    }
+
+    @Test
+    public void test11253() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11253");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (short) 100, (int) (short) 1, (int) '4', (int) (short) 1, (int) (short) 10, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener33 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener33);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, (-1), (int) (short) 1, 0, (int) (short) 0, 0, (int) (short) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode43 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode43);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener47 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener47);
+    }
+
+    @Test
+    public void test11254() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11254");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) 'a', (int) (byte) 100, 10);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (byte) -1);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 1, 100);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.graphics.Color color28 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color28);
+    }
+
+    @Test
+    public void test11255() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11255");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (short) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', 0);
+    }
+
+    @Test
+    public void test11256() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11256");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode4 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode4);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) (byte) 10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode4 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode4.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11257() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11257");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) (short) 100, (int) ' ', (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener29);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+    }
+
+    @Test
+    public void test11258() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11258");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, (-1));
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 100, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (int) (byte) 1, 1, (int) ' ', (int) (byte) 0, (int) 'a', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', (-1));
+    }
+
+    @Test
+    public void test11259() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11259");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', 0, 0, (int) (short) 10, (int) 'a', (-1), (int) (short) 100);
+        com.badlogic.gdx.Files.FileType fileType26 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType26);
+    }
+
+    @Test
+    public void test11260() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11260");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) 'a', 1, 1, (int) (short) 1, (int) '4', 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) 0, (int) 'a', 100);
+    }
+
+    @Test
+    public void test11261() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11261");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) (short) 100, 0);
+    }
+
+    @Test
+    public void test11262() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11262");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        com.badlogic.gdx.Files.FileType fileType12 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration14 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode15 = null;
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode15);
+        lwjgl3ApplicationConfiguration14.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener20 = null;
+        lwjgl3ApplicationConfiguration14.setWindowListener(lwjgl3WindowListener20);
+        lwjgl3ApplicationConfiguration14.setDecorated(true);
+        lwjgl3ApplicationConfiguration14.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration14.setWindowListener(lwjgl3WindowListener26);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode28 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode28);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode28);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode28 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode28.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11263() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11263");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) -1, 0, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 0, 0, (int) (short) 0, 0, (int) '#', (int) (short) 0);
+    }
+
+    @Test
+    public void test11264() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11264");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11265() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11265");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) (short) 0);
+        java.lang.Class<?> wildcardClass9 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test11266() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11266");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode6 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode10 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode10);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color14 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color14);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '#', (int) (short) -1);
+        org.junit.Assert.assertTrue("'" + hdpiMode6 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode6.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11267() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11267");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', 1, (int) (byte) 1, 0);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode37 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode37);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener39 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener39);
+    }
+
+    @Test
+    public void test11268() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11268");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, (int) (byte) 1, (int) (short) 0, (int) '#', (int) (byte) 10, 0, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (short) -1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (short) 1, 100, (int) (byte) 100, 100, (int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration33 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode34 = null;
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode34);
+        lwjgl3ApplicationConfiguration33.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration33.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration33.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration33.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration55 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode56 = null;
+        lwjgl3ApplicationConfiguration55.setHdpiMode(hdpiMode56);
+        lwjgl3ApplicationConfiguration55.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode61 = null;
+        lwjgl3ApplicationConfiguration55.setFullscreenMode(displayMode61);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration63 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration63.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode66 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration63.setHdpiMode(hdpiMode66);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode68 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration63.setHdpiMode(hdpiMode68);
+        lwjgl3ApplicationConfiguration55.setHdpiMode(hdpiMode68);
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode68);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode68);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, 100, (int) 'a', (int) (byte) 0, 100, (int) (short) 0, (-1));
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 100, (int) ' ', 10, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode66 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode66.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode68 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode68.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11269() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11269");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 100, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (short) 1, (int) '#', (int) (short) 10, 100, 0, (int) (byte) -1);
+    }
+
+    @Test
+    public void test11270() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11270");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, (int) (short) 0, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11271() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11271");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '#', (int) '#');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((-1), (int) 'a', (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode5 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode5.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11272() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11272");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 0, (-1));
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration26 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode27 = null;
+        lwjgl3ApplicationConfiguration26.setHdpiMode(hdpiMode27);
+        lwjgl3ApplicationConfiguration26.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode32 = null;
+        lwjgl3ApplicationConfiguration26.setFullscreenMode(displayMode32);
+        lwjgl3ApplicationConfiguration26.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration26.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration26.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration26.setTitle("hi!");
+        lwjgl3ApplicationConfiguration26.setWindowPosition((int) (short) -1, 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener54 = null;
+        lwjgl3ApplicationConfiguration26.setWindowListener(lwjgl3WindowListener54);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener56 = null;
+        lwjgl3ApplicationConfiguration26.setWindowListener(lwjgl3WindowListener56);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration58 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration58.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode61 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration58.setHdpiMode(hdpiMode61);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode63 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration58.setHdpiMode(hdpiMode63);
+        lwjgl3ApplicationConfiguration26.setHdpiMode(hdpiMode63);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode63);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, (int) (short) 100, (int) (byte) 0, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode61 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode61.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode63 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode63.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11273() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11273");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 100, 1);
+        com.badlogic.gdx.graphics.Color color23 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color23);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode25 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode25);
+        com.badlogic.gdx.graphics.Color color27 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color27);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (-1), 0, 0, (int) 'a', (int) 'a', (int) (short) 1);
+    }
+
+    @Test
+    public void test11274() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11274");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', 0, 0, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType12 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType12);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (short) 100, 1, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener19 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener19);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11275() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11275");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11276() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11276");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, 100, 0, (int) (short) 100, (int) (byte) 100, (int) (byte) 0, (int) (short) 1);
+        com.badlogic.gdx.Files.FileType fileType24 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType24);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (int) (byte) 10, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11277() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11277");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', 10);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) '4', 1, 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+    }
+
+    @Test
+    public void test11278() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11278");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) '4');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (byte) 100, (int) (short) 0);
+    }
+
+    @Test
+    public void test11279() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11279");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.Files.FileType fileType12 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType12);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration16 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode17 = null;
+        lwjgl3ApplicationConfiguration16.setHdpiMode(hdpiMode17);
+        lwjgl3ApplicationConfiguration16.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration16.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode32 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration16.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (byte) 100, (int) ' ', (int) (byte) 0);
+        com.badlogic.gdx.graphics.Color color40 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color40);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, 10, (int) '4', (int) (byte) 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode55 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode55);
+        org.junit.Assert.assertTrue("'" + hdpiMode32 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode32.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11280() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11280");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration13 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color14 = null;
+        lwjgl3ApplicationConfiguration13.setInitialBackgroundColor(color14);
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration13.setInitialBackgroundColor(color16);
+        lwjgl3ApplicationConfiguration13.setDecorated(false);
+        lwjgl3ApplicationConfiguration13.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration13.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration13.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration31 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode32 = null;
+        lwjgl3ApplicationConfiguration31.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration31.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration31.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration31.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration31.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration53 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode54 = null;
+        lwjgl3ApplicationConfiguration53.setHdpiMode(hdpiMode54);
+        lwjgl3ApplicationConfiguration53.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode59 = null;
+        lwjgl3ApplicationConfiguration53.setFullscreenMode(displayMode59);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration61 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration61.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode64 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration61.setHdpiMode(hdpiMode64);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode66 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration61.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration53.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration31.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration13.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode66);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode72 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode72);
+        org.junit.Assert.assertTrue("'" + hdpiMode64 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode64.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode66 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode66.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11281() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11281");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) '#', (-1));
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode5 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode5.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11282() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11282");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener27 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener27);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color31 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color31);
+        com.badlogic.gdx.Files.FileType fileType34 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType34);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, 0, (int) '#', 0, (int) (short) 10, 0, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (-1));
+        com.badlogic.gdx.Files.FileType fileType48 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType48);
+    }
+
+    @Test
+    public void test11283() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11283");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(100, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 10, (int) (short) -1, (int) (short) 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration31 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode32 = null;
+        lwjgl3ApplicationConfiguration31.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration31.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType38 = null;
+        lwjgl3ApplicationConfiguration31.setPreferencesConfig("hi!", fileType38);
+        lwjgl3ApplicationConfiguration31.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode43 = null;
+        lwjgl3ApplicationConfiguration31.setFullscreenMode(displayMode43);
+        lwjgl3ApplicationConfiguration31.setWindowPosition((int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration31.disableAudio(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration50 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode51 = null;
+        lwjgl3ApplicationConfiguration50.setHdpiMode(hdpiMode51);
+        lwjgl3ApplicationConfiguration50.useVsync(false);
+        lwjgl3ApplicationConfiguration50.setDecorated(false);
+        lwjgl3ApplicationConfiguration50.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration59 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration59.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode62 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration59.setHdpiMode(hdpiMode62);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode64 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration59.setHdpiMode(hdpiMode64);
+        lwjgl3ApplicationConfiguration50.setHdpiMode(hdpiMode64);
+        lwjgl3ApplicationConfiguration31.setHdpiMode(hdpiMode64);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode64);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode62 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode62.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode64 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode64.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11284() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11284");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (byte) 0, (int) (byte) 10, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(1, (int) (byte) -1, (int) (short) 10, (int) (short) 10, (int) (byte) 1, 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, 100, (int) 'a', (int) ' ');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener50 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener50);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener55 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener55);
+        java.lang.Class<?> wildcardClass57 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass57);
+    }
+
+    @Test
+    public void test11285() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11285");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) 'a', (int) (byte) 100, 10);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (-1));
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, 0, (int) (byte) 100, (int) ' ', 10, (int) (short) 10, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration28 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode29 = null;
+        lwjgl3ApplicationConfiguration28.setHdpiMode(hdpiMode29);
+        lwjgl3ApplicationConfiguration28.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode34 = null;
+        lwjgl3ApplicationConfiguration28.setFullscreenMode(displayMode34);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode36 = null;
+        lwjgl3ApplicationConfiguration28.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration28.setTitle("");
+        lwjgl3ApplicationConfiguration28.setWindowPosition((int) (short) -1, 1);
+        lwjgl3ApplicationConfiguration28.setDecorated(false);
+        com.badlogic.gdx.graphics.Color color45 = null;
+        lwjgl3ApplicationConfiguration28.setInitialBackgroundColor(color45);
+        com.badlogic.gdx.Files.FileType fileType48 = null;
+        lwjgl3ApplicationConfiguration28.setPreferencesConfig("", fileType48);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration50 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration50.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color54 = null;
+        lwjgl3ApplicationConfiguration50.setInitialBackgroundColor(color54);
+        lwjgl3ApplicationConfiguration50.disableAudio(false);
+        lwjgl3ApplicationConfiguration50.setBackBufferConfig((int) (short) 100, (int) (byte) 0, (int) (short) -1, (int) '4', (int) 'a', (int) ' ', (int) '4');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration66 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color67 = null;
+        lwjgl3ApplicationConfiguration66.setInitialBackgroundColor(color67);
+        com.badlogic.gdx.graphics.Color color69 = null;
+        lwjgl3ApplicationConfiguration66.setInitialBackgroundColor(color69);
+        lwjgl3ApplicationConfiguration66.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration73 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode74 = null;
+        lwjgl3ApplicationConfiguration73.setHdpiMode(hdpiMode74);
+        lwjgl3ApplicationConfiguration73.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType80 = null;
+        lwjgl3ApplicationConfiguration73.setPreferencesConfig("hi!", fileType80);
+        lwjgl3ApplicationConfiguration73.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration73.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration90 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration90.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode93 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration90.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration73.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration66.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration50.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration28.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode93);
+        org.junit.Assert.assertTrue("'" + hdpiMode93 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode93.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11286() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11286");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        com.badlogic.gdx.Files.FileType fileType25 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType25);
+        com.badlogic.gdx.Files.FileType fileType28 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType28);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11287() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11287");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 1);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+    }
+
+    @Test
+    public void test11288() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11288");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) '4', (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) ' ', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((-1), (int) (byte) -1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11289() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11289");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 0, (int) (short) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+    }
+
+    @Test
+    public void test11290() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11290");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener3 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener3);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode5 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode5);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) (short) -1, 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode15 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode15);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration17 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode18 = null;
+        lwjgl3ApplicationConfiguration17.setHdpiMode(hdpiMode18);
+        lwjgl3ApplicationConfiguration17.useVsync(false);
+        lwjgl3ApplicationConfiguration17.disableAudio(false);
+        lwjgl3ApplicationConfiguration17.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration17.setWindowListener(lwjgl3WindowListener26);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration28 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration28.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode31 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration28.setHdpiMode(hdpiMode31);
+        lwjgl3ApplicationConfiguration17.setHdpiMode(hdpiMode31);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode31);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, 10, (int) (short) 10, (int) ' ', (int) (short) 10, (int) '#', 0);
+        org.junit.Assert.assertTrue("'" + hdpiMode31 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode31.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11291() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11291");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.Files.FileType fileType22 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType22);
+    }
+
+    @Test
+    public void test11292() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11292");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(100, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        com.badlogic.gdx.Files.FileType fileType26 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType26);
+    }
+
+    @Test
+    public void test11293() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11293");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 100, (int) (byte) 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode34 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode34);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '4', 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, (int) 'a', (int) (short) 1, (int) (short) 1, 0, (int) (byte) 1, (int) '4');
+    }
+
+    @Test
+    public void test11294() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11294");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration11 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = null;
+        lwjgl3ApplicationConfiguration11.setHdpiMode(hdpiMode12);
+        lwjgl3ApplicationConfiguration11.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration11.setFullscreenMode(displayMode17);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration19 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration19.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode22 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration19.setHdpiMode(hdpiMode22);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode24 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration19.setHdpiMode(hdpiMode24);
+        lwjgl3ApplicationConfiguration11.setHdpiMode(hdpiMode24);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode24);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (short) -1);
+        org.junit.Assert.assertTrue("'" + hdpiMode22 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode22.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode24 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode24.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11295() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11295");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration9 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration9.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 0, (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener25 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener25);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) -1, (int) '4', 0, 0, (int) (short) 10, (-1));
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, 1, (int) (short) 0);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color39);
+        com.badlogic.gdx.graphics.Color color41 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color41);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode12 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode12.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode14 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode14.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11296() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11296");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (short) 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode12 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (-1));
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode21 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode21);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 0, (int) (byte) -1, 0, 100, 0, 100);
+    }
+
+    @Test
+    public void test11297() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11297");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration14 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode15 = null;
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode15);
+        lwjgl3ApplicationConfiguration14.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration14.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration14.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration14.setInitialBackgroundColor(color26);
+        lwjgl3ApplicationConfiguration14.setResizable(false);
+        lwjgl3ApplicationConfiguration14.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration32 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode33 = null;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode33);
+        lwjgl3ApplicationConfiguration32.useVsync(false);
+        lwjgl3ApplicationConfiguration32.setDecorated(false);
+        lwjgl3ApplicationConfiguration32.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration41 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration41.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode44 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration41.setHdpiMode(hdpiMode44);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode46 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration41.setHdpiMode(hdpiMode46);
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode46);
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode46);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode46);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 0, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, 1, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener61 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener61);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '#', (int) (byte) 100, (int) (short) 10, (int) (short) 10, 0, (int) ' ', (int) (short) 100);
+        com.badlogic.gdx.graphics.Color color71 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color71);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) '#', (int) (byte) 100, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (byte) 10);
+        org.junit.Assert.assertTrue("'" + hdpiMode44 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode44.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode46 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode46.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11298() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11298");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11299() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11299");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Files.FileType fileType19 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType19);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        com.badlogic.gdx.Files.FileType fileType26 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType26);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) (short) -1, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (-1), (int) (byte) 10, (int) (short) -1);
+    }
+
+    @Test
+    public void test11300() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11300");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) 'a', 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((-1), 0, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (byte) 0, (int) (byte) 10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11301() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11301");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) 0, (int) (short) 10, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 0, (int) '4');
+        com.badlogic.gdx.Files.FileType fileType20 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType20);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+    }
+
+    @Test
+    public void test11302() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11302");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) '#', (int) (byte) 10, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(100, (int) 'a');
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+    }
+
+    @Test
+    public void test11303() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11303");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, 100, 0, (int) (short) 100, (int) (byte) 100, (int) (byte) 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 1, 10, (int) ' ', (int) (short) 0, (int) (byte) 1, (int) (byte) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11304() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11304");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, (int) (short) 1, (int) (byte) 0, (int) (byte) 100, (int) (byte) 100, (int) (short) 10, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) 'a', (int) (byte) 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        java.lang.Class<?> wildcardClass30 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass30);
+    }
+
+    @Test
+    public void test11305() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11305");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType8 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType8);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) '#');
+        com.badlogic.gdx.graphics.Color color17 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color17);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color25 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color25);
+    }
+
+    @Test
+    public void test11306() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11306");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode9 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode9);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (short) 100, (int) (short) 1, (int) (short) 0, (int) '4', 10, (int) (byte) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener21 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener21);
+    }
+
+    @Test
+    public void test11307() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11307");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.graphics.Color color5 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color5);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, 10);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 10, (int) (short) 0);
+    }
+
+    @Test
+    public void test11308() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11308");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode12 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        java.lang.Class<?> wildcardClass23 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass23);
+    }
+
+    @Test
+    public void test11309() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11309");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.Files.FileType fileType9 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType9);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration13 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = null;
+        lwjgl3ApplicationConfiguration13.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration13.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode19 = null;
+        lwjgl3ApplicationConfiguration13.setFullscreenMode(displayMode19);
+        lwjgl3ApplicationConfiguration13.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration13.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration13.setWindowPosition((int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode36 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration13.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, 100, (int) (byte) 1, (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, (int) (byte) 1, 0, (int) (byte) 1, (int) 'a', (int) '4', (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener60 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener60);
+        org.junit.Assert.assertTrue("'" + hdpiMode36 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode36.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11310() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11310");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (byte) 100, (int) ' ', 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, (int) (byte) 0, 0, (int) (byte) 10, (int) (byte) 0, 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 0, 0, (int) (short) 1, 0);
+    }
+
+    @Test
+    public void test11311() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11311");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (short) 100, (int) (short) 10, (int) (short) 100);
+        com.badlogic.gdx.Files.FileType fileType24 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType24);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener26);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, 0, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11312() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11312");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration18 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode19 = null;
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration18.useVsync(false);
+        lwjgl3ApplicationConfiguration18.setDecorated(false);
+        lwjgl3ApplicationConfiguration18.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration27 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration27.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode30 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration27.setHdpiMode(hdpiMode30);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode32 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration27.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode32);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode32);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration36 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color37 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color37);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color39);
+        lwjgl3ApplicationConfiguration36.setDecorated(false);
+        lwjgl3ApplicationConfiguration36.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration36.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration36.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration56 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color57 = null;
+        lwjgl3ApplicationConfiguration56.setInitialBackgroundColor(color57);
+        lwjgl3ApplicationConfiguration56.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode62 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration56.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) 0, (int) (short) 10, (int) '4');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 1, (int) (byte) 10, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), (int) 'a');
+        com.badlogic.gdx.graphics.Color color82 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color82);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, (int) (short) 0);
+        org.junit.Assert.assertTrue("'" + hdpiMode30 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode30.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode32 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode32.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode62 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode62.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11313() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11313");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) ' ', 1, 0, 100, 10, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, (-1));
+    }
+
+    @Test
+    public void test11314() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11314");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.Files.FileType fileType9 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType9);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 0);
+        com.badlogic.gdx.Files.FileType fileType29 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType29);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (byte) 100);
+    }
+
+    @Test
+    public void test11315() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11315");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener22 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener22);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) '#', (int) (byte) -1, (int) ' ', (int) '4', (int) (short) 100, (int) (short) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener32 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener32);
+    }
+
+    @Test
+    public void test11316() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11316");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration9 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration9.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode14);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 100, (int) '#', (int) (byte) -1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (byte) 0, (int) (short) 100, (int) (short) 1, (int) (byte) 1, 10, (int) (byte) 1);
+        org.junit.Assert.assertTrue("'" + hdpiMode12 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode12.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode14 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode14.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11317() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11317");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) 'a', (int) (short) 100, (int) (short) 1);
+    }
+
+    @Test
+    public void test11318() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11318");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration20.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode26 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode26);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode26);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) (byte) 1, 100, (int) (byte) 10, 0, (int) (short) 10, (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener47 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener47);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (short) -1);
+        org.junit.Assert.assertTrue("'" + hdpiMode26 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode26.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11319() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11319");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color5 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color5);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener7 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener7);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) 'a', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, (int) (short) 10);
+    }
+
+    @Test
+    public void test11320() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11320");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', (int) '4', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11321() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11321");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) '4', (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (-1));
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, 0, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType32 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType32);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode34 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode34);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener36 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener36);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 100, 0, (int) (short) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode42 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode42);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11322() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11322");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) ' ', (int) '#');
+        com.badlogic.gdx.Files.FileType fileType15 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType15);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11323() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11323");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) '4', 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11324() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11324");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, (int) '#', 10);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode24);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) 'a', (int) (short) 10, 0, (int) (byte) 1, 100, 0, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener36 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener36);
+    }
+
+    @Test
+    public void test11325() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11325");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) '4', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) (short) 10, (int) 'a', (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) '4', (int) '#', 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', (int) ' ', (int) ' ');
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11326() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11326");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration14 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode15 = null;
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode15);
+        lwjgl3ApplicationConfiguration14.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration14.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration14.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration14.setInitialBackgroundColor(color26);
+        lwjgl3ApplicationConfiguration14.setResizable(false);
+        lwjgl3ApplicationConfiguration14.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration32 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode33 = null;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode33);
+        lwjgl3ApplicationConfiguration32.useVsync(false);
+        lwjgl3ApplicationConfiguration32.setDecorated(false);
+        lwjgl3ApplicationConfiguration32.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration41 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration41.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode44 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration41.setHdpiMode(hdpiMode44);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode46 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration41.setHdpiMode(hdpiMode46);
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode46);
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode46);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode46);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 0, 0);
+        org.junit.Assert.assertTrue("'" + hdpiMode44 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode44.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode46 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode46.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11327() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11327");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener25 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener25);
+        com.badlogic.gdx.graphics.Color color27 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color27);
+    }
+
+    @Test
+    public void test11328() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11328");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) (byte) -1, (int) 'a', (int) (short) -1, 1, 0, (int) (byte) 100);
+        com.badlogic.gdx.Files.FileType fileType15 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType15);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', (int) '4');
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11329() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11329");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, (int) (byte) -1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode41 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode41);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) 'a', (int) ' ', (int) (byte) 10, (int) '#', 10, (int) (byte) 0, (int) 'a');
+    }
+
+    @Test
+    public void test11330() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11330");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) ' ');
+        com.badlogic.gdx.Files.FileType fileType13 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType13);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener15 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener15);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) 'a', 1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) -1, (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11331() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11331");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (short) 0, 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (short) -1, (int) (byte) 1, (int) (short) 10, (int) (byte) 10, (int) (short) 1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((-1), (int) (short) -1, 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11332() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11332");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 10, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 0, (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener30);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', 10, (int) (short) -1, (-1), 100, (-1), 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.Files.FileType fileType43 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType43);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        java.lang.Class<?> wildcardClass47 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass47);
+    }
+
+    @Test
+    public void test11333() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11333");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 0, (int) '#');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (int) '4', (int) (byte) 10);
+    }
+
+    @Test
+    public void test11334() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11334");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (-1), (int) ' ', 0, (int) (short) 100, (int) (byte) 10, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration22 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration22.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration22.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color29 = null;
+        lwjgl3ApplicationConfiguration22.setInitialBackgroundColor(color29);
+        com.badlogic.gdx.graphics.Color color31 = null;
+        lwjgl3ApplicationConfiguration22.setInitialBackgroundColor(color31);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration33 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode34 = null;
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode34);
+        lwjgl3ApplicationConfiguration33.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode39 = null;
+        lwjgl3ApplicationConfiguration33.setFullscreenMode(displayMode39);
+        lwjgl3ApplicationConfiguration33.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration33.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration33.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration33.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration58 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color59 = null;
+        lwjgl3ApplicationConfiguration58.setInitialBackgroundColor(color59);
+        com.badlogic.gdx.graphics.Color color61 = null;
+        lwjgl3ApplicationConfiguration58.setInitialBackgroundColor(color61);
+        lwjgl3ApplicationConfiguration58.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration65 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode66 = null;
+        lwjgl3ApplicationConfiguration65.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration65.useVsync(false);
+        lwjgl3ApplicationConfiguration65.setDecorated(false);
+        lwjgl3ApplicationConfiguration65.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration74 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration74.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode77 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration74.setHdpiMode(hdpiMode77);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode79 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration74.setHdpiMode(hdpiMode79);
+        lwjgl3ApplicationConfiguration65.setHdpiMode(hdpiMode79);
+        lwjgl3ApplicationConfiguration58.setHdpiMode(hdpiMode79);
+        lwjgl3ApplicationConfiguration33.setHdpiMode(hdpiMode79);
+        lwjgl3ApplicationConfiguration22.setHdpiMode(hdpiMode79);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode79);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode86 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode86);
+        com.badlogic.gdx.Files.FileType fileType89 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType89);
+        com.badlogic.gdx.graphics.Color color91 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color91);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode93 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode93);
+        org.junit.Assert.assertTrue("'" + hdpiMode77 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode77.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode79 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode79.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11335() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11335");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener26);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, (int) (byte) 10, (int) (byte) 1, (int) ' ', (int) (byte) -1, 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (short) 100, (int) (short) 10, 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode45 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode45);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11336() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11336");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color4 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color4);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.Files.FileType fileType11 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType11);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration15 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode16 = null;
+        lwjgl3ApplicationConfiguration15.setHdpiMode(hdpiMode16);
+        lwjgl3ApplicationConfiguration15.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType22 = null;
+        lwjgl3ApplicationConfiguration15.setPreferencesConfig("hi!", fileType22);
+        lwjgl3ApplicationConfiguration15.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration15.setWindowListener(lwjgl3WindowListener26);
+        com.badlogic.gdx.Files.FileType fileType29 = null;
+        lwjgl3ApplicationConfiguration15.setPreferencesConfig("", fileType29);
+        lwjgl3ApplicationConfiguration15.setWindowSizeLimits(10, (int) (short) -1, (int) ' ', 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration36 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode37 = null;
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode37);
+        lwjgl3ApplicationConfiguration36.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode42 = null;
+        lwjgl3ApplicationConfiguration36.setFullscreenMode(displayMode42);
+        lwjgl3ApplicationConfiguration36.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration36.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration36.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration36.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration61 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color62 = null;
+        lwjgl3ApplicationConfiguration61.setInitialBackgroundColor(color62);
+        com.badlogic.gdx.graphics.Color color64 = null;
+        lwjgl3ApplicationConfiguration61.setInitialBackgroundColor(color64);
+        lwjgl3ApplicationConfiguration61.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration68 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode69 = null;
+        lwjgl3ApplicationConfiguration68.setHdpiMode(hdpiMode69);
+        lwjgl3ApplicationConfiguration68.useVsync(false);
+        lwjgl3ApplicationConfiguration68.setDecorated(false);
+        lwjgl3ApplicationConfiguration68.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration77 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration77.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode80 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration77.setHdpiMode(hdpiMode80);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode82 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration77.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration68.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration61.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration15.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode82);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode80 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode80.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode82 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode82.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11337() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11337");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, 1, (int) (short) 10, (int) '#', (int) (byte) 1, (int) (short) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) '#', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (short) 10);
+        com.badlogic.gdx.Files.FileType fileType25 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType25);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode32 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode32);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+    }
+
+    @Test
+    public void test11338() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11338");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, (int) (short) 1, 1, 10, (int) (byte) 10, (int) (short) 10, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 0, (-1));
+        com.badlogic.gdx.Files.FileType fileType44 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType44);
+        com.badlogic.gdx.Files.FileType fileType47 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType47);
+    }
+
+    @Test
+    public void test11339() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11339");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) 0, (int) (short) 10, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (byte) 100, (int) 'a');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), (int) (byte) 100);
+        com.badlogic.gdx.Files.FileType fileType20 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', (int) '4');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (int) 'a', 0, (int) ' ', 1, (int) (byte) 0, (int) '4');
+    }
+
+    @Test
+    public void test11340() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11340");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, 0, (int) '4', (int) 'a', (int) ' ', 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode16 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode16);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 0, 0);
+    }
+
+    @Test
+    public void test11341() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11341");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, 0, (int) 'a', (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener27 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener27);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener31 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener31);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode35 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode35);
+    }
+
+    @Test
+    public void test11342() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11342");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) '#', 100, (int) 'a', (int) (short) 100, 0);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', (-1));
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color26);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11343() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11343");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, 1, 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+    }
+
+    @Test
+    public void test11344() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11344");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode18 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode18);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((-1), (int) (short) 10, (int) (short) 1, (int) (byte) -1, (int) '#', (int) (short) 10, 1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11345() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11345");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, 0, (int) (byte) 10, (int) (short) -1);
+    }
+
+    @Test
+    public void test11346() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11346");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 100, (-1), (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener17);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 1, (int) (byte) 10);
+        java.lang.Class<?> wildcardClass23 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass23);
+    }
+
+    @Test
+    public void test11347() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11347");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 100, (int) '#', (int) 'a', (int) (short) 1, 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) 'a', (int) (short) -1, 1);
+    }
+
+    @Test
+    public void test11348() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11348");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) -1, (int) (short) 0, 0, (int) (byte) -1, (int) (byte) 100, 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration21 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode22 = null;
+        lwjgl3ApplicationConfiguration21.setHdpiMode(hdpiMode22);
+        lwjgl3ApplicationConfiguration21.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration21.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration21.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration21.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType44 = null;
+        lwjgl3ApplicationConfiguration21.setPreferencesConfig("", fileType44);
+        lwjgl3ApplicationConfiguration21.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode48 = null;
+        lwjgl3ApplicationConfiguration21.setFullscreenMode(displayMode48);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration50 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration50.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode54 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration50.setHdpiMode(hdpiMode54);
+        lwjgl3ApplicationConfiguration21.setHdpiMode(hdpiMode54);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode54);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) 1, (int) (byte) 100, 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode54 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode54.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11349() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11349");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (short) -1, (int) (short) 0, (int) (byte) 1, 100, 100, (int) (short) -1);
+    }
+
+    @Test
+    public void test11350() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11350");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, (int) (short) 1, (int) (byte) 100, (int) (byte) 0, (int) (short) 0, (int) (byte) -1, 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 100, 0, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 0, (int) (short) 10);
+    }
+
+    @Test
+    public void test11351() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11351");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration9 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration9.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 1, (int) 'a');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode24 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode24);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener31 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener31);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode12 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode12.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode14 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode14.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11352() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11352");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) ' ', 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, (int) 'a', (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11353() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11353");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', 100);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener17);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (int) (byte) -1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener28 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener28);
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType31);
+    }
+
+    @Test
+    public void test11354() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11354");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        com.badlogic.gdx.Files.FileType fileType13 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType13);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, (int) 'a', (int) (short) 0, (int) (short) 100, (int) (short) -1, (-1), 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) 'a');
+    }
+
+    @Test
+    public void test11355() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11355");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode12 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (short) 0, (int) (byte) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 100, 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode32 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode32);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (int) (short) 100, (int) 'a');
+    }
+
+    @Test
+    public void test11356() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11356");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', (-1), 0, (-1), (int) 'a', (int) (byte) 100, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener25 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener25);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) '#');
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11357() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11357");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', 1, (int) (byte) 1, 0);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 1, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration38 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode39 = null;
+        lwjgl3ApplicationConfiguration38.setHdpiMode(hdpiMode39);
+        lwjgl3ApplicationConfiguration38.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode44 = null;
+        lwjgl3ApplicationConfiguration38.setFullscreenMode(displayMode44);
+        lwjgl3ApplicationConfiguration38.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration38.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration38.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration38.setWindowSizeLimits((int) ' ', 1, (int) (byte) 1, 0);
+        lwjgl3ApplicationConfiguration38.useVsync(false);
+        lwjgl3ApplicationConfiguration38.disableAudio(true);
+        lwjgl3ApplicationConfiguration38.setDecorated(false);
+        lwjgl3ApplicationConfiguration38.setBackBufferConfig((int) (byte) -1, 100, (int) '#', (int) (short) 0, (-1), (int) (byte) 10, (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode80 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration38.setHdpiMode(hdpiMode80);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode80);
+        java.lang.Class<?> wildcardClass83 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertTrue("'" + hdpiMode80 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode80.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertNotNull(wildcardClass83);
+    }
+
+    @Test
+    public void test11358() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11358");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) -1, (int) '4');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) (short) 0, 0);
+    }
+
+    @Test
+    public void test11359() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11359");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode10 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) 'a', (int) '4');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', 0, 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11360() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11360");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (short) -1, (int) ' ', 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, 1, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, 1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 1);
+    }
+
+    @Test
+    public void test11361() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11361");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, 1, (int) (short) 10, (int) '#', (int) (byte) 1, (int) (short) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) (byte) 0, (int) '#', 10, (int) '4', 10, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 100, (int) (short) 10, (int) '4', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 0, (int) ' ');
+        com.badlogic.gdx.Files.FileType fileType35 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType35);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (-1));
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '4', (int) (short) 100);
+    }
+
+    @Test
+    public void test11362() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11362");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Files.FileType fileType11 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType11);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) (byte) -1);
+    }
+
+    @Test
+    public void test11363() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11363");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType10 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 100, (int) (byte) 10, 1, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration17 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration17.setInitialBackgroundColor(color18);
+        com.badlogic.gdx.graphics.Color color20 = null;
+        lwjgl3ApplicationConfiguration17.setInitialBackgroundColor(color20);
+        lwjgl3ApplicationConfiguration17.setDecorated(false);
+        lwjgl3ApplicationConfiguration17.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration17.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration17.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration17.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode44 = null;
+        lwjgl3ApplicationConfiguration17.setFullscreenMode(displayMode44);
+        lwjgl3ApplicationConfiguration17.useVsync(false);
+        lwjgl3ApplicationConfiguration17.setWindowPosition(100, (int) '#');
+        com.badlogic.gdx.Files.FileType fileType52 = null;
+        lwjgl3ApplicationConfiguration17.setPreferencesConfig("hi!", fileType52);
+        com.badlogic.gdx.Files.FileType fileType55 = null;
+        lwjgl3ApplicationConfiguration17.setPreferencesConfig("hi!", fileType55);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration57 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration57.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode61 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration57.setHdpiMode(hdpiMode61);
+        lwjgl3ApplicationConfiguration57.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration65 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color66 = null;
+        lwjgl3ApplicationConfiguration65.setInitialBackgroundColor(color66);
+        com.badlogic.gdx.graphics.Color color68 = null;
+        lwjgl3ApplicationConfiguration65.setInitialBackgroundColor(color68);
+        lwjgl3ApplicationConfiguration65.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration72 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode73 = null;
+        lwjgl3ApplicationConfiguration72.setHdpiMode(hdpiMode73);
+        lwjgl3ApplicationConfiguration72.useVsync(false);
+        lwjgl3ApplicationConfiguration72.setDecorated(false);
+        lwjgl3ApplicationConfiguration72.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration81 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration81.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode84 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration81.setHdpiMode(hdpiMode84);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode86 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration81.setHdpiMode(hdpiMode86);
+        lwjgl3ApplicationConfiguration72.setHdpiMode(hdpiMode86);
+        lwjgl3ApplicationConfiguration65.setHdpiMode(hdpiMode86);
+        lwjgl3ApplicationConfiguration57.setHdpiMode(hdpiMode86);
+        lwjgl3ApplicationConfiguration17.setHdpiMode(hdpiMode86);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode86);
+        org.junit.Assert.assertTrue("'" + hdpiMode61 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode61.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode84 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode84.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode86 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode86.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11364() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11364");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) ' ');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+        java.lang.Class<?> wildcardClass15 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test11365() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11365");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) 0, (int) (short) 10, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Files.FileType fileType18 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType18);
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType21);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        java.lang.Class<?> wildcardClass25 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass25);
+    }
+
+    @Test
+    public void test11366() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11366");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) 'a', (int) (byte) 0, (int) (short) 10, (int) '4', (int) 'a', (int) '#', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (-1), 10);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        java.lang.Class<?> wildcardClass43 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass43);
+    }
+
+    @Test
+    public void test11367() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11367");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, 1, (int) 'a', 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration18 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode19 = null;
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode19);
+        lwjgl3ApplicationConfiguration18.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType25 = null;
+        lwjgl3ApplicationConfiguration18.setPreferencesConfig("hi!", fileType25);
+        lwjgl3ApplicationConfiguration18.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode30 = null;
+        lwjgl3ApplicationConfiguration18.setFullscreenMode(displayMode30);
+        lwjgl3ApplicationConfiguration18.setWindowPosition((int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration18.disableAudio(true);
+        lwjgl3ApplicationConfiguration18.disableAudio(false);
+        lwjgl3ApplicationConfiguration18.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration41 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode42 = null;
+        lwjgl3ApplicationConfiguration41.setHdpiMode(hdpiMode42);
+        lwjgl3ApplicationConfiguration41.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener47 = null;
+        lwjgl3ApplicationConfiguration41.setWindowListener(lwjgl3WindowListener47);
+        com.badlogic.gdx.Files.FileType fileType50 = null;
+        lwjgl3ApplicationConfiguration41.setPreferencesConfig("", fileType50);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration52 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode53 = null;
+        lwjgl3ApplicationConfiguration52.setHdpiMode(hdpiMode53);
+        lwjgl3ApplicationConfiguration52.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode58 = null;
+        lwjgl3ApplicationConfiguration52.setFullscreenMode(displayMode58);
+        lwjgl3ApplicationConfiguration52.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color64 = null;
+        lwjgl3ApplicationConfiguration52.setInitialBackgroundColor(color64);
+        lwjgl3ApplicationConfiguration52.setResizable(false);
+        lwjgl3ApplicationConfiguration52.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration70 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode71 = null;
+        lwjgl3ApplicationConfiguration70.setHdpiMode(hdpiMode71);
+        lwjgl3ApplicationConfiguration70.useVsync(false);
+        lwjgl3ApplicationConfiguration70.setDecorated(false);
+        lwjgl3ApplicationConfiguration70.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration79 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration79.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode82 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration79.setHdpiMode(hdpiMode82);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode84 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration79.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration70.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration52.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration41.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration18.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 0, (int) ' ', (int) (byte) 0, 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode82 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode82.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode84 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode84.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11368() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11368");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+    }
+
+    @Test
+    public void test11369() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11369");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 100, 1, 0);
+    }
+
+    @Test
+    public void test11370() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11370");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, (int) (short) 100, (int) '4', 10, (int) (byte) 100, (int) 'a', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) 100, (int) (byte) 1, 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, 0, 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, 10, (-1), (int) (short) -1);
+    }
+
+    @Test
+    public void test11371() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11371");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) -1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) (short) -1, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+    }
+
+    @Test
+    public void test11372() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11372");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, (int) '#');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) (byte) 100, (int) (short) 100);
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType21);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, 10, 100, (int) '4', (-1), 100, 100);
+    }
+
+    @Test
+    public void test11373() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11373");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '4', 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Files.FileType fileType17 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType17);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, 1, 0);
+    }
+
+    @Test
+    public void test11374() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11374");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((-1), (-1), 0, (int) ' ', (int) (short) 100, (int) (byte) 10, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', (int) (byte) 10, (int) ' ');
+    }
+
+    @Test
+    public void test11375() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11375");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+    }
+
+    @Test
+    public void test11376() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11376");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        com.badlogic.gdx.Files.FileType fileType6 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) (byte) 0, (int) (short) 100, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(100, 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) ' ', 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) -1, 0, (int) ' ', (int) 'a');
+    }
+
+    @Test
+    public void test11377() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11377");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode12 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration19 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode20 = null;
+        lwjgl3ApplicationConfiguration19.setHdpiMode(hdpiMode20);
+        lwjgl3ApplicationConfiguration19.useVsync(false);
+        lwjgl3ApplicationConfiguration19.setDecorated(false);
+        lwjgl3ApplicationConfiguration19.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration28 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration28.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode31 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration28.setHdpiMode(hdpiMode31);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode33 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration28.setHdpiMode(hdpiMode33);
+        lwjgl3ApplicationConfiguration19.setHdpiMode(hdpiMode33);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode33);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) 'a', 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode31 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode31.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode33 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode33.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11378() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11378");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, 0, (int) '4', (int) 'a', (int) ' ', 100, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) 0, (int) (byte) -1, 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, 0, (int) (short) 1, 1, (int) (short) 10, (-1), (int) (short) 10);
+    }
+
+    @Test
+    public void test11379() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11379");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode22 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode22);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) 'a', (int) ' ');
+        com.badlogic.gdx.graphics.Color color27 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color27);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', 0, 10, (int) (short) 100);
+    }
+
+    @Test
+    public void test11380() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11380");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType8 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType8);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Files.FileType fileType20 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType20);
+    }
+
+    @Test
+    public void test11381() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11381");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', (int) (byte) 10, 0);
+        com.badlogic.gdx.graphics.Color color13 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color13);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11382() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11382");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode14 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode14);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener19 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener19);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color26 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color26);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 100, 1, (int) 'a', (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) (short) 10);
+        com.badlogic.gdx.graphics.Color color36 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color36);
+    }
+
+    @Test
+    public void test11383() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11383");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color25 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color25);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener27 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener27);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Files.FileType fileType39 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType39);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '#', (int) (short) 100);
+    }
+
+    @Test
+    public void test11384() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11384");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener4 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener4);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (-1), (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (byte) 100, 10, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration17 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode18 = null;
+        lwjgl3ApplicationConfiguration17.setHdpiMode(hdpiMode18);
+        lwjgl3ApplicationConfiguration17.setDecorated(true);
+        lwjgl3ApplicationConfiguration17.useVsync(true);
+        lwjgl3ApplicationConfiguration17.useVsync(false);
+        lwjgl3ApplicationConfiguration17.setWindowSizeLimits(100, (int) 'a', (int) (short) 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration17.setWindowSizeLimits((int) (short) 10, (int) (short) -1, (int) (byte) 100, 0);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode36 = null;
+        lwjgl3ApplicationConfiguration17.setFullscreenMode(displayMode36);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration38 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration38.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration38.setResizable(false);
+        com.badlogic.gdx.graphics.Color color45 = null;
+        lwjgl3ApplicationConfiguration38.setInitialBackgroundColor(color45);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener47 = null;
+        lwjgl3ApplicationConfiguration38.setWindowListener(lwjgl3WindowListener47);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration49 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode50 = null;
+        lwjgl3ApplicationConfiguration49.setHdpiMode(hdpiMode50);
+        lwjgl3ApplicationConfiguration49.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode55 = null;
+        lwjgl3ApplicationConfiguration49.setFullscreenMode(displayMode55);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration57 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration57.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode60 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration57.setHdpiMode(hdpiMode60);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode62 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration57.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration49.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration38.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration17.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode62);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode60 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode60.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode62 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode62.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11385() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11385");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (int) ' ', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(1, 0, (int) ' ', (int) (short) -1, 10, 10, 1);
+    }
+
+    @Test
+    public void test11386() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11386");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) 'a', (int) (byte) 100, 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11387() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11387");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 0, (int) (byte) -1);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        com.badlogic.gdx.Files.FileType fileType17 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType17);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11388() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11388");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, 10, (int) ' ', (int) (byte) 10, 10, 0, (int) (byte) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener17);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 10, (int) '#');
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+    }
+
+    @Test
+    public void test11389() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11389");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color4 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color4);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color14 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color14);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', (int) (byte) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (short) 1, (int) (byte) 10, (int) (short) 10, (int) (byte) 10, 1, (int) (byte) 10);
+    }
+
+    @Test
+    public void test11390() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11390");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener3 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener3);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode5 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode5);
+        com.badlogic.gdx.graphics.Color color7 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11391() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11391");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, 1, (int) (short) 0, 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode14 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode14);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, 0, (int) (byte) 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) (short) 100, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode29 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode29);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11392() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11392");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration20.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode26 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode26);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode26);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode34 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode34);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener36 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener36);
+        com.badlogic.gdx.Files.FileType fileType39 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType39);
+        org.junit.Assert.assertTrue("'" + hdpiMode26 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode26.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11393() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11393");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) -1, 10);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) (short) 100, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, (int) (byte) -1);
+    }
+
+    @Test
+    public void test11394() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11394");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, (int) (short) 1, (int) (byte) 0, (int) (byte) 100, (int) (byte) 100, (int) (short) 10, 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11395() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11395");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (short) 1, (int) ' ', (int) (byte) 0, 100, (int) '4', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = null;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration24.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode30 = null;
+        lwjgl3ApplicationConfiguration24.setFullscreenMode(displayMode30);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration32 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration32.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode35 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode35);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode37 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode37);
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode37);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode37);
+        com.badlogic.gdx.Files.FileType fileType42 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType42);
+        com.badlogic.gdx.graphics.Color color44 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color44);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) '4');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) ' ', (int) (byte) 1);
+        org.junit.Assert.assertTrue("'" + hdpiMode35 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode35.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode37 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode37.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11396() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11396");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, (int) (short) 0, (int) (byte) 10);
+        com.badlogic.gdx.graphics.Color color35 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color35);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode37 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode37);
+    }
+
+    @Test
+    public void test11397() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11397");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 0, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) ' ', 0, (int) (short) -1);
+    }
+
+    @Test
+    public void test11398() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11398");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', (int) (byte) -1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode9 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode9);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) '4');
+    }
+
+    @Test
+    public void test11399() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11399");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration20.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode26 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode26);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode26);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 1, (int) (short) -1, (int) (byte) 100, (int) 'a', (int) (byte) 0, (int) (short) -1);
+        com.badlogic.gdx.graphics.Color color40 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color40);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode26 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode26.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11400() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11400");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        com.badlogic.gdx.Files.FileType fileType15 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType15);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) (byte) 100, 100);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) ' ', 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, (int) ' ', 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 1, (int) (byte) -1);
+    }
+
+    @Test
+    public void test11401() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11401");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 0, (int) (byte) 100, (int) '4');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode18 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode18);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 10, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, (int) ' ');
+    }
+
+    @Test
+    public void test11402() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11402");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode14 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode14);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener19 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener19);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, 0);
+    }
+
+    @Test
+    public void test11403() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11403");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, (int) (short) 10, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, 0);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        java.lang.Class<?> wildcardClass32 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass32);
+    }
+
+    @Test
+    public void test11404() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11404");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) ' ');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener13 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener13);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+    }
+
+    @Test
+    public void test11405() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11405");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode16 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode16);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 10, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener28 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener28);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener32 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener32);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 0, 100, (int) (byte) 10, 0, (int) (byte) 0, (int) (short) 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode16 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode16.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11406() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11406");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener4 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener4);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (-1), (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) 100, (int) (short) -1, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) ' ', 0, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode21 = null;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode21);
+        lwjgl3ApplicationConfiguration20.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration20.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener36 = null;
+        lwjgl3ApplicationConfiguration20.setWindowListener(lwjgl3WindowListener36);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener38 = null;
+        lwjgl3ApplicationConfiguration20.setWindowListener(lwjgl3WindowListener38);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration20.setWindowedMode((int) (short) -1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration20.useOpenGL3(true, (-1), (int) 'a');
+        lwjgl3ApplicationConfiguration20.setAudioConfig((int) 'a', 1, (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration54 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode55 = null;
+        lwjgl3ApplicationConfiguration54.setHdpiMode(hdpiMode55);
+        lwjgl3ApplicationConfiguration54.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode60 = null;
+        lwjgl3ApplicationConfiguration54.setFullscreenMode(displayMode60);
+        lwjgl3ApplicationConfiguration54.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration54.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration54.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color76 = null;
+        lwjgl3ApplicationConfiguration54.setInitialBackgroundColor(color76);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode78 = null;
+        lwjgl3ApplicationConfiguration54.setFullscreenMode(displayMode78);
+        lwjgl3ApplicationConfiguration54.setWindowPosition((int) 'a', (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode83 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration54.setHdpiMode(hdpiMode83);
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode83);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode83);
+        org.junit.Assert.assertTrue("'" + hdpiMode83 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode83.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11407() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11407");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, 1, (int) ' ', (int) 'a');
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType31);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode33 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode33);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (byte) 10);
+        com.badlogic.gdx.graphics.Color color42 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color42);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11408() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11408");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', 0, (-1));
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, (int) (byte) 0, (int) (byte) 100, (-1), 1, (int) (short) 1, 0);
+    }
+
+    @Test
+    public void test11409() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11409");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) ' ', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+    }
+
+    @Test
+    public void test11410() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11410");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 0, 0, (int) (byte) 10, (int) (short) 0, 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.graphics.Color color41 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color41);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', (-1), (int) (short) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener47 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener47);
+    }
+
+    @Test
+    public void test11411() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11411");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode27 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode27);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode29 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode29);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener37 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener37);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11412() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11412");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode16 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode16);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', 10, (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = null;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration24.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration24.setWindowListener(lwjgl3WindowListener30);
+        lwjgl3ApplicationConfiguration24.setDecorated(true);
+        lwjgl3ApplicationConfiguration24.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener36 = null;
+        lwjgl3ApplicationConfiguration24.setWindowListener(lwjgl3WindowListener36);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode38 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode38);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode38);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration43 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration43.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode46 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration43.setHdpiMode(hdpiMode46);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode48 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration43.setHdpiMode(hdpiMode48);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode48);
+        com.badlogic.gdx.graphics.Color color51 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color51);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, 0, (int) (byte) -1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        org.junit.Assert.assertTrue("'" + hdpiMode16 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode16.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode38 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode38.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode46 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode46.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode48 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode48.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11413() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11413");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode7 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode7);
+        com.badlogic.gdx.graphics.Color color9 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color9);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (-1), (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) ' ');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener25 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener25);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode27 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode27);
+    }
+
+    @Test
+    public void test11414() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11414");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (short) 100, (int) (short) 10, (int) (short) 100);
+        com.badlogic.gdx.Files.FileType fileType24 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType24);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, (int) (byte) 100, (-1), (int) ' ', (int) 'a', (int) 'a', (int) (byte) -1);
+        com.badlogic.gdx.graphics.Color color34 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color34);
+        com.badlogic.gdx.Files.FileType fileType37 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType37);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (short) 10, (int) (byte) -1, (int) (byte) 10);
+    }
+
+    @Test
+    public void test11415() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11415");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 100, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, (int) (byte) 100, (int) (short) 100, (int) (byte) 1, (int) (byte) 0, (int) (byte) 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 10);
+    }
+
+    @Test
+    public void test11416() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11416");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) (byte) 10, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) -1, (int) (short) 100, (int) (byte) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 10, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11417() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11417");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener11 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener11);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (short) 1, (int) ' ', (int) (byte) 0, 100, (int) '4', (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration24 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = null;
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration24.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode30 = null;
+        lwjgl3ApplicationConfiguration24.setFullscreenMode(displayMode30);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration32 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration32.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode35 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode35);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode37 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode37);
+        lwjgl3ApplicationConfiguration24.setHdpiMode(hdpiMode37);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode37);
+        com.badlogic.gdx.Files.FileType fileType42 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType42);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) (short) 1, 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener52 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener52);
+        org.junit.Assert.assertTrue("'" + hdpiMode35 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode35.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode37 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode37.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11418() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11418");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) (byte) -1, (int) 'a', (int) (short) -1, 1, 0, (int) (byte) 100);
+        com.badlogic.gdx.Files.FileType fileType15 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType15);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 100, (-1), (int) (byte) 0, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) (byte) 10, 100, (int) 'a', (int) (short) 0, (int) (short) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11419() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11419");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener9 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener9);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11420() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11420");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) 10, (int) (byte) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) -1, (int) 'a');
+    }
+
+    @Test
+    public void test11421() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11421");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration20.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode23 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode23);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode25 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode25);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener30);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color35 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color35);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 100, 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, 0, 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 10, (int) (byte) 10);
+        java.lang.Class<?> wildcardClass51 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertTrue("'" + hdpiMode23 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode23.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode25 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode25.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertNotNull(wildcardClass51);
+    }
+
+    @Test
+    public void test11422() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11422");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.Files.FileType fileType9 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType9);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener14 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener14);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 10, 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', (int) (byte) 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, (int) (short) -1, (int) (short) -1, (int) (byte) 10, (int) (byte) 10, (int) '4', (int) (short) 10);
+    }
+
+    @Test
+    public void test11423() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11423");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode20);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.Files.FileType fileType29 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType29);
+    }
+
+    @Test
+    public void test11424() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11424");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration20.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode26 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode26);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode26);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode26 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode26.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11425() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11425");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (short) 0, 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 0, (int) 'a', (int) (byte) 10, (int) '4', (int) 'a', 100);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType33 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType33);
+    }
+
+    @Test
+    public void test11426() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11426");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener26 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener26);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 10, (int) 'a', (int) 'a', 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.Graphics.DisplayMode displayMode37 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode37);
+    }
+
+    @Test
+    public void test11427() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11427");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) 'a');
+        com.badlogic.gdx.graphics.Color color8 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color8);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, (int) 'a', 100, (int) (byte) 10, (int) (byte) 100, (int) (short) 10, (int) ' ');
+    }
+
+    @Test
+    public void test11428() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11428");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color21 = null;
+        lwjgl3ApplicationConfiguration20.setInitialBackgroundColor(color21);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode26 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode26);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode26);
+        com.badlogic.gdx.Files.FileType fileType30 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType30);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 1, (int) (short) -1, (int) (byte) 100, (int) 'a', (int) (byte) 0, (int) (short) -1);
+        com.badlogic.gdx.graphics.Color color40 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color40);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) ' ', 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, (int) ' ', (-1));
+        com.badlogic.gdx.Files.FileType fileType57 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType57);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', (int) 'a', (int) ' ');
+        org.junit.Assert.assertTrue("'" + hdpiMode26 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode26.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11429() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11429");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.graphics.Color color11 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color11);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 100, (-1), (int) 'a', (int) (short) 0);
+    }
+
+    @Test
+    public void test11430() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11430");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, 1, (int) ' ', (int) 'a');
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType31);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode33 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode33);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode44 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode44);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, (int) (short) 10);
+    }
+
+    @Test
+    public void test11431() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11431");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration5 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode6 = null;
+        lwjgl3ApplicationConfiguration5.setHdpiMode(hdpiMode6);
+        lwjgl3ApplicationConfiguration5.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType12 = null;
+        lwjgl3ApplicationConfiguration5.setPreferencesConfig("hi!", fileType12);
+        lwjgl3ApplicationConfiguration5.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode18 = null;
+        lwjgl3ApplicationConfiguration5.setFullscreenMode(displayMode18);
+        lwjgl3ApplicationConfiguration5.useOpenGL3(false, (int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration5.setDecorated(false);
+        lwjgl3ApplicationConfiguration5.useVsync(true);
+        lwjgl3ApplicationConfiguration5.setAudioConfig(1, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration5.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration34 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color35 = null;
+        lwjgl3ApplicationConfiguration34.setInitialBackgroundColor(color35);
+        com.badlogic.gdx.graphics.Color color37 = null;
+        lwjgl3ApplicationConfiguration34.setInitialBackgroundColor(color37);
+        lwjgl3ApplicationConfiguration34.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration34.setResizable(true);
+        lwjgl3ApplicationConfiguration34.setTitle("");
+        lwjgl3ApplicationConfiguration34.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType50 = null;
+        lwjgl3ApplicationConfiguration34.setPreferencesConfig("", fileType50);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration52 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode53 = null;
+        lwjgl3ApplicationConfiguration52.setHdpiMode(hdpiMode53);
+        lwjgl3ApplicationConfiguration52.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode58 = null;
+        lwjgl3ApplicationConfiguration52.setFullscreenMode(displayMode58);
+        lwjgl3ApplicationConfiguration52.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration52.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration52.setWindowPosition((int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode75 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration52.setHdpiMode(hdpiMode75);
+        lwjgl3ApplicationConfiguration34.setHdpiMode(hdpiMode75);
+        lwjgl3ApplicationConfiguration5.setHdpiMode(hdpiMode75);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode75);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode80 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode80);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode82 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode82);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, 0, (int) '4', (int) (byte) 1, (int) (short) 1, (int) (short) 10, (int) '#');
+        org.junit.Assert.assertTrue("'" + hdpiMode75 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode75.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11432() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11432");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, (int) (byte) 1, (int) (short) 0, (int) '#', (int) (byte) 10, 0, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, (int) (short) -1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (-1), 100, 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) (byte) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 0, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11433() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11433");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) '#');
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11434() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11434");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode8 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode8);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        com.badlogic.gdx.graphics.Color color14 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color14);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) 'a');
+    }
+
+    @Test
+    public void test11435() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11435");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 100, (int) (byte) 0);
+        com.badlogic.gdx.Files.FileType fileType32 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType32);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11436() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11436");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 0, (int) (byte) 1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(10, (int) (byte) -1, 0, (int) (byte) -1, 100, (int) '4', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration36 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration36.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration36.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color43 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color43);
+        com.badlogic.gdx.graphics.Color color45 = null;
+        lwjgl3ApplicationConfiguration36.setInitialBackgroundColor(color45);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration47 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode48 = null;
+        lwjgl3ApplicationConfiguration47.setHdpiMode(hdpiMode48);
+        lwjgl3ApplicationConfiguration47.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode53 = null;
+        lwjgl3ApplicationConfiguration47.setFullscreenMode(displayMode53);
+        lwjgl3ApplicationConfiguration47.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration47.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration47.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration47.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration72 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color73 = null;
+        lwjgl3ApplicationConfiguration72.setInitialBackgroundColor(color73);
+        com.badlogic.gdx.graphics.Color color75 = null;
+        lwjgl3ApplicationConfiguration72.setInitialBackgroundColor(color75);
+        lwjgl3ApplicationConfiguration72.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration79 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode80 = null;
+        lwjgl3ApplicationConfiguration79.setHdpiMode(hdpiMode80);
+        lwjgl3ApplicationConfiguration79.useVsync(false);
+        lwjgl3ApplicationConfiguration79.setDecorated(false);
+        lwjgl3ApplicationConfiguration79.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration88 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration88.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode91 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration88.setHdpiMode(hdpiMode91);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode93 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration88.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration79.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration72.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration47.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode93);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode93);
+        org.junit.Assert.assertTrue("'" + hdpiMode91 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode91.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode93 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode93.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11437() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11437");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, 0, (int) ' ', (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, 100);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 0, (int) '4');
+    }
+
+    @Test
+    public void test11438() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11438");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, (int) (byte) 0, 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (short) 100, 1, (int) (byte) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration14 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode15 = null;
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode15);
+        lwjgl3ApplicationConfiguration14.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode20 = null;
+        lwjgl3ApplicationConfiguration14.setFullscreenMode(displayMode20);
+        lwjgl3ApplicationConfiguration14.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration14.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration14.setWindowPosition(10, 0);
+        com.badlogic.gdx.graphics.Color color37 = null;
+        lwjgl3ApplicationConfiguration14.setInitialBackgroundColor(color37);
+        lwjgl3ApplicationConfiguration14.setDecorated(false);
+        com.badlogic.gdx.Files.FileType fileType42 = null;
+        lwjgl3ApplicationConfiguration14.setPreferencesConfig("hi!", fileType42);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration44 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color45 = null;
+        lwjgl3ApplicationConfiguration44.setInitialBackgroundColor(color45);
+        com.badlogic.gdx.graphics.Color color47 = null;
+        lwjgl3ApplicationConfiguration44.setInitialBackgroundColor(color47);
+        lwjgl3ApplicationConfiguration44.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode51 = null;
+        lwjgl3ApplicationConfiguration44.setFullscreenMode(displayMode51);
+        com.badlogic.gdx.graphics.Color color53 = null;
+        lwjgl3ApplicationConfiguration44.setInitialBackgroundColor(color53);
+        lwjgl3ApplicationConfiguration44.setAudioConfig((int) (short) -1, 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration44.setWindowedMode((int) (short) -1, (int) (short) 0);
+        lwjgl3ApplicationConfiguration44.setWindowPosition((int) (byte) 100, 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration65 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode66 = null;
+        lwjgl3ApplicationConfiguration65.setHdpiMode(hdpiMode66);
+        lwjgl3ApplicationConfiguration65.useVsync(false);
+        lwjgl3ApplicationConfiguration65.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener72 = null;
+        lwjgl3ApplicationConfiguration65.setWindowListener(lwjgl3WindowListener72);
+        lwjgl3ApplicationConfiguration65.disableAudio(false);
+        lwjgl3ApplicationConfiguration65.setAudioConfig((int) (short) -1, (int) (byte) 100, (int) (short) 100);
+        lwjgl3ApplicationConfiguration65.setBackBufferConfig(0, 0, (int) 'a', (int) '4', (int) (short) -1, 0, (int) (byte) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode88 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration65.setHdpiMode(hdpiMode88);
+        lwjgl3ApplicationConfiguration44.setHdpiMode(hdpiMode88);
+        lwjgl3ApplicationConfiguration14.setHdpiMode(hdpiMode88);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode88);
+        java.lang.Class<?> wildcardClass93 = hdpiMode88.getClass();
+        org.junit.Assert.assertTrue("'" + hdpiMode88 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode88.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertNotNull(wildcardClass93);
+    }
+
+    @Test
+    public void test11439() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11439");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', (int) (short) -1, (int) (byte) -1, 1, (int) (byte) 100, (int) (byte) 1, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener17 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener17);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) 'a', (int) (byte) -1, (int) (byte) 10, (int) (byte) 1, (-1), (int) (byte) 10, (int) (byte) 0);
+    }
+
+    @Test
+    public void test11440() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11440");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType23 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType23);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) '4');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener34 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener34);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration36 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode37 = null;
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode37);
+        lwjgl3ApplicationConfiguration36.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration36.setTitle("");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener44 = null;
+        lwjgl3ApplicationConfiguration36.setWindowListener(lwjgl3WindowListener44);
+        lwjgl3ApplicationConfiguration36.setWindowPosition((int) ' ', (int) (short) 100);
+        com.badlogic.gdx.Files.FileType fileType50 = null;
+        lwjgl3ApplicationConfiguration36.setPreferencesConfig("", fileType50);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration52 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode53 = null;
+        lwjgl3ApplicationConfiguration52.setHdpiMode(hdpiMode53);
+        lwjgl3ApplicationConfiguration52.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode58 = null;
+        lwjgl3ApplicationConfiguration52.setFullscreenMode(displayMode58);
+        lwjgl3ApplicationConfiguration52.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color64 = null;
+        lwjgl3ApplicationConfiguration52.setInitialBackgroundColor(color64);
+        lwjgl3ApplicationConfiguration52.setResizable(false);
+        lwjgl3ApplicationConfiguration52.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration70 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode71 = null;
+        lwjgl3ApplicationConfiguration70.setHdpiMode(hdpiMode71);
+        lwjgl3ApplicationConfiguration70.useVsync(false);
+        lwjgl3ApplicationConfiguration70.setDecorated(false);
+        lwjgl3ApplicationConfiguration70.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration79 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration79.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode82 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration79.setHdpiMode(hdpiMode82);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode84 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration79.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration70.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration52.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration36.setHdpiMode(hdpiMode84);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode84);
+        org.junit.Assert.assertTrue("'" + hdpiMode82 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode82.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode84 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode84.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11441() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11441");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) (byte) 10, 100, (int) '#', (int) (short) 0, (int) (short) -1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener39 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener39);
+    }
+
+    @Test
+    public void test11442() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11442");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, (int) '#', 10);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 1, (int) '#');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) 'a', (int) '#');
+        lwjgl3ApplicationConfiguration0.setTitle("");
+    }
+
+    @Test
+    public void test11443() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11443");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) '4', 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, 100);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) 'a', 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((-1), 0, (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(1, (int) (byte) 0, (int) (byte) 10, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11444() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11444");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener24 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener24);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) -1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode29 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode29);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 100, (int) (byte) 0, (int) (short) 1);
+    }
+
+    @Test
+    public void test11445() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11445");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', (-1), 0, (-1), (int) 'a', (int) (byte) 100, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 1, (int) ' ', (int) (short) 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode32 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode32);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11446() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11446");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Files.FileType fileType10 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType10);
+        com.badlogic.gdx.Files.FileType fileType13 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType13);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) 'a', 0, 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (short) 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode26 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode26);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 1, 0, (int) (short) 0, 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 0, 100);
+    }
+
+    @Test
+    public void test11447() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11447");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '4', 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Files.FileType fileType17 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType17);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Files.FileType fileType22 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType22);
+    }
+
+    @Test
+    public void test11448() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11448");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.Graphics.DisplayMode displayMode12 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode12);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+    }
+
+    @Test
+    public void test11449() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11449");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', (int) '4', (int) '4', (int) (short) 1, (int) (short) 100, (int) '4', (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) 'a', (int) (short) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration32 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration32.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode35 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode35);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode37 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode37);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration39 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration39.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode42 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration39.setHdpiMode(hdpiMode42);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode44 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration39.setHdpiMode(hdpiMode44);
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode44);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode44);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, 0, 10, 10, (int) (short) 0, (int) '4', 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (byte) 100, (int) '#', (int) (short) 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode35 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode35.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode37 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode37.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode42 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode42.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode44 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode44.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11450() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11450");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.Files.FileType fileType9 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType9);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration13 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = null;
+        lwjgl3ApplicationConfiguration13.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration13.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode19 = null;
+        lwjgl3ApplicationConfiguration13.setFullscreenMode(displayMode19);
+        lwjgl3ApplicationConfiguration13.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration13.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration13.setWindowPosition((int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode36 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration13.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '#', (int) (short) 1);
+        org.junit.Assert.assertTrue("'" + hdpiMode36 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode36.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11451() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11451");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, (int) 'a');
+        com.badlogic.gdx.graphics.Color color25 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color25);
+        com.badlogic.gdx.graphics.Color color27 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color27);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((-1), (int) ' ');
+        com.badlogic.gdx.graphics.Color color32 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color32);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, (int) (byte) 10, (int) 'a', (int) (byte) -1, (int) (short) -1, 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+    }
+
+    @Test
+    public void test11452() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11452");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) 'a', (int) (byte) 100, 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (int) 'a', (int) (byte) -1, (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode19 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode19);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener21 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener21);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode23 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode23);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, (int) (byte) 100, (int) (byte) 10, (int) (short) 0);
+    }
+
+    @Test
+    public void test11453() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11453");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, 1, (int) (short) 10, (int) '#', (int) (byte) 1, (int) (short) 10, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 10, (int) (byte) 0, (int) '#', 10, (int) '4', 10, (-1));
+        com.badlogic.gdx.Graphics.DisplayMode displayMode25 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode25);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) ' ', (int) (byte) 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode31 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode31);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (int) '#', (-1));
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) 1, 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11454() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11454");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode4 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode4);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, (int) (byte) 10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.Files.FileType fileType18 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType18);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode4 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode4.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11455() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11455");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode4 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode4);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, (int) (byte) 10, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.Files.FileType fileType18 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType18);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration20 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode21 = null;
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode21);
+        lwjgl3ApplicationConfiguration20.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType27 = null;
+        lwjgl3ApplicationConfiguration20.setPreferencesConfig("hi!", fileType27);
+        lwjgl3ApplicationConfiguration20.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener32 = null;
+        lwjgl3ApplicationConfiguration20.setWindowListener(lwjgl3WindowListener32);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode34 = null;
+        lwjgl3ApplicationConfiguration20.setFullscreenMode(displayMode34);
+        lwjgl3ApplicationConfiguration20.useOpenGL3(true, (int) '#', (int) (short) 1);
+        lwjgl3ApplicationConfiguration20.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType43 = null;
+        lwjgl3ApplicationConfiguration20.setPreferencesConfig("hi!", fileType43);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration45 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color46 = null;
+        lwjgl3ApplicationConfiguration45.setInitialBackgroundColor(color46);
+        com.badlogic.gdx.graphics.Color color48 = null;
+        lwjgl3ApplicationConfiguration45.setInitialBackgroundColor(color48);
+        lwjgl3ApplicationConfiguration45.setDecorated(false);
+        lwjgl3ApplicationConfiguration45.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration45.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration45.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration65 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color66 = null;
+        lwjgl3ApplicationConfiguration65.setInitialBackgroundColor(color66);
+        lwjgl3ApplicationConfiguration65.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode71 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration65.setHdpiMode(hdpiMode71);
+        lwjgl3ApplicationConfiguration45.setHdpiMode(hdpiMode71);
+        com.badlogic.gdx.Files.FileType fileType75 = null;
+        lwjgl3ApplicationConfiguration45.setPreferencesConfig("hi!", fileType75);
+        lwjgl3ApplicationConfiguration45.setDecorated(false);
+        lwjgl3ApplicationConfiguration45.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode81 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration45.setHdpiMode(hdpiMode81);
+        lwjgl3ApplicationConfiguration20.setHdpiMode(hdpiMode81);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode81);
+        org.junit.Assert.assertTrue("'" + hdpiMode4 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode4.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode71 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode71.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertTrue("'" + hdpiMode81 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode81.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11456() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11456");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        com.badlogic.gdx.Files.FileType fileType25 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType25);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) -1, 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (-1), (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 100, (int) (byte) -1, 100);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        java.lang.Class<?> wildcardClass41 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass41);
+    }
+
+    @Test
+    public void test11457() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11457");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) 'a', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 0, 0);
+        com.badlogic.gdx.graphics.Color color16 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color16);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+    }
+
+    @Test
+    public void test11458() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11458");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener4 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener4);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (short) -1, 1, 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) ' ', (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener20 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener20);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (-1));
+        java.lang.Class<?> wildcardClass25 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass25);
+    }
+
+    @Test
+    public void test11459() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11459");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) -1, (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Files.FileType fileType20 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType20);
+        java.lang.Class<?> wildcardClass22 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass22);
+    }
+
+    @Test
+    public void test11460() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11460");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) ' ', (int) (short) 1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode23 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode23);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode25 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode25);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode27 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode27);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 1, 0, 1, 1, (int) (byte) 1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', 1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, (int) (short) 10);
+    }
+
+    @Test
+    public void test11461() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11461");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '4', (int) (byte) 1, (int) ' ', (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) 'a', 1, 100, (-1));
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.Files.FileType fileType29 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType29);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (short) 100, (int) (byte) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) '4', 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 10, 100, (int) (byte) 1, (int) (short) -1, (int) (short) 1, (int) (short) 1, (-1));
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 1, 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) -1, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, (int) '#', 0, 0, 0, (int) (byte) 0, 0);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11462() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11462");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) ' ', (int) (byte) 10, (int) (byte) 100, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '#', 1, (int) (byte) -1, (int) (short) 10, (int) (byte) 0, 0, (int) (byte) -1);
+    }
+
+    @Test
+    public void test11463() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11463");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) '4', (int) (byte) -1, (int) (short) 10, (int) '4', (int) (short) -1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(10, (int) (short) -1, 100, (-1));
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 0, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', (int) (byte) 0, (-1), (int) ' ');
+        com.badlogic.gdx.Files.FileType fileType33 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType33);
+    }
+
+    @Test
+    public void test11464() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11464");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((-1), (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) '4', (int) '4');
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 0, (int) (short) 1, 0, (int) ' ', (-1), (int) (byte) 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, 1);
+        com.badlogic.gdx.graphics.Color color39 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color39);
+    }
+
+    @Test
+    public void test11465() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11465");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11466() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11466");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 0, (int) 'a', (int) '4', (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+    }
+
+    @Test
+    public void test11467() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11467");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 10, (int) (byte) -1, (int) (byte) -1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, 0, 0, (int) (byte) 10, (int) (short) 0, 0, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, 10, (int) '4', (int) 'a', (int) '4', (-1), (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, (int) (short) 1, (int) (byte) 0, (int) ' ', 0, (int) (short) 0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+    }
+
+    @Test
+    public void test11468() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11468");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.Files.FileType fileType9 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType9);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 1, (int) (short) 1, (int) (byte) 100, (int) '4', (int) (short) -1, (int) '4', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, 1, (int) ' ', (int) (short) 10);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode32 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode32);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) -1, (int) (short) -1);
+        com.badlogic.gdx.Files.FileType fileType39 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType39);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(0, (int) (byte) 100);
+    }
+
+    @Test
+    public void test11469() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11469");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, 10, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener29 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener29);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener33 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener33);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '#', (int) 'a', (int) '#', (int) (byte) 0, (int) (short) 0, (int) '#', (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.Graphics.DisplayMode displayMode45 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode45);
+    }
+
+    @Test
+    public void test11470() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11470");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration9 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration9.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode12 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode12);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode14 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration9.setHdpiMode(hdpiMode14);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode14);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener21 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener21);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        org.junit.Assert.assertTrue("'" + hdpiMode12 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode12.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode14 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode14.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11471() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11471");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) (short) 1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.setWindowedMode(1, 1);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11472() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11472");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 100, 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, (int) '#', 10);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(10, 10);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 1, (int) '#');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) 'a', (int) '#');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration35 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode36 = null;
+        lwjgl3ApplicationConfiguration35.setHdpiMode(hdpiMode36);
+        lwjgl3ApplicationConfiguration35.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType42 = null;
+        lwjgl3ApplicationConfiguration35.setPreferencesConfig("hi!", fileType42);
+        lwjgl3ApplicationConfiguration35.setDecorated(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener46 = null;
+        lwjgl3ApplicationConfiguration35.setWindowListener(lwjgl3WindowListener46);
+        lwjgl3ApplicationConfiguration35.setWindowSizeLimits((int) ' ', (int) (byte) 0, (int) (short) 1, (int) (short) 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration53 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color54 = null;
+        lwjgl3ApplicationConfiguration53.setInitialBackgroundColor(color54);
+        com.badlogic.gdx.graphics.Color color56 = null;
+        lwjgl3ApplicationConfiguration53.setInitialBackgroundColor(color56);
+        lwjgl3ApplicationConfiguration53.setDecorated(true);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode60 = null;
+        lwjgl3ApplicationConfiguration53.setFullscreenMode(displayMode60);
+        lwjgl3ApplicationConfiguration53.setTitle("hi!");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration64 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode65 = null;
+        lwjgl3ApplicationConfiguration64.setHdpiMode(hdpiMode65);
+        lwjgl3ApplicationConfiguration64.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode70 = null;
+        lwjgl3ApplicationConfiguration64.setFullscreenMode(displayMode70);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration72 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration72.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode75 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration72.setHdpiMode(hdpiMode75);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode77 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration72.setHdpiMode(hdpiMode77);
+        lwjgl3ApplicationConfiguration64.setHdpiMode(hdpiMode77);
+        lwjgl3ApplicationConfiguration53.setHdpiMode(hdpiMode77);
+        lwjgl3ApplicationConfiguration35.setHdpiMode(hdpiMode77);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode77);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '#', 10, 1, (int) (short) 0, 100, (int) (byte) 10, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, (int) (byte) 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode75 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode75.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode77 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode77.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11473() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11473");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.Files.FileType fileType8 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType8);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) ' ', (int) (byte) 0, (int) (byte) 0, (int) (byte) 1, (int) (byte) 1, 10, (int) (short) 1);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11474() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11474");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) -1, (int) (byte) 100, (int) (byte) -1, 1);
+    }
+
+    @Test
+    public void test11475() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11475");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener16 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener16);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener18 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener18);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        com.badlogic.gdx.Files.FileType fileType29 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType29);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, (int) (byte) -1, (int) (short) 100);
+    }
+
+    @Test
+    public void test11476() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11476");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        com.badlogic.gdx.graphics.Color color22 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color22);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) (byte) -1, (int) (short) 100, (int) '4');
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11477() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11477");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) '#', 0, 0, (int) (short) -1);
+        com.badlogic.gdx.graphics.Color color11 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color11);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode13 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode13);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 1, (int) ' ', 0);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+    }
+
+    @Test
+    public void test11478() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11478");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) -1, (int) '#');
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 100, (int) (byte) 100);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration21 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration21.useOpenGL3(true, (int) (byte) 1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration21.setResizable(false);
+        com.badlogic.gdx.graphics.Color color28 = null;
+        lwjgl3ApplicationConfiguration21.setInitialBackgroundColor(color28);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener30 = null;
+        lwjgl3ApplicationConfiguration21.setWindowListener(lwjgl3WindowListener30);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration32 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode33 = null;
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode33);
+        lwjgl3ApplicationConfiguration32.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode38 = null;
+        lwjgl3ApplicationConfiguration32.setFullscreenMode(displayMode38);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration40 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration40.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode43 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration40.setHdpiMode(hdpiMode43);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode45 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration40.setHdpiMode(hdpiMode45);
+        lwjgl3ApplicationConfiguration32.setHdpiMode(hdpiMode45);
+        lwjgl3ApplicationConfiguration21.setHdpiMode(hdpiMode45);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode45);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 0, (int) (byte) 10, (int) (byte) 0, 10, (int) (byte) -1, (int) (short) 0, 10);
+        org.junit.Assert.assertTrue("'" + hdpiMode43 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode43.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode45 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode45.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11479() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11479");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 1, (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener12 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener12);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (byte) 10, (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        java.lang.Class<?> wildcardClass20 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test11480() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11480");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 100, (int) (short) -1);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 0, (int) (byte) -1);
+        com.badlogic.gdx.Files.FileType fileType14 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType14);
+        com.badlogic.gdx.Files.FileType fileType17 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType17);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) -1);
+    }
+
+    @Test
+    public void test11481() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11481");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode3 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode3);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode5 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode5);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, 100, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, (int) (byte) 1, 1, 100, (int) '#', (-1), 0);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener19 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener19);
+        org.junit.Assert.assertTrue("'" + hdpiMode3 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode3.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode5 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode5.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+    }
+
+    @Test
+    public void test11482() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11482");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration17 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration17.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode20 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration17.setHdpiMode(hdpiMode20);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode20);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode23 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode23);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (-1), (int) (short) 1, (int) (short) 0);
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType31);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener33 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener33);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration35 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration35.setResizable(false);
+        com.badlogic.gdx.graphics.Color color38 = null;
+        lwjgl3ApplicationConfiguration35.setInitialBackgroundColor(color38);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration40 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color41 = null;
+        lwjgl3ApplicationConfiguration40.setInitialBackgroundColor(color41);
+        lwjgl3ApplicationConfiguration40.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener46 = null;
+        lwjgl3ApplicationConfiguration40.setWindowListener(lwjgl3WindowListener46);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener48 = null;
+        lwjgl3ApplicationConfiguration40.setWindowListener(lwjgl3WindowListener48);
+        lwjgl3ApplicationConfiguration40.setBackBufferConfig((int) (short) 100, (int) (byte) 1, (int) (short) 0, (int) '#', (int) (byte) 10, 0, (int) (byte) -1);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration58 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode59 = null;
+        lwjgl3ApplicationConfiguration58.setHdpiMode(hdpiMode59);
+        lwjgl3ApplicationConfiguration58.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType65 = null;
+        lwjgl3ApplicationConfiguration58.setPreferencesConfig("hi!", fileType65);
+        lwjgl3ApplicationConfiguration58.setAudioConfig((int) (short) 0, (int) (short) 1, (int) (byte) 100);
+        lwjgl3ApplicationConfiguration58.setAudioConfig((int) (byte) 1, (int) (short) 0, 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration75 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration75.setResizable(true);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode78 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels;
+        lwjgl3ApplicationConfiguration75.setHdpiMode(hdpiMode78);
+        lwjgl3ApplicationConfiguration58.setHdpiMode(hdpiMode78);
+        lwjgl3ApplicationConfiguration40.setHdpiMode(hdpiMode78);
+        lwjgl3ApplicationConfiguration35.setHdpiMode(hdpiMode78);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode78);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 100, 0);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) -1, (-1), (int) (byte) 1, (int) (byte) 1, (int) 'a', (int) '4', 100);
+        org.junit.Assert.assertTrue("'" + hdpiMode20 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode20.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+        org.junit.Assert.assertTrue("'" + hdpiMode78 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels + "'", hdpiMode78.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Pixels));
+    }
+
+    @Test
+    public void test11483() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11483");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener4 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener4);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(100, (int) (short) -1, (int) 'a');
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener10 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) 'a', (int) (short) 100, 10, 1, 0, (int) (byte) 10, 0);
+        com.badlogic.gdx.Files.FileType fileType21 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType21);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) (byte) 1, 10, (int) (byte) 10);
+    }
+
+    @Test
+    public void test11484() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11484");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        com.badlogic.gdx.Graphics.DisplayMode displayMode12 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) ' ');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode21 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode21);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11485() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11485");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener7 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener7);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '#', (int) '#');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) -1, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, 100, (int) ' ', (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), (-1), (int) ' ', (int) '4');
+        com.badlogic.gdx.graphics.Color color31 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color31);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) 100, 100, 0, (int) (short) 100, (int) (short) 0, (int) (byte) -1, (int) (short) 1);
+    }
+
+    @Test
+    public void test11486() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11486");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) -1, (int) '#', (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 0, (int) (short) -1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        com.badlogic.gdx.graphics.Color color24 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color24);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setTitle("");
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 100, (-1));
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+    }
+
+    @Test
+    public void test11487() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11487");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(1, 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (short) -1, (int) (byte) 100, (int) (byte) 1, (int) (short) -1, (int) (short) 10, 10, 100);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 0, (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.useVsync(true);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(10, 1, (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+    }
+
+    @Test
+    public void test11488() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11488");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(100, (int) (byte) -1, (int) (byte) -1, 0, (int) 'a', (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((-1), 0, (-1), (int) (byte) 10);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(100, (int) '4', (-1), (int) (short) 0);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (short) 0, (int) (byte) -1, 100, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) ' ', (int) (byte) 1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '4', (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) '#', 0);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 0, (int) '4');
+        com.badlogic.gdx.graphics.Color color44 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color44);
+    }
+
+    @Test
+    public void test11489() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11489");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode(0, (int) (short) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener8 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener8);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.graphics.Color color12 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color12);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setAudioConfig(0, (int) (short) 10, (int) '4');
+    }
+
+    @Test
+    public void test11490() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11490");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color25 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color25);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener27 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener27);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) (short) 100, 0);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 1, 100);
+        com.badlogic.gdx.Files.FileType fileType37 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType37);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener39 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener39);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) '#', 10);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) ' ', (int) (byte) 0, 0);
+    }
+
+    @Test
+    public void test11491() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11491");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        com.badlogic.gdx.graphics.Color color9 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color9);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 1, (int) (short) 100, (int) '#', (int) '4', (int) (byte) 0, (int) (byte) -1, 1);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+        java.lang.Class<?> wildcardClass21 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass21);
+    }
+
+    @Test
+    public void test11492() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11492");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setDecorated(false);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits((int) (byte) 1, (int) (short) 0, (-1), (int) (short) 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) '4', (int) ' ', (int) (short) 100, (int) (short) 100, (int) (short) 1, (int) (byte) 1, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (short) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) -1, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.Files.FileType fileType32 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType32);
+    }
+
+    @Test
+    public void test11493() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11493");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.setWindowSizeLimits(0, (int) '#', (int) (byte) 10, (-1));
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration16 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        lwjgl3ApplicationConfiguration16.setWindowPosition((int) '#', (int) (byte) 100);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode20 = com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical;
+        lwjgl3ApplicationConfiguration16.setHdpiMode(hdpiMode20);
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode20);
+        java.lang.Class<?> wildcardClass23 = hdpiMode20.getClass();
+        org.junit.Assert.assertTrue("'" + hdpiMode20 + "' != '" + com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical + "'", hdpiMode20.equals(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical));
+        org.junit.Assert.assertNotNull(wildcardClass23);
+    }
+
+    @Test
+    public void test11494() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11494");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (short) 1, (int) (byte) 10);
+        com.badlogic.gdx.Files.FileType fileType10 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType10);
+    }
+
+    @Test
+    public void test11495() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11495");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        com.badlogic.gdx.graphics.Color color3 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color3);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, 10, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        java.lang.Class<?> wildcardClass11 = lwjgl3ApplicationConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test11496() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11496");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 100, (int) (byte) 10);
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener23 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener23);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (short) 0, (int) (byte) -1);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode28 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode28);
+        com.badlogic.gdx.Files.FileType fileType31 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("", fileType31);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig((int) (byte) 100, (int) '#', (int) (byte) 100, 0, (int) (byte) -1, (int) (short) 1, (-1));
+    }
+
+    @Test
+    public void test11497() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11497");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.useVsync(false);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, 1, (int) (short) 100);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (int) (byte) 0);
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.graphics.Color color18 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color18);
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(false, (int) (byte) 10, (int) (byte) 100);
+    }
+
+    @Test
+    public void test11498() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11498");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode6 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode6);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', 10);
+        lwjgl3ApplicationConfiguration0.setBackBufferConfig(0, (int) (byte) 10, (-1), (int) (byte) 0, (int) '#', 0, (int) ' ');
+        lwjgl3ApplicationConfiguration0.setDecorated(true);
+        lwjgl3ApplicationConfiguration0.setResizable(true);
+        lwjgl3ApplicationConfiguration0.useOpenGL3(true, (int) '4', (int) '4');
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (byte) 10, 0, (int) (short) 1);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+    }
+
+    @Test
+    public void test11499() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11499");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.graphics.Color color1 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) (byte) 1, (-1));
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener lwjgl3WindowListener6 = null;
+        lwjgl3ApplicationConfiguration0.setWindowListener(lwjgl3WindowListener6);
+        lwjgl3ApplicationConfiguration0.setTitle("hi!");
+        lwjgl3ApplicationConfiguration0.disableAudio(true);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(10, (int) 'a');
+        lwjgl3ApplicationConfiguration0.setResizable(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode17 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode17);
+        com.badlogic.gdx.graphics.Color color19 = null;
+        lwjgl3ApplicationConfiguration0.setInitialBackgroundColor(color19);
+    }
+
+    @Test
+    public void test11500() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest22.test11500");
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration lwjgl3ApplicationConfiguration0 = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode hdpiMode1 = null;
+        lwjgl3ApplicationConfiguration0.setHdpiMode(hdpiMode1);
+        lwjgl3ApplicationConfiguration0.setWindowedMode((int) (byte) 10, 100);
+        com.badlogic.gdx.Files.FileType fileType7 = null;
+        lwjgl3ApplicationConfiguration0.setPreferencesConfig("hi!", fileType7);
+        lwjgl3ApplicationConfiguration0.setWindowPosition((int) 'a', (int) '#');
+        lwjgl3ApplicationConfiguration0.disableAudio(false);
+        com.badlogic.gdx.Graphics.DisplayMode displayMode14 = null;
+        lwjgl3ApplicationConfiguration0.setFullscreenMode(displayMode14);
+        lwjgl3ApplicationConfiguration0.setAudioConfig((int) (short) 10, 100, (int) (byte) -1);
+        lwjgl3ApplicationConfiguration0.setWindowPosition(1, 10);
+    }
+}
+

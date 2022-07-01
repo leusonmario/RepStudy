@@ -1,0 +1,16 @@
+Methods called,Number of times,Number of times (Normalized)
+"public fitnesse.testsystems.slim.tables.SlimTable fitnesse.testsystems.slim.tables.SlimTableFactory.makeSlimTable(fitnesse.testsystems.slim.Table,java.lang.String,fitnesse.testsystems.slim.SlimTestContext)",2567,0.1388092791867193
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypes",25945,1.4029632834045314
+"public java.lang.Class fitnesse.testsystems.slim.tables.SlimTableFactory.getTableType(java.lang.String)",50235,2.716433245011626
+"public java.lang.String fitnesse.testsystems.slim.tables.SlimTableFactory.getFullTableName(java.lang.String)",18062,0.9766938841723896
+"public boolean fitnesse.testsystems.slim.tables.SlimTableFactory.hasColon(java.lang.String)",50167,2.7127561780133025
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypeArrays",66405,3.590818147407127
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypeArrays",35668,1.9287297896501379
+"public fitnesse.testsystems.slim.tables.SlimTableFactory fitnesse.testsystems.slim.tables.SlimTableFactory.copy()",79709,4.3102254907262205
+"public static java.util.logging.Logger fitnesse.testsystems.slim.tables.SlimTableFactory.LOG",1,5.407451468123074E-5
+"public static java.util.logging.Logger fitnesse.testsystems.slim.tables.SlimTableFactory.LOG",1,5.407451468123074E-5
+"fitnesse.testsystems.slim.tables.SlimTableFactory()",53405,2.8878494565511272
+"public final native java.lang.Class java.lang.Object.getClass()",2576,0.13929594981885038
+"public void fitnesse.testsystems.slim.tables.SlimTableFactory.parseDefineTableTypeRow(fitnesse.testsystems.slim.Table,int)",2841,0.15362569620937652
+"public fitnesse.testsystems.slim.tables.SlimTable fitnesse.testsystems.slim.tables.SlimTableFactory.parseDefineTableTypeTable(fitnesse.testsystems.slim.Table)",2472,0.13367220029200239
+"public java.lang.String fitnesse.testsystems.slim.tables.SlimTableFactory.makeTableType(java.lang.String)",20056,1.0845184664467635

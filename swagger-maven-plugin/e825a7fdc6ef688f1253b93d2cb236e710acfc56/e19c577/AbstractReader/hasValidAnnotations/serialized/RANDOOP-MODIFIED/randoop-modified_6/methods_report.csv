@@ -1,0 +1,385 @@
+Methods called,Number of times,Number of times (Normalized)
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays76() throws java.io.IOException",11,0.005
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader85() throws java.io.IOException",34,0.015454545454545455
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader6() throws java.io.IOException",38,0.017272727272727273
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays70() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader7() throws java.io.IOException",31,0.014090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader8() throws java.io.IOException",89,0.04045454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays71() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader1() throws java.io.IOException",9,0.004090909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays73() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays157() throws java.io.IOException",10,0.004545454545454545
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader26() throws java.io.IOException",60,0.02727272727272727
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays74() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays75() throws java.io.IOException",13,0.005909090909090909
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader5() throws java.io.IOException",107,0.04863636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays77() throws java.io.IOException",7,0.003181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays78() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays79() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays72() throws java.io.IOException",13,0.005909090909090909
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader2() throws java.io.IOException",180,0.08181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader3() throws java.io.IOException",137,0.06227272727272727
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader4() throws java.io.IOException",17,0.007727272727272728
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader22() throws java.io.IOException",242,0.11
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader80() throws java.io.IOException",602,0.2736363636363636
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader81() throws java.io.IOException",275,0.125
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays162() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays69() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader20() throws java.io.IOException",9,0.004090909090909091
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader21() throws java.io.IOException",26,0.011818181818181818
+"public com.github.kongchen.swagger.docgen.LogAdapter com.github.kongchen.swagger.docgen.reader.AbstractReader.getLOG()",19,0.008636363636363636
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays161() throws java.io.IOException",5,0.0022727272727272726
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader24() throws java.io.IOException",6,0.0027272727272727275
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader86() throws java.io.IOException",533,0.24227272727272728
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader25() throws java.io.IOException",138,0.06272727272727273
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader87() throws java.io.IOException",41,0.018636363636363635
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader88() throws java.io.IOException",226,0.10272727272727272
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader23() throws java.io.IOException",37,0.01681818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader89() throws java.io.IOException",70,0.031818181818181815
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader28() throws java.io.IOException",95,0.04318181818181818
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader9() throws java.io.IOException",149,0.06772727272727273
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader82() throws java.io.IOException",61,0.02772727272727273
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader29() throws java.io.IOException",29,0.013181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader83() throws java.io.IOException",123,0.05590909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays160() throws java.io.IOException",7,0.003181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader27() throws java.io.IOException",90,0.04090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader84() throws java.io.IOException",63,0.028636363636363637
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays65() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays60() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays62() throws java.io.IOException",9,0.004090909090909091
+"public java.lang.String com.github.kongchen.swagger.docgen.reader.AbstractReader.parseOperationPath(java.lang.String,java.util.Map)",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays63() throws java.io.IOException",15,0.006818181818181818
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader15() throws java.io.IOException",15,0.006818181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays64() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.List com.github.kongchen.swagger.docgen.reader.AbstractReader.getParameters(java.lang.reflect.Type,java.util.List)",35,0.015909090909090907
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays66() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays67() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays68() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays61() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader11() throws java.io.IOException",51,0.023181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader90() throws java.io.IOException",20,0.00909090909090909
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader91() throws java.io.IOException",96,0.04363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays58() throws java.io.IOException",4,0.0018181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader92() throws java.io.IOException",46,0.02090909090909091
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader10() throws java.io.IOException",32,0.014545454545454545
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateExtensionChain()",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader13() throws java.io.IOException",60,0.02727272727272727
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader14() throws java.io.IOException",41,0.018636363636363635
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader19() throws java.io.IOException",32,0.014545454545454545
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader12() throws java.io.IOException",29,0.013181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader17() throws java.io.IOException",117,0.053181818181818184
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader18() throws java.io.IOException",20,0.00909090909090909
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader93() throws java.io.IOException",29,0.013181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader16() throws java.io.IOException",17,0.007727272727272728
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays98() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays91() throws java.io.IOException",7,0.003181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays92() throws java.io.IOException",5,0.0022727272727272726
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays93() throws java.io.IOException",11,0.005
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updatePath(java.lang.String,java.lang.String,io.swagger.models.Operation)",10,0.004545454545454545
+"com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter()",2398,1.09
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays95() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays96() throws java.io.IOException",17,0.007727272727272728
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays97() throws java.io.IOException",12,0.005454545454545455
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays99() throws java.io.IOException",9,0.004090909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays94() throws java.io.IOException",1,4.5454545454545455E-4
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperationParameters(java.util.List,java.util.Map,io.swagger.models.Operation)",6,0.0027272727272727275
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateTagsForOperation(io.swagger.models.Operation,io.swagger.annotations.ApiOperation)",14,0.006363636363636364
+"public boolean com.github.kongchen.swagger.docgen.reader.AbstractReader.canReadApi(boolean,io.swagger.annotations.Api)",13,0.005909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays90() throws java.io.IOException",4,0.0018181818181818182
+"io.swagger.models.SecurityRequirement[0]",24,0.01090909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays87() throws java.io.IOException",4,0.0018181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays80() throws java.io.IOException",9,0.004090909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays81() throws java.io.IOException",12,0.005454545454545455
+"public io.swagger.models.Operation com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.parseMethod(java.lang.reflect.Method)",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays82() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays84() throws java.io.IOException",12,0.005454545454545455
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays85() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays86() throws java.io.IOException",13,0.005909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays88() throws java.io.IOException",5,0.0022727272727272726
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays89() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays83() throws java.io.IOException",12,0.005454545454545455
+"java.lang.reflect.Method[0]",16,0.007272727272727273
+"io.swagger.annotations.ResponseHeader[1]",4,0.0018181818181818182
+"public io.swagger.models.Swagger com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.read(com.github.kongchen.swagger.docgen.spring.SpringResource)",10,0.004545454545454545
+"io.swagger.annotations.ResponseHeader[0]",1,4.5454545454545455E-4
+"java.lang.String[1]",11,0.005
+"java.lang.String[0]",11,0.005
+"java.lang.String[3]",7,0.003181818181818182
+"public java.lang.String com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.getresourcePath()",8,0.0036363636363636364
+"java.lang.String[5]",1,4.5454545454545455E-4
+"java.lang.String[4]",20,0.00909090909090909
+"public java.util.Map com.github.kongchen.swagger.docgen.reader.AbstractReader.updateTagsForApi(java.util.Map,io.swagger.annotations.Api)",9,0.004090909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays9() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays8() throws java.io.IOException",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays3() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader60() throws java.io.IOException",37,0.01681818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader61() throws java.io.IOException",18,0.008181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader66() throws java.io.IOException",19,0.008636363636363636
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader64() throws java.io.IOException",38,0.017272727272727273
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader65() throws java.io.IOException",117,0.053181818181818184
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader63() throws java.io.IOException",29,0.013181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader68() throws java.io.IOException",74,0.03363636363636364
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader69() throws java.io.IOException",5,0.0022727272727272726
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader67() throws java.io.IOException",13,0.005909090909090909
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader62() throws java.io.IOException",72,0.03272727272727273
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader59() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays1() throws java.io.IOException",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays2() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader50() throws java.io.IOException",50,0.022727272727272728
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader55() throws java.io.IOException",43,0.019545454545454546
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays7() throws java.io.IOException",10,0.004545454545454545
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.setswagger(io.swagger.models.Swagger)",23,0.010454545454545454
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader53() throws java.io.IOException",26,0.011818181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays5() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays6() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader54() throws java.io.IOException",57,0.02590909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays4() throws java.io.IOException",7,0.003181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader52() throws java.io.IOException",11,0.005
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader57() throws java.io.IOException",42,0.019090909090909092
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader58() throws java.io.IOException",216,0.09818181818181818
+"public com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter com.github.kongchen.swagger.docgen.reader.AbstractReader.serializedObjectSupporter",22,0.01
+"public com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter com.github.kongchen.swagger.docgen.reader.AbstractReader.serializedObjectSupporter",9,0.004090909090909091
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader56() throws java.io.IOException",17,0.007727272727272728
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader51() throws java.io.IOException",471,0.21409090909090908
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader48() throws java.io.IOException",11,0.005
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.extractTags(io.swagger.annotations.Api)",4,0.0018181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader44() throws java.io.IOException",132,0.06
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader42() throws java.io.IOException",5,0.0022727272727272726
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader43() throws java.io.IOException",51,0.023181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader41() throws java.io.IOException",121,0.055
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader46() throws java.io.IOException",13,0.005909090909090909
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader47() throws java.io.IOException",13,0.005909090909090909
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader45() throws java.io.IOException",44,0.02
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader40() throws java.io.IOException",50,0.022727272727272728
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader49() throws java.io.IOException",20,0.00909090909090909
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader37() throws java.io.IOException",41,0.018636363636363635
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.readImplicitParameters(java.lang.reflect.Method,io.swagger.models.Operation)",10,0.004545454545454545
+"public boolean com.github.kongchen.swagger.docgen.reader.AbstractReader.hasValidAnnotations(java.util.List)",17,0.007727272727272728
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader33() throws java.io.IOException",28,0.012727272727272728
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader31() throws java.io.IOException",69,0.031363636363636364
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader32() throws java.io.IOException",390,0.17727272727272728
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader30() throws java.io.IOException",58,0.026363636363636363
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader35() throws java.io.IOException",17,0.007727272727272728
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.addTypeToSkippedTypes(java.lang.reflect.Type)",16,0.007272727272727273
+"java.lang.annotation.Annotation[0]",18,0.008181818181818182
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader36() throws java.io.IOException",59,0.026818181818181817
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperation(java.lang.String[],java.lang.String[],java.util.Map,java.util.List,io.swagger.models.Operation)",26,0.011818181818181818
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader34() throws java.io.IOException",22,0.01
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader39() throws java.io.IOException",65,0.029545454545454545
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader38() throws java.io.IOException",62,0.028181818181818183
+"public java.lang.String com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.generateFullPath(java.lang.String)",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader17() throws java.io.IOException",38,0.017272727272727273
+"public java.lang.String[] com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperationConsumes(java.lang.String[],java.lang.String[],io.swagger.models.Operation)",23,0.010454545454545454
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader18() throws java.io.IOException",23,0.010454545454545454
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader19() throws java.io.IOException",72,0.03272727272727273
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader13() throws java.io.IOException",77,0.035
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader14() throws java.io.IOException",63,0.028636363636363637
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader15() throws java.io.IOException",66,0.03
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.typesToSkip",9,0.004090909090909091
+"public void com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.setresourcePath(java.lang.String)",6,0.0027272727272727275
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.typesToSkip",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader16() throws java.io.IOException",1229,0.5586363636363636
+"public java.util.Map com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.collectApisByRequestMapping(java.util.List)",18,0.008181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader10() throws java.io.IOException",74,0.03363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader11() throws java.io.IOException",45,0.020454545454545454
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader12() throws java.io.IOException",75,0.03409090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays10() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader28() throws java.io.IOException",74,0.03363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader29() throws java.io.IOException",53,0.02409090909090909
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader24() throws java.io.IOException",71,0.03227272727272727
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader25() throws java.io.IOException",88,0.04
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader26() throws java.io.IOException",98,0.04454545454545455
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays18() throws java.io.IOException",6,0.0027272727272727275
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader27() throws java.io.IOException",94,0.042727272727272725
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays11() throws java.io.IOException",13,0.005909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays12() throws java.io.IOException",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays13() throws java.io.IOException",1,4.5454545454545455E-4
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays15() throws java.io.IOException",13,0.005909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays16() throws java.io.IOException",10,0.004545454545454545
+"java.util.ArrayList()",63,0.028636363636363637
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays17() throws java.io.IOException",9,0.004090909090909091
+"public final com.github.kongchen.swagger.docgen.LogAdapter com.github.kongchen.swagger.docgen.reader.AbstractReader.LOG",15,0.006818181818181818
+"public java.util.List com.github.kongchen.swagger.docgen.reader.AbstractReader.getSecurityRequirements(io.swagger.annotations.Api)",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays100() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays101() throws java.io.IOException",7,0.003181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader20() throws java.io.IOException",15,0.006818181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays106() throws java.io.IOException",4,0.0018181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader21() throws java.io.IOException",57,0.02590909090909091
+"public final native java.lang.Class java.lang.Object.getClass()",23,0.010454545454545454
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader22() throws java.io.IOException",29,0.013181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays104() throws java.io.IOException",13,0.005909090909090909
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader23() throws java.io.IOException",104,0.04727272727272727
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays105() throws java.io.IOException",9,0.004090909090909091
+"java.util.LinkedHashSet()",2,9.090909090909091E-4
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays103() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays108() throws java.io.IOException",15,0.006818181818181818
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader30() throws java.io.IOException",39,0.017727272727272727
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays109() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader39() throws java.io.IOException",52,0.023636363636363636
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays107() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader35() throws java.io.IOException",10,0.004545454545454545
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader36() throws java.io.IOException",26,0.011818181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays102() throws java.io.IOException",6,0.0027272727272727275
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader37() throws java.io.IOException",15,0.006818181818181818
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader38() throws java.io.IOException",84,0.038181818181818185
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays111() throws java.io.IOException",3,0.0013636363636363637
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays112() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader31() throws java.io.IOException",96,0.04363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays117() throws java.io.IOException",11,0.005
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader32() throws java.io.IOException",27,0.012272727272727272
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader33() throws java.io.IOException",128,0.05818181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays110() throws java.io.IOException",2,9.090909090909091E-4
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays115() throws java.io.IOException",9,0.004090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader34() throws java.io.IOException",40,0.01818181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays116() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays114() throws java.io.IOException",4,0.0018181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays119() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays32() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader41() throws java.io.IOException",17,0.007727272727272728
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.setTypesToSkip(java.util.List)",10,0.004545454545454545
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.setTypesToSkip(java.util.Set)",9,0.004090909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays118() throws java.io.IOException",16,0.007272727272727273
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader46() throws java.io.IOException",114,0.05181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays113() throws java.io.IOException",3,0.0013636363636363637
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays30() throws java.io.IOException",9,0.004090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader47() throws java.io.IOException",13,0.005909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays31() throws java.io.IOException",11,0.005
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader48() throws java.io.IOException",42,0.019090909090909092
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader49() throws java.io.IOException",175,0.07954545454545454
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays33() throws java.io.IOException",5,0.0022727272727272726
+"public java.lang.String[] com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperationProduces(java.lang.String[],java.lang.String[],io.swagger.models.Operation)",7,0.003181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays34() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays35() throws java.io.IOException",4,0.0018181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays37() throws java.io.IOException",7,0.003181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays38() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays39() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays120() throws java.io.IOException",12,0.005454545454545455
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.getTypesToSkip()",13,0.005909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays25() throws java.io.IOException",7,0.003181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays122() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays123() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader42() throws java.io.IOException",45,0.020454545454545454
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays128() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader43() throws java.io.IOException",47,0.021363636363636362
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader44() throws java.io.IOException",671,0.305
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays121() throws java.io.IOException",7,0.003181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader45() throws java.io.IOException",218,0.09909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays126() throws java.io.IOException",5,0.0022727272727272726
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays127() throws java.io.IOException",9,0.004090909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays125() throws java.io.IOException",7,0.003181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader40() throws java.io.IOException",46,0.02090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader52() throws java.io.IOException",113,0.05136363636363636
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays21() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays129() throws java.io.IOException",14,0.006363636363636364
+"io.swagger.models.parameters.Parameter[0]",1,4.5454545454545455E-4
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader57() throws java.io.IOException",50,0.022727272727272728
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays124() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader58() throws java.io.IOException",53,0.02409090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays20() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader59() throws java.io.IOException",73,0.03318181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays29() throws java.io.IOException",8,0.0036363636363636364
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",65,0.029545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays22() throws java.io.IOException",7,0.003181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays23() throws java.io.IOException",10,0.004545454545454545
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader2() throws java.io.IOException",620,0.2818181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays24() throws java.io.IOException",6,0.0027272727272727275
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader9() throws java.io.IOException",91,0.041363636363636366
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays26() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader8() throws java.io.IOException",44,0.02
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays27() throws java.io.IOException",12,0.005454545454545455
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader7() throws java.io.IOException",30,0.013636363636363636
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays28() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader5() throws java.io.IOException",15,0.006818181818181818
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays19() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader4() throws java.io.IOException",23,0.010454545454545454
+"public java.lang.String com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.resourcePath",7,0.003181818181818182
+"public java.lang.String com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.resourcePath",5,0.0022727272727272726
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays131() throws java.io.IOException",10,0.004545454545454545
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader3() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays14() throws java.io.IOException",10,0.004545454545454545
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader1() throws java.io.IOException",36,0.016363636363636365
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays130() throws java.io.IOException",5,0.0022727272727272726
+"public com.github.kongchen.swagger.docgen.reader.JaxrsReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectJaxrsReader6() throws java.io.IOException",49,0.022272727272727274
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays133() throws java.io.IOException",17,0.007727272727272728
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperationProtocols(io.swagger.annotations.ApiOperation,io.swagger.models.Operation)",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays134() throws java.io.IOException",14,0.006363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader53() throws java.io.IOException",31,0.014090909090909091
+"public java.util.Map com.github.kongchen.swagger.docgen.reader.AbstractReader.parseResponseHeaders(io.swagger.annotations.ResponseHeader[])",6,0.0027272727272727275
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader54() throws java.io.IOException",88,0.04
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays139() throws java.io.IOException",14,0.006363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader55() throws java.io.IOException",205,0.09318181818181819
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays132() throws java.io.IOException",11,0.005
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader56() throws java.io.IOException",70,0.031818181818181815
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays137() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays138() throws java.io.IOException",5,0.0022727272727272726
+"public io.swagger.models.Swagger com.github.kongchen.swagger.docgen.reader.AbstractReader.getswagger()",7,0.003181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader50() throws java.io.IOException",49,0.022272727272727274
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays136() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader51() throws java.io.IOException",30,0.013636363636363636
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays54() throws java.io.IOException",10,0.004545454545454545
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader63() throws java.io.IOException",13,0.005909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays51() throws java.io.IOException",9,0.004090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader68() throws java.io.IOException",23,0.010454545454545454
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays52() throws java.io.IOException",9,0.004090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader69() throws java.io.IOException",29,0.013181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays135() throws java.io.IOException",2,9.090909090909091E-4
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays53() throws java.io.IOException",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays55() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays56() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays57() throws java.io.IOException",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays50() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays59() throws java.io.IOException",5,0.0022727272727272726
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays142() throws java.io.IOException",7,0.003181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays47() throws java.io.IOException",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays140() throws java.io.IOException",4,0.0018181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays141() throws java.io.IOException",7,0.003181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays144() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays145() throws java.io.IOException",9,0.004090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader64() throws java.io.IOException",80,0.03636363636363636
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader65() throws java.io.IOException",88,0.04
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader66() throws java.io.IOException",37,0.01681818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays143() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader67() throws java.io.IOException",420,0.19090909090909092
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays148() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays149() throws java.io.IOException",7,0.003181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader60() throws java.io.IOException",111,0.05045454545454545
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader61() throws java.io.IOException",39,0.017727272727272727
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateApiResponse(io.swagger.models.Operation,io.swagger.annotations.ApiResponses)",7,0.003181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader62() throws java.io.IOException",48,0.02181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays147() throws java.io.IOException",13,0.005909090909090909
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader74() throws java.io.IOException",322,0.14636363636363636
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays43() throws java.io.IOException",6,0.0027272727272727275
+"java.lang.reflect.Type[0]",4,0.0018181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays40() throws java.io.IOException",9,0.004090909090909091
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader79() throws java.io.IOException",12,0.005454545454545455
+"java.lang.reflect.Type[1]",1,4.5454545454545455E-4
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays41() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays146() throws java.io.IOException",2,9.090909090909091E-4
+"java.lang.reflect.Type[2]",1,4.5454545454545455E-4
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays42() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays44() throws java.io.IOException",8,0.0036363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays45() throws java.io.IOException",5,0.0022727272727272726
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays46() throws java.io.IOException",12,0.005454545454545455
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays48() throws java.io.IOException",11,0.005
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays49() throws java.io.IOException",6,0.0027272727272727275
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays153() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader70() throws java.io.IOException",41,0.018636363636363635
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays36() throws java.io.IOException",9,0.004090909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays151() throws java.io.IOException",10,0.004545454545454545
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays152() throws java.io.IOException",6,0.0027272727272727275
+"com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader(io.swagger.models.Swagger, com.github.kongchen.swagger.docgen.LogAdapter)",18,0.008181818181818182
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays150() throws java.io.IOException",5,0.0022727272727272726
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays155() throws java.io.IOException",11,0.005
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader75() throws java.io.IOException",130,0.05909090909090909
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays156() throws java.io.IOException",8,0.0036363636363636364
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader76() throws java.io.IOException",105,0.04772727272727273
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader77() throws java.io.IOException",163,0.0740909090909091
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays154() throws java.io.IOException",5,0.0022727272727272726
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays159() throws java.io.IOException",11,0.005
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader78() throws java.io.IOException",23,0.010454545454545454
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader71() throws java.io.IOException",51,0.023181818181818182
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader72() throws java.io.IOException",14,0.006363636363636364
+"public java.util.Arrays com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectArrays158() throws java.io.IOException",13,0.005909090909090909
+"public io.swagger.models.Swagger com.github.kongchen.swagger.docgen.reader.AbstractReader.swagger",8,0.0036363636363636364
+"public io.swagger.models.Swagger com.github.kongchen.swagger.docgen.reader.AbstractReader.swagger",26,0.011818181818181818
+"public com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter.deserializeObjectSpringMvcApiReader73() throws java.io.IOException",8,0.0036363636363636364

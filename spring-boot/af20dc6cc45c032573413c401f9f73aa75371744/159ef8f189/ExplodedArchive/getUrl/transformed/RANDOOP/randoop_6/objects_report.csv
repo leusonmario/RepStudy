@@ -1,0 +1,18 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.net.URL,39413,37923,2.2378491937315466,2.1532477856007266
+class java.util.LinkedHashMap,10446,9664,0.593118328412446,0.5487167840109016
+class java.lang.Boolean,7788,2,0.44219850102203045,1.1355893708834885E-4
+class org.springframework.boot.loader.archive.ExplodedArchive$FileEntry,6304,1,0.3579377697024756,5.6779468544174426E-5
+class java.util.Collections$UnmodifiableRandomAccessList,28297,1,1.6066886213945037,5.6779468544174426E-5
+class java.lang.String,54438,299,3.0909607086077675,0.016977061094708153
+class [Ljava.lang.String;,25,11,0.0014194867136043607,6.245741539859187E-4
+class java.util.LinkedHashSet,29,11,0.0016466045877810583,6.245741539859187E-4
+class java.net.URI,49,11,0.0027821939586645467,6.245741539859187E-4
+class org.springframework.boot.loader.archive.ExplodedArchive,56200,4,3.191006132182603,2.271178741766977E-4
+class org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler,27006,1,1.5333863275039745,5.6779468544174426E-5
+class java.net.URLConnection$1,9,1,5.110152168975699E-4,5.6779468544174426E-5
+class java.lang.Class,749,10,0.042527821939586645,5.677946854417443E-4
+class java.util.Collections$UnmodifiableMap,6301,2047,0.3577674312968431,0.11622757210992506
+class java.lang.Integer,9442,9,0.536111741994095,5.110152168975699E-4
+class java.util.Collections$UnmodifiableCollection,25214,24449,1.431637519872814,1.3882012264365207
+class [Ljava.lang.Class;,188,53,0.010674540086304793,0.0030093118328412445

@@ -1,0 +1,16 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class [Ljava.lang.Object;,157,18,0.008945868945868947,0.0010256410256410256
+class org.apache.log4j.Logger,56769,10,3.2347008547008547,5.698005698005698E-4
+class java.lang.Boolean,32544,2,1.8543589743589743,1.1396011396011396E-4
+class org.apache.log4j.Level,26545,1,1.5125356125356126,5.698005698005698E-5
+class java.util.Vector$1,1,1,5.698005698005698E-5,5.698005698005698E-5
+class io.cloudslang.lang.api.SlangImpl,14074,1,0.8019373219373219,5.698005698005698E-5
+class java.util.LinkedHashSet,828,6,0.04717948717948718,3.418803418803419E-4
+class org.apache.log4j.Hierarchy,7994,1,0.4554985754985755,5.698005698005698E-5
+class java.util.HashSet,22270,1,1.268945868945869,5.698005698005698E-5
+class java.lang.String,3600,8,0.20512820512820512,4.558404558404558E-4
+class org.apache.log4j.helpers.NullEnumeration,2073,1,0.11811965811965812,5.698005698005698E-5
+class java.lang.Class,7431,8,0.4234188034188034,4.558404558404558E-4
+class [Ljava.lang.String;,5,5,2.849002849002849E-4,2.849002849002849E-4
+class [Lio.cloudslang.lang.compiler.SlangSource;,823,1,0.04689458689458689,5.698005698005698E-5
+class org.apache.log4j.spi.RootLogger,8862,1,0.504957264957265,5.698005698005698E-5

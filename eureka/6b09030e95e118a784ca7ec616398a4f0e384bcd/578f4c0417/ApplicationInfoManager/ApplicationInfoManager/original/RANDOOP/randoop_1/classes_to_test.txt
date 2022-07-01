@@ -1,0 +1,3 @@
+com.netflix.appinfo.ApplicationInfoManager
+com.netflix.appinfo.MyDataCenterInstanceConfig
+com.netflix.appinfo.InstanceInfo

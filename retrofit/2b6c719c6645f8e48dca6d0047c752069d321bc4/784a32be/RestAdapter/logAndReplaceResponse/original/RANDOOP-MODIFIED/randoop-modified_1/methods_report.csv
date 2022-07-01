@@ -1,0 +1,29 @@
+Methods called,Number of times,Number of times (Normalized)
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setLog(retrofit.RestAdapter$Log)",70373,5.637958660471078
+"public abstract void retrofit.RestAdapter$Log.log(java.lang.String)",17693,1.41748117288896
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setExecutors(java.util.concurrent.Executor,java.util.concurrent.Executor)",1078,0.0863643646851466
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setServer(retrofit.Server)",1041,0.08340009613843935
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setServer(java.lang.String)",30280,2.4258932863323186
+"java.util.ArrayList()",38,0.0030443839128344815
+"retrofit.client.Header[0]",38,0.0030443839128344815
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setClient(retrofit.client.Client$Provider)",1035,0.08291940394167602
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setClient(retrofit.client.Client)",1059,0.08484217272872938
+"BASIC",54554,4.370613683704534
+"public final native java.lang.Class java.lang.Object.getClass()",1355,0.10855632110238744
+"public void retrofit.RestAdapter.setLogLevel(retrofit.RestAdapter$LogLevel)",4627,0.37069379907066174
+"retrofit.client.Response(int, java.lang.String, java.util.List, retrofit.mime.TypedInput)",75,0.00600865245954174
+"HEADERS",724,0.0580035250761096
+"FULL",157,0.012578112481974043
+"retrofit.RestAdapter$Builder()",111072,8.898573946482935
+"NONE",148854,11.925492709501682
+"public retrofit.RestAdapter$LogLevel retrofit.RestAdapter.getLogLevel()",9710,0.7779202050953373
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setLogLevel(retrofit.RestAdapter$LogLevel)",255461,20.466351546226566
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",38,0.0030443839128344815
+"public boolean retrofit.RestAdapter$LogLevel.log()",13368,1.0709822143887198
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setConverter(retrofit.converter.Converter)",1043,0.0835603268706938
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setErrorHandler(retrofit.ErrorHandler)",1046,0.08380067296907547
+"public retrofit.RestAdapter retrofit.RestAdapter$Builder.build()",17129,1.3722961063932062
+"java.lang.Object()",1,8.01153661272232E-5
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setProfiler(retrofit.Profiler)",1094,0.08764621054318218
+"public retrofit.RestAdapter$Builder retrofit.RestAdapter$Builder.setRequestInterceptor(retrofit.RequestInterceptor)",1056,0.0846018266303477
+"public static final retrofit.RestAdapter$Log retrofit.RestAdapter$Log.NONE",27277,2.185306841852267

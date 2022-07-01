@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Boolean,8301,2,0.3126082699404986,7.531821947729155E-5
+class java.lang.Class,2132,1,0.0802892219627928,3.7659109738645776E-5
+class com.squareup.okhttp.OkHttpClient,213754,2,8.04978534307449,7.531821947729155E-5

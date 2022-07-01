@@ -1,0 +1,9 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.apache.storm.kafka.spout.KafkaSpoutConfig,14305,245,0.76098521119268,0.013033301415044154
+class java.lang.Object,1,1,5.319714863283328E-5,5.319714863283328E-5
+class java.lang.Long,27384,11,1.4567507181615065,5.851686349611661E-4
+class java.lang.String,8693,76,0.4624428130652197,0.00404298329609533
+class org.apache.storm.kafka.spout.KafkaSpoutConfig$FirstPollOffsetStrategy,11168,4,0.5941057559314821,2.1278859453133312E-4
+class java.lang.Integer,9456,9,0.5030322374720715,4.787743376954995E-4
+class java.lang.Class,466,4,0.024789871262900307,2.1278859453133312E-4
+class org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder,65856,1133,3.5033514203638685,0.06027236940100011

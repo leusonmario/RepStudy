@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,8151,2,0.31490496059341677,7.726781023025808E-5
+class java.lang.Integer,32323,11,1.2487637150363158,4.249729562664194E-4
+class java.util.LinkedHashMap,20713,8,0.8002240766496678,3.090712409210323E-4
+class java.util.LinkedHashMap$Entry,166,2,0.00641322824911142,7.726781023025808E-5
+class org.jsoup.helper.HttpConnection$Response,47029,1239,1.8169139236594034,0.04786740843764488
+class java.lang.Boolean,14775,2,0.5708159480760315,7.726781023025808E-5
+class java.lang.Class,951,3,0.03674084376448771,1.159017153453871E-4

@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.io.File,2,2,0.2222222222222222,0.2222222222222222
+class [B,1,1,0.1111111111111111,0.1111111111111111
+class java.util.jar.Manifest,1,1,0.1111111111111111,0.1111111111111111

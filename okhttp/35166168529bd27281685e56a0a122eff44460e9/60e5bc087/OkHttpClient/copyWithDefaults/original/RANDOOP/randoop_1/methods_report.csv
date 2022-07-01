@@ -1,0 +1,29 @@
+Methods called,Number of times,Number of times (Normalized)
+"public java.net.HttpURLConnection com.squareup.okhttp.OkHttpClient.open(java.net.URL)",2110,0.08391997772739927
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setFollowProtocolRedirects(boolean)",14890,0.5922125442469077
+"public javax.net.ssl.SSLSocketFactory com.squareup.okhttp.OkHttpClient.getSslSocketFactory()",6116,0.24324861790558008
+"public com.squareup.okhttp.OkAuthenticator com.squareup.okhttp.OkHttpClient.getAuthenticator()",12194,0.48498588076204113
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setCookieHandler(java.net.CookieHandler)",22259,0.8852961062721234
+"public java.net.CookieHandler com.squareup.okhttp.OkHttpClient.getCookieHandler()",14463,0.5752296861949648
+"java.util.ArrayList()",2074,0.08248816768086545
+"public java.net.ResponseCache com.squareup.okhttp.OkHttpClient.getResponseCache()",7355,0.2925267470071193
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setResponseCache(java.net.ResponseCache)",17054,0.6782802370441077
+"public java.net.ProxySelector com.squareup.okhttp.OkHttpClient.getProxySelector()",12582,0.5004176112635723
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setTransports(java.util.List)",2179,0.08666428031658911
+"com.squareup.okhttp.OkHttpClient()",25142,0.9999602274987074
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setProxy(java.net.Proxy)",23244,0.9244720200453407
+"public final native java.lang.Class java.lang.Object.getClass()",2118,0.08423815773774013
+"public java.util.List com.squareup.okhttp.OkHttpClient.getTransports()",9334,0.3712365270651871
+"public com.squareup.okhttp.ConnectionPool com.squareup.okhttp.OkHttpClient.getConnectionPool()",16964,0.6747007119277731
+"public javax.net.ssl.HostnameVerifier com.squareup.okhttp.OkHttpClient.getHostnameVerifier()",7275,0.28934494690371076
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setProxySelector(java.net.ProxySelector)",22187,0.8824324861790558
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setConnectionPool(com.squareup.okhttp.ConnectionPool)",13029,0.5181959193413673
+"java.lang.String[2]",1026,0.040806586326214055
+"java.lang.String[1]",1048,0.041681581354651394
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setHostnameVerifier(javax.net.ssl.HostnameVerifier)",12983,0.5163663842819075
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",2074,0.08248816768086545
+"public boolean com.squareup.okhttp.OkHttpClient.getFollowProtocolRedirects()",6456,0.2567712683450662
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setAuthenticator(com.squareup.okhttp.OkAuthenticator)",14533,0.5780137612854472
+"public java.net.Proxy com.squareup.okhttp.OkHttpClient.getProxy()",7672,0.30513462991687546
+"java.lang.Object()",1,3.9772501292606293E-5
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setSSLSocketFactory(javax.net.ssl.SSLSocketFactory)",35274,1.4029352105953943

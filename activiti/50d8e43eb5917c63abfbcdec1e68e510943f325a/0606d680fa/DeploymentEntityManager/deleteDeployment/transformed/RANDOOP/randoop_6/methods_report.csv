@@ -1,0 +1,17 @@
+Methods called,Number of times,Number of times (Normalized)
+"public long org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.findDeploymentCountByNativeQuery(java.util.Map)",3436,0.06645906268737549
+"public org.activiti.engine.impl.persistence.entity.DeploymentEntity org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.findLatestDeploymentByName(java.lang.String)",4716,0.0912168043171312
+"public void org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.insertDeployment(org.activiti.engine.impl.persistence.entity.DeploymentEntity)",3514,0.06796773756793872
+"public java.util.List org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.getDeploymentResourceNames(java.lang.String)",4621,0.08937931568054777
+"public java.util.List org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.findDeploymentsByNativeQuery(java.util.Map,int,int)",6966,0.13473627202568617
+"org.activiti.engine.impl.persistence.entity.DeploymentEntityManager()",51700,0.9999806580143518
+"public void org.activiti.engine.impl.persistence.AbstractManager.delete(org.activiti.engine.impl.db.PersistentObject)",3506,0.06781300168275275
+"public void org.activiti.engine.impl.persistence.AbstractManager.insert(org.activiti.engine.impl.db.PersistentObject)",3501,0.06771629175451152
+"public void org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.deleteDeployment(java.lang.String,boolean)",5586,0.10804433183110577
+"public long org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.findDeploymentCountByQueryCriteria(org.activiti.engine.impl.DeploymentQueryImpl)",3525,0.06818049941006944
+"public java.util.List org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.findDeploymentsByQueryCriteria(org.activiti.engine.impl.DeploymentQueryImpl,org.activiti.engine.impl.Page)",3511,0.06790971161099399
+"public org.activiti.engine.impl.persistence.entity.DeploymentEntity org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.findDeploymentById(java.lang.String)",4644,0.08982418135045744
+"java.lang.Object()",1,1.934198564824665E-5
+"public final native java.lang.Class java.lang.Object.getClass()",3554,0.06874141699386858
+"public void org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.flush()",388593,7.5161602290091105
+"public void org.activiti.engine.impl.persistence.entity.DeploymentEntityManager.close()",313218,6.058258060772519

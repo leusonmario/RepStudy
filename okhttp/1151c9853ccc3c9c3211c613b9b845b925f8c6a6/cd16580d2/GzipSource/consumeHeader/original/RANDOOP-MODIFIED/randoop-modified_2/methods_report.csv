@@ -1,0 +1,9 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final com.squareup.okhttp.internal.bytes.Deadline com.squareup.okhttp.internal.bytes.Deadline.NONE",24383,0.9988120596427986
+"com.squareup.okhttp.internal.bytes.GzipSource(com.squareup.okhttp.internal.bytes.Source)",1,4.096346059315091E-5
+"public com.squareup.okhttp.internal.bytes.Deadline com.squareup.okhttp.internal.bytes.Deadline.start(long,java.util.concurrent.TimeUnit)",14018,0.5742257905947894
+"public boolean com.squareup.okhttp.internal.bytes.Deadline.reached()",185903,7.615230214648533
+"public final native java.lang.Class java.lang.Object.getClass()",7372,0.3019826314927085
+"java.lang.Object()",1,4.096346059315091E-5
+"public void com.squareup.okhttp.internal.bytes.Deadline.throwIfReached() throws java.io.IOException",199719,8.181181386203507
+"com.squareup.okhttp.internal.bytes.Deadline()",27,0.0011060134360150746

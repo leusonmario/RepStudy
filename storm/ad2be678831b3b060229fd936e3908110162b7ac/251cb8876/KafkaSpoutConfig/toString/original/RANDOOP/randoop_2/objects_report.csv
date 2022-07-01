@@ -1,0 +1,17 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Boolean,4497,2,0.3695152013147083,1.6433853738701725E-4
+class java.lang.String,2590,2050,0.21281840591618734,0.1684470008216927
+class org.apache.storm.kafka.spout.KafkaSpoutRetryExponentialBackoff,5947,2,0.4886606409202958,1.6433853738701725E-4
+class java.util.HashMap,4140,53,0.3401807723911257,0.004354971240755957
+class java.util.ArrayList,1124,6,0.0923582580115037,4.930156121610517E-4
+class org.apache.storm.kafka.spout.PatternSubscription,3667,1,0.3013147082990961,8.216926869350862E-5
+class [Ljava.lang.String;,1982,16,0.16285949055053411,0.001314708299096138
+class org.apache.storm.kafka.spout.KafkaSpoutConfig,13100,13041,1.076417419884963,1.071569433032046
+class java.lang.Integer,5075,9,0.4170090386195563,7.395234182415776E-4
+class org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder,146361,31937,12.026376335250616,2.624239934264585
+class org.apache.storm.kafka.spout.SimpleRecordTranslator,11149,70,0.9161051766639277,0.005751848808545604
+class org.apache.storm.kafka.spout.NamedSubscription,50,45,0.004108463434675432,0.0036976170912078883
+class org.apache.storm.kafka.spout.DefaultRecordTranslator,88,1,0.007230895645028759,8.216926869350862E-5
+class java.lang.Class,614,10,0.0504519309778143,8.216926869350862E-4
+class org.apache.storm.kafka.spout.KafkaSpoutConfig$FirstPollOffsetStrategy,6337,4,0.5207066557107641,3.286770747740345E-4
+class java.lang.Long,13249,11,1.088660640920296,9.038619556285949E-4

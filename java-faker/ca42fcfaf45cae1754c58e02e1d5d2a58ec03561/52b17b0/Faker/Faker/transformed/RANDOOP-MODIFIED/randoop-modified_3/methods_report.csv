@@ -1,0 +1,193 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final java.util.Locale java.util.Locale.UK",79,0.0700354609929078
+"public static java.util.List java.util.Locale.filter(java.util.List,java.util.Collection)",9,0.007978723404255319
+"public static java.util.List java.util.Locale.filter(java.util.List,java.util.Collection,java.util.Locale$FilteringMode)",5,0.004432624113475178
+"public com.github.javafaker.Hacker com.github.javafaker.Faker.hacker()",124,0.1099290780141844
+"public static final java.util.Locale java.util.Locale.TRADITIONAL_CHINESE",1,8.865248226950354E-4
+"public static final java.util.Locale java.util.Locale.US",3,0.0026595744680851063
+"public static final java.util.Locale java.util.Locale.GERMAN",15,0.013297872340425532
+"public final java.lang.String java.util.Locale.toString()",15,0.013297872340425532
+"public static com.github.javafaker.service.FakeValuesServiceInterface com.github.javafaker.Faker.createProxiedFakeValuesService(com.github.javafaker.service.FakeValuesServiceInterface,com.github.javafaker.service.FakeValuesServiceInterface)",11,0.00975177304964539
+"public java.lang.String java.util.Locale.getVariant()",28,0.024822695035460994
+"public com.github.javafaker.Business com.github.javafaker.Faker.business()",20,0.01773049645390071
+"public static final java.util.Locale java.util.Locale.PRC",5,0.004432624113475178
+"public java.lang.String java.util.Locale$LanguageRange.getRange()",14,0.012411347517730497
+"public static final java.util.Locale java.util.Locale.FRENCH",2,0.0017730496453900709
+"public static final java.util.Locale java.util.Locale.CHINESE",1,8.865248226950354E-4
+"public java.util.Set java.util.Locale.getExtensionKeys()",155,0.1374113475177305
+"public java.util.Locale$Builder java.util.Locale$Builder.clear()",149,0.1320921985815603
+"public void java.util.Random.nextBytes(byte[])",15,0.013297872340425532
+"public com.github.javafaker.Hacker com.github.javafaker.Faker.hacker",132,0.11702127659574468
+"public com.github.javafaker.Hacker com.github.javafaker.Faker.hacker",59,0.05230496453900709
+"public static final java.util.Locale java.util.Locale.CANADA_FRENCH",7,0.0062056737588652485
+"public java.lang.String java.util.Locale.getISO3Language() throws java.util.MissingResourceException",27,0.023936170212765957
+"public static java.util.List java.util.Locale.filterTags(java.util.List,java.util.Collection,java.util.Locale$FilteringMode)",75,0.06648936170212766
+"public static java.util.List java.util.Locale.filterTags(java.util.List,java.util.Collection)",49,0.04343971631205674
+"public static java.util.List java.util.Locale$LanguageRange.parse(java.lang.String)",10,0.008865248226950355
+"public static java.util.List java.util.Locale$LanguageRange.parse(java.lang.String,java.util.Map)",12,0.010638297872340425
+"public com.github.javafaker.Business com.github.javafaker.Faker.business",122,0.10815602836879433
+"public boolean java.util.Random.nextBoolean()",30,0.026595744680851064
+"public com.github.javafaker.Business com.github.javafaker.Faker.business",28,0.024822695035460994
+"public com.github.javafaker.DateAndTime com.github.javafaker.Faker.date()",47,0.041666666666666664
+"public com.github.javafaker.DateAndTime com.github.javafaker.Faker.dateAndTime",48,0.0425531914893617
+"public com.github.javafaker.Address com.github.javafaker.Faker.address",108,0.09574468085106383
+"public com.github.javafaker.Address com.github.javafaker.Faker.address",95,0.08421985815602837
+"public com.github.javafaker.DateAndTime com.github.javafaker.Faker.dateAndTime",24,0.02127659574468085
+"public java.util.Locale$Builder java.util.Locale$Builder.setScript(java.lang.String)",14,0.012411347517730497
+"public java.util.stream.LongStream java.util.Random.longs(long,long)",38,0.03368794326241135
+"public java.util.stream.LongStream java.util.Random.longs(long,long,long)",13,0.01152482269503546
+"public java.util.stream.LongStream java.util.Random.longs(long)",23,0.020390070921985817
+"public java.util.stream.LongStream java.util.Random.longs()",13,0.01152482269503546
+"public java.util.stream.IntStream java.util.Random.ints(long,int,int)",24,0.02127659574468085
+"public java.util.stream.IntStream java.util.Random.ints()",28,0.024822695035460994
+"public java.util.stream.IntStream java.util.Random.ints(long)",25,0.022163120567375887
+"public java.util.stream.IntStream java.util.Random.ints(int,int)",14,0.012411347517730497
+"public static final java.util.Locale java.util.Locale.ITALY",2,0.0017730496453900709
+"public static final java.util.Locale java.util.Locale.JAPAN",46,0.040780141843971635
+"public long java.util.Random.nextLong()",26,0.02304964539007092
+"public static final java.util.Locale java.util.Locale.GERMANY",45,0.0398936170212766
+"public synchronized double java.util.Random.nextGaussian()",21,0.018617021276595744
+"public com.github.javafaker.Lorem com.github.javafaker.Faker.lorem",24,0.02127659574468085
+"public com.github.javafaker.Number com.github.javafaker.Faker.number",61,0.054078014184397165
+"public com.github.javafaker.Number com.github.javafaker.Faker.number",67,0.05939716312056738
+"public com.github.javafaker.Lorem com.github.javafaker.Faker.lorem",59,0.05230496453900709
+"public java.lang.String java.util.Locale.getDisplayLanguage(java.util.Locale)",46,0.040780141843971635
+"public final java.lang.String java.util.Locale.getDisplayLanguage()",23,0.020390070921985817
+"public java.util.Locale$Builder java.util.Locale$Builder.setExtension(char,java.lang.String)",23,0.020390070921985817
+"public com.github.javafaker.Options com.github.javafaker.Faker.options",711,0.6303191489361702
+"public com.github.javafaker.Options com.github.javafaker.Faker.options",22,0.01950354609929078
+"public java.lang.Object java.util.Locale.clone()",9,0.007978723404255319
+"java.util.ArrayList()",130,0.11524822695035461
+"public static final java.util.Locale java.util.Locale.ROOT",4,0.0035460992907801418
+"public static final java.util.Locale java.util.Locale.TAIWAN",23,0.020390070921985817
+"public java.util.Locale$Builder java.util.Locale$Builder.setVariant(java.lang.String)",15,0.013297872340425532
+"public static final java.util.Locale java.util.Locale.CANADA",7,0.0062056737588652485
+"com.github.javafaker.Faker(java.util.Locale, java.util.Random)",258,0.22872340425531915
+"com.github.javafaker.Faker()",796,0.7056737588652482
+"com.github.javafaker.Faker(java.util.Locale)",129,0.11436170212765957
+"com.github.javafaker.Faker(java.util.Random)",346,0.3067375886524823
+"AUTOSELECT_FILTERING",58,0.051418439716312055
+"public static synchronized void java.util.Locale.setDefault(java.util.Locale$Category,java.util.Locale)",19,0.016843971631205674
+"public final native java.lang.Class java.lang.Object.getClass()",11,0.00975177304964539
+"public static synchronized void java.util.Locale.setDefault(java.util.Locale)",24,0.02127659574468085
+"public com.github.javafaker.Address com.github.javafaker.Faker.address()",33,0.02925531914893617
+"public static final java.util.Locale java.util.Locale.KOREA",1,8.865248226950354E-4
+"public static java.util.Locale java.util.Locale.getDefault(java.util.Locale$Category)",45,0.0398936170212766
+"public static java.util.Locale java.util.Locale.getDefault()",2,0.0017730496453900709
+"public static java.lang.String[] java.util.Locale.getISOCountries()",1,8.865248226950354E-4
+"MAP_EXTENDED_RANGES",3,0.0026595744680851063
+"public com.github.javafaker.Number com.github.javafaker.Faker.number()",22,0.01950354609929078
+"public static java.util.Locale java.util.Locale.lookup(java.util.List,java.util.Collection)",4,0.0035460992907801418
+"byte[5]",6,0.005319148936170213
+"byte[1]",1,8.865248226950354E-4
+"public com.github.javafaker.Options com.github.javafaker.Faker.options()",58,0.051418439716312055
+"public java.lang.String java.util.Locale.getDisplayVariant(java.util.Locale)",85,0.07535460992907801
+"public final java.lang.String java.util.Locale.getDisplayVariant()",20,0.01773049645390071
+"public java.util.Locale$Builder java.util.Locale$Builder.setLocale(java.util.Locale)",30,0.026595744680851064
+"public static final java.util.Locale java.util.Locale.CHINA",7,0.0062056737588652485
+"public java.util.Locale$Builder java.util.Locale$Builder.setLanguage(java.lang.String)",57,0.05053191489361702
+"DISPLAY",17,0.015070921985815602
+"public com.github.javafaker.App com.github.javafaker.Faker.app",47,0.041666666666666664
+"public com.github.javafaker.App com.github.javafaker.Faker.app",28,0.024822695035460994
+"public java.lang.String java.util.Locale.getISO3Country() throws java.util.MissingResourceException",8,0.0070921985815602835
+"public final java.lang.String java.util.Locale.getDisplayCountry()",60,0.05319148936170213
+"public java.lang.String java.util.Locale.getDisplayCountry(java.util.Locale)",28,0.024822695035460994
+"public java.util.Locale java.util.Locale$Builder.build()",23,0.020390070921985817
+"public java.util.Set java.util.Locale.getUnicodeLocaleKeys()",73,0.06471631205673758
+"public boolean java.util.Locale.equals(java.lang.Object)",9,0.007978723404255319
+"public int java.util.Random.nextInt(int)",22,0.01950354609929078
+"public int java.util.Random.nextInt()",19,0.016843971631205674
+"public com.github.javafaker.service.RandomService com.github.javafaker.Faker.randomService",178,0.15780141843971632
+"public com.github.javafaker.service.RandomService com.github.javafaker.Faker.randomService",93,0.08244680851063829
+"public static java.util.List java.util.Locale$LanguageRange.mapEquivalents(java.util.List,java.util.Map)",25,0.022163120567375887
+"java.lang.String[2]",58,0.051418439716312055
+"public double java.util.Random.nextDouble()",46,0.040780141843971635
+"public static final double java.util.Locale$LanguageRange.MIN_WEIGHT",1,8.865248226950354E-4
+"public java.lang.String com.github.javafaker.Faker.regexify(java.lang.String)",15,0.013297872340425532
+"java.util.Random()",366,0.324468085106383
+"java.util.Random(long)",145,0.12854609929078015
+"public java.lang.String java.util.Locale.getScript()",21,0.018617021276595744
+"public com.github.javafaker.Finance com.github.javafaker.Faker.finance()",23,0.020390070921985817
+"public com.github.javafaker.Company com.github.javafaker.Faker.company",97,0.08599290780141844
+"public static final java.util.Locale java.util.Locale.SIMPLIFIED_CHINESE",1,8.865248226950354E-4
+"public com.github.javafaker.Company com.github.javafaker.Faker.company",107,0.09485815602836879
+"public java.lang.String com.github.javafaker.Faker.bothify(java.lang.String)",48,0.0425531914893617
+"public com.github.javafaker.Book com.github.javafaker.Faker.book",88,0.07801418439716312
+"public com.github.javafaker.Book com.github.javafaker.Faker.book",170,0.15070921985815602
+"public com.github.javafaker.Color com.github.javafaker.Faker.color",49,0.04343971631205674
+"public com.github.javafaker.Color com.github.javafaker.Faker.color",23,0.020390070921985817
+"public com.github.javafaker.Code com.github.javafaker.Faker.code",105,0.09308510638297872
+"public com.github.javafaker.Code com.github.javafaker.Faker.code",46,0.040780141843971635
+"java.util.Locale(java.lang.String)",93,0.08244680851063829
+"java.util.Locale(java.lang.String, java.lang.String)",214,0.18971631205673758
+"java.util.Locale(java.lang.String, java.lang.String, java.lang.String)",64,0.05673758865248227
+"public java.lang.String java.util.Locale.getDisplayScript(java.util.Locale)",32,0.028368794326241134
+"public java.lang.String java.util.Locale.getDisplayScript()",17,0.015070921985815602
+"public com.github.javafaker.App com.github.javafaker.Faker.app()",134,0.11879432624113476
+"public static final java.util.Locale java.util.Locale.FRANCE",286,0.25354609929078015
+"public java.util.stream.DoubleStream java.util.Random.doubles(double,double)",356,0.31560283687943264
+"public java.util.stream.DoubleStream java.util.Random.doubles(long,double,double)",9,0.007978723404255319
+"public java.util.stream.DoubleStream java.util.Random.doubles(long)",141,0.125
+"public java.util.stream.DoubleStream java.util.Random.doubles()",27,0.023936170212765957
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.Faker.fakeValuesService",254,0.225177304964539
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.Faker.fakeValuesService",33,0.02925531914893617
+"public com.github.javafaker.Lorem com.github.javafaker.Faker.lorem()",47,0.041666666666666664
+"java.util.Locale$LanguageRange(java.lang.String)",66,0.05851063829787234
+"public static java.lang.String[] java.util.Locale.getISOLanguages()",1,8.865248226950354E-4
+"java.util.Locale$LanguageRange(java.lang.String, double)",66,0.05851063829787234
+"public com.github.javafaker.Finance com.github.javafaker.Faker.finance",57,0.05053191489361702
+"public com.github.javafaker.Finance com.github.javafaker.Faker.finance",27,0.023936170212765957
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",130,0.11524822695035461
+"public java.util.Locale$Builder java.util.Locale$Builder.clearExtensions()",24,0.02127659574468085
+"java.util.Locale$Builder()",125,0.11081560283687943
+"public java.util.Locale$Builder java.util.Locale$Builder.removeUnicodeLocaleAttribute(java.lang.String)",44,0.03900709219858156
+"public static java.util.Locale java.util.Locale.forLanguageTag(java.lang.String)",19,0.016843971631205674
+"public java.util.Locale java.util.Locale.stripExtensions()",119,0.10549645390070922
+"public boolean java.util.Locale$LanguageRange.equals(java.lang.Object)",11,0.00975177304964539
+"EXTENDED_FILTERING",3,0.0026595744680851063
+"public boolean java.util.Locale.hasExtensions()",41,0.03634751773049645
+"public final java.lang.String java.util.Locale.getDisplayName()",15,0.013297872340425532
+"public java.lang.String java.util.Locale.getDisplayName(java.util.Locale)",93,0.08244680851063829
+"public static final char java.util.Locale.PRIVATE_USE_EXTENSION",1,8.865248226950354E-4
+"public static final java.util.Locale java.util.Locale.ITALIAN",1,8.865248226950354E-4
+"public com.github.javafaker.PhoneNumber com.github.javafaker.Faker.phoneNumber()",5,0.004432624113475178
+"FORMAT",3,0.0026595744680851063
+"public java.util.Locale$Builder java.util.Locale$Builder.addUnicodeLocaleAttribute(java.lang.String)",59,0.05230496453900709
+"public java.util.Locale$Builder java.util.Locale$Builder.setUnicodeLocaleKeyword(java.lang.String,java.lang.String)",16,0.014184397163120567
+"public java.lang.String java.util.Locale.getUnicodeLocaleType(java.lang.String)",14,0.012411347517730497
+"public static final double java.util.Locale$LanguageRange.MAX_WEIGHT",1,8.865248226950354E-4
+"public synchronized void java.util.Random.setSeed(long)",26,0.02304964539007092
+"public com.github.javafaker.Internet com.github.javafaker.Faker.internet()",37,0.03280141843971631
+"public java.util.Locale$Builder java.util.Locale$Builder.setLanguageTag(java.lang.String)",143,0.12677304964539007
+"java.util.Locale$LanguageRange[15]",1,8.865248226950354E-4
+"public java.lang.String com.github.javafaker.Faker.resolve(java.lang.String)",9,0.007978723404255319
+"public static final char java.util.Locale.UNICODE_LOCALE_EXTENSION",1,8.865248226950354E-4
+"public double java.util.Locale$LanguageRange.getWeight()",12,0.010638297872340425
+"public com.github.javafaker.Name com.github.javafaker.Faker.name()",213,0.18882978723404256
+"public java.lang.String java.util.Locale.getLanguage()",23,0.020390070921985817
+"public java.lang.String java.util.Locale.getExtension(char)",11,0.00975177304964539
+"REJECT_EXTENDED_RANGES",1,8.865248226950354E-4
+"IGNORE_EXTENDED_RANGES",9,0.007978723404255319
+"public java.lang.String com.github.javafaker.Faker.letterify(java.lang.String)",36,0.031914893617021274
+"java.util.Locale$LanguageRange[0]",70,0.06205673758865248
+"public java.lang.String com.github.javafaker.Faker.numerify(java.lang.String)",49,0.04343971631205674
+"public com.github.javafaker.PhoneNumber com.github.javafaker.Faker.phoneNumber",55,0.04875886524822695
+"public com.github.javafaker.PhoneNumber com.github.javafaker.Faker.phoneNumber",69,0.061170212765957445
+"public static java.lang.String java.util.Locale.lookupTag(java.util.List,java.util.Collection)",44,0.03900709219858156
+"public com.github.javafaker.Internet com.github.javafaker.Faker.internet",61,0.054078014184397165
+"public com.github.javafaker.Internet com.github.javafaker.Faker.internet",21,0.018617021276595744
+"public static final java.util.Locale java.util.Locale.KOREAN",1,8.865248226950354E-4
+"public java.lang.String java.util.Locale.toLanguageTag()",21,0.018617021276595744
+"public float java.util.Random.nextFloat()",18,0.015957446808510637
+"public java.util.Locale$Builder java.util.Locale$Builder.setRegion(java.lang.String)",8,0.0070921985815602835
+"public com.github.javafaker.Company com.github.javafaker.Faker.company()",128,0.11347517730496454
+"public com.github.javafaker.Name com.github.javafaker.Faker.name",665,0.5895390070921985
+"public com.github.javafaker.Name com.github.javafaker.Faker.name",23,0.020390070921985817
+"public static final java.util.Locale java.util.Locale.JAPANESE",2,0.0017730496453900709
+"public com.github.javafaker.Book com.github.javafaker.Faker.book()",49,0.04343971631205674
+"public java.util.Set java.util.Locale.getUnicodeLocaleAttributes()",39,0.034574468085106384
+"public java.lang.String java.util.Locale.getCountry()",18,0.015957446808510637
+"public static final java.util.Locale java.util.Locale.ENGLISH",60,0.05319148936170213
+"public com.github.javafaker.Color com.github.javafaker.Faker.color()",69,0.061170212765957445
+"public com.github.javafaker.Code com.github.javafaker.Faker.code()",127,0.1125886524822695
+"java.util.Locale$LanguageRange[25]",1,8.865248226950354E-4

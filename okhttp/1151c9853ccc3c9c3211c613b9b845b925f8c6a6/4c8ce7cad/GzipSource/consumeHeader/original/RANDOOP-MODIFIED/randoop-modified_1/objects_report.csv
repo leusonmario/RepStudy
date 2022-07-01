@@ -1,0 +1,6 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Object,1,1,4.0038436899423444E-5,4.0038436899423444E-5
+class com.squareup.okhttp.internal.bytes.Deadline$1,24947,1,0.9988388853299167,4.0038436899423444E-5
+class com.squareup.okhttp.internal.bytes.Deadline,27,1,0.0010810377962844331,4.0038436899423444E-5
+class java.lang.Boolean,190868,2,7.6420563741191545,8.007687379884689E-5
+class java.lang.Class,7573,3,0.3032110826393338,1.2011531069827035E-4

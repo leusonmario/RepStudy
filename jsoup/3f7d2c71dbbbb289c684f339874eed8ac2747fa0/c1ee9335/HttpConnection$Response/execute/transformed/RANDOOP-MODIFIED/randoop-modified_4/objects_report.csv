@@ -1,0 +1,15 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.util.regex.Pattern$$Lambda$200/1885780198,4183,1,0.1824804781224098,4.3624307464119006E-5
+class java.lang.String,3911,14,0.17061466649216944,6.107403044976661E-4
+class [Lorg.jsoup.Connection$KeyVal;,1,1,4.3624307464119006E-5,4.3624307464119006E-5
+class org.jsoup.helper.HttpConnection$Response,118715,1201,5.178859660602888,0.05239279326440693
+class [Ljava.lang.String;,10778,179,0.47018278584827466,0.007808751036077303
+class java.util.ArrayList,1,1,4.3624307464119006E-5,4.3624307464119006E-5
+class java.util.regex.Matcher,2764,2727,0.12057758583082494,0.11896348645465253
+class java.util.LinkedHashMap,15189,201,0.6626096060725036,0.00876848580028792
+class java.lang.Boolean,10991,2,0.479474763338132,8.724861492823801E-5
+class java.lang.Integer,16256,17,0.7091567421367185,7.416132268900232E-4
+class java.util.stream.ReferencePipeline$Head,3635,3635,0.1585743576320726,0.1585743576320726
+class java.util.LinkedHashMap$Entry,32,9,0.0013959778388518082,3.9261876717707107E-4
+class java.lang.Class,957,7,0.04174846224316189,3.053701522488331E-4
+class java.util.regex.Pattern,4844,4738,0.21131614535619248,0.20669196876499585

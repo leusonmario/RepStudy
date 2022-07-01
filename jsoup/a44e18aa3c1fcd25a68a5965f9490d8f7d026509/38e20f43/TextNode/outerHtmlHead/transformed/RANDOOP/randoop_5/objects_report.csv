@@ -1,0 +1,14 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,50488,10,2.900608985407331,5.74514535217741E-4
+class org.jsoup.nodes.Document$OutputSettings,87070,53415,5.002298058140871,3.0687693898655635
+class java.lang.Integer,54124,9,3.1095024704125014,5.17063081695967E-4
+class sun.nio.cs.UTF_8,8504,1,0.48856716074916695,5.74514535217741E-5
+class org.jsoup.nodes.TextNode,30340,705,1.7430770998506262,0.040503274732850744
+class org.jsoup.nodes.Attributes,4529,96,0.2601976330001149,0.005515339538090314
+class java.util.Collections$UnmodifiableRandomAccessList,1611,1,0.09255429162357807,5.74514535217741E-5
+class sun.nio.cs.UTF_8$Encoder,11525,1,0.6621280018384466,5.74514535217741E-5
+class java.lang.Boolean,21930,2,1.259910375732506,1.149029070435482E-4
+class java.util.ArrayList,3019,1,0.173445938182236,5.74514535217741E-5
+class org.jsoup.nodes.Entities$EscapeMode,15293,1,0.8786050787084914,5.74514535217741E-5
+class java.lang.Class,411,9,0.023612547397449155,5.17063081695967E-4
+class java.util.Collections$EmptyList,2428,1,0.1394921291508675,5.74514535217741E-5

@@ -1,0 +1,4 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final java.util.regex.Pattern org.jsoup.helper.HttpConnection$Response.xmlContentTypeRxp",1,0.5
+"public final native java.lang.Class java.lang.Object.getClass()",2,1.0
+"java.lang.Object()",1,0.5

@@ -1,0 +1,50 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.setTypesToSkip(java.util.Set)",8284,0.8667085164260305
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.setTypesToSkip(java.util.List)",2425,0.2537141661435447
+"io.swagger.models.SecurityRequirement[0]",4330,0.4530236451140406
+"public java.util.Map com.github.kongchen.swagger.docgen.reader.AbstractReader.updateTagsForApi(java.util.Map,io.swagger.annotations.Api)",699,0.07313245448838669
+"public java.lang.String[] com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperationProduces(java.lang.String[],java.lang.String[],io.swagger.models.Operation)",129,0.01349654739485248
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.getTypesToSkip()",6521,0.6822557020297133
+"public java.lang.String[] com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperationConsumes(java.lang.String[],java.lang.String[],io.swagger.models.Operation)",359,0.037560159029085584
+"public java.lang.String com.github.kongchen.swagger.docgen.reader.AbstractReader.parseOperationPath(java.lang.String,java.util.Map)",8214,0.8593848085373509
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.typesToSkip",15970,1.670851642603055
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.typesToSkip",9545,0.9986398828206737
+"public java.util.List com.github.kongchen.swagger.docgen.reader.AbstractReader.getParameters(java.lang.reflect.Type,java.util.List)",24612,2.5750156936597612
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",35034,3.66541117388575
+"io.swagger.annotations.ResponseHeader[1]",8,8.369951872776732E-4
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateExtensionChain()",6616,0.6921950198786357
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperationProtocols(io.swagger.annotations.ApiOperation,io.swagger.models.Operation)",674,0.07051684452814397
+"public java.util.Map com.github.kongchen.swagger.docgen.reader.AbstractReader.parseResponseHeaders(io.swagger.annotations.ResponseHeader[])",22988,2.405105670642394
+"io.swagger.annotations.ResponseHeader[0]",14076,1.472693032015066
+"java.lang.reflect.Type[0]",1528,0.15986608077003558
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updatePath(java.lang.String,java.lang.String,io.swagger.models.Operation)",709,0.07417869847248379
+"java.lang.reflect.Type[1]",5224,0.5465578572923205
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.extractTags(io.swagger.annotations.Api)",706,0.07386482527725466
+"java.util.ArrayList()",29233,3.0584850387110274
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperationParameters(java.util.List,java.util.Map,io.swagger.models.Operation)",254,0.026574597196066124
+"public com.github.kongchen.swagger.docgen.LogAdapter com.github.kongchen.swagger.docgen.reader.AbstractReader.LOG",5677,0.5939527097719188
+"public com.github.kongchen.swagger.docgen.LogAdapter com.github.kongchen.swagger.docgen.reader.AbstractReader.LOG",4447,0.46526469972797657
+"public java.util.List com.github.kongchen.swagger.docgen.reader.AbstractReader.getSecurityRequirements(io.swagger.annotations.Api)",674,0.07051684452814397
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateTagsForOperation(io.swagger.models.Operation,io.swagger.annotations.ApiOperation)",4337,0.45375601590290854
+"io.swagger.models.parameters.Parameter[0]",29,0.003034107553881565
+"public boolean com.github.kongchen.swagger.docgen.reader.AbstractReader.canReadApi(boolean,io.swagger.annotations.Api)",4524,0.47332077840552417
+"public final native java.lang.Class java.lang.Object.getClass()",13022,1.3624189160912326
+"java.util.LinkedHashSet()",5801,0.6069261351747227
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateApiResponse(io.swagger.models.Operation,io.swagger.annotations.ApiResponses)",712,0.0744925716677129
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.readImplicitParameters(java.lang.reflect.Method,io.swagger.models.Operation)",653,0.06831973216154007
+"public boolean com.github.kongchen.swagger.docgen.reader.AbstractReader.hasValidAnnotations(java.util.List)",9308,0.9738439003975727
+"com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader(io.swagger.models.Swagger, com.github.kongchen.swagger.docgen.LogAdapter)",39284,4.110064867127014
+"java.lang.String[3]",4283,0.44810629838878424
+"java.lang.String[4]",10,0.0010462439840970914
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.addTypeToSkippedTypes(java.lang.reflect.Type)",9050,0.9468508056078677
+"java.lang.String[5]",229,0.023958987235823393
+"public io.swagger.models.Swagger com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.read(com.github.kongchen.swagger.docgen.spring.SpringResource)",664,0.06947060054404687
+"java.lang.Object()",11042,1.1552626072400083
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.updateOperation(java.lang.String[],java.lang.String[],java.util.Map,java.util.List,io.swagger.models.Operation)",5138,0.5375601590290856
+"java.lang.String[6]",596,0.06235614145218665
+"java.lang.String[0]",7,7.32370788867964E-4
+"java.lang.annotation.Annotation[0]",23923,2.502929483155472
+"java.lang.String[1]",5,5.231219920485457E-4
+"java.lang.String[2]",4285,0.4483155471856037
+"public io.swagger.models.Swagger com.github.kongchen.swagger.docgen.reader.AbstractReader.swagger",6978,0.7300690521029504
+"public io.swagger.models.Swagger com.github.kongchen.swagger.docgen.reader.AbstractReader.swagger",6974,0.7296505545093116

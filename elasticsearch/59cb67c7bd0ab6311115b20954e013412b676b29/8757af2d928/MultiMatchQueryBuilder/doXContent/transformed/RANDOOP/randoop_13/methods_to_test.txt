@@ -1,0 +1,1 @@
+org.elasticsearch.index.query.MultiMatchQueryBuilder.doXContent(org.elasticsearch.common.xcontent.XContentBuilder, org.elasticsearch.common.xcontent.ToXContent$Params)

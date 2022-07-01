@@ -1,0 +1,7 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer,64,64,0.5871559633027523,0.5871559633027523
+class java.lang.Object,1,1,0.009174311926605505,0.009174311926605505
+class java.lang.Integer,2,2,0.01834862385321101,0.01834862385321101
+class com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoDataOutput,184,184,1.688073394495413,1.688073394495413
+class com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization,1,1,0.009174311926605505,0.009174311926605505
+class java.lang.Class,22,4,0.2018348623853211,0.03669724770642202

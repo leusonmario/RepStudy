@@ -1,0 +1,130 @@
+Methods called,Number of times,Number of times (Normalized)
+"public abstract short java.nio.ByteBuffer.getShort()",181,0.026458120157871655
+"public abstract short java.nio.ByteBuffer.getShort(int)",216,0.03157433123812308
+"public final int java.nio.Buffer.remaining()",197,0.028796959508843735
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putInt(int,int)",155,0.022657506212542027
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putInt(int)",173,0.025288700482385615
+"public java.util.Map org.jsoup.helper.HttpConnection$Base.cookies()",200,0.029235491887151
+"public java.nio.ByteBuffer org.jsoup.helper.HttpConnection$Response.byteData",1133,0.16561906154071043
+"public java.nio.ByteBuffer org.jsoup.helper.HttpConnection$Response.byteData",829,0.1211811138722409
+"public abstract java.nio.FloatBuffer java.nio.ByteBuffer.asFloatBuffer()",650,0.09501534863324075
+"public final java.nio.Buffer java.nio.Buffer.position(int)",263,0.038444671831603563
+"public final int java.nio.Buffer.position()",1602,0.2341762900160795
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage",241,0.03522876772401696
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage",245,0.035813477561759975
+"byte[0]",284,0.041514398479754425
+"public byte[] org.jsoup.helper.HttpConnection$Response.bodyAsBytes()",96,0.01403303610583248
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.body()",85,0.012425084052039176
+"public abstract java.nio.LongBuffer java.nio.ByteBuffer.asLongBuffer()",487,0.07118842274521268
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset()",590,0.08624470106709545
+"public int org.jsoup.helper.HttpConnection$Response.statusCode()",570,0.08332115187838035
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.asReadOnlyBuffer()",1248,0.18242946937582225
+"public boolean org.jsoup.helper.HttpConnection$Base.hasHeader(java.lang.String)",233,0.03405934804853092
+"public abstract double java.nio.ByteBuffer.getDouble()",143,0.020903376699312966
+"public abstract double java.nio.ByteBuffer.getDouble(int)",119,0.017395117672854846
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.compact()",1439,0.21034936412805144
+"public final java.nio.Buffer java.nio.Buffer.limit(int)",250,0.03654436485893875
+"public final int java.nio.Buffer.limit()",826,0.12074258149393363
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.getHeaderCaseInsensitive(java.lang.String)",794,0.11606490279198947
+"public abstract java.nio.IntBuffer java.nio.ByteBuffer.asIntBuffer()",435,0.06358719485455343
+"public static org.jsoup.helper.HttpConnection$Response org.jsoup.helper.HttpConnection$Response.execute(org.jsoup.Connection$Request,org.jsoup.helper.HttpConnection$Response) throws java.io.IOException",370,0.05408565999122935
+"public static org.jsoup.helper.HttpConnection$Response org.jsoup.helper.HttpConnection$Response.execute(org.jsoup.Connection$Request) throws java.io.IOException",1,1.46177459435755E-4
+"public boolean org.jsoup.helper.HttpConnection$Response.executed",1180,0.1724894021341909
+"public final int java.nio.ByteBuffer.arrayOffset()",349,0.051015933343078496
+"public boolean org.jsoup.helper.HttpConnection$Response.executed",326,0.04765385177605613
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.removeHeader(java.lang.String)",163,0.023826925888028067
+"public abstract java.nio.DoubleBuffer java.nio.ByteBuffer.asDoubleBuffer()",2396,0.350241192808069
+"public final byte[] java.nio.ByteBuffer.array()",931,0.1360912147346879
+"public int org.jsoup.helper.HttpConnection$Response.numRedirects",163,0.023826925888028067
+"public int org.jsoup.helper.HttpConnection$Response.numRedirects",129,0.018856892267212395
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset",457,0.06680309896214004
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset",330,0.04823856161379915
+"public int org.jsoup.helper.HttpConnection$Response.statusCode",404,0.059055693612045025
+"public int org.jsoup.helper.HttpConnection$Response.statusCode",558,0.08156702236515129
+"public final java.nio.Buffer java.nio.Buffer.rewind()",957,0.13989182868001754
+"public static java.nio.ByteBuffer java.nio.ByteBuffer.allocateDirect(int)",965,0.14106124835550357
+"java.util.ArrayList()",1,1.46177459435755E-4
+"public final java.nio.Buffer java.nio.Buffer.reset()",128,0.01871071480777664
+"public abstract java.nio.CharBuffer java.nio.ByteBuffer.asCharBuffer()",405,0.059201871071480776
+"public final boolean java.nio.Buffer.hasRemaining()",1782,0.26048823271451543
+"public abstract java.nio.ShortBuffer java.nio.ByteBuffer.asShortBuffer()",4540,0.6636456658383277
+"public java.util.Map org.jsoup.helper.HttpConnection$Base.headers()",431,0.06300248501681041
+"public final native java.lang.Class java.lang.Object.getClass()",96,0.01403303610583248
+"public abstract char java.nio.ByteBuffer.getChar(int)",122,0.017833650051162112
+"public abstract char java.nio.ByteBuffer.getChar()",483,0.07060371290746967
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putFloat(int,float)",160,0.0233883935097208
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putFloat(float)",234,0.03420552550796667
+"public final java.nio.ByteBuffer java.nio.ByteBuffer.put(byte[])",1130,0.16518052916240317
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.put(byte)",268,0.039175559128782345
+"public java.nio.ByteBuffer java.nio.ByteBuffer.put(java.nio.ByteBuffer)",1573,0.2299371436924426
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.put(int,byte)",429,0.0627101300979389
+"public java.nio.ByteBuffer java.nio.ByteBuffer.put(byte[],int,int)",312,0.04560736734395556
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putLong(int,long)",209,0.030551089022072795
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putLong(long)",248,0.03625200994006724
+"public int java.nio.ByteBuffer.compareTo(java.nio.ByteBuffer)",1996,0.291770209033767
+"byte[5]",113,0.016518052916240315
+"byte[6]",4,5.8470983774302E-4
+"public abstract float java.nio.ByteBuffer.getFloat(int)",284,0.041514398479754425
+"public abstract float java.nio.ByteBuffer.getFloat()",162,0.023680748428592312
+"public static void org.jsoup.helper.HttpConnection$Response.writePost(java.util.Collection,java.io.OutputStream) throws java.io.IOException",2,2.9235491887151E-4
+"public final java.nio.Buffer java.nio.Buffer.flip()",407,0.05949422599035229
+"byte[1]",3,4.38532378307265E-4
+"byte[2]",46,0.00672416313404473
+"byte[3]",1270,0.18564537348340887
+"byte[4]",2,2.9235491887151E-4
+"public static java.net.HttpURLConnection org.jsoup.helper.HttpConnection$Response.createConnection(org.jsoup.Connection$Request) throws java.io.IOException",1,1.46177459435755E-4
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putShort(short)",823,0.12030404911562637
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putShort(int,short)",353,0.05160064318082152
+"public org.jsoup.nodes.Document org.jsoup.helper.HttpConnection$Response.parse() throws java.io.IOException",78,0.01140184183598889
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.slice()",1584,0.23154509574623594
+"org.jsoup.helper.HttpConnection$Response(org.jsoup.helper.HttpConnection$Response)",11674,1.706475661453004
+"public static java.lang.String org.jsoup.helper.HttpConnection$Response.getRequestCookieString(org.jsoup.Connection$Request)",1,1.46177459435755E-4
+"public final java.nio.Buffer java.nio.Buffer.mark()",477,0.06972664815085514
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putChar(char)",377,0.05510890220727964
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putChar(int,char)",179,0.026165765239000147
+"public static void org.jsoup.helper.HttpConnection$Response.serialiseRequestUrl(org.jsoup.Connection$Request) throws java.io.IOException",1,1.46177459435755E-4
+"public final boolean java.nio.ByteBuffer.hasArray()",292,0.042683818155240465
+"public final java.nio.ByteBuffer java.nio.ByteBuffer.order(java.nio.ByteOrder)",1553,0.22701359450372752
+"public final java.nio.ByteOrder java.nio.ByteBuffer.order()",950,0.13886858646396727
+"org.jsoup.Connection$KeyVal[0]",1,1.46177459435755E-4
+"public static java.nio.ByteBuffer java.nio.ByteBuffer.wrap(byte[],int,int)",109,0.015933343078497295
+"public static java.nio.ByteBuffer java.nio.ByteBuffer.wrap(byte[])",2290,0.334746382107879
+"public static java.nio.ByteBuffer java.nio.ByteBuffer.allocate(int)",9681,1.4151439847975442
+"public static int org.jsoup.helper.HttpConnection$Response.MAX_REDIRECTS",54,0.00789358280953077
+"public static int org.jsoup.helper.HttpConnection$Response.MAX_REDIRECTS",1,1.46177459435755E-4
+"public abstract int java.nio.ByteBuffer.getInt()",427,0.06241777517906739
+"public abstract int java.nio.ByteBuffer.getInt(int)",269,0.039321736588218095
+"public final java.nio.Buffer java.nio.Buffer.clear()",1258,0.1838912439701798
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.cookie(java.lang.String,java.lang.String)",944,0.13799152170735274
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.cookie(java.lang.String)",731,0.10685572284753692
+"public org.jsoup.Connection$Method org.jsoup.helper.HttpConnection$Base.method()",779,0.11387224090045316
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.method(org.jsoup.Connection$Method)",70,0.01023242216050285
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putDouble(int,double)",189,0.027627539833357695
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.putDouble(double)",610,0.08916825025581056
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",1,1.46177459435755E-4
+"public abstract byte java.nio.ByteBuffer.get()",144,0.02104955415874872
+"public java.nio.ByteBuffer java.nio.ByteBuffer.get(byte[],int,int)",99,0.014471568484139746
+"public abstract byte java.nio.ByteBuffer.get(int)",121,0.017687472591726355
+"public java.nio.ByteBuffer java.nio.ByteBuffer.get(byte[])",1796,0.26253471714661597
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.removeCookie(java.lang.String)",717,0.10480923841543634
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType()",351,0.051308288261950004
+"public abstract java.nio.ByteBuffer java.nio.ByteBuffer.duplicate()",725,0.10597865809092238
+"public abstract boolean java.nio.ByteBuffer.isDirect()",355,0.05189299809969303
+"public java.lang.String java.nio.ByteBuffer.toString()",541,0.07908200555474346
+"public boolean java.nio.ByteBuffer.equals(java.lang.Object)",488,0.07133460020464845
+"public abstract long java.nio.ByteBuffer.getLong(int)",130,0.019003069726648152
+"public abstract long java.nio.ByteBuffer.getLong()",129,0.018856892267212395
+"public org.jsoup.Connection$Request org.jsoup.helper.HttpConnection$Response.req",556,0.08127466744627979
+"public org.jsoup.Connection$Request org.jsoup.helper.HttpConnection$Response.req",269,0.039321736588218095
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType",395,0.05774009647712323
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType",553,0.08083613506797252
+"public abstract boolean java.nio.Buffer.isReadOnly()",4992,0.729717877503289
+"public boolean org.jsoup.helper.HttpConnection$Base.hasCookie(java.lang.String)",330,0.04823856161379915
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.url(java.net.URL)",90,0.01315597134921795
+"public java.net.URL org.jsoup.helper.HttpConnection$Base.url()",692,0.10115480192954246
+"public void org.jsoup.helper.HttpConnection$Response.setupFromConnection(java.net.HttpURLConnection,org.jsoup.Connection$Response) throws java.io.IOException",81,0.011840374214296156
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage()",594,0.08682941090483848
+"public java.util.Map$Entry org.jsoup.helper.HttpConnection$Base.scanHeaders(java.lang.String)",317,0.046338254641134335
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.header(java.lang.String)",737,0.10773278760415143
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.header(java.lang.String,java.lang.String)",171,0.024996345563514107
+"public final int java.nio.Buffer.capacity()",317,0.046338254641134335

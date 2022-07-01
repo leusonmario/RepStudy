@@ -1,0 +1,330 @@
+Methods called,Number of times,Number of times (Normalized)
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient189() throws java.io.IOException",288,0.13987372510927634
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient185() throws java.io.IOException",1624,0.7887323943661971
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient61() throws java.io.IOException",229,0.11121903836813987
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient186() throws java.io.IOException",17,0.00825643516270034
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient187() throws java.io.IOException",5,0.0024283632831471587
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient188() throws java.io.IOException",8,0.003885381253035454
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient184() throws java.io.IOException",82,0.0398251578436134
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient69() throws java.io.IOException",438,0.2127246236036911
+"public java.net.CookieHandler com.squareup.okhttp.OkHttpClient.getCookieHandler()",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setResponseCache(java.net.ResponseCache)",16,0.007770762506070908
+"public com.squareup.okhttp.SerializedObjectSupporter com.squareup.okhttp.OkHttpClient.serializedObjectSupporter",90,0.043710539096648855
+"com.squareup.okhttp.ConnectionPool(int, long)",173,0.0840213695968917
+"public com.squareup.okhttp.SerializedObjectSupporter com.squareup.okhttp.OkHttpClient.serializedObjectSupporter",15,0.007285089849441476
+"java.net.Proxy(java.net.Proxy$Type, java.net.SocketAddress)",66,0.03205439533754249
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient60() throws java.io.IOException",123,0.05973773676542011
+"public static final java.net.Proxy java.net.Proxy.NO_PROXY",1,4.8567265662943174E-4
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient192() throws java.io.IOException",78,0.03788246721709568
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient193() throws java.io.IOException",117,0.05682370082564352
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient194() throws java.io.IOException",39,0.01894123360854784
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient62() throws java.io.IOException",20,0.009713453132588635
+"public static synchronized java.net.CookieHandler java.net.CookieHandler.getDefault()",1,4.8567265662943174E-4
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient68() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient190() throws java.io.IOException",25,0.012141816415735794
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient67() throws java.io.IOException",38,0.018455560951918408
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient191() throws java.io.IOException",68,0.03302574065080136
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient72() throws java.io.IOException",59,0.028654686741136474
+"public void com.squareup.okhttp.ConnectionPool.recycle(com.squareup.okhttp.Connection)",8,0.003885381253035454
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient196() throws java.io.IOException",32,0.015541525012141816
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient197() throws java.io.IOException",28,0.013598834385624089
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient198() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient199() throws java.io.IOException",7,0.003399708596406022
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient195() throws java.io.IOException",40,0.01942690626517727
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient71() throws java.io.IOException",30,0.014570179698882952
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient70() throws java.io.IOException",178,0.08644973288003885
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setSSLSocketFactory(javax.net.ssl.SSLSocketFactory)",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient83() throws java.io.IOException",58,0.028169014084507043
+"public javax.net.ssl.SSLSocketFactory com.squareup.okhttp.OkHttpClient.getSslSocketFactory()",15,0.007285089849441476
+"public java.lang.String java.net.Proxy.toString()",12,0.005828071879553181
+"public java.net.SocketAddress java.net.Proxy.address()",50,0.02428363283147159
+"public java.util.List com.squareup.okhttp.OkHttpClient.getDEFAULT_TRANSPORTS()",23,0.011170471102476931
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient87() throws java.io.IOException",18,0.008742107819329771
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setProxy(java.net.Proxy)",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient86() throws java.io.IOException",98,0.047595920349684316
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient85() throws java.io.IOException",24,0.011656143759106362
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient84() throws java.io.IOException",18,0.008742107819329771
+"public javax.net.ssl.HostnameVerifier com.squareup.okhttp.OkHttpClient.getHostnameVerifier()",9,0.004371053909664886
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient89() throws java.io.IOException",48,0.023312287518212724
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient88() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient255() throws java.io.IOException",30,0.014570179698882952
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient18() throws java.io.IOException",19,0.009227780475959204
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient134() throws java.io.IOException",45,0.021855269548324428
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient135() throws java.io.IOException",126,0.0611947547353084
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient17() throws java.io.IOException",23,0.011170471102476931
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient256() throws java.io.IOException",33,0.016027197668771247
+"public void com.squareup.okhttp.ConnectionPool.evictAll()",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient257() throws java.io.IOException",226,0.10976202039825157
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient136() throws java.io.IOException",22,0.010684798445847498
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient16() throws java.io.IOException",15,0.007285089849441476
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient15() throws java.io.IOException",40,0.01942690626517727
+"public java.net.CookieHandler com.squareup.okhttp.OkHttpClient.cookieHandler",10,0.0048567265662943174
+"public java.net.CookieHandler com.squareup.okhttp.OkHttpClient.cookieHandler",7,0.003399708596406022
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient251() throws java.io.IOException",6,0.0029140359397765905
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient131() throws java.io.IOException",31,0.015055852355512385
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient252() throws java.io.IOException",30,0.014570179698882952
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient132() throws java.io.IOException",29,0.014084507042253521
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient253() throws java.io.IOException",11,0.005342399222923749
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient19() throws java.io.IOException",49,0.023797960174842158
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient254() throws java.io.IOException",34,0.01651287032540068
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient133() throws java.io.IOException",17,0.00825643516270034
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient250() throws java.io.IOException",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient138() throws java.io.IOException",83,0.04031083050024284
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient259() throws java.io.IOException",76,0.036911121903836816
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient14() throws java.io.IOException",23,0.011170471102476931
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient139() throws java.io.IOException",89,0.043224866440019424
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient258() throws java.io.IOException",38,0.018455560951918408
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient137() throws java.io.IOException",44,0.021369596891694997
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient10() throws java.io.IOException",39,0.01894123360854784
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient260() throws java.io.IOException",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient13() throws java.io.IOException",6,0.0029140359397765905
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient12() throws java.io.IOException",44,0.021369596891694997
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient11() throws java.io.IOException",19,0.009227780475959204
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient145() throws java.io.IOException",28,0.013598834385624089
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient29() throws java.io.IOException",25,0.012141816415735794
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient28() throws java.io.IOException",25,0.012141816415735794
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient146() throws java.io.IOException",13,0.006313744536182613
+"java.lang.String[3]",2,9.713453132588635E-4
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient147() throws java.io.IOException",21,0.010199125789218067
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient27() throws java.io.IOException",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient26() throws java.io.IOException",35,0.016998542982030112
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient141() throws java.io.IOException",23,0.011170471102476931
+"java.lang.String[5]",1,4.8567265662943174E-4
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient142() throws java.io.IOException",144,0.06993686255463817
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient143() throws java.io.IOException",28,0.013598834385624089
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient144() throws java.io.IOException",12,0.005828071879553181
+"public static synchronized void java.net.ResponseCache.setDefault(java.net.ResponseCache)",1,4.8567265662943174E-4
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setCookieHandler(java.net.CookieHandler)",22,0.010684798445847498
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient261() throws java.io.IOException",103,0.05002428363283147
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient140() throws java.io.IOException",53,0.025740650801359885
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient25() throws java.io.IOException",36,0.017484215638659543
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setTransports(java.util.List)",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient148() throws java.io.IOException",23,0.011170471102476931
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient21() throws java.io.IOException",25,0.012141816415735794
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient20() throws java.io.IOException",46,0.022340942204953862
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient150() throws java.io.IOException",54,0.026226323457989316
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient24() throws java.io.IOException",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient23() throws java.io.IOException",28,0.013598834385624089
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient22() throws java.io.IOException",337,0.16367168528411852
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient156() throws java.io.IOException",30,0.014570179698882952
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setProxySelector(java.net.ProxySelector)",29,0.014084507042253521
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient157() throws java.io.IOException",22,0.010684798445847498
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient39() throws java.io.IOException",19,0.009227780475959204
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient158() throws java.io.IOException",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient152() throws java.io.IOException",16,0.007770762506070908
+"public static synchronized javax.net.SocketFactory javax.net.ssl.SSLSocketFactory.getDefault()",44,0.021369596891694997
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient153() throws java.io.IOException",82,0.0398251578436134
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient154() throws java.io.IOException",72,0.034968431277319086
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient155() throws java.io.IOException",202,0.09810587663914522
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient151() throws java.io.IOException",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setAuthenticator(com.squareup.okhttp.OkAuthenticator)",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient36() throws java.io.IOException",13,0.006313744536182613
+"public java.util.Collections com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectSet1() throws java.io.IOException",10,0.0048567265662943174
+"public java.net.Proxy com.squareup.okhttp.OkHttpClient.getProxy()",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient159() throws java.io.IOException",27,0.013113161728994658
+"public abstract java.util.List java.net.ProxySelector.select(java.net.URI)",11,0.005342399222923749
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient32() throws java.io.IOException",64,0.03108305002428363
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient160() throws java.io.IOException",43,0.020883924235065566
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient161() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient35() throws java.io.IOException",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient34() throws java.io.IOException",6,0.0029140359397765905
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient33() throws java.io.IOException",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient167() throws java.io.IOException",40,0.01942690626517727
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient168() throws java.io.IOException",76,0.036911121903836816
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient169() throws java.io.IOException",80,0.03885381253035454
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient49() throws java.io.IOException",36,0.017484215638659543
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient48() throws java.io.IOException",30,0.014570179698882952
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient163() throws java.io.IOException",139,0.06750849927149101
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient164() throws java.io.IOException",18,0.008742107819329771
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient165() throws java.io.IOException",44,0.021369596891694997
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient166() throws java.io.IOException",18,0.008742107819329771
+"public com.squareup.okhttp.OkAuthenticator com.squareup.okhttp.OkHttpClient.getAuthenticator()",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient162() throws java.io.IOException",23,0.011170471102476931
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient47() throws java.io.IOException",124,0.06022340942204954
+"public java.net.ProxySelector com.squareup.okhttp.OkHttpClient.getProxySelector()",15,0.007285089849441476
+"com.squareup.okhttp.OkHttpClient(com.squareup.okhttp.OkHttpClient)",10,0.0048567265662943174
+"com.squareup.okhttp.OkHttpClient()",3,0.0014570179698882952
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient170() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient43() throws java.io.IOException",23,0.011170471102476931
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient42() throws java.io.IOException",31,0.015055852355512385
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient171() throws java.io.IOException",63,0.0305973773676542
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient172() throws java.io.IOException",20,0.009713453132588635
+"public abstract void java.net.ProxySelector.connectFailed(java.net.URI,java.net.SocketAddress,java.io.IOException)",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient44() throws java.io.IOException",36,0.017484215638659543
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient211() throws java.io.IOException",60,0.029140359397765905
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient212() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient213() throws java.io.IOException",64,0.03108305002428363
+"public synchronized int com.squareup.okhttp.ConnectionPool.getConnectionCount()",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient4() throws java.io.IOException",178,0.08644973288003885
+"com.squareup.okhttp.SerializedObjectSupporter()",2114,1.0267119961146187
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient2() throws java.io.IOException",9,0.004371053909664886
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient210() throws java.io.IOException",45,0.021855269548324428
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient3() throws java.io.IOException",21,0.010199125789218067
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient219() throws java.io.IOException",236,0.1146187469645459
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient8() throws java.io.IOException",92,0.044681884409907724
+"public java.net.Proxy com.squareup.okhttp.OkHttpClient.proxy",12,0.005828071879553181
+"public java.net.Proxy com.squareup.okhttp.OkHttpClient.proxy",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient9() throws java.io.IOException",18,0.008742107819329771
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient6() throws java.io.IOException",51,0.02476930548810102
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient7() throws java.io.IOException",34,0.01651287032540068
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient215() throws java.io.IOException",20,0.009713453132588635
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient216() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient217() throws java.io.IOException",102,0.04953861097620204
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient218() throws java.io.IOException",33,0.016027197668771247
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient214() throws java.io.IOException",1648,0.8003885381253035
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient5() throws java.io.IOException",20,0.009713453132588635
+"public synchronized int com.squareup.okhttp.ConnectionPool.getHttpConnectionCount()",9,0.004371053909664886
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient222() throws java.io.IOException",20,0.009713453132588635
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient223() throws java.io.IOException",102,0.04953861097620204
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient224() throws java.io.IOException",286,0.1389023797960175
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setFollowProtocolRedirects(boolean)",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient220() throws java.io.IOException",25,0.012141816415735794
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient221() throws java.io.IOException",21,0.010199125789218067
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient109() throws java.io.IOException",22,0.010684798445847498
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient226() throws java.io.IOException",32,0.015541525012141816
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient105() throws java.io.IOException",18,0.008742107819329771
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient227() throws java.io.IOException",21,0.010199125789218067
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient106() throws java.io.IOException",11,0.005342399222923749
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient107() throws java.io.IOException",50,0.02428363283147159
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient228() throws java.io.IOException",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient108() throws java.io.IOException",259,0.12578921806702284
+"public java.net.ResponseCache com.squareup.okhttp.OkHttpClient.getResponseCache()",30,0.014570179698882952
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient229() throws java.io.IOException",54,0.026226323457989316
+"public static synchronized java.net.ResponseCache java.net.ResponseCache.getDefault()",1,4.8567265662943174E-4
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient104() throws java.io.IOException",254,0.12336085478387566
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient225() throws java.io.IOException",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient233() throws java.io.IOException",40,0.01942690626517727
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient112() throws java.io.IOException",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient234() throws java.io.IOException",18,0.008742107819329771
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient113() throws java.io.IOException",8,0.003885381253035454
+"public abstract java.net.Socket javax.net.SocketFactory.createSocket(java.lang.String,int,java.net.InetAddress,int) throws java.io.IOException,java.net.UnknownHostException",11,0.005342399222923749
+"public abstract java.net.Socket javax.net.SocketFactory.createSocket(java.lang.String,int) throws java.io.IOException,java.net.UnknownHostException",12,0.005828071879553181
+"public abstract java.net.Socket javax.net.SocketFactory.createSocket(java.net.InetAddress,int,java.net.InetAddress,int) throws java.io.IOException",13,0.006313744536182613
+"public abstract java.net.Socket javax.net.SocketFactory.createSocket(java.net.InetAddress,int) throws java.io.IOException",8,0.003885381253035454
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient235() throws java.io.IOException",25,0.012141816415735794
+"public java.net.Socket javax.net.SocketFactory.createSocket() throws java.io.IOException",31,0.015055852355512385
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient114() throws java.io.IOException",11,0.005342399222923749
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setHostnameVerifier(javax.net.ssl.HostnameVerifier)",8,0.003885381253035454
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient230() throws java.io.IOException",28,0.013598834385624089
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient231() throws java.io.IOException",1017,0.4939290917921321
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient110() throws java.io.IOException",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient111() throws java.io.IOException",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient232() throws java.io.IOException",48,0.023312287518212724
+"public java.util.List com.squareup.okhttp.OkHttpClient.transports",11,0.005342399222923749
+"public java.util.List com.squareup.okhttp.OkHttpClient.transports",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient237() throws java.io.IOException",43,0.020883924235065566
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient116() throws java.io.IOException",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient117() throws java.io.IOException",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient238() throws java.io.IOException",21,0.010199125789218067
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient118() throws java.io.IOException",19,0.009227780475959204
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient239() throws java.io.IOException",27,0.013113161728994658
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient119() throws java.io.IOException",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient115() throws java.io.IOException",51,0.02476930548810102
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient236() throws java.io.IOException",61,0.02962603205439534
+"public java.net.Proxy$Type java.net.Proxy.type()",45,0.021855269548324428
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient244() throws java.io.IOException",7,0.003399708596406022
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient123() throws java.io.IOException",39,0.01894123360854784
+"public final boolean java.net.Proxy.equals(java.lang.Object)",25,0.012141816415735794
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient245() throws java.io.IOException",37,0.017969888295288974
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient124() throws java.io.IOException",37,0.017969888295288974
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient125() throws java.io.IOException",79,0.03836813987372511
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient246() throws java.io.IOException",27,0.013113161728994658
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient240() throws java.io.IOException",29,0.014084507042253521
+"public java.net.HttpURLConnection com.squareup.okhttp.OkHttpClient.open(java.net.URL)",11,0.005342399222923749
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient120() throws java.io.IOException",22,0.010684798445847498
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient241() throws java.io.IOException",17,0.00825643516270034
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient242() throws java.io.IOException",37,0.017969888295288974
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient121() throws java.io.IOException",21,0.010199125789218067
+"public java.net.ResponseCache com.squareup.okhttp.OkHttpClient.responseCache",17,0.00825643516270034
+"public java.net.ResponseCache com.squareup.okhttp.OkHttpClient.responseCache",8,0.003885381253035454
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient122() throws java.io.IOException",211,0.1024769305488101
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy10() throws java.io.IOException",77,0.03739679456046625
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient243() throws java.io.IOException",27,0.013113161728994658
+"public final java.util.Set com.squareup.okhttp.OkHttpClient.failedRoutes",9,0.004371053909664886
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient248() throws java.io.IOException",31,0.015055852355512385
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient127() throws java.io.IOException",11,0.005342399222923749
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient249() throws java.io.IOException",23,0.011170471102476931
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient128() throws java.io.IOException",30,0.014570179698882952
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient129() throws java.io.IOException",52,0.02525497814473045
+"java.util.ArrayList()",3,0.0014570179698882952
+"public javax.net.ssl.HostnameVerifier com.squareup.okhttp.OkHttpClient.hostnameVerifier",14,0.006799417192812044
+"public javax.net.ssl.HostnameVerifier com.squareup.okhttp.OkHttpClient.hostnameVerifier",9,0.004371053909664886
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient126() throws java.io.IOException",29,0.014084507042253521
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient247() throws java.io.IOException",65,0.03156872268091306
+"public final native java.lang.Class java.lang.Object.getClass()",10,0.0048567265662943174
+"public java.util.List com.squareup.okhttp.OkHttpClient.getTransports()",15,0.007285089849441476
+"public java.util.Set com.squareup.okhttp.OkHttpClient.getfailedRoutes()",11,0.005342399222923749
+"public java.util.Collections com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectList1() throws java.io.IOException",9,0.004371053909664886
+"public java.util.Collections com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectList3() throws java.io.IOException",11,0.005342399222923749
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient94() throws java.io.IOException",76,0.036911121903836816
+"public synchronized com.squareup.okhttp.Connection com.squareup.okhttp.ConnectionPool.get(com.squareup.okhttp.Address)",5,0.0024283632831471587
+"public boolean com.squareup.okhttp.OkHttpClient.getFollowProtocolRedirects()",14,0.006799417192812044
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.copyWithDefaults()",59,0.028654686741136474
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient90() throws java.io.IOException",11,0.005342399222923749
+"public com.squareup.okhttp.ConnectionPool com.squareup.okhttp.OkHttpClient.connectionPool",12,0.005828071879553181
+"public com.squareup.okhttp.ConnectionPool com.squareup.okhttp.OkHttpClient.connectionPool",10,0.0048567265662943174
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient93() throws java.io.IOException",17,0.00825643516270034
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient92() throws java.io.IOException",28,0.013598834385624089
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient91() throws java.io.IOException",26,0.012627489072365225
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient98() throws java.io.IOException",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient97() throws java.io.IOException",8,0.003885381253035454
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient96() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient95() throws java.io.IOException",85,0.0412821758135017
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient99() throws java.io.IOException",22,0.010684798445847498
+"public com.squareup.okhttp.OkAuthenticator com.squareup.okhttp.OkHttpClient.authenticator",15,0.007285089849441476
+"public com.squareup.okhttp.OkAuthenticator com.squareup.okhttp.OkHttpClient.authenticator",14,0.006799417192812044
+"public java.net.ProxySelector com.squareup.okhttp.OkHttpClient.proxySelector",33,0.016027197668771247
+"public java.net.ProxySelector com.squareup.okhttp.OkHttpClient.proxySelector",8,0.003885381253035454
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy8() throws java.io.IOException",182,0.08839242350655659
+"public boolean com.squareup.okhttp.OkHttpClient.followProtocolRedirects",12,0.005828071879553181
+"public boolean com.squareup.okhttp.OkHttpClient.followProtocolRedirects",23,0.011170471102476931
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy9() throws java.io.IOException",61,0.02962603205439534
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy2() throws java.io.IOException",120,0.05828071879553181
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy3() throws java.io.IOException",381,0.1850412821758135
+"public static java.net.ProxySelector java.net.ProxySelector.getDefault()",29,0.014084507042253521
+"public static synchronized void java.net.CookieHandler.setDefault(java.net.CookieHandler)",1,4.8567265662943174E-4
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy4() throws java.io.IOException",113,0.054881010199125786
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy5() throws java.io.IOException",195,0.0947061680427392
+"public com.squareup.okhttp.ConnectionPool com.squareup.okhttp.OkHttpClient.getConnectionPool()",8,0.003885381253035454
+"public static void java.net.ProxySelector.setDefault(java.net.ProxySelector)",11,0.005342399222923749
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy6() throws java.io.IOException",155,0.07527926177756192
+"public java.net.Proxy com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectProxy7() throws java.io.IOException",117,0.05682370082564352
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",3,0.0014570179698882952
+"public com.squareup.okhttp.internal.http.OkResponseCache com.squareup.okhttp.OkHttpClient.okResponseCache()",12,0.005828071879553181
+"public void com.squareup.okhttp.ConnectionPool.maybeShare(com.squareup.okhttp.Connection)",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient200() throws java.io.IOException",9,0.004371053909664886
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient201() throws java.io.IOException",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient202() throws java.io.IOException",55,0.026711996114618747
+"public static com.squareup.okhttp.ConnectionPool com.squareup.okhttp.ConnectionPool.getDefault()",2,9.713453132588635E-4
+"public synchronized int com.squareup.okhttp.ConnectionPool.getSpdyConnectionCount()",16,0.007770762506070908
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient208() throws java.io.IOException",37,0.017969888295288974
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient209() throws java.io.IOException",21,0.010199125789218067
+"public static final java.util.List com.squareup.okhttp.OkHttpClient.DEFAULT_TRANSPORTS",1,4.8567265662943174E-4
+"public javax.net.ssl.SSLSocketFactory com.squareup.okhttp.OkHttpClient.sslSocketFactory",11,0.005342399222923749
+"public javax.net.ssl.SSLSocketFactory com.squareup.okhttp.OkHttpClient.sslSocketFactory",8,0.003885381253035454
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient204() throws java.io.IOException",76,0.036911121903836816
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient205() throws java.io.IOException",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient206() throws java.io.IOException",85,0.0412821758135017
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient207() throws java.io.IOException",52,0.02525497814473045
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient203() throws java.io.IOException",61,0.02962603205439534
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient178() throws java.io.IOException",32,0.015541525012141816
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.OkHttpClient.setConnectionPool(com.squareup.okhttp.ConnectionPool)",22,0.010684798445847498
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient179() throws java.io.IOException",46,0.022340942204953862
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient59() throws java.io.IOException",24,0.011656143759106362
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient174() throws java.io.IOException",11,0.005342399222923749
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient50() throws java.io.IOException",22,0.010684798445847498
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient176() throws java.io.IOException",27,0.013113161728994658
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient177() throws java.io.IOException",105,0.05099562894609033
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient173() throws java.io.IOException",20,0.009713453132588635
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient58() throws java.io.IOException",12,0.005828071879553181
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient181() throws java.io.IOException",29,0.014084507042253521
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient54() throws java.io.IOException",13,0.006313744536182613
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient53() throws java.io.IOException",23,0.011170471102476931
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient182() throws java.io.IOException",38,0.018455560951918408
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient183() throws java.io.IOException",109,0.05293831957260806
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient52() throws java.io.IOException",35,0.016998542982030112
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient51() throws java.io.IOException",42,0.020398251578436135
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient57() throws java.io.IOException",21,0.010199125789218067
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient56() throws java.io.IOException",37,0.017969888295288974
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient180() throws java.io.IOException",54,0.026226323457989316
+"public com.squareup.okhttp.OkHttpClient com.squareup.okhttp.SerializedObjectSupporter.deserializeObjectOkHttpClient55() throws java.io.IOException",10,0.0048567265662943174

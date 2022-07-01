@@ -1,0 +1,74 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setfilterFound(boolean)",2444,0.11846825012118274
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setqueryParsed(boolean)",2931,0.14207464857004362
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setPath(java.lang.String)",728,0.03528841492971401
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getfilterFound()",4424,0.2144449830344159
+"public org.apache.lucene.search.join.BitDocIdSetFilter org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getparentFilter()",2967,0.14381968007755697
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.query() throws java.io.IOException",714,0.034609791565681045
+"public org.apache.lucene.search.Query org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.innerQuery",3625,0.17571497818710616
+"public org.apache.lucene.search.Query org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.innerQuery",2291,0.11105186621425109
+"public static final org.elasticsearch.index.mapper.object.ObjectMapper$Dynamic org.elasticsearch.index.mapper.object.ObjectMapper$Defaults.DYNAMIC",1,4.847309743092584E-5
+"public org.elasticsearch.index.mapper.object.ObjectMapper org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getParentObjectMapper()",2080,0.10082404265632573
+"public org.apache.lucene.search.Filter org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getchildFilter()",2447,0.11861366941347552
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getqueryParsed()",3246,0.15734367426078527
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.filterFound()",3794,0.18390693165293262
+"public org.apache.lucene.search.join.BitDocIdSetFilter org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.parentFilter",3717,0.18017450315075134
+"public org.apache.lucene.search.join.BitDocIdSetFilter org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.parentFilter",4189,0.20305380513814833
+"public boolean org.elasticsearch.index.mapper.object.ObjectMapper$Nested.isNested()",1699,0.082355792535143
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getqueryFound()",7990,0.38730004847309746
+"public static final boolean org.elasticsearch.index.mapper.object.ObjectMapper$Defaults.ENABLED",1,4.847309743092584E-5
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setPathLevel()",736,0.035676199709161416
+"public static final org.elasticsearch.index.mapper.object.ObjectMapper$Nested org.elasticsearch.index.mapper.object.ObjectMapper$Defaults.NESTED",8,3.877847794474067E-4
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.filter() throws java.io.IOException",677,0.03281628696073679
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.queryParsed",5102,0.2473097430925836
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.queryParsed",3035,0.1471158507028599
+"public static final org.elasticsearch.index.mapper.object.ObjectMapper$Nested org.elasticsearch.index.mapper.object.ObjectMapper$Nested.NO",410,0.019873969946679594
+"org.elasticsearch.index.mapper.object.ObjectMapper$TypeParser()",4,1.9389238972370335E-4
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.queryFound()",4083,0.1979156568104702
+"public final org.elasticsearch.index.query.QueryParseContext org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.parseContext",3411,0.16534173533688803
+"public org.elasticsearch.index.mapper.Mapper$Builder org.elasticsearch.index.mapper.object.ObjectMapper$TypeParser.parse(java.lang.String,java.util.Map,org.elasticsearch.index.mapper.Mapper$TypeParser$ParserContext) throws org.elasticsearch.index.mapper.MapperParsingException",4,1.9389238972370335E-4
+"public static org.elasticsearch.index.mapper.object.ObjectMapper$Nested org.elasticsearch.index.mapper.object.ObjectMapper$Nested.newNested(boolean,boolean)",186,0.009015996122152205
+"public org.apache.lucene.search.Query org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.innerFilter",6456,0.3129423170140572
+"public static final org.elasticsearch.index.mapper.ContentPath$Type org.elasticsearch.index.mapper.object.ObjectMapper$Defaults.PATH_TYPE",1,4.847309743092584E-5
+"public org.apache.lucene.search.Query org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.innerFilter",4703,0.2279689772176442
+"public org.apache.lucene.search.Query org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getInnerFilter() throws java.io.IOException",1177,0.05705283567619971
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.filterFound",11614,0.5629665535627727
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.filterFound",5369,0.2602520601066408
+"STRICT",1,4.847309743092584E-5
+"public static final java.lang.String org.elasticsearch.index.mapper.object.ObjectMapper.NESTED_CONTENT_TYPE",1,4.847309743092584E-5
+"public org.apache.lucene.search.Query org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getInnerQuery() throws java.io.IOException",798,0.03868153174987882
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getfilterParsed()",5168,0.2505089675230247
+"public java.lang.String org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getPath()",2594,0.12573921473582161
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setchildFilter(org.apache.lucene.search.Filter)",2637,0.12782355792535144
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setqueryFound(boolean)",3494,0.16936500242365488
+"public org.elasticsearch.index.query.QueryParseContext org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getparseContext()",6439,0.3121182743577315
+"public org.elasticsearch.common.bytes.BytesReference org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getsource()",3003,0.14556471158507028
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.queryFound",7506,0.3638390693165293
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.queryFound",2625,0.12724188075618031
+"public boolean org.elasticsearch.index.mapper.object.ObjectMapper$Nested.isIncludeInParent()",1743,0.08448860882210374
+"public static final java.lang.String org.elasticsearch.index.mapper.object.ObjectMapper.CONTENT_TYPE",1,4.847309743092584E-5
+"public org.elasticsearch.common.bytes.BytesReference org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.source",6244,0.30266602035870094
+"public org.elasticsearch.common.bytes.BytesReference org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.source",11306,0.5480368395540475
+"org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(org.elasticsearch.common.xcontent.XContentParser, org.elasticsearch.search.internal.SearchContext)",1,4.847309743092584E-5
+"org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(org.elasticsearch.index.query.QueryParseContext)",20011,0.9699951526902569
+"public org.apache.lucene.search.Filter org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.childFilter",3302,0.1600581677169171
+"public org.apache.lucene.search.Filter org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.childFilter",2592,0.12564226854095978
+"public boolean org.elasticsearch.index.mapper.object.ObjectMapper$Nested.isIncludeInRoot()",1527,0.07401841977702375
+"public org.elasticsearch.index.mapper.object.ObjectMapper org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.nestedObjectMapper",3162,0.15327193407658748
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setparentFilter(org.apache.lucene.search.join.BitDocIdSetFilter)",4714,0.2285021812893844
+"public org.elasticsearch.index.mapper.object.ObjectMapper org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.nestedObjectMapper",2498,0.12108579738245275
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setfilterParsed(boolean)",4724,0.22898691226369364
+"public org.elasticsearch.index.mapper.object.ObjectMapper org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.getNestedObjectMapper()",2727,0.13218613669413476
+"public final native java.lang.Class java.lang.Object.getClass()",718,0.03480368395540475
+"public java.lang.String org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.path",4692,0.22743577314590402
+"public java.lang.String org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.path",3389,0.16427532719340765
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.resetPathLevel()",710,0.034415899175957346
+"org.elasticsearch.index.mapper.object.ObjectMapper$Defaults()",1,4.847309743092584E-5
+"public void org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.setsource(org.elasticsearch.common.bytes.BytesReference)",12252,0.5938923897237034
+"TRUE",1,4.847309743092584E-5
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.filterParsed",6132,0.2972370334464372
+"public boolean org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.filterParsed",1945,0.09428017450315075
+"public org.elasticsearch.index.mapper.object.ObjectMapper org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.parentObjectMapper",8339,0.40421715947649056
+"public org.elasticsearch.index.mapper.object.ObjectMapper org.elasticsearch.index.query.support.NestedInnerQueryParseSupport.parentObjectMapper",2403,0.11648085312651478
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1,4.847309743092584E-5
+"FALSE",1,4.847309743092584E-5

@@ -1,0 +1,37 @@
+Methods called,Number of times,Number of times (Normalized)
+"public retrofit.client.Request retrofit.RequestBuilder.build() throws java.io.UnsupportedEncodingException",218,0.05893484725601514
+"public java.lang.String retrofit.RequestBuilder.apiUrl",619,0.16734252500675859
+"public java.lang.String retrofit.RequestBuilder.apiUrl",301,0.08137334414706678
+"public retrofit.RequestBuilder retrofit.RequestBuilder.args(java.lang.Object[])",488,0.13192754798594214
+"public java.lang.Object[] retrofit.RequestBuilder.getargs()",740,0.20005406866720735
+"public java.lang.String retrofit.client.Request.getMethod()",1126,0.3044065963773993
+"java.util.ArrayList()",4845,1.3098134630981346
+"java.lang.Object[2]",128,0.03460394701270614
+"public void retrofit.RequestBuilder.setargs(java.lang.Object[])",322,0.08705055420383888
+"java.lang.Object[4]",1454,0.39307921059745876
+"public final retrofit.converter.Converter retrofit.RequestBuilder.converter",1316,0.35577183022438497
+"retrofit.RequestBuilder(retrofit.converter.Converter)",2651,0.7166801838334685
+"public final java.lang.String retrofit.client.Request.url",3062,0.8277912949445796
+"public retrofit.RequestBuilder retrofit.RequestBuilder.headers(java.util.List)",542,0.14652608813192755
+"public java.lang.String retrofit.RequestBuilder.buildRelativeUrl() throws java.io.UnsupportedEncodingException",122,0.032981886996485535
+"public final native java.lang.Class java.lang.Object.getClass()",254,0.06866720735333874
+"public final java.util.List retrofit.client.Request.headers",7394,1.998918626655853
+"public retrofit.converter.Converter retrofit.RequestBuilder.getconverter()",708,0.19140308191403083
+"public final java.lang.String retrofit.client.Request.method",1124,0.3038659097053258
+"public retrofit.RequestBuilder retrofit.RequestBuilder.apiUrl(java.lang.String)",647,0.17491213841578804
+"public java.lang.Object[] retrofit.RequestBuilder.args",1544,0.4174101108407678
+"public java.lang.Object[] retrofit.RequestBuilder.args",942,0.2546634225466342
+"public java.lang.String retrofit.client.Request.getUrl()",1149,0.31062449310624496
+"retrofit.client.Header[0]",4845,1.3098134630981346
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",4845,1.3098134630981346
+"public java.lang.String retrofit.RequestBuilder.getapiUrl()",648,0.17518248175182483
+"public retrofit.mime.TypedOutput retrofit.RequestBuilder.buildBody()",120,0.032441200324412
+"public void retrofit.RequestBuilder.setapiUrl(java.lang.String)",1006,0.2719653960529873
+"public java.util.List retrofit.RequestBuilder.headers",2881,0.7788591511219248
+"public java.util.List retrofit.RequestBuilder.headers",569,0.15382535820492024
+"public final retrofit.mime.TypedOutput retrofit.client.Request.body",4352,1.1765341984320086
+"public java.util.List retrofit.RequestBuilder.getheaders()",588,0.15896188158961883
+"retrofit.client.Request(java.lang.String, java.lang.String, java.util.List, retrofit.mime.TypedOutput)",11956,3.2322249256555824
+"public void retrofit.RequestBuilder.setheaders(java.util.List)",788,0.21303054879697214
+"public retrofit.mime.TypedOutput retrofit.client.Request.getBody()",1088,0.29413354960800214
+"public java.util.List retrofit.client.Request.getHeaders()",2237,0.604758042714247

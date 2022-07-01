@@ -1,0 +1,12 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.util.jar.Manifest(java.io.InputStream)",1,0.1111111111111111
+"java.util.jar.Manifest()",1,0.1111111111111111
+"org.springframework.boot.loader.archive.ExplodedArchive(java.io.File)",1,0.1111111111111111
+"java.net.URL(java.lang.String, java.lang.String, int, java.lang.String)",1,0.1111111111111111
+"org.springframework.boot.loader.archive.ExplodedArchive$FileEntry(org.springframework.boot.loader.archive.ExplodedArchive)",1,0.1111111111111111
+"java.net.URL(java.lang.String, java.lang.String, java.lang.String)",1,0.1111111111111111
+"org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler(org.springframework.boot.loader.archive.ExplodedArchive)",1,0.1111111111111111
+"byte[1]",1,0.1111111111111111
+"java.io.File(java.io.File, java.lang.String)",1,0.1111111111111111
+"java.io.File(java.lang.String, java.lang.String)",1,0.1111111111111111
+"org.springframework.boot.loader.util.AsciiBytes([B, int, int)",1,0.1111111111111111

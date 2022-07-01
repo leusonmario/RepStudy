@@ -1,0 +1,17 @@
+Methods called,Number of times,Number of times (Normalized)
+"public fitnesse.testsystems.slim.tables.SlimTable fitnesse.testsystems.slim.tables.SlimTableFactory.makeSlimTable(fitnesse.testsystems.slim.Table,java.lang.String,fitnesse.testsystems.slim.SlimTestContext)",2528,0.1391304347826087
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypes",26202,1.4420473307649972
+"public java.lang.Class fitnesse.testsystems.slim.tables.SlimTableFactory.getTableType(java.lang.String)",41836,2.3024766097963676
+"public java.lang.String fitnesse.testsystems.slim.tables.SlimTableFactory.getFullTableName(java.lang.String)",56927,3.1330214639515686
+"public boolean fitnesse.testsystems.slim.tables.SlimTableFactory.hasColon(java.lang.String)",25887,1.4247110621904238
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypeArrays",62056,3.415299944964227
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypeArrays",36242,1.9946064942212438
+"public fitnesse.testsystems.slim.tables.SlimTableFactory fitnesse.testsystems.slim.tables.SlimTableFactory.copy()",65281,3.5927903137039077
+"public static java.util.logging.Logger fitnesse.testsystems.slim.tables.SlimTableFactory.LOG",4,2.201430930104568E-4
+"public static java.util.logging.Logger fitnesse.testsystems.slim.tables.SlimTableFactory.LOG",8,4.402861860209136E-4
+"fitnesse.testsystems.slim.tables.SlimTableFactory()",53539,2.9465602641717115
+"public final native java.lang.Class java.lang.Object.getClass()",2566,0.14122179416620803
+"java.lang.Object()",1,5.50357732526142E-5
+"public void fitnesse.testsystems.slim.tables.SlimTableFactory.parseDefineTableTypeRow(fitnesse.testsystems.slim.Table,int)",2827,0.15558613098514035
+"public fitnesse.testsystems.slim.tables.SlimTable fitnesse.testsystems.slim.tables.SlimTableFactory.parseDefineTableTypeTable(fitnesse.testsystems.slim.Table)",2505,0.13786461199779856
+"public java.lang.String fitnesse.testsystems.slim.tables.SlimTableFactory.makeTableType(java.lang.String)",25682,1.4134287286736378

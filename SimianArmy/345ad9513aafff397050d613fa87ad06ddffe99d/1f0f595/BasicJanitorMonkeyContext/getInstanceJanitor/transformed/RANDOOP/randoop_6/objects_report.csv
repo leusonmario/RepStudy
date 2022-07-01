@@ -1,0 +1,5 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,22894,2,0.9843494711497119,8.599191675982457E-5
+class java.lang.Object,1,1,4.2995958379912286E-5,4.2995958379912286E-5
+class java.lang.Class,1384,2,0.059506406397798604,8.599191675982457E-5
+class com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext,23253,3,0.9997850202081005,1.2898787513973686E-4

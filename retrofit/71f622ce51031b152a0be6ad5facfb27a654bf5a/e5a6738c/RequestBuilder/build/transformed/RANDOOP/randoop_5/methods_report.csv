@@ -1,0 +1,37 @@
+Methods called,Number of times,Number of times (Normalized)
+"public retrofit.client.Request retrofit.RequestBuilder.build() throws java.io.UnsupportedEncodingException",287,0.05059051648157941
+"public java.lang.String retrofit.RequestBuilder.apiUrl",2363,0.4165344614842235
+"public java.lang.String retrofit.RequestBuilder.apiUrl",2009,0.35413361537105587
+"public retrofit.RequestBuilder retrofit.RequestBuilder.args(java.lang.Object[])",2074,0.3655913978494624
+"public java.lang.Object[] retrofit.RequestBuilder.getargs()",3096,0.5457429931253305
+"public java.lang.String retrofit.client.Request.getMethod()",2176,0.383571302661731
+"java.util.ArrayList()",4763,0.8395910453023092
+"public void retrofit.RequestBuilder.setargs(java.lang.Object[])",4703,0.829014630706857
+"public final retrofit.converter.Converter retrofit.RequestBuilder.converter",1261,0.22228098008108585
+"retrofit.RequestBuilder(retrofit.converter.Converter)",12313,2.1704565485633704
+"public retrofit.RequestBuilder retrofit.RequestBuilder.headers(java.util.List)",1595,0.2811563546624361
+"public final java.lang.String retrofit.client.Request.url",3671,0.6471002996650802
+"java.lang.Object[0]",150,0.026441036488630356
+"public java.lang.String retrofit.RequestBuilder.buildRelativeUrl() throws java.io.UnsupportedEncodingException",308,0.054292261589987664
+"public final native java.lang.Class java.lang.Object.getClass()",427,0.07526881720430108
+"public final java.util.List retrofit.client.Request.headers",4351,0.7669663317468711
+"java.lang.Object[5]",3812,0.6719548739643927
+"public retrofit.converter.Converter retrofit.RequestBuilder.getconverter()",6827,1.2034197073858628
+"public final java.lang.String retrofit.client.Request.method",1984,0.34972677595628415
+"public retrofit.RequestBuilder retrofit.RequestBuilder.apiUrl(java.lang.String)",4040,0.7121452494271109
+"public java.lang.Object[] retrofit.RequestBuilder.args",743,0.1309712674070157
+"public java.lang.Object[] retrofit.RequestBuilder.args",272,0.047946412832716376
+"public java.lang.String retrofit.client.Request.getUrl()",6632,1.1690463599506433
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",4763,0.8395910453023092
+"public java.lang.String retrofit.RequestBuilder.getapiUrl()",1642,0.28944121276220697
+"public retrofit.mime.TypedOutput retrofit.RequestBuilder.buildBody()",318,0.05605499735589635
+"public void retrofit.RequestBuilder.setapiUrl(java.lang.String)",5089,0.8970562312709325
+"public java.util.List retrofit.RequestBuilder.headers",6300,1.110523532522475
+"public java.util.List retrofit.RequestBuilder.headers",1120,0.1974264057817733
+"public final retrofit.mime.TypedOutput retrofit.client.Request.body",2682,0.4727657324167107
+"public java.util.List retrofit.RequestBuilder.getheaders()",1275,0.22474881015335801
+"retrofit.client.Request(java.lang.String, java.lang.String, java.util.List, retrofit.mime.TypedOutput)",15011,2.646042658205535
+"retrofit.client.Header[0]",4763,0.8395910453023092
+"public void retrofit.RequestBuilder.setheaders(java.util.List)",6492,1.1443680592279217
+"public retrofit.mime.TypedOutput retrofit.client.Request.getBody()",6906,1.2173453199365416
+"public java.util.List retrofit.client.Request.getHeaders()",3567,0.6287678476996298

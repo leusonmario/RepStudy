@@ -1,0 +1,5 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,5995,752,2.92724609375,0.3671875
+class org.activiti.engine.impl.persistence.entity.SerializedObjectSupporter,2045,1,0.99853515625,4.8828125E-4
+class org.activiti.engine.impl.persistence.entity.DeploymentEntityManager,3912,2,1.91015625,9.765625E-4
+class java.lang.Boolean,6696,2,3.26953125,9.765625E-4

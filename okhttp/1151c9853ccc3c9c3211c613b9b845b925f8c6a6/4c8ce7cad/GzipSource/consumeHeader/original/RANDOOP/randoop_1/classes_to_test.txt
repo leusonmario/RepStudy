@@ -1,0 +1,2 @@
+com.squareup.okhttp.internal.bytes.GzipSource
+com.squareup.okhttp.internal.bytes.Deadline

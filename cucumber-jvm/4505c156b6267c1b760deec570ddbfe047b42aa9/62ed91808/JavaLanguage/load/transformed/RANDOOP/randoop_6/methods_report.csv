@@ -1,0 +1,18 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void cuke4duke.internal.language.ProgrammingLanguage.addStepDefinition(cuke4duke.internal.language.StepDefinition)",475,0.0895888344021124
+"public void cuke4duke.internal.java.JavaLanguage.end_scenario()",449,0.08468502451904941
+"cuke4duke.internal.java.JavaLanguage(cuke4duke.internal.language.LanguageMixin)",1,1.886080724254998E-4
+"cuke4duke.internal.java.JavaLanguage()",5300,0.999622783855149
+"public cuke4duke.internal.language.LanguageMixin cuke4duke.internal.java.JavaLanguage.languageMixin",10380,1.957751791776688
+"public cuke4duke.internal.language.LanguageMixin cuke4duke.internal.java.JavaLanguage.languageMixin",8664,1.6341003394945304
+"public void cuke4duke.internal.java.JavaLanguage.registerBeforeMaybe(java.lang.reflect.Method)",484,0.0912863070539419
+"public void cuke4duke.internal.java.JavaLanguage.registerAfterMaybe(java.lang.reflect.Method)",493,0.0929837797057714
+"public void cuke4duke.internal.java.JavaLanguage.begin_scenario()",455,0.08581667295360242
+"public java.util.List cuke4duke.internal.language.ProgrammingLanguage.step_definitions_for(java.lang.String) throws java.lang.Exception",535,0.1009053187476424
+"public cuke4duke.internal.java.ObjectFactory cuke4duke.internal.java.JavaLanguage.objectFactory",9348,1.7631082610335722
+"public java.lang.Class cuke4duke.internal.java.JavaLanguage.loadClass(java.lang.String) throws java.lang.ClassNotFoundException",523,0.0986420218785364
+"public cuke4duke.internal.java.ObjectFactory cuke4duke.internal.java.JavaLanguage.objectFactory",11670,2.2010562052055826
+"public final native java.lang.Class java.lang.Object.getClass()",541,0.1020369671821954
+"public void cuke4duke.internal.java.JavaLanguage.registerStepDefinitionMaybe(java.lang.reflect.Method)",497,0.0937382119954734
+"public void cuke4duke.internal.java.JavaLanguage.load(java.lang.String) throws java.lang.ClassNotFoundException",531,0.1001508864579404
+"java.lang.Object()",1,1.886080724254998E-4

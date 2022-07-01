@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Object,1,1,1.886080724254998E-4,1.886080724254998E-4
+class cuke4duke.internal.java.JavaLanguage,5300,2,0.999622783855149,3.772161448509996E-4
+class java.lang.Class,419,2,0.07902678234628442,3.772161448509996E-4

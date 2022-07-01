@@ -1,0 +1,13 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.lang.String[2]",4,0.3076923076923077
+"public void io.cloudslang.lang.api.SlangImpl.unSubscribeOnEvents(io.cloudslang.score.events.ScoreEventListener)",1,0.07692307692307693
+"public void io.cloudslang.lang.api.SlangImpl.subscribeOnAllEvents(io.cloudslang.score.events.ScoreEventListener)",1,0.07692307692307693
+"java.lang.String[1]",2,0.15384615384615385
+"io.cloudslang.lang.api.SlangImpl()",12,0.9230769230769231
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",7,0.5384615384615384
+"public void io.cloudslang.lang.api.SlangImpl.subscribeOnEvents(io.cloudslang.score.events.ScoreEventListener,java.util.Set)",7,0.5384615384615384
+"java.lang.Object()",1,0.07692307692307693
+"public final native java.lang.Class java.lang.Object.getClass()",2,0.15384615384615385
+"public io.cloudslang.lang.entities.CompilationArtifact io.cloudslang.lang.api.SlangImpl.compile(io.cloudslang.lang.compiler.SlangSource,java.util.Set)",2,0.15384615384615385
+"io.cloudslang.lang.compiler.SlangSource[0]",1,0.07692307692307693
+"java.util.LinkedHashSet()",7,0.5384615384615384

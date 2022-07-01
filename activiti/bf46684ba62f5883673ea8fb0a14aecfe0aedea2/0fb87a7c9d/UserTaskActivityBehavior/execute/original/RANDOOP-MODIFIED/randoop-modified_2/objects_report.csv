@@ -1,0 +1,13 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.activiti.engine.impl.persistence.entity.ExecutionEntity,60421,56250,3.2944929116684842,3.0670665212649943
+class org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior,563,563,0.0306979280261723,0.0306979280261723
+class java.util.HashMap,6446,55,0.3514721919302072,0.0029989094874591058
+class java.util.ArrayList,3984,490,0.21723009814612868,0.026717557251908396
+class [Lorg.activiti.engine.impl.pvm.PvmTransition;,182,1,0.009923664122137405,5.452562704471101E-5
+class java.lang.Boolean,33667,2,1.8357142857142856,1.0905125408942203E-4
+class org.activiti.engine.impl.pvm.runtime.StartingExecution,1668,1,0.09094874591057797,5.452562704471101E-5
+class java.lang.Integer,16878,16,0.9202835332606325,8.724100327153762E-4
+class java.lang.Class,199,5,0.010850599781897492,2.726281352235551E-4
+class [Lorg.activiti.engine.impl.persistence.entity.VariableInstanceEntity;,628,1,0.03424209378407852,5.452562704471101E-5
+class java.lang.String,6831,11,0.3724645583424209,5.997818974918212E-4
+class [Ljava.lang.String;,428,362,0.023336968375136314,0.019738276990185388

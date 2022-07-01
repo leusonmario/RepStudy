@@ -1,0 +1,82 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static org.apache.log4j.Logger org.apache.log4j.Category.exists(java.lang.String)",1232,0.06952988317625149
+"public void org.apache.log4j.Category.setPriority(org.apache.log4j.Priority)",1960,0.11061572323494553
+"public final org.apache.log4j.Level org.apache.log4j.Category.getPriority()",3018,0.17032563914442125
+"public static org.apache.log4j.Category org.apache.log4j.Category.getInstance(java.lang.Class)",5697,0.3215192730966759
+"public static org.apache.log4j.Category org.apache.log4j.Category.getInstance(java.lang.String)",2051,0.1157514532422823
+"public org.apache.log4j.Level org.apache.log4j.Category.getEffectiveLevel()",16277,0.9186184321914329
+"public boolean org.apache.log4j.Category.isAttached(org.apache.log4j.Appender)",4337,0.2447655059540606
+"public static org.apache.log4j.spi.LoggerRepository org.apache.log4j.Category.getDefaultHierarchy()",4,2.2574637394886846E-4
+"public final org.apache.log4j.Level org.apache.log4j.Category.getLevel()",3100,0.17495343981037303
+"public boolean org.apache.log4j.Category.getAdditivity()",2379,0.13426265590608952
+"public void org.apache.log4j.Category.l7dlog(org.apache.log4j.Priority,java.lang.String,java.lang.Throwable)",2710,0.15294316835035837
+"public java.util.Set io.cloudslang.lang.api.SlangImpl.getAllEventTypes()",22557,1.2730402392911564
+"public void org.apache.log4j.Category.l7dlog(org.apache.log4j.Priority,java.lang.String,java.lang.Object[],java.lang.Throwable)",1690,0.09537784299339692
+"public void org.apache.log4j.Category.callAppenders(org.apache.log4j.spi.LoggingEvent)",2635,0.14871042383881708
+"public void io.cloudslang.lang.api.SlangImpl.unSubscribeOnEvents(io.cloudslang.score.events.ScoreEventListener)",899,0.05073649754500818
+"public boolean org.apache.log4j.Category.isDebugEnabled()",15991,0.9024775664540888
+"public void org.apache.log4j.Category.debug(java.lang.Object)",12132,0.684688752186918
+"public void org.apache.log4j.Category.debug(java.lang.Object,java.lang.Throwable)",2597,0.14656583328630285
+"public synchronized void org.apache.log4j.Category.removeAllAppenders()",7196,0.40611772673401436
+"java.lang.Object[3]",81,0.004571364072464586
+"public java.util.ResourceBundle org.apache.log4j.Category.getResourceBundle()",2435,0.13742310514137368
+"java.lang.Object[2]",16,9.029854957954738E-4
+"public void org.apache.log4j.Logger.trace(java.lang.Object)",3388,0.19120717873469156
+"public void org.apache.log4j.Logger.trace(java.lang.Object,java.lang.Throwable)",3130,0.17664653761498955
+"public void org.apache.log4j.Category.info(java.lang.Object,java.lang.Throwable)",2196,0.12393475929792877
+"public void org.apache.log4j.Category.info(java.lang.Object)",1812,0.1022631073988374
+"public boolean org.apache.log4j.Category.isEnabledFor(org.apache.log4j.Priority)",1995,0.11259100400699813
+"public org.apache.log4j.Priority org.apache.log4j.Category.getChainedPriority()",6385,0.36034764941588127
+"io.cloudslang.lang.api.SlangImpl()",14211,0.8020204300468424
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",841,0.04746317512274959
+"public static org.apache.log4j.Logger io.cloudslang.lang.api.SlangImpl.logger",4771,0.2692589875275128
+"public boolean org.apache.log4j.Logger.isTraceEnabled()",2283,0.12884474293131667
+"public static org.apache.log4j.Logger io.cloudslang.lang.api.SlangImpl.logger",77,0.004345617698515718
+"public synchronized void org.apache.log4j.Category.removeAppender(java.lang.String)",8291,0.4679157966025171
+"public synchronized void org.apache.log4j.Category.removeAppender(org.apache.log4j.Appender)",4042,0.22811671087533156
+"public synchronized java.util.Enumeration org.apache.log4j.Category.getAllAppenders()",3829,0.21609571646255432
+"public void org.apache.log4j.Category.assertLog(boolean,java.lang.String)",3407,0.1922794740109487
+"public void org.apache.log4j.Category.fatal(java.lang.Object,java.lang.Throwable)",21568,1.2172244483322987
+"public void org.apache.log4j.Category.fatal(java.lang.Object)",3208,0.1810485919069925
+"public io.cloudslang.score.api.Score io.cloudslang.lang.api.SlangImpl.score",13195,0.7446808510638298
+"public io.cloudslang.score.api.Score io.cloudslang.lang.api.SlangImpl.score",19855,1.1205485636886958
+"public void org.apache.log4j.Category.setResourceBundle(java.util.ResourceBundle)",28600,1.6140865737344094
+"public static final org.apache.log4j.Category org.apache.log4j.Category.getRoot()",1535,0.08663017100287827
+"public void org.apache.log4j.Category.log(java.lang.String,org.apache.log4j.Priority,java.lang.Object,java.lang.Throwable)",454,0.025622213443196568
+"public void org.apache.log4j.Category.log(org.apache.log4j.Priority,java.lang.Object)",4046,0.22834245724928043
+"public void org.apache.log4j.Category.log(org.apache.log4j.Priority,java.lang.Object,java.lang.Throwable)",2175,0.12274959083469722
+"public io.cloudslang.score.events.EventBus io.cloudslang.lang.api.SlangImpl.eventBus",19788,1.1167673119250523
+"public io.cloudslang.score.events.EventBus io.cloudslang.lang.api.SlangImpl.eventBus",9174,0.5177493086517297
+"java.lang.Object[1]",60,0.0033861956092330267
+"public org.apache.log4j.spi.LoggerRepository org.apache.log4j.Category.getLoggerRepository()",2878,0.16242451605621086
+"public org.apache.log4j.spi.LoggerRepository org.apache.log4j.Category.getHierarchy()",5156,0.29098707602009144
+"public static void org.apache.log4j.Category.shutdown()",1,5.6436593487217114E-5
+"public synchronized org.apache.log4j.Appender org.apache.log4j.Category.getAppender(java.lang.String)",3318,0.18725661719058637
+"public void io.cloudslang.lang.api.SlangImpl.subscribeOnAllEvents(io.cloudslang.score.events.ScoreEventListener)",884,0.049889948642699924
+"public static java.util.Enumeration org.apache.log4j.Category.getCurrentCategories()",1,5.6436593487217114E-5
+"public void org.apache.log4j.Category.error(java.lang.Object,java.lang.Throwable)",2486,0.14030137140922175
+"public void org.apache.log4j.Category.error(java.lang.Object)",1815,0.10243241717929906
+"public void org.apache.log4j.Category.warn(java.lang.Object,java.lang.Throwable)",2409,0.13595575371070603
+"public void org.apache.log4j.Category.warn(java.lang.Object)",1254,0.07077148823297026
+"public final org.apache.log4j.Category org.apache.log4j.Category.getParent()",7266,0.41006828827811953
+"public synchronized void org.apache.log4j.Category.addAppender(org.apache.log4j.Appender)",6073,0.3427394322478695
+"public final native java.lang.Class java.lang.Object.getClass()",7546,0.4258705344545403
+"io.cloudslang.lang.compiler.SlangSource[0]",836,0.0471809921553135
+"public io.cloudslang.lang.entities.CompilationArtifact io.cloudslang.lang.api.SlangImpl.compile(io.cloudslang.lang.compiler.SlangSource,java.util.Set)",881,0.04972063886223828
+"java.util.LinkedHashSet()",841,0.04746317512274959
+"public static org.apache.log4j.Logger org.apache.log4j.Logger.getLogger(java.lang.String)",40360,2.2777809131440825
+"public static org.apache.log4j.Logger org.apache.log4j.Logger.getLogger(java.lang.String,org.apache.log4j.spi.LoggerFactory)",1542,0.08702522715728879
+"public static org.apache.log4j.Logger org.apache.log4j.Logger.getLogger(java.lang.Class)",6053,0.3416107003781252
+"public void org.apache.log4j.Category.setAdditivity(boolean)",2750,0.15520063208984705
+"public boolean org.apache.log4j.Category.isInfoEnabled()",5095,0.2875444438173712
+"public void io.cloudslang.lang.api.SlangImpl.subscribeOnEvents(io.cloudslang.score.events.ScoreEventListener,java.util.Set)",903,0.050962243918957054
+"public static org.apache.log4j.Logger org.apache.log4j.Logger.getRootLogger()",294,0.01659235848524183
+"java.lang.String[5]",1,5.6436593487217114E-5
+"java.lang.String[8]",1,5.6436593487217114E-5
+"public void org.apache.log4j.Category.setLevel(org.apache.log4j.Level)",1632,0.09210452057113833
+"public io.cloudslang.lang.compiler.SlangCompiler io.cloudslang.lang.api.SlangImpl.compiler",23666,1.3356284214684802
+"public io.cloudslang.lang.compiler.SlangCompiler io.cloudslang.lang.api.SlangImpl.compiler",12335,0.6961453806648231
+"java.lang.String[3]",1,5.6436593487217114E-5
+"java.lang.String[2]",1,5.6436593487217114E-5
+"java.lang.String[1]",1,5.6436593487217114E-5
+"public final java.lang.String org.apache.log4j.Category.getName()",3623,0.2044697782041876

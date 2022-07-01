@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,30227,1,1.3874506563848343,4.590103736344442E-5
+class org.opentripplanner.routing.spt.MultiShortestPathTree,21735,1,0.9976590470944643,4.590103736344442E-5
+class java.util.IdentityHashMap$KeySet,34647,1,1.5903332415312585,4.590103736344442E-5
+class java.lang.Integer,23832,1,1.0939135224456074,4.590103736344442E-5
+class java.lang.Class,2185,4,0.10029376663912605,1.8360414945377767E-4
+class java.util.Collections$EmptyList,22956,1,1.05370421371523,4.590103736344442E-5
+class java.util.ArrayList,16082,1,0.738180482878913,4.590103736344442E-5

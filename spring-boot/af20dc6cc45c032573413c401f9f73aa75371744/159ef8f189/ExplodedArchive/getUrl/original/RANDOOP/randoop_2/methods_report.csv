@@ -1,0 +1,12 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static void java.net.URL.setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)",1,0.0030959752321981426
+"org.springframework.boot.loader.archive.ExplodedArchive(java.io.File)",1,0.0030959752321981426
+"org.springframework.boot.loader.archive.ExplodedArchive(java.io.File, boolean)",2,0.006191950464396285
+"java.net.URL(java.net.URL, java.lang.String, java.net.URLStreamHandler)",2,0.006191950464396285
+"java.net.URL(java.lang.String)",2,0.006191950464396285
+"java.net.URL(java.lang.String, java.lang.String, int, java.lang.String)",152,0.47058823529411764
+"java.net.URL(java.net.URL, java.lang.String)",2,0.006191950464396285
+"java.net.URL(java.lang.String, java.lang.String, int, java.lang.String, java.net.URLStreamHandler)",152,0.47058823529411764
+"java.net.URL(java.lang.String, java.lang.String, java.lang.String)",8,0.02476780185758514
+"java.lang.Object()",1,0.0030959752321981426
+"public final native java.lang.Class java.lang.Object.getClass()",1,0.0030959752321981426

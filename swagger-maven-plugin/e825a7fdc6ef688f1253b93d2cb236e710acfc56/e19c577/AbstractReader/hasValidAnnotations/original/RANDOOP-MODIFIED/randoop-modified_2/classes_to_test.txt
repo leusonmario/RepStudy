@@ -1,0 +1,2 @@
+com.github.kongchen.swagger.docgen.reader.AbstractReader
+com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader

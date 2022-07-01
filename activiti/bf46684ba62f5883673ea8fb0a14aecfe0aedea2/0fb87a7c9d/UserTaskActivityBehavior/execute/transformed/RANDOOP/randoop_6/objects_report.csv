@@ -1,0 +1,16 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.util.ArrayList,6272,1296,0.364969450101833,0.07541460576083794
+class java.lang.Integer,11145,15,0.6485306953738725,8.728542333430317E-4
+class java.lang.Boolean,20053,2,1.1668897294151876,1.1638056444573757E-4
+class java.lang.Object,2,1,1.1638056444573757E-4,5.819028222286878E-5
+class org.activiti.engine.impl.pvm.runtime.StartingExecution,154,1,0.008961303462321792,5.819028222286878E-5
+class [Lorg.activiti.engine.impl.persistence.entity.ExecutionEntity;,1183,1183,0.06883910386965376,0.06883910386965376
+class [Ljava.lang.String;,11,9,6.400931044515566E-4,5.23712540005819E-4
+class java.util.HashMap,11748,58,0.6836194355542624,0.003375036368926389
+class org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior,1360,1360,0.07913878382310154,0.07913878382310154
+class java.lang.String,7937,11,0.4618562700029095,6.400931044515566E-4
+class [Lorg.activiti.engine.impl.pvm.PvmTransition;,75,1,0.0043642711667151585,5.819028222286878E-5
+class java.util.Arrays$ArrayList,1673,11,0.09735234215885948,6.400931044515566E-4
+class java.lang.Class,163,6,0.009485016002327611,3.491416933372127E-4
+class org.activiti.engine.impl.persistence.entity.ExecutionEntity,59395,33833,3.4562118126272914,1.9687518184463195
+class [Lorg.activiti.engine.impl.persistence.entity.VariableInstanceEntity;,971,1,0.05650276403840559,5.819028222286878E-5

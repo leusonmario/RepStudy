@@ -1,0 +1,2 @@
+com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext
+com.netflix.simianarmy.aws.janitor.InstanceJanitor

@@ -1,0 +1,162 @@
+Methods called,Number of times,Number of times (Normalized)
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.discriminator(io.swagger.oas.models.media.Discriminator)",1022,0.0754689115344853
+"public java.lang.Object io.swagger.oas.models.media.Schema.getDefault()",1050,0.07753655294638902
+"public java.lang.Boolean io.swagger.oas.models.media.Schema.getNullable()",1551,0.11453256535223748
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.format(java.lang.String)",1608,0.11874169251218432
+"public java.util.Map io.swagger.oas.models.media.Schema.getProperties()",2589,0.19118298626495348
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getInfo(io.swagger.oas.annotations.info.Info)",1,7.38443361394181E-5
+"public java.lang.Object java.util.Optional.get()",197,0.014547334219465366
+"public void io.swagger.oas.models.media.Schema.addEnumItemObject(java.lang.Object)",631,0.04659577610397282
+"public void io.swagger.oas.models.media.Schema.setUniqueItems(java.lang.Boolean)",873,0.06446610544971201
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.additionalProperties(io.swagger.oas.models.media.Schema)",2202,0.16260522817899867
+"public void io.swagger.oas.models.media.Schema.setMinimum(java.math.BigDecimal)",1186,0.08757938266134987
+"public java.lang.String io.swagger.oas.models.media.Schema.getPattern()",701,0.051764879633732094
+"public java.lang.Boolean io.swagger.oas.models.media.Schema.getReadOnly()",2469,0.1823216659282233
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.maxLength(java.lang.Integer)",1289,0.09518534928370993
+"public java.lang.String io.swagger.oas.models.media.Schema.getType()",1237,0.09134544380446019
+"public void io.swagger.oas.models.media.Schema.setDiscriminator(io.swagger.oas.models.media.Discriminator)",640,0.04726037512922759
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.title(java.lang.String)",3177,0.2346034559149313
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.type(java.lang.String)",1013,0.07480431250923054
+"public void io.swagger.oas.models.media.Schema.setEnum(java.util.List)",730,0.05390636538177522
+"public void io.swagger.oas.models.media.Schema.setMaximum(java.math.BigDecimal)",2794,0.20632107517353418
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getExternalDocumentation(io.swagger.oas.annotations.ExternalDocumentation)",1,7.38443361394181E-5
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.deprecated(java.lang.Boolean)",2558,0.18889381184463153
+"public void io.swagger.oas.models.media.Schema.setProperties(java.util.Map)",995,0.07347511445872101
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getParameter(io.swagger.oas.annotations.Parameter,io.swagger.oas.models.Components)",1,7.38443361394181E-5
+"public void io.swagger.oas.models.media.Schema.setMultipleOf(java.math.BigDecimal)",1534,0.11327721163786737
+"public java.lang.Integer io.swagger.oas.models.media.Schema.getMinProperties()",1237,0.09134544380446019
+"public void io.swagger.oas.models.media.Schema.setMinItems(java.lang.Integer)",732,0.05405405405405406
+"public void io.swagger.oas.models.media.Schema.setRequired(java.util.List)",4506,0.33274257864421797
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.writeOnly(java.lang.Boolean)",4511,0.33311180032491505
+"io.swagger.oas.annotations.responses.ApiResponse[1]",3,2.2153300841825432E-4
+"public java.lang.String io.swagger.oas.models.media.Schema.getFormat()",831,0.06136464333185645
+"public static final java.lang.String io.swagger.jaxrs2.OperationParser.COMMA",1,7.38443361394181E-5
+"public java.lang.Boolean io.swagger.oas.models.media.Schema.getUniqueItems()",2652,0.1958351794417368
+"public void io.swagger.oas.models.media.Schema.setPattern(java.lang.String)",620,0.04578348840643923
+"public void io.swagger.oas.models.media.Schema.addExtension(java.lang.String,java.lang.Object)",13912,1.0273224043715847
+"public java.lang.String io.swagger.oas.models.media.Schema.getDescription()",1094,0.08078570373652341
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.not(io.swagger.oas.models.media.Schema)",27892,2.05966622360065
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getServers(io.swagger.oas.annotations.servers.Server[])",3843,0.28378378378378377
+"io.swagger.oas.annotations.responses.ApiResponse[0]",28,0.002067641411903707
+"public java.lang.Boolean io.swagger.oas.models.media.Schema.getWriteOnly()",574,0.042386648944025995
+"public java.lang.Integer io.swagger.oas.models.media.Schema.getMinLength()",583,0.043051247969280754
+"public static final java.lang.String io.swagger.jaxrs2.OperationParser.COMPONENTS_REF",1,7.38443361394181E-5
+"public void io.swagger.oas.models.media.Schema.setExtensions(java.util.Map)",1997,0.14746713927041796
+"public void io.swagger.oas.models.media.Schema.setExclusiveMaximum(java.lang.Boolean)",2436,0.1798848028356225
+"java.util.ArrayList()",6541,0.4830158026879338
+"java.lang.String[41]",1,7.38443361394181E-5
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.getAdditionalProperties()",1425,0.1052281789986708
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.minItems(java.lang.Integer)",2473,0.18261704327278097
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.$ref(java.lang.String)",1151,0.08499483089647024
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.maximum(java.math.BigDecimal)",2365,0.17464185496972381
+"public static java.util.Optional java.util.Optional.ofNullable(java.lang.Object)",1497,0.1105449712007089
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.name(java.lang.String)",1914,0.14133805937084626
+"io.swagger.jaxrs2.OperationParser()",5,3.692216806970905E-4
+"public boolean io.swagger.oas.models.media.Schema.equals(java.lang.Object)",885,0.06535223748338502
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getContact(io.swagger.oas.annotations.info.Contact)",1,7.38443361394181E-5
+"public final native java.lang.Class java.lang.Object.getClass()",246,0.018165706690296855
+"java.lang.String[4]",4812,0.3553389455028799
+"java.lang.String[3]",7,5.169103529759268E-4
+"public void io.swagger.oas.models.media.Schema.setDescription(java.lang.String)",16941,1.250996898537882
+"java.lang.String[5]",906,0.0669029685423128
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.description(java.lang.String)",2167,0.16002067641411905
+"java.lang.String[0]",3,2.2153300841825432E-4
+"io.swagger.oas.models.servers.Server[0]",1272,0.09392999556933983
+"public java.math.BigDecimal io.swagger.oas.models.media.Schema.getMaximum()",810,0.05981391227292867
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.addProperties(java.lang.String,io.swagger.oas.models.media.Schema)",1844,0.13616895584108699
+"java.lang.String[2]",1,7.38443361394181E-5
+"java.lang.String[1]",137,0.010116674051100281
+"java.lang.String[12]",8,5.907546891153448E-4
+"io.swagger.oas.annotations.media.Content[0]",54,0.003987594151528578
+"io.swagger.oas.annotations.media.Content[1]",1,7.38443361394181E-5
+"public java.lang.String io.swagger.oas.models.media.Schema.getName()",722,0.05331561069265987
+"public java.lang.Boolean io.swagger.oas.models.media.Schema.getDeprecated()",825,0.06092157731501994
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.maxProperties(java.lang.Integer)",1589,0.11733865012553538
+"public java.math.BigDecimal io.swagger.oas.models.media.Schema.getMinimum()",1153,0.08514251956874908
+"public void io.swagger.oas.models.media.Schema.setTitle(java.lang.String)",2069,0.15278393147245606
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getTags(java.lang.String[])",1040,0.07679810958499483
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.minProperties(java.lang.Integer)",1283,0.09474228326687344
+"public void io.swagger.oas.models.media.Schema.setDefault(java.lang.Object)",832,0.06143848766799587
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.readOnly(java.lang.Boolean)",1627,0.12014473489883326
+"public void io.swagger.oas.models.media.Schema.setDeprecated(java.lang.Boolean)",1343,0.09917294343523851
+"public io.swagger.oas.models.media.Discriminator io.swagger.oas.models.media.Schema.getDiscriminator()",1659,0.12250775365529464
+"public void io.swagger.oas.models.media.Schema.set$ref(java.lang.String)",804,0.05937084625609216
+"public java.util.Map io.swagger.oas.models.media.Schema.getExtensions()",1081,0.07982572736671098
+"io.swagger.oas.annotations.servers.Server[0]",2395,0.17685718505390635
+"io.swagger.oas.annotations.servers.Server[1]",671,0.04954954954954955
+"public void io.swagger.oas.models.media.Schema.setMinProperties(java.lang.Integer)",905,0.06682912420617339
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.maxItems(java.lang.Integer)",1205,0.08898242504799882
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.multipleOf(java.math.BigDecimal)",1767,0.1304829419583518
+"public static java.util.Optional java.util.Optional.of(java.lang.Object)",604,0.04460197902820854
+"public void io.swagger.oas.models.media.Schema.setMaxLength(java.lang.Integer)",803,0.05929700191995274
+"public java.util.List io.swagger.oas.models.media.Schema.getRequired()",1919,0.14170728105154334
+"public java.lang.Boolean io.swagger.oas.models.media.Schema.getExclusiveMinimum()",974,0.07192438339979323
+"public void io.swagger.oas.models.media.Schema.setReadOnly(java.lang.Boolean)",1102,0.08137645842563876
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getServer(io.swagger.oas.annotations.servers.Server)",1,7.38443361394181E-5
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.uniqueItems(java.lang.Boolean)",2043,0.1508639787328312
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getArraySchema(io.swagger.oas.annotations.media.ArraySchema)",1,7.38443361394181E-5
+"public void io.swagger.oas.models.media.Schema.setExclusiveMinimum(java.lang.Boolean)",2202,0.16260522817899867
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.minimum(java.math.BigDecimal)",1991,0.14702407325358144
+"public void io.swagger.oas.models.media.Schema.setExternalDocs(io.swagger.oas.models.ExternalDocumentation)",2025,0.14953478068232168
+"public java.lang.Integer io.swagger.oas.models.media.Schema.getMaxProperties()",1503,0.11098803721754541
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.pattern(java.lang.String)",1256,0.09274848619110915
+"public java.util.List io.swagger.oas.models.media.Schema.getEnum()",969,0.07155516171909615
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",6229,0.4599763698124354
+"public void io.swagger.oas.models.media.Schema.setWriteOnly(java.lang.Boolean)",25331,1.8705508787476
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.nullable(java.lang.Boolean)",905,0.06682912420617339
+"public void io.swagger.oas.models.media.Schema.setName(java.lang.String)",1139,0.08410869886279722
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getSchemaFromAnnotation(io.swagger.oas.annotations.media.Schema)",1,7.38443361394181E-5
+"public void io.swagger.oas.models.media.Schema.setMaxItems(java.lang.Integer)",701,0.051764879633732094
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getContent(io.swagger.oas.annotations.media.Content,javax.ws.rs.Produces,javax.ws.rs.Produces,io.swagger.oas.models.Components)",1,7.38443361394181E-5
+"public void io.swagger.oas.models.media.Schema.setAdditionalProperties(io.swagger.oas.models.media.Schema)",3199,0.23622803130999853
+"public static java.util.Map io.swagger.jaxrs2.OperationParser.getLinks(io.swagger.oas.annotations.links.Link[])",278,0.020528725446758232
+"public static java.util.Map io.swagger.jaxrs2.OperationParser.getLinkParameters(io.swagger.oas.annotations.links.LinkParameters)",8,5.907546891153448E-4
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getRequestBody(io.swagger.oas.annotations.parameters.RequestBody,io.swagger.oas.models.Components)",1,7.38443361394181E-5
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getApiResponses(io.swagger.oas.annotations.responses.ApiResponse[],javax.ws.rs.Produces,javax.ws.rs.Produces,io.swagger.oas.models.Components)",247,0.018239551026436273
+"public void io.swagger.oas.models.media.Schema.setXml(io.swagger.oas.models.media.XML)",795,0.058706247230837394
+"public java.lang.String io.swagger.oas.models.media.Schema.getTitle()",770,0.05686013882735194
+"public void io.swagger.oas.models.media.Schema.setNullable(java.lang.Boolean)",3589,0.2650273224043716
+"public io.swagger.oas.models.ExternalDocumentation io.swagger.oas.models.media.Schema.getExternalDocs()",2745,0.20270270270270271
+"public java.lang.Boolean io.swagger.oas.models.media.Schema.getExclusiveMaximum()",519,0.038325210456358
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getLicense(io.swagger.oas.annotations.info.License)",1,7.38443361394181E-5
+"public void io.swagger.oas.models.media.Schema.setType(java.lang.String)",1584,0.11696942844483828
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getLink(io.swagger.oas.annotations.links.Link)",1,7.38443361394181E-5
+"public io.swagger.oas.models.media.XML io.swagger.oas.models.media.Schema.getXml()",836,0.06173386501255354
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getParametersList(io.swagger.oas.annotations.Parameter[],io.swagger.oas.models.Components)",185,0.01366120218579235
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.externalDocs(io.swagger.oas.models.ExternalDocumentation)",1862,0.1374981538915965
+"io.swagger.oas.models.media.Schema()",57702,4.260965883916704
+"public static final java.lang.String io.swagger.jaxrs2.OperationParser.MEDIA_TYPE",1,7.38443361394181E-5
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.properties(java.util.Map)",3606,0.2662826761187417
+"public boolean java.util.Optional.isPresent()",2338,0.17264805789395954
+"public static java.util.Optional java.util.Optional.empty()",162,0.011962782454585734
+"public java.lang.String io.swagger.oas.models.media.Schema.toString()",429,0.031679220203810365
+"public java.lang.Integer io.swagger.oas.models.media.Schema.getMaxLength()",3298,0.2435386205878009
+"public java.lang.String io.swagger.oas.models.media.Schema.get$ref()",34174,2.523556343228474
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.addRequiredItem(java.lang.String)",2397,0.1770048737261852
+"public static final java.lang.String io.swagger.jaxrs2.OperationParser.DEFAULT_DESCRIPTION",1,7.38443361394181E-5
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.required(java.util.List)",3579,0.2642888790429774
+"public java.lang.String java.util.Optional.toString()",1643,0.12132624427706395
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.example(java.lang.Object)",1575,0.11630482941958352
+"public void io.swagger.oas.models.media.Schema.setExample(java.lang.Object)",1544,0.11401565499926156
+"public void io.swagger.oas.models.media.Schema.setMinLength(java.lang.Integer)",1153,0.08514251956874908
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getContents(io.swagger.oas.annotations.media.Content[],io.swagger.oas.models.Components)",399,0.029463890119627825
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.minLength(java.lang.Integer)",1132,0.0835917885098213
+"public java.lang.Object io.swagger.oas.models.media.Schema.getExample()",1263,0.09326539654408507
+"public java.lang.Integer io.swagger.oas.models.media.Schema.getMaxItems()",1263,0.09326539654408507
+"public boolean java.util.Optional.equals(java.lang.Object)",1091,0.08056417072810515
+"io.swagger.oas.annotations.links.Link[0]",47,0.003470683798552651
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.exclusiveMinimum(java.lang.Boolean)",2427,0.17922020381036774
+"public java.lang.Integer io.swagger.oas.models.media.Schema.getMinItems()",454,0.03352532860729582
+"io.swagger.oas.annotations.links.Link[1]",1,7.38443361394181E-5
+"public java.lang.Object java.util.Optional.orElse(java.lang.Object)",4462,0.3294934278540836
+"public abstract boolean java.util.List.add(java.lang.Object)",2513,0.1855708167183577
+"public void io.swagger.oas.models.media.Schema.setMaxProperties(java.lang.Integer)",581,0.04290355929700192
+"io.swagger.oas.annotations.Parameter[1]",10,7.38443361394181E-4
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.xml(io.swagger.oas.models.media.XML)",1295,0.09562841530054644
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.exclusiveMaximum(java.lang.Boolean)",1661,0.12265544232757347
+"io.swagger.oas.annotations.Parameter[0]",22,0.0016245753950671984
+"public static java.util.Optional io.swagger.jaxrs2.OperationParser.getMediaType(io.swagger.oas.models.media.MediaType,io.swagger.oas.annotations.media.ExampleObject)",1,7.38443361394181E-5
+"public java.math.BigDecimal io.swagger.oas.models.media.Schema.getMultipleOf()",6895,0.5091566976812878
+"public void io.swagger.oas.models.media.Schema.setFormat(java.lang.String)",933,0.06889676561807709
+"public io.swagger.oas.models.media.Schema io.swagger.oas.models.media.Schema.getNot()",1603,0.11837247083148722
+"public void io.swagger.oas.models.media.Schema.setNot(io.swagger.oas.models.media.Schema)",1198,0.0884655146950229

@@ -1,0 +1,26 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static java.lang.String com.metamx.druid.client.DataSegment.makeDataSegmentIdentifier(java.lang.String,org.joda.time.DateTime,org.joda.time.DateTime,java.lang.String,com.metamx.druid.shard.ShardSpec)",4,3.425537381176672E-4
+"java.lang.String[2]",3929,0.3364734092660786
+"java.lang.String[1]",15708,1.3452085295880791
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.loadSpec(java.util.Map)",34597,2.9628329194142333
+"java.util.ArrayList()",19637,1.6816819388541577
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.shardSpec(com.metamx.druid.shard.ShardSpec)",39321,3.367388884131198
+"public final native java.lang.Class java.lang.Object.getClass()",2258,0.19337158516742314
+"public static com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment.builder()",34053,2.9162456110302304
+"public static com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment.builder(com.metamx.druid.client.DataSegment)",1,8.56384345294168E-5
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.version(java.lang.String)",41968,3.594073820330564
+"com.metamx.druid.client.DataSegment(java.lang.String, org.joda.time.Interval, java.lang.String, java.util.Map, java.util.List, java.util.List, com.metamx.druid.shard.ShardSpec, long)",409,0.035026119722531474
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",19637,1.6816819388541577
+"com.metamx.druid.client.DataSegment$Builder(com.metamx.druid.client.DataSegment)",1,8.56384345294168E-5
+"com.metamx.druid.client.DataSegment$Builder()",13537,1.1592874882247153
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.interval(org.joda.time.Interval)",34204,2.9291770146441722
+"public com.metamx.druid.client.DataSegment com.metamx.druid.loading.S3SegmentPusher.push(java.io.File,com.metamx.druid.client.DataSegment) throws java.io.IOException",1,8.56384345294168E-5
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.metrics(java.util.List)",34190,2.9279780765607604
+"public static java.util.Comparator com.metamx.druid.client.DataSegment.bucketMonthComparator()",1,8.56384345294168E-5
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.dimensions(java.util.List)",22109,1.8933801490108761
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.dataSource(java.lang.String)",13934,1.1932859467328938
+"public com.metamx.druid.client.DataSegment com.metamx.druid.client.DataSegment$Builder.build()",2341,0.20047957523336474
+"public static java.lang.String com.metamx.druid.client.DataSegment.delimiter",2,1.712768690588336E-4
+"public static java.lang.String com.metamx.druid.client.DataSegment.delimiter",1,8.56384345294168E-5
+"com.metamx.druid.loading.S3SegmentPusher(org.jets3t.service.impl.rest.httpclient.RestS3Service, com.metamx.druid.loading.S3SegmentPusherConfig, org.codehaus.jackson.map.ObjectMapper)",1,8.56384345294168E-5
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.size(long)",38596,3.305301019097371

@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Object,1,1,5.1192792054878675E-5,5.1192792054878675E-5
+class java.lang.Class,1,1,5.1192792054878675E-5,5.1192792054878675E-5
+class [B,19531,19531,0.9998464216238354,0.9998464216238354

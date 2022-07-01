@@ -1,0 +1,2 @@
+org.activiti.engine.impl.persistence.entity.DeploymentEntityManager
+org.activiti.engine.impl.persistence.entity.SerializedObjectSupporter

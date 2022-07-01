@@ -1,0 +1,18 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setWindowListener(com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener)",53646,1.6503414754199224
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setTitle(java.lang.String)",36582,1.1253922352796406
+"com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application(com.badlogic.gdx.ApplicationListener, com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration)",1,3.076355134436719E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setDecorated(boolean)",49169,1.5126130560511906
+"public static final int com.badlogic.gdx.Application.LOG_INFO",1,3.076355134436719E-5
+"com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration()",32500,0.9998154186919338
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setResizable(boolean)",29887,0.9194302590291024
+"public static final int com.badlogic.gdx.Application.LOG_ERROR",1,3.076355134436719E-5
+"public static final int com.badlogic.gdx.Application.LOG_DEBUG",1,3.076355134436719E-5
+"public static final int com.badlogic.gdx.Application.LOG_NONE",1,3.076355134436719E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setFullscreenMode(com.badlogic.gdx.Graphics$DisplayMode)",38196,1.1750446071494494
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setWindowPosition(int,int)",31945,0.98274164769581
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setInitialBackgroundColor(com.badlogic.gdx.graphics.Color)",38237,1.1763059127545683
+"public final native java.lang.Class java.lang.Object.getClass()",6082,0.18710391927644127
+"java.lang.Object()",1,3.076355134436719E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setInitialVisible(boolean)",34279,1.054543776533563
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration.setWindowedMode(int,int)",37232,1.1453885436534794

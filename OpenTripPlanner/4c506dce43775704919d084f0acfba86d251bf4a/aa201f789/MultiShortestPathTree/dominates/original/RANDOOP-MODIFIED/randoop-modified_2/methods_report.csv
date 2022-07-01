@@ -1,0 +1,25 @@
+Methods called,Number of times,Number of times (Normalized)
+"public final org.opentripplanner.routing.core.RoutingRequest org.opentripplanner.routing.spt.AbstractShortestPathTree.options",14295,0.6346281908990011
+"public void org.opentripplanner.routing.spt.AbstractShortestPathTree.postVisit(org.opentripplanner.routing.core.State)",16216,0.7199112097669257
+"public org.opentripplanner.routing.core.RoutingRequest org.opentripplanner.routing.spt.AbstractShortestPathTree.getOptions()",14642,0.6500332963374029
+"public java.util.List org.opentripplanner.routing.spt.MultiShortestPathTree.getStates(org.opentripplanner.routing.graph.Vertex)",16578,0.7359822419533851
+"public void org.opentripplanner.routing.spt.MultiShortestPathTree.dump()",33049,1.467214206437292
+"public java.util.Set org.opentripplanner.routing.spt.MultiShortestPathTree.getVertices()",18079,0.8026193118756937
+"public java.lang.String org.opentripplanner.routing.spt.MultiShortestPathTree.toString()",14445,0.6412874583795782
+"public boolean org.opentripplanner.routing.spt.MultiShortestPathTree.visit(org.opentripplanner.routing.core.State)",2447,0.10863485016648168
+"public org.opentripplanner.routing.core.State org.opentripplanner.routing.spt.MultiShortestPathTree.getState(org.opentripplanner.routing.graph.Vertex)",21736,0.9649722530521643
+"public org.opentripplanner.routing.spt.GraphPath org.opentripplanner.routing.spt.AbstractShortestPathTree.getPath(org.opentripplanner.routing.graph.Vertex,boolean)",20366,0.9041509433962264
+"org.opentripplanner.routing.core.StateData(org.opentripplanner.routing.core.RoutingRequest)",1,4.439511653718091E-5
+"public int org.opentripplanner.routing.spt.MultiShortestPathTree.getVertexCount()",13775,0.611542730299667
+"public java.util.List org.opentripplanner.routing.spt.AbstractShortestPathTree.getPaths()",2509,0.1113873473917869
+"public java.util.List org.opentripplanner.routing.spt.AbstractShortestPathTree.getPaths(org.opentripplanner.routing.graph.Vertex,boolean)",27042,1.2005327413984461
+"org.opentripplanner.routing.core.State(org.opentripplanner.routing.graph.Vertex, org.opentripplanner.routing.graph.Edge, long, org.opentripplanner.routing.core.RoutingRequest)",24,0.0010654827968923418
+"org.opentripplanner.routing.core.State(org.opentripplanner.routing.graph.Vertex, org.opentripplanner.routing.core.RoutingRequest)",1,4.439511653718091E-5
+"org.opentripplanner.routing.core.State(org.opentripplanner.routing.core.RoutingRequest)",1,4.439511653718091E-5
+"org.opentripplanner.routing.core.State(org.opentripplanner.routing.graph.Vertex, long, org.opentripplanner.routing.core.RoutingRequest)",24,0.0010654827968923418
+"public static boolean org.opentripplanner.routing.spt.MultiShortestPathTree.dominates(org.opentripplanner.routing.core.State,org.opentripplanner.routing.core.State)",1,4.439511653718091E-5
+"public final native java.lang.Class java.lang.Object.getClass()",2622,0.11640399556048835
+"java.lang.Object()",1,4.439511653718091E-5
+"org.opentripplanner.routing.spt.MultiShortestPathTree(org.opentripplanner.routing.core.RoutingRequest)",22472,0.9976470588235294
+"public boolean org.opentripplanner.routing.spt.MultiShortestPathTree.add(org.opentripplanner.routing.core.State)",2528,0.11223085460599334
+"public java.util.Collection org.opentripplanner.routing.spt.MultiShortestPathTree.getAllStates()",15889,0.7053940066592674

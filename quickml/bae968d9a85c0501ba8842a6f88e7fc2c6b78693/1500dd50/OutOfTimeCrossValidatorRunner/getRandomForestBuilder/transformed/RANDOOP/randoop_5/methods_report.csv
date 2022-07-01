@@ -1,0 +1,11 @@
+Methods called,Number of times,Number of times (Normalized)
+"quickdt.data.AbstractInstance[0]",361,0.33210671573137074
+"quickdt.experiments.OutOfTimeCrossValidatorRunner()",1,9.199632014719411E-4
+"public static org.slf4j.Logger quickdt.experiments.OutOfTimeCrossValidatorRunner.logger",1,9.199632014719411E-4
+"public static org.slf4j.Logger quickdt.experiments.OutOfTimeCrossValidatorRunner.logger",1,9.199632014719411E-4
+"public static quickdt.predictiveModels.randomForest.RandomForest quickdt.experiments.OutOfTimeCrossValidatorRunner.getRandomForest(java.util.List,int,int)",722,0.6642134314627415
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",361,0.33210671573137074
+"public static quickdt.predictiveModels.PredictiveModelBuilder quickdt.experiments.OutOfTimeCrossValidatorRunner.getRandomForestBuilder(int,int)",361,0.33210671573137074
+"java.lang.Object()",1,9.199632014719411E-4
+"public final native java.lang.Class java.lang.Object.getClass()",363,0.33394664213431463
+"java.util.ArrayList()",361,0.33210671573137074

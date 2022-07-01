@@ -1,0 +1,9 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Object,12,1,0.0021897810218978104,1.824817518248175E-4
+class com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader,52573,48,9.59361313868613,0.008759124087591242
+class java.util.LinkedHashSet,3791,7,0.6917883211678832,0.0012773722627737226
+class java.util.HashSet,100509,24,18.341058394160584,0.004379562043795621
+class java.lang.Boolean,21186,2,3.866058394160584,3.64963503649635E-4
+class java.lang.Class,18851,5,3.439963503649635,9.124087591240876E-4
+class [Ljava.lang.reflect.Type;,21186,3,3.866058394160584,5.474452554744526E-4
+class java.util.ArrayList,19294,2,3.520802919708029,3.64963503649635E-4

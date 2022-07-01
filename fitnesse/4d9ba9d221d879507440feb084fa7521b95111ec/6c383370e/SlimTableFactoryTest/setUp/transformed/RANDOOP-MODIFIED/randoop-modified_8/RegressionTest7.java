@@ -1,0 +1,14894 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest7 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test03501() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03501");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03502() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03502");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory15;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap18 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory19 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory19);
+        java.lang.Class<?> wildcardClass21 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(strMap17);
+        org.junit.Assert.assertNull(strMap18);
+        org.junit.Assert.assertNotNull(wildcardClass21);
+    }
+
+    @Test
+    public void test03503() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03503");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass12 = slimTableFactory11.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03504() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03504");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass16 = strMap15.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(strMap15);
+    }
+
+    @Test
+    public void test03505() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03505");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory4);
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        java.lang.Class<?> wildcardClass15 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test03506() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03506");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03507() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03507");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03508() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03508");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03509() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03509");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03510() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03510");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03511() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03511");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table17 = null;
+        slimTableFactoryTest0.settable(table17);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap15);
+        org.junit.Assert.assertNull(strMap16);
+    }
+
+    @Test
+    public void test03512() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03512");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = slimTableFactoryTest0.getslimTableFactory();
+        java.lang.Class<?> wildcardClass19 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table14);
+        org.junit.Assert.assertNull(strMap15);
+        org.junit.Assert.assertNull(slimTableFactory18);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test03513() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03513");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03514() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03514");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory4);
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03515() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03515");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03516() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03516");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(strMap5);
+    }
+
+    @Test
+    public void test03517() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03517");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03518() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03518");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03519() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03519");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(slimTableFactory17);
+    }
+
+    @Test
+    public void test03520() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03520");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03521() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03521");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass14 = strMap13.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03522() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03522");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03523() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03523");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass17 = table16.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table16);
+    }
+
+    @Test
+    public void test03524() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03524");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+    }
+
+    @Test
+    public void test03525() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03525");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03526() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03526");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory15;
+        fitnesse.testsystems.slim.Table table17 = null;
+        slimTableFactoryTest0.table = table17;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03527() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03527");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03528() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03528");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        java.lang.Class<?> wildcardClass16 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory13);
+        org.junit.Assert.assertNull(table14);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test03529() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03529");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03530() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03530");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        java.lang.Class<?> wildcardClass8 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNotNull(wildcardClass8);
+    }
+
+    @Test
+    public void test03531() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03531");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03532() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03532");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03533() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03533");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03534() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03534");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03535() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03535");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03536() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03536");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03537() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03537");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        java.lang.Class<?> wildcardClass9 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test03538() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03538");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+    }
+
+    @Test
+    public void test03539() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03539");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03540() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03540");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+    }
+
+    @Test
+    public void test03541() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03541");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03542() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03542");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table2 = null;
+        slimTableFactoryTest0.settable(table2);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+    }
+
+    @Test
+    public void test03543() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03543");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table4 = null;
+        slimTableFactoryTest0.table = table4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03544() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03544");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03545() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03545");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap12);
+    }
+
+    @Test
+    public void test03546() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03546");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory15;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap14);
+    }
+
+    @Test
+    public void test03547() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03547");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03548() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03548");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03549() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03549");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03550() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03550");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03551() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03551");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03552() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03552");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.table;
+        java.lang.Class<?> wildcardClass7 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test03553() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03553");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03554() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03554");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03555() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03555");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.lang.Class<?> wildcardClass10 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test03556() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03556");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        java.lang.Class<?> wildcardClass12 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test03557() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03557");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table18 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory16);
+        org.junit.Assert.assertNull(strMap17);
+        org.junit.Assert.assertNull(table18);
+    }
+
+    @Test
+    public void test03558() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03558");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+    }
+
+    @Test
+    public void test03559() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03559");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test03560() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03560");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+    }
+
+    @Test
+    public void test03561() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03561");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory15);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap14);
+    }
+
+    @Test
+    public void test03562() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03562");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+    }
+
+    @Test
+    public void test03563() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03563");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table4 = null;
+        slimTableFactoryTest0.settable(table4);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03564() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03564");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03565() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03565");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        java.lang.Class<?> wildcardClass9 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test03566() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03566");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03567() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03567");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.lang.Class<?> wildcardClass9 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test03568() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03568");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+    }
+
+    @Test
+    public void test03569() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03569");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03570() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03570");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03571() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03571");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03572() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03572");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass18 = table17.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table17);
+    }
+
+    @Test
+    public void test03573() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03573");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03574() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03574");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory17;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap19 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(strMap19);
+    }
+
+    @Test
+    public void test03575() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03575");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test03576() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03576");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03577() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03577");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass16 = strMap15.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap15);
+    }
+
+    @Test
+    public void test03578() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03578");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.table;
+        java.lang.Class<?> wildcardClass16 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(table15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test03579() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03579");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03580() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03580");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass11 = strMap10.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03581() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03581");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03582() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03582");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory4);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap6);
+    }
+
+    @Test
+    public void test03583() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03583");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass15 = strMap14.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap14);
+    }
+
+    @Test
+    public void test03584() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03584");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03585() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03585");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table18 = null;
+        slimTableFactoryTest0.table = table18;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory20 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(slimTableFactory17);
+        org.junit.Assert.assertNull(slimTableFactory20);
+    }
+
+    @Test
+    public void test03586() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03586");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+    }
+
+    @Test
+    public void test03587() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03587");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03588() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03588");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        fitnesse.testsystems.slim.Table table18 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap19 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table20 = null;
+        slimTableFactoryTest0.settable(table20);
+        fitnesse.testsystems.slim.Table table22 = null;
+        slimTableFactoryTest0.settable(table22);
+        fitnesse.testsystems.slim.Table table24 = null;
+        slimTableFactoryTest0.table = table24;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap26 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(table18);
+        org.junit.Assert.assertNull(strMap19);
+        org.junit.Assert.assertNull(strMap26);
+    }
+
+    @Test
+    public void test03589() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03589");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03590() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03590");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03591() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03591");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03592() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03592");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03593() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03593");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03594() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03594");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03595() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03595");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap14);
+    }
+
+    @Test
+    public void test03596() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03596");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        java.lang.Class<?> wildcardClass11 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test03597() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03597");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03598() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03598");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table14);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(table16);
+    }
+
+    @Test
+    public void test03599() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03599");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03600() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03600");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table17 = null;
+        slimTableFactoryTest0.settable(table17);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table14);
+        org.junit.Assert.assertNull(strMap15);
+        org.junit.Assert.assertNull(strMap16);
+    }
+
+    @Test
+    public void test03601() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03601");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass12 = slimTableFactory11.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03602() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03602");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03603() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03603");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03604() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03604");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03605() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03605");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = null;
+        slimTableFactoryTest0.settable(table2);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory4);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory6);
+    }
+
+    @Test
+    public void test03606() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03606");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03607() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03607");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory18;
+        java.lang.Class<?> wildcardClass20 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory16);
+        org.junit.Assert.assertNull(table17);
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test03608() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03608");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03609() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03609");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = null;
+        slimTableFactoryTest0.settable(table2);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+    }
+
+    @Test
+    public void test03610() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03610");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(table15);
+        org.junit.Assert.assertNull(table16);
+    }
+
+    @Test
+    public void test03611() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03611");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass19 = slimTableFactory18.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(strMap15);
+        org.junit.Assert.assertNull(slimTableFactory16);
+        org.junit.Assert.assertNull(table17);
+        org.junit.Assert.assertNull(slimTableFactory18);
+    }
+
+    @Test
+    public void test03612() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03612");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03613() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03613");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03614() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03614");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+    }
+
+    @Test
+    public void test03615() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03615");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+    }
+
+    @Test
+    public void test03616() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03616");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(slimTableFactory16);
+    }
+
+    @Test
+    public void test03617() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03617");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03618() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03618");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03619() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03619");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03620() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03620");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03621() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03621");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03622() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03622");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory19 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory19;
+        java.lang.Class<?> wildcardClass21 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(strMap16);
+        org.junit.Assert.assertNull(table17);
+        org.junit.Assert.assertNull(slimTableFactory18);
+        org.junit.Assert.assertNotNull(wildcardClass21);
+    }
+
+    @Test
+    public void test03623() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03623");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap16);
+        org.junit.Assert.assertNull(table17);
+    }
+
+    @Test
+    public void test03624() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03624");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03625() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03625");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory4);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+    }
+
+    @Test
+    public void test03626() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03626");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03627() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03627");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03628() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03628");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+    }
+
+    @Test
+    public void test03629() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03629");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap18 = slimTableFactoryTest0.getmap();
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(slimTableFactory16);
+        org.junit.Assert.assertNull(strMap17);
+        org.junit.Assert.assertNull(strMap18);
+    }
+
+    @Test
+    public void test03630() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03630");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory17);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(strMap16);
+    }
+
+    @Test
+    public void test03631() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03631");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table4);
+    }
+
+    @Test
+    public void test03632() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03632");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+    }
+
+    @Test
+    public void test03633() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03633");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        java.lang.Class<?> wildcardClass15 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test03634() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03634");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03635() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03635");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03636() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03636");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table4 = null;
+        slimTableFactoryTest0.settable(table4);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap6);
+    }
+
+    @Test
+    public void test03637() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03637");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        java.lang.Class<?> wildcardClass6 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNotNull(wildcardClass6);
+    }
+
+    @Test
+    public void test03638() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03638");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table4);
+    }
+
+    @Test
+    public void test03639() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03639");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table6);
+    }
+
+    @Test
+    public void test03640() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03640");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory16);
+    }
+
+    @Test
+    public void test03641() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03641");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03642() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03642");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03643() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03643");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+    }
+
+    @Test
+    public void test03644() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03644");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table14);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03645() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03645");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+    }
+
+    @Test
+    public void test03646() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03646");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(table6);
+    }
+
+    @Test
+    public void test03647() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03647");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03648() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03648");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03649() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03649");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table4);
+    }
+
+    @Test
+    public void test03650() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03650");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(table16);
+    }
+
+    @Test
+    public void test03651() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03651");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03652() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03652");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory16);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory18;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03653() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03653");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03654() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03654");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+    }
+
+    @Test
+    public void test03655() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03655");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03656() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03656");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03657() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03657");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory14);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory16;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory18);
+        java.lang.Class<?> wildcardClass20 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test03658() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03658");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03659() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03659");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+    }
+
+    @Test
+    public void test03660() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03660");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass16 = table15.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03661() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03661");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03662() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03662");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        fitnesse.testsystems.slim.Table table18 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap19 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory20 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory20);
+        fitnesse.testsystems.slim.Table table22 = null;
+        slimTableFactoryTest0.settable(table22);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(table18);
+        org.junit.Assert.assertNull(strMap19);
+    }
+
+    @Test
+    public void test03663() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03663");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap7);
+    }
+
+    @Test
+    public void test03664() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03664");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        java.lang.Class<?> wildcardClass13 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test03665() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03665");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap12);
+    }
+
+    @Test
+    public void test03666() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03666");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(table6);
+    }
+
+    @Test
+    public void test03667() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03667");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03668() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03668");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03669() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03669");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+        org.junit.Assert.assertNull(table14);
+        org.junit.Assert.assertNull(slimTableFactory15);
+    }
+
+    @Test
+    public void test03670() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03670");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03671() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03671");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory15;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03672() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03672");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03673() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03673");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03674() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03674");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        java.lang.Class<?> wildcardClass15 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test03675() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03675");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(strMap14);
+    }
+
+    @Test
+    public void test03676() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03676");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory17);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory19 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory19);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(slimTableFactory16);
+    }
+
+    @Test
+    public void test03677() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03677");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03678() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03678");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03679() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03679");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass17 = slimTableFactory16.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(table15);
+        org.junit.Assert.assertNull(slimTableFactory16);
+    }
+
+    @Test
+    public void test03680() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03680");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03681() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03681");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap17);
+    }
+
+    @Test
+    public void test03682() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03682");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table18 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap16);
+        org.junit.Assert.assertNull(table17);
+        org.junit.Assert.assertNull(table18);
+    }
+
+    @Test
+    public void test03683() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03683");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03684() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03684");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory16;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap18 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table19 = null;
+        slimTableFactoryTest0.table = table19;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory21 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory21);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(strMap18);
+    }
+
+    @Test
+    public void test03685() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03685");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03686() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03686");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03687() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03687");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03688() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03688");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(table5);
+    }
+
+    @Test
+    public void test03689() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03689");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03690() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03690");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        java.lang.Class<?> wildcardClass12 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test03691() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03691");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03692() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03692");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03693() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03693");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.lang.Class<?> wildcardClass13 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test03694() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03694");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03695() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03695");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03696() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03696");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03697() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03697");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        java.lang.Class<?> wildcardClass15 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test03698() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03698");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory14);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory16);
+    }
+
+    @Test
+    public void test03699() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03699");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03700() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03700");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass9 = table8.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03701() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03701");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03702() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03702");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03703() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03703");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass14 = strMap13.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03704() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03704");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.lang.Class<?> wildcardClass9 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test03705() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03705");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03706() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03706");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03707() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03707");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03708() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03708");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory14);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03709() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03709");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03710() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03710");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03711() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03711");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass14 = slimTableFactory13.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03712() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03712");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap1 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+    }
+
+    @Test
+    public void test03713() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03713");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = null;
+        slimTableFactoryTest0.settable(table2);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory4);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(strMap6);
+    }
+
+    @Test
+    public void test03714() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03714");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+    }
+
+    @Test
+    public void test03715() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03715");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03716() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03716");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03717() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03717");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03718() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03718");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03719() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03719");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test03720() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03720");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory16);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03721() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03721");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03722() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03722");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03723() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03723");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03724() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03724");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass15 = slimTableFactory14.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03725() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03725");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03726() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03726");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03727() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03727");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03728() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03728");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03729() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03729");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03730() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03730");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03731() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03731");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03732() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03732");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03733() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03733");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03734() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03734");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap14);
+    }
+
+    @Test
+    public void test03735() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03735");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03736() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03736");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03737() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03737");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03738() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03738");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03739() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03739");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03740() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03740");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+    }
+
+    @Test
+    public void test03741() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03741");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.lang.Class<?> wildcardClass10 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test03742() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03742");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03743() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03743");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03744() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03744");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03745() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03745");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03746() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03746");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03747() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03747");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03748() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03748");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass12 = strMap11.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03749() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03749");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03750() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03750");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03751() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03751");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory4);
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(strMap15);
+    }
+
+    @Test
+    public void test03752() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03752");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03753() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03753");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap12);
+    }
+
+    @Test
+    public void test03754() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03754");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03755() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03755");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03756() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03756");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        fitnesse.testsystems.slim.Table table17 = null;
+        slimTableFactoryTest0.settable(table17);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory19 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory19);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory21 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(slimTableFactory21);
+    }
+
+    @Test
+    public void test03757() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03757");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03758() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03758");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        java.lang.Class<?> wildcardClass7 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test03759() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03759");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory14);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory16);
+        org.junit.Assert.assertNull(strMap17);
+    }
+
+    @Test
+    public void test03760() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03760");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table4);
+    }
+
+    @Test
+    public void test03761() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03761");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03762() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03762");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+    }
+
+    @Test
+    public void test03763() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03763");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory15);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass18 = strMap17.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap17);
+    }
+
+    @Test
+    public void test03764() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03764");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03765() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03765");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table17);
+    }
+
+    @Test
+    public void test03766() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03766");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+    }
+
+    @Test
+    public void test03767() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03767");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03768() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03768");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03769() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03769");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap19 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(slimTableFactory17);
+        org.junit.Assert.assertNull(slimTableFactory18);
+        org.junit.Assert.assertNull(strMap19);
+    }
+
+    @Test
+    public void test03770() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03770");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass14 = strMap13.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03771() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03771");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03772() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03772");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory16;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(strMap15);
+    }
+
+    @Test
+    public void test03773() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03773");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03774() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03774");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test03775() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03775");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03776() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03776");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+    }
+
+    @Test
+    public void test03777() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03777");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03778() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03778");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03779() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03779");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03780() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03780");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03781() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03781");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test03782() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03782");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03783() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03783");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03784() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03784");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03785() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03785");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03786() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03786");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(strMap12);
+    }
+
+    @Test
+    public void test03787() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03787");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory15;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03788() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03788");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03789() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03789");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        java.lang.Class<?> wildcardClass15 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test03790() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03790");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table17 = null;
+        slimTableFactoryTest0.table = table17;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory16);
+    }
+
+    @Test
+    public void test03791() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03791");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03792() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03792");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(strMap15);
+    }
+
+    @Test
+    public void test03793() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03793");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03794() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03794");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap14);
+    }
+
+    @Test
+    public void test03795() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03795");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(slimTableFactory15);
+    }
+
+    @Test
+    public void test03796() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03796");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03797() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03797");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03798() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03798");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03799() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03799");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03800() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03800");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03801() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03801");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03802() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03802");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03803() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03803");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03804() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03804");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory15);
+    }
+
+    @Test
+    public void test03805() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03805");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+    }
+
+    @Test
+    public void test03806() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03806");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03807() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03807");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03808() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03808");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03809() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03809");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03810() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03810");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03811() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03811");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        fitnesse.testsystems.slim.Table table17 = null;
+        slimTableFactoryTest0.table = table17;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03812() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03812");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03813() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03813");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table6);
+    }
+
+    @Test
+    public void test03814() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03814");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03815() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03815");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        java.lang.Class<?> wildcardClass13 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test03816() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03816");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03817() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03817");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.lang.Class<?> wildcardClass8 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNotNull(wildcardClass8);
+    }
+
+    @Test
+    public void test03818() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03818");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory4);
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap14);
+    }
+
+    @Test
+    public void test03819() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03819");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03820() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03820");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory16;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory18;
+        fitnesse.testsystems.slim.Table table20 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table20);
+    }
+
+    @Test
+    public void test03821() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03821");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03822() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03822");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass14 = table13.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03823() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03823");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03824() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03824");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table18 = slimTableFactoryTest0.table;
+        java.lang.Class<?> wildcardClass19 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory16);
+        org.junit.Assert.assertNull(strMap17);
+        org.junit.Assert.assertNull(table18);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test03825() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03825");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass12 = slimTableFactory11.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03826() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03826");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory18);
+        fitnesse.testsystems.slim.Table table20 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap21 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table22 = null;
+        slimTableFactoryTest0.table = table22;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory24 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory24);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory26 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(table17);
+        org.junit.Assert.assertNull(table20);
+        org.junit.Assert.assertNull(strMap21);
+        org.junit.Assert.assertNull(slimTableFactory26);
+    }
+
+    @Test
+    public void test03827() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03827");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03828() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03828");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        java.lang.Class<?> wildcardClass12 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test03829() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03829");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03830() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03830");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test03831() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03831");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03832() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03832");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03833() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03833");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+    }
+
+    @Test
+    public void test03834() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03834");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03835() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03835");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03836() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03836");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03837() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03837");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03838() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03838");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03839() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03839");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03840() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03840");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03841() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03841");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03842() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03842");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+    }
+
+    @Test
+    public void test03843() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03843");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory17;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap19 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(strMap19);
+    }
+
+    @Test
+    public void test03844() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03844");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass11 = table10.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03845() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03845");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03846() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03846");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03847() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03847");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03848() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03848");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03849() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03849");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(strMap12);
+    }
+
+    @Test
+    public void test03850() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03850");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03851() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03851");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03852() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03852");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03853() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03853");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test03854() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03854");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03855() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03855");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03856() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03856");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03857() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03857");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03858() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03858");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03859() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03859");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03860() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03860");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03861() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03861");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03862() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03862");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        fitnesse.testsystems.slim.Table table18 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap19 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory20 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table21 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory22 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory22;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(table18);
+        org.junit.Assert.assertNull(strMap19);
+        org.junit.Assert.assertNull(slimTableFactory20);
+        org.junit.Assert.assertNull(table21);
+    }
+
+    @Test
+    public void test03863() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03863");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03864() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03864");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03865() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03865");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table4 = null;
+        slimTableFactoryTest0.table = table4;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap6);
+    }
+
+    @Test
+    public void test03866() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03866");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03867() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03867");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        fitnesse.testsystems.slim.Table table17 = null;
+        slimTableFactoryTest0.settable(table17);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory19 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory19);
+        fitnesse.testsystems.slim.Table table21 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(table21);
+    }
+
+    @Test
+    public void test03868() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03868");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03869() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03869");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03870() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03870");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+    }
+
+    @Test
+    public void test03871() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03871");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap1 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = null;
+        slimTableFactoryTest0.settable(table4);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table3);
+    }
+
+    @Test
+    public void test03872() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03872");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory17);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap16);
+    }
+
+    @Test
+    public void test03873() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03873");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory5);
+    }
+
+    @Test
+    public void test03874() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03874");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap17);
+    }
+
+    @Test
+    public void test03875() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03875");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap17);
+    }
+
+    @Test
+    public void test03876() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03876");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        fitnesse.testsystems.slim.Table table17 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory18;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table17);
+    }
+
+    @Test
+    public void test03877() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03877");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.settable(table15);
+        java.lang.Class<?> wildcardClass17 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test03878() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03878");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03879() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03879");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03880() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03880");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.table;
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03881() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03881");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03882() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03882");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03883() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03883");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03884() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03884");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        java.lang.Class<?> wildcardClass10 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test03885() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03885");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03886() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03886");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table4 = null;
+        slimTableFactoryTest0.table = table4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        java.lang.Class<?> wildcardClass8 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNotNull(wildcardClass8);
+    }
+
+    @Test
+    public void test03887() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03887");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03888() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03888");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03889() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03889");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03890() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03890");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03891() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03891");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03892() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03892");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03893() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03893");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03894() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03894");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03895() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03895");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table14);
+        org.junit.Assert.assertNull(slimTableFactory15);
+    }
+
+    @Test
+    public void test03896() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03896");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap17 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass18 = strMap17.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table16);
+        org.junit.Assert.assertNull(strMap17);
+    }
+
+    @Test
+    public void test03897() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03897");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03898() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03898");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03899() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03899");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory18 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory18);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap20 = slimTableFactoryTest0.getmap();
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(strMap20);
+    }
+
+    @Test
+    public void test03900() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03900");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03901() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03901");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03902() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03902");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table5);
+    }
+
+    @Test
+    public void test03903() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03903");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(strMap13);
+    }
+
+    @Test
+    public void test03904() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03904");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03905() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03905");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(strMap7);
+    }
+
+    @Test
+    public void test03906() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03906");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03907() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03907");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03908() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03908");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        java.lang.Class<?> wildcardClass13 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test03909() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03909");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03910() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03910");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03911() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03911");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03912() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03912");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        fitnesse.testsystems.slim.Table table15 = null;
+        slimTableFactoryTest0.table = table15;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory17;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap19 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(strMap19);
+    }
+
+    @Test
+    public void test03913() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03913");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+    }
+
+    @Test
+    public void test03914() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03914");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03915() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03915");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03916() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03916");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table4 = null;
+        slimTableFactoryTest0.table = table4;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory12);
+    }
+
+    @Test
+    public void test03917() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03917");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory15;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = slimTableFactoryTest0.slimTableFactory;
+        java.lang.Class<?> wildcardClass18 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(slimTableFactory14);
+        org.junit.Assert.assertNull(slimTableFactory17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test03918() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03918");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03919() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03919");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(table16);
+    }
+
+    @Test
+    public void test03920() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03920");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03921() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03921");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03922() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03922");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap9);
+    }
+
+    @Test
+    public void test03923() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03923");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+    }
+
+    @Test
+    public void test03924() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03924");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.settable(table7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.lang.Class<?> wildcardClass10 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test03925() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03925");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(strMap15);
+        org.junit.Assert.assertNull(slimTableFactory16);
+    }
+
+    @Test
+    public void test03926() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03926");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.table = table14;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory16 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory16);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap18 = slimTableFactoryTest0.getmap();
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(strMap18);
+    }
+
+    @Test
+    public void test03927() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03927");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table11);
+    }
+
+    @Test
+    public void test03928() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03928");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03929() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03929");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+    }
+
+    @Test
+    public void test03930() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03930");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(strMap15);
+    }
+
+    @Test
+    public void test03931() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03931");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        java.lang.Class<?> wildcardClass13 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test03932() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03932");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03933() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03933");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+    }
+
+    @Test
+    public void test03934() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03934");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03935() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03935");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03936() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03936");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(table16);
+    }
+
+    @Test
+    public void test03937() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03937");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(strMap7);
+    }
+
+    @Test
+    public void test03938() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03938");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap5);
+    }
+
+    @Test
+    public void test03939() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03939");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03940() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03940");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(slimTableFactory15);
+    }
+
+    @Test
+    public void test03941() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03941");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        java.lang.Class<?> wildcardClass13 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test03942() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03942");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+    }
+
+    @Test
+    public void test03943() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03943");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory11);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03944() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03944");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.settable(table13);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap15 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(strMap15);
+    }
+
+    @Test
+    public void test03945() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03945");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03946() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03946");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.settable(table11);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03947() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03947");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03948() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03948");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table17 = null;
+        slimTableFactoryTest0.table = table17;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory19 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory19);
+        java.lang.Class<?> wildcardClass21 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(table15);
+        org.junit.Assert.assertNull(table16);
+        org.junit.Assert.assertNotNull(wildcardClass21);
+    }
+
+    @Test
+    public void test03949() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03949");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap13 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(strMap13);
+        org.junit.Assert.assertNull(strMap16);
+    }
+
+    @Test
+    public void test03950() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03950");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(strMap16);
+    }
+
+    @Test
+    public void test03951() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03951");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03952() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03952");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+    }
+
+    @Test
+    public void test03953() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03953");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table13 = null;
+        slimTableFactoryTest0.table = table13;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(strMap16);
+    }
+
+    @Test
+    public void test03954() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03954");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03955() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03955");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory15);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03956() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03956");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory14;
+        java.lang.Class<?> wildcardClass16 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test03957() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03957");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+    }
+
+    @Test
+    public void test03958() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03958");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory11;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap10);
+    }
+
+    @Test
+    public void test03959() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03959");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+    }
+
+    @Test
+    public void test03960() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03960");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table7);
+    }
+
+    @Test
+    public void test03961() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03961");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03962() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03962");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(table5);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03963() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03963");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        java.lang.Class<?> wildcardClass6 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNotNull(wildcardClass6);
+    }
+
+    @Test
+    public void test03964() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03964");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory14 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory14);
+    }
+
+    @Test
+    public void test03965() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03965");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap18 = slimTableFactoryTest0.getmap();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(strMap18);
+    }
+
+    @Test
+    public void test03966() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03966");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        fitnesse.testsystems.slim.Table table5 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.settable(table6);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table5);
+    }
+
+    @Test
+    public void test03967() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03967");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03968() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03968");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory8;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory17;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory19 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory19);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory12);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(strMap16);
+    }
+
+    @Test
+    public void test03969() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03969");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03970() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03970");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass16 = table15.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03971() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03971");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        fitnesse.testsystems.slim.Table table18 = null;
+        slimTableFactoryTest0.settable(table18);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+    }
+
+    @Test
+    public void test03972() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03972");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory10;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.table = table12;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03973() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03973");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+    }
+
+    @Test
+    public void test03974() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03974");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory13);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table16 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory17;
+        fitnesse.testsystems.slim.Table table19 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(slimTableFactory15);
+        org.junit.Assert.assertNull(table16);
+        org.junit.Assert.assertNull(table19);
+    }
+
+    @Test
+    public void test03975() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03975");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+    }
+
+    @Test
+    public void test03976() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03976");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = null;
+        slimTableFactoryTest0.settable(table2);
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+    }
+
+    @Test
+    public void test03977() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03977");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.table = table8;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass12 = slimTableFactory11.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03978() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03978");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory10);
+    }
+
+    @Test
+    public void test03979() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03979");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        fitnesse.testsystems.slim.Table table16 = null;
+        slimTableFactoryTest0.table = table16;
+        fitnesse.testsystems.slim.Table table18 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap19 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table20 = null;
+        slimTableFactoryTest0.settable(table20);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory22 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNull(table13);
+        org.junit.Assert.assertNull(table18);
+        org.junit.Assert.assertNull(strMap19);
+        org.junit.Assert.assertNull(slimTableFactory22);
+    }
+
+    @Test
+    public void test03980() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03980");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory12;
+        java.lang.Class<?> wildcardClass14 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test03981() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03981");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory2 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.table = table5;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.commentTableShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(slimTableFactory2);
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(strMap7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory11);
+    }
+
+    @Test
+    public void test03982() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03982");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory5;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+    }
+
+    @Test
+    public void test03983() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03983");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        java.lang.Class<?> wildcardClass6 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNotNull(wildcardClass6);
+    }
+
+    @Test
+    public void test03984() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03984");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.table = table10;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = slimTableFactoryTest0.slimTableFactory;
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(slimTableFactory9);
+        org.junit.Assert.assertNull(table12);
+        org.junit.Assert.assertNull(slimTableFactory13);
+    }
+
+    @Test
+    public void test03985() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03985");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table7 = null;
+        slimTableFactoryTest0.table = table7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table13 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(table6);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNull(table13);
+    }
+
+    @Test
+    public void test03986() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03986");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table10 = null;
+        slimTableFactoryTest0.settable(table10);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory12 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory12);
+        fitnesse.testsystems.slim.Table table14 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory15 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory15);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(table14);
+    }
+
+    @Test
+    public void test03987() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03987");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory13 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory13;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefineUsedForTable();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test03988() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03988");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.table = table3;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory6);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap5);
+    }
+
+    @Test
+    public void test03989() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03989");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory4;
+        fitnesse.testsystems.slim.Table table6 = null;
+        slimTableFactoryTest0.table = table6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory9);
+        fitnesse.testsystems.slim.Table table11 = null;
+        slimTableFactoryTest0.table = table11;
+        java.lang.Class<?> wildcardClass13 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test03990() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03990");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table9 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory10);
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("", "hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(table9);
+    }
+
+    @Test
+    public void test03991() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03991");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table8 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap14 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table15 = slimTableFactoryTest0.table;
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(table8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap14);
+        org.junit.Assert.assertNull(table15);
+    }
+
+    @Test
+    public void test03992() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03992");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory3);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.Table table6 = slimTableFactoryTest0.gettable();
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(table6);
+    }
+
+    @Test
+    public void test03993() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03993");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = null;
+        slimTableFactoryTest0.settable(table3);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory5);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap7 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.tableTypeStartingWithcommentColonShouldReturnNull();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(strMap7);
+    }
+
+    @Test
+    public void test03994() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03994");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap2 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap3 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory4 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.map;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.addTableTypeImport("hi!", "");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table1);
+        org.junit.Assert.assertNull(strMap2);
+        org.junit.Assert.assertNull(strMap3);
+        org.junit.Assert.assertNull(slimTableFactory4);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap8);
+        org.junit.Assert.assertNull(strMap11);
+    }
+
+    @Test
+    public void test03995() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03995");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.setslimTableFactory(slimTableFactory7);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap9 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory10 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory11 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table12 = null;
+        slimTableFactoryTest0.settable(table12);
+        fitnesse.testsystems.slim.Table table14 = null;
+        slimTableFactoryTest0.settable(table14);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap16 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory17 = slimTableFactoryTest0.slimTableFactory;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(strMap9);
+        org.junit.Assert.assertNull(slimTableFactory10);
+        org.junit.Assert.assertNull(slimTableFactory11);
+        org.junit.Assert.assertNull(strMap16);
+        org.junit.Assert.assertNull(slimTableFactory17);
+    }
+
+    @Test
+    public void test03996() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03996");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory1 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table2 = slimTableFactoryTest0.gettable();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory3;
+        fitnesse.testsystems.slim.Table table5 = null;
+        slimTableFactoryTest0.settable(table5);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory8 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.table = table9;
+        fitnesse.testsystems.slim.Table table11 = slimTableFactoryTest0.table;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap12 = slimTableFactoryTest0.getmap();
+        java.lang.Class<?> wildcardClass13 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(slimTableFactory1);
+        org.junit.Assert.assertNull(table2);
+        org.junit.Assert.assertNull(slimTableFactory7);
+        org.junit.Assert.assertNull(slimTableFactory8);
+        org.junit.Assert.assertNull(table11);
+        org.junit.Assert.assertNull(strMap12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test03997() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03997");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table4 = null;
+        slimTableFactoryTest0.settable(table4);
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory6;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap8 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory9 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory9;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.checkTableTypeDefinesIgnoredIfDifferentSpecified();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap8);
+    }
+
+    @Test
+    public void test03998() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03998");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.Table table7 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table8 = null;
+        slimTableFactoryTest0.settable(table8);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap10 = slimTableFactoryTest0.map;
+        java.lang.Class<?> wildcardClass11 = slimTableFactoryTest0.getClass();
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(table7);
+        org.junit.Assert.assertNull(strMap10);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test03999() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test03999");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory3 = slimTableFactoryTest0.slimTableFactory;
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap4 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory5 = slimTableFactoryTest0.slimTableFactory;
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory6 = slimTableFactoryTest0.getslimTableFactory();
+        fitnesse.testsystems.slim.tables.SlimTableFactory slimTableFactory7 = null;
+        slimTableFactoryTest0.slimTableFactory = slimTableFactory7;
+        fitnesse.testsystems.slim.Table table9 = null;
+        slimTableFactoryTest0.settable(table9);
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap11 = slimTableFactoryTest0.getmap();
+        fitnesse.testsystems.slim.Table table12 = slimTableFactoryTest0.table;
+        // The following exception was thrown during execution in test generation
+        try {
+            slimTableFactoryTest0.shouldCreateCorrectSlimTableForTablesType();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(slimTableFactory3);
+        org.junit.Assert.assertNull(strMap4);
+        org.junit.Assert.assertNull(slimTableFactory5);
+        org.junit.Assert.assertNull(slimTableFactory6);
+        org.junit.Assert.assertNull(strMap11);
+        org.junit.Assert.assertNull(table12);
+    }
+
+    @Test
+    public void test04000() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest7.test04000");
+        fitnesse.testsystems.slim.tables.SlimTableFactoryTest slimTableFactoryTest0 = new fitnesse.testsystems.slim.tables.SlimTableFactoryTest();
+        fitnesse.testsystems.slim.Table table1 = null;
+        slimTableFactoryTest0.table = table1;
+        fitnesse.testsystems.slim.Table table3 = slimTableFactoryTest0.table;
+        fitnesse.testsystems.slim.Table table4 = slimTableFactoryTest0.gettable();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap5 = slimTableFactoryTest0.getmap();
+        java.util.Map<java.lang.String, java.lang.Class<? extends fitnesse.testsystems.slim.tables.SlimTable>> strMap6 = slimTableFactoryTest0.map;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass7 = strMap6.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(table3);
+        org.junit.Assert.assertNull(table4);
+        org.junit.Assert.assertNull(strMap5);
+        org.junit.Assert.assertNull(strMap6);
+    }
+}
+

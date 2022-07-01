@@ -1,0 +1,144 @@
+Methods called,Number of times,Number of times (Normalized)
+"public com.amazonaws.AmazonWebServiceClient com.amazonaws.AmazonWebServiceClient.withRegion(com.amazonaws.regions.Regions)",2,0.00909090909090909
+"public com.amazonaws.AmazonWebServiceClient com.amazonaws.AmazonWebServiceClient.withRegion(com.amazonaws.regions.Region)",2,0.00909090909090909
+"public java.lang.String com.netflix.simianarmy.AbstractEmailBuilder.buildEmailBody(java.lang.String)",2,0.00909090909090909
+"public com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.sesClient",8,0.03636363636363636
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.calendar()",1,0.004545454545454545
+"public com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.sesClient",8,0.03636363636363636
+"public com.amazonaws.services.simpleemail.model.GetIdentityDkimAttributesResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.getIdentityDkimAttributes(com.amazonaws.services.simpleemail.model.GetIdentityDkimAttributesRequest)",3,0.013636363636363636
+"public final void com.amazonaws.AmazonWebServiceClient.setSignerRegionOverride(java.lang.String)",1,0.004545454545454545
+"public final void com.amazonaws.AmazonWebServiceClient.configureRegion(com.amazonaws.regions.Regions)",5,0.022727272727272728
+"public java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.getEventReport()",3,0.013636363636363636
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.monkeyRegion",58,0.2636363636363636
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.monkeyRegion",39,0.17727272727272728
+"public int com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.daysBeforeTermination",4,0.01818181818181818
+"public java.util.List com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitors()",11,0.05
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitorResourceTracker",6,0.02727272727272727
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitorResourceTracker",2,0.00909090909090909
+"public java.util.Set com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getEnabledResourceSet()",2,0.00909090909090909
+"public java.lang.String com.amazonaws.AmazonWebServiceClient.getServiceName()",12,0.05454545454545454
+"public com.netflix.simianarmy.janitor.JanitorCrawler com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorCrawler()",3,0.013636363636363636
+"public java.lang.String[] com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.ccEmails",50,0.22727272727272727
+"public java.lang.String[] com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.ccEmails",1,0.004545454545454545
+"public void com.amazonaws.AmazonWebServiceClient.addRequestHandler(com.amazonaws.handlers.RequestHandler2)",15,0.06818181818181818
+"public java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.region()",3,0.013636363636363636
+"public void com.amazonaws.AmazonWebServiceClient.addRequestHandler(com.amazonaws.handlers.RequestHandler)",1,0.004545454545454545
+"public com.amazonaws.services.simpleemail.model.GetIdentityPoliciesResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.getIdentityPolicies(com.amazonaws.services.simpleemail.model.GetIdentityPoliciesRequest)",1,0.004545454545454545
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.calendar",13,0.05909090909090909
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.calendar",2,0.00909090909090909
+"com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient(com.amazonaws.auth.AWSCredentialsProvider, com.amazonaws.ClientConfiguration)",1,0.004545454545454545
+"com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient(com.amazonaws.auth.AWSCredentials, com.amazonaws.ClientConfiguration)",1,0.004545454545454545
+"com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient(com.amazonaws.ClientConfiguration)",1,0.004545454545454545
+"com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient(com.amazonaws.auth.AWSCredentialsProvider, com.amazonaws.ClientConfiguration, com.amazonaws.metrics.RequestMetricCollector)",2,0.00909090909090909
+"com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient(com.amazonaws.auth.AWSCredentials)",67,0.30454545454545456
+"com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient()",14,0.06363636363636363
+"com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient(com.amazonaws.auth.AWSCredentialsProvider)",3,0.013636363636363636
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.config",25,0.11363636363636363
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.config",1,0.004545454545454545
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.ownerEmailDomain",8,0.03636363636363636
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.sourceEmail",2,0.00909090909090909
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.sourceEmail",13,0.05909090909090909
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.exportCredentials(java.lang.String,java.lang.String)",2,0.00909090909090909
+"public int com.amazonaws.AmazonWebServiceClient.getTimeOffset()",5,0.022727272727272728
+"public static final boolean com.amazonaws.AmazonWebServiceClient.LOGGING_AWS_REQUEST_METRIC",1,0.004545454545454545
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.resourceTracker",8,0.03636363636363636
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.resourceTracker",1,0.004545454545454545
+"public com.amazonaws.ResponseMetadata com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.getCachedResponseMetadata(com.amazonaws.AmazonWebServiceRequest)",2,0.00909090909090909
+"public final java.lang.String com.amazonaws.AmazonWebServiceClient.getSignerRegionOverride()",1,0.004545454545454545
+"public static org.slf4j.Logger com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.LOGGER",1,0.004545454545454545
+"public static org.slf4j.Logger com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.LOGGER",1,0.004545454545454545
+"public com.amazonaws.services.simpleemail.model.PutIdentityPolicyResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.putIdentityPolicy(com.amazonaws.services.simpleemail.model.PutIdentityPolicyRequest)",7,0.031818181818181815
+"public com.amazonaws.auth.Signer com.amazonaws.AmazonWebServiceClient.getSignerByURI(java.net.URI)",1,0.004545454545454545
+"public com.netflix.simianarmy.MonkeyScheduler com.netflix.simianarmy.basic.BasicSimianArmyContext.scheduler()",2,0.00909090909090909
+"public java.util.Collection com.netflix.simianarmy.janitor.AbstractJanitor.getUnmarkedResources()",1,0.004545454545454545
+"public com.amazonaws.services.simpleemail.model.GetSendStatisticsResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.getSendStatistics() throws com.amazonaws.AmazonServiceException,com.amazonaws.AmazonClientException",2,0.00909090909090909
+"public com.amazonaws.services.simpleemail.model.GetSendStatisticsResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.getSendStatistics(com.amazonaws.services.simpleemail.model.GetSendStatisticsRequest)",2,0.00909090909090909
+"com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext()",37,0.16818181818181818
+"com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext(java.lang.String, com.netflix.simianarmy.janitor.JanitorRuleEngine, com.netflix.simianarmy.janitor.JanitorCrawler, com.netflix.simianarmy.janitor.JanitorResourceTracker, com.netflix.simianarmy.MonkeyCalendar, com.netflix.simianarmy.MonkeyConfiguration, com.netflix.simianarmy.MonkeyRecorder)",36,0.16363636363636364
+"public boolean com.netflix.simianarmy.aws.AWSEmailNotifier.isValidEmail(java.lang.String)",3,0.013636363636363636
+"public java.lang.String com.netflix.simianarmy.janitor.JanitorEmailNotifier.buildEmailSubject(java.lang.String)",5,0.022727272727272728
+"public void com.netflix.simianarmy.aws.AWSEmailNotifier.sendEmail(java.lang.String,java.lang.String,java.lang.String)",11,0.05
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.BasicSimianArmyContext.configuration()",40,0.18181818181818182
+"public com.netflix.simianarmy.aws.janitor.EBSSnapshotJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getEBSSnapshotJanitor()",2,0.00909090909090909
+"public final native java.lang.Class java.lang.Object.getClass()",3,0.013636363636363636
+"public com.netflix.simianarmy.aws.janitor.InstanceJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getInstanceJanitor()",16,0.07272727272727272
+"public com.amazonaws.services.simpleemail.model.VerifyEmailIdentityResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.verifyEmailIdentity(com.amazonaws.services.simpleemail.model.VerifyEmailIdentityRequest)",1,0.004545454545454545
+"public void com.netflix.simianarmy.janitor.AbstractJanitor.markResources()",3,0.013636363636363636
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.BasicSimianArmyContext.recorder()",5,0.022727272727272728
+"com.netflix.simianarmy.aws.janitor.InstanceJanitor(com.netflix.simianarmy.client.aws.AWSClient, com.netflix.simianarmy.janitor.AbstractJanitor$Context)",21,0.09545454545454546
+"com.netflix.simianarmy.janitor.JanitorEmailNotifier(com.netflix.simianarmy.janitor.JanitorEmailNotifier$Context)",33,0.15
+"public void com.amazonaws.AmazonWebServiceClient.setEndpoint(java.lang.String) throws java.lang.IllegalArgumentException",9,0.04090909090909091
+"public void com.amazonaws.AmazonWebServiceClient.setEndpoint(java.lang.String,java.lang.String,java.lang.String)",2,0.00909090909090909
+"java.lang.String[4]",10,0.045454545454545456
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.reportEvent(com.netflix.simianarmy.MonkeyRecorder$Event)",5,0.022727272727272728
+"java.lang.String[0]",1,0.004545454545454545
+"public java.lang.String com.netflix.simianarmy.janitor.JanitorEmailNotifier.getSourceAddress(java.lang.String)",5,0.022727272727272728
+"public abstract void com.netflix.simianarmy.janitor.JanitorEmailBuilder.setEmailToResources(java.util.Map)",2,0.00909090909090909
+"java.lang.String[2]",39,0.17727272727272728
+"public com.netflix.simianarmy.janitor.JanitorCrawler com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.crawler",6,0.02727272727272727
+"public com.netflix.simianarmy.janitor.JanitorCrawler com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.crawler",2,0.00909090909090909
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.monkeyCalendar",2,0.00909090909090909
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.monkeyCalendar",5,0.022727272727272728
+"public void com.amazonaws.AmazonWebServiceClient.setRegion(com.amazonaws.regions.Region) throws java.lang.IllegalArgumentException",3,0.013636363636363636
+"public com.netflix.simianarmy.ResourceType com.netflix.simianarmy.janitor.AbstractJanitor.getResourceType()",1,0.004545454545454545
+"public com.netflix.simianarmy.janitor.JanitorResourceTracker com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorResourceTracker()",1,0.004545454545454545
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.recorder()",7,0.031818181818181815
+"public com.amazonaws.services.simpleemail.model.ListVerifiedEmailAddressesResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.listVerifiedEmailAddresses(com.amazonaws.services.simpleemail.model.ListVerifiedEmailAddressesRequest)",2,0.00909090909090909
+"public com.amazonaws.services.simpleemail.model.ListVerifiedEmailAddressesResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.listVerifiedEmailAddresses() throws com.amazonaws.AmazonServiceException,com.amazonaws.AmazonClientException",1,0.004545454545454545
+"public com.netflix.simianarmy.CloudClient com.netflix.simianarmy.basic.BasicSimianArmyContext.cloudClient()",1,0.004545454545454545
+"public com.amazonaws.services.simpleemail.model.GetSendQuotaResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.getSendQuota() throws com.amazonaws.AmazonServiceException,com.amazonaws.AmazonClientException",5,0.022727272727272728
+"public com.amazonaws.services.simpleemail.model.GetSendQuotaResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.getSendQuota(com.amazonaws.services.simpleemail.model.GetSendQuotaRequest)",2,0.00909090909090909
+"public java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.accountName()",2,0.00909090909090909
+"public com.netflix.simianarmy.aws.janitor.EBSVolumeJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getEBSVolumeJanitor()",2,0.00909090909090909
+"public com.amazonaws.services.simpleemail.model.DeleteIdentityPolicyResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.deleteIdentityPolicy(com.amazonaws.services.simpleemail.model.DeleteIdentityPolicyRequest)",1,0.004545454545454545
+"public java.util.Collection com.netflix.simianarmy.janitor.AbstractJanitor.getMarkedResources()",2,0.00909090909090909
+"public com.netflix.simianarmy.MonkeyConfiguration com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.configuration()",8,0.03636363636363636
+"public com.netflix.simianarmy.janitor.JanitorEmailBuilder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitorEmailBuilder",35,0.1590909090909091
+"public com.netflix.simianarmy.janitor.JanitorEmailBuilder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitorEmailBuilder",5,0.022727272727272728
+"public java.lang.String com.netflix.simianarmy.janitor.AbstractJanitor.getRegion()",2,0.00909090909090909
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.recorder",5,0.022727272727272728
+"public com.netflix.simianarmy.MonkeyRecorder com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.recorder",2,0.00909090909090909
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.emailNotifier()",67,0.30454545454545456
+"public java.util.Map com.netflix.simianarmy.janitor.JanitorEmailNotifier.getInvalidEmailToResources()",3,0.013636363636363636
+"public void com.amazonaws.AmazonWebServiceClient.removeRequestHandler(com.amazonaws.handlers.RequestHandler)",5,0.022727272727272728
+"public com.netflix.simianarmy.aws.janitor.LaunchConfigJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getLaunchConfigJanitor()",22,0.1
+"public void com.amazonaws.AmazonWebServiceClient.removeRequestHandler(com.amazonaws.handlers.RequestHandler2)",5,0.022727272727272728
+"public com.amazonaws.services.simpleemail.model.GetIdentityVerificationAttributesResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.getIdentityVerificationAttributes(com.amazonaws.services.simpleemail.model.GetIdentityVerificationAttributesRequest)",3,0.013636363636363636
+"public com.netflix.simianarmy.aws.janitor.ASGJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getASGJanitor()",3,0.013636363636363636
+"public com.amazonaws.services.simpleemail.model.SetIdentityNotificationTopicResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.setIdentityNotificationTopic(com.amazonaws.services.simpleemail.model.SetIdentityNotificationTopicRequest)",2,0.00909090909090909
+"public void com.netflix.simianarmy.janitor.AbstractJanitor.cleanupResources()",1,0.004545454545454545
+"public com.netflix.simianarmy.client.edda.EddaClient com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.createEddaClient()",3,0.013636363636363636
+"public com.amazonaws.services.simpleemail.model.ListIdentitiesResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.listIdentities(com.amazonaws.services.simpleemail.model.ListIdentitiesRequest)",3,0.013636363636363636
+"public com.amazonaws.services.simpleemail.model.ListIdentitiesResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.listIdentities() throws com.amazonaws.AmazonServiceException,com.amazonaws.AmazonClientException",3,0.013636363636363636
+"public static java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.GLOBAL_OWNER_TAGKEY",2,0.00909090909090909
+"public static java.lang.String com.netflix.simianarmy.basic.BasicSimianArmyContext.GLOBAL_OWNER_TAGKEY",1,0.004545454545454545
+"public com.netflix.simianarmy.client.aws.AWSClient com.netflix.simianarmy.basic.BasicSimianArmyContext.awsClient()",36,0.16363636363636364
+"public com.amazonaws.services.simpleemail.model.DeleteIdentityResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.deleteIdentity(com.amazonaws.services.simpleemail.model.DeleteIdentityRequest)",1,0.004545454545454545
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.emailNotifier",20,0.09090909090909091
+"public com.amazonaws.services.simpleemail.model.SendEmailResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.sendEmail(com.amazonaws.services.simpleemail.model.SendEmailRequest)",2,0.00909090909090909
+"public void com.netflix.simianarmy.basic.BasicSimianArmyContext.resetEventReport()",14,0.06363636363636363
+"public com.netflix.simianarmy.janitor.JanitorRuleEngine com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.ruleEngine",18,0.08181818181818182
+"public com.netflix.simianarmy.janitor.JanitorRuleEngine com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.ruleEngine",4,0.01818181818181818
+"public com.amazonaws.auth.AWSCredentialsProvider com.netflix.simianarmy.basic.BasicSimianArmyContext.getAwsCredentialsProvider()",2,0.00909090909090909
+"public com.amazonaws.services.simpleemail.model.VerifyDomainIdentityResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.verifyDomainIdentity(com.amazonaws.services.simpleemail.model.VerifyDomainIdentityRequest)",5,0.022727272727272728
+"public com.netflix.simianarmy.MonkeyCalendar com.netflix.simianarmy.basic.BasicSimianArmyContext.calendar()",41,0.18636363636363637
+"public void com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.verifyEmailAddress(com.amazonaws.services.simpleemail.model.VerifyEmailAddressRequest)",1,0.004545454545454545
+"public java.lang.String[] com.netflix.simianarmy.janitor.JanitorEmailNotifier.getCcAddresses(java.lang.String)",7,0.031818181818181815
+"public com.netflix.simianarmy.janitor.JanitorEmailNotifier$Context com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getJanitorEmailNotifierContext()",30,0.13636363636363635
+"public final void com.amazonaws.AmazonWebServiceClient.setServiceNameIntern(java.lang.String)",13,0.05909090909090909
+"public com.netflix.simianarmy.aws.janitor.ImageJanitor com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.getImageJanitor()",2,0.00909090909090909
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.defaultEmail",9,0.04090909090909091
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.defaultEmail",20,0.09090909090909091
+"public void com.netflix.simianarmy.janitor.JanitorEmailNotifier.sendNotifications()",3,0.013636363636363636
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.region",5,0.022727272727272728
+"public java.lang.String com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.region",2,0.00909090909090909
+"public com.amazonaws.services.simpleemail.model.VerifyDomainDkimResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.verifyDomainDkim(com.amazonaws.services.simpleemail.model.VerifyDomainDkimRequest)",3,0.013636363636363636
+"public void com.amazonaws.AmazonWebServiceClient.setTimeOffset(int)",34,0.15454545454545454
+"com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext()",211,0.9590909090909091
+"public java.util.Collection com.netflix.simianarmy.janitor.AbstractJanitor.getCleanedResources()",2,0.00909090909090909
+"public com.amazonaws.services.simpleemail.model.ListIdentityPoliciesResult com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.listIdentityPolicies(com.amazonaws.services.simpleemail.model.ListIdentityPoliciesRequest)",4,0.01818181818181818
+"public java.util.List com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext.janitors",1,0.004545454545454545
+"public void com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient.deleteVerifiedEmailAddress(com.amazonaws.services.simpleemail.model.DeleteVerifiedEmailAddressRequest)",1,0.004545454545454545
+"public com.netflix.simianarmy.janitor.JanitorRuleEngine com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext.janitorRuleEngine()",6,0.02727272727272727
+"public com.amazonaws.metrics.RequestMetricCollector com.amazonaws.AmazonWebServiceClient.getRequestMetricsCollector()",4,0.01818181818181818
+"public com.amazonaws.AmazonWebServiceClient com.amazonaws.AmazonWebServiceClient.withTimeOffset(int)",66,0.3

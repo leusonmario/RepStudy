@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.util.LinkedHashSet,7,4,0.5384615384615384,0.3076923076923077
+class io.cloudslang.lang.api.SlangImpl,12,1,0.9230769230769231,0.07692307692307693
+class java.lang.Boolean,7,2,0.5384615384615384,0.15384615384615385
+class java.lang.Object,1,1,0.07692307692307693,0.07692307692307693
+class [Ljava.lang.String;,6,6,0.46153846153846156,0.46153846153846156
+class [Lio.cloudslang.lang.compiler.SlangSource;,1,1,0.07692307692307693,0.07692307692307693
+class java.lang.Class,2,2,0.15384615384615385,0.15384615384615385

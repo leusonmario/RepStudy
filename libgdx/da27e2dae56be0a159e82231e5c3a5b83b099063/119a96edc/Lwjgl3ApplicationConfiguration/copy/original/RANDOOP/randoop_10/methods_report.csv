@@ -1,0 +1,24 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setWindowPosition(int,int)",26103,0.9769452449567724
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setHdpiMode(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration$HdpiMode)",34239,1.2814476589692727
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setWindowedMode(int,int)",19283,0.7216961712638946
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.disableAudio(boolean)",18856,0.7057150342452936
+"public static com.badlogic.gdx.Graphics$DisplayMode[] com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getDisplayModes(com.badlogic.gdx.Graphics$Monitor)",1,3.742655039485011E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setBackBufferConfig(int,int,int,int,int,int,int)",22215,0.8314308170215952
+"Pixels",8241,0.30843220180395975
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setAudioConfig(int,int,int)",16160,0.6048130543807777
+"Logical",8005,0.2995995359107751
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setInitialBackgroundColor(com.badlogic.gdx.graphics.Color)",36091,1.3507616303005352
+"public static com.badlogic.gdx.Graphics$DisplayMode com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getDisplayMode(com.badlogic.gdx.Graphics$Monitor)",1,3.742655039485011E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.useOpenGL3(boolean,int,int)",17924,0.6708334892772934
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setDecorated(boolean)",18096,0.6772708559452075
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setWindowListener(com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener)",14636,0.5477749915790262
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setTitle(java.lang.String)",47637,1.7828885811594746
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.useVsync(boolean)",24292,0.9091657621916988
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setInitialVisible(boolean)",16266,0.6087802687226318
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setResizable(boolean)",21949,0.821475354616565
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setFullscreenMode(com.badlogic.gdx.Graphics$DisplayMode)",16443,0.6154047681425203
+"public final native java.lang.Class java.lang.Object.getClass()",3093,0.11576032037127137
+"java.lang.Object()",1,3.742655039485011E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setPreferencesConfig(java.lang.String,com.badlogic.gdx.Files$FileType)",25163,0.9417642875856133
+"com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration()",44240,1.6557505894681688

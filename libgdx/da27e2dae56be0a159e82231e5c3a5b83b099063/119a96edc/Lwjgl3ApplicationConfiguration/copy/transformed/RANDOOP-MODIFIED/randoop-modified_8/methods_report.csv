@@ -1,0 +1,209 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.GREEN",166,0.00668923275306254
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.audioDeviceSimultaneousSources",953,0.038402643455834946
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.audioDeviceSimultaneousSources",860,0.03465506125080593
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.PURPLE",15,6.044487427466151E-4
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setwindowHeight(int)",1627,0.06556254029658284
+"public static com.badlogic.gdx.Graphics$Monitor com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getPrimaryMonitor()",1,4.029658284977434E-5
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.WHITE",38,0.0015312701482914249
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.DARK_GRAY",131,0.0052788523533204386
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setInitialVisible(boolean)",1907,0.07684558349451967
+"public static int com.badlogic.gdx.graphics.Color.argb8888(float,float,float,float)",269,0.010839780786589297
+"public static int com.badlogic.gdx.graphics.Color.argb8888(com.badlogic.gdx.graphics.Color)",1912,0.07704706640876853
+"public static int com.badlogic.gdx.graphics.Color.alpha(float)",216,0.008704061895551257
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setwindowResizable(boolean)",1334,0.053755641521598965
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setBackBufferConfig(int,int,int,int,int,int,int)",2049,0.08256769825918762
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getaudioDeviceBufferCount()",1422,0.05730174081237911
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.gles30ContextMinorVersion",2040,0.08220502901353965
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setDecorated(boolean)",3058,0.12322695035460993
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.useOpenGL3(boolean,int,int)",1122,0.04521276595744681
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.gles30ContextMinorVersion",1214,0.04892005157962605
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.BROWN",1768,0.07124435847840103
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setwindowDecorated(boolean)",1098,0.044245647969052226
+"Pixels",1,4.029658284977434E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setwindowY(int)",1821,0.07338007736943908
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setwindowX(int)",3121,0.1257656350741457
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.MAGENTA",5,2.0148291424887168E-4
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setpreferencesDirectory(java.lang.String)",1445,0.05822856221792392
+"public com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowListener",915,0.03687137330754352
+"public com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowListener",856,0.034493874919406836
+"public static void com.badlogic.gdx.graphics.Color.rgba4444ToColor(com.badlogic.gdx.graphics.Color,int)",1434,0.0577852998065764
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getaudioDeviceBufferSize()",4927,0.19854126370083816
+"public static com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.copy(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration)",8483,0.3418359123146357
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowResizable",3268,0.13168923275306255
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowResizable",708,0.02852998065764023
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getuseGL30()",683,0.027522566086395875
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getsamples()",765,0.03082688588007737
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.FIREBRICK",423,0.017045454545454544
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.VIOLET",70,0.002820760799484204
+"Classpath",26,0.0010477111540941329
+"public java.lang.String com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.preferencesDirectory",1824,0.0735009671179884
+"public java.lang.String com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.preferencesDirectory",1028,0.04142488716956802
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setvSyncEnabled(boolean)",1462,0.05891360412637008
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getwindowResizable()",867,0.034937137330754355
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setdepth(int)",1235,0.04976627981947131
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getdepth()",1039,0.04186814958091554
+"public static float com.badlogic.gdx.graphics.Color.toFloatBits(int,int,int,int)",267,0.01075918762088975
+"public static float com.badlogic.gdx.graphics.Color.toFloatBits(float,float,float,float)",265,0.0106785944551902
+"public float com.badlogic.gdx.graphics.Color.toFloatBits()",918,0.03699226305609284
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.initialVisible",1972,0.079464861379755
+"Logical",522,0.021034816247582206
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.initialVisible",2385,0.0961073500967118
+"public float com.badlogic.gdx.graphics.Color.g",930,0.03747582205029013
+"public float com.badlogic.gdx.graphics.Color.g",439,0.017690199871050936
+"public float com.badlogic.gdx.graphics.Color.a",718,0.028932946486137975
+"public float com.badlogic.gdx.graphics.Color.a",921,0.03711315280464217
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.sub(float,float,float,float)",1199,0.04831560283687943
+"public static void com.badlogic.gdx.graphics.Color.rgba8888ToColor(com.badlogic.gdx.graphics.Color,int)",496,0.019987105093488073
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.sub(com.badlogic.gdx.graphics.Color)",2491,0.10037878787878787
+"public float com.badlogic.gdx.graphics.Color.b",569,0.0229287556415216
+"public float com.badlogic.gdx.graphics.Color.b",807,0.03251934235976789
+"public static void com.badlogic.gdx.graphics.Color.rgb888ToColor(com.badlogic.gdx.graphics.Color,int)",988,0.03981302385557705
+"public com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration$HdpiMode com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.hdpiMode",1525,0.06145228884590587
+"public com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration$HdpiMode com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.hdpiMode",1522,0.06133139909735654
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.TEAL",138,0.005560928433268859
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.RED",7,2.8207607994842036E-4
+"public float com.badlogic.gdx.graphics.Color.r",1029,0.0414651837524178
+"public float com.badlogic.gdx.graphics.Color.r",724,0.029174725983236623
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.ROYAL",2562,0.10323984526112186
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.premultiplyAlpha()",774,0.031189555125725337
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.BLUE",3,1.2088974854932302E-4
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getwindowY()",1532,0.06173436492585429
+"public static int com.badlogic.gdx.graphics.Color.rgba4444(float,float,float,float)",292,0.011766602192134107
+"public static int com.badlogic.gdx.graphics.Color.rgba4444(com.badlogic.gdx.graphics.Color)",686,0.027643455834945197
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getwindowX()",815,0.03284171502256609
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.depth",1105,0.04452772404900064
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.depth",855,0.03445357833655706
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.GOLD",39,0.0015715667311411992
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.add(float,float,float,float)",2865,0.11544970986460348
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.add(com.badlogic.gdx.graphics.Color)",1678,0.06761766602192135
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.GRAY",1132,0.04561573178594455
+"public static int com.badlogic.gdx.graphics.Color.luminanceAlpha(float,float)",284,0.011444229529335912
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.gles30ContextMajorVersion",2366,0.09534171502256608
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.gles30ContextMajorVersion",848,0.03417150225660864
+"External",593,0.023895873629916183
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setResizable(boolean)",1526,0.061492585428755644
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.GOLDENROD",97,0.003908768536428111
+"Local",102,0.004110251450676982
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.LIGHT_GRAY",278,0.011202450032237266
+"public com.badlogic.gdx.backends.lwjgl3.Lwjgl3Graphics$Lwjgl3DisplayMode com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.fullscreenMode",1674,0.06745647969052225
+"public java.lang.String com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getpreferencesDirectory()",813,0.03276112185686654
+"public com.badlogic.gdx.backends.lwjgl3.Lwjgl3Graphics$Lwjgl3DisplayMode com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.fullscreenMode",710,0.028610573823339782
+"com.badlogic.gdx.graphics.Color(int)",5521,0.22247743391360414
+"com.badlogic.gdx.graphics.Color(com.badlogic.gdx.graphics.Color)",7083,0.28542069632495165
+"com.badlogic.gdx.graphics.Color(float, float, float, float)",3276,0.13201160541586074
+"com.badlogic.gdx.graphics.Color()",87,0.0035058027079303677
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.set(float,float,float,float)",2374,0.09566408768536429
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.set(com.badlogic.gdx.graphics.Color)",1582,0.06374919406834301
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.set(int)",1165,0.04694551901998711
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.samples",3988,0.16070277240490005
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.useGL30",2050,0.08260799484203739
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.samples",1291,0.05202288845905867
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.useGL30",837,0.033728239845261125
+"public java.lang.String com.badlogic.gdx.graphics.Color.toString()",2129,0.08579142488716957
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.BLACK",325,0.01309638942617666
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getgles30ContextMajorVersion()",1565,0.06306415215989684
+"public static void com.badlogic.gdx.graphics.Color.argb8888ToColor(com.badlogic.gdx.graphics.Color,int)",1459,0.058792714377820764
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.initialBackgroundColor",2259,0.09102998065764023
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.initialBackgroundColor",1730,0.06971308833010961
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setHdpiMode(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration$HdpiMode)",1105,0.04452772404900064
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.FOREST",313,0.012612830431979367
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.mul(com.badlogic.gdx.graphics.Color)",1626,0.06552224371373308
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.mul(float)",1393,0.05613313990973565
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.mul(float,float,float,float)",1100,0.044326241134751775
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.audioDeviceBufferSize",1369,0.05516602192134107
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.audioDeviceBufferSize",765,0.03082688588007737
+"public java.lang.String com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.title",2347,0.09457607994842038
+"public java.lang.String com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.title",1261,0.05081399097356544
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.CLEAR",18,7.253384912959381E-4
+"public static void com.badlogic.gdx.graphics.Color.rgb565ToColor(com.badlogic.gdx.graphics.Color,int)",1124,0.04529335912314636
+"Absolute",793,0.03195519019987105
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowHeight",1390,0.056012250161186335
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowHeight",755,0.030423920051579626
+"public com.badlogic.gdx.Files$FileType com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.preferencesFileType",2538,0.10227272727272728
+"public com.badlogic.gdx.Files$FileType com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.preferencesFileType",1338,0.05391682785299807
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.LIME",15,6.044487427466151E-4
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setPreferencesConfig(java.lang.String,com.badlogic.gdx.Files$FileType)",5047,0.20337685364281108
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getdisableAudio()",990,0.0398936170212766
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.SLATE",1,4.029658284977434E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setWindowedMode(int,int)",2177,0.08772566086395873
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.CORAL",4,1.6118633139909736E-4
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.OLIVE",3,1.2088974854932302E-4
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getgles30ContextMinorVersion()",1093,0.04404416505480335
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getvSyncEnabled()",1480,0.05963894261766602
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.stencil",1032,0.041586073500967116
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.stencil",928,0.037395228884590584
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getaudioDeviceSimultaneousSources()",798,0.032156673114119926
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setTitle(java.lang.String)",776,0.03127014829142489
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.YELLOW",3,1.2088974854932302E-4
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setpreferencesFileType(com.badlogic.gdx.Files$FileType)",11519,0.4641763378465506
+"public final native java.lang.Class java.lang.Object.getClass()",291,0.011726305609284332
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getwindowHeight()",906,0.036508704061895554
+"Internal",36,0.0014506769825918763
+"public static int com.badlogic.gdx.graphics.Color.rgb565(float,float,float)",234,0.009429400386847196
+"public static int com.badlogic.gdx.graphics.Color.rgb565(com.badlogic.gdx.graphics.Color)",701,0.028247904577691812
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.TAN",99,0.003989361702127659
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setuseGL30(boolean)",1002,0.04037717601547389
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setsamples(int)",1575,0.06346711798839458
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setaudioDeviceSimultaneousSources(int)",1168,0.047066408768536426
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getwindowWidth()",674,0.027159896840747905
+"public boolean com.badlogic.gdx.graphics.Color.equals(java.lang.Object)",1410,0.056818181818181816
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.NAVY",390,0.015715667311411993
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getwindowDecorated()",1066,0.04295615731785945
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.MAROON",79,0.003183430045132173
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.SCARLET",194,0.007817537072856222
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.disableAudio",7483,0.3015393294648614
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.disableAudio",1072,0.04319793681495809
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setInitialBackgroundColor(com.badlogic.gdx.graphics.Color)",1446,0.0582688588007737
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.vSyncEnabled",1348,0.05431979368149581
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.vSyncEnabled",1980,0.0797872340425532
+"public com.badlogic.gdx.Files$FileType com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getpreferencesFileType()",2937,0.11835106382978723
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setwindowWidth(int)",893,0.03598484848484849
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setdisableAudio(boolean)",1118,0.04505157962604771
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.useVsync(boolean)",4339,0.17484687298517085
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setFullscreenMode(com.badlogic.gdx.Graphics$DisplayMode)",5749,0.23166505480335267
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setgles30ContextMajorVersion(int)",1337,0.05387653127014829
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setaudioDeviceBufferCount(int)",1430,0.057624113475177305
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setWindowPosition(int,int)",1349,0.05436009026434559
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.cpy()",1589,0.06403127014829142
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.disableAudio(boolean)",1102,0.04440683430045132
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.audioDeviceBufferCount",1254,0.05053191489361702
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.audioDeviceBufferCount",632,0.025467440361057383
+"public static int com.badlogic.gdx.graphics.Color.rgba8888(float,float,float,float)",265,0.0106785944551902
+"public static int com.badlogic.gdx.graphics.Color.rgba8888(com.badlogic.gdx.graphics.Color)",871,0.03509832366215345
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.r",1189,0.04791263700838169
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.r",1075,0.04331882656350741
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.ORANGE",74,0.002981947130883301
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.g",1296,0.05222437137330754
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.g",3024,0.1218568665377176
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.b",2704,0.10896196002578981
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.b",2424,0.097678916827853
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.a",4619,0.18612991618310767
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.a",1411,0.056858478401031594
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.PINK",4,1.6118633139909736E-4
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowWidth",692,0.02788523533204384
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowWidth",638,0.025709219858156027
+"public static com.badlogic.gdx.Graphics$DisplayMode[] com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.getDisplayModes()",1,4.029658284977434E-5
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setAudioConfig(int,int,int)",956,0.038523533204384265
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.lerp(float,float,float,float,float)",2703,0.10892166344294003
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.lerp(com.badlogic.gdx.graphics.Color,float)",3162,0.12741779497098646
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.CYAN",373,0.015030625402965828
+"public static int com.badlogic.gdx.graphics.Color.toIntBits(int,int,int,int)",268,0.010799484203739523
+"public int com.badlogic.gdx.graphics.Color.toIntBits()",831,0.033486460348162474
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowX",3963,0.1596953578336557
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowX",654,0.026353965183752416
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowY",2956,0.11911669890393295
+"public int com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowY",1237,0.049846872985170855
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.SALMON",1960,0.0789813023855577
+"com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration()",24188,0.9746937459703418
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.CHARTREUSE",26,0.0010477111540941329
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowDecorated",707,0.028489684074790456
+"public boolean com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.windowDecorated",1087,0.04380238555770471
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setgles30ContextMinorVersion(int)",791,0.031874597034171503
+"public static com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.valueOf(java.lang.String)",231,0.009308510638297872
+"public com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.clamp()",1081,0.043560606060606064
+"public static final com.badlogic.gdx.graphics.Color com.badlogic.gdx.graphics.Color.SKY",56,0.002256608639587363
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setaudioDeviceBufferSize(int)",828,0.033365570599613155
+"public void com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.setWindowListener(com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowListener)",689,0.02776434558349452
+"public static int com.badlogic.gdx.graphics.Color.rgb888(float,float,float)",277,0.011162153449387492
+"public static int com.badlogic.gdx.graphics.Color.rgb888(com.badlogic.gdx.graphics.Color)",626,0.025225660863958735

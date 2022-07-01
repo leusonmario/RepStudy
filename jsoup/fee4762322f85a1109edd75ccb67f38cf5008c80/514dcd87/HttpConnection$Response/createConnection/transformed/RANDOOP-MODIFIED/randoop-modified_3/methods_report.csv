@@ -1,0 +1,106 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final int java.net.HttpURLConnection.HTTP_SEE_OTHER",1,3.947732027949943E-5
+"public static java.lang.String java.net.URLConnection.getDefaultRequestProperty(java.lang.String)",2,7.895464055899886E-5
+"public java.util.Map org.jsoup.helper.HttpConnection$Base.cookies()",5681,0.22427065650783626
+"public static final int java.net.HttpURLConnection.HTTP_RESET",1,3.947732027949943E-5
+"public java.nio.ByteBuffer org.jsoup.helper.HttpConnection$Response.byteData",3954,0.15609332438514073
+"public java.nio.ByteBuffer org.jsoup.helper.HttpConnection$Response.byteData",3258,0.12861710947060914
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage",5682,0.22431013382811574
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage",4572,0.18049030831787138
+"public static final int java.net.HttpURLConnection.HTTP_PAYMENT_REQUIRED",1,3.947732027949943E-5
+"public byte[] org.jsoup.helper.HttpConnection$Response.bodyAsBytes()",782,0.030871264458568554
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.body()",816,0.03221349334807153
+"public static java.util.regex.Pattern org.jsoup.helper.HttpConnection$Response.xmlContentTypeRxp",1,3.947732027949943E-5
+"public static java.util.regex.Pattern org.jsoup.helper.HttpConnection$Response.xmlContentTypeRxp",1,3.947732027949943E-5
+"public static synchronized void java.net.URLConnection.setContentHandlerFactory(java.net.ContentHandlerFactory)",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_BAD_GATEWAY",1,3.947732027949943E-5
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset()",5219,0.2060321345387075
+"public static final int java.net.HttpURLConnection.HTTP_MOVED_PERM",1,3.947732027949943E-5
+"public int org.jsoup.helper.HttpConnection$Response.statusCode()",6704,0.26465595515376417
+"public static synchronized void org.jsoup.helper.HttpConnection$Response.initUnSecureSSL() throws java.io.IOException",1,3.947732027949943E-5
+"public boolean org.jsoup.helper.HttpConnection$Base.hasHeader(java.lang.String)",2019,0.07970470964430934
+"public static final int java.net.HttpURLConnection.HTTP_MOVED_TEMP",1,3.947732027949943E-5
+"public boolean org.jsoup.helper.HttpConnection$Base.hasHeaderWithValue(java.lang.String,java.lang.String)",3427,0.13528877659784455
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.getHeaderCaseInsensitive(java.lang.String)",25501,1.006711144447515
+"public static final int java.net.HttpURLConnection.HTTP_OK",1,3.947732027949943E-5
+"public static org.jsoup.helper.HttpConnection$Response org.jsoup.helper.HttpConnection$Response.execute(org.jsoup.Connection$Request,org.jsoup.helper.HttpConnection$Response) throws java.io.IOException",791,0.031226560341084047
+"public static org.jsoup.helper.HttpConnection$Response org.jsoup.helper.HttpConnection$Response.execute(org.jsoup.Connection$Request) throws java.io.IOException",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_CONFLICT",1,3.947732027949943E-5
+"public boolean org.jsoup.helper.HttpConnection$Response.executed",2775,0.10954956377561091
+"public boolean org.jsoup.helper.HttpConnection$Response.executed",4704,0.1857013145947653
+"public static final int java.net.HttpURLConnection.HTTP_CREATED",1,3.947732027949943E-5
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.removeHeader(java.lang.String)",1514,0.059768662903162136
+"public static final int java.net.HttpURLConnection.HTTP_NOT_IMPLEMENTED",1,3.947732027949943E-5
+"public int org.jsoup.helper.HttpConnection$Response.numRedirects",7477,0.2951719237298172
+"public int org.jsoup.helper.HttpConnection$Response.numRedirects",3060,0.12080060005526824
+"public static javax.net.ssl.HostnameVerifier org.jsoup.helper.HttpConnection$Response.getInsecureVerifier()",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_PARTIAL",1,3.947732027949943E-5
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset",4273,0.16868658955430105
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset",3374,0.13319647862303108
+"public int org.jsoup.helper.HttpConnection$Response.statusCode",3228,0.12743278986222414
+"public int org.jsoup.helper.HttpConnection$Response.statusCode",4180,0.1650151987683076
+"public static java.lang.String org.jsoup.helper.HttpConnection$Response.setupMultipartModeIfNeeded(org.jsoup.Connection$Request)",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_ACCEPTED",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_REQ_TOO_LONG",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_BAD_METHOD",1,3.947732027949943E-5
+"public java.util.Map org.jsoup.helper.HttpConnection$Base.headers()",5444,0.21491453160159488
+"public final native java.lang.Class java.lang.Object.getClass()",803,0.03170028818443804
+"public static void org.jsoup.helper.HttpConnection$Response.writePost(org.jsoup.Connection$Request,java.io.OutputStream,java.lang.String) throws java.io.IOException",2,7.895464055899886E-5
+"public static void java.net.HttpURLConnection.setFollowRedirects(boolean)",2,7.895464055899886E-5
+"public static javax.net.ssl.SSLSocketFactory org.jsoup.helper.HttpConnection$Response.sslSocketFactory",1,3.947732027949943E-5
+"public static javax.net.ssl.SSLSocketFactory org.jsoup.helper.HttpConnection$Response.sslSocketFactory",1,3.947732027949943E-5
+"public static java.net.HttpURLConnection org.jsoup.helper.HttpConnection$Response.createConnection(org.jsoup.Connection$Request) throws java.io.IOException",1,3.947732027949943E-5
+"public org.jsoup.nodes.Document org.jsoup.helper.HttpConnection$Response.parse() throws java.io.IOException",833,0.032884607792823026
+"public static final int java.net.HttpURLConnection.HTTP_GONE",1,3.947732027949943E-5
+"org.jsoup.helper.HttpConnection$Response(org.jsoup.helper.HttpConnection$Response)",122297,4.827957838221941
+"public static final int java.net.HttpURLConnection.HTTP_PROXY_AUTH",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_NOT_ACCEPTABLE",1,3.947732027949943E-5
+"public static java.lang.String org.jsoup.helper.HttpConnection$Response.getRequestCookieString(org.jsoup.Connection$Request)",1,3.947732027949943E-5
+"public static void org.jsoup.helper.HttpConnection$Response.serialiseRequestUrl(org.jsoup.Connection$Request) throws java.io.IOException",1,3.947732027949943E-5
+"public static boolean java.net.HttpURLConnection.getFollowRedirects()",1,3.947732027949943E-5
+"public static void java.net.URLConnection.setDefaultAllowUserInteraction(boolean)",2,7.895464055899886E-5
+"public static final int java.net.HttpURLConnection.HTTP_PRECON_FAILED",1,3.947732027949943E-5
+"public static void java.net.URLConnection.setFileNameMap(java.net.FileNameMap)",74,0.0029213217006829576
+"public static final int java.net.HttpURLConnection.HTTP_SERVER_ERROR",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_NOT_MODIFIED",1,3.947732027949943E-5
+"public static int org.jsoup.helper.HttpConnection$Response.MAX_REDIRECTS",63,0.002487071177608464
+"public static int org.jsoup.helper.HttpConnection$Response.MAX_REDIRECTS",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_NO_CONTENT",1,3.947732027949943E-5
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.cookie(java.lang.String,java.lang.String)",13508,0.5332596423354783
+"public static final int java.net.HttpURLConnection.HTTP_ENTITY_TOO_LARGE",1,3.947732027949943E-5
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.cookie(java.lang.String)",2286,0.09024515415893569
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.method(org.jsoup.Connection$Method)",882,0.0348189964865185
+"public org.jsoup.Connection$Method org.jsoup.helper.HttpConnection$Base.method()",3938,0.15546168726066875
+"public static java.lang.String java.net.URLConnection.guessContentTypeFromStream(java.io.InputStream) throws java.io.IOException",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_NOT_AUTHORITATIVE",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_UNAVAILABLE",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_USE_PROXY",1,3.947732027949943E-5
+"public static java.net.FileNameMap java.net.URLConnection.getFileNameMap()",3,1.1843196083849829E-4
+"public static final int java.net.HttpURLConnection.HTTP_MULT_CHOICE",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_UNSUPPORTED_TYPE",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_NOT_FOUND",1,3.947732027949943E-5
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.removeCookie(java.lang.String)",2578,0.10177253168054952
+"public static final int java.net.HttpURLConnection.HTTP_CLIENT_TIMEOUT",1,3.947732027949943E-5
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType()",8062,0.31826615609332437
+"public static final int java.net.HttpURLConnection.HTTP_BAD_REQUEST",1,3.947732027949943E-5
+"public static java.lang.String java.net.URLConnection.guessContentTypeFromName(java.lang.String)",2,7.895464055899886E-5
+"public static final int java.net.HttpURLConnection.HTTP_LENGTH_REQUIRED",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_VERSION",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_GATEWAY_TIMEOUT",1,3.947732027949943E-5
+"public static boolean java.net.URLConnection.getDefaultAllowUserInteraction()",1,3.947732027949943E-5
+"public static void java.net.URLConnection.setDefaultRequestProperty(java.lang.String,java.lang.String)",4,1.5790928111799772E-4
+"public org.jsoup.Connection$Request org.jsoup.helper.HttpConnection$Response.req",7084,0.27965733685997396
+"public org.jsoup.Connection$Request org.jsoup.helper.HttpConnection$Response.req",2806,0.11077336070427539
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType",9198,0.3631123919308357
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType",3851,0.1520271603963523
+"public boolean org.jsoup.helper.HttpConnection$Base.hasCookie(java.lang.String)",1499,0.05917650309896964
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.url(java.net.URL)",811,0.03201610674667404
+"public java.net.URL org.jsoup.helper.HttpConnection$Base.url()",3380,0.13343334254470807
+"public static final int java.net.HttpURLConnection.HTTP_INTERNAL_ERROR",1,3.947732027949943E-5
+"public void org.jsoup.helper.HttpConnection$Response.setupFromConnection(java.net.HttpURLConnection,org.jsoup.Connection$Response) throws java.io.IOException",816,0.03221349334807153
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage()",6621,0.2613793375705657
+"public static final int java.net.HttpURLConnection.HTTP_FORBIDDEN",1,3.947732027949943E-5
+"public static final int java.net.HttpURLConnection.HTTP_UNAUTHORIZED",1,3.947732027949943E-5
+"public java.util.Map$Entry org.jsoup.helper.HttpConnection$Base.scanHeaders(java.lang.String)",7493,0.2958035608542892
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.header(java.lang.String,java.lang.String)",1919,0.0757569776163594
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.header(java.lang.String)",3299,0.1302356796020686

@@ -1,0 +1,440 @@
+Methods called,Number of times,Number of times (Normalized)
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.disableDefaultTyping()",2545,1.1820715281003251
+"public com.metamx.druid.loading.S3SegmentPusherConfig com.metamx.druid.loading.S3SegmentPusher.config",13,0.006038086391082211
+"public com.metamx.druid.loading.S3SegmentPusherConfig com.metamx.druid.loading.S3SegmentPusher.config",10,0.004644681839294009
+"public org.apache.commons.httpclient.auth.CredentialsProvider org.jets3t.service.impl.rest.httpclient.RestStorageService.getCredentialsProvider()",44,0.020436600092893636
+"public void org.jets3t.service.S3Service.unsetNotificationConfig(java.lang.String) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"public void com.metamx.common.logger.Logger.warn(java.lang.Throwable,java.lang.String,java.lang.Object[])",22,0.010218300046446818
+"public void com.metamx.common.logger.Logger.warn(java.lang.String,java.lang.Object[])",2,9.289363678588017E-4
+"public java.util.Map org.jets3t.service.StorageService.copyObject(java.lang.String,java.lang.String,java.lang.String,org.jets3t.service.model.StorageObject,boolean) throws org.jets3t.service.ServiceException",9,0.0041802136553646075
+"public java.util.Map org.jets3t.service.StorageService.copyObject(java.lang.String,java.lang.String,java.lang.String,org.jets3t.service.model.StorageObject,boolean,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[]) throws org.jets3t.service.ServiceException",5,0.0023223409196470044
+"public java.io.File java.io.File.getAbsoluteFile()",62,0.028797027403622853
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.defaultPrettyPrintingWriter()",80,0.03715745471435207
+"public boolean java.io.File.setReadable(boolean,boolean)",18,0.008360427310729215
+"public boolean java.io.File.setReadable(boolean)",12,0.00557361820715281
+"public void org.jets3t.service.S3Service.deleteVersionedObjectWithMFA(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public boolean org.jets3t.service.StorageService.isAuthenticatedConnection()",27,0.012540640966093822
+"public void org.codehaus.jackson.map.ObjectMapper.setFilters(org.codehaus.jackson.map.ser.FilterProvider)",66,0.030654900139340455
+"public boolean com.metamx.common.logger.Logger.isInfoEnabled()",34,0.01579191825359963
+"public boolean java.io.File.exists()",5,0.0023223409196470044
+"public boolean java.io.File.isDirectory()",8,0.0037157454714352067
+"public java.util.Map org.jets3t.service.StorageService.renameObject(java.lang.String,java.lang.String,org.jets3t.service.model.StorageObject) throws org.jets3t.service.ServiceException",11,0.005109150023223409
+"public boolean java.io.File.isAbsolute()",6,0.002786809103576405
+"public void org.jets3t.service.impl.rest.httpclient.RestS3Service.setRequesterPaysEnabled(boolean)",82,0.03808639108221087
+"public void org.jets3t.service.impl.rest.httpclient.RestStorageService.authorizeHttpRequest(org.apache.commons.httpclient.HttpMethod) throws java.lang.Exception",66,0.030654900139340455
+"public void org.jets3t.service.StorageService.deleteBucket(java.lang.String) throws org.jets3t.service.ServiceException",9,0.0041802136553646075
+"public void org.jets3t.service.StorageService.deleteBucket(org.jets3t.service.model.StorageBucket) throws org.jets3t.service.ServiceException",7,0.003251277287505806
+"public java.io.File java.io.File.getCanonicalFile() throws java.io.IOException",17,0.007895959126799815
+"public void com.metamx.common.logger.Logger.wtf(java.lang.Throwable,java.lang.String,java.lang.Object[])",4,0.0018578727357176034
+"public void com.metamx.common.logger.Logger.wtf(java.lang.String,java.lang.Object[])",4,0.0018578727357176034
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setSerializerProvider(org.codehaus.jackson.map.SerializerProvider)",75,0.03483511379470506
+"public java.lang.String java.io.File.getPath()",17,0.007895959126799815
+"public boolean org.jets3t.service.S3Service.isRequesterPaysBucket(java.lang.String) throws org.jets3t.service.S3ServiceException",2,9.289363678588017E-4
+"public boolean com.metamx.common.logger.Logger.isTraceEnabled()",6,0.002786809103576405
+"public java.lang.String org.jets3t.service.S3Service.createSignedGetUrl(java.lang.String,java.lang.String,java.util.Date) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public java.lang.String org.jets3t.service.S3Service.createSignedGetUrl(java.lang.String,java.lang.String,org.jets3t.service.security.ProviderCredentials,java.util.Date,boolean) throws org.jets3t.service.S3ServiceException",10,0.004644681839294009
+"public java.lang.String org.jets3t.service.S3Service.createSignedGetUrl(java.lang.String,java.lang.String,java.util.Date,boolean) throws org.jets3t.service.S3ServiceException",7,0.003251277287505806
+"public java.lang.String org.jets3t.service.S3Service.createSignedGetUrl(java.lang.String,java.lang.String,org.jets3t.service.security.ProviderCredentials,java.util.Date) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public boolean org.codehaus.jackson.map.ObjectMapper.isEnabled(org.codehaus.jackson.JsonGenerator$Feature)",9,0.0041802136553646075
+"public boolean org.codehaus.jackson.map.ObjectMapper.isEnabled(org.codehaus.jackson.map.SerializationConfig$Feature)",7,0.003251277287505806
+"public boolean org.codehaus.jackson.map.ObjectMapper.isEnabled(org.codehaus.jackson.JsonParser$Feature)",7,0.003251277287505806
+"public boolean org.codehaus.jackson.map.ObjectMapper.isEnabled(org.codehaus.jackson.map.DeserializationConfig$Feature)",1,4.6446818392940084E-4
+"public org.jets3t.service.acl.AccessControlList org.jets3t.service.S3Service.getBucketAcl(org.jets3t.service.model.S3Bucket) throws org.jets3t.service.S3ServiceException",7,0.003251277287505806
+"public org.jets3t.service.model.WebsiteConfig org.jets3t.service.S3Service.getWebsiteConfig(java.lang.String) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public java.lang.String org.jets3t.service.S3Service.createTorrentUrl(java.lang.String,java.lang.String)",213,0.09893172317696237
+"public org.jets3t.service.security.ProviderCredentials org.jets3t.service.StorageService.getProviderCredentials()",1329,0.6172782164421737
+"public static final char java.io.File.separatorChar",1,4.6446818392940084E-4
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setAnnotationIntrospector(org.codehaus.jackson.map.AnnotationIntrospector)",46,0.021365536460752437
+"public org.codehaus.jackson.map.SerializerProvider org.codehaus.jackson.map.ObjectMapper.getSerializerProvider()",689,0.3200185787273572
+"com.metamx.druid.loading.S3SegmentPusher()",11,0.005109150023223409
+"com.metamx.druid.loading.S3SegmentPusher(org.jets3t.service.impl.rest.httpclient.RestS3Service, com.metamx.druid.loading.S3SegmentPusherConfig, org.codehaus.jackson.map.ObjectMapper)",575,0.26706920575940546
+"public org.codehaus.jackson.map.type.TypeFactory org.codehaus.jackson.map.ObjectMapper.getTypeFactory()",7,0.003251277287505806
+"public org.codehaus.jackson.node.JsonNodeFactory org.codehaus.jackson.map.ObjectMapper.getNodeFactory()",133,0.06177426846261031
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setDeserializationConfig(org.codehaus.jackson.map.DeserializationConfig)",27,0.012540640966093822
+"public java.lang.String org.jets3t.service.S3Service.createSignedHeadUrl(java.lang.String,java.lang.String,java.util.Date,boolean) throws org.jets3t.service.S3ServiceException",10,0.004644681839294009
+"public java.lang.String org.jets3t.service.S3Service.createSignedHeadUrl(java.lang.String,java.lang.String,java.util.Date) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public java.lang.String org.jets3t.service.S3Service.createSignedHeadUrl(java.lang.String,java.lang.String,org.jets3t.service.security.ProviderCredentials,java.util.Date) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public java.lang.String org.jets3t.service.S3Service.createSignedHeadUrl(java.lang.String,java.lang.String,org.jets3t.service.security.ProviderCredentials,java.util.Date,boolean) throws org.jets3t.service.S3ServiceException",3,0.0013934045517882026
+"public org.codehaus.jackson.map.introspect.VisibilityChecker org.codehaus.jackson.map.ObjectMapper.getVisibilityChecker()",17,0.007895959126799815
+"public void org.jets3t.service.impl.rest.httpclient.RestStorageService.deleteObjectWithSignedUrl(java.lang.String) throws org.jets3t.service.ServiceException",8,0.0037157454714352067
+"public void org.codehaus.jackson.map.ObjectMapper.setHandlerInstantiator(org.codehaus.jackson.map.HandlerInstantiator)",8,0.0037157454714352067
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.enableDefaultTyping(org.codehaus.jackson.map.ObjectMapper$DefaultTyping,org.codehaus.jackson.annotate.JsonTypeInfo$As)",7,0.003251277287505806
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.enableDefaultTyping()",112,0.052020436600092895
+"public void org.jets3t.service.S3Service.enableBucketVersioningAndMFA(java.lang.String) throws org.jets3t.service.S3ServiceException",7,0.003251277287505806
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.enableDefaultTyping(org.codehaus.jackson.map.ObjectMapper$DefaultTyping)",12,0.00557361820715281
+"public org.jets3t.service.Jets3tProperties org.jets3t.service.StorageService.getJetS3tProperties()",261,0.12122619600557362
+"public static final char java.io.File.pathSeparatorChar",1,4.6446818392940084E-4
+"byte[6]",1,4.6446818392940084E-4
+"byte[3]",1,4.6446818392940084E-4
+"byte[4]",1,4.6446818392940084E-4
+"public static java.lang.String org.jets3t.service.S3Service.createSignedUrl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Map,org.jets3t.service.security.ProviderCredentials,long,boolean,boolean,boolean) throws org.jets3t.service.S3ServiceException",13,0.006038086391082211
+"public java.lang.String org.jets3t.service.S3Service.createSignedUrl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Map,org.jets3t.service.security.ProviderCredentials,long) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public java.lang.String org.jets3t.service.S3Service.createSignedUrl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Map,org.jets3t.service.security.ProviderCredentials,long,boolean) throws org.jets3t.service.S3ServiceException",12,0.00557361820715281
+"public java.lang.String org.jets3t.service.S3Service.createSignedUrl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Map,long,boolean,boolean,boolean) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public java.lang.String org.jets3t.service.S3Service.createSignedUrl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Map,long) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public java.lang.String org.jets3t.service.S3Service.createSignedUrl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Map,long,boolean) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"public com.google.common.base.Joiner com.google.common.base.Joiner.useForNull(java.lang.String)",12,0.00557361820715281
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getVersionedObject(java.lang.String,java.lang.String,java.lang.String,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[],java.lang.Long,java.lang.Long) throws org.jets3t.service.S3ServiceException",14,0.006502554575011612
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getVersionedObject(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",13,0.006038086391082211
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getVersionedObject(java.lang.String,org.jets3t.service.model.S3Bucket,java.lang.String,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[],java.lang.Long,java.lang.Long) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"public org.codehaus.jackson.map.ObjectReader org.codehaus.jackson.map.ObjectMapper.schemaBasedReader(org.codehaus.jackson.FormatSchema)",229,0.1063632141198328
+"public void org.jets3t.service.StorageService.deleteObject(java.lang.String,java.lang.String) throws org.jets3t.service.ServiceException",9,0.0041802136553646075
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.prettyPrintingWriter(org.codehaus.jackson.PrettyPrinter)",125,0.0580585229911751
+"public void org.jets3t.service.impl.rest.httpclient.RestStorageService.putObjectAclWithSignedUrl(java.lang.String,org.jets3t.service.acl.AccessControlList) throws org.jets3t.service.ServiceException",10,0.004644681839294009
+"public org.jets3t.service.model.S3Bucket org.jets3t.service.S3Service.getBucket(java.lang.String) throws org.jets3t.service.S3ServiceException",10,0.004644681839294009
+"public org.codehaus.jackson.node.ObjectNode org.codehaus.jackson.map.ObjectMapper.createObjectNode()",272,0.12633534602879704
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setPropertyNamingStrategy(org.codehaus.jackson.map.PropertyNamingStrategy)",16,0.0074314909428704135
+"public void org.jets3t.service.S3Service.putObjectMaybeAsMultipart(java.lang.String,org.jets3t.service.model.StorageObject,long) throws org.jets3t.service.ServiceException",7,0.003251277287505806
+"public long java.io.File.getFreeSpace()",15,0.006967022758941012
+"public long java.io.File.getTotalSpace()",11,0.005109150023223409
+"public java.util.Map org.jets3t.service.StorageService.updateObjectMetadata(java.lang.String,org.jets3t.service.model.StorageObject) throws org.jets3t.service.ServiceException",6,0.002786809103576405
+"public void org.jets3t.service.S3Service.enableBucketVersioning(java.lang.String) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public java.lang.String java.io.File.toString()",12,0.00557361820715281
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.putObject(org.jets3t.service.model.S3Bucket,org.jets3t.service.model.S3Object) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.putObject(java.lang.String,org.jets3t.service.model.S3Object) throws org.jets3t.service.S3ServiceException",1,4.6446818392940084E-4
+"public java.lang.String org.jets3t.service.S3Service.createSignedDeleteUrl(java.lang.String,java.lang.String,java.util.Date,boolean) throws org.jets3t.service.S3ServiceException",4,0.0018578727357176034
+"public java.lang.String org.jets3t.service.S3Service.createSignedDeleteUrl(java.lang.String,java.lang.String,java.util.Date) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"public java.lang.String org.jets3t.service.S3Service.createSignedDeleteUrl(java.lang.String,java.lang.String,org.jets3t.service.security.ProviderCredentials,java.util.Date) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public java.lang.String org.jets3t.service.S3Service.createSignedDeleteUrl(java.lang.String,java.lang.String,org.jets3t.service.security.ProviderCredentials,java.util.Date,boolean) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public static final java.lang.String java.io.File.pathSeparator",1,4.6446818392940084E-4
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.readTree(java.io.InputStream) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",10,0.004644681839294009
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.readTree(java.net.URL) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",7,0.003251277287505806
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.readTree(java.io.File) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",6,0.002786809103576405
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.readTree(java.io.Reader) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",8,0.0037157454714352067
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.readTree(org.codehaus.jackson.JsonParser) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",22,0.010218300046446818
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.readTree(byte[]) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",17,0.007895959126799815
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.readTree(java.lang.String) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",5,0.0023223409196470044
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.readTree(org.codehaus.jackson.JsonParser,org.codehaus.jackson.map.DeserializationConfig) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",2,9.289363678588017E-4
+"public void org.jets3t.service.StorageService.putBucketAcl(java.lang.String,org.jets3t.service.acl.AccessControlList) throws org.jets3t.service.ServiceException",8,0.0037157454714352067
+"public void org.jets3t.service.StorageService.putBucketAcl(org.jets3t.service.model.StorageBucket) throws org.jets3t.service.ServiceException",10,0.004644681839294009
+"public java.util.Map org.jets3t.service.StorageService.moveObject(java.lang.String,java.lang.String,java.lang.String,org.jets3t.service.model.StorageObject,boolean) throws org.jets3t.service.ServiceException",5,0.0023223409196470044
+"public void org.jets3t.service.S3Service.deleteBucket(org.jets3t.service.model.S3Bucket) throws org.jets3t.service.S3ServiceException",7,0.003251277287505806
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.convertValue(java.lang.Object,org.codehaus.jackson.type.JavaType) throws java.lang.IllegalArgumentException",2,9.289363678588017E-4
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.convertValue(java.lang.Object,org.codehaus.jackson.type.TypeReference) throws java.lang.IllegalArgumentException",5,0.0023223409196470044
+"public void org.jets3t.service.S3Service.deleteObject(org.jets3t.service.model.S3Bucket,java.lang.String) throws org.jets3t.service.S3ServiceException",3,0.0013934045517882026
+"public org.jets3t.service.model.StorageOwner org.jets3t.service.StorageService.getAccountOwner() throws org.jets3t.service.ServiceException",6,0.002786809103576405
+"com.metamx.druid.client.DataSegment(java.lang.String, org.joda.time.Interval, java.lang.String, java.util.Map, java.util.List, java.util.List, com.metamx.druid.shard.ShardSpec, long)",99,0.04598235020901068
+"public java.util.List org.jets3t.service.impl.rest.httpclient.RestS3Service.getResourceParameterNames()",96,0.04458894565722248
+"public long java.io.File.lastModified()",12,0.00557361820715281
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.dimensions(java.util.List)",450,0.20901068276823037
+"public boolean org.jets3t.service.StorageService.isShutdown()",138,0.06409660938225732
+"public java.lang.String org.jets3t.service.impl.rest.httpclient.RestS3Service.getDevPayProductToken()",60,0.02786809103576405
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setInjectableValues(org.codehaus.jackson.map.InjectableValues)",7,0.003251277287505806
+"public boolean com.metamx.common.logger.Logger.isDebugEnabled()",7,0.003251277287505806
+"public void org.codehaus.jackson.map.ObjectMapper.setSubtypeResolver(org.codehaus.jackson.map.jsontype.SubtypeResolver)",28,0.013005109150023224
+"public boolean org.jets3t.service.impl.rest.httpclient.RestStorageService.isBucketAccessible(java.lang.String) throws org.jets3t.service.ServiceException",280,0.13005109150023222
+"public java.util.Map org.jets3t.service.StorageService.renameMetadataKeys(java.util.Map)",558,0.25917324663260566
+"public org.apache.commons.httpclient.HttpConnectionManager org.jets3t.service.impl.rest.httpclient.RestStorageService.getHttpConnectionManager()",101,0.046911286576869486
+"java.util.ArrayList()",458,0.2127264282396656
+"public void java.io.File.deleteOnExit()",18,0.008360427310729215
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.schemaBasedWriter(org.codehaus.jackson.FormatSchema)",21,0.009753831862517418
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setSerializationConfig(org.codehaus.jackson.map.SerializationConfig)",28,0.013005109150023224
+"public final native java.lang.Class java.lang.Object.getClass()",153,0.07106363214119833
+"public void com.metamx.common.logger.Logger.debug(java.lang.Throwable,java.lang.String,java.lang.Object[])",1,4.6446818392940084E-4
+"public void com.metamx.common.logger.Logger.debug(java.lang.String,java.lang.Object[])",12,0.00557361820715281
+"public java.util.Date org.jets3t.service.StorageService.getCurrentTimeWithOffset()",119,0.055271713887598696
+"public org.codehaus.jackson.JsonNode org.codehaus.jackson.map.ObjectMapper.valueToTree(java.lang.Object) throws java.lang.IllegalArgumentException",67,0.031119368323269857
+"public java.lang.String java.io.File.getParent()",7,0.003251277287505806
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getObject(org.jets3t.service.model.S3Bucket,java.lang.String,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[],java.lang.Long,java.lang.Long) throws org.jets3t.service.S3ServiceException",3,0.0013934045517882026
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getObject(java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",12,0.00557361820715281
+"public void com.metamx.common.logger.Logger.trace(java.lang.String,java.lang.Object[])",21,0.009753831862517418
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getObject(java.lang.String,java.lang.String,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[],java.lang.Long,java.lang.Long) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"public void com.metamx.common.logger.Logger.trace(java.lang.Throwable,java.lang.String,java.lang.Object[])",33,0.015327450069670227
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getObject(org.jets3t.service.model.S3Bucket,java.lang.String) throws org.jets3t.service.S3ServiceException",3,0.0013934045517882026
+"public byte[] org.codehaus.jackson.map.ObjectMapper.writeValueAsBytes(java.lang.Object) throws java.io.IOException,org.codehaus.jackson.JsonGenerationException,org.codehaus.jackson.map.JsonMappingException",156,0.07245703669298653
+"public long java.io.File.getUsableSpace()",27,0.012540640966093822
+"public void com.metamx.common.logger.Logger.error(java.lang.Throwable,java.lang.String,java.lang.Object[])",47,0.02183000464468184
+"public void com.metamx.common.logger.Logger.error(java.lang.String,java.lang.Object[])",27,0.012540640966093822
+"public void org.codehaus.jackson.map.ObjectMapper.registerModule(org.codehaus.jackson.map.Module)",3,0.0013934045517882026
+"public void org.jets3t.service.StorageService.shutdown() throws org.jets3t.service.ServiceException",10,0.004644681839294009
+"public org.jets3t.service.model.S3Bucket[] org.jets3t.service.S3Service.listAllBuckets() throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public org.jets3t.service.acl.AccessControlList org.jets3t.service.impl.rest.httpclient.RestStorageService.getObjectAclWithSignedUrl(java.lang.String) throws org.jets3t.service.ServiceException",11,0.005109150023223409
+"public org.jets3t.service.model.S3BucketLoggingStatus org.jets3t.service.S3Service.getBucketLoggingStatus(java.lang.String) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.loadSpec(java.util.Map)",77,0.035764050162563864
+"public boolean java.io.File.setExecutable(boolean)",18,0.008360427310729215
+"public boolean java.io.File.setExecutable(boolean,boolean)",25,0.011611704598235021
+"public java.io.File java.io.File.getParentFile()",13,0.006038086391082211
+"public void org.jets3t.service.S3Service.deleteBucketPolicy(java.lang.String) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public org.jets3t.service.model.BaseVersionOrDeleteMarker[] org.jets3t.service.S3Service.getObjectVersions(java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public org.jets3t.service.acl.AccessControlList org.jets3t.service.StorageService.getBucketAcl(java.lang.String) throws org.jets3t.service.ServiceException",9,0.0041802136553646075
+"public static java.lang.String org.jets3t.service.S3Service.generatePostPolicyCondition_AllowAnyValue(java.lang.String)",9,0.0041802136553646075
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",458,0.2127264282396656
+"public boolean java.io.File.setWritable(boolean)",56,0.026010218300046448
+"public boolean java.io.File.setWritable(boolean,boolean)",11,0.005109150023223409
+"public org.jets3t.service.model.S3Object org.jets3t.service.impl.rest.httpclient.RestStorageService.getObjectWithSignedUrl(java.lang.String) throws org.jets3t.service.ServiceException",16,0.0074314909428704135
+"public java.lang.String org.codehaus.jackson.map.ObjectMapper.writeValueAsString(java.lang.Object) throws java.io.IOException,org.codehaus.jackson.JsonGenerationException,org.codehaus.jackson.map.JsonMappingException",148,0.06874129122155133
+"public boolean java.io.File.setLastModified(long)",33,0.015327450069670227
+"public boolean java.io.File.setReadOnly()",32,0.014862981885740827
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.dataSource(java.lang.String)",108,0.05016256386437529
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.configure(org.codehaus.jackson.map.SerializationConfig$Feature,boolean)",9,0.0041802136553646075
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.configure(org.codehaus.jackson.JsonParser$Feature,boolean)",8,0.0037157454714352067
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.configure(org.codehaus.jackson.JsonGenerator$Feature,boolean)",3,0.0013934045517882026
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.configure(org.codehaus.jackson.map.DeserializationConfig$Feature,boolean)",6,0.002786809103576405
+"public java.lang.String org.jets3t.service.impl.rest.httpclient.RestS3Service.getRestMetadataPrefix()",302,0.14026939154667906
+"public static com.google.common.base.Joiner com.google.common.base.Joiner.on(java.lang.String)",23,0.010682768230376219
+"public static com.google.common.base.Joiner com.google.common.base.Joiner.on(char)",11,0.005109150023223409
+"public final java.lang.String com.google.common.base.Joiner.join(java.lang.Object,java.lang.Object,java.lang.Object[])",13,0.006038086391082211
+"public final java.lang.String com.google.common.base.Joiner.join(java.lang.Iterable)",5,0.0023223409196470044
+"public final java.lang.String com.google.common.base.Joiner.join(java.lang.Object[])",6,0.002786809103576405
+"public final java.lang.String com.google.common.base.Joiner.join(java.util.Iterator)",3,0.0013934045517882026
+"public void org.jets3t.service.impl.rest.httpclient.RestStorageService.setHttpConnectionManager(org.apache.commons.httpclient.HttpConnectionManager)",986,0.4579656293543892
+"public void org.codehaus.jackson.map.ObjectMapper.registerSubtypes(org.codehaus.jackson.map.jsontype.NamedType[])",3,0.0013934045517882026
+"public boolean org.jets3t.service.StorageService.isHttpsOnly()",19,0.008824895494658615
+"public void org.jets3t.service.S3Service.multipartAbortUpload(org.jets3t.service.model.MultipartUpload) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public com.google.common.base.Joiner$MapJoiner com.google.common.base.Joiner.withKeyValueSeparator(java.lang.String)",14,0.006502554575011612
+"public void org.jets3t.service.S3Service.setBucketLoggingStatus(java.lang.String,org.jets3t.service.model.S3BucketLoggingStatus,boolean) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public java.net.URI java.io.File.toURI()",33,0.015327450069670227
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setSerializerFactory(org.codehaus.jackson.map.SerializerFactory)",324,0.15048769159312586
+"public static final int org.jets3t.service.StorageService.BUCKET_STATUS__MY_BUCKET",1,4.6446818392940084E-4
+"public static com.google.common.base.Joiner com.metamx.druid.loading.S3SegmentPusher.JOINER",23,0.010682768230376219
+"public static com.google.common.base.Joiner com.metamx.druid.loading.S3SegmentPusher.JOINER",9,0.0041802136553646075
+"public java.net.URL java.io.File.toURL() throws java.net.MalformedURLException",26,0.012076172782164421
+"org.codehaus.jackson.map.SerializationConfig$Feature[1]",1,4.6446818392940084E-4
+"org.codehaus.jackson.map.SerializationConfig$Feature[0]",133,0.06177426846261031
+"public org.jets3t.service.model.MultipartCompleted org.jets3t.service.S3Service.multipartCompleteUpload(org.jets3t.service.model.MultipartUpload,java.util.List) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public org.jets3t.service.model.MultipartCompleted org.jets3t.service.S3Service.multipartCompleteUpload(org.jets3t.service.model.MultipartUpload) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public com.metamx.druid.client.DataSegment com.metamx.druid.client.DataSegment$Builder.build()",8,0.0037157454714352067
+"public void org.codehaus.jackson.map.ObjectMapper.setDateFormat(java.text.DateFormat)",75,0.03483511379470506
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.size(long)",141,0.06549001393404552
+"public final java.lang.StringBuilder com.google.common.base.Joiner.appendTo(java.lang.StringBuilder,java.lang.Object,java.lang.Object,java.lang.Object[])",1,4.6446818392940084E-4
+"public final java.lang.StringBuilder com.google.common.base.Joiner.appendTo(java.lang.StringBuilder,java.lang.Iterable)",6,0.002786809103576405
+"public final java.lang.StringBuilder com.google.common.base.Joiner.appendTo(java.lang.StringBuilder,java.lang.Object[])",10,0.004644681839294009
+"public org.codehaus.jackson.map.DeserializationConfig org.codehaus.jackson.map.ObjectMapper.getDeserializationConfig()",43,0.019972131908964234
+"public final java.lang.StringBuilder com.google.common.base.Joiner.appendTo(java.lang.StringBuilder,java.util.Iterator)",4,0.0018578727357176034
+"org.jets3t.service.model.MultipartPart[0]",4,0.0018578727357176034
+"public boolean java.io.File.canRead()",46,0.021365536460752437
+"public org.jets3t.service.impl.rest.httpclient.RestS3Service com.metamx.druid.loading.S3SegmentPusher.s3Client",32,0.014862981885740827
+"public org.jets3t.service.impl.rest.httpclient.RestS3Service com.metamx.druid.loading.S3SegmentPusher.s3Client",20,0.009289363678588018
+"public org.jets3t.service.model.S3Object org.jets3t.service.impl.rest.httpclient.RestStorageService.putObjectWithSignedUrl(java.lang.String,org.jets3t.service.model.S3Object) throws org.jets3t.service.ServiceException",8,0.0037157454714352067
+"public int org.jets3t.service.impl.rest.httpclient.RestStorageService.checkBucketStatus(java.lang.String) throws org.jets3t.service.ServiceException",14,0.006502554575011612
+"public void org.jets3t.service.impl.rest.httpclient.RestS3Service.setDevPayProductToken(java.lang.String)",18,0.008360427310729215
+"public java.lang.String org.jets3t.service.S3Service.getBucketPolicy(java.lang.String) throws org.jets3t.service.S3ServiceException",1,4.6446818392940084E-4
+"public void org.jets3t.service.impl.rest.httpclient.RestStorageService.setHttpClient(org.apache.commons.httpclient.HttpClient)",30,0.013934045517882025
+"public org.codehaus.jackson.map.DeserializerProvider org.codehaus.jackson.map.ObjectMapper.getDeserializerProvider()",262,0.12169066418950301
+"public org.jets3t.service.model.MultipartPart org.jets3t.service.S3Service.multipartUploadPart(org.jets3t.service.model.MultipartUpload,java.lang.Integer,org.jets3t.service.model.S3Object) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public int org.jets3t.service.StorageService.getInternalErrorRetryMax()",59,0.02740362285183465
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.disable(org.codehaus.jackson.map.SerializationConfig$Feature[])",33,0.015327450069670227
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.disable(org.codehaus.jackson.map.DeserializationConfig$Feature[])",31,0.014398513701811427
+"com.metamx.druid.client.DataSegment$Builder(com.metamx.druid.client.DataSegment)",1,4.6446818392940084E-4
+"com.metamx.druid.client.DataSegment$Builder()",488,0.2266604737575476
+"public java.lang.String org.jets3t.service.S3Service.getBucketLocation(java.lang.String) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"public org.apache.commons.httpclient.HttpClient org.jets3t.service.impl.rest.httpclient.RestStorageService.getHttpClient()",44,0.020436600092893636
+"public java.lang.String org.jets3t.service.impl.rest.httpclient.RestS3Service.getEndpoint()",235,0.10915002322340919
+"public org.jets3t.service.model.S3Object[] org.jets3t.service.S3Service.listObjects(org.jets3t.service.model.S3Bucket,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",14,0.006502554575011612
+"public org.jets3t.service.model.S3Object[] org.jets3t.service.S3Service.listObjects(org.jets3t.service.model.S3Bucket) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public org.jets3t.service.model.S3Object[] org.jets3t.service.S3Service.listObjects(java.lang.String) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public org.jets3t.service.model.S3Object[] org.jets3t.service.S3Service.listObjects(java.lang.String,java.lang.String,java.lang.String,long) throws org.jets3t.service.S3ServiceException",10,0.004644681839294009
+"public org.jets3t.service.model.S3Object[] org.jets3t.service.S3Service.listObjects(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public org.jets3t.service.model.S3Object[] org.jets3t.service.S3Service.listObjects(org.jets3t.service.model.S3Bucket,java.lang.String,java.lang.String,long) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public java.nio.file.Path java.io.File.toPath()",14,0.006502554575011612
+"public static java.lang.String com.metamx.druid.client.DataSegment.delimiter",5,0.0023223409196470044
+"public static java.lang.String com.metamx.druid.client.DataSegment.delimiter",1,4.6446818392940084E-4
+"public void org.codehaus.jackson.map.ObjectMapper.writeValue(org.codehaus.jackson.JsonGenerator,java.lang.Object,org.codehaus.jackson.map.SerializationConfig) throws java.io.IOException,org.codehaus.jackson.JsonGenerationException,org.codehaus.jackson.map.JsonMappingException",4,0.0018578727357176034
+"public void org.codehaus.jackson.map.ObjectMapper.writeValue(java.io.File,java.lang.Object) throws java.io.IOException,org.codehaus.jackson.JsonGenerationException,org.codehaus.jackson.map.JsonMappingException",8,0.0037157454714352067
+"public void org.codehaus.jackson.map.ObjectMapper.writeValue(java.io.Writer,java.lang.Object) throws java.io.IOException,org.codehaus.jackson.JsonGenerationException,org.codehaus.jackson.map.JsonMappingException",6,0.002786809103576405
+"public void org.codehaus.jackson.map.ObjectMapper.writeValue(java.io.OutputStream,java.lang.Object) throws java.io.IOException,org.codehaus.jackson.JsonGenerationException,org.codehaus.jackson.map.JsonMappingException",6,0.002786809103576405
+"public void org.codehaus.jackson.map.ObjectMapper.writeValue(org.codehaus.jackson.JsonGenerator,java.lang.Object) throws java.io.IOException,org.codehaus.jackson.JsonGenerationException,org.codehaus.jackson.map.JsonMappingException",8,0.0037157454714352067
+"public org.jets3t.service.model.S3Object org.jets3t.service.impl.rest.httpclient.RestStorageService.getObjectDetailsWithSignedUrl(java.lang.String) throws org.jets3t.service.ServiceException",6,0.002786809103576405
+"public static final int org.jets3t.service.StorageService.BUCKET_STATUS__ALREADY_CLAIMED",1,4.6446818392940084E-4
+"public org.jets3t.service.model.StorageBucket org.jets3t.service.StorageService.createBucket(org.jets3t.service.model.StorageBucket) throws org.jets3t.service.ServiceException",10,0.004644681839294009
+"public void org.jets3t.service.S3Service.enableBucketVersioningWithMFA(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",4,0.0018578727357176034
+"public java.util.Map org.jets3t.service.S3Service.copyVersionedObject(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.jets3t.service.model.S3Object,boolean,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[]) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public java.util.Map org.jets3t.service.S3Service.copyVersionedObject(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.jets3t.service.model.S3Object,boolean) throws org.jets3t.service.S3ServiceException",4,0.0018578727357176034
+"public void org.jets3t.service.impl.rest.httpclient.RestS3Service.setDevPayUserToken(java.lang.String)",27,0.012540640966093822
+"org.codehaus.jackson.map.jsontype.NamedType[1]",1,4.6446818392940084E-4
+"org.codehaus.jackson.map.jsontype.NamedType[0]",1,4.6446818392940084E-4
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.version(java.lang.String)",158,0.07338597306084534
+"public boolean java.io.File.canWrite()",8,0.0037157454714352067
+"com.metamx.emitter.EmittingLogger(java.lang.Class)",37,0.017185322805387832
+"public boolean java.io.File.isHidden()",13,0.006038086391082211
+"com.metamx.emitter.EmittingLogger(java.lang.String)",229,0.1063632141198328
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.metrics(java.util.List)",281,0.13051555968416165
+"public org.jets3t.service.acl.AccessControlList org.jets3t.service.StorageService.getObjectAcl(java.lang.String,java.lang.String) throws org.jets3t.service.ServiceException",13,0.006038086391082211
+"public boolean java.io.File.equals(java.lang.Object)",10,0.004644681839294009
+"public boolean java.io.File.createNewFile() throws java.io.IOException",27,0.012540640966093822
+"public org.codehaus.jackson.map.DeserializationConfig org.codehaus.jackson.map.ObjectMapper.copyDeserializationConfig()",92,0.042731072921504874
+"public org.codehaus.jackson.map.ObjectReader org.codehaus.jackson.map.ObjectMapper.readerForUpdating(java.lang.Object)",8,0.0037157454714352067
+"public com.google.common.base.Joiner com.google.common.base.Joiner.skipNulls()",11,0.005109150023223409
+"public org.codehaus.jackson.map.ObjectMapper com.metamx.druid.loading.S3SegmentPusher.jsonMapper",4,0.0018578727357176034
+"public org.codehaus.jackson.map.ObjectMapper com.metamx.druid.loading.S3SegmentPusher.jsonMapper",14,0.006502554575011612
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setSerializationInclusion(org.codehaus.jackson.map.annotate.JsonSerialize$Inclusion)",51,0.023687877380399444
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setVisibility(org.codehaus.jackson.annotate.JsonMethod,org.codehaus.jackson.annotate.JsonAutoDetect$Visibility)",5,0.0023223409196470044
+"public org.jets3t.service.VersionOrDeleteMarkersChunk org.jets3t.service.S3Service.listVersionedObjectsChunked(java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,java.lang.String,boolean) throws org.jets3t.service.S3ServiceException",16,0.0074314909428704135
+"public org.jets3t.service.security.ProviderCredentials org.jets3t.service.S3Service.getAWSCredentials()",30,0.013934045517882025
+"public void org.jets3t.service.S3Service.setRequesterPaysBucket(java.lang.String,boolean) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public org.jets3t.service.model.MultipartUpload org.jets3t.service.S3Service.multipartStartUpload(java.lang.String,java.lang.String,java.util.Map) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public org.jets3t.service.model.MultipartUpload org.jets3t.service.S3Service.multipartStartUpload(java.lang.String,org.jets3t.service.model.S3Object) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public org.jets3t.service.model.MultipartUpload org.jets3t.service.S3Service.multipartStartUpload(java.lang.String,java.lang.String,java.util.Map,org.jets3t.service.acl.AccessControlList,java.lang.String) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"org.jets3t.service.impl.rest.httpclient.RestS3Service(org.jets3t.service.security.ProviderCredentials)",1749,0.812354853692522
+"org.jets3t.service.impl.rest.httpclient.RestS3Service(org.jets3t.service.security.ProviderCredentials, java.lang.String, org.apache.commons.httpclient.auth.CredentialsProvider, org.jets3t.service.Jets3tProperties, org.apache.commons.httpclient.HostConfiguration)",275,0.12772875058058522
+"org.jets3t.service.impl.rest.httpclient.RestS3Service(org.jets3t.service.security.ProviderCredentials, java.lang.String, org.apache.commons.httpclient.auth.CredentialsProvider, org.jets3t.service.Jets3tProperties)",246,0.11425917324663261
+"org.jets3t.service.impl.rest.httpclient.RestS3Service(org.jets3t.service.security.ProviderCredentials, java.lang.String, org.apache.commons.httpclient.auth.CredentialsProvider)",248,0.11518810961449141
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.writer(org.codehaus.jackson.PrettyPrinter)",108,0.05016256386437529
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.writer(org.codehaus.jackson.map.ser.FilterProvider)",38,0.01764979098931723
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.writer(java.text.DateFormat)",31,0.014398513701811427
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.writer()",16,0.0074314909428704135
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.writer(org.codehaus.jackson.FormatSchema)",3,0.0013934045517882026
+"public void org.jets3t.service.StorageService.putObjectAcl(java.lang.String,java.lang.String,org.jets3t.service.acl.AccessControlList) throws org.jets3t.service.ServiceException",8,0.0037157454714352067
+"public void org.jets3t.service.StorageService.putObjectAcl(java.lang.String,org.jets3t.service.model.StorageObject) throws org.jets3t.service.ServiceException",6,0.002786809103576405
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setNodeFactory(org.codehaus.jackson.node.JsonNodeFactory)",29,0.013469577333952624
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.withModule(org.codehaus.jackson.map.Module)",5,0.0023223409196470044
+"public org.jets3t.service.model.StorageObject org.jets3t.service.StorageService.putObject(java.lang.String,org.jets3t.service.model.StorageObject) throws org.jets3t.service.ServiceException",9,0.0041802136553646075
+"public java.util.List org.jets3t.service.S3Service.multipartListUploads(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer) throws org.jets3t.service.S3ServiceException",7,0.003251277287505806
+"public java.util.List org.jets3t.service.S3Service.multipartListUploads(java.lang.String) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public boolean java.io.File.delete()",30,0.013934045517882025
+"public static final java.lang.String java.io.File.separator",1,4.6446818392940084E-4
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.typedWriter(org.codehaus.jackson.type.JavaType)",12,0.00557361820715281
+"public void org.jets3t.service.impl.rest.httpclient.RestStorageService.setCredentialsProvider(org.apache.commons.httpclient.auth.CredentialsProvider)",14,0.006502554575011612
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.writerWithType(org.codehaus.jackson.type.JavaType)",16,0.0074314909428704135
+"public org.codehaus.jackson.JsonFactory org.codehaus.jackson.map.ObjectMapper.getJsonFactory()",41,0.019043195541105434
+"public int java.io.File.compareTo(java.io.File)",10,0.004644681839294009
+"public org.codehaus.jackson.map.ObjectReader org.codehaus.jackson.map.ObjectMapper.updatingReader(java.lang.Object)",6,0.002786809103576405
+"public org.jets3t.service.acl.AccessControlList org.jets3t.service.S3Service.getVersionedObjectAcl(java.lang.String,org.jets3t.service.model.S3Bucket,java.lang.String) throws org.jets3t.service.S3ServiceException",7,0.003251277287505806
+"public org.jets3t.service.acl.AccessControlList org.jets3t.service.S3Service.getVersionedObjectAcl(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",3,0.0013934045517882026
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.filteredWriter(org.codehaus.jackson.map.ser.FilterProvider)",6,0.002786809103576405
+"public void com.metamx.common.logger.Logger.info(java.lang.Throwable,java.lang.String,java.lang.Object[])",51,0.023687877380399444
+"public void com.metamx.common.logger.Logger.info(java.lang.String,java.lang.Object[])",10,0.004644681839294009
+"public org.jets3t.service.model.StorageObject org.jets3t.service.StorageService.getObjectDetails(java.lang.String,java.lang.String,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[]) throws org.jets3t.service.ServiceException",9,0.0041802136553646075
+"public org.jets3t.service.model.StorageObject org.jets3t.service.StorageService.getObjectDetails(java.lang.String,java.lang.String) throws org.jets3t.service.ServiceException",9,0.0041802136553646075
+"public java.lang.String java.io.File.getAbsolutePath()",10,0.004644681839294009
+"public org.jets3t.service.StorageObjectsChunk org.jets3t.service.StorageService.listObjectsChunked(java.lang.String,java.lang.String,java.lang.String,long,java.lang.String) throws org.jets3t.service.ServiceException",9,0.0041802136553646075
+"public org.jets3t.service.StorageObjectsChunk org.jets3t.service.StorageService.listObjectsChunked(java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,boolean) throws org.jets3t.service.ServiceException",3,0.0013934045517882026
+"public org.jets3t.service.model.BaseVersionOrDeleteMarker[] org.jets3t.service.S3Service.listVersionedObjects(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",7,0.003251277287505806
+"public java.lang.String org.jets3t.service.S3Service.createUnsignedObjectUrl(java.lang.String,java.lang.String,boolean,boolean,boolean) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public org.codehaus.jackson.JsonParser org.codehaus.jackson.map.ObjectMapper.treeAsTokens(org.codehaus.jackson.JsonNode)",36,0.01672085462145843
+"public static java.lang.String org.jets3t.service.S3Service.generatePostPolicyCondition_Range(int,int)",7,0.003251277287505806
+"public java.lang.String org.jets3t.service.StorageService.getInvokingApplicationDescription()",149,0.06920575940548072
+"public org.codehaus.jackson.node.ArrayNode org.codehaus.jackson.map.ObjectMapper.createArrayNode()",85,0.039479795633999074
+"public void org.jets3t.service.S3Service.setNotificationConfig(java.lang.String,org.jets3t.service.model.NotificationConfig) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public void org.jets3t.service.S3Service.disableMFAForVersionedBucket(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"public static java.lang.String com.metamx.druid.client.DataSegment.makeDataSegmentIdentifier(java.lang.String,org.joda.time.DateTime,org.joda.time.DateTime,java.lang.String,com.metamx.druid.shard.ShardSpec)",8,0.0037157454714352067
+"java.lang.String[2]",16,0.0074314909428704135
+"java.lang.String[3]",94,0.04366000928936368
+"public void org.jets3t.service.S3Service.suspendBucketVersioning(java.lang.String) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"java.lang.String[0]",33,0.015327450069670227
+"public boolean java.io.File.mkdir()",24,0.01114723641430562
+"java.lang.String[1]",374,0.17371110078959592
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.shardSpec(com.metamx.druid.shard.ShardSpec)",30,0.013934045517882025
+"public org.codehaus.jackson.type.JavaType org.codehaus.jackson.map.ObjectMapper.constructType(java.lang.reflect.Type)",164,0.07617278216442173
+"public static com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment.builder()",66,0.030654900139340455
+"public static com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment.builder(com.metamx.druid.client.DataSegment)",1,4.6446818392940084E-4
+"public void org.jets3t.service.S3Service.deleteWebsiteConfig(java.lang.String) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public boolean java.io.File.isFile()",11,0.005109150023223409
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getObjectDetails(org.jets3t.service.model.S3Bucket,java.lang.String) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getObjectDetails(org.jets3t.service.model.S3Bucket,java.lang.String,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[]) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public static final int org.jets3t.service.StorageService.BUCKET_STATUS__DOES_NOT_EXIST",1,4.6446818392940084E-4
+"public java.lang.String java.io.File.getCanonicalPath() throws java.io.IOException",14,0.006502554575011612
+"public org.codehaus.jackson.map.ObjectWriter org.codehaus.jackson.map.ObjectMapper.writerWithDefaultPrettyPrinter()",4,0.0018578727357176034
+"public com.metamx.druid.client.DataSegment com.metamx.druid.loading.S3SegmentPusher.push(java.io.File,com.metamx.druid.client.DataSegment) throws java.io.IOException",34,0.01579191825359963
+"public org.codehaus.jackson.Version org.codehaus.jackson.map.ObjectMapper.version()",13,0.006038086391082211
+"public static java.lang.String org.jets3t.service.S3Service.generatePostPolicyCondition(java.lang.String,java.lang.String,java.lang.String)",8,0.0037157454714352067
+"public org.codehaus.jackson.map.SerializationConfig org.codehaus.jackson.map.ObjectMapper.copySerializationConfig()",4,0.0018578727357176034
+"public static com.metamx.emitter.EmittingLogger com.metamx.druid.loading.S3SegmentPusher.log",14,0.006502554575011612
+"public static com.metamx.emitter.EmittingLogger com.metamx.druid.loading.S3SegmentPusher.log",2,9.289363678588017E-4
+"public boolean java.io.File.mkdirs()",44,0.020436600092893636
+"public org.jets3t.service.model.S3BucketVersioningStatus org.jets3t.service.S3Service.getBucketVersioningStatus(java.lang.String) throws org.jets3t.service.S3ServiceException",4,0.0018578727357176034
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(org.codehaus.jackson.JsonParser,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",2,9.289363678588017E-4
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.lang.String,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",39,0.018114259173246633
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.io.File,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",8,0.0037157454714352067
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(byte[],int,int,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",3,0.0013934045517882026
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.io.File,org.codehaus.jackson.type.TypeReference) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",6,0.002786809103576405
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.io.InputStream,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",6,0.002786809103576405
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(org.codehaus.jackson.JsonNode,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",2,9.289363678588017E-4
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(byte[],org.codehaus.jackson.type.TypeReference) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",4,0.0018578727357176034
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.io.Reader,org.codehaus.jackson.type.TypeReference) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",6,0.002786809103576405
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.lang.String,org.codehaus.jackson.type.TypeReference) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",7,0.003251277287505806
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(byte[],org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",1,4.6446818392940084E-4
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(byte[],int,int,org.codehaus.jackson.type.TypeReference) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",5,0.0023223409196470044
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(org.codehaus.jackson.JsonNode,org.codehaus.jackson.type.TypeReference) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",6,0.002786809103576405
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.net.URL,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",1,4.6446818392940084E-4
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.net.URL,org.codehaus.jackson.type.TypeReference) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",1,4.6446818392940084E-4
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.io.InputStream,org.codehaus.jackson.type.TypeReference) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",3,0.0013934045517882026
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(java.io.Reader,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",3,0.0013934045517882026
+"public java.lang.Object org.codehaus.jackson.map.ObjectMapper.readValue(org.codehaus.jackson.JsonParser,org.codehaus.jackson.type.JavaType,org.codehaus.jackson.map.DeserializationConfig) throws java.io.IOException,org.codehaus.jackson.JsonParseException,org.codehaus.jackson.map.JsonMappingException",1,4.6446818392940084E-4
+"public java.lang.String org.jets3t.service.S3Service.createSignedPutUrl(java.lang.String,java.lang.String,java.util.Map,org.jets3t.service.security.ProviderCredentials,java.util.Date) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public java.lang.String org.jets3t.service.S3Service.createSignedPutUrl(java.lang.String,java.lang.String,java.util.Map,java.util.Date) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public java.lang.String org.jets3t.service.S3Service.createSignedPutUrl(java.lang.String,java.lang.String,java.util.Map,java.util.Date,boolean) throws org.jets3t.service.S3ServiceException",7,0.003251277287505806
+"public java.lang.String org.jets3t.service.S3Service.createSignedPutUrl(java.lang.String,java.lang.String,java.util.Map,org.jets3t.service.security.ProviderCredentials,java.util.Date,boolean) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public boolean java.io.File.renameTo(java.io.File)",13,0.006038086391082211
+"public static void com.metamx.emitter.EmittingLogger.registerEmitter(com.metamx.emitter.service.ServiceEmitter)",1,4.6446818392940084E-4
+"public boolean org.codehaus.jackson.map.ObjectMapper.canDeserialize(org.codehaus.jackson.type.JavaType)",69,0.03204830469112866
+"public com.metamx.emitter.service.AlertBuilder com.metamx.emitter.EmittingLogger.makeAlert(java.lang.String,java.lang.Object[])",5,0.0023223409196470044
+"public com.metamx.emitter.service.AlertBuilder com.metamx.emitter.EmittingLogger.makeAlert(java.lang.Throwable,java.lang.String,java.lang.Object[])",4,0.0018578727357176034
+"public long java.io.File.length()",12,0.00557361820715281
+"public boolean java.io.File.canExecute()",14,0.006502554575011612
+"java.io.File(java.lang.String)",445,0.20668834184858337
+"java.io.File(java.io.File, java.lang.String)",456,0.21179749187180677
+"java.io.File(java.net.URI)",33,0.015327450069670227
+"java.io.File(java.lang.String, java.lang.String)",55,0.025545750116117046
+"public com.metamx.druid.client.DataSegment$Builder com.metamx.druid.client.DataSegment$Builder.interval(org.joda.time.Interval)",124,0.057594054807245706
+"public org.codehaus.jackson.map.MappingIterator org.codehaus.jackson.map.ObjectMapper.readValues(org.codehaus.jackson.JsonParser,org.codehaus.jackson.type.JavaType) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",9,0.0041802136553646075
+"org.codehaus.jackson.map.ObjectMapper(org.codehaus.jackson.JsonFactory, org.codehaus.jackson.map.SerializerProvider, org.codehaus.jackson.map.DeserializerProvider, org.codehaus.jackson.map.SerializationConfig, org.codehaus.jackson.map.DeserializationConfig)",383,0.1778913144449605
+"org.codehaus.jackson.map.ObjectMapper()",1722,0.7998142127264283
+"org.codehaus.jackson.map.ObjectMapper(org.codehaus.jackson.JsonFactory, org.codehaus.jackson.map.SerializerProvider, org.codehaus.jackson.map.DeserializerProvider)",580,0.26939154667905246
+"org.codehaus.jackson.map.ObjectMapper(org.codehaus.jackson.JsonFactory)",59,0.02740362285183465
+"org.codehaus.jackson.map.ObjectMapper(org.codehaus.jackson.map.SerializerFactory)",9,0.0041802136553646075
+"java.lang.Object[2]",36,0.01672085462145843
+"public org.jets3t.service.model.S3Bucket org.jets3t.service.S3Service.createBucket(org.jets3t.service.model.S3Bucket) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public org.jets3t.service.model.S3Bucket org.jets3t.service.S3Service.createBucket(java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public org.jets3t.service.model.S3Bucket org.jets3t.service.S3Service.createBucket(java.lang.String) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public org.jets3t.service.model.S3Bucket org.jets3t.service.S3Service.createBucket(java.lang.String,java.lang.String,org.jets3t.service.acl.AccessControlList) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"java.lang.Object[0]",6,0.002786809103576405
+"java.lang.Object[6]",66,0.030654900139340455
+"java.lang.Object[5]",3,0.0013934045517882026
+"public org.codehaus.jackson.map.jsontype.SubtypeResolver org.codehaus.jackson.map.ObjectMapper.getSubtypeResolver()",18,0.008360427310729215
+"java.lang.Object[4]",2,9.289363678588017E-4
+"org.codehaus.jackson.map.DeserializationConfig$Feature[1]",1,4.6446818392940084E-4
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.enable(org.codehaus.jackson.map.DeserializationConfig$Feature[])",52,0.024152345564328843
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.enable(org.codehaus.jackson.map.SerializationConfig$Feature[])",185,0.08592661402693916
+"org.codehaus.jackson.map.DeserializationConfig$Feature[0]",37,0.017185322805387832
+"public void org.jets3t.service.S3Service.deleteVersionedObject(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setTypeFactory(org.codehaus.jackson.map.type.TypeFactory)",17,0.007895959126799815
+"public java.lang.String org.jets3t.service.impl.rest.httpclient.RestS3Service.getDevPayUserToken()",115,0.053413841151881095
+"public org.codehaus.jackson.map.SerializationConfig org.codehaus.jackson.map.ObjectMapper.getSerializationConfig()",23,0.010682768230376219
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.setDeserializerProvider(org.codehaus.jackson.map.DeserializerProvider)",24,0.01114723641430562
+"public java.util.List org.jets3t.service.S3Service.multipartListParts(org.jets3t.service.model.MultipartUpload) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public org.codehaus.jackson.map.ObjectReader org.codehaus.jackson.map.ObjectMapper.reader(org.codehaus.jackson.FormatSchema)",38,0.01764979098931723
+"public org.codehaus.jackson.map.ObjectReader org.codehaus.jackson.map.ObjectMapper.reader(org.codehaus.jackson.node.JsonNodeFactory)",75,0.03483511379470506
+"public org.codehaus.jackson.map.ObjectReader org.codehaus.jackson.map.ObjectMapper.reader(org.codehaus.jackson.type.JavaType)",6,0.002786809103576405
+"public org.codehaus.jackson.map.ObjectReader org.codehaus.jackson.map.ObjectMapper.reader()",32,0.014862981885740827
+"public org.codehaus.jackson.map.ObjectReader org.codehaus.jackson.map.ObjectMapper.reader(org.codehaus.jackson.map.InjectableValues)",5,0.0023223409196470044
+"public void org.jets3t.service.S3Service.putObjectAcl(org.jets3t.service.model.S3Bucket,org.jets3t.service.model.S3Object) throws org.jets3t.service.S3ServiceException",8,0.0037157454714352067
+"public void org.jets3t.service.S3Service.putObjectAcl(java.lang.String,org.jets3t.service.model.S3Object) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public void org.codehaus.jackson.map.ObjectMapper.writeTree(org.codehaus.jackson.JsonGenerator,org.codehaus.jackson.JsonNode,org.codehaus.jackson.map.SerializationConfig) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",5,0.0023223409196470044
+"public void org.codehaus.jackson.map.ObjectMapper.writeTree(org.codehaus.jackson.JsonGenerator,org.codehaus.jackson.JsonNode) throws java.io.IOException,org.codehaus.jackson.JsonProcessingException",4,0.0018578727357176034
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getVersionedObjectDetails(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",12,0.00557361820715281
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getVersionedObjectDetails(java.lang.String,java.lang.String,java.lang.String,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[]) throws org.jets3t.service.S3ServiceException",9,0.0041802136553646075
+"public org.jets3t.service.model.S3Object org.jets3t.service.S3Service.getVersionedObjectDetails(java.lang.String,org.jets3t.service.model.S3Bucket,java.lang.String,java.util.Calendar,java.util.Calendar,java.lang.String[],java.lang.String[]) throws org.jets3t.service.S3ServiceException",4,0.0018578727357176034
+"public org.jets3t.service.acl.AccessControlList org.jets3t.service.S3Service.getObjectAcl(org.jets3t.service.model.S3Bucket,java.lang.String) throws org.jets3t.service.S3ServiceException",4,0.0018578727357176034
+"public void org.jets3t.service.S3Service.putVersionedObjectAcl(java.lang.String,java.lang.String,java.lang.String,org.jets3t.service.acl.AccessControlList) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public void org.jets3t.service.S3Service.putVersionedObjectAcl(java.lang.String,org.jets3t.service.model.S3Bucket,org.jets3t.service.model.S3Object) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public org.jets3t.service.model.S3Bucket org.jets3t.service.S3Service.getOrCreateBucket(java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",5,0.0023223409196470044
+"public org.jets3t.service.model.S3Bucket org.jets3t.service.S3Service.getOrCreateBucket(java.lang.String) throws org.jets3t.service.S3ServiceException",4,0.0018578727357176034
+"public static java.lang.String org.jets3t.service.S3Service.buildPostForm(java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException,java.io.UnsupportedEncodingException",7,0.003251277287505806
+"public boolean org.jets3t.service.StorageService.isObjectInBucket(java.lang.String,java.lang.String) throws org.jets3t.service.ServiceException",10,0.004644681839294009
+"public static java.lang.String org.jets3t.service.S3Service.buildPostForm(java.lang.String,java.lang.String,org.jets3t.service.security.ProviderCredentials,java.util.Date,java.lang.String[],java.lang.String[],java.lang.String,boolean) throws org.jets3t.service.S3ServiceException,java.io.UnsupportedEncodingException",9,0.0041802136553646075
+"public static java.lang.String org.jets3t.service.S3Service.buildPostForm(java.lang.String,java.lang.String,org.jets3t.service.security.ProviderCredentials,java.util.Date,java.lang.String[],java.lang.String[],java.lang.String,boolean,boolean,java.lang.String) throws org.jets3t.service.S3ServiceException,java.io.UnsupportedEncodingException",4,0.0018578727357176034
+"public void org.jets3t.service.S3Service.setBucketPolicy(java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",11,0.005109150023223409
+"public java.lang.String java.io.File.getName()",25,0.011611704598235021
+"public org.codehaus.jackson.map.ObjectMapper org.codehaus.jackson.map.ObjectMapper.enableDefaultTypingAsProperty(org.codehaus.jackson.map.ObjectMapper$DefaultTyping,java.lang.String)",5,0.0023223409196470044
+"public void org.jets3t.service.S3Service.suspendBucketVersioningWithMFA(java.lang.String,java.lang.String,java.lang.String) throws org.jets3t.service.S3ServiceException",12,0.00557361820715281
+"public static java.lang.String org.jets3t.service.S3Service.generatePostPolicyCondition_Equality(java.lang.String,java.lang.String)",7,0.003251277287505806
+"public static java.lang.String org.jets3t.service.S3Service.generatePostPolicyCondition_Equality(java.lang.String,java.util.List)",36,0.01672085462145843
+"public static java.lang.String org.jets3t.service.S3Service.generatePostPolicyCondition_Equality(java.lang.String,java.lang.String[])",125,0.0580585229911751
+"public java.lang.String org.jets3t.service.impl.rest.httpclient.RestS3Service.getRestHeaderPrefix()",7,0.003251277287505806
+"public org.jets3t.service.model.NotificationConfig org.jets3t.service.S3Service.getNotificationConfig(java.lang.String) throws org.jets3t.service.S3ServiceException",6,0.002786809103576405
+"public boolean org.jets3t.service.impl.rest.httpclient.RestS3Service.isRequesterPaysEnabled()",164,0.07617278216442173
+"java.lang.String[18]",1,4.6446818392940084E-4
+"public static java.io.File java.io.File.createTempFile(java.lang.String,java.lang.String) throws java.io.IOException",9,0.0041802136553646075
+"public static java.io.File java.io.File.createTempFile(java.lang.String,java.lang.String,java.io.File) throws java.io.IOException",6,0.002786809103576405
+"java.lang.String[14]",1,4.6446818392940084E-4
+"java.lang.String[15]",1,4.6446818392940084E-4
+"java.lang.String[13]",1,4.6446818392940084E-4
+"java.lang.String[11]",1,4.6446818392940084E-4
+"java.lang.String[8]",1,4.6446818392940084E-4
+"java.lang.String[6]",11,0.005109150023223409
+"public void org.jets3t.service.S3Service.setWebsiteConfig(java.lang.String,org.jets3t.service.model.WebsiteConfig) throws org.jets3t.service.S3ServiceException",2,9.289363678588017E-4
+"java.lang.String[4]",84,0.03901532745006967
+"java.lang.String[5]",14,0.006502554575011612
+"java.lang.String[34]",1,4.6446818392940084E-4
+"public static java.util.Comparator com.metamx.druid.client.DataSegment.bucketMonthComparator()",1,4.6446818392940084E-4

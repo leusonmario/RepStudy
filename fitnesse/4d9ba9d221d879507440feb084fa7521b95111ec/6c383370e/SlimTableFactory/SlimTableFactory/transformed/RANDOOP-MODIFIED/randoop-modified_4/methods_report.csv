@@ -1,0 +1,16 @@
+Methods called,Number of times,Number of times (Normalized)
+"public fitnesse.testsystems.slim.tables.SlimTable fitnesse.testsystems.slim.tables.SlimTableFactory.makeSlimTable(fitnesse.testsystems.slim.Table,java.lang.String,fitnesse.testsystems.slim.SlimTestContext)",2563,0.13769205973998067
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypes",29666,1.5937466423122382
+"public java.lang.Class fitnesse.testsystems.slim.tables.SlimTableFactory.getTableType(java.lang.String)",43978,2.362630278285162
+"public java.lang.String fitnesse.testsystems.slim.tables.SlimTableFactory.getFullTableName(java.lang.String)",20918,1.1237778016546685
+"public boolean fitnesse.testsystems.slim.tables.SlimTableFactory.hasColon(java.lang.String)",57252,3.075749435908456
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypeArrays",52597,2.8256688514021704
+"public java.util.Map fitnesse.testsystems.slim.tables.SlimTableFactory.tableTypeArrays",35901,1.9287095734393467
+"public fitnesse.testsystems.slim.tables.SlimTableFactory fitnesse.testsystems.slim.tables.SlimTableFactory.copy()",93705,5.0341141076609
+"public static java.util.logging.Logger fitnesse.testsystems.slim.tables.SlimTableFactory.LOG",1,5.372300419039433E-5
+"public static java.util.logging.Logger fitnesse.testsystems.slim.tables.SlimTableFactory.LOG",1,5.372300419039433E-5
+"fitnesse.testsystems.slim.tables.SlimTableFactory()",52295,2.809444504136671
+"public final native java.lang.Class java.lang.Object.getClass()",2634,0.14150639303749865
+"public void fitnesse.testsystems.slim.tables.SlimTableFactory.parseDefineTableTypeRow(fitnesse.testsystems.slim.Table,int)",2902,0.15590415816052433
+"public fitnesse.testsystems.slim.tables.SlimTable fitnesse.testsystems.slim.tables.SlimTableFactory.parseDefineTableTypeTable(fitnesse.testsystems.slim.Table)",2530,0.13591920060169765
+"public java.lang.String fitnesse.testsystems.slim.tables.SlimTableFactory.makeTableType(java.lang.String)",17525,0.9414956484366606

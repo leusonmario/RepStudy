@@ -1,0 +1,15 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.setTypesToSkip(java.util.List)",47941,8.548680456490727
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.setTypesToSkip(java.util.Set)",13822,2.4646932952924394
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",36224,6.459343794579173
+"java.util.ArrayList()",33117,5.905313837375179
+"public java.util.Set com.github.kongchen.swagger.docgen.reader.AbstractReader.getTypesToSkip()",36405,6.491619115549216
+"java.lang.reflect.Type[0]",33117,5.905313837375179
+"java.lang.reflect.Type[1]",2109,0.37606990014265335
+"com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader(io.swagger.models.Swagger, com.github.kongchen.swagger.docgen.LogAdapter)",56356,10.049215406562054
+"java.lang.reflect.Type[3]",998,0.17796005706134094
+"public void com.github.kongchen.swagger.docgen.reader.AbstractReader.addTypeToSkippedTypes(java.lang.reflect.Type)",23983,4.276569186875892
+"public io.swagger.models.Swagger com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader.read(com.github.kongchen.swagger.docgen.spring.SpringResource)",2023,0.36073466476462196
+"public final native java.lang.Class java.lang.Object.getClass()",26405,4.7084522111269616
+"java.lang.Object()",732,0.13052781740370897
+"java.util.LinkedHashSet()",3107,0.5540299572039943

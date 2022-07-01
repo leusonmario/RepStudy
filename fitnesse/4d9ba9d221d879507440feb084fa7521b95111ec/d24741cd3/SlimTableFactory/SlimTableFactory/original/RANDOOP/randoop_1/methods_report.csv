@@ -1,0 +1,6 @@
+Methods called,Number of times,Number of times (Normalized)
+"public fitnesse.testsystems.slim.tables.SlimTable fitnesse.testsystems.slim.tables.SlimTableFactory.makeSlimTable(fitnesse.testsystems.slim.Table,java.lang.String,fitnesse.testsystems.slim.SlimTestContext)",15747,0.5396504455106237
+"fitnesse.testsystems.slim.tables.SlimTableFactory()",29179,0.9999657299520219
+"public final native java.lang.Class java.lang.Object.getClass()",11741,0.4023646333104866
+"java.lang.Object()",1,3.4270047978067166E-5
+"public fitnesse.testsystems.slim.tables.SlimTableFactory fitnesse.testsystems.slim.tables.SlimTableFactory.copy()",450192,15.428101439342015

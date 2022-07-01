@@ -1,0 +1,11 @@
+Methods called,Number of times,Number of times (Normalized)
+"org.elasticsearch.river.mongodb.Slurper$SlurperException(org.elasticsearch.river.mongodb.Slurper)",1,0.125
+"org.elasticsearch.river.mongodb.Slurper$SlurperException(org.elasticsearch.river.mongodb.Slurper, java.lang.String)",2,0.25
+"public static final long org.elasticsearch.river.mongodb.Slurper$SlurperException.serialVersionUID",1,0.125
+"public static final org.elasticsearch.common.logging.ESLogger org.elasticsearch.river.mongodb.Slurper.logger",1,0.125
+"com.mongodb.ServerAddress[0]",1,0.125
+"org.elasticsearch.river.mongodb.Slurper(java.util.List, org.elasticsearch.river.mongodb.MongoDBRiverDefinition, org.elasticsearch.river.mongodb.SharedContext, org.elasticsearch.client.Client)",2,0.25
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",1,0.125
+"public final native java.lang.Class java.lang.Object.getClass()",2,0.25
+"java.lang.Object()",1,0.125
+"java.util.ArrayList()",1,0.125

@@ -1,0 +1,12 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,2383,2,0.193049254698639,1.6202203499675956E-4
+class java.lang.Integer,3013,9,0.24408619572261828,7.29099157485418E-4
+class java.util.HashMap,21647,6,1.753645495787427,4.860661049902787E-4
+class org.atmosphere.cpr.AtmosphereConfig,96214,208,7.794394037589112,0.016850291639662993
+class java.util.ArrayList,50040,21,4.053791315618924,0.0017012313674659753
+class ch.qos.logback.classic.Logger,2939,1,0.23809138042773817,8.101101749837978E-5
+class [Lorg.atmosphere.cpr.AtmosphereConfig$ShutdownHook;,13847,1,1.1217595593000649,8.101101749837978E-5
+class java.lang.Boolean,77559,2,6.283133506156838,1.6202203499675956E-4
+class java.lang.Class,371,4,0.030055087491898898,3.240440699935191E-4
+class [Lorg.atmosphere.config.AtmosphereHandlerConfig;,21,1,0.0017012313674659753,8.101101749837978E-5
+class [Lorg.atmosphere.cpr.AtmosphereConfig$StartupHook;,1749,1,0.14168826960466624,8.101101749837978E-5

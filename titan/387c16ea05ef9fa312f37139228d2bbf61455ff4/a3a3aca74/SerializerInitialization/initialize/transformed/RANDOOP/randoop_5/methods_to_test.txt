@@ -1,0 +1,1 @@
+com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization.initialize(com.thinkaurelius.titan.graphdb.database.serialize.Serializer)

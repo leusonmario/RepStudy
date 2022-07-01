@@ -1,0 +1,97 @@
+Methods called,Number of times,Number of times (Normalized)
+"org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator$EntryComparator()",940,0.09353233830845771
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive.root",8561,0.8518407960199005
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive.root",3038,0.30228855721393033
+"public java.net.URL org.springframework.boot.loader.archive.ExplodedArchive.getUrl() throws java.net.MalformedURLException",1486,0.14786069651741293
+"public final java.io.InputStream java.net.URL.openStream() throws java.io.IOException",283,0.028159203980099502
+"java.net.URL(java.lang.String, java.lang.String, java.lang.String)",320,0.031840796019900496
+"java.net.URL(java.lang.String, java.lang.String, int, java.lang.String, java.net.URLStreamHandler)",574,0.057114427860696516
+"java.net.URL(java.lang.String, java.lang.String, int, java.lang.String)",352,0.03502487562189055
+"java.net.URL(java.net.URL, java.lang.String)",1963,0.1953233830845771
+"java.net.URL(java.lang.String)",152,0.015124378109452736
+"java.net.URL(java.net.URL, java.lang.String, java.net.URLStreamHandler)",7198,0.7162189054726368
+"public java.lang.String java.net.URL.getQuery()",2536,0.25233830845771144
+"public default java.util.Comparator java.util.Comparator.thenComparing(java.util.Comparator)",13143,1.3077611940298508
+"public java.lang.String java.net.URL.getAuthority()",5425,0.5398009950248757
+"public java.lang.String java.net.URL.getProtocol()",1456,0.14487562189054726
+"public java.util.List org.springframework.boot.loader.archive.ExplodedArchive.getNestedArchives(org.springframework.boot.loader.archive.Archive$EntryFilter) throws java.io.IOException",941,0.0936318407960199
+"public java.lang.String org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.name",2488,0.24756218905472638
+"public java.lang.String org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.name",2405,0.2393034825870647
+"java.lang.Class[0]",45,0.004477611940298508
+"public java.util.Deque org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.stack",36894,3.671044776119403
+"java.lang.Class[1]",22,0.0021890547263681594
+"public java.lang.String java.net.URL.getFile()",1938,0.1928358208955224
+"public java.util.Deque org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.stack",1731,0.17223880597014926
+"java.lang.Class[2]",19,0.001890547263681592
+"org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator()",40131,3.993134328358209
+"public java.lang.String org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.getName()",1756,0.17472636815920398
+"java.lang.Class[3]",8,7.960199004975124E-4
+"public java.util.Comparator org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.entryComparator",31751,3.1593034825870645
+"public java.util.Comparator org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.entryComparator",11652,1.1594029850746268
+"java.lang.Class[4]",7,6.965174129353234E-4
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive.recursive",9067,0.9021890547263681
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive.recursive",2945,0.2930348258706468
+"public java.lang.String java.net.URL.getUserInfo()",1575,0.15671641791044777
+"public static java.util.Set org.springframework.boot.loader.archive.ExplodedArchive.SKIPPED_NAMES",77,0.007661691542288557
+"public static java.util.Set org.springframework.boot.loader.archive.ExplodedArchive.SKIPPED_NAMES",1,9.950248756218905E-5
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive.getManifestFile(java.io.File)",13059,1.299402985074627
+"public final java.lang.Object java.net.URL.getContent() throws java.io.IOException",293,0.029154228855721394
+"public final java.lang.Object java.net.URL.getContent(java.lang.Class[]) throws java.io.IOException",125,0.012437810945273632
+"public static void java.net.URL.setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)",1,9.950248756218905E-5
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.hasNext()",5690,0.5661691542288557
+"public int org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator$EntryComparator.compare(java.io.File,java.io.File)",466,0.0463681592039801
+"public default java.util.Comparator java.util.Comparator.reversed()",937,0.09323383084577115
+"public java.util.Iterator org.springframework.boot.loader.archive.ExplodedArchive.iterator()",537,0.05343283582089552
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive.manifestFile",32298,3.213731343283582
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive.manifestFile",1543,0.15353233830845772
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",14,0.0013930348258706469
+"public org.springframework.boot.loader.archive.Archive org.springframework.boot.loader.archive.ExplodedArchive.getNestedArchive(org.springframework.boot.loader.archive.Archive$Entry) throws java.io.IOException",231,0.02298507462686567
+"public java.lang.String java.net.URL.getRef()",1789,0.1780099502487562
+"public java.util.jar.Manifest org.springframework.boot.loader.archive.ExplodedArchive.manifest",4547,0.45243781094527363
+"public java.util.jar.Manifest org.springframework.boot.loader.archive.ExplodedArchive.manifest",1719,0.171044776119403
+"org.springframework.boot.loader.archive.ExplodedArchive$FileEntry()",2828,0.28139303482587064
+"public void org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.remove()",281,0.027960199004975126
+"public java.util.jar.Manifest org.springframework.boot.loader.archive.ExplodedArchive.getManifest() throws java.io.IOException",541,0.053830845771144276
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.poll()",6716,0.6682587064676617
+"public int java.net.URL.getDefaultPort()",2368,0.23562189054726368
+"public java.net.URI java.net.URL.toURI() throws java.net.URISyntaxException",1254,0.12477611940298508
+"java.lang.String[11]",3,2.9850746268656717E-4
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.root",8382,0.8340298507462687
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.root",1030,0.10248756218905472
+"java.lang.String[12]",2,1.990049751243781E-4
+"public java.net.URLConnection java.net.URL.openConnection() throws java.io.IOException",1025,0.10199004975124377
+"public java.net.URLConnection java.net.URL.openConnection(java.net.Proxy) throws java.io.IOException",281,0.027960199004975126
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.current",7423,0.7386069651741294
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.current",3919,0.3899502487562189
+"java.lang.String[7]",1,9.950248756218905E-5
+"java.lang.String[9]",1,9.950248756218905E-5
+"java.lang.String[10]",1,9.950248756218905E-5
+"public default java.util.Spliterator java.lang.Iterable.spliterator()",1618,0.1609950248756219
+"java.lang.String[15]",1,9.950248756218905E-5
+"public java.lang.String org.springframework.boot.loader.archive.ExplodedArchive.toString()",2779,0.2765174129353234
+"java.lang.String[18]",2,1.990049751243781E-4
+"public boolean java.net.URL.equals(java.lang.Object)",241,0.023980099502487563
+"public int java.net.URL.getPort()",1853,0.1843781094527363
+"java.lang.String[23]",1,9.950248756218905E-5
+"org.springframework.boot.loader.archive.ExplodedArchive(java.io.File)",252,0.02507462686567164
+"org.springframework.boot.loader.archive.ExplodedArchive()",18364,1.8272636815920398
+"org.springframework.boot.loader.archive.ExplodedArchive(java.io.File, boolean)",252,0.02507462686567164
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.recursive",7272,0.7235820895522388
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.recursive",1512,0.15044776119402986
+"public final native java.lang.Class java.lang.Object.getClass()",388,0.03860696517412935
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.getFile()",2810,0.2796019900497512
+"public java.lang.String java.net.URL.toExternalForm()",1666,0.16577114427860695
+"java.util.LinkedHashSet()",14,0.0013930348258706469
+"public java.lang.String java.net.URL.toString()",281,0.027960199004975126
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.file",3025,0.3009950248756219
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.file",3329,0.33124378109452735
+"java.lang.Class[5]",2,1.990049751243781E-4
+"public java.util.Iterator org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.listFiles(java.io.File)",2974,0.29592039800995024
+"public boolean java.net.URL.sameFile(java.net.URL)",2060,0.20497512437810944
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.isDirectory()",474,0.047164179104477615
+"public org.springframework.boot.loader.archive.Archive$Entry org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator.next()",262,0.026069651741293533
+"java.lang.Object()",1,9.950248756218905E-5
+"java.util.ArrayDeque()",77,0.007661691542288557
+"java.lang.String[1]",2,1.990049751243781E-4
+"public java.lang.String java.net.URL.getHost()",5359,0.5332338308457711
+"public java.lang.String java.net.URL.getPath()",1118,0.11124378109452736

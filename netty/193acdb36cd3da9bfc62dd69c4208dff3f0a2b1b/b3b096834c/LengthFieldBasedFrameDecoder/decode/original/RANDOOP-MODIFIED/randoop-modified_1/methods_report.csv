@@ -1,0 +1,157 @@
+Methods called,Number of times,Number of times (Normalized)
+"org.jboss.netty.handler.codec.frame.LengthFieldBasedFrameDecoder(int, int, int, int, int, boolean)",221,0.09558823529411764
+"org.jboss.netty.handler.codec.frame.LengthFieldBasedFrameDecoder(int, int, int, int, int)",248,0.10726643598615918
+"org.jboss.netty.handler.codec.frame.LengthFieldBasedFrameDecoder(int, int, int)",250,0.10813148788927336
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.setMedium(int,int)",21,0.009083044982698962
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.writeComplete(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.WriteCompletionEvent) throws java.lang.Exception",6,0.0025951557093425604
+"public short org.jboss.netty.buffer.AbstractChannelBuffer.getUnsignedByte(int)",43,0.018598615916955018
+"public long org.jboss.netty.buffer.DynamicChannelBuffer.getLong(int)",21,0.009083044982698962
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.readableBytes()",107,0.046280276816609
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setFloat(int,float)",70,0.03027681660899654
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.getMedium(int)",88,0.03806228373702422
+"public boolean org.jboss.netty.buffer.AbstractChannelBuffer.readable()",55,0.02378892733564014
+"byte[0]",1,4.3252595155709344E-4
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.compareTo(org.jboss.netty.buffer.ChannelBuffer)",51,0.022058823529411766
+"org.jboss.netty.buffer.DynamicChannelBuffer(java.nio.ByteOrder, int)",2674,1.1565743944636677
+"org.jboss.netty.buffer.DynamicChannelBuffer(int)",5503,2.3801903114186853
+"org.jboss.netty.buffer.DynamicChannelBuffer(java.nio.ByteOrder, int, org.jboss.netty.buffer.ChannelBufferFactory)",797,0.34472318339100344
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.setBytes(int,java.nio.channels.ScatteringByteChannel,int) throws java.io.IOException",17,0.007352941176470588
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.setBytes(int,byte[],int,int)",26,0.01124567474048443
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.setBytes(int,java.io.InputStream,int) throws java.io.IOException",22,0.009515570934256055
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.setBytes(int,java.nio.ByteBuffer)",54,0.023356401384083045
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.setBytes(int,org.jboss.netty.buffer.ChannelBuffer,int,int)",394,0.1704152249134948
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.readMedium()",13,0.005622837370242215
+"public java.nio.ByteBuffer org.jboss.netty.buffer.AbstractChannelBuffer.toByteBuffer()",406,0.17560553633217993
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.childChannelClosed(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChildChannelStateEvent) throws java.lang.Exception",9,0.0038927335640138406
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.getBytes(int,byte[])",85,0.03676470588235294
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.getBytes(int,org.jboss.netty.buffer.ChannelBuffer)",16,0.006920415224913495
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.getBytes(int,org.jboss.netty.buffer.ChannelBuffer,int)",22,0.009515570934256055
+"public java.nio.ByteOrder org.jboss.netty.buffer.DynamicChannelBuffer.order()",1153,0.4987024221453287
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.writeDouble(double)",72,0.031141868512110725
+"public org.jboss.netty.buffer.ChannelBuffer org.jboss.netty.buffer.DynamicChannelBuffer.slice(int,int)",66,0.028546712802768166
+"public void org.jboss.netty.handler.codec.frame.FrameDecoder.channelClosed(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChannelStateEvent) throws java.lang.Exception",13,0.005622837370242215
+"public org.jboss.netty.buffer.ChannelBuffer org.jboss.netty.buffer.DynamicChannelBuffer.copy(int,int)",30,0.012975778546712802
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.writerIndex(int)",106,0.045847750865051905
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.writerIndex()",58,0.025086505190311418
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.discardReadBytes()",74,0.03200692041522491
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.bytesBefore(org.jboss.netty.buffer.ChannelBufferIndexFinder)",42,0.018166089965397925
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.bytesBefore(int,byte)",35,0.01513840830449827
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.bytesBefore(int,org.jboss.netty.buffer.ChannelBufferIndexFinder)",26,0.01124567474048443
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.bytesBefore(int,int,byte)",31,0.013408304498269897
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.getUnsignedMedium(int)",38,0.01643598615916955
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.bytesBefore(int,int,org.jboss.netty.buffer.ChannelBufferIndexFinder)",12,0.005190311418685121
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.bytesBefore(byte)",46,0.019896193771626297
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.getUnsignedShort(int)",42,0.018166089965397925
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setIndex(int,int)",24,0.010380622837370242
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setBytes(int,byte[])",66,0.028546712802768166
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setBytes(int,org.jboss.netty.buffer.ChannelBuffer)",67,0.02897923875432526
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setBytes(int,org.jboss.netty.buffer.ChannelBuffer,int)",46,0.019896193771626297
+"public void org.jboss.netty.handler.codec.frame.FrameDecoder.exceptionCaught(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ExceptionEvent) throws java.lang.Exception",9,0.0038927335640138406
+"public byte org.jboss.netty.buffer.AbstractChannelBuffer.readByte()",19,0.008217993079584774
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.writeBoolean(boolean)",310,0.13408304498269896
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.readUnsignedShort()",24,0.010380622837370242
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.resetWriterIndex()",139,0.060121107266435984
+"public static final int org.jboss.netty.channel.Channel.OP_NONE",1,4.3252595155709344E-4
+"public final native java.lang.Class java.lang.Object.getClass()",14,0.006055363321799308
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeInt(int)",132,0.05709342560553633
+"public boolean org.jboss.netty.buffer.DynamicChannelBuffer.hasArray()",41,0.01773356401384083
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.channelInterestChanged(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChannelStateEvent) throws java.lang.Exception",4,0.0017301038062283738
+"public void org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.MessageEvent) throws java.lang.Exception",9,0.0038927335640138406
+"public float org.jboss.netty.buffer.AbstractChannelBuffer.getFloat(int)",24,0.010380622837370242
+"byte[6]",86,0.037197231833910036
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.getBytes(int,java.nio.ByteBuffer)",221,0.09558823529411764
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.getBytes(int,org.jboss.netty.buffer.ChannelBuffer,int,int)",15,0.006487889273356401
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.getBytes(int,java.nio.channels.GatheringByteChannel,int) throws java.io.IOException",30,0.012975778546712802
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.getBytes(int,java.io.OutputStream,int) throws java.io.IOException",18,0.007785467128027681
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.getBytes(int,byte[],int,int)",6,0.0025951557093425604
+"byte[1]",1,4.3252595155709344E-4
+"byte[2]",1,4.3252595155709344E-4
+"byte[3]",44,0.01903114186851211
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.markReaderIndex()",123,0.053200692041522495
+"byte[4]",1,4.3252595155709344E-4
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.setShort(int,int)",171,0.07396193771626297
+"public java.nio.ByteBuffer org.jboss.netty.buffer.DynamicChannelBuffer.toByteBuffer(int,int)",14,0.006055363321799308
+"public long org.jboss.netty.buffer.AbstractChannelBuffer.getUnsignedInt(int)",204,0.08823529411764706
+"public byte org.jboss.netty.buffer.DynamicChannelBuffer.getByte(int)",1257,0.5436851211072664
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.ensureWritableBytes(int)",3328,1.439446366782007
+"public org.jboss.netty.buffer.ChannelBuffer org.jboss.netty.buffer.AbstractChannelBuffer.readSlice(int)",26,0.01124567474048443
+"public boolean org.jboss.netty.buffer.DynamicChannelBuffer.isDirect()",26,0.01124567474048443
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.clear()",48,0.020761245674740483
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeBytes(java.nio.ByteBuffer)",80,0.03460207612456748
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeBytes(byte[],int,int)",15,0.006487889273356401
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.writeBytes(java.nio.channels.ScatteringByteChannel,int) throws java.io.IOException",20,0.00865051903114187
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.writableBytes()",220,0.09515570934256055
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeBytes(org.jboss.netty.buffer.ChannelBuffer,int,int)",26,0.01124567474048443
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.writeBytes(java.io.InputStream,int) throws java.io.IOException",17,0.007352941176470588
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeShort(int)",160,0.06920415224913495
+"public org.jboss.netty.buffer.ChannelBuffer org.jboss.netty.buffer.DynamicChannelBuffer.duplicate()",1049,0.453719723183391
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChannelEvent) throws java.lang.Exception",5,0.0021626297577854673
+"public short org.jboss.netty.buffer.AbstractChannelBuffer.readShort()",13,0.005622837370242215
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeByte(int)",53,0.022923875432525952
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.writeChar(int)",68,0.029411764705882353
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.resetReaderIndex()",64,0.02768166089965398
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.writeFloat(float)",167,0.0722318339100346
+"public double org.jboss.netty.buffer.AbstractChannelBuffer.getDouble(int)",36,0.015570934256055362
+"public char org.jboss.netty.buffer.AbstractChannelBuffer.readChar()",15,0.006487889273356401
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeLong(long)",76,0.0328719723183391
+"public static final int org.jboss.netty.channel.Channel.OP_READ",1,4.3252595155709344E-4
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.channelUnbound(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChannelStateEvent) throws java.lang.Exception",8,0.0034602076124567475
+"public static final int org.jboss.netty.channel.Channel.OP_READ_WRITE",1,4.3252595155709344E-4
+"public short org.jboss.netty.buffer.AbstractChannelBuffer.readUnsignedByte()",71,0.030709342560553632
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.readInt()",13,0.005622837370242215
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.channelOpen(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChannelStateEvent) throws java.lang.Exception",5,0.0021626297577854673
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.capacity()",1115,0.48226643598615915
+"public double org.jboss.netty.buffer.AbstractChannelBuffer.readDouble()",15,0.006487889273356401
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.channelBound(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChannelStateEvent) throws java.lang.Exception",7,0.003027681660899654
+"public long org.jboss.netty.buffer.AbstractChannelBuffer.readUnsignedInt()",29,0.012543252595155709
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.skipBytes(int)",25,0.010813148788927335
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.setLong(int,long)",47,0.02032871972318339
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.channelConnected(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChannelStateEvent) throws java.lang.Exception",9,0.0038927335640138406
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.getInt(int)",16,0.006920415224913495
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.readUnsignedMedium()",38,0.01643598615916955
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setBoolean(int,boolean)",40,0.01730103806228374
+"public java.lang.String org.jboss.netty.buffer.AbstractChannelBuffer.toString(int,int,java.nio.charset.Charset)",17,0.007352941176470588
+"public java.lang.String org.jboss.netty.buffer.AbstractChannelBuffer.toString(java.nio.charset.Charset)",117,0.05060553633217993
+"public java.lang.String org.jboss.netty.buffer.AbstractChannelBuffer.toString()",153,0.0661764705882353
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(java.io.OutputStream,int) throws java.io.IOException",19,0.008217993079584774
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(org.jboss.netty.buffer.ChannelBuffer,int)",80,0.03460207612456748
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(byte[])",20,0.00865051903114187
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(java.nio.channels.GatheringByteChannel,int) throws java.io.IOException",18,0.007785467128027681
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(org.jboss.netty.buffer.ChannelBuffer,int,int)",40,0.01730103806228374
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(org.jboss.netty.buffer.ChannelBuffer)",17,0.007352941176470588
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(byte[],int,int)",11,0.004757785467128028
+"public void org.jboss.netty.channel.SimpleChannelUpstreamHandler.childChannelOpen(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChildChannelStateEvent) throws java.lang.Exception",5,0.0021626297577854673
+"public org.jboss.netty.buffer.ChannelBuffer org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(int)",37,0.016003460207612456
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.readBytes(java.nio.ByteBuffer)",65,0.028114186851211073
+"public boolean org.jboss.netty.buffer.AbstractChannelBuffer.readBoolean()",23,0.009948096885813149
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setZero(int,int)",59,0.02551903114186851
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.markWriterIndex()",67,0.02897923875432526
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.writeBytes(org.jboss.netty.buffer.ChannelBuffer)",1726,0.7465397923875432
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.writeBytes(byte[])",84,0.03633217993079585
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.writeBytes(org.jboss.netty.buffer.ChannelBuffer,int)",86,0.037197231833910036
+"public java.nio.ByteBuffer[] org.jboss.netty.buffer.AbstractChannelBuffer.toByteBuffers(int,int)",45,0.019463667820069204
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeMedium(int)",131,0.05666089965397924
+"public java.nio.ByteBuffer[] org.jboss.netty.buffer.AbstractChannelBuffer.toByteBuffers()",59,0.02551903114186851
+"public org.jboss.netty.buffer.ChannelBufferFactory org.jboss.netty.buffer.DynamicChannelBuffer.factory()",670,0.2897923875432526
+"public char org.jboss.netty.buffer.AbstractChannelBuffer.getChar(int)",38,0.01643598615916955
+"public boolean org.jboss.netty.buffer.AbstractChannelBuffer.equals(java.lang.Object)",27,0.011678200692041523
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.setInt(int,int)",19,0.008217993079584774
+"public long org.jboss.netty.buffer.AbstractChannelBuffer.readLong()",21,0.009083044982698962
+"public boolean org.jboss.netty.buffer.AbstractChannelBuffer.writable()",37,0.016003460207612456
+"public short org.jboss.netty.buffer.DynamicChannelBuffer.getShort(int)",21,0.009083044982698962
+"public int org.jboss.netty.buffer.DynamicChannelBuffer.arrayOffset()",40,0.01730103806228374
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.readerIndex()",48,0.020761245674740483
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.readerIndex(int)",20,0.00865051903114187
+"public byte[] org.jboss.netty.buffer.DynamicChannelBuffer.array()",86,0.037197231833910036
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.indexOf(int,int,org.jboss.netty.buffer.ChannelBufferIndexFinder)",72,0.031141868512110725
+"public int org.jboss.netty.buffer.AbstractChannelBuffer.indexOf(int,int,byte)",65,0.028114186851211073
+"public void org.jboss.netty.handler.codec.frame.FrameDecoder.channelDisconnected(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.ChannelStateEvent) throws java.lang.Exception",9,0.0038927335640138406
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.writeZero(int)",35,0.01513840830449827
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setChar(int,int)",59,0.02551903114186851
+"public static final int org.jboss.netty.channel.Channel.OP_WRITE",1,4.3252595155709344E-4
+"public boolean org.jboss.netty.buffer.AbstractChannelBuffer.getBoolean(int)",56,0.02422145328719723
+"public org.jboss.netty.buffer.ChannelBuffer org.jboss.netty.buffer.AbstractChannelBuffer.copy()",76,0.0328719723183391
+"public float org.jboss.netty.buffer.AbstractChannelBuffer.readFloat()",26,0.01124567474048443
+"public void org.jboss.netty.buffer.DynamicChannelBuffer.setByte(int,int)",32,0.01384083044982699
+"public org.jboss.netty.buffer.ChannelBuffer org.jboss.netty.buffer.AbstractChannelBuffer.slice()",147,0.06358131487889274
+"public void org.jboss.netty.buffer.AbstractChannelBuffer.setDouble(int,double)",40,0.01730103806228374

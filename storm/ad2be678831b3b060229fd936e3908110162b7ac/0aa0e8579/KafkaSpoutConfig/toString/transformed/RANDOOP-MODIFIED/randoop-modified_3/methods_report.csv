@@ -1,0 +1,89 @@
+Methods called,Number of times,Number of times (Normalized)
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$FirstPollOffsetStrategy org.apache.storm.kafka.spout.KafkaSpoutConfig.firstPollOffsetStrategy",6140,0.32663049260559635
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$FirstPollOffsetStrategy org.apache.storm.kafka.spout.KafkaSpoutConfig.firstPollOffsetStrategy",1968,0.1046919885094159
+"public java.lang.String org.apache.storm.kafka.spout.KafkaSpoutConfig.toString()",8687,0.46212363017342273
+"public org.apache.kafka.common.serialization.Deserializer org.apache.storm.kafka.spout.KafkaSpoutConfig.valueDeserializer",3631,0.19315884668581765
+"public org.apache.kafka.common.serialization.Deserializer org.apache.storm.kafka.spout.KafkaSpoutConfig.valueDeserializer",5013,0.26667730609639323
+"public static long org.apache.storm.kafka.spout.KafkaSpoutConfig.DEFAULT_OFFSET_COMMIT_PERIOD_MS",1,5.319714863283328E-5
+"public static long org.apache.storm.kafka.spout.KafkaSpoutConfig.DEFAULT_OFFSET_COMMIT_PERIOD_MS",34,0.0018087030535163316
+"public org.apache.storm.kafka.spout.KafkaSpoutRetryService org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.retryService",3275,0.17422066177252898
+"public static final java.lang.String org.apache.storm.kafka.spout.KafkaSpoutConfig$Consumer.GROUP_ID",1,5.319714863283328E-5
+"public org.apache.storm.kafka.spout.KafkaSpoutRetryService org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.retryService",1598,0.08500904351526758
+"public org.apache.storm.kafka.spout.KafkaSpoutStreams org.apache.storm.kafka.spout.KafkaSpoutConfig.getKafkaSpoutStreams()",2267,0.12059793595063305
+"public int org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.maxUncommittedOffsets",2172,0.11554420683051389
+"public int org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.maxUncommittedOffsets",1669,0.08878604106819875
+"public java.util.List org.apache.storm.kafka.spout.KafkaSpoutConfig.getSubscribedTopics()",9132,0.4857963613150335
+"org.apache.storm.kafka.spout.KafkaSpoutConfig(org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder)",241,0.01282051282051282
+"org.apache.storm.kafka.spout.KafkaSpoutConfig()",14305,0.76098521119268
+"EARLIEST",68,0.003617406107032663
+"public static int org.apache.storm.kafka.spout.KafkaSpoutConfig.DEFAULT_MAX_UNCOMMITTED_OFFSETS",23,0.0012235344185551654
+"public static int org.apache.storm.kafka.spout.KafkaSpoutConfig.DEFAULT_MAX_UNCOMMITTED_OFFSETS",1,5.319714863283328E-5
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig.pollTimeoutMs",2642,0.14054686668794553
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig.pollTimeoutMs",2005,0.10666028300883072
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig.offsetCommitPeriodMs",11852,0.63049260559634
+"public java.util.Map org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.kafkaProps",3415,0.18166826258112564
+"public java.util.Map org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.kafkaProps",2387,0.12698159378657303
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig.offsetCommitPeriodMs",1898,0.10096818810511757
+"public static final java.lang.String org.apache.storm.kafka.spout.KafkaSpoutConfig$Consumer.AUTO_COMMIT_INTERVAL_MS",1,5.319714863283328E-5
+"public org.apache.kafka.common.serialization.Deserializer org.apache.storm.kafka.spout.KafkaSpoutConfig.keyDeserializer",2891,0.15379295669752102
+"LATEST",4220,0.22449196723055645
+"public org.apache.kafka.common.serialization.Deserializer org.apache.storm.kafka.spout.KafkaSpoutConfig.keyDeserializer",1842,0.0979891477816789
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.setKeyDeserializer(org.apache.storm.kafka.spout.SerializableDeserializer)",4625,0.2460368124268539
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.build()",514,0.027343334397276306
+"UNCOMMITTED_EARLIEST",366,0.01947015639961698
+"public org.apache.storm.kafka.spout.KafkaSpoutTuplesBuilder org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.tuplesBuilder",1597,0.08495584636663475
+"public org.apache.storm.kafka.spout.KafkaSpoutTuplesBuilder org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.tuplesBuilder",2477,0.13176933716352804
+"public org.apache.storm.kafka.spout.KafkaSpoutStreams org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.kafkaSpoutStreams",2092,0.11128843493988722
+"public org.apache.storm.kafka.spout.KafkaSpoutStreams org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.kafkaSpoutStreams",2097,0.1115544206830514
+"public static long org.apache.storm.kafka.spout.KafkaSpoutConfig.DEFAULT_POLL_TIMEOUT_MS",1,5.319714863283328E-5
+"public static long org.apache.storm.kafka.spout.KafkaSpoutConfig.DEFAULT_POLL_TIMEOUT_MS",34,0.0018087030535163316
+"public static final java.lang.String org.apache.storm.kafka.spout.KafkaSpoutConfig$Consumer.BOOTSTRAP_SERVERS",1,5.319714863283328E-5
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.setValueDeserializer(org.apache.storm.kafka.spout.SerializableDeserializer)",7244,0.3853601446962443
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig.getOffsetsCommitPeriodMs()",2567,0.13655708054048302
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.pollTimeoutMs",2654,0.14118523247153952
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.pollTimeoutMs",2572,0.1368230662836472
+"public java.util.Map org.apache.storm.kafka.spout.KafkaSpoutConfig.kafkaProps",5495,0.2923183317374189
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.offsetCommitPeriodMs",15414,0.8199808490264922
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.setOffsetCommitPeriodMs(long)",14644,0.7790190445792106
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.offsetCommitPeriodMs",3946,0.20991594850516013
+"public java.util.Map org.apache.storm.kafka.spout.KafkaSpoutConfig.kafkaProps",2296,0.12214065326098521
+"UNCOMMITTED_LATEST",83,0.004415363336525162
+"public org.apache.storm.kafka.spout.SerializableDeserializer org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.keyDeserializer",1980,0.1053303542930099
+"public org.apache.storm.kafka.spout.SerializableDeserializer org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.keyDeserializer",1481,0.07878497712522609
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.setMaxUncommittedOffsets(int)",5963,0.31721459729758483
+"public java.util.Map org.apache.storm.kafka.spout.KafkaSpoutConfig.setDefaultsAndGetKafkaProps(java.util.Map)",553,0.029418023193956803
+"public org.apache.storm.kafka.spout.KafkaSpoutTuplesBuilder org.apache.storm.kafka.spout.KafkaSpoutConfig.tuplesBuilder",6075,0.3231726779444622
+"public org.apache.storm.kafka.spout.KafkaSpoutTuplesBuilder org.apache.storm.kafka.spout.KafkaSpoutConfig.tuplesBuilder",1830,0.0973507819980849
+"public org.apache.storm.kafka.spout.KafkaSpoutStreams org.apache.storm.kafka.spout.KafkaSpoutConfig.kafkaSpoutStreams",2920,0.15533567400787318
+"public org.apache.storm.kafka.spout.KafkaSpoutStreams org.apache.storm.kafka.spout.KafkaSpoutConfig.kafkaSpoutStreams",2147,0.11421427811469305
+"public java.lang.String org.apache.storm.kafka.spout.KafkaSpoutConfig.getConsumerGroupId()",529,0.028141291626768806
+"public final native java.lang.Class java.lang.Object.getClass()",543,0.028886051707628473
+"public org.apache.storm.kafka.spout.KafkaSpoutTuplesBuilder org.apache.storm.kafka.spout.KafkaSpoutConfig.getTuplesBuilder()",1898,0.10096818810511757
+"public java.util.regex.Pattern org.apache.storm.kafka.spout.KafkaSpoutConfig.getTopicWildcardPattern()",3538,0.18821151186296414
+"public static final java.lang.String org.apache.storm.kafka.spout.KafkaSpoutConfig$Consumer.ENABLE_AUTO_COMMIT",1,5.319714863283328E-5
+"public static final java.lang.String org.apache.storm.kafka.spout.KafkaSpoutConfig$Consumer.KEY_DESERIALIZER",1,5.319714863283328E-5
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$FirstPollOffsetStrategy org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.firstPollOffsetStrategy",5989,0.3185977231620385
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$FirstPollOffsetStrategy org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.firstPollOffsetStrategy",6032,0.32088520055325037
+"public int org.apache.storm.kafka.spout.KafkaSpoutConfig.getMaxUncommittedOffsets()",3051,0.16230450047877434
+"public static int org.apache.storm.kafka.spout.KafkaSpoutConfig.DEFAULT_MAX_RETRIES",23,0.0012235344185551654
+"public static int org.apache.storm.kafka.spout.KafkaSpoutConfig.DEFAULT_MAX_RETRIES",1,5.319714863283328E-5
+"public org.apache.storm.kafka.spout.KafkaSpoutRetryService org.apache.storm.kafka.spout.KafkaSpoutConfig.getRetryService()",3478,0.18501968294499416
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$FirstPollOffsetStrategy org.apache.storm.kafka.spout.KafkaSpoutConfig.getFirstPollOffsetStrategy()",2642,0.14054686668794553
+"public org.apache.kafka.common.serialization.Deserializer org.apache.storm.kafka.spout.KafkaSpoutConfig.getKeyDeserializer()",1789,0.09516969890413873
+"public java.util.Map org.apache.storm.kafka.spout.KafkaSpoutConfig.getKafkaProps()",2396,0.12746036812426853
+"public org.apache.storm.kafka.spout.SerializableDeserializer org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.valueDeserializer",5311,0.28253005638897755
+"public org.apache.storm.kafka.spout.SerializableDeserializer org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.valueDeserializer",1241,0.0660176614533461
+"public org.apache.storm.kafka.spout.KafkaSpoutRetryService org.apache.storm.kafka.spout.KafkaSpoutConfig.retryService",2814,0.14969677625279285
+"public org.apache.storm.kafka.spout.KafkaSpoutRetryService org.apache.storm.kafka.spout.KafkaSpoutConfig.retryService",2106,0.11203319502074689
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.setPollTimeoutMs(long)",4976,0.2647090115969784
+"public org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder.setFirstPollOffsetStrategy(org.apache.storm.kafka.spout.KafkaSpoutConfig$FirstPollOffsetStrategy)",10242,0.5448451962974784
+"public static final java.lang.String org.apache.storm.kafka.spout.KafkaSpoutConfig$Consumer.VALUE_DESERIALIZER",1,5.319714863283328E-5
+"public int org.apache.storm.kafka.spout.KafkaSpoutConfig.maxUncommittedOffsets",4734,0.25183530162783274
+"public int org.apache.storm.kafka.spout.KafkaSpoutConfig.maxUncommittedOffsets",1461,0.07772103415256942
+"public org.apache.kafka.common.serialization.Deserializer org.apache.storm.kafka.spout.KafkaSpoutConfig.getValueDeserializer()",3193,0.16985849558463667
+"java.lang.Object()",1,5.319714863283328E-5
+"public long org.apache.storm.kafka.spout.KafkaSpoutConfig.getPollTimeoutMs()",3721,0.19794659006277263
+"org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder(java.util.Map, org.apache.storm.kafka.spout.KafkaSpoutStreams, org.apache.storm.kafka.spout.KafkaSpoutTuplesBuilder)",143,0.007607192254495159
+"org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder(java.util.Map, org.apache.storm.kafka.spout.KafkaSpoutStreams, org.apache.storm.kafka.spout.KafkaSpoutTuplesBuilder, org.apache.storm.kafka.spout.KafkaSpoutRetryService)",142,0.007553995105862326
+"public boolean org.apache.storm.kafka.spout.KafkaSpoutConfig.isConsumerAutoCommitMode()",536,0.028513671667198637
+"org.apache.storm.kafka.spout.KafkaSpoutConfig$Builder()",18162,0.966166613469518

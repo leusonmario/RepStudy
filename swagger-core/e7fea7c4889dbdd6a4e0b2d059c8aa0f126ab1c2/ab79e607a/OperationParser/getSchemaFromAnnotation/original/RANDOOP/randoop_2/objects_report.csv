@@ -1,0 +1,19 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.util.ArrayList,8384,52,0.594399149237859,0.003686635944700461
+class java.lang.Integer,2,2,1.4179369018078695E-4,1.4179369018078695E-4
+class [Lio.swagger.oas.annotations.servers.Server;,9,2,6.380716058135413E-4,1.4179369018078695E-4
+class [Lio.swagger.oas.annotations.links.Link;,7,2,4.962779156327543E-4,1.4179369018078695E-4
+class java.lang.String,1399,158,0.09918468628146047,0.01120170152428217
+class [Lio.swagger.oas.annotations.media.Content;,129,2,0.00914569301666076,1.4179369018078695E-4
+class [Ljava.lang.reflect.AnnotatedElement;,425,2,0.03013115916341723,1.4179369018078695E-4
+class java.lang.Boolean,9797,2,0.6945763913505849,1.4179369018078695E-4
+class java.util.Optional,6737,9,0.47763204537398085,6.380716058135413E-4
+class [Lio.swagger.oas.annotations.links.LinkParameter;,3,2,2.1269053527118043E-4,1.4179369018078695E-4
+class java.util.LinkedHashMap,302,9,0.021410847217298832,6.380716058135413E-4
+class java.util.HashMap,1508,53,0.10691244239631337,0.0037575327897908543
+class [Lio.swagger.oas.annotations.responses.ApiResponse;,134,2,0.009500177242112726,1.4179369018078695E-4
+class [Ljava.lang.String;,7421,18,0.52612548741581,0.0012761432116270826
+class io.swagger.jaxrs2.OperationParser,1400,1,0.09925558312655088,7.089684509039348E-5
+class [Lio.swagger.oas.annotations.Parameter;,27,2,0.0019142148174406239,1.4179369018078695E-4
+class java.lang.Class,1219,7,0.08642325416518964,4.962779156327543E-4
+class io.swagger.oas.models.media.Schema,140729,14520,9.977242112725984,1.0294221907125134

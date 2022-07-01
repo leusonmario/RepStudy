@@ -1,0 +1,91 @@
+Methods called,Number of times,Number of times (Normalized)
+"public org.jsoup.nodes.Node org.jsoup.nodes.TextNode.removeAttr(java.lang.String)",1580,0.09149342752909838
+"public void org.jsoup.nodes.Document$OutputSettings.setprettyPrint(boolean)",4988,0.2888412762754068
+"public boolean org.jsoup.nodes.TextNode.hasAttr(java.lang.String)",3406,0.19723203428108171
+"public void org.jsoup.nodes.Document$OutputSettings.setindentAmount(int)",3623,0.2097979037581794
+"public static boolean org.jsoup.nodes.TextNode.lastCharIsWhitespace(java.lang.StringBuilder)",1,5.790723261335341E-5
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.after(java.lang.String)",403,0.023336614743181425
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.after(org.jsoup.nodes.Node)",391,0.02264172795182118
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.clone()",6193,0.35861949157449763
+"public void org.jsoup.nodes.Document$OutputSettings.setcharset(java.nio.charset.Charset)",12295,0.7119694249811801
+"public static final java.lang.String org.jsoup.nodes.TextNode.TEXT_KEY",1,5.790723261335341E-5
+"public static java.lang.String org.jsoup.nodes.TextNode.stripLeadingWhitespace(java.lang.String)",11,6.369795587468875E-4
+"public java.nio.charset.Charset org.jsoup.nodes.Document$OutputSettings.charset",7053,0.4084197116219816
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.indentAmount(int)",4995,0.2892466269037003
+"public java.nio.charset.Charset org.jsoup.nodes.Document$OutputSettings.charset",3005,0.17401123400312699
+"public int org.jsoup.nodes.Document$OutputSettings.indentAmount()",1917,0.11100816491979848
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.before(org.jsoup.nodes.Node)",395,0.022873356882274595
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.before(java.lang.String)",408,0.02362615090624819
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.prettyPrint(boolean)",7490,0.433725172274017
+"public java.nio.charset.CharsetEncoder org.jsoup.nodes.Document$OutputSettings.getcharsetEncoder()",7201,0.41698998204875787
+"public boolean org.jsoup.nodes.Document$OutputSettings.prettyPrint()",1852,0.10724419479993051
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.parent()",2029,0.11749377497249407
+"public org.jsoup.nodes.Attributes org.jsoup.nodes.TextNode.attributes()",1628,0.09427297469453935
+"public boolean org.jsoup.nodes.Document$OutputSettings.getprettyPrint()",9168,0.530893508599224
+"public void org.jsoup.nodes.Node.remove()",360,0.020846603740807226
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.unwrap()",382,0.022120562858301003
+"public java.nio.charset.Charset org.jsoup.nodes.Document$OutputSettings.getcharset()",5776,0.3344721755747293
+"public org.jsoup.nodes.Document org.jsoup.nodes.Node.ownerDocument()",1921,0.1112397938502519
+"public void org.jsoup.nodes.Node.setBaseUri(java.lang.String)",5045,0.29214198853436796
+"public java.lang.String org.jsoup.nodes.Node.outerHtml()",1326,0.07678499044530662
+"public static org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode.createFromEncoded(java.lang.String,java.lang.String)",2084,0.1206786727662285
+"public java.lang.String org.jsoup.nodes.Node.baseUri()",2007,0.11621981585500028
+"public java.lang.String org.jsoup.nodes.TextNode.getWholeText()",2624,0.15194857837743933
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.traverse(org.jsoup.select.NodeVisitor)",416,0.024089408767155016
+"public org.jsoup.nodes.Entities$EscapeMode org.jsoup.nodes.Document$OutputSettings.getescapeMode()",2587,0.14980601077074526
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.clone()",2990,0.1731426255139267
+"public boolean org.jsoup.nodes.Document$OutputSettings.getforceAllElementAsBlock()",2358,0.13654525450228733
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.wrap(java.lang.String)",397,0.0229891713475013
+"public boolean org.jsoup.nodes.TextNode.isBlank()",1863,0.1078811743586774
+"public boolean org.jsoup.nodes.Document$OutputSettings.forceAllElementAsBlock",27107,1.5696913544501707
+"public boolean org.jsoup.nodes.Document$OutputSettings.forceAllElementAsBlock",3025,0.17516937865539406
+"public void org.jsoup.nodes.TextNode.settext(java.lang.String)",2152,0.12461636458393653
+"public static java.lang.String org.jsoup.nodes.TextNode.normaliseWhitespace(java.lang.String)",11,6.369795587468875E-4
+"public java.nio.charset.Charset org.jsoup.nodes.Document$OutputSettings.charset()",13818,0.8001621402513174
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.charset(java.nio.charset.Charset)",2857,0.16544096357635069
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.charset(java.lang.String)",407,0.023568243673634838
+"public java.util.List org.jsoup.nodes.Node.childNodes()",6387,0.3698534947014882
+"public boolean org.jsoup.nodes.Document$OutputSettings.prettyPrint",24893,1.4414847414442065
+"public boolean org.jsoup.nodes.Document$OutputSettings.prettyPrint",1719,0.09954253286235451
+"public void org.jsoup.nodes.Document$OutputSettings.setcharsetEncoder(java.nio.charset.CharsetEncoder)",2072,0.11998378597486827
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode.text(java.lang.String)",5079,0.29411083444322195
+"public java.lang.String org.jsoup.nodes.TextNode.text()",1499,0.08680294168741676
+"public java.lang.String org.jsoup.nodes.TextNode.getTEXT_KEY()",4100,0.23741965371474896
+"public void org.jsoup.nodes.TextNode.ensureAttributes()",1892,0.10956048410446464
+"org.jsoup.nodes.TextNode()",3128,0.18113382361456945
+"org.jsoup.nodes.TextNode(java.lang.String, java.lang.String)",9599,0.5558515258555794
+"public void org.jsoup.nodes.TextNode.outerHtmlTail(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings)",3139,0.18177080317331634
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.previousSibling()",1189,0.0688516995772772
+"public boolean org.jsoup.nodes.Document$OutputSettings.forceAllElementAsBlock()",4720,0.2733221379350281
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.forceAllElementAsBlock(boolean)",3780,0.21888933927847587
+"public org.jsoup.nodes.Entities$EscapeMode org.jsoup.nodes.Document$OutputSettings.escapeMode",3987,0.23087613642944005
+"public org.jsoup.nodes.Entities$EscapeMode org.jsoup.nodes.Document$OutputSettings.escapeMode",1774,0.10272743065608894
+"public java.lang.String org.jsoup.nodes.TextNode.gettext()",1949,0.11286119636342579
+"org.jsoup.nodes.Document$OutputSettings()",42861,2.4819618970409403
+"public java.nio.charset.CharsetEncoder org.jsoup.nodes.Document$OutputSettings.encoder()",5748,0.33285077306155536
+"public final native java.lang.Class java.lang.Object.getClass()",435,0.02518964618680873
+"public java.lang.String org.jsoup.nodes.TextNode.absUrl(java.lang.String)",1905,0.11031327812843825
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.nextSibling()",1689,0.0978053158839539
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode.splitText(int)",2270,0.13144941803231225
+"public java.lang.String org.jsoup.nodes.TextNode.text",4898,0.28362962534020497
+"public java.lang.String org.jsoup.nodes.TextNode.toString()",2559,0.14818460825757138
+"public java.lang.String org.jsoup.nodes.TextNode.text",2497,0.14459435983554345
+"public int org.jsoup.nodes.Document$OutputSettings.getindentAmount()",7822,0.45295037350165035
+"public java.lang.String org.jsoup.nodes.TextNode.nodeName()",2208,0.12785916961028432
+"public boolean org.jsoup.nodes.Node.equals(java.lang.Object)",3403,0.19705831258324163
+"public void org.jsoup.nodes.Node.replaceWith(org.jsoup.nodes.Node)",430,0.024900110023741966
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.escapeMode(org.jsoup.nodes.Entities$EscapeMode)",4565,0.2643465168799583
+"public org.jsoup.nodes.Entities$EscapeMode org.jsoup.nodes.Document$OutputSettings.escapeMode()",3813,0.22080027795471655
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.childNode(int)",364,0.02107823267126064
+"public void org.jsoup.nodes.TextNode.outerHtmlHead(java.lang.StringBuilder,int,org.jsoup.nodes.Document$OutputSettings)",380,0.022004748393074296
+"public java.nio.charset.CharsetEncoder org.jsoup.nodes.Document$OutputSettings.charsetEncoder",1936,0.1121084023394522
+"public java.nio.charset.CharsetEncoder org.jsoup.nodes.Document$OutputSettings.charsetEncoder",1613,0.09340436620533904
+"public int org.jsoup.nodes.Document$OutputSettings.indentAmount",14305,0.8283629625340205
+"public int org.jsoup.nodes.Document$OutputSettings.indentAmount",4345,0.2516069257050206
+"public int org.jsoup.nodes.Node.siblingIndex()",12209,0.7069894029764318
+"public void org.jsoup.nodes.Document$OutputSettings.setforceAllElementAsBlock(boolean)",3101,0.1795703283340089
+"java.lang.Object()",1,5.790723261335341E-5
+"public org.jsoup.nodes.Node org.jsoup.nodes.TextNode.attr(java.lang.String,java.lang.String)",1858,0.10759163819561063
+"public java.lang.String org.jsoup.nodes.TextNode.attr(java.lang.String)",1699,0.09838438821008744
+"public void org.jsoup.nodes.Document$OutputSettings.setescapeMode(org.jsoup.nodes.Entities$EscapeMode)",9882,0.5722392726851584
+"public java.util.List org.jsoup.nodes.Node.siblingNodes()",2417,0.13996178122647518

@@ -1,0 +1,1 @@
+com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.newWindow(com.badlogic.gdx.ApplicationListener, com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration)

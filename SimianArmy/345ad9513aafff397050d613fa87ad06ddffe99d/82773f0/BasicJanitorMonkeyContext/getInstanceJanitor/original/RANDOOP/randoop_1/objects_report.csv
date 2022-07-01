@@ -1,0 +1,15 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,182,4,1.3284671532846715,0.029197080291970802
+class com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$BasicJanitorContext,76,51,0.5547445255474452,0.3722627737226277
+class com.netflix.simianarmy.basic.BasicScheduler,18,17,0.13138686131386862,0.12408759124087591
+class com.netflix.simianarmy.client.aws.AWSClient,253,137,1.8467153284671534,1.0
+class com.netflix.simianarmy.basic.BasicConfiguration,62,1,0.45255474452554745,0.0072992700729927005
+class com.netflix.simianarmy.janitor.JanitorEmailNotifier,10,9,0.072992700729927,0.06569343065693431
+class com.amazonaws.auth.DefaultAWSCredentialsProviderChain,22,22,0.16058394160583941,0.16058394160583941
+class com.netflix.simianarmy.basic.BasicCalendar,78,67,0.5693430656934306,0.48905109489051096
+class com.netflix.simianarmy.aws.janitor.SimpleDBJanitorResourceTracker,87,83,0.635036496350365,0.6058394160583942
+class java.util.ArrayList,17,15,0.12408759124087591,0.10948905109489052
+class com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext,206,206,1.5036496350364963,1.5036496350364963
+class com.netflix.simianarmy.aws.SimpleDBRecorder,29,26,0.2116788321167883,0.1897810218978102
+class com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext$1,37,1,0.27007299270072993,0.0072992700729927005
+class java.lang.Class,6,4,0.043795620437956206,0.029197080291970802

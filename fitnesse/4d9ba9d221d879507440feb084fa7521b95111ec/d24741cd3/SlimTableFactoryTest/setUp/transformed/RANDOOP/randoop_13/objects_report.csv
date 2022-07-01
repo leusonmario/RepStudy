@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Object,1,1,3.2850431983180576E-5,3.2850431983180576E-5
+class fitnesse.testsystems.slim.tables.SlimTableFactoryTest,30440,1,0.9999671495680168,3.2850431983180576E-5
+class java.lang.Class,2015,2,0.06619362044610887,6.570086396636115E-5

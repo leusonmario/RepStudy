@@ -1,0 +1,136 @@
+Methods called,Number of times,Number of times (Normalized)
+"public org.elasticsearch.common.ParseField org.elasticsearch.index.query.MultiMatchQueryBuilder$Type.parseField()",1838,0.1342781998831093
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.maxExpansions",1096,0.08007013442431327
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.maxExpansions",426,0.031122150789012273
+"public static org.elasticsearch.index.query.MultiMatchQueryBuilder$Type org.elasticsearch.index.query.MultiMatchQueryBuilder$Type.parse(java.lang.String,org.elasticsearch.common.ParseFieldMatcher)",139,0.010154880187025131
+"PHRASE",51,0.0037258912916423143
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream)",1,7.305669199298655E-5
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;)",108,0.007890122735242549
+"public org.elasticsearch.index.query.Operator org.elasticsearch.index.query.MultiMatchQueryBuilder.getoperator()",521,0.038062536528346
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.analyzer(java.lang.String)",2249,0.16430450029222676
+"public float org.elasticsearch.index.query.MultiMatchQueryBuilder$Type.tieBreaker()",1840,0.13442431326709525
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.useDisMax(boolean)",1571,0.11477206312098188
+"public java.lang.Object org.elasticsearch.index.query.MultiMatchQueryBuilder.gettext()",1384,0.1011104617182934
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.slop(int)",2081,0.15203097603740504
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.rewrite",538,0.03930450029222677
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.rewrite",840,0.061367621274108705
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.lenient(boolean)",3431,0.25065751022793686
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.minimumShouldMatch(java.lang.String)",2594,0.18950905902980714
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.getprefixLength()",534,0.03901227352425482
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder$Type org.elasticsearch.index.query.MultiMatchQueryBuilder.gettype()",1167,0.08525715955581531
+"public java.lang.String org.elasticsearch.index.query.AbstractQueryBuilder.getName()",969,0.07079193454120397
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.maxExpansions(int)",1386,0.10125657510227937
+"public java.util.List org.elasticsearch.index.query.MultiMatchQueryBuilder.getfields()",1150,0.08401519579193455
+"public final java.lang.Object org.elasticsearch.index.query.MultiMatchQueryBuilder.text",1885,0.13771186440677965
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setslop(java.lang.Integer)",1571,0.11477206312098188
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.getminimumShouldMatch()",906,0.06618936294564583
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.fuzzyRewrite",1941,0.1418030391583869
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.rewrite(java.lang.String)",1957,0.1429719462302747
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.fuzzyRewrite",1441,0.10527469316189363
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setfuzziness(org.elasticsearch.common.unit.Fuzziness)",657,0.047998246639392166
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.getanalyzer()",2328,0.17007597895967272
+"public java.lang.Boolean org.elasticsearch.index.query.MultiMatchQueryBuilder.useDisMax",1426,0.10417884278199883
+"public java.lang.Boolean org.elasticsearch.index.query.MultiMatchQueryBuilder.useDisMax",763,0.05574225599064874
+"public final boolean org.elasticsearch.index.query.AbstractQueryBuilder.equals(java.lang.Object)",995,0.07269140853302163
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setfuzzyRewrite(java.lang.String)",1455,0.10629748684979544
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setminimumShouldMatch(java.lang.String)",1066,0.07787843366452367
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder$Type org.elasticsearch.index.query.MultiMatchQueryBuilder.type",1226,0.08956750438340152
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder$Type org.elasticsearch.index.query.MultiMatchQueryBuilder.type",1938,0.14158386908240794
+"public java.lang.Float org.elasticsearch.index.query.MultiMatchQueryBuilder.gettieBreaker()",621,0.045368205727644655
+"org.elasticsearch.index.query.MultiMatchQueryBuilder(java.lang.Object, [Ljava.lang.String;)",24330,1.7774693161893629
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.doXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",253,0.0184833430742256
+"CAMELCASE",48,0.0035067212156633548
+"BEST_FIELDS",1258,0.0919053185271771
+"public static final float org.elasticsearch.index.query.AbstractQueryBuilder.DEFAULT_BOOST",1,7.305669199298655E-5
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.fuzzyRewrite(java.lang.String)",3592,0.2624196376388077
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setzeroTermsQuery(org.elasticsearch.index.query.MatchQueryBuilder$ZeroTermsQuery)",555,0.04054646405610754
+"public org.elasticsearch.index.query.MatchQueryBuilder$ZeroTermsQuery org.elasticsearch.index.query.MultiMatchQueryBuilder.getzeroTermsQuery()",2071,0.15130040911747517
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.type(java.lang.Object)",458,0.03345996493278784
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.type(org.elasticsearch.index.query.MultiMatchQueryBuilder$Type)",1981,0.14472530683810636
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.fuzziness(java.lang.Object)",3145,0.22976329631794273
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setprefixLength(java.lang.Integer)",742,0.05420806545879603
+"public final native java.lang.Class java.lang.Object.getClass()",351,0.02564289888953828
+"public static final org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.PROTOTYPE",269,0.019652250146113385
+"public final org.elasticsearch.index.query.AbstractQueryBuilder org.elasticsearch.index.query.AbstractQueryBuilder.queryName(java.lang.String)",2519,0.18402980713033315
+"public com.carrotsearch.hppc.ObjectFloatHashMap org.elasticsearch.index.query.MultiMatchQueryBuilder.getfieldsBoosts()",4001,0.2922998246639392
+"public final java.lang.String org.elasticsearch.index.query.AbstractQueryBuilder.queryName()",609,0.04449152542372881
+"public final float org.elasticsearch.index.query.AbstractQueryBuilder.boost()",2406,0.17577440093512567
+"public final org.elasticsearch.index.query.AbstractQueryBuilder org.elasticsearch.index.query.AbstractQueryBuilder.boost(float)",2283,0.16678842781998832
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.settieBreaker(java.lang.Float)",2905,0.21222969023962596
+"public final void org.elasticsearch.index.query.AbstractQueryBuilder.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",252,0.01841028638223261
+"public org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.index.query.AbstractQueryBuilder.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",284,0.020748100526008183
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.analyzer",1229,0.08978667445938047
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.analyzer",522,0.038135593220338986
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[]) throws java.io.IOException",93,0.00679427235534775
+"public static void org.elasticsearch.common.xcontent.XContentBuilder.globalFieldCaseConversion(org.elasticsearch.common.xcontent.XContentBuilder$FieldCaseConversion)",149,0.010885447106954996
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent) throws java.io.IOException",1,7.305669199298655E-5
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.getmaxExpansions()",691,0.05048217416715371
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.cutoffFrequency(float)",10161,0.7423290473407365
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setlenient(java.lang.Boolean)",653,0.04770601987142022
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",502,0.03667445938047925
+"PHRASE_PREFIX",140,0.010227936879018119
+"public org.elasticsearch.common.unit.Fuzziness org.elasticsearch.index.query.MultiMatchQueryBuilder.fuzziness",1853,0.1353740502630041
+"public org.elasticsearch.common.unit.Fuzziness org.elasticsearch.index.query.MultiMatchQueryBuilder.fuzziness",1207,0.08817942723553478
+"public final org.elasticsearch.index.query.AbstractQueryBuilder org.elasticsearch.index.query.AbstractQueryBuilder.readFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",248,0.018118059614260665
+"public final org.apache.lucene.search.Query org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(org.elasticsearch.index.query.QueryShardContext) throws java.io.IOException",268,0.019579193454120396
+"public final java.util.List org.elasticsearch.index.query.MultiMatchQueryBuilder.fields",683,0.04989772063120982
+"public org.elasticsearch.index.query.MatchQueryBuilder$ZeroTermsQuery org.elasticsearch.index.query.MultiMatchQueryBuilder.zeroTermsQuery",1054,0.07700175336060783
+"public org.elasticsearch.index.query.MatchQueryBuilder$ZeroTermsQuery org.elasticsearch.index.query.MultiMatchQueryBuilder.zeroTermsQuery",995,0.07269140853302163
+"public final org.elasticsearch.common.bytes.BytesReference org.elasticsearch.action.support.ToXContentToBytes.buildAsBytes(org.elasticsearch.common.xcontent.XContentType)",247,0.01804500292226768
+"public final org.elasticsearch.common.bytes.BytesReference org.elasticsearch.action.support.ToXContentToBytes.buildAsBytes()",2,1.461133839859731E-4
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.prefixLength(int)",1158,0.08459964932787843
+"java.lang.String[4]",2,1.461133839859731E-4
+"java.lang.String[6]",2,1.461133839859731E-4
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setmaxExpansions(java.lang.Integer)",3095,0.22611046171829338
+"public java.lang.Float org.elasticsearch.index.query.MultiMatchQueryBuilder.cutoffFrequency",431,0.03148743424897721
+"public java.lang.Float org.elasticsearch.index.query.MultiMatchQueryBuilder.cutoffFrequency",1325,0.0968001168907072
+"java.lang.String[0]",2,1.461133839859731E-4
+"java.lang.String[1]",2,1.461133839859731E-4
+"java.lang.String[2]",21964,1.6046171829339568
+"public static final java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.NAME",1,7.305669199298655E-5
+"java.lang.String[3]",1,7.305669199298655E-5
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setrewrite(java.lang.String)",1083,0.07912039742840445
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.getWriteableName()",1879,0.13727352425482175
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.getrewrite()",1707,0.12470777323202806
+"public java.lang.Boolean org.elasticsearch.index.query.MultiMatchQueryBuilder.getuseDisMax()",1414,0.10330216247808299
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.zeroTermsQuery(org.elasticsearch.index.query.MatchQueryBuilder$ZeroTermsQuery)",6001,0.43841320864991234
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.prefixLength",497,0.03630917592051432
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.prefixLength",925,0.06757744009351256
+"public com.carrotsearch.hppc.ObjectFloatHashMap org.elasticsearch.index.query.MultiMatchQueryBuilder.fieldsBoosts",1276,0.09322033898305085
+"public com.carrotsearch.hppc.ObjectFloatHashMap org.elasticsearch.index.query.MultiMatchQueryBuilder.fieldsBoosts",916,0.06691992986557568
+"public org.elasticsearch.index.query.Operator org.elasticsearch.index.query.MultiMatchQueryBuilder.operator",1358,0.09921098772647574
+"public org.elasticsearch.index.query.Operator org.elasticsearch.index.query.MultiMatchQueryBuilder.operator",504,0.03682057276446522
+"MOST_FIELDS",1149,0.08394213909994155
+"CROSS_FIELDS",536,0.03915838690824079
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.getNAME()",463,0.03382524839275278
+"public final java.lang.String org.elasticsearch.action.support.ToXContentToBytes.toString()",1122,0.08196960841613092
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setcutoffFrequency(java.lang.Float)",997,0.0728375219170076
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setanalyzer(java.lang.String)",3347,0.24452074810052601
+"public org.elasticsearch.index.query.QueryValidationException org.elasticsearch.index.query.AbstractQueryBuilder.validate()",9517,0.6952805376972531
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setfieldsBoosts(com.carrotsearch.hppc.ObjectFloatHashMap)",601,0.04390707188778492
+"public static final org.joda.time.format.DateTimeFormatter org.elasticsearch.common.xcontent.XContentBuilder.defaultDatePrinter",1,7.305669199298655E-5
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.getPROTOTYPE()",1474,0.10768556399766219
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.tieBreaker(float)",2453,0.17920806545879603
+"public java.lang.Float org.elasticsearch.index.query.MultiMatchQueryBuilder.getcutoffFrequency()",503,0.03674751607247224
+"public java.lang.Float org.elasticsearch.index.query.MultiMatchQueryBuilder.tieBreaker",892,0.06516656925774401
+"public java.lang.Float org.elasticsearch.index.query.MultiMatchQueryBuilder.tieBreaker",1211,0.08847165400350672
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.operator(org.elasticsearch.index.query.Operator)",22237,1.6245616598480421
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.getslop()",1099,0.08028930450029223
+"UNDERSCORE",2,1.461133839859731E-4
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.settype(org.elasticsearch.index.query.MultiMatchQueryBuilder$Type)",1498,0.10943892460549386
+"NONE",90,0.0065751022793687905
+"public org.elasticsearch.index.search.MatchQuery$Type org.elasticsearch.index.query.MultiMatchQueryBuilder$Type.matchQueryType()",2395,0.1749707773232028
+"public org.elasticsearch.common.unit.Fuzziness org.elasticsearch.index.query.MultiMatchQueryBuilder.getfuzziness()",3174,0.23188194038573934
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.field(java.lang.String)",16227,1.1854909409701928
+"public org.elasticsearch.index.query.MultiMatchQueryBuilder org.elasticsearch.index.query.MultiMatchQueryBuilder.field(java.lang.String,float)",2293,0.1675189947399182
+"public java.lang.Boolean org.elasticsearch.index.query.MultiMatchQueryBuilder.getlenient()",2982,0.21785505552308593
+"public java.lang.Boolean org.elasticsearch.index.query.MultiMatchQueryBuilder.lenient",759,0.0554500292226768
+"public java.lang.Boolean org.elasticsearch.index.query.MultiMatchQueryBuilder.lenient",701,0.051212741087083576
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.slop",2542,0.18571011104617183
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.minimumShouldMatch",1813,0.13245178258328463
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.minimumShouldMatch",846,0.061805961426066626
+"public java.lang.Integer org.elasticsearch.index.query.MultiMatchQueryBuilder.slop",561,0.04098480420806546
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setuseDisMax(java.lang.Boolean)",1222,0.08927527761542957
+"public final org.apache.lucene.search.Query org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(org.elasticsearch.index.query.QueryShardContext) throws java.io.IOException",240,0.017533606078316773
+"public java.lang.String org.elasticsearch.index.query.MultiMatchQueryBuilder.getfuzzyRewrite()",1135,0.08291934541203974
+"public void org.elasticsearch.index.query.MultiMatchQueryBuilder.setoperator(org.elasticsearch.index.query.Operator)",857,0.06260958503798948

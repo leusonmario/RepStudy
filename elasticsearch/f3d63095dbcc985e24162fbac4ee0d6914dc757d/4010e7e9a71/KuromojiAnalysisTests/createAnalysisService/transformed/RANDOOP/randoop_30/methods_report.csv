@@ -1,0 +1,628 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures org.apache.lucene.util.LuceneTestCase.replaceMaxFailureRule(org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures)",411,0.016832534709423762
+"randoop.operation.UncheckedCast@1b658b63",1,4.095507228570259E-5
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[][][][4]",1,4.095507228570259E-5
+"public static java.util.Random org.apache.lucene.util.LuceneTestCase.random()",1,4.095507228570259E-5
+"public static void org.junit.Assert.assertTrue(boolean)",2,8.191014457140517E-5
+"public static void org.junit.Assert.assertTrue(java.lang.String,boolean)",28,0.0011467420239996723
+"java.lang.String[][][6]",1,4.095507228570259E-5
+"public static void org.elasticsearch.test.ESTestCase.setProcessors()",1,4.095507228570259E-5
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests[][][5]",4,1.6382028914281035E-4
+"java.lang.String[][][2]",2,8.191014457140517E-5
+"public static org.elasticsearch.common.settings.Settings$Builder org.elasticsearch.test.ESTestCase.settings(org.elasticsearch.Version)",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertStoredFieldEquals(java.lang.String,org.apache.lucene.index.IndexableField,org.apache.lucene.index.IndexableField)",324,0.013269443420567637
+"public void org.apache.lucene.util.LuceneTestCase.setIndexWriterMaxDocs(int)",6952,0.28471966253020436
+"randoop.operation.UncheckedCast@14a474bb",1,4.095507228570259E-5
+"public java.nio.file.Path org.elasticsearch.test.ESTestCase.getDataPath(java.lang.String)",327,0.013392308637424745
+"public final org.junit.rules.TestRule org.apache.lucene.util.LuceneTestCase.ruleChain",6086,0.24925256993078593
+"randoop.operation.UncheckedCast@32f570c",1,4.095507228570259E-5
+"public static org.apache.lucene.store.BaseDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newFSDirectory(java.nio.file.Path)",1,4.095507228570259E-5
+"public static org.apache.lucene.store.BaseDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newFSDirectory(java.nio.file.Path,org.apache.lucene.store.LockFactory)",1,4.095507228570259E-5
+"public static java.util.Random org.elasticsearch.test.ESTestCase.getRandom()",1,4.095507228570259E-5
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests[0]",296,0.012122701396567966
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.SYSPROP_MONSTER",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@66b7029e",78,0.0031944956382848016
+"public static void org.junit.Assert.assertNotSame(java.lang.String,java.lang.Object,java.lang.Object)",4518,0.18503501658680427
+"public static void org.junit.Assert.assertNotSame(java.lang.Object,java.lang.Object)",2335,0.09563009378711554
+"public static void org.junit.Assert.assertNull(java.lang.Object)",282,0.011549330384568129
+"public static void org.junit.Assert.assertNull(java.lang.String,java.lang.Object)",301,0.012327476757996478
+"public static int org.apache.lucene.util.LuceneTestCase.collate(java.text.Collator,java.lang.String,java.lang.String)",158,0.006470901421141009
+"public static void org.junit.Assert.assertEquals(java.lang.String,float,float,float)",314,0.012859892697710611
+"public static void org.junit.Assert.assertEquals(java.lang.String,double,double,double)",291,0.011917926035139453
+"public static void org.junit.Assert.assertEquals(java.lang.String,long,long)",263,0.01077118401113978
+"public static void org.junit.Assert.assertEquals(double,double,double)",295,0.012081746324282262
+"public static void org.junit.Assert.assertEquals(float,float,float)",325,0.013310398492853339
+"randoop.operation.ArrayElementSet@6f57a760",1,4.095507228570259E-5
+"public static void org.junit.Assert.assertEquals(java.lang.Object[],java.lang.Object[])",712,0.02916001146742024
+"public static void org.junit.Assert.assertEquals(long,long)",231,0.009460621697997298
+"public static void org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[])",620,0.0253921448171356
+"public static void org.junit.Assert.assertEquals(java.lang.Object,java.lang.Object)",234,0.009583486914854404
+"public static void org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)",244,0.00999303763771143
+"public static void org.junit.Assert.assertEquals(double,double)",290,0.011876970962853749
+"public static void org.junit.Assert.assertEquals(java.lang.String,double,double)",301,0.012327476757996478
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][][5]",12,4.91460867428431E-4
+"randoop.operation.UncheckedCast@3af16ec8",5,2.047753614285129E-4
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomUnicodeOfCodepointLengthBetween(int,int)",218,0.008928205758283164
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][][1]",3,1.2286521685710776E-4
+"randoop.operation.UncheckedCast@67cc2bf1",1,4.095507228570259E-5
+"public static boolean org.elasticsearch.test.ESTestCase.frequently()",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.setUp() throws java.lang.Exception",6584,0.2696481959290658
+"randoop.operation.UncheckedCast@2b444705",43,0.001761068108285211
+"public static boolean org.apache.lucene.util.LuceneTestCase.usually(java.util.Random)",1,4.095507228570259E-5
+"public static boolean org.apache.lucene.util.LuceneTestCase.usually()",1,4.095507228570259E-5
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][][0]",18,7.371913011426465E-4
+"randoop.operation.ArrayElementSet@33f78bb1",3,1.2286521685710776E-4
+"public static void org.apache.lucene.util.LuceneTestCase.setupSpins()",1,4.095507228570259E-5
+"int[2]",8,3.276405782856207E-4
+"int[3]",6,2.457304337142155E-4
+"int[4]",77,0.003153540565999099
+"int[5]",7,2.866855059999181E-4
+"int[0]",15,6.143260842855387E-4
+"public java.lang.String org.apache.lucene.util.LuceneTestCase.getTestName()",5273,0.21595609616250971
+"int[1]",5169,0.21169676864479667
+"byte[][][1]",5,2.047753614285129E-4
+"org.junit.Assert[1]",1,4.095507228570259E-5
+"int[6]",9,3.6859565057132326E-4
+"byte[][][2]",1,4.095507228570259E-5
+"byte[][][3]",3,1.2286521685710776E-4
+"byte[][][6]",4,1.6382028914281035E-4
+"public static boolean org.elasticsearch.test.ESTestCase.assertionsEnabled()",1,4.095507228570259E-5
+"public static final boolean org.apache.lucene.util.LuceneTestCase.assertsAreEnabled",1,4.095507228570259E-5
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.DEFAULT_LINE_DOCS_FILE",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@5fc573a0",11,4.5050579514272843E-4
+"public static org.apache.lucene.store.MockDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newMockDirectory(java.util.Random)",1,4.095507228570259E-5
+"public static org.apache.lucene.store.MockDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newMockDirectory(java.util.Random,org.apache.lucene.store.LockFactory)",1,4.095507228570259E-5
+"public static org.apache.lucene.store.MockDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newMockDirectory()",1,4.095507228570259E-5
+"public static java.util.TimeZone org.apache.lucene.util.LuceneTestCase.randomTimeZone(java.util.Random)",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertTermsEnumEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.TermsEnum,org.apache.lucene.index.TermsEnum,boolean) throws java.io.IOException",321,0.01314657820371053
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.TEST_POSTINGSFORMAT",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertDocsSkippingEquals(java.lang.String,org.apache.lucene.index.IndexReader,int,org.apache.lucene.index.PostingsEnum,org.apache.lucene.index.PostingsEnum,boolean) throws java.io.IOException",4066,0.1665233239136667
+"java.lang.reflect.GenericDeclaration[][][3]",3,1.2286521685710776E-4
+"public static void org.junit.Assert.assertNotEquals(java.lang.String,long,long)",312,0.012777982553139207
+"public static void org.junit.Assert.assertNotEquals(long,long)",254,0.010402588360568456
+"public static void org.junit.Assert.assertNotEquals(java.lang.String,java.lang.Object,java.lang.Object)",1483,0.06073637219969693
+"public static void org.junit.Assert.assertNotEquals(java.lang.String,double,double,double)",310,0.0126960724085678
+"public static void org.junit.Assert.assertNotEquals(java.lang.Object,java.lang.Object)",3338,0.13670803128967524
+"public static void org.junit.Assert.assertNotEquals(double,double,double)",318,0.013023712986853422
+"public final void org.elasticsearch.test.ESTestCase.ensureCleanedUp() throws java.lang.Exception",14247,0.5834869148544047
+"public void org.apache.lucene.util.LuceneTestCase.assertPositionsSkippingEquals(java.lang.String,org.apache.lucene.index.IndexReader,int,org.apache.lucene.index.PostingsEnum,org.apache.lucene.index.PostingsEnum) throws java.io.IOException",10699,0.4381783183847319
+"public static org.apache.lucene.index.SegmentReader org.apache.lucene.util.LuceneTestCase.getOnlySegmentReader(org.apache.lucene.index.DirectoryReader)",1,4.095507228570259E-5
+"public static void org.junit.Assert.assertNotNull(java.lang.Object)",1177,0.048204120080271945
+"public static void org.junit.Assert.assertNotNull(java.lang.String,java.lang.Object)",3078,0.12605971249539255
+"public static byte org.elasticsearch.test.ESTestCase.randomByte()",1,4.095507228570259E-5
+"long[][][][2]",1,4.095507228570259E-5
+"long[][][][3]",3,1.2286521685710776E-4
+"public void org.elasticsearch.test.ESTestCase.assertPathHasBeenCleared(java.lang.String) throws java.lang.Exception",10804,0.44247860097473074
+"public void org.elasticsearch.test.ESTestCase.assertPathHasBeenCleared(java.nio.file.Path) throws java.lang.Exception",295,0.012081746324282262
+"public static final boolean org.apache.lucene.util.LuceneTestCase.TEST_AWAITSFIX",1,4.095507228570259E-5
+"long[][][][6]",1,4.095507228570259E-5
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.SYSPROP_MAXFAILURES",1,4.095507228570259E-5
+"long[][][][4]",12,4.91460867428431E-4
+"long[][][][5]",2,8.191014457140517E-5
+"public static void org.apache.lucene.util.LuceneTestCase.overrideDefaultQueryCache()",1,4.095507228570259E-5
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][][][][6]",1,4.095507228570259E-5
+"int[][][][][][0]",96,0.003931686939427448
+"int[][][][][][1]",3,1.2286521685710776E-4
+"int[][][][][][2]",20,8.191014457140516E-4
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[][][2]",1,4.095507228570259E-5
+"int[][][][][][3]",1,4.095507228570259E-5
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[][][3]",1,4.095507228570259E-5
+"int[][][][][][4]",1,4.095507228570259E-5
+"public static final boolean org.apache.lucene.util.LuceneTestCase.TEST_SLOW",1,4.095507228570259E-5
+"int[][][][][][5]",7,2.866855059999181E-4
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[][][6]",1,4.095507228570259E-5
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.TEST_CODEC",1,4.095507228570259E-5
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.testReadingFormFilterFactory() throws java.io.IOException",293,0.011999836179710857
+"public static void org.elasticsearch.test.ESTestCase.assertBusy(java.lang.Runnable,long,java.util.concurrent.TimeUnit) throws java.lang.Exception",27,0.0011057869517139699
+"public static void org.elasticsearch.test.ESTestCase.assertBusy(java.lang.Runnable) throws java.lang.Exception",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@44d2946c",1,4.095507228570259E-5
+"java.util.Locale[][][0]",10,4.095507228570258E-4
+"randoop.operation.UncheckedCast@e556e92",36,0.001474382602285293
+"public static int org.elasticsearch.test.ESTestCase.scaledRandomIntBetween(int,int)",207,0.008477699963140435
+"public static final boolean org.apache.lucene.util.LuceneTestCase.TEST_WEEKLY",1,4.095507228570259E-5
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.JENKINS_LARGE_LINE_DOCS_FILE",1,4.095507228570259E-5
+"org.junit.rules.RuleChain[0]",138,0.005651799975426957
+"randoop.operation.ArrayElementSet@3b935b5d",3,1.2286521685710776E-4
+"public static org.apache.lucene.index.AlcoholicMergePolicy org.apache.lucene.util.LuceneTestCase.newAlcoholicMergePolicy(java.util.Random,java.util.TimeZone)",1,4.095507228570259E-5
+"public static org.apache.lucene.index.AlcoholicMergePolicy org.apache.lucene.util.LuceneTestCase.newAlcoholicMergePolicy()",1,4.095507228570259E-5
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[][][0]",4,1.6382028914281035E-4
+"org.junit.rules.RuleChain[2]",58,0.00237539419257075
+"randoop.operation.UncheckedCast@4e2ceafe",1,4.095507228570259E-5
+"org.junit.rules.RuleChain[1]",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@5ce8943c",1,4.095507228570259E-5
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.SYSPROP_FAILFAST",1,4.095507228570259E-5
+"randoop.operation.ArrayElementSet@22ea2f5",5,2.047753614285129E-4
+"public static void org.apache.lucene.util.LuceneTestCase.restoreCPUCoreCount()",1,4.095507228570259E-5
+"public static org.apache.lucene.index.LogMergePolicy org.apache.lucene.util.LuceneTestCase.newLogMergePolicy(java.util.Random)",1,4.095507228570259E-5
+"public static org.apache.lucene.index.MergePolicy org.apache.lucene.util.LuceneTestCase.newLogMergePolicy(boolean,int)",44,0.0018020231805709137
+"public static org.apache.lucene.index.MergePolicy org.apache.lucene.util.LuceneTestCase.newLogMergePolicy(int)",22,9.010115902854569E-4
+"public static org.apache.lucene.index.LogMergePolicy org.apache.lucene.util.LuceneTestCase.newLogMergePolicy()",1,4.095507228570259E-5
+"public static org.apache.lucene.index.MergePolicy org.apache.lucene.util.LuceneTestCase.newLogMergePolicy(boolean)",2,8.191014457140517E-5
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests[][6]",1,4.095507228570259E-5
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests[][5]",46,0.0018839333251423188
+"public static int org.apache.lucene.util.LuceneTestCase.atLeast(int)",22,9.010115902854569E-4
+"public static int org.apache.lucene.util.LuceneTestCase.atLeast(java.util.Random,int)",22,9.010115902854569E-4
+"public static boolean org.elasticsearch.test.ESTestCase.randomBoolean()",1,4.095507228570259E-5
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomUnicodeOfLengthBetween(int,int)",222,0.009092026047425974
+"public static java.nio.file.Path org.apache.lucene.util.LuceneTestCase.createTempFile() throws java.io.IOException",1,4.095507228570259E-5
+"public static org.apache.lucene.store.BaseDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newDirectory(org.apache.lucene.store.Directory) throws java.io.IOException",1,4.095507228570259E-5
+"public static org.apache.lucene.store.BaseDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newDirectory(java.util.Random)",1,4.095507228570259E-5
+"public static java.nio.file.Path org.apache.lucene.util.LuceneTestCase.createTempFile(java.lang.String,java.lang.String) throws java.io.IOException",152,0.006225170987426793
+"public static org.apache.lucene.store.BaseDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newDirectory()",1,4.095507228570259E-5
+"public static org.apache.lucene.store.BaseDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newDirectory(java.util.Random,org.apache.lucene.store.Directory) throws java.io.IOException",1,4.095507228570259E-5
+"public static org.apache.lucene.store.BaseDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newDirectory(java.util.Random,org.apache.lucene.store.LockFactory)",1,4.095507228570259E-5
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.testJapaneseStopFilterFactory() throws java.io.IOException",285,0.011672195601425236
+"double[0]",6,2.457304337142155E-4
+"double[1]",8,3.276405782856207E-4
+"double[2]",175,0.007167137649997953
+"double[3]",35,0.0014334275299995904
+"double[4]",1882,0.07707744604169227
+"double[5]",88,0.0036040463611418275
+"java.util.Locale[][][4]",28,0.0011467420239996723
+"double[6]",21,8.600565179997543E-4
+"java.util.Locale[][][1]",3,1.2286521685710776E-4
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[0]",7,2.866855059999181E-4
+"float[][][][4]",6,2.457304337142155E-4
+"public static org.apache.lucene.index.MergePolicy org.apache.lucene.util.LuceneTestCase.newMergePolicy()",1,4.095507228570259E-5
+"public static org.apache.lucene.index.MergePolicy org.apache.lucene.util.LuceneTestCase.newMergePolicy(java.util.Random)",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@329c4799",1,4.095507228570259E-5
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[4]",64,0.0026211246262849656
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[1]",2,8.191014457140517E-5
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[2]",2,8.191014457140517E-5
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[5]",2,8.191014457140517E-5
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[6]",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertTermVectorsEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.IndexReader) throws java.io.IOException",323,0.013228488348281935
+"public static int org.elasticsearch.test.ESTestCase.iterations(int,int)",230,0.009419666625711594
+"randoop.operation.UncheckedCast@23f9b6e1",1,4.095507228570259E-5
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests[][2]",1,4.095507228570259E-5
+"public static boolean org.elasticsearch.test.ESTestCase.terminate(org.elasticsearch.threadpool.ThreadPool) throws java.lang.InterruptedException",1,4.095507228570259E-5
+"public static boolean org.elasticsearch.test.ESTestCase.terminate(java.util.concurrent.ExecutorService[]) throws java.lang.InterruptedException",3494,0.14309702256624482
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests[][3]",20,8.191014457140516E-4
+"double[][][][0]",26,0.0010648318794282672
+"double[][][][1]",11,4.5050579514272843E-4
+"public static void org.elasticsearch.index.analysis.KuromojiAnalysisTests.assertSimpleTSOutput(org.apache.lucene.analysis.TokenStream,java.lang.String[]) throws java.io.IOException",48,0.001965843469713724
+"public static boolean org.apache.lucene.util.LuceneTestCase.rarely(java.util.Random)",1,4.095507228570259E-5
+"public static boolean org.apache.lucene.util.LuceneTestCase.rarely()",1,4.095507228570259E-5
+"double[][][][4]",12,4.91460867428431E-4
+"public static final org.apache.lucene.search.QueryCachingPolicy org.apache.lucene.util.LuceneTestCase.MAYBE_CACHE_POLICY",79,0.0032354507105705043
+"double[][][][3]",2,8.191014457140517E-5
+"public final void org.elasticsearch.test.ESTestCase.resetCheckIndexStatus() throws java.lang.Exception",9852,0.40348937215874187
+"randoop.operation.ArrayElementSet@7774725d",27,0.0011057869517139699
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomRealisticUnicodeOfCodepointLengthBetween(int,int)",227,0.009296801408854487
+"public static void org.elasticsearch.test.ESTestCase.restoreFileSystem() throws java.lang.Exception",1,4.095507228570259E-5
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.testDefaultsKuromojiAnalysis() throws java.io.IOException",295,0.012081746324282262
+"java.util.concurrent.ExecutorService[][][][][2]",16,6.552811565712414E-4
+"java.lang.reflect.GenericDeclaration[][0]",460,0.018839333251423188
+"java.util.concurrent.ExecutorService[][][][][0]",5,2.047753614285129E-4
+"java.util.concurrent.ExecutorService[][][][][5]",3,1.2286521685710776E-4
+"float[][][][0]",10,4.095507228570258E-4
+"public static long org.elasticsearch.test.ESTestCase.randomLong()",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@6fbddef5",1,4.095507228570259E-5
+"public static java.util.List org.elasticsearch.test.ESTestCase.randomSubsetOf(int,java.lang.Object[])",3203,0.13117909653110538
+"java.util.ArrayList()",1,4.095507228570259E-5
+"java.util.List[][]",1,4.095507228570259E-5
+"java.util.List[]",83,0.0033992709997133145
+"public final native java.lang.Class java.lang.Object.getClass()",996,0.04079125199655977
+"java.util.Locale[][6]",76,0.0031125854937133963
+"public static org.apache.lucene.index.TieredMergePolicy org.apache.lucene.util.LuceneTestCase.newTieredMergePolicy(java.util.Random)",1,4.095507228570259E-5
+"public static org.apache.lucene.index.TieredMergePolicy org.apache.lucene.util.LuceneTestCase.newTieredMergePolicy()",1,4.095507228570259E-5
+"public static double org.elasticsearch.test.ESTestCase.randomDouble()",1,4.095507228570259E-5
+"java.util.Locale[][5]",4,1.6382028914281035E-4
+"java.util.Locale[][4]",112,0.004586968095998689
+"java.util.Locale[][3]",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertDocsAndPositionsEnumEquals(java.lang.String,org.apache.lucene.index.PostingsEnum,org.apache.lucene.index.PostingsEnum) throws java.io.IOException",285,0.011672195601425236
+"public static int org.elasticsearch.test.ESTestCase.between(int,int)",219,0.008969160830568866
+"public static org.apache.lucene.index.IndexReader org.apache.lucene.util.LuceneTestCase.maybeWrapReader(org.apache.lucene.index.IndexReader) throws java.io.IOException",1,4.095507228570259E-5
+"public static void org.apache.lucene.util.LuceneTestCase.assumeNoException(java.lang.String,java.lang.Exception)",14,5.733710119998362E-4
+"public void org.apache.lucene.util.LuceneTestCase.assertDeletedDocsEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.IndexReader) throws java.io.IOException",326,0.013351353565139043
+"public final void org.elasticsearch.test.ESTestCase.ensureCheckIndexPassed() throws java.lang.Exception",3701,0.15157472252938525
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomAsciiOfLength(int)",22,9.010115902854569E-4
+"randoop.operation.ArrayElementSet@52c22340",5,2.047753614285129E-4
+"float[5]",55,0.002252528975713642
+"float[6]",1272,0.05209485194741369
+"float[3]",11,4.5050579514272843E-4
+"randoop.operation.ArrayElementSet@68aba52c",4,1.6382028914281035E-4
+"float[4]",18,7.371913011426465E-4
+"public static void org.apache.lucene.util.LuceneTestCase.dumpArray(java.lang.String,java.lang.Object[],java.io.PrintStream)",294,0.01204079125199656
+"public static void org.junit.Assert.assertArrayEquals(java.lang.Object[],java.lang.Object[])",1315,0.0538559200556989
+"public static void org.junit.Assert.assertArrayEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) throws org.junit.internal.ArrayComparisonFailure",1030,0.04218372445427366
+"public static void org.junit.Assert.assertArrayEquals(short[],short[])",639,0.026170291190563952
+"public static void org.junit.Assert.assertArrayEquals(java.lang.String,char[],char[]) throws org.junit.internal.ArrayComparisonFailure",813,0.0332964737682762
+"public static void org.junit.Assert.assertArrayEquals(java.lang.String,short[],short[]) throws org.junit.internal.ArrayComparisonFailure",2659,0.10889953720768317
+"public static void org.junit.Assert.assertArrayEquals(char[],char[])",3817,0.15632551091452676
+"public static void org.junit.Assert.assertArrayEquals(java.lang.String,double[],double[],double) throws org.junit.internal.ArrayComparisonFailure",1439,0.05893434901912602
+"public static void org.junit.Assert.assertArrayEquals(double[],double[],double)",288,0.011795060818282344
+"public static void org.junit.Assert.assertArrayEquals(java.lang.String,float[],float[],float) throws org.junit.internal.ArrayComparisonFailure",1027,0.04206085923741655
+"public static void org.junit.Assert.assertArrayEquals(java.lang.String,byte[],byte[]) throws org.junit.internal.ArrayComparisonFailure",2058,0.08428553876397592
+"java.lang.String[4]",12,4.91460867428431E-4
+"public static void org.junit.Assert.assertArrayEquals(int[],int[])",2908,0.11909735020682312
+"public static void org.junit.Assert.assertArrayEquals(java.lang.String,int[],int[]) throws org.junit.internal.ArrayComparisonFailure",1805,0.07392390547569316
+"public static void org.junit.Assert.assertArrayEquals(java.lang.String,long[],long[]) throws org.junit.internal.ArrayComparisonFailure",3030,0.12409386902567883
+"public static void org.junit.Assert.assertArrayEquals(byte[],byte[])",1161,0.0475488389237007
+"public static void org.junit.Assert.assertArrayEquals(long[],long[])",450,0.018429782528566162
+"public static void org.junit.Assert.assertArrayEquals(float[],float[],float)",159,0.006511856493426711
+"org.elasticsearch.test.ESTestCase[3]",28,0.0011467420239996723
+"java.lang.String[5]",10,4.095507228570258E-4
+"java.lang.String[6]",1760,0.07208092722283654
+"java.lang.String[0]",106,0.004341237662284474
+"java.lang.String[1]",87,0.003563091288856125
+"org.elasticsearch.test.ESTestCase[4]",1,4.095507228570259E-5
+"java.lang.String[2]",4,1.6382028914281035E-4
+"java.lang.String[3]",94,0.003849776794856043
+"float[1]",19,7.781463734283491E-4
+"float[2]",15,6.143260842855387E-4
+"float[0]",80,0.0032764057828562065
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.testIterationMarkCharFilter() throws java.io.IOException",279,0.01142646516771102
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests()",23777,0.9737887537371503
+"public org.elasticsearch.env.NodeEnvironment org.elasticsearch.test.ESTestCase.newNodeEnvironment(org.elasticsearch.common.settings.Settings) throws java.io.IOException",284,0.011631240529139534
+"public org.elasticsearch.env.NodeEnvironment org.elasticsearch.test.ESTestCase.newNodeEnvironment() throws java.io.IOException",288,0.011795060818282344
+"public void org.apache.lucene.util.LuceneTestCase.restoreIndexWriterMaxDocs()",6326,0.25908178727935455
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.assertCharFilterEquals(java.io.Reader,java.lang.String) throws java.io.IOException",320,0.013105623131424826
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",1,4.095507228570259E-5
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomRealisticUnicodeOfLengthBetween(int,int)",217,0.008887250685997461
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.SYSPROP_NIGHTLY",1,4.095507228570259E-5
+"long[][][][][1]",2,8.191014457140517E-5
+"java.lang.CharSequence[3]",1,4.095507228570259E-5
+"java.lang.CharSequence[4]",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@e8ad28",4,1.6382028914281035E-4
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.TEST_LINE_DOCS_FILE",1,4.095507228570259E-5
+"public static boolean org.apache.lucene.util.LuceneTestCase.slowFileExists(org.apache.lucene.store.Directory,java.lang.String) throws java.io.IOException",14,5.733710119998362E-4
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomRealisticUnicodeOfLength(int)",22,9.010115902854569E-4
+"public static float org.elasticsearch.test.ESTestCase.randomFloat()",1,4.095507228570259E-5
+"public static org.apache.lucene.store.MockDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newMockFSDirectory(java.nio.file.Path)",1,4.095507228570259E-5
+"public static org.apache.lucene.store.MockDirectoryWrapper org.apache.lucene.util.LuceneTestCase.newMockFSDirectory(java.nio.file.Path,org.apache.lucene.store.LockFactory)",1,4.095507228570259E-5
+"java.util.Locale[][][][3]",2,8.191014457140517E-5
+"java.util.Locale[][][][4]",1,4.095507228570259E-5
+"randoop.operation.ArrayElementSet@77681aa6",3,1.2286521685710776E-4
+"randoop.operation.UncheckedCast@3ac78b16",1,4.095507228570259E-5
+"long[][0]",30,0.0012286521685710775
+"randoop.operation.UncheckedCast@45c16c1a",3,1.2286521685710776E-4
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.testKatakanaStemFilter() throws java.io.IOException",288,0.011795060818282344
+"public static final boolean org.apache.lucene.util.LuceneTestCase.TEST_NIGHTLY",1,4.095507228570259E-5
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.testKuromojiUserDict() throws java.io.IOException",293,0.011999836179710857
+"long[][2]",70,0.0028668550599991807
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.TEST_DIRECTORY",1,4.095507228570259E-5
+"long[][3]",12,4.91460867428431E-4
+"long[][5]",25,0.0010238768071425645
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.SYSPROP_WEEKLY",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@19777b76",1,4.095507228570259E-5
+"org.junit.rules.TestRule[][][0]",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@408d9a8b",2,8.191014457140517E-5
+"org.junit.rules.TestRule[][][2]",1,4.095507228570259E-5
+"public static java.lang.Class org.apache.lucene.util.LuceneTestCase.getTestClass()",1,4.095507228570259E-5
+"public static void org.apache.lucene.util.LuceneTestCase.resetDefaultQueryCache()",1,4.095507228570259E-5
+"randoop.operation.ArrayElementSet@2aeb48e4",2,8.191014457140517E-5
+"randoop.operation.UncheckedCast@34137a03",5,2.047753614285129E-4
+"randoop.operation.UncheckedCast@33ff21ee",1,4.095507228570259E-5
+"byte[0]",3164,0.129581848711963
+"public java.lang.String org.elasticsearch.index.analysis.KuromojiAnalysisTests.readFully(java.io.Reader) throws java.io.IOException",295,0.012081746324282262
+"public void org.apache.lucene.util.LuceneTestCase.assertReaderEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.IndexReader) throws java.io.IOException",293,0.011999836179710857
+"public void org.apache.lucene.util.LuceneTestCase.assertStoredFieldsEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.IndexReader) throws java.io.IOException",325,0.013310398492853339
+"randoop.operation.UncheckedCast@42109408",1,4.095507228570259E-5
+"public static final boolean org.apache.lucene.util.LuceneTestCase.LEAVE_TEMPORARY",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@2bbf999c",1,4.095507228570259E-5
+"public static int org.elasticsearch.test.ESTestCase.randomIntBetween(int,int)",227,0.009296801408854487
+"public static void org.junit.Assert.fail()",1,4.095507228570259E-5
+"public static void org.junit.Assert.fail(java.lang.String)",14,5.733710119998362E-4
+"randoop.operation.UncheckedCast@725d306e",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@695aab67",1,4.095507228570259E-5
+"org.junit.rules.RuleChain[][1]",104,0.004259327517713069
+"org.junit.rules.RuleChain[][2]",1,4.095507228570259E-5
+"public static final int org.apache.lucene.util.LuceneTestCase.RANDOM_MULTIPLIER",1,4.095507228570259E-5
+"org.junit.rules.RuleChain[][6]",5,2.047753614285129E-4
+"long[][][0]",16,6.552811565712414E-4
+"long[][][1]",52,0.0021296637588565344
+"randoop.operation.UncheckedCast@f8a95c3",1,4.095507228570259E-5
+"short[0]",16,6.552811565712414E-4
+"long[][][2]",11,4.5050579514272843E-4
+"short[1]",3415,0.13986157185567433
+"long[][][3]",1,4.095507228570259E-5
+"short[2]",18,7.371913011426465E-4
+"short[3]",21,8.600565179997543E-4
+"long[][][5]",7,2.866855059999181E-4
+"long[][][6]",2,8.191014457140517E-5
+"short[4]",13,5.324159397141336E-4
+"short[5]",8,3.276405782856207E-4
+"java.util.Locale[5]",2961,0.12126796903796536
+"java.util.Locale[3]",432,0.017692591227423518
+"java.util.Locale[4]",5,2.047753614285129E-4
+"public final void org.elasticsearch.test.ESTestCase.ensureAllSearchContextsReleased() throws java.lang.Exception",2990,0.12245566613425073
+"java.util.Locale[1]",448,0.018347872383994757
+"randoop.operation.ArrayElementSet@185f2609",2,8.191014457140517E-5
+"java.util.Locale[0]",21,8.600565179997543E-4
+"randoop.operation.UncheckedCast@31109349",64,0.0026211246262849656
+"java.lang.String[][2]",1,4.095507228570259E-5
+"java.lang.String[][3]",2,8.191014457140517E-5
+"java.util.concurrent.ExecutorService[][][][][][5]",1,4.095507228570259E-5
+"public static final boolean org.apache.lucene.util.LuceneTestCase.VERBOSE",1,4.095507228570259E-5
+"java.lang.String[][4]",26,0.0010648318794282672
+"randoop.operation.ArrayElementSet@4736f154",1,4.095507228570259E-5
+"java.lang.String[][5]",1,4.095507228570259E-5
+"public static org.apache.lucene.index.IndexReader org.apache.lucene.util.LuceneTestCase.wrapReader(org.apache.lucene.index.IndexReader) throws java.io.IOException",1,4.095507228570259E-5
+"java.lang.String[][0]",2,8.191014457140517E-5
+"java.lang.String[][1]",7,2.866855059999181E-4
+"byte[5]",104,0.004259327517713069
+"byte[6]",67,0.002743989843142073
+"byte[1]",80,0.0032764057828562065
+"byte[2]",92,0.0037678666502846377
+"byte[3]",71,0.0029078101322848834
+"java.lang.reflect.GenericDeclaration[0]",289,0.011836015890568046
+"byte[4]",89,0.00364500143342753
+"public void org.apache.lucene.util.LuceneTestCase.assertTermsStatisticsEquals(java.lang.String,org.apache.lucene.index.Terms,org.apache.lucene.index.Terms) throws java.io.IOException",278,0.011385510095425318
+"short[6]",23,9.419666625711594E-4
+"org.apache.lucene.search.QueryCachingPolicy[][5]",1,4.095507228570259E-5
+"randoop.operation.ArrayElementSet@3a8cc8fe",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.tearDown() throws java.lang.Exception",5759,0.23586026129336118
+"org.apache.lucene.search.QueryCachingPolicy[][1]",3,1.2286521685710776E-4
+"java.util.Collection[]",6,2.457304337142155E-4
+"java.lang.reflect.Type[][][0]",8,3.276405782856207E-4
+"java.lang.reflect.Type[][][2]",3,1.2286521685710776E-4
+"public static final org.apache.lucene.store.MockDirectoryWrapper$Throttling org.apache.lucene.util.LuceneTestCase.TEST_THROTTLING",290,0.011876970962853749
+"public static java.util.Locale org.apache.lucene.util.LuceneTestCase.localeForName(java.lang.String)",17183,0.7037310070852275
+"public void org.apache.lucene.util.LuceneTestCase.assertDocValuesEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.IndexReader) throws java.io.IOException",326,0.013351353565139043
+"public void org.apache.lucene.util.LuceneTestCase.assertDocValuesEquals(java.lang.String,int,org.apache.lucene.index.NumericDocValues,org.apache.lucene.index.NumericDocValues) throws java.io.IOException",312,0.012777982553139207
+"java.lang.Class[]",20,8.191014457140516E-4
+"java.lang.Class[][]",12,4.91460867428431E-4
+"java.lang.Class[][][]",2,8.191014457140517E-5
+"org.junit.rules.TestRule[][2]",2,8.191014457140517E-5
+"public static void org.junit.Assert.assertFalse(java.lang.String,boolean)",28,0.0011467420239996723
+"public static void org.junit.Assert.assertFalse(boolean)",2,8.191014457140517E-5
+"org.junit.rules.TestRule[][0]",9,3.6859565057132326E-4
+"java.lang.String[][6]",2,8.191014457140517E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertTermsEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.Terms,org.apache.lucene.index.Terms,boolean) throws java.io.IOException",5065,0.2074374411270836
+"randoop.operation.UncheckedCast@70d0824e",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertTermStatsEquals(java.lang.String,org.apache.lucene.index.TermsEnum,org.apache.lucene.index.TermsEnum) throws java.io.IOException",287,0.011754105745996642
+"randoop.operation.ArrayElementSet@6f4969eb",3,1.2286521685710776E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[5]",5,2.047753614285129E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[6]",15,6.143260842855387E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[3]",4,1.6382028914281035E-4
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.testBaseFormFilterFactory() throws java.io.IOException",317,0.01298275791456772
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[4]",6,2.457304337142155E-4
+"byte[][][][1]",5,2.047753614285129E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[1]",136,0.005569889830855552
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[0]",79,0.0032354507105705043
+"public void org.apache.lucene.util.LuceneTestCase.assertReaderStatisticsEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.IndexReader) throws java.io.IOException",329,0.01347421878199615
+"public static org.apache.lucene.search.IndexSearcher org.apache.lucene.util.LuceneTestCase.newSearcher(org.apache.lucene.index.IndexReader,boolean,boolean)",4,1.6382028914281035E-4
+"public static org.apache.lucene.search.IndexSearcher org.apache.lucene.util.LuceneTestCase.newSearcher(org.apache.lucene.index.IndexReader,boolean)",2,8.191014457140517E-5
+"public static org.apache.lucene.search.IndexSearcher org.apache.lucene.util.LuceneTestCase.newSearcher(org.apache.lucene.index.IndexReader)",1,4.095507228570259E-5
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomUnicodeOfLength(int)",22,9.010115902854569E-4
+"public static void org.apache.lucene.util.LuceneTestCase.maybeChangeLiveIndexWriterConfig(java.util.Random,org.apache.lucene.index.LiveIndexWriterConfig)",1,4.095507228570259E-5
+"public static org.apache.lucene.index.IndexWriterConfig org.apache.lucene.util.LuceneTestCase.newIndexWriterConfig(java.util.Random,org.apache.lucene.analysis.Analyzer)",1,4.095507228570259E-5
+"public static org.apache.lucene.index.IndexWriterConfig org.apache.lucene.util.LuceneTestCase.newIndexWriterConfig(org.apache.lucene.analysis.Analyzer)",1,4.095507228570259E-5
+"public static org.apache.lucene.index.IndexWriterConfig org.apache.lucene.util.LuceneTestCase.newIndexWriterConfig()",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@702bd69f",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@32645cd2",1,4.095507228570259E-5
+"float[][][][][2]",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertFieldInfosEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.IndexReader) throws java.io.IOException",304,0.012450341974853585
+"public static void org.elasticsearch.test.ESTestCase.setFileSystem() throws java.lang.Exception",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertFieldStatisticsEquals(java.lang.String,org.apache.lucene.index.Fields,org.apache.lucene.index.Fields) throws java.io.IOException",304,0.012450341974853585
+"org.junit.rules.TestRule[3]",41,0.001679157963713806
+"org.junit.rules.TestRule[4]",1,4.095507228570259E-5
+"char[6]",31,0.0012696072408567801
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.SYSPROP_AWAITSFIX",1,4.095507228570259E-5
+"public static void org.apache.lucene.util.LuceneTestCase.setupCPUCoreCount()",1,4.095507228570259E-5
+"char[5]",39,0.0015972478191424008
+"org.junit.rules.TestRule[2]",9,3.6859565057132326E-4
+"char[4]",59,0.0024163492648564527
+"org.junit.rules.TestRule[0]",4,1.6382028914281035E-4
+"randoop.operation.UncheckedCast@38b9ee7e",1,4.095507228570259E-5
+"long[6]",20,8.191014457140516E-4
+"long[5]",16,6.552811565712414E-4
+"long[4]",179,0.0073309579391407625
+"randoop.operation.ArrayElementSet@2a41948b",2,8.191014457140517E-5
+"long[3]",11,4.5050579514272843E-4
+"double[][1]",7,2.866855059999181E-4
+"long[2]",71,0.0029078101322848834
+"long[1]",3709,0.15190236310767088
+"double[][2]",24,9.82921734856862E-4
+"long[0]",4,1.6382028914281035E-4
+"double[][0]",141,0.0057746651922840645
+"double[][6]",5,2.047753614285129E-4
+"public static short org.elasticsearch.test.ESTestCase.randomShort()",1,4.095507228570259E-5
+"double[][3]",60,0.002457304337142155
+"double[][4]",13,5.324159397141336E-4
+"public static java.util.Locale org.apache.lucene.util.LuceneTestCase.randomLocale(java.util.Random)",1,4.095507228570259E-5
+"randoop.operation.ArrayElementSet@2d7687a1",33,0.0013515173854281852
+"java.lang.Object[0]",5,2.047753614285129E-4
+"java.lang.Object[1]",4,1.6382028914281035E-4
+"java.lang.Object[3]",2,8.191014457140517E-5
+"public static java.nio.file.Path org.apache.lucene.util.LuceneTestCase.getBaseTempDirForTestClass()",1,4.095507228570259E-5
+"java.lang.Object[4]",2,8.191014457140517E-5
+"public static void org.elasticsearch.test.ESTestCase.setContentType() throws java.lang.Exception",1,4.095507228570259E-5
+"java.lang.Object[6]",4,1.6382028914281035E-4
+"public static void org.elasticsearch.test.ESTestCase.setDefaultExceptionHandler() throws java.lang.Exception",1,4.095507228570259E-5
+"double[][][][][5]",4,1.6382028914281035E-4
+"double[][][][][3]",2,8.191014457140517E-5
+"int[][][][][][][][4]",2,8.191014457140517E-5
+"double[][][][][2]",4,1.6382028914281035E-4
+"double[][][][][1]",1,4.095507228570259E-5
+"public static boolean org.elasticsearch.test.ESTestCase.checkIndexFailed",2,8.191014457140517E-5
+"public static boolean org.elasticsearch.test.ESTestCase.checkIndexFailed",1,4.095507228570259E-5
+"int[][][][][][][][1]",2,8.191014457140517E-5
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomUnicodeOfCodepointLength(int)",22,9.010115902854569E-4
+"public static void org.junit.Assert.assertSame(java.lang.Object,java.lang.Object)",226,0.009255846336568785
+"int[][][][3]",2,8.191014457140517E-5
+"public static void org.junit.Assert.assertSame(java.lang.String,java.lang.Object,java.lang.Object)",241,0.009870172420854324
+"int[][][][2]",15,6.143260842855387E-4
+"java.util.concurrent.ExecutorService[][][][0]",25,0.0010238768071425645
+"int[][][][0]",325,0.013310398492853339
+"java.lang.Object()",19,7.781463734283491E-4
+"java.util.concurrent.ExecutorService[][][][1]",32,0.0013105623131424828
+"double[][][][][][0]",5,2.047753614285129E-4
+"java.util.concurrent.ExecutorService[][][][5]",16,6.552811565712414E-4
+"int[][][2]",1,4.095507228570259E-5
+"int[][][1]",14,5.733710119998362E-4
+"public void org.elasticsearch.index.analysis.KuromojiAnalysisTests.testKuromojiEmptyUserDict()",290,0.011876970962853749
+"int[][][4]",45,0.0018429782528566164
+"int[][][3]",6,2.457304337142155E-4
+"java.util.concurrent.ExecutorService[1]",125,0.005119384035712823
+"randoop.operation.UncheckedCast@6644a550",1,4.095507228570259E-5
+"java.util.concurrent.ExecutorService[0]",1086,0.044477208502273005
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.SYSPROP_BADAPPLES",1,4.095507228570259E-5
+"public static org.junit.rules.TestRule org.apache.lucene.util.LuceneTestCase.classRules",2535,0.10382110824425606
+"public static org.junit.rules.TestRule org.apache.lucene.util.LuceneTestCase.classRules",24,9.82921734856862E-4
+"randoop.operation.UncheckedCast@61353614",9,3.6859565057132326E-4
+"public static java.nio.file.Path org.apache.lucene.util.LuceneTestCase.createTempDir()",1,4.095507228570259E-5
+"public static java.nio.file.Path org.apache.lucene.util.LuceneTestCase.createTempDir(java.lang.String)",14,5.733710119998362E-4
+"java.lang.reflect.AnnotatedElement[5]",101,0.004136462300855961
+"randoop.operation.ArrayElementSet@463f6d13",64,0.0026211246262849656
+"public static synchronized org.apache.lucene.document.Field org.apache.lucene.util.LuceneTestCase.newField(java.util.Random,java.lang.String,java.lang.Object,org.apache.lucene.document.FieldType)",321,0.01314657820371053
+"public static org.apache.lucene.document.Field org.apache.lucene.util.LuceneTestCase.newField(java.lang.String,java.lang.String,org.apache.lucene.document.FieldType)",154,0.006307081131998198
+"java.lang.Iterable[]",116,0.0047507883851415
+"java.lang.Iterable[][]",53,0.002170618831142237
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomAsciiOfLengthBetween(int,int)",228,0.00933775648114019
+"java.lang.Iterable[][][]",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.assertFieldsEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.Fields,org.apache.lucene.index.Fields,boolean) throws java.io.IOException",24530,1.0046279231682844
+"public static int org.elasticsearch.test.ESTestCase.randomInt()",1,4.095507228570259E-5
+"public static int org.elasticsearch.test.ESTestCase.randomInt(int)",22,9.010115902854569E-4
+"char[3]",77,0.003153540565999099
+"char[2]",38,0.0015562927468566981
+"char[1]",62,0.0025392144817135602
+"char[0]",4692,0.19216119916451652
+"public static void org.apache.lucene.util.LuceneTestCase.restoreSpins()",1,4.095507228570259E-5
+"java.util.concurrent.ExecutorService[][4]",1,4.095507228570259E-5
+"java.util.concurrent.ExecutorService[][6]",39,0.0015972478191424008
+"public static void org.elasticsearch.test.ESTestCase.restoreProcessors()",1,4.095507228570259E-5
+"public static void org.apache.lucene.util.LuceneTestCase.assumeTrue(java.lang.String,boolean)",28,0.0011467420239996723
+"randoop.operation.UncheckedCast@2af179a4",1,4.095507228570259E-5
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][0]",60,0.002457304337142155
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][2]",3,1.2286521685710776E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][1]",6,2.457304337142155E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][4]",1,4.095507228570259E-5
+"java.lang.reflect.Type[][][][1]",1,4.095507228570259E-5
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][5]",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@4c769713",5,2.047753614285129E-4
+"public static void org.elasticsearch.test.ESTestCase.restoreContentType()",1,4.095507228570259E-5
+"java.lang.reflect.Type[][][][6]",1,4.095507228570259E-5
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][][][0]",1,4.095507228570259E-5
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][][][][2]",12,4.91460867428431E-4
+"public void org.apache.lucene.util.LuceneTestCase.assertNormsEquals(java.lang.String,org.apache.lucene.index.IndexReader,org.apache.lucene.index.IndexReader) throws java.io.IOException",316,0.012941802842282017
+"randoop.operation.UncheckedCast@39fd8291",16,6.552811565712414E-4
+"randoop.operation.ArrayElementSet@28585334",5,2.047753614285129E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][4]",1,4.095507228570259E-5
+"java.util.concurrent.ExecutorService[][0]",65,0.002662079698570668
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][3]",23,9.419666625711594E-4
+"public static java.lang.String[] org.elasticsearch.test.ESTestCase.generateRandomStringArray(int,int,boolean)",269,0.011016914444853995
+"java.util.concurrent.ExecutorService[][3]",15,6.143260842855387E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][2]",9,3.6859565057132326E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][1]",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@424dc138",9,3.6859565057132326E-4
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][6]",1,4.095507228570259E-5
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][5]",2,8.191014457140517E-5
+"randoop.operation.UncheckedCast@3fafbcd4",1,4.095507228570259E-5
+"org.apache.lucene.store.MockDirectoryWrapper$Throttling[][0]",12,4.91460867428431E-4
+"public void org.apache.lucene.util.LuceneTestCase.assertDocsEnumEquals(java.lang.String,org.apache.lucene.index.PostingsEnum,org.apache.lucene.index.PostingsEnum,boolean) throws java.io.IOException",4468,0.18298726297251916
+"randoop.operation.ArrayElementSet@7a91cdec",1,4.095507228570259E-5
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.TEST_DOCVALUESFORMAT",1,4.095507228570259E-5
+"public void org.apache.lucene.util.LuceneTestCase.overrideTestDefaultQueryCache()",5458,0.2235327845353647
+"char[][4]",1,4.095507228570259E-5
+"java.util.concurrent.ExecutorService[][][0]",115,0.004709833312855797
+"char[][6]",4,1.6382028914281035E-4
+"public static java.util.Set org.apache.lucene.util.LuceneTestCase.asSet(java.lang.Object[])",9822,0.40226071999017077
+"randoop.operation.UncheckedCast@5d7222f5",1,4.095507228570259E-5
+"byte[][1]",28,0.0011467420239996723
+"java.util.concurrent.ExecutorService[][][6]",2,8.191014457140517E-5
+"byte[][2]",7,2.866855059999181E-4
+"java.util.concurrent.ExecutorService[][][2]",32,0.0013105623131424828
+"byte[][5]",3,1.2286521685710776E-4
+"java.util.concurrent.ExecutorService[][][3]",1,4.095507228570259E-5
+"char[][1]",5,2.047753614285129E-4
+"byte[][6]",4,1.6382028914281035E-4
+"byte[][3]",12,4.91460867428431E-4
+"char[][2]",17,6.96236228856944E-4
+"char[][3]",9,3.6859565057132326E-4
+"byte[][4]",1,4.095507228570259E-5
+"randoop.operation.ArrayElementSet@4de61e69",3,1.2286521685710776E-4
+"float[][2]",6,2.457304337142155E-4
+"randoop.operation.ArrayElementSet@51d76242",2,8.191014457140517E-5
+"float[][0]",72,0.002948765204570586
+"public org.junit.rules.RuleChain org.elasticsearch.test.ESTestCase.failureAndSuccessEvents",9380,0.38415857803989023
+"public org.junit.rules.RuleChain org.elasticsearch.test.ESTestCase.failureAndSuccessEvents",3854,0.15784084858909775
+"java.io.Serializable[4]",1,4.095507228570259E-5
+"float[][6]",1,4.095507228570259E-5
+"float[][5]",8,3.276405782856207E-4
+"public static final boolean org.apache.lucene.util.LuceneTestCase.TEST_ASSERTS_ENABLED",1,4.095507228570259E-5
+"float[][4]",1,4.095507228570259E-5
+"float[][3]",18,7.371913011426465E-4
+"java.io.Serializable[1]",1,4.095507228570259E-5
+"public static org.apache.lucene.document.Field org.apache.lucene.util.LuceneTestCase.newStringField(java.lang.String,org.apache.lucene.util.BytesRef,org.apache.lucene.document.Field$Store)",14,5.733710119998362E-4
+"public static org.apache.lucene.document.Field org.apache.lucene.util.LuceneTestCase.newStringField(java.lang.String,java.lang.String,org.apache.lucene.document.Field$Store)",155,0.0063480362042839
+"public static org.apache.lucene.document.Field org.apache.lucene.util.LuceneTestCase.newStringField(java.util.Random,java.lang.String,org.apache.lucene.util.BytesRef,org.apache.lucene.document.Field$Store)",14,5.733710119998362E-4
+"public static org.apache.lucene.document.Field org.apache.lucene.util.LuceneTestCase.newStringField(java.util.Random,java.lang.String,java.lang.String,org.apache.lucene.document.Field$Store)",154,0.006307081131998198
+"randoop.operation.ArrayElementSet@75d0c271",4,1.6382028914281035E-4
+"short[][4]",2,8.191014457140517E-5
+"short[][3]",2,8.191014457140517E-5
+"org.apache.lucene.util.LuceneTestCase[0]",1,4.095507228570259E-5
+"public java.lang.String[] org.elasticsearch.test.ESTestCase.tmpPaths()",310,0.0126960724085678
+"short[][0]",1,4.095507228570259E-5
+"short[][2]",1,4.095507228570259E-5
+"public static java.lang.Object org.elasticsearch.test.ESTestCase.randomFrom(java.lang.Object[])",247,0.010115902854568539
+"public static java.lang.Object org.elasticsearch.test.ESTestCase.randomFrom(java.util.List)",3,1.2286521685710776E-4
+"short[][1]",2,8.191014457140517E-5
+"randoop.operation.UncheckedCast@4006b3b7",1,4.095507228570259E-5
+"public static org.apache.lucene.document.Field org.apache.lucene.util.LuceneTestCase.newTextField(java.lang.String,java.lang.String,org.apache.lucene.document.Field$Store)",145,0.005938485481426874
+"public static org.apache.lucene.document.Field org.apache.lucene.util.LuceneTestCase.newTextField(java.util.Random,java.lang.String,java.lang.String,org.apache.lucene.document.Field$Store)",160,0.006552811565712413
+"int[][5]",7,2.866855059999181E-4
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[][1]",3,1.2286521685710776E-4
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[][0]",6,2.457304337142155E-4
+"public static final java.lang.String org.apache.lucene.util.LuceneTestCase.SYSPROP_SLOW",1,4.095507228570259E-5
+"org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures[][3]",17,6.96236228856944E-4
+"int[][][][][2]",25,0.0010238768071425645
+"double[][][][][][][0]",2,8.191014457140517E-5
+"public static void org.apache.lucene.util.LuceneTestCase.assumeFalse(java.lang.String,boolean)",28,0.0011467420239996723
+"int[][][][][0]",25,0.0010238768071425645
+"org.elasticsearch.index.analysis.AnalysisService(org.elasticsearch.index.Index, org.elasticsearch.common.settings.Settings, org.elasticsearch.indices.analysis.IndicesAnalysisService, java.util.Map, java.util.Map, java.util.Map, java.util.Map)",1,4.095507228570259E-5
+"org.elasticsearch.index.analysis.AnalysisService(org.elasticsearch.index.Index, org.elasticsearch.common.settings.Settings)",1,4.095507228570259E-5
+"int[][][][][5]",40,0.0016382028914281033
+"public org.elasticsearch.index.analysis.AnalysisService org.elasticsearch.index.analysis.KuromojiAnalysisTests.createAnalysisService()",307,0.012573207191710694
+"int[][][][][4]",15,6.143260842855387E-4
+"java.lang.reflect.Type[][0]",11,4.5050579514272843E-4
+"public static final boolean org.apache.lucene.util.LuceneTestCase.INFOSTREAM",1,4.095507228570259E-5
+"randoop.operation.UncheckedCast@ba8246e",1,4.095507228570259E-5
+"int[][0]",205,0.00839578981856903
+"int[][3]",2,8.191014457140517E-5
+"int[][4]",60,0.002457304337142155
+"double[][][1]",60,0.002457304337142155
+"int[][2]",18,7.371913011426465E-4
+"public static void org.elasticsearch.test.ESTestCase.restoreDefaultExceptionHandler() throws java.lang.Exception",1,4.095507228570259E-5
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests[3]",75,0.0030716304214276936
+"float[][][6]",1,4.095507228570259E-5
+"org.elasticsearch.index.analysis.KuromojiAnalysisTests[1]",2,8.191014457140517E-5
+"randoop.operation.ArrayElementSet@59e03a38",1,4.095507228570259E-5
+"java.util.Set[]",23,9.419666625711594E-4
+"java.lang.reflect.Type[][4]",1,4.095507228570259E-5
+"java.util.Set[][]",7,2.866855059999181E-4
+"java.lang.reflect.Type[][2]",6,2.457304337142155E-4
+"org.apache.lucene.search.QueryCachingPolicy[3]",2,8.191014457140517E-5
+"int[][][][][][][1]",4,1.6382028914281035E-4
+"randoop.operation.ArrayElementSet@c87ab66",4,1.6382028914281035E-4
+"org.apache.lucene.search.QueryCachingPolicy[1]",7,2.866855059999181E-4
+"int[][][][][][][0]",5,2.047753614285129E-4
+"org.apache.lucene.search.QueryCachingPolicy[2]",3,1.2286521685710776E-4
+"randoop.operation.UncheckedCast@672d10c9",5,2.047753614285129E-4
+"org.apache.lucene.search.QueryCachingPolicy[5]",2,8.191014457140517E-5
+"org.apache.lucene.search.QueryCachingPolicy[6]",6,2.457304337142155E-4
+"float[][][3]",18,7.371913011426465E-4
+"java.lang.reflect.Type[0]",17,6.96236228856944E-4
+"float[][][2]",6,2.457304337142155E-4
+"java.lang.reflect.Type[1]",6,2.457304337142155E-4
+"float[][][1]",8,3.276405782856207E-4
+"org.apache.lucene.search.QueryCachingPolicy[0]",2,8.191014457140517E-5
+"int[][][][][][][6]",16,6.552811565712414E-4
+"int[][][][][][][3]",1,4.095507228570259E-5
+"double[][][3]",27,0.0011057869517139699
+"double[][][2]",6,2.457304337142155E-4
+"public static org.apache.lucene.store.IOContext org.apache.lucene.util.LuceneTestCase.newIOContext(java.util.Random,org.apache.lucene.store.IOContext)",1,4.095507228570259E-5
+"public static org.apache.lucene.store.IOContext org.apache.lucene.util.LuceneTestCase.newIOContext(java.util.Random)",1,4.095507228570259E-5
+"double[][][5]",1,4.095507228570259E-5
+"char[][][5]",2,8.191014457140517E-5
+"double[][][4]",10,4.095507228570258E-4
+"char[][][4]",1,4.095507228570259E-5
+"java.lang.reflect.Type[3]",2,8.191014457140517E-5
+"public static java.lang.String org.elasticsearch.test.ESTestCase.randomRealisticUnicodeOfCodepointLength(int)",22,9.010115902854569E-4
+"randoop.operation.UncheckedCast@6bb6bc4e",1,4.095507228570259E-5
+"org.junit.rules.RuleChain[][][5]",1,4.095507228570259E-5
+"org.junit.rules.RuleChain[][][3]",4,1.6382028914281035E-4
+"char[][][3]",1,4.095507228570259E-5
+"org.junit.rules.RuleChain[][][0]",2,8.191014457140517E-5
+"char[][][0]",1,4.095507228570259E-5

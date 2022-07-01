@@ -1,0 +1,4 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.lang.Object()",1,0.5
+"public final native java.lang.Class java.lang.Object.getClass()",1,0.5
+"org.atmosphere.cpr.AtmosphereConfig(org.atmosphere.cpr.AtmosphereFramework)",1,0.5

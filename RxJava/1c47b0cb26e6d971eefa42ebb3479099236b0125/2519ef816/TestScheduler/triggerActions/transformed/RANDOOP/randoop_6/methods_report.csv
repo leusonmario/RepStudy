@@ -1,0 +1,40 @@
+Methods called,Number of times,Number of times (Normalized)
+"public rx.Subscription rx.Scheduler.schedulePeriodically(rx.util.functions.Func0,long,long,java.util.concurrent.TimeUnit)",911,0.04843683538919609
+"public rx.Subscription rx.Scheduler.schedulePeriodically(rx.util.functions.Func1,long,long,java.util.concurrent.TimeUnit)",879,0.04673543173117822
+"public rx.Subscription rx.Scheduler.schedulePeriodically(rx.util.functions.Action0,long,long,java.util.concurrent.TimeUnit)",969,0.05152062951935347
+"public java.lang.Object rx.concurrency.TestScheduler$TimedAction.getstate()",12974,0.689812845597618
+"public default java.util.Comparator java.util.Comparator.thenComparing(java.util.Comparator)",9893,0.5259995746490855
+"public long rx.concurrency.TestScheduler.time",11689,0.6214908549553382
+"public long rx.concurrency.TestScheduler.time",9881,0.5253615482773288
+"public final long rx.concurrency.TestScheduler$TimedAction.time",8515,0.4527328796256912
+"public final java.util.Queue rx.concurrency.TestScheduler.queue",6468,0.3438962143768609
+"public rx.concurrency.TestScheduler rx.concurrency.TestScheduler$TimedAction.getscheduler()",15463,0.8221501488728201
+"public void rx.concurrency.TestScheduler$TimedAction.cancel()",4735,0.2517545725223309
+"public final java.util.concurrent.atomic.AtomicBoolean rx.concurrency.TestScheduler$TimedAction.isCancelled",4558,0.2423436835389196
+"public int rx.concurrency.TestScheduler$CompareActionsByTime.compare(rx.concurrency.TestScheduler$TimedAction,rx.concurrency.TestScheduler$TimedAction)",8632,0.458953636750319
+"public long rx.concurrency.TestScheduler.now()",6974,0.37079965971926837
+"public final native java.lang.Class java.lang.Object.getClass()",1070,0.05689068481497235
+"public long rx.concurrency.TestScheduler$TimedAction.gettime()",4332,0.23032752020416844
+"public final rx.concurrency.TestScheduler rx.concurrency.TestScheduler$TimedAction.scheduler",5454,0.2899829859634198
+"public void rx.concurrency.TestScheduler.settime(long)",11894,0.632390472139515
+"public void rx.concurrency.TestScheduler.advanceTimeBy(long,java.util.concurrent.TimeUnit)",917,0.04875584857507444
+"public java.util.Queue rx.concurrency.TestScheduler.getqueue()",10128,0.5384942577626541
+"public default java.util.Comparator java.util.Comparator.reversed()",12791,0.6800829434283284
+"public long rx.concurrency.TestScheduler.gettime()",7457,0.39648022118247556
+"public final rx.util.functions.Func2 rx.concurrency.TestScheduler$TimedAction.action",8195,0.43571884304551256
+"public java.lang.String rx.concurrency.TestScheduler$TimedAction.toString()",860,0.045725223309230116
+"public final java.lang.Object rx.concurrency.TestScheduler$TimedAction.state",14093,0.7493088047639302
+"rx.concurrency.TestScheduler$TimedAction(rx.concurrency.TestScheduler, long, rx.util.functions.Func2, java.lang.Object)",27534,1.4639515099957465
+"rx.concurrency.TestScheduler()",17001,0.9039238621863037
+"public void rx.concurrency.TestScheduler.triggerActions()",13935,0.740908124202467
+"public void rx.concurrency.TestScheduler.triggerActions(long)",7097,0.37733943002977455
+"public java.util.concurrent.atomic.AtomicBoolean rx.concurrency.TestScheduler$TimedAction.getisCancelled()",3387,0.18008294342832837
+"rx.concurrency.TestScheduler$CompareActionsByTime()",14523,0.7721714164185453
+"public void rx.concurrency.TestScheduler.advanceTimeTo(long,java.util.concurrent.TimeUnit)",908,0.04827732879625691
+"public rx.Subscription rx.Scheduler.schedule(rx.util.functions.Func1)",14733,0.7833368779242875
+"public rx.Subscription rx.Scheduler.schedule(rx.util.functions.Func1,long,java.util.concurrent.TimeUnit)",959,0.05098894087622288
+"public rx.Subscription rx.Scheduler.schedule(rx.util.functions.Action0,long,java.util.concurrent.TimeUnit)",904,0.04806465333900468
+"public rx.Subscription rx.Scheduler.schedule(rx.util.functions.Func0)",6153,0.32714802211824756
+"public rx.Subscription rx.Scheduler.schedule(rx.util.functions.Func0,long,java.util.concurrent.TimeUnit)",930,0.049447043811144197
+"public rx.Subscription rx.Scheduler.schedule(rx.util.functions.Action0)",6008,0.3194385367928541
+"public rx.util.functions.Func2 rx.concurrency.TestScheduler$TimedAction.getaction()",10026,0.5330710336027222

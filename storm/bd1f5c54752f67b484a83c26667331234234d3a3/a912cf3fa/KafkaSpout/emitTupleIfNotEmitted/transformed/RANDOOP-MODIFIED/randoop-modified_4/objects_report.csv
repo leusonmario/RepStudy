@@ -1,0 +1,18 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.apache.storm.kafka.spout.KafkaSpout$OffsetComparator,5529,1,1.5797142857142856,2.8571428571428574E-4
+class org.apache.kafka.clients.consumer.ConsumerRecord,6569,5719,1.8768571428571428,1.634
+class java.lang.Long,2575,9,0.7357142857142858,0.0025714285714285713
+class org.apache.storm.kafka.spout.KafkaSpout,971,31,0.2774285714285714,0.008857142857142857
+class java.lang.String,4207,575,1.202,0.16428571428571428
+class org.apache.kafka.common.record.TimestampType,3011,1,0.8602857142857143,2.8571428571428574E-4
+class java.lang.Boolean,293,2,0.08371428571428571,5.714285714285715E-4
+class java.util.LinkedHashSet,65,1,0.018571428571428572,2.8571428571428574E-4
+class java.lang.Object,1108,1,0.31657142857142856,2.8571428571428574E-4
+class [Lorg.apache.storm.kafka.spout.KafkaSpoutMessageId;,65,1,0.018571428571428572,2.8571428571428574E-4
+class java.util.Collections$ReverseComparator2,1401,1044,0.4002857142857143,0.29828571428571427
+class java.lang.Integer,3270,9,0.9342857142857143,0.0025714285714285713
+class java.lang.Class,1232,9,0.352,0.0025714285714285713
+class org.apache.kafka.common.header.internals.RecordHeaders,1287,1,0.3677142857142857,2.8571428571428574E-4
+class java.util.Comparator$$Lambda$231/1363285785,622,1,0.1777142857142857,2.8571428571428574E-4
+class java.util.Optional,926,1,0.26457142857142857,2.8571428571428574E-4
+class org.apache.storm.kafka.spout.KafkaSpout$1,32,1,0.009142857142857144,2.8571428571428574E-4

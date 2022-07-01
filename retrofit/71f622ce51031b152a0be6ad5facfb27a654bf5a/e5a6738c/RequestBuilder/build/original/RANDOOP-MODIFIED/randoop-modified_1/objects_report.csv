@@ -1,0 +1,10 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class [Lretrofit.client.Header;,14623,1,0.7936068598719201,5.4271138608488005E-5
+class java.util.ArrayList,14623,1,0.7936068598719201,5.4271138608488005E-5
+class java.lang.Boolean,14623,1,0.7936068598719201,5.4271138608488005E-5
+class java.util.Collections$EmptyList,7143,1,0.3876587430804298,5.4271138608488005E-5
+class java.lang.Object,1,1,5.4271138608488005E-5,5.4271138608488005E-5
+class java.lang.String,55144,2,2.9927276674264625,1.0854227721697601E-4
+class java.util.Collections$UnmodifiableRandomAccessList,44812,1,2.4319982633235644,5.4271138608488005E-5
+class retrofit.client.Request,95568,4,5.186584174535982,2.1708455443395202E-4
+class java.lang.Class,5232,5,0.28394659719960924,2.7135569304244004E-4

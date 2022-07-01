@@ -1,0 +1,54 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static java.lang.String org.jsoup.helper.HttpConnection$Response.getRequestCookieString(org.jsoup.Connection$Request)",1,3.96809650410698E-5
+"public java.util.Map org.jsoup.helper.HttpConnection$Base.cookies()",5332,0.21157890559898418
+"public static void org.jsoup.helper.HttpConnection$Response.serialiseRequestUrl(org.jsoup.Connection$Request) throws java.io.IOException",1,3.96809650410698E-5
+"public java.nio.ByteBuffer org.jsoup.helper.HttpConnection$Response.byteData",14280,0.5666441807864767
+"public java.nio.ByteBuffer org.jsoup.helper.HttpConnection$Response.byteData",10509,0.4170072616166025
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage",20335,0.8069124241101544
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage",4036,0.1601523749057577
+"public byte[] org.jsoup.helper.HttpConnection$Response.bodyAsBytes()",995,0.03948256021586445
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.body()",1094,0.04341097575493036
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset()",9097,0.36097773897861196
+"public static int org.jsoup.helper.HttpConnection$Response.MAX_REDIRECTS",24,9.523431609856751E-4
+"public static int org.jsoup.helper.HttpConnection$Response.MAX_REDIRECTS",1,3.96809650410698E-5
+"public int org.jsoup.helper.HttpConnection$Response.statusCode()",5903,0.23423673663743502
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.cookie(java.lang.String)",11524,0.45728344113328834
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.cookie(java.lang.String,java.lang.String)",2694,0.10690051982064204
+"public org.jsoup.Connection$Method org.jsoup.helper.HttpConnection$Base.method()",19250,0.7638585770405937
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.method(org.jsoup.Connection$Method)",1025,0.040672989167096545
+"public boolean org.jsoup.helper.HttpConnection$Base.hasHeader(java.lang.String)",3675,0.14582754652593152
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",1,3.96809650410698E-5
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.getHeaderCaseInsensitive(java.lang.String)",5109,0.2027300503948256
+"public static org.jsoup.helper.HttpConnection$Response org.jsoup.helper.HttpConnection$Response.execute(org.jsoup.Connection$Request) throws java.io.IOException",1,3.96809650410698E-5
+"public static org.jsoup.helper.HttpConnection$Response org.jsoup.helper.HttpConnection$Response.execute(org.jsoup.Connection$Request,org.jsoup.helper.HttpConnection$Response) throws java.io.IOException",980,0.0388873457402484
+"public boolean org.jsoup.helper.HttpConnection$Response.executed",7580,0.30078171501130907
+"public boolean org.jsoup.helper.HttpConnection$Response.executed",4032,0.15999365104559343
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.removeHeader(java.lang.String)",5614,0.22276893774056586
+"public int org.jsoup.helper.HttpConnection$Response.numRedirects",5294,0.21007102892742352
+"public int org.jsoup.helper.HttpConnection$Response.numRedirects",5557,0.22050712273322487
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset",5238,0.20784889488512362
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.charset",6081,0.24129994841474545
+"public int org.jsoup.helper.HttpConnection$Response.statusCode",10769,0.42732431252728065
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.removeCookie(java.lang.String)",8869,0.35193047894924806
+"public int org.jsoup.helper.HttpConnection$Response.statusCode",6217,0.24669655966033094
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType()",5354,0.2124518868298877
+"org.jsoup.Connection$KeyVal[0]",1,3.96809650410698E-5
+"java.util.ArrayList()",1,3.96809650410698E-5
+"public java.util.Map org.jsoup.helper.HttpConnection$Base.headers()",5320,0.21110273401849133
+"public final native java.lang.Class java.lang.Object.getClass()",1028,0.040792032062219756
+"public org.jsoup.Connection$Request org.jsoup.helper.HttpConnection$Response.req",16179,0.6419983333994683
+"public org.jsoup.Connection$Request org.jsoup.helper.HttpConnection$Response.req",10007,0.3970874171659855
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType",6925,0.27479068290940833
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.contentType",4908,0.19475417642157059
+"public boolean org.jsoup.helper.HttpConnection$Base.hasCookie(java.lang.String)",7343,0.29137732629657553
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.url(java.net.URL)",996,0.03952224118090552
+"public java.net.URL org.jsoup.helper.HttpConnection$Base.url()",9268,0.3677631840006349
+"public static void org.jsoup.helper.HttpConnection$Response.writePost(java.util.Collection,java.io.OutputStream) throws java.io.IOException",2,7.93619300821396E-5
+"public void org.jsoup.helper.HttpConnection$Response.setupFromConnection(java.net.HttpURLConnection,org.jsoup.Connection$Response) throws java.io.IOException",1074,0.04261735645410896
+"public static java.net.HttpURLConnection org.jsoup.helper.HttpConnection$Response.createConnection(org.jsoup.Connection$Request) throws java.io.IOException",1,3.96809650410698E-5
+"public java.lang.String org.jsoup.helper.HttpConnection$Response.statusMessage()",6569,0.2606642593547875
+"public org.jsoup.nodes.Document org.jsoup.helper.HttpConnection$Response.parse() throws java.io.IOException",1019,0.04043490337685012
+"public java.util.Map$Entry org.jsoup.helper.HttpConnection$Base.scanHeaders(java.lang.String)",7118,0.28244910916233484
+"org.jsoup.helper.HttpConnection$Response(org.jsoup.helper.HttpConnection$Response)",31025,1.2311019403991905
+"public org.jsoup.Connection$Base org.jsoup.helper.HttpConnection$Base.header(java.lang.String,java.lang.String)",3838,0.1522955438276259
+"public java.lang.String org.jsoup.helper.HttpConnection$Base.header(java.lang.String)",7243,0.2874092297924686

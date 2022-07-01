@@ -1,0 +1,11 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Boolean,59842,2,2.900727096461464,9.694619486185167E-5
+class java.lang.String,755,4,0.036597188560349006,1.9389238972370335E-4
+class org.elasticsearch.index.mapper.object.ObjectMapper$Nested,604,5,0.029277750848279206,2.423654871546292E-4
+class org.elasticsearch.common.xcontent.ToXContent$1,1,1,4.847309743092584E-5,4.847309743092584E-5
+class org.elasticsearch.index.mapper.object.ObjectMapper$Defaults,1,1,4.847309743092584E-5,4.847309743092584E-5
+class java.lang.Class,607,4,0.029423170140571983,1.9389238972370335E-4
+class org.elasticsearch.index.mapper.object.ObjectMapper$TypeParser,4,1,1.9389238972370335E-4,4.847309743092584E-5
+class org.elasticsearch.index.query.support.NestedInnerQueryParseSupport,20011,75,0.9699951526902569,0.003635482307319438
+class org.elasticsearch.index.mapper.object.ObjectMapper$Dynamic,3,3,1.454192922927775E-4,1.454192922927775E-4
+class org.elasticsearch.index.mapper.ContentPath$Type,1,1,4.847309743092584E-5,4.847309743092584E-5

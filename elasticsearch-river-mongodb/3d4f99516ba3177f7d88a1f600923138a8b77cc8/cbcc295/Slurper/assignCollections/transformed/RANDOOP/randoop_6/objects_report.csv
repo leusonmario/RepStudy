@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Long,1,1,0.125,0.125
+class java.lang.Object,1,1,0.125,0.125
+class java.lang.Boolean,1,1,0.125,0.125
+class java.lang.Class,2,2,0.25,0.25
+class [Lcom.mongodb.ServerAddress;,1,1,0.125,0.125
+class java.util.ArrayList,1,1,0.125,0.125
+class org.elasticsearch.common.logging.jdk.JdkESLogger,1,1,0.125,0.125

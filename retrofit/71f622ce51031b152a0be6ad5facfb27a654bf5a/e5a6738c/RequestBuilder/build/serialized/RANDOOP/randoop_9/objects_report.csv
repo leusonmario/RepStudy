@@ -1,0 +1,15 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,227,11,0.2570781426953567,0.01245753114382786
+class java.util.ArrayList,555,3,0.6285390713476784,0.0033975084937712344
+class retrofit.client.Request,220,65,0.2491506228765572,0.07361268403171008
+class [Lretrofit.client.Header;,95,1,0.10758776896942242,0.0011325028312570782
+class retrofit.converter.GsonConverter$JsonTypedOutput,2,1,0.0022650056625141564,0.0011325028312570782
+class java.util.Collections$UnmodifiableRandomAccessList,50,2,0.056625141562853906,0.0022650056625141564
+class retrofit.mime.MultipartTypedOutput,25,24,0.028312570781426953,0.027180067950169876
+class retrofit.converter.GsonConverter,1027,1022,1.1630804077010193,1.157417893544734
+class retrofit.RequestBuilder,4944,4784,5.599093997734994,5.417893544733862
+class retrofit.SerializedObjectSupporter,1115,1,1.2627406568516422,0.0011325028312570782
+class [Ljava.lang.Object;,84,14,0.09513023782559456,0.015855039637599093
+class java.lang.Boolean,95,1,0.10758776896942242,0.0011325028312570782
+class java.lang.Class,33,5,0.03737259343148358,0.0056625141562853904
+class java.util.Collections$EmptyList,36,1,0.04077010192525481,0.0011325028312570782

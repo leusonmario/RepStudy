@@ -1,0 +1,24 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.util.Comparator$$Lambda$232/34358957,3832,1,1.0904951622083097,2.845759817871372E-4
+class [Lorg.apache.kafka.common.TopicPartition;,1,1,2.845759817871372E-4,2.845759817871372E-4
+class java.lang.Long,2693,8,0.7663631189527604,0.0022766078542970974
+class java.lang.Float,66,1,0.018782014797951052,2.845759817871372E-4
+class java.lang.String,876,66,0.24928856004553215,0.018782014797951052
+class java.lang.Double,14,2,0.00398406374501992,5.691519635742744E-4
+class org.apache.storm.kafka.spout.KafkaSpout,2797,44,0.7959590210586227,0.012521343198634035
+class java.lang.Boolean,2017,2,0.5739897552646557,5.691519635742744E-4
+class [Lorg.apache.storm.kafka.spout.KafkaSpoutMessageId;,935,1,0.2660785429709733,2.845759817871372E-4
+class org.apache.storm.kafka.spout.KafkaSpout$OffsetComparator,4207,1,1.197211155378486,2.845759817871372E-4
+class java.util.Optional,851,1,0.24217416050085372,2.845759817871372E-4
+class org.apache.kafka.clients.consumer.ConsumerRecord,3521,2197,1.00199203187251,0.6252134319863404
+class org.apache.storm.kafka.spout.KafkaSpout$1,1056,1,0.30051223676721683,2.845759817871372E-4
+class java.util.LinkedHashSet,1054,1,0.29994308480364257,2.845759817871372E-4
+class org.apache.kafka.common.header.internals.RecordHeaders,525,1,0.14940239043824702,2.845759817871372E-4
+class org.apache.storm.kafka.spout.KafkaSpout$OffsetEntry,1,1,2.845759817871372E-4,2.845759817871372E-4
+class java.lang.Object,291,1,0.08281161070005691,2.845759817871372E-4
+class java.util.Collections$ReverseComparator2,2934,2403,0.8349459305634604,0.6838360842344906
+class java.lang.Byte,18,2,0.005122367672168469,5.691519635742744E-4
+class org.apache.kafka.common.record.TimestampType,129,1,0.03671030165054069,2.845759817871372E-4
+class java.lang.Integer,1607,9,0.45731360273192945,0.0025611838360842347
+class java.lang.Class,129,11,0.03671030165054069,0.003130335799658509
+class java.util.ArrayList,23,1,0.006545247581104155,2.845759817871372E-4

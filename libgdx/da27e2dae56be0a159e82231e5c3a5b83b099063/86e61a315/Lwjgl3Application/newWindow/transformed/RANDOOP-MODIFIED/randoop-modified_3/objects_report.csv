@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Integer,4,4,1.2598822010142052E-4,1.2598822010142052E-4
+class java.lang.Class,5993,1,0.1887618507669533,3.149705502535513E-5
+class com.badlogic.gdx.backends.lwjgl3.Lwjgl3WindowConfiguration,31737,21314,0.9996220353396957,0.6713282308104193

@@ -1,0 +1,23 @@
+Methods called,Number of times,Number of times (Normalized)
+"org.elasticsearch.index.mapper.object.ObjectMapper$TypeParser()",5,3.081854043392505E-4
+"org.elasticsearch.index.mapper.object.ObjectMapper$Defaults()",1,6.16370808678501E-5
+"public boolean org.elasticsearch.index.mapper.object.ObjectMapper$Nested.isIncludeInParent()",61617,3.7978920118343193
+"public static final java.lang.String org.elasticsearch.index.mapper.object.ObjectMapper.CONTENT_TYPE",1,6.16370808678501E-5
+"public org.elasticsearch.index.mapper.Mapper$Builder org.elasticsearch.index.mapper.object.ObjectMapper$TypeParser.parse(java.lang.String,java.util.Map,org.elasticsearch.index.mapper.Mapper$TypeParser$ParserContext) throws org.elasticsearch.index.mapper.MapperParsingException",4,2.465483234714004E-4
+"public static org.elasticsearch.index.mapper.object.ObjectMapper$Nested org.elasticsearch.index.mapper.object.ObjectMapper$Nested.newNested(boolean,boolean)",5399,0.3327785996055227
+"org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(org.elasticsearch.common.xcontent.XContentParser, org.elasticsearch.search.internal.SearchContext)",1,6.16370808678501E-5
+"org.elasticsearch.index.query.support.NestedInnerQueryParseSupport(org.elasticsearch.index.query.QueryShardContext)",1,6.16370808678501E-5
+"public static final org.elasticsearch.index.mapper.ContentPath$Type org.elasticsearch.index.mapper.object.ObjectMapper$Defaults.PATH_TYPE",1,6.16370808678501E-5
+"public boolean org.elasticsearch.index.mapper.object.ObjectMapper$Nested.isIncludeInRoot()",59996,3.6979783037475347
+"public static final org.elasticsearch.index.mapper.object.ObjectMapper$Dynamic org.elasticsearch.index.mapper.object.ObjectMapper$Defaults.DYNAMIC",1,6.16370808678501E-5
+"TRUE",1,6.16370808678501E-5
+"FALSE",1,6.16370808678501E-5
+"public static final java.lang.String org.elasticsearch.index.mapper.object.ObjectMapper.NESTED_CONTENT_TYPE",1,6.16370808678501E-5
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1,6.16370808678501E-5
+"STRICT",1,6.16370808678501E-5
+"public boolean org.elasticsearch.index.mapper.object.ObjectMapper$Nested.isNested()",67071,4.134060650887574
+"java.lang.Object()",1,6.16370808678501E-5
+"public final native java.lang.Class java.lang.Object.getClass()",8154,0.5025887573964497
+"public static final boolean org.elasticsearch.index.mapper.object.ObjectMapper$Defaults.ENABLED",1,6.16370808678501E-5
+"public static final org.elasticsearch.index.mapper.object.ObjectMapper$Nested org.elasticsearch.index.mapper.object.ObjectMapper$Defaults.NESTED",7366,0.4540187376725838
+"public static final org.elasticsearch.index.mapper.object.ObjectMapper$Nested org.elasticsearch.index.mapper.object.ObjectMapper$Nested.NO",3441,0.21209319526627218

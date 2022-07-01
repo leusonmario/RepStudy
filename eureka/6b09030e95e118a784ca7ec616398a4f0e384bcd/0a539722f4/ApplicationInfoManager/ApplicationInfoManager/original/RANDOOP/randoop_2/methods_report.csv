@@ -1,0 +1,130 @@
+Methods called,Number of times,Number of times (Normalized)
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setHomePageUrl(java.lang.String,java.lang.String)",281,0.022875284923477696
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getStatusPageUrl()",6363,0.5179908824487137
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getVirtualHostName()",974,0.07929013350700098
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getStatusPageUrlPath()",1252,0.10192119830674047
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getAppname()",985,0.08018560729404103
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getVersion()",1266,0.10306089221751873
+"public com.netflix.appinfo.InstanceInfo$InstanceStatus com.netflix.appinfo.InstanceInfo.getOverriddenStatus()",1816,0.14783458156952134
+"public void com.netflix.appinfo.InstanceInfo.setLastDirtyTimestamp(java.lang.Long)",814,0.06626506024096386
+"public void com.netflix.appinfo.ApplicationInfoManager.setInstanceStatus(com.netflix.appinfo.InstanceInfo$InstanceStatus)",431,0.035086291110387496
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getHostName()",1152,0.09378052751546727
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getSecureHealthCheckUrl()",1840,0.14978834255942688
+"public com.netflix.appinfo.InstanceInfo com.netflix.appinfo.InstanceInfo$Builder.getRawInstance()",10655,0.8673884728101595
+"public static com.netflix.appinfo.InstanceInfo$InstanceStatus com.netflix.appinfo.InstanceInfo$InstanceStatus.toEnum(java.lang.String)",2325,0.18927059589710193
+"public long com.netflix.appinfo.InstanceInfo.getLastUpdatedTimestamp()",1791,0.14579941387170303
+"com.netflix.appinfo.InstanceInfo$Builder(com.netflix.appinfo.InstanceInfo)",1088,0.08857049820905243
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setHealthCheckUrlsForDeser(java.lang.String,java.lang.String)",1145,0.09321068056007815
+"public boolean com.netflix.appinfo.InstanceInfo.equals(java.lang.Object)",609,0.04957668511885379
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getStatusPageUrl()",1248,0.10159557147508955
+"public int com.netflix.appinfo.InstanceInfo.getPort()",1032,0.08401172256593943
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setOverriddenStatus(com.netflix.appinfo.InstanceInfo$InstanceStatus)",2835,0.23078801693259524
+"public int com.netflix.appinfo.InstanceInfo.getCountryId()",1830,0.14897427548029957
+"public void com.netflix.appinfo.InstanceInfo.setLeaseInfo(com.netflix.appinfo.LeaseInfo)",743,0.06048518397915988
+"public boolean com.netflix.appinfo.PropertiesInstanceConfig.getSecurePortEnabled()",2202,0.1792575708238359
+"public static final int com.netflix.appinfo.InstanceInfo.DEFAULT_COUNTRY_ID",1,8.140670791273201E-5
+"public java.lang.Boolean com.netflix.appinfo.InstanceInfo.isCoordinatingDiscoveryServer()",935,0.07611527189840443
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getHealthCheckUrlPath()",1806,0.14702051449039402
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setLeaseInfo(com.netflix.appinfo.LeaseInfo)",1716,0.13969391077824814
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setSID(java.lang.String)",4769,0.38822859003581894
+"public boolean com.netflix.appinfo.InstanceInfo.isPortEnabled(com.netflix.appinfo.InstanceInfo$PortType)",1392,0.11331813741452296
+"public synchronized void com.netflix.appinfo.InstanceInfo.setOverriddenStatus(com.netflix.appinfo.InstanceInfo$InstanceStatus)",2124,0.1729078476066428
+"public boolean com.netflix.appinfo.PropertiesInstanceConfig.isInstanceEnabledOnit()",841,0.06846304135460762
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setSecureVIPAddress(java.lang.String)",3194,0.260013025073266
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getNamespace()",2255,0.18357212634321068
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setHostName(java.lang.String)",1142,0.09296646043633995
+"com.netflix.appinfo.InstanceInfo(com.netflix.appinfo.InstanceInfo)",1580,0.12862259850211658
+"public static final int com.netflix.appinfo.InstanceInfo.DEFAULT_SECURE_PORT",1,8.140670791273201E-5
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setNamespace(java.lang.String)",2863,0.23306740475415175
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setSecurePort(int)",976,0.07945294692282644
+"public com.netflix.appinfo.LeaseInfo com.netflix.appinfo.InstanceInfo.getLeaseInfo()",2993,0.2436502767828069
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.add(java.lang.String,java.lang.String)",1575,0.1282155649625529
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setCountryId(int)",3027,0.2464181048518398
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setAppName(java.lang.String)",14752,1.2009117551286226
+"public final native java.lang.Class java.lang.Object.getClass()",280,0.022793878215564962
+"public void com.netflix.appinfo.ApplicationInfoManager.initComponent(com.netflix.appinfo.EurekaInstanceConfig)",1181,0.0961413220449365
+"OUT_OF_SERVICE",324,0.02637577336372517
+"com.netflix.appinfo.ApplicationInfoManager(com.netflix.appinfo.EurekaInstanceConfig, com.netflix.appinfo.InstanceInfo)",2723,0.22167046564636927
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setIPAddr(java.lang.String)",1560,0.12699446434386194
+"MODIFIED",2042,0.16623249755779876
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setHealthCheckUrls(java.lang.String,java.lang.String,java.lang.String)",395,0.032155649625529144
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getId()",4583,0.3730869423640508
+"public com.netflix.appinfo.InstanceInfo$InstanceStatus com.netflix.appinfo.InstanceInfo.getStatus()",3006,0.24470856398567242
+"public synchronized void com.netflix.appinfo.InstanceInfo.setStatusWithoutDirty(com.netflix.appinfo.InstanceInfo$InstanceStatus)",2727,0.22199609247802018
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getVIPAddress()",2887,0.23502116574405732
+"DOWN",135,0.01098990556821882
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getHomePageUrlPath()",1218,0.09915337023770758
+"public int com.netflix.appinfo.PropertiesInstanceConfig.getSecurePort()",1107,0.09011722565939434
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setHomePageUrlForDeser(java.lang.String)",14684,1.1953760989905569
+"public void com.netflix.appinfo.InstanceInfo.setIsDirty(boolean)",1068,0.08694236405079779
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setPort(int)",1069,0.08702377075871051
+"public boolean com.netflix.appinfo.InstanceInfo.isDirty()",720,0.058612829697167045
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setActionType(com.netflix.appinfo.InstanceInfo$ActionType)",29679,2.416069684141973
+"public boolean com.netflix.appinfo.PropertiesInstanceConfig.isNonSecurePortEnabled()",2224,0.181048518397916
+"public com.netflix.appinfo.InstanceInfo com.netflix.appinfo.InstanceInfo$Builder.build()",611,0.04973949853467926
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.enablePort(com.netflix.appinfo.InstanceInfo$PortType,boolean)",3994,0.32513839140345163
+"public synchronized void com.netflix.appinfo.InstanceInfo.setStatus(com.netflix.appinfo.InstanceInfo$InstanceStatus)",901,0.07334744382937154
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setMetadata(java.util.Map)",792,0.06447411266688376
+"public static final int com.netflix.appinfo.InstanceInfo.DEFAULT_PORT",1,8.140670791273201E-5
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setStatusPageUrlForDeser(java.lang.String)",1221,0.09939759036144578
+"public com.netflix.appinfo.InstanceInfo$ActionType com.netflix.appinfo.InstanceInfo.getActionType()",798,0.06496255291436015
+"public java.util.Map com.netflix.appinfo.PropertiesInstanceConfig.getMetadataMap()",4044,0.32920872679908825
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setLastDirtyTimestamp(long)",16604,1.3516769781830023
+"public com.netflix.appinfo.DataCenterInfo com.netflix.appinfo.InstanceInfo.getDataCenterInfo()",1298,0.10566590687072615
+"java.lang.String[4]",4,3.2562683165092806E-4
+"java.lang.String[5]",5,4.0703353956366003E-4
+"java.lang.String[6]",6,4.884402474763921E-4
+"public void com.netflix.appinfo.ApplicationInfoManager.refreshDataCenterInfoIfRequired()",697,0.05674047541517421
+"java.lang.String[0]",8,6.512536633018561E-4
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setDataCenterInfo(com.netflix.appinfo.DataCenterInfo)",14012,1.1406707912732008
+"public int com.netflix.appinfo.PropertiesInstanceConfig.getLeaseExpirationDurationInSeconds()",4382,0.3567241940735917
+"java.lang.String[1]",6,4.884402474763921E-4
+"java.lang.String[2]",11,8.954737870400521E-4
+"java.lang.String[3]",118,0.009605991533702377
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setStatus(com.netflix.appinfo.InstanceInfo$InstanceStatus)",2539,0.20669163139042657
+"SECURE",2391,0.19464343861934225
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getHomePageUrl()",645,0.05250732660371214
+"ADDED",2657,0.21629762292412893
+"public java.lang.String com.netflix.appinfo.AbstractInstanceConfig.getHostName(boolean)",690,0.056170628459785085
+"public void com.netflix.appinfo.InstanceInfo.setSID(java.lang.String)",2722,0.22158905893845654
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setSecureVIPAddressDeser(java.lang.String)",3496,0.2845978508629111
+"public void com.netflix.appinfo.InstanceInfo.setIsCoordinatingDiscoveryServer()",1089,0.08865190491696516
+"UNKNOWN",1533,0.12479648323021816
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getASGName()",1071,0.08718658417453598
+"DELETED",13433,1.093536307391729
+"public int com.netflix.appinfo.PropertiesInstanceConfig.getLeaseRenewalIntervalInSeconds()",2159,0.17575708238358842
+"com.netflix.appinfo.MyDataCenterInstanceConfig()",6007,0.4890100944317812
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getSID()",2205,0.17950179094757407
+"com.netflix.appinfo.MyDataCenterInstanceConfig(java.lang.String, com.netflix.appinfo.DataCenterInfo)",2136,0.17388472810159558
+"com.netflix.appinfo.MyDataCenterInstanceConfig(java.lang.String)",817,0.06650928036470205
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setStatusPageUrl(java.lang.String,java.lang.String)",328,0.026701400195376097
+"public void com.netflix.appinfo.InstanceInfo.setLastUpdatedTimestamp()",1866,0.15190491696515793
+"public java.util.Set com.netflix.appinfo.InstanceInfo.getHealthCheckUrls()",816,0.06642787365678932
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getASGName()",3271,0.2662813415825464
+"public com.netflix.appinfo.DataCenterInfo com.netflix.appinfo.AbstractInstanceConfig.getDataCenterInfo()",3365,0.2739335721263432
+"public static com.netflix.appinfo.ApplicationInfoManager com.netflix.appinfo.ApplicationInfoManager.getInstance()",357,0.029062194724845326
+"public static java.lang.String com.netflix.appinfo.InstanceInfo.getZone(java.lang.String[],com.netflix.appinfo.InstanceInfo)",376,0.030608922175187236
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setVIPAddressDeser(java.lang.String)",1277,0.10395636600455878
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setASGName(java.lang.String)",1340,0.10908498860306089
+"UNSECURE",210,0.017095408661673722
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getSecureVirtualHostName()",1993,0.1622435688700749
+"public java.util.Map com.netflix.appinfo.InstanceInfo.getMetadata()",1293,0.10525887333116249
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getAppName()",1028,0.08368609573428851
+"STARTING",4,3.2562683165092806E-4
+"UP",139,0.01131553239986975
+"public void com.netflix.appinfo.ApplicationInfoManager.registerAppMetadata(java.util.Map)",351,0.028573754477368936
+"public com.netflix.appinfo.InstanceInfo com.netflix.appinfo.ApplicationInfoManager.getInfo()",1358,0.11055030934549007
+"public static com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.newBuilder()",35273,2.871458808205796
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setVIPAddress(java.lang.String)",1189,0.09679257570823836
+"public int com.netflix.appinfo.PropertiesInstanceConfig.getNonSecurePort()",2764,0.22500814067079128
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getIPAddr()",1302,0.10599153370237707
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getAppGroupName()",820,0.06675350048844025
+"public int com.netflix.appinfo.InstanceInfo.getSecurePort()",804,0.06545099316183653
+"public boolean com.netflix.appinfo.InstanceInfo$Builder.isInitialized()",470,0.038261152718984046
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getHealthCheckUrl()",564,0.045913383262780855
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getSecureVipAddress()",1268,0.10322370563334418
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getAppGroupName()",811,0.06602084011722566
+"public java.lang.String com.netflix.appinfo.PropertiesInstanceConfig.getIpAddress()",1652,0.13448388147183327
+"public com.netflix.appinfo.InstanceInfo$Builder com.netflix.appinfo.InstanceInfo$Builder.setAppGroupName(java.lang.String)",4833,0.3934386193422338
+"public java.lang.String com.netflix.appinfo.InstanceInfo.getHomePageUrl()",1967,0.16012699446434386
+"public void com.netflix.appinfo.InstanceInfo.setActionType(com.netflix.appinfo.InstanceInfo$ActionType)",3061,0.24918593292087268

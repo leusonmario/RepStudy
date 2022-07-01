@@ -1,0 +1,4 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.lang.Object()",1,0.5
+"public final native java.lang.Class java.lang.Object.getClass()",1,0.5
+"cuke4duke.internal.java.JavaLanguage(cuke4duke.internal.language.LanguageMixin)",1,0.5

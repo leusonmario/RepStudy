@@ -1,0 +1,2 @@
+org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior
+org.activiti.engine.impl.persistence.entity.ExecutionEntity

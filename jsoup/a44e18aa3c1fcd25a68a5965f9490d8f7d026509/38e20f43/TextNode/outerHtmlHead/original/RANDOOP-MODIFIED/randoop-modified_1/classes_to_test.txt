@@ -1,0 +1,2 @@
+org.jsoup.nodes.TextNode
+org.jsoup.nodes.Document$OutputSettings

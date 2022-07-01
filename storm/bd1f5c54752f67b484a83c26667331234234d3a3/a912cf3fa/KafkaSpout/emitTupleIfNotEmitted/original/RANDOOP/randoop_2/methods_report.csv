@@ -1,0 +1,24 @@
+Methods called,Number of times,Number of times (Normalized)
+"public java.util.Optional org.apache.kafka.clients.consumer.ConsumerRecord.leaderEpoch()",11105,0.8797433256753545
+"public long org.apache.kafka.clients.consumer.ConsumerRecord.checksum()",8248,0.6534104412580211
+"public int org.apache.kafka.clients.consumer.ConsumerRecord.partition()",14560,1.153450051493306
+"public static final int org.apache.kafka.clients.consumer.ConsumerRecord.NULL_SIZE",1,7.922047056959519E-5
+"public long org.apache.kafka.clients.consumer.ConsumerRecord.timestamp()",11413,0.9041432306107898
+"public java.lang.String org.apache.kafka.clients.consumer.ConsumerRecord.topic()",13233,1.048324487047453
+"public java.lang.Object org.apache.kafka.clients.consumer.ConsumerRecord.value()",9125,0.7228867939475561
+"public static final int org.apache.kafka.clients.consumer.ConsumerRecord.NULL_CHECKSUM",1,7.922047056959519E-5
+"public org.apache.kafka.common.record.TimestampType org.apache.kafka.clients.consumer.ConsumerRecord.timestampType()",28471,2.2554860175869447
+"public java.lang.String org.apache.kafka.clients.consumer.ConsumerRecord.toString()",7386,0.5851223956270301
+"public java.lang.Object org.apache.kafka.clients.consumer.ConsumerRecord.key()",8896,0.7047453061871187
+"public int org.apache.kafka.clients.consumer.ConsumerRecord.serializedKeySize()",7252,0.5745068525707042
+"org.apache.kafka.clients.consumer.ConsumerRecord(java.lang.String, int, long, long, org.apache.kafka.common.record.TimestampType, long, int, int, java.lang.Object, java.lang.Object)",5323,0.42169056484195516
+"org.apache.kafka.clients.consumer.ConsumerRecord(java.lang.String, int, long, java.lang.Object, java.lang.Object)",32518,2.5760912619820964
+"org.apache.kafka.clients.consumer.ConsumerRecord(java.lang.String, int, long, long, org.apache.kafka.common.record.TimestampType, java.lang.Long, int, int, java.lang.Object, java.lang.Object, org.apache.kafka.common.header.Headers)",2243,0.177691515487602
+"org.apache.kafka.clients.consumer.ConsumerRecord(java.lang.String, int, long, long, org.apache.kafka.common.record.TimestampType, java.lang.Long, int, int, java.lang.Object, java.lang.Object, org.apache.kafka.common.header.Headers, java.util.Optional)",2099,0.1662837677255803
+"public org.apache.kafka.common.header.Headers org.apache.kafka.clients.consumer.ConsumerRecord.headers()",12645,1.0017428503525312
+"public final native java.lang.Class java.lang.Object.getClass()",4525,0.3584726293274182
+"java.lang.Object()",1,7.922047056959519E-5
+"public static final long org.apache.kafka.clients.consumer.ConsumerRecord.NO_TIMESTAMP",1,7.922047056959519E-5
+"public int org.apache.kafka.clients.consumer.ConsumerRecord.serializedValueSize()",17168,1.36005703873881
+"public long org.apache.kafka.clients.consumer.ConsumerRecord.offset()",13523,1.0712984235126357
+"org.apache.storm.kafka.spout.KafkaSpout(org.apache.storm.kafka.spout.KafkaSpoutConfig)",196,0.015527212231640657

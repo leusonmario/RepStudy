@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration$HdpiMode,10222,2,0.3602720896627075,7.048954992422373E-5
+class java.lang.Class,3213,2,0.11324146195326543,7.048954992422373E-5
+class com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration,42356,24072,1.4928276882952103,0.8484122228879568

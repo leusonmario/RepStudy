@@ -1,0 +1,105 @@
+2021-11-01 06:08:36:600 0    [main] FATAL   - 100.0
+2021-11-01 06:08:36:617 17   [main] FATAL   - 100.0
+2021-11-01 06:08:36:651 51   [main] FATAL   - 100.0
+2021-11-01 06:08:36:689 89   [main] FATAL   - 100.0
+2021-11-01 06:08:36:719 119  [main] FATAL   - 100.0
+2021-11-01 06:08:36:751 151  [main] FATAL   - 100.0
+2021-11-01 06:08:36:782 182  [main] FATAL   - 100.0
+2021-11-01 06:08:36:797 197  [main] FATAL   - 100.0
+2021-11-01 06:08:36:815 215  [main] FATAL   - 100.0
+2021-11-01 06:08:36:849 249  [main] FATAL   - 100.0
+2021-11-01 06:08:36:907 307  [main] FATAL   - 100.0
+2021-11-01 06:08:36:924 324  [main] FATAL   - 100.0
+2021-11-01 06:08:36:924 324  [main] INFO    - io.cloudslang.lang.api.SlangImpl@4feb580
+2021-11-01 06:08:36:957 357  [main] FATAL   - 100.0
+2021-11-01 06:08:36:982 382  [main] FATAL   - 10.0
+2021-11-01 06:31:18:765 0    [main] FATAL   - 100.0
+2021-11-01 06:31:18:768 3    [main] FATAL   - 100.0
+2021-11-01 06:32:35:849 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:32:35:859 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:32:35:879 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:32:35:880 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:32:37:719 0    [main] FATAL   - 100.0
+2021-11-01 06:32:37:722 3    [main] FATAL   - 100.0
+2021-11-01 06:33:58:635 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:33:58:644 9    [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:33:58:665 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:33:58:665 30   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:34:00:510 0    [main] FATAL   - 100.0
+2021-11-01 06:34:00:513 3    [main] FATAL   - 100.0
+2021-11-01 06:35:18:330 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:35:18:340 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:35:18:361 31   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:35:18:362 32   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:35:20:178 0    [main] FATAL   - 100.0
+2021-11-01 06:35:20:181 3    [main] FATAL   - 100.0
+2021-11-01 06:36:41:673 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:36:41:682 9    [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:36:41:703 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@48140564
+2021-11-01 06:36:41:704 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:36:43:539 0    [main] FATAL   - 100.0
+2021-11-01 06:36:43:542 3    [main] FATAL   - 100.0
+2021-11-01 06:38:03:708 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:38:03:718 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:38:03:738 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@48140564
+2021-11-01 06:38:03:739 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:38:05:540 0    [main] FATAL   - 100.0
+2021-11-01 06:38:05:543 3    [main] FATAL   - 100.0
+2021-11-01 06:39:25:131 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:39:25:141 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:39:25:162 31   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@48140564
+2021-11-01 06:39:25:163 32   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:39:26:999 0    [main] FATAL   - 100.0
+2021-11-01 06:39:27:002 3    [main] FATAL   - 100.0
+2021-11-01 06:40:40:598 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:40:40:608 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:40:40:627 29   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:40:40:628 30   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:40:42:491 0    [main] FATAL   - 100.0
+2021-11-01 06:40:42:494 3    [main] FATAL   - 100.0
+2021-11-01 06:41:56:784 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:41:56:794 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:41:56:814 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:41:56:814 30   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:41:58:652 0    [main] FATAL   - 100.0
+2021-11-01 06:41:58:655 3    [main] FATAL   - 100.0
+2021-11-01 06:43:13:934 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:43:13:944 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:43:13:964 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:43:13:965 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:43:15:813 0    [main] FATAL   - 100.0
+2021-11-01 06:43:15:816 3    [main] FATAL   - 100.0
+2021-11-01 06:44:32:874 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:44:32:884 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:44:32:905 31   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:44:32:906 32   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:44:34:735 1    [main] FATAL   - 100.0
+2021-11-01 06:44:34:737 3    [main] FATAL   - 100.0
+2021-11-01 06:45:55:034 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:45:55:044 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:45:55:064 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:45:55:065 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 06:45:56:905 0    [main] FATAL   - 100.0
+2021-11-01 06:45:56:908 3    [main] FATAL   - 100.0
+2021-11-01 06:47:14:003 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 06:47:14:013 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 06:47:14:033 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@3f3afe78
+2021-11-01 06:47:14:034 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 07:49:50:376 0    [main] FATAL   - 100.0
+2021-11-01 07:49:50:380 4    [main] FATAL   - 100.0
+2021-11-01 07:51:04:124 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 07:51:04:134 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 07:51:04:155 31   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@2f7a2457
+2021-11-01 07:51:04:155 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 07:51:06:038 0    [main] FATAL   - 100.0
+2021-11-01 07:51:06:041 3    [main] FATAL   - 100.0
+2021-11-01 07:52:18:453 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 07:52:18:463 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 07:52:18:483 30   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@2f7a2457
+2021-11-01 07:52:18:484 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 
+2021-11-01 07:52:20:322 0    [main] FATAL   - 100.0
+2021-11-01 07:52:20:325 3    [main] FATAL   - 100.0
+2021-11-01 07:53:33:549 0    [main] ERROR root  - org.apache.log4j.spi.RootLogger
+2021-11-01 07:53:33:559 10   [main] ERROR root  - org.apache.log4j.Logger
+2021-11-01 07:53:33:580 31   [main] WARN  org.apache.log4j.Level  - io.cloudslang.lang.api.SlangImpl@2f7a2457
+2021-11-01 07:53:33:580 31   [main] ERROR org.apache.log4j.spi.RootLogger  - 

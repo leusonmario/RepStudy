@@ -1,0 +1,12 @@
+Methods called,Number of times,Number of times (Normalized)
+"org.webbitserver.netty.WebSocketClient$HandshakeChannelHandler(org.webbitserver.netty.WebSocketClient, [B)",19532,0.9998976144158902
+"org.webbitserver.netty.WebSocketClient$HandshakeChannelHandler(org.webbitserver.netty.WebSocketClient)",1,5.1192792054878675E-5
+"byte[0]",1,5.1192792054878675E-5
+"byte[5]",3125,0.15997747517149585
+"byte[6]",15625,0.7998873758574793
+"java.lang.Object()",1,5.1192792054878675E-5
+"public final native java.lang.Class java.lang.Object.getClass()",1,5.1192792054878675E-5
+"byte[1]",5,2.5596396027439337E-4
+"byte[2]",25,0.0012798198013719668
+"byte[3]",125,0.006399099006859834
+"byte[4]",625,0.03199549503429917

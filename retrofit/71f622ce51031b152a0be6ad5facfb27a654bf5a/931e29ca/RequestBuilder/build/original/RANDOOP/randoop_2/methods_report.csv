@@ -1,0 +1,10 @@
+Methods called,Number of times,Number of times (Normalized)
+"public java.lang.String retrofit.client.Request.getUrl()",30217,1.554292474666941
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",13565,0.6977521732421171
+"retrofit.client.Request(java.lang.String, java.lang.String, java.util.List, retrofit.mime.TypedOutput)",83516,4.295869554035286
+"public final native java.lang.Class java.lang.Object.getClass()",6761,0.3477701764312535
+"retrofit.client.Header[0]",13565,0.6977521732421171
+"public java.lang.String retrofit.client.Request.getMethod()",27179,1.398024792963325
+"public retrofit.mime.TypedOutput retrofit.client.Request.getBody()",37026,1.9045316598940383
+"java.util.ArrayList()",13565,0.6977521732421171
+"public java.util.List retrofit.client.Request.getHeaders()",46572,2.395555784167481

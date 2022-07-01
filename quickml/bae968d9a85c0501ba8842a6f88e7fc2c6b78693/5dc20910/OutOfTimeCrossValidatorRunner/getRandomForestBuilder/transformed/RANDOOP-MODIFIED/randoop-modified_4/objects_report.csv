@@ -1,0 +1,5 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Object,1,1,0.0027397260273972603,0.0027397260273972603
+class java.lang.Class,363,3,0.9945205479452055,0.00821917808219178
+class quickdt.predictiveModels.randomForest.RandomForestBuilder,361,361,0.989041095890411,0.989041095890411
+class quickdt.experiments.OutOfTimeCrossValidatorRunner,1,1,0.0027397260273972603,0.0027397260273972603
