@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.slf4j.helpers.NOPLogger,1,1,9.250693802035152E-5,9.250693802035152E-5
+class me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration,59392,4,5.494172062904718,3.700277520814061E-4
+class java.util.HashMap,71347,4,6.6000925069380205,3.700277520814061E-4
+class me.prettyprint.cassandra.connection.client.HSaslThriftClient$2,1,1,9.250693802035152E-5,9.250693802035152E-5
+class sun.security.provider.ConfigFile,1,1,9.250693802035152E-5,9.250693802035152E-5
+class java.lang.Class,1787,5,0.16530989824236816,4.6253469010175765E-4
+class [Ljavax.security.auth.login.AppConfigurationEntry;,9094,9094,0.8412580943570768,0.8412580943570768

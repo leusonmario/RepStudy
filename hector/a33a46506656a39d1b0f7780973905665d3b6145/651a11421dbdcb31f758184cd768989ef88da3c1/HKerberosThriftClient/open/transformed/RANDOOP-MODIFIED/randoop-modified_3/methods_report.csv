@@ -1,0 +1,188 @@
+Methods called,Number of times,Number of times (Normalized)
+"public java.util.Set javax.security.auth.Subject.getPublicCredentials()",1196,0.05878883208808494
+"public org.apache.thrift.protocol.TProtocol org.apache.thrift.TServiceClient.getOutputProtocol()",40344,1.9830908375933936
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_system_add_keyspace() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",101,0.004964608729846638
+"public byte java.lang.Number.byteValue()",174,0.008552890287062525
+"public org.apache.cassandra.thrift.CqlResult org.apache.cassandra.thrift.Cassandra$Client.recv_execute_cql_query() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",91,0.004473063311049941
+"public void org.apache.cassandra.thrift.Cassandra$Client.set_cql_version(java.lang.String) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",197,0.009683444750294928
+"java.security.Principal[0]",10288,0.5057019268580417
+"public final long java.util.concurrent.atomic.AtomicLong.getAndAdd(long)",512,0.025167125442390876
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_set_keyspace() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",83,0.004079826976012583
+"public static javax.security.auth.Subject javax.security.auth.Subject.getSubject(java.security.AccessControlContext)",1,4.915454187966968E-5
+"public java.util.Set javax.security.auth.Subject.getPrivateCredentials()",1577,0.07751671254423909
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_system_drop_column_family(java.lang.String) throws org.apache.thrift.TException",187,0.00919189933149823
+"public final long java.util.concurrent.atomic.AtomicLong.getAndAccumulate(long,java.util.function.LongBinaryOperator)",196,0.009634290208415257
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.system_drop_keyspace(java.lang.String) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",201,0.009880062917813607
+"public final long java.util.concurrent.atomic.AtomicLong.incrementAndGet()",2214,0.10882815572158867
+"public java.util.Map org.apache.cassandra.thrift.Cassandra$Client.multiget_count(java.util.List,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",105,0.005161226897365316
+"public java.util.Map org.apache.cassandra.thrift.Cassandra$Client.recv_describe_schema_versions() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",85,0.004178136059771923
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_system_update_keyspace(org.apache.cassandra.thrift.KsDef) throws org.apache.thrift.TException",110,0.005406999606763665
+"java.nio.ByteBuffer[0]",749,0.03681675186787259
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_partitioner() throws org.apache.thrift.TException",100,0.004915454187966968
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_cluster_name() throws org.apache.thrift.TException",91,0.004473063311049941
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_insert(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.Column,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",99,0.004866299646087298
+"public int me.prettyprint.cassandra.service.CassandraHost.getMaxFrameSize()",381,0.018727880456154148
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.recv_describe_splits() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",97,0.004767990562327959
+"me.prettyprint.cassandra.service.CassandraHost(java.lang.String)",2249,0.11054856468737712
+"me.prettyprint.cassandra.service.CassandraHost(java.lang.String, int)",3325,0.1634388517499017
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_insert() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",100,0.004915454187966968
+"public void org.apache.cassandra.thrift.Cassandra$Client.remove_counter(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnPath,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",101,0.004964608729846638
+"public int org.apache.cassandra.thrift.Cassandra$Client.recv_get_count() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",90,0.004423908769170272
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_system_update_column_family(org.apache.cassandra.thrift.CfDef) throws org.apache.thrift.TException",88,0.004325599685410932
+"public void org.apache.cassandra.thrift.Cassandra$Client.insert(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.Column,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",96,0.0047188360204482895
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_ring(java.lang.String) throws org.apache.thrift.TException",191,0.009388517499016908
+"public java.lang.String java.util.concurrent.atomic.AtomicLong.toString()",592,0.02909948879276445
+"public final long java.util.concurrent.atomic.AtomicLong.getAndUpdate(java.util.function.LongUnaryOperator)",180,0.008847817538340543
+"public void org.apache.cassandra.thrift.Cassandra$Client.login(org.apache.cassandra.thrift.AuthenticationRequest) throws org.apache.cassandra.thrift.AuthenticationException,org.apache.cassandra.thrift.AuthorizationException,org.apache.thrift.TException",106,0.005210381439244986
+"public final long java.util.concurrent.atomic.AtomicLong.getAndDecrement()",489,0.024036570979158473
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_describe_snitch() throws org.apache.thrift.TException",104,0.005112072355485647
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_schema_versions() throws org.apache.thrift.TException",84,0.004128981517892253
+"public final void java.util.concurrent.atomic.AtomicLong.set(long)",610,0.029984270546598506
+"public boolean me.prettyprint.cassandra.service.CassandraHost.getLifo()",407,0.02000589854502556
+"public boolean me.prettyprint.cassandra.service.CassandraHost.equals(java.lang.Object)",1311,0.06444160440424695
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_set_keyspace(java.lang.String) throws org.apache.thrift.TException",206,0.010125835627211954
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.describe_cluster_name() throws org.apache.thrift.TException",94,0.00462052693668895
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_system_drop_keyspace() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",103,0.005062917813605977
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_get_count(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",82,0.0040306724341329135
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_prepare_cql_query(java.nio.ByteBuffer,org.apache.cassandra.thrift.Compression) throws org.apache.thrift.TException",107,0.0052595359811246556
+"public void org.apache.cassandra.thrift.Cassandra$Client.add(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.CounterColumn,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",102,0.005013763271726307
+"public org.apache.cassandra.thrift.CqlResult org.apache.cassandra.thrift.Cassandra$Client.recv_execute_prepared_cql_query() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",90,0.004423908769170272
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.system_update_keyspace(org.apache.cassandra.thrift.KsDef) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",100,0.004915454187966968
+"public boolean javax.security.auth.Subject.isReadOnly()",3092,0.15198584349193867
+"public org.apache.cassandra.thrift.CqlResult org.apache.cassandra.thrift.Cassandra$Client.execute_cql_query(java.nio.ByteBuffer,org.apache.cassandra.thrift.Compression) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",90,0.004423908769170272
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_login() throws org.apache.cassandra.thrift.AuthenticationException,org.apache.cassandra.thrift.AuthorizationException,org.apache.thrift.TException",91,0.004473063311049941
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_remove_counter(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnPath,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",94,0.00462052693668895
+"public java.util.Map org.apache.cassandra.thrift.Cassandra$Client.recv_multiget_slice() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",94,0.00462052693668895
+"public final void java.util.concurrent.atomic.AtomicLong.lazySet(long)",603,0.029640188753440818
+"public static final java.lang.String me.prettyprint.cassandra.connection.client.HThriftClient.NAME_FORMAT",1,4.915454187966968E-5
+"public void org.apache.cassandra.thrift.Cassandra$Client.set_keyspace(java.lang.String) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",185,0.00909359024773889
+"public static java.lang.String me.prettyprint.cassandra.service.CassandraHost.parseHostFromUrl(java.lang.String)",119,0.005849390483680692
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_snitch() throws org.apache.thrift.TException",99,0.004866299646087298
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_execute_prepared_cql_query(int,java.util.List) throws org.apache.thrift.TException",211,0.010371608336610303
+"java.util.ArrayList()",749,0.03681675186787259
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.describe_keyspaces() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",103,0.005062917813605977
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_remove() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",100,0.004915454187966968
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_set_cql_version(java.lang.String) throws org.apache.thrift.TException",159,0.00781557215886748
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_multiget_slice(java.util.List,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",99,0.004866299646087298
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_add(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.CounterColumn,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",92,0.004522217852929611
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_system_drop_column_family() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",82,0.0040306724341329135
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_keyspace(java.lang.String) throws org.apache.thrift.TException",200,0.009830908375933936
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.get_paged_slice(java.lang.String,org.apache.cassandra.thrift.KeyRange,java.nio.ByteBuffer,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",179,0.008798662996460873
+"public static final boolean me.prettyprint.cassandra.service.CassandraHost.DEFAULT_LIFO",1,4.915454187966968E-5
+"public final native java.lang.Class java.lang.Object.getClass()",183,0.008995281163979551
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.get_slice(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",99,0.004866299646087298
+"java.util.LinkedHashSet()",10288,0.5057019268580417
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.describe_version() throws org.apache.thrift.TException",87,0.004276445143531263
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_login(org.apache.cassandra.thrift.AuthenticationRequest) throws org.apache.thrift.TException",95,0.00466968147856862
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_truncate(java.lang.String) throws org.apache.thrift.TException",184,0.009044435705859222
+"public void me.prettyprint.cassandra.service.CassandraHost.setMaxFrameSize(int)",519,0.025511207235548564
+"public java.util.Set javax.security.auth.Subject.getPrincipals()",8677,0.4265139598898938
+"public org.apache.cassandra.thrift.CqlResult org.apache.cassandra.thrift.Cassandra$Client.execute_prepared_cql_query(int,java.util.List) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",190,0.00933936295713724
+"public void org.apache.cassandra.thrift.Cassandra$Client.remove(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnPath,long,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",207,0.010174990169091624
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_get_indexed_slices(org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.IndexClause,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",96,0.0047188360204482895
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.system_update_column_family(org.apache.cassandra.thrift.CfDef) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",96,0.0047188360204482895
+"public static final java.util.concurrent.atomic.AtomicLong me.prettyprint.cassandra.connection.client.HThriftClient.serial",43,0.0021136453008257965
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.recv_get_paged_slice() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",93,0.0045713723948092805
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_describe_partitioner() throws org.apache.thrift.TException",92,0.004522217852929611
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.system_drop_column_family(java.lang.String) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",180,0.008847817538340543
+"java.util.concurrent.atomic.AtomicLong()",1886,0.09270546598505702
+"java.util.concurrent.atomic.AtomicLong(long)",2504,0.12308297286669288
+"public void org.apache.cassandra.thrift.Cassandra$Client.batch_mutate(java.util.Map,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",89,0.004374754227290602
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_remove(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnPath,long,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",217,0.010666535587888321
+"public static int me.prettyprint.cassandra.service.CassandraHost.parsePortFromUrl(java.lang.String)",112,0.005505308690523005
+"public int java.util.concurrent.atomic.AtomicLong.intValue()",696,0.0342115611482501
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_system_update_keyspace() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",88,0.004325599685410932
+"public void org.apache.cassandra.thrift.Cassandra$Client.truncate(java.lang.String) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",182,0.008946126622099882
+"public org.apache.thrift.protocol.TProtocol org.apache.thrift.TServiceClient.getInputProtocol()",28882,1.4196814785686198
+"public boolean javax.security.auth.Subject.equals(java.lang.Object)",1907,0.09373771136453009
+"public double java.util.concurrent.atomic.AtomicLong.doubleValue()",2379,0.11693865513173417
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.recv_describe_keyspaces() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",98,0.004817145104207629
+"org.apache.cassandra.thrift.Cassandra$Client(org.apache.thrift.protocol.TProtocol, org.apache.thrift.protocol.TProtocol)",8131,0.39967558002359416
+"org.apache.cassandra.thrift.Cassandra$Client(org.apache.thrift.protocol.TProtocol)",4059,0.19951828548957923
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.recv_get_range_slices() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",103,0.005062917813605977
+"public java.lang.String me.prettyprint.cassandra.service.CassandraHost.getName()",478,0.023495871018482106
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_system_add_column_family() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",103,0.005062917813605977
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_get_slice(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",95,0.00466968147856862
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_system_update_column_family() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",105,0.005161226897365316
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.get_indexed_slices(org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.IndexClause,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",93,0.0045713723948092805
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_get_range_slices(org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.KeyRange,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",105,0.005161226897365316
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.describe_snitch() throws org.apache.thrift.TException",95,0.00466968147856862
+"public void me.prettyprint.cassandra.service.CassandraHost.setCassandraThriftSocketTimeout(int)",1214,0.05967361384191899
+"public final long java.util.concurrent.atomic.AtomicLong.getAndIncrement()",770,0.03784899724734565
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_splits(java.lang.String,java.lang.String,java.lang.String,int) throws org.apache.thrift.TException",185,0.00909359024773889
+"public static final boolean me.prettyprint.cassandra.service.CassandraHost.DEFAULT_USE_FRAMED_THRIFT_TRANSPORT",1,4.915454187966968E-5
+"public boolean me.prettyprint.cassandra.service.CassandraHost.getUseSocketKeepalive()",1056,0.05190719622493118
+"public final long java.util.concurrent.atomic.AtomicLong.updateAndGet(java.util.function.LongUnaryOperator)",172,0.008454581203303186
+"public final long java.util.concurrent.atomic.AtomicLong.decrementAndGet()",382,0.018777034998033817
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_batch_mutate() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",109,0.005357845064883996
+"public org.apache.cassandra.thrift.CqlPreparedResult org.apache.cassandra.thrift.Cassandra$Client.recv_prepare_cql_query() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",99,0.004866299646087298
+"public java.lang.String me.prettyprint.cassandra.service.CassandraHost.getHost()",595,0.02924695241840346
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.describe_partitioner() throws org.apache.thrift.TException",95,0.00466968147856862
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.system_add_keyspace(org.apache.cassandra.thrift.KsDef) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",98,0.004817145104207629
+"me.prettyprint.cassandra.connection.client.HKerberosThriftClient(javax.security.auth.Subject, me.prettyprint.cassandra.service.CassandraHost, java.lang.String)",1559,0.07663193079040503
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_system_add_column_family(org.apache.cassandra.thrift.CfDef) throws org.apache.thrift.TException",102,0.005013763271726307
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_execute_cql_query(java.nio.ByteBuffer,org.apache.cassandra.thrift.Compression) throws org.apache.thrift.TException",93,0.0045713723948092805
+"public final boolean java.util.concurrent.atomic.AtomicLong.compareAndSet(long,long)",1309,0.06434329532048762
+"public java.util.Map org.apache.cassandra.thrift.Cassandra$Client.recv_multiget_count() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",85,0.004178136059771923
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",11037,0.5425186787259143
+"public org.apache.cassandra.thrift.ColumnOrSuperColumn org.apache.cassandra.thrift.Cassandra$Client.recv_get() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.NotFoundException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",97,0.004767990562327959
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.get_range_slices(org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.KeyRange,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",98,0.004817145104207629
+"public int me.prettyprint.cassandra.service.CassandraHost.getMaxActive()",779,0.03829138812426268
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_system_drop_keyspace(java.lang.String) throws org.apache.thrift.TException",189,0.009290208415257569
+"public static final int me.prettyprint.cassandra.service.CassandraHost.DEFAULT_MAX_FRAME_SIZE",1,4.915454187966968E-5
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_truncate() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",89,0.004374754227290602
+"public int me.prettyprint.cassandra.service.CassandraHost.getPort()",606,0.029787652379079828
+"public int me.prettyprint.cassandra.service.CassandraHost.getCassandraThriftSocketTimeout()",664,0.032638615808100666
+"public final boolean java.util.concurrent.atomic.AtomicLong.weakCompareAndSet(long,long)",991,0.048712151002752654
+"public java.util.Map org.apache.cassandra.thrift.Cassandra$Client.multiget_slice(java.util.List,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",98,0.004817145104207629
+"public java.lang.String me.prettyprint.cassandra.service.CassandraHost.toString()",443,0.021775462052693668
+"public void me.prettyprint.cassandra.service.CassandraHost.setUseThriftFramedTransport(boolean)",366,0.017990562327959102
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_describe_version() throws org.apache.thrift.TException",97,0.004767990562327959
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_batch_mutate(java.util.Map,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",95,0.00466968147856862
+"public void javax.security.auth.Subject.setReadOnly()",2013,0.09894809280377508
+"public void me.prettyprint.cassandra.service.CassandraHost.setLifo(boolean)",446,0.021922925678332678
+"public java.lang.String me.prettyprint.cassandra.service.CassandraHost.getIp()",625,0.030721588674793552
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.recv_get_slice() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",87,0.004276445143531263
+"public final long java.util.concurrent.atomic.AtomicLong.get()",461,0.022660243806527723
+"public final long java.util.concurrent.atomic.AtomicLong.getAndSet(long)",947,0.04654935116004719
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.recv_describe_cluster_name() throws org.apache.thrift.TException",95,0.00466968147856862
+"public java.lang.String org.apache.cassandra.thrift.Cassandra$Client.system_add_column_family(org.apache.cassandra.thrift.CfDef) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.SchemaDisagreementException,org.apache.thrift.TException",89,0.004374754227290602
+"public org.apache.cassandra.thrift.CqlPreparedResult org.apache.cassandra.thrift.Cassandra$Client.prepare_cql_query(java.nio.ByteBuffer,org.apache.cassandra.thrift.Compression) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",97,0.004767990562327959
+"public final long java.util.concurrent.atomic.AtomicLong.accumulateAndGet(long,java.util.function.LongBinaryOperator)",194,0.009535981124655918
+"public org.apache.cassandra.thrift.KsDef org.apache.cassandra.thrift.Cassandra$Client.describe_keyspace(java.lang.String) throws org.apache.cassandra.thrift.NotFoundException,org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",182,0.008946126622099882
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_add() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",99,0.004866299646087298
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_remove_counter() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",96,0.0047188360204482895
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.recv_describe_ring() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",103,0.005062917813605977
+"public long java.util.concurrent.atomic.AtomicLong.longValue()",625,0.030721588674793552
+"public void me.prettyprint.cassandra.service.CassandraHost.setMaxWaitTimeWhenExhausted(long)",593,0.02914864333464412
+"public void me.prettyprint.cassandra.service.CassandraHost.setUseSocketKeepalive(boolean)",1010,0.049646087298466375
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_keyspaces() throws org.apache.thrift.TException",91,0.004473063311049941
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_get(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnPath,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",93,0.0045713723948092805
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.describe_splits(java.lang.String,java.lang.String,java.lang.String,int) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",214,0.010519071962249311
+"public java.util.Map org.apache.cassandra.thrift.Cassandra$Client.describe_schema_versions() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",93,0.0045713723948092805
+"public static final int me.prettyprint.cassandra.service.CassandraHost.DEFAULT_PORT",1,4.915454187966968E-5
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_system_add_keyspace(org.apache.cassandra.thrift.KsDef) throws org.apache.thrift.TException",95,0.00466968147856862
+"public static org.slf4j.Logger me.prettyprint.cassandra.connection.client.HKerberosThriftClient.log",14,6.881635863153756E-4
+"public static org.slf4j.Logger me.prettyprint.cassandra.connection.client.HKerberosThriftClient.log",7,3.440817931576878E-4
+"public short java.lang.Number.shortValue()",155,0.0076189539913488
+"public boolean me.prettyprint.cassandra.service.CassandraHost.getUseThriftFramedTransport()",657,0.032294534014942984
+"public final long java.util.concurrent.atomic.AtomicLong.addAndGet(long)",527,0.02590444357058592
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.describe_ring(java.lang.String) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",189,0.009290208415257569
+"public java.lang.String javax.security.auth.Subject.toString()",3920,0.19268580416830516
+"public boolean me.prettyprint.cassandra.service.CassandraHost.isPerformNameResolution()",503,0.02472473456547385
+"javax.security.auth.Subject()",8194,0.40277231616201337
+"javax.security.auth.Subject(boolean, java.util.Set, java.util.Set, java.util.Set)",8062,0.39628391663389695
+"public int org.apache.cassandra.thrift.Cassandra$Client.get_count(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",90,0.004423908769170272
+"public java.lang.String me.prettyprint.cassandra.service.CassandraHost.getUrl()",906,0.04453401494298073
+"public org.apache.cassandra.thrift.ColumnOrSuperColumn org.apache.cassandra.thrift.Cassandra$Client.get(java.nio.ByteBuffer,org.apache.cassandra.thrift.ColumnPath,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.NotFoundException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",89,0.004374754227290602
+"public java.util.List org.apache.cassandra.thrift.Cassandra$Client.recv_get_indexed_slices() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.cassandra.thrift.UnavailableException,org.apache.cassandra.thrift.TimedOutException,org.apache.thrift.TException",95,0.00466968147856862
+"public long me.prettyprint.cassandra.service.CassandraHost.getMaxWaitTimeWhenExhausted()",758,0.03725914274478962
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_describe_version() throws org.apache.thrift.TException",99,0.004866299646087298
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_multiget_count(java.util.List,org.apache.cassandra.thrift.ColumnParent,org.apache.cassandra.thrift.SlicePredicate,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",103,0.005062917813605977
+"public static final int me.prettyprint.cassandra.service.CassandraHost.DEFAULT_MAX_ACTIVE",1,4.915454187966968E-5
+"public void org.apache.cassandra.thrift.Cassandra$Client.send_get_paged_slice(java.lang.String,org.apache.cassandra.thrift.KeyRange,java.nio.ByteBuffer,org.apache.cassandra.thrift.ConsistencyLevel) throws org.apache.thrift.TException",190,0.00933936295713724
+"public float java.util.concurrent.atomic.AtomicLong.floatValue()",879,0.04320684231222965
+"public void me.prettyprint.cassandra.service.CassandraHost.setMaxActive(int)",569,0.02796893432953205
+"public static final long me.prettyprint.cassandra.service.CassandraHost.DEFAULT_MAX_WAITTIME_WHEN_EXHAUSTED",1,4.915454187966968E-5
+"public org.apache.cassandra.thrift.KsDef org.apache.cassandra.thrift.Cassandra$Client.recv_describe_keyspace() throws org.apache.cassandra.thrift.NotFoundException,org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",99,0.004866299646087298
+"public void org.apache.cassandra.thrift.Cassandra$Client.recv_set_cql_version() throws org.apache.cassandra.thrift.InvalidRequestException,org.apache.thrift.TException",101,0.004964608729846638

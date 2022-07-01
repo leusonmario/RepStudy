@@ -1,0 +1,7 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final java.lang.String me.prettyprint.cassandra.connection.client.HThriftClient.NAME_FORMAT",1,0.08333333333333333
+"public static org.slf4j.Logger me.prettyprint.cassandra.connection.client.HThriftClient.log",8,0.6666666666666666
+"public static org.slf4j.Logger me.prettyprint.cassandra.connection.client.HThriftClient.log",29,2.4166666666666665
+"public final native java.lang.Class java.lang.Object.getClass()",9,0.75
+"java.lang.Object()",1,0.08333333333333333
+"public static final java.util.concurrent.atomic.AtomicLong me.prettyprint.cassandra.connection.client.HThriftClient.serial",1,0.08333333333333333

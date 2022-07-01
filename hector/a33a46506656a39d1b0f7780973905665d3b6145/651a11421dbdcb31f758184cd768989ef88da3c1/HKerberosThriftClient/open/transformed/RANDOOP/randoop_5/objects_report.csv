@@ -1,0 +1,6 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,1,1,0.07692307692307693,0.07692307692307693
+class java.lang.Object,1,1,0.07692307692307693,0.07692307692307693
+class org.slf4j.helpers.NOPLogger,7,1,0.5384615384615384,0.07692307692307693
+class java.lang.Class,9,3,0.6923076923076923,0.23076923076923078
+class java.util.concurrent.atomic.AtomicLong,1,1,0.07692307692307693,0.07692307692307693

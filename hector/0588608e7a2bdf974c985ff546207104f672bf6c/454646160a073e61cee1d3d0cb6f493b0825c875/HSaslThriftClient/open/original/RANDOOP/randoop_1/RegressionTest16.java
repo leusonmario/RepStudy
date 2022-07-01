@@ -1,0 +1,13535 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest16 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test08001() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08001");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08002() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08002");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+    }
+
+    @Test
+    public void test08003() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08003");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray20 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray20);
+    }
+
+    @Test
+    public void test08004() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08004");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08005() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08005");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass13 = appConfigurationEntryArray12.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08006() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08006");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08007() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08007");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str11);
+    }
+
+    @Test
+    public void test08008() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08008");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08009() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08009");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+    }
+
+    @Test
+    public void test08010() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08010");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass12 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08011() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08011");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+    }
+
+    @Test
+    public void test08012() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08012");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass11 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test08013() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08013");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass16 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08014() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08014");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08015() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08015");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+    }
+
+    @Test
+    public void test08016() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08016");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass15 = appConfigurationEntryArray14.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08017() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08017");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08018() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08018");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters17);
+    }
+
+    @Test
+    public void test08019() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08019");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters8);
+    }
+
+    @Test
+    public void test08020() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08020");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNull(provider17);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08021() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08021");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass13 = appConfigurationEntryArray12.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08022() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08022");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test08023() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08023");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08024() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08024");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(provider16);
+    }
+
+    @Test
+    public void test08025() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08025");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test08026() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08026");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08027() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08027");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass12 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08028() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08028");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08029() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08029");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+    }
+
+    @Test
+    public void test08030() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08030");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNull(parameters18);
+    }
+
+    @Test
+    public void test08031() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08031");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08032() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08032");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08033() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08033");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08034() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08034");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str10);
+    }
+
+    @Test
+    public void test08035() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08035");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters19 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray21 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(provider17);
+        org.junit.Assert.assertNull(parameters19);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray21);
+    }
+
+    @Test
+    public void test08036() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08036");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+    }
+
+    @Test
+    public void test08037() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08037");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08038() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08038");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08039() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08039");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+    }
+
+    @Test
+    public void test08040() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08040");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass14 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08041() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08041");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08042() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08042");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08043() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08043");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters9);
+    }
+
+    @Test
+    public void test08044() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08044");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08045() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08045");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08046() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08046");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08047() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08047");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+    }
+
+    @Test
+    public void test08048() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08048");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08049() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08049");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08050() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08050");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass14 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08051() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08051");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08052() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08052");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08053() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08053");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08054() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08054");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(parameters17);
+    }
+
+    @Test
+    public void test08055() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08055");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(parameters17);
+    }
+
+    @Test
+    public void test08056() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08056");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08057() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08057");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08058() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08058");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass11 = appConfigurationEntryArray10.getClass();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test08059() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08059");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08060() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08060");
+        javax.security.auth.login.Configuration configuration0 = javax.security.auth.login.Configuration.getConfiguration();
+        javax.security.auth.login.Configuration.Parameters parameters1 = configuration0.getParameters();
+        configuration0.refresh();
+        configuration0.refresh();
+        configuration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        java.security.Provider provider6 = configuration0.getProvider();
+        java.security.Provider provider7 = configuration0.getProvider();
+        java.lang.String str8 = configuration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        org.junit.Assert.assertNotNull(configuration0);
+        org.junit.Assert.assertNull(parameters1);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+    }
+
+    @Test
+    public void test08061() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08061");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str19 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNull(str19);
+    }
+
+    @Test
+    public void test08062() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08062");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08063() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08063");
+        javax.security.auth.login.Configuration configuration0 = javax.security.auth.login.Configuration.getConfiguration();
+        javax.security.auth.login.Configuration.Parameters parameters1 = configuration0.getParameters();
+        configuration0.refresh();
+        configuration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters4 = configuration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = configuration0.getParameters();
+        configuration0.refresh();
+        java.security.Provider provider7 = configuration0.getProvider();
+        java.lang.String str8 = configuration0.getType();
+        java.security.Provider provider9 = configuration0.getProvider();
+        org.junit.Assert.assertNotNull(configuration0);
+        org.junit.Assert.assertNull(parameters1);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider9);
+    }
+
+    @Test
+    public void test08064() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08064");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+    }
+
+    @Test
+    public void test08065() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08065");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+    }
+
+    @Test
+    public void test08066() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08066");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(parameters15);
+    }
+
+    @Test
+    public void test08067() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08067");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08068() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08068");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+    }
+
+    @Test
+    public void test08069() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08069");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider7);
+    }
+
+    @Test
+    public void test08070() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08070");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08071() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08071");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08072() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08072");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+    }
+
+    @Test
+    public void test08073() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08073");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08074() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08074");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08075() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08075");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08076() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08076");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08077() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08077");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass12 = appConfigurationEntryArray11.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08078() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08078");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray22 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray22);
+    }
+
+    @Test
+    public void test08079() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08079");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass8 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(wildcardClass8);
+    }
+
+    @Test
+    public void test08080() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08080");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08081() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08081");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass11 = appConfigurationEntryArray10.getClass();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test08082() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08082");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass18 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08083() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08083");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08084() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08084");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str18 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider19 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(str18);
+        org.junit.Assert.assertNull(provider19);
+    }
+
+    @Test
+    public void test08085() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08085");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass10 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08086() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08086");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08087() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08087");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters15);
+    }
+
+    @Test
+    public void test08088() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08088");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(provider16);
+    }
+
+    @Test
+    public void test08089() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08089");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass17 = parameters16.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08090() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08090");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+    }
+
+    @Test
+    public void test08091() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08091");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters20 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+        org.junit.Assert.assertNull(parameters20);
+    }
+
+    @Test
+    public void test08092() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08092");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08093() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08093");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str10);
+    }
+
+    @Test
+    public void test08094() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08094");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass18 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08095() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08095");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08096() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08096");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+    }
+
+    @Test
+    public void test08097() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08097");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08098() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08098");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08099() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08099");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters14);
+    }
+
+    @Test
+    public void test08100() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08100");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08101() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08101");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass15 = provider14.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08102() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08102");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass18 = appConfigurationEntryArray17.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08103() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08103");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08104() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08104");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08105() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08105");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08106() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08106");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08107() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08107");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08108() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08108");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(provider16);
+    }
+
+    @Test
+    public void test08109() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08109");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass17 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test08110() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08110");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08111() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08111");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass9 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test08112() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08112");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass10 = provider9.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider9);
+    }
+
+    @Test
+    public void test08113() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08113");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass7 = appConfigurationEntryArray6.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test08114() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08114");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08115() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08115");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08116() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08116");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08117() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08117");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08118() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08118");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08119() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08119");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass16 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08120() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08120");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08121() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08121");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08122() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08122");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08123() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08123");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+    }
+
+    @Test
+    public void test08124() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08124");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08125() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08125");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(provider5);
+    }
+
+    @Test
+    public void test08126() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08126");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08127() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08127");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass6 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(wildcardClass6);
+    }
+
+    @Test
+    public void test08128() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08128");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(provider3);
+    }
+
+    @Test
+    public void test08129() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08129");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str6);
+    }
+
+    @Test
+    public void test08130() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08130");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08131() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08131");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test08132() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08132");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test08133() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08133");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters19 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str20 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNull(parameters18);
+        org.junit.Assert.assertNull(parameters19);
+        org.junit.Assert.assertNull(str20);
+    }
+
+    @Test
+    public void test08134() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08134");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str10);
+    }
+
+    @Test
+    public void test08135() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08135");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+    }
+
+    @Test
+    public void test08136() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08136");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08137() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08137");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08138() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08138");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNull(parameters18);
+    }
+
+    @Test
+    public void test08139() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08139");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+    }
+
+    @Test
+    public void test08140() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08140");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass14 = appConfigurationEntryArray13.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08141() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08141");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass18 = appConfigurationEntryArray17.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08142() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08142");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass18 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08143() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08143");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(str16);
+    }
+
+    @Test
+    public void test08144() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08144");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08145() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08145");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass9 = appConfigurationEntryArray8.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test08146() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08146");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08147() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08147");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+    }
+
+    @Test
+    public void test08148() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08148");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test08149() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08149");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08150() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08150");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08151() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08151");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass18 = provider17.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08152() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08152");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str18 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass19 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNull(str18);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test08153() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08153");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str2 = kerberosUserConfiguration0.getType();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass10 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(str2);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08154() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08154");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08155() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08155");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+    }
+
+    @Test
+    public void test08156() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08156");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+    }
+
+    @Test
+    public void test08157() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08157");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08158() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08158");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(parameters17);
+    }
+
+    @Test
+    public void test08159() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08159");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass14 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08160() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08160");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass13 = parameters12.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08161() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08161");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+    }
+
+    @Test
+    public void test08162() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08162");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08163() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08163");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08164() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08164");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str2 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(str2);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(parameters7);
+    }
+
+    @Test
+    public void test08165() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08165");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08166() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08166");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+    }
+
+    @Test
+    public void test08167() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08167");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+    }
+
+    @Test
+    public void test08168() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08168");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08169() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08169");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test08170() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08170");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08171() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08171");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        java.lang.String str18 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNull(str18);
+    }
+
+    @Test
+    public void test08172() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08172");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(provider9);
+    }
+
+    @Test
+    public void test08173() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08173");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08174() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08174");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(provider9);
+    }
+
+    @Test
+    public void test08175() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08175");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08176() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08176");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08177() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08177");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test08178() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08178");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass9 = appConfigurationEntryArray8.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test08179() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08179");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08180() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08180");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters14);
+    }
+
+    @Test
+    public void test08181() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08181");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass12 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08182() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08182");
+        javax.security.auth.login.Configuration configuration0 = javax.security.auth.login.Configuration.getConfiguration();
+        java.security.Provider provider1 = configuration0.getProvider();
+        java.lang.String str2 = configuration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters3 = configuration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters4 = configuration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = configuration0.getParameters();
+        java.lang.String str6 = configuration0.getType();
+        java.lang.Class<?> wildcardClass7 = configuration0.getClass();
+        org.junit.Assert.assertNotNull(configuration0);
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(str2);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test08183() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08183");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08184() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08184");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+    }
+
+    @Test
+    public void test08185() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08185");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+    }
+
+    @Test
+    public void test08186() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08186");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08187() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08187");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider19 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider21 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters22 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(provider19);
+        org.junit.Assert.assertNull(provider21);
+        org.junit.Assert.assertNull(parameters22);
+    }
+
+    @Test
+    public void test08188() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08188");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray20 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters21 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass22 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray20);
+        org.junit.Assert.assertNull(parameters21);
+        org.junit.Assert.assertNotNull(wildcardClass22);
+    }
+
+    @Test
+    public void test08189() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08189");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08190() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08190");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+    }
+
+    @Test
+    public void test08191() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08191");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08192() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08192");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08193() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08193");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08194() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08194");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08195() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08195");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+    }
+
+    @Test
+    public void test08196() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08196");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass12 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08197() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08197");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass12 = appConfigurationEntryArray11.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08198() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08198");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass11 = provider10.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08199() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08199");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08200() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08200");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08201() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08201");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08202() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08202");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(str17);
+    }
+
+    @Test
+    public void test08203() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08203");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass11 = provider10.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08204() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08204");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass18 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08205() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08205");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08206() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08206");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters9);
+    }
+
+    @Test
+    public void test08207() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08207");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass19 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNull(parameters18);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test08208() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08208");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08209() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08209");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str20 = kerberosUserConfiguration0.getType();
+        java.lang.String str21 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+        org.junit.Assert.assertNull(str20);
+        org.junit.Assert.assertNull(str21);
+    }
+
+    @Test
+    public void test08210() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08210");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass12 = parameters11.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08211() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08211");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+    }
+
+    @Test
+    public void test08212() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08212");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider9);
+    }
+
+    @Test
+    public void test08213() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08213");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+    }
+
+    @Test
+    public void test08214() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08214");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08215() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08215");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08216() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08216");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(provider17);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+    }
+
+    @Test
+    public void test08217() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08217");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08218() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08218");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08219() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08219");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+    }
+
+    @Test
+    public void test08220() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08220");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08221() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08221");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08222() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08222");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08223() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08223");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08224() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08224");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08225() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08225");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08226() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08226");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08227() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08227");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str19 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNull(provider18);
+        org.junit.Assert.assertNull(str19);
+    }
+
+    @Test
+    public void test08228() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08228");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters15);
+    }
+
+    @Test
+    public void test08229() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08229");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08230() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08230");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass7 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test08231() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08231");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08232() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08232");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass10 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08233() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08233");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08234() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08234");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(provider16);
+    }
+
+    @Test
+    public void test08235() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08235");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+    }
+
+    @Test
+    public void test08236() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08236");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass14 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08237() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08237");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08238() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08238");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+    }
+
+    @Test
+    public void test08239() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08239");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+    }
+
+    @Test
+    public void test08240() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08240");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08241() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08241");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass10 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08242() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08242");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08243() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08243");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+    }
+
+    @Test
+    public void test08244() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08244");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass12 = appConfigurationEntryArray11.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08245() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08245");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+    }
+
+    @Test
+    public void test08246() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08246");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08247() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08247");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08248() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08248");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08249() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08249");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass16 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08250() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08250");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08251() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08251");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08252() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08252");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08253() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08253");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass11 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test08254() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08254");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08255() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08255");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass19 = parameters18.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters18);
+    }
+
+    @Test
+    public void test08256() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08256");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass13 = appConfigurationEntryArray12.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08257() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08257");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str8);
+    }
+
+    @Test
+    public void test08258() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08258");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str6);
+    }
+
+    @Test
+    public void test08259() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08259");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08260() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08260");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+    }
+
+    @Test
+    public void test08261() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08261");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass17 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test08262() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08262");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass10 = appConfigurationEntryArray9.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08263() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08263");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass12 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08264() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08264");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters19 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray21 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters22 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(provider17);
+        org.junit.Assert.assertNull(parameters19);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray21);
+        org.junit.Assert.assertNull(parameters22);
+    }
+
+    @Test
+    public void test08265() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08265");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass20 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNull(provider18);
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test08266() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08266");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(str16);
+    }
+
+    @Test
+    public void test08267() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08267");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08268() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08268");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass14 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08269() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08269");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08270() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08270");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08271() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08271");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+    }
+
+    @Test
+    public void test08272() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08272");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08273() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08273");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray4 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08274() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08274");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08275() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08275");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08276() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08276");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(provider16);
+    }
+
+    @Test
+    public void test08277() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08277");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08278() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08278");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass11 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test08279() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08279");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider19 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNull(provider19);
+    }
+
+    @Test
+    public void test08280() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08280");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNull(str17);
+    }
+
+    @Test
+    public void test08281() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08281");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+    }
+
+    @Test
+    public void test08282() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08282");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08283() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08283");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08284() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08284");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08285() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08285");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08286() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08286");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass11 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test08287() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08287");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+    }
+
+    @Test
+    public void test08288() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08288");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08289() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08289");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass19 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test08290() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08290");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(parameters17);
+    }
+
+    @Test
+    public void test08291() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08291");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08292() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08292");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass16 = provider15.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08293() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08293");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08294() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08294");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+    }
+
+    @Test
+    public void test08295() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08295");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08296() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08296");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass19 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test08297() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08297");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass18 = provider17.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08298() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08298");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08299() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08299");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass17 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test08300() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08300");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08301() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08301");
+        javax.security.auth.login.Configuration configuration0 = javax.security.auth.login.Configuration.getConfiguration();
+        javax.security.auth.login.Configuration.Parameters parameters1 = configuration0.getParameters();
+        configuration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        java.security.Provider provider6 = configuration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = configuration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        org.junit.Assert.assertNotNull(configuration0);
+        org.junit.Assert.assertNull(parameters1);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+    }
+
+    @Test
+    public void test08302() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08302");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters8);
+    }
+
+    @Test
+    public void test08303() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08303");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08304() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08304");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass10 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08305() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08305");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08306() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08306");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str2 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(str2);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08307() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08307");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(str6);
+    }
+
+    @Test
+    public void test08308() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08308");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str11);
+    }
+
+    @Test
+    public void test08309() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08309");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08310() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08310");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08311() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08311");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08312() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08312");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass7 = provider6.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(provider6);
+    }
+
+    @Test
+    public void test08313() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08313");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08314() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08314");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass16 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08315() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08315");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08316() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08316");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08317() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08317");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str20 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+        org.junit.Assert.assertNull(str20);
+    }
+
+    @Test
+    public void test08318() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08318");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters19 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNull(parameters19);
+    }
+
+    @Test
+    public void test08319() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08319");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08320() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08320");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str7);
+    }
+
+    @Test
+    public void test08321() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08321");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+    }
+
+    @Test
+    public void test08322() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08322");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08323() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08323");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(parameters17);
+    }
+
+    @Test
+    public void test08324() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08324");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass12 = provider11.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08325() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08325");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08326() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08326");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08327() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08327");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass17 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test08328() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08328");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray20 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray20);
+    }
+
+    @Test
+    public void test08329() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08329");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+    }
+
+    @Test
+    public void test08330() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08330");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNull(str17);
+    }
+
+    @Test
+    public void test08331() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08331");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+    }
+
+    @Test
+    public void test08332() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08332");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08333() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08333");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08334() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08334");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass16 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08335() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08335");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass16 = appConfigurationEntryArray15.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08336() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08336");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08337() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08337");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08338() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08338");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass16 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08339() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08339");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08340() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08340");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08341() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08341");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(parameters14);
+    }
+
+    @Test
+    public void test08342() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08342");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08343() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08343");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08344() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08344");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08345() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08345");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass17 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test08346() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08346");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08347() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08347");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08348() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08348");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str10);
+    }
+
+    @Test
+    public void test08349() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08349");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass16 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08350() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08350");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08351() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08351");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+    }
+
+    @Test
+    public void test08352() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08352");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass14 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08353() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08353");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08354() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08354");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass18 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08355() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08355");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+    }
+
+    @Test
+    public void test08356() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08356");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+    }
+
+    @Test
+    public void test08357() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08357");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08358() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08358");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass18 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08359() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08359");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08360() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08360");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08361() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08361");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+    }
+
+    @Test
+    public void test08362() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08362");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08363() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08363");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str19 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(parameters18);
+        org.junit.Assert.assertNull(str19);
+    }
+
+    @Test
+    public void test08364() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08364");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass17 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test08365() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08365");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass16 = appConfigurationEntryArray15.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08366() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08366");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+    }
+
+    @Test
+    public void test08367() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08367");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+    }
+
+    @Test
+    public void test08368() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08368");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08369() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08369");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(parameters14);
+    }
+
+    @Test
+    public void test08370() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08370");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08371() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08371");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider7);
+    }
+
+    @Test
+    public void test08372() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08372");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str13);
+    }
+
+    @Test
+    public void test08373() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08373");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+    }
+
+    @Test
+    public void test08374() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08374");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider16);
+    }
+
+    @Test
+    public void test08375() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08375");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08376() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08376");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(str10);
+    }
+
+    @Test
+    public void test08377() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08377");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08378() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08378");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08379() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08379");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+    }
+
+    @Test
+    public void test08380() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08380");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08381() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08381");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08382() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08382");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08383() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08383");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08384() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08384");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters7);
+    }
+
+    @Test
+    public void test08385() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08385");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08386() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08386");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters9);
+    }
+
+    @Test
+    public void test08387() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08387");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass10 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08388() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08388");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08389() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08389");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(str16);
+    }
+
+    @Test
+    public void test08390() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08390");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+    }
+
+    @Test
+    public void test08391() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08391");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08392() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08392");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(parameters15);
+    }
+
+    @Test
+    public void test08393() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08393");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+    }
+
+    @Test
+    public void test08394() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08394");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08395() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08395");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass9 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test08396() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08396");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters14);
+    }
+
+    @Test
+    public void test08397() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08397");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray19 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider20 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider21 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray23 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray19);
+        org.junit.Assert.assertNull(provider20);
+        org.junit.Assert.assertNull(provider21);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray23);
+    }
+
+    @Test
+    public void test08398() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08398");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08399() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08399");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08400() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08400");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08401() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08401");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(parameters16);
+    }
+
+    @Test
+    public void test08402() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08402");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass17 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test08403() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08403");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08404() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08404");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+    }
+
+    @Test
+    public void test08405() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08405");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08406() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08406");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08407() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08407");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08408() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08408");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(str16);
+    }
+
+    @Test
+    public void test08409() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08409");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass13 = parameters12.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters12);
+    }
+
+    @Test
+    public void test08410() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08410");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08411() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08411");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters15);
+    }
+
+    @Test
+    public void test08412() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08412");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08413() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08413");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass16 = appConfigurationEntryArray15.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08414() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08414");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08415() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08415");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(str15);
+    }
+
+    @Test
+    public void test08416() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08416");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass11 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test08417() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08417");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider19 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(str17);
+        org.junit.Assert.assertNull(parameters18);
+        org.junit.Assert.assertNull(provider19);
+    }
+
+    @Test
+    public void test08418() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08418");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass10 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08419() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08419");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08420() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08420");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(parameters9);
+    }
+
+    @Test
+    public void test08421() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08421");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass17 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test08422() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08422");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(provider17);
+    }
+
+    @Test
+    public void test08423() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08423");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08424() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08424");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass12 = appConfigurationEntryArray11.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08425() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08425");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(parameters17);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08426() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08426");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str15 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters17 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(str15);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNull(parameters17);
+    }
+
+    @Test
+    public void test08427() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08427");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider14);
+    }
+
+    @Test
+    public void test08428() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08428");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08429() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08429");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+    }
+
+    @Test
+    public void test08430() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08430");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08431() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08431");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNull(parameters15);
+    }
+
+    @Test
+    public void test08432() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08432");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(str14);
+    }
+
+    @Test
+    public void test08433() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08433");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str19 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters20 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider21 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(provider18);
+        org.junit.Assert.assertNull(str19);
+        org.junit.Assert.assertNull(parameters20);
+        org.junit.Assert.assertNull(provider21);
+    }
+
+    @Test
+    public void test08434() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08434");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08435() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08435");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass8 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(wildcardClass8);
+    }
+
+    @Test
+    public void test08436() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08436");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass16 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(wildcardClass16);
+    }
+
+    @Test
+    public void test08437() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08437");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+    }
+
+    @Test
+    public void test08438() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08438");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+    }
+
+    @Test
+    public void test08439() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08439");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass18 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(provider17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08440() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08440");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass9 = parameters8.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+    }
+
+    @Test
+    public void test08441() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08441");
+        javax.security.auth.login.Configuration configuration0 = javax.security.auth.login.Configuration.getConfiguration();
+        javax.security.auth.login.Configuration.Parameters parameters1 = configuration0.getParameters();
+        configuration0.refresh();
+        configuration0.refresh();
+        configuration0.refresh();
+        java.lang.String str5 = configuration0.getType();
+        configuration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        configuration0.refresh();
+        java.security.Provider provider10 = configuration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        java.lang.String str12 = configuration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters13 = configuration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters14 = configuration0.getParameters();
+        org.junit.Assert.assertNotNull(configuration0);
+        org.junit.Assert.assertNull(parameters1);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(parameters14);
+    }
+
+    @Test
+    public void test08442() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08442");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08443() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08443");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str2 = kerberosUserConfiguration0.getType();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass12 = parameters11.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(str2);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+    }
+
+    @Test
+    public void test08444() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08444");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+    }
+
+    @Test
+    public void test08445() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08445");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+    }
+
+    @Test
+    public void test08446() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08446");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.Class<?> wildcardClass7 = appConfigurationEntryArray6.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test08447() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08447");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass14 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08448() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08448");
+        javax.security.auth.login.Configuration configuration0 = javax.security.auth.login.Configuration.getConfiguration();
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        java.security.Provider provider2 = configuration0.getProvider();
+        java.security.Provider provider3 = configuration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration(configuration0);
+        configuration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = configuration0.getParameters();
+        java.lang.String str7 = configuration0.getType();
+        org.junit.Assert.assertNotNull(configuration0);
+        org.junit.Assert.assertNull(provider2);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+    }
+
+    @Test
+    public void test08449() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08449");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08450() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08450");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08451() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08451");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider16);
+    }
+
+    @Test
+    public void test08452() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08452");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+    }
+
+    @Test
+    public void test08453() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08453");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass10 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test08454() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08454");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider11);
+    }
+
+    @Test
+    public void test08455() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08455");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider12);
+    }
+
+    @Test
+    public void test08456() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08456");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(provider9);
+    }
+
+    @Test
+    public void test08457() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08457");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+    }
+
+    @Test
+    public void test08458() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08458");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08459() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08459");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider18 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider18);
+    }
+
+    @Test
+    public void test08460() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08460");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08461() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08461");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass11 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test08462() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08462");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass12 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test08463() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08463");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters8);
+    }
+
+    @Test
+    public void test08464() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08464");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(provider16);
+    }
+
+    @Test
+    public void test08465() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08465");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+    }
+
+    @Test
+    public void test08466() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08466");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str13 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider16 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(str13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(provider16);
+        org.junit.Assert.assertNull(str17);
+    }
+
+    @Test
+    public void test08467() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08467");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str9);
+    }
+
+    @Test
+    public void test08468() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08468");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNull(parameters18);
+    }
+
+    @Test
+    public void test08469() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08469");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08470() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08470");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider14 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        java.lang.String str17 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(provider14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(str17);
+    }
+
+    @Test
+    public void test08471() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08471");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.lang.Class<?> wildcardClass13 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test08472() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08472");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray15 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str16 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str18 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters19 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray15);
+        org.junit.Assert.assertNull(str16);
+        org.junit.Assert.assertNull(str18);
+        org.junit.Assert.assertNull(parameters19);
+    }
+
+    @Test
+    public void test08473() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08473");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        java.lang.Class<?> wildcardClass15 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test08474() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08474");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider19 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNull(provider19);
+    }
+
+    @Test
+    public void test08475() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08475");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray11 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+    }
+
+    @Test
+    public void test08476() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08476");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.Class<?> wildcardClass9 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test08477() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08477");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray2 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray2);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(parameters7);
+    }
+
+    @Test
+    public void test08478() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08478");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters16 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters19 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider20 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(parameters16);
+        org.junit.Assert.assertNull(parameters18);
+        org.junit.Assert.assertNull(parameters19);
+        org.junit.Assert.assertNull(provider20);
+    }
+
+    @Test
+    public void test08479() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08479");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters5 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(parameters5);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08480() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08480");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters8 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(parameters8);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(parameters13);
+        org.junit.Assert.assertNull(provider15);
+    }
+
+    @Test
+    public void test08481() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08481");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(parameters7);
+    }
+
+    @Test
+    public void test08482() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08482");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray5 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray8 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray8);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08483() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08483");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider17 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider19 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider20 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters21 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider8);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(parameters10);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNull(provider17);
+        org.junit.Assert.assertNull(provider19);
+        org.junit.Assert.assertNull(provider20);
+        org.junit.Assert.assertNull(parameters21);
+    }
+
+    @Test
+    public void test08484() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08484");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str14 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str19 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters20 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNull(str14);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNull(str19);
+        org.junit.Assert.assertNull(parameters20);
+    }
+
+    @Test
+    public void test08485() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08485");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters3 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray9 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray9);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08486() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08486");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters14 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNull(parameters14);
+        org.junit.Assert.assertNull(parameters15);
+    }
+
+    @Test
+    public void test08487() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08487");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters15 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray17 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass18 = appConfigurationEntryArray17.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(parameters15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray17);
+        org.junit.Assert.assertNotNull(wildcardClass18);
+    }
+
+    @Test
+    public void test08488() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08488");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.Class<?> wildcardClass14 = appConfigurationEntryArray13.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08489() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08489");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters19 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray21 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str22 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(provider10);
+        org.junit.Assert.assertNull(provider13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNull(parameters19);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray21);
+        org.junit.Assert.assertNull(str22);
+    }
+
+    @Test
+    public void test08490() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08490");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray7 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray13 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray16 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters18 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray13);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray16);
+        org.junit.Assert.assertNull(parameters18);
+    }
+
+    @Test
+    public void test08491() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08491");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters10 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(parameters10);
+    }
+
+    @Test
+    public void test08492() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08492");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray6 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider10 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(provider10);
+    }
+
+    @Test
+    public void test08493() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08493");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray12 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.Parameters parameters13 = kerberosUserConfiguration0.getParameters();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass14 = parameters13.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray12);
+        org.junit.Assert.assertNull(parameters13);
+    }
+
+    @Test
+    public void test08494() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08494");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        java.lang.Class<?> wildcardClass7 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test08495() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08495");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider6 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters7 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray10 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters11 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str12 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray14 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        java.security.Provider provider15 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray18 = kerberosUserConfiguration0.getAppConfigurationEntry("hi!");
+        javax.security.auth.login.Configuration.Parameters parameters19 = kerberosUserConfiguration0.getParameters();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider6);
+        org.junit.Assert.assertNull(parameters7);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray10);
+        org.junit.Assert.assertNull(parameters11);
+        org.junit.Assert.assertNull(str12);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray14);
+        org.junit.Assert.assertNull(provider15);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray18);
+        org.junit.Assert.assertNull(parameters19);
+    }
+
+    @Test
+    public void test08496() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08496");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.security.Provider provider1 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider7 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.Parameters parameters9 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        org.junit.Assert.assertNull(provider1);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(provider7);
+        org.junit.Assert.assertNull(parameters9);
+        org.junit.Assert.assertNull(str10);
+    }
+
+    @Test
+    public void test08497() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08497");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        kerberosUserConfiguration0.refresh();
+        java.security.Provider provider3 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider4 = kerberosUserConfiguration0.getProvider();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str6 = kerberosUserConfiguration0.getType();
+        java.lang.String str7 = kerberosUserConfiguration0.getType();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider9 = kerberosUserConfiguration0.getProvider();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.lang.String str11 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters12 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.lang.Class<?> wildcardClass14 = kerberosUserConfiguration0.getClass();
+        org.junit.Assert.assertNull(provider3);
+        org.junit.Assert.assertNull(provider4);
+        org.junit.Assert.assertNull(str6);
+        org.junit.Assert.assertNull(str7);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(provider9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(str11);
+        org.junit.Assert.assertNull(parameters12);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test08498() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08498");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters2 = kerberosUserConfiguration0.getParameters();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray4 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(parameters2);
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray4);
+        org.junit.Assert.assertNull(parameters6);
+    }
+
+    @Test
+    public void test08499() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08499");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.AppConfigurationEntry[] appConfigurationEntryArray3 = kerberosUserConfiguration0.getAppConfigurationEntry("");
+        java.lang.String str4 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider5 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.Parameters parameters6 = kerberosUserConfiguration0.getParameters();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str8 = kerberosUserConfiguration0.getType();
+        java.lang.String str9 = kerberosUserConfiguration0.getType();
+        java.lang.String str10 = kerberosUserConfiguration0.getType();
+        java.security.Provider provider11 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider12 = kerberosUserConfiguration0.getProvider();
+        java.security.Provider provider13 = kerberosUserConfiguration0.getProvider();
+        org.junit.Assert.assertNotNull(appConfigurationEntryArray3);
+        org.junit.Assert.assertNull(str4);
+        org.junit.Assert.assertNull(provider5);
+        org.junit.Assert.assertNull(parameters6);
+        org.junit.Assert.assertNull(str8);
+        org.junit.Assert.assertNull(str9);
+        org.junit.Assert.assertNull(str10);
+        org.junit.Assert.assertNull(provider11);
+        org.junit.Assert.assertNull(provider12);
+        org.junit.Assert.assertNull(provider13);
+    }
+
+    @Test
+    public void test08500() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest16.test08500");
+        me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration kerberosUserConfiguration0 = new me.prettyprint.cassandra.connection.client.HSaslThriftClient.KerberosUserConfiguration();
+        java.lang.String str1 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        java.lang.String str3 = kerberosUserConfiguration0.getType();
+        javax.security.auth.login.Configuration.Parameters parameters4 = kerberosUserConfiguration0.getParameters();
+        java.lang.String str5 = kerberosUserConfiguration0.getType();
+        kerberosUserConfiguration0.refresh();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        java.security.Provider provider8 = kerberosUserConfiguration0.getProvider();
+        javax.security.auth.login.Configuration.setConfiguration((javax.security.auth.login.Configuration) kerberosUserConfiguration0);
+        kerberosUserConfiguration0.refresh();
+        org.junit.Assert.assertNull(str1);
+        org.junit.Assert.assertNull(str3);
+        org.junit.Assert.assertNull(parameters4);
+        org.junit.Assert.assertNull(str5);
+        org.junit.Assert.assertNull(provider8);
+    }
+}
+

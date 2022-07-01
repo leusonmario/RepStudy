@@ -1,0 +1,20 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Float,1553,73,0.0625629456552391,0.0029408210127704146
+class java.lang.String,6872,358,0.27684002739394914,0.014422108528380937
+class [Ljava.lang.String;,3041,9,0.12250735205253192,3.625669741771744E-4
+class java.lang.Byte,178,62,0.007170769044837449,0.0024976835998872012
+class java.lang.Short,220,65,0.008862748257664263,0.0026185392579462594
+class javax.security.auth.Subject,3272,2,0.1318132377230794,8.057043870603875E-5
+class me.prettyprint.cassandra.connection.client.HKerberosThriftClient,1966,1966,0.0792007412480361,0.0792007412480361
+class java.lang.Double,896,74,0.036095556540305364,0.002981106232123434
+class org.apache.cassandra.thrift.Cassandra$Client,14132,2,0.5693107198968699,8.057043870603875E-5
+class java.util.ArrayList,852,1,0.03432300688877251,4.0285219353019375E-5
+class java.lang.Long,9005,272,0.3627684002739395,0.01095757966402127
+class [Ljava.nio.ByteBuffer;,852,1,0.03432300688877251,4.0285219353019375E-5
+class java.lang.Boolean,10406,2,0.4192079925875196,8.057043870603875E-5
+class java.lang.Integer,2823,72,0.1137251742335737,0.0029005357934173952
+class java.util.Collections$SynchronizedSet,10264,1,0.4134874914393909,4.0285219353019375E-5
+class org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters,18082,1700,0.7284373363412964,0.06848487290013294
+class me.prettyprint.cassandra.service.CassandraHost,6111,1833,0.2461829754663014,0.07384280707408451
+class java.lang.Class,235,7,0.009467026547959554,2.8199653547113565E-4
+class java.util.concurrent.atomic.AtomicLong,3501,376,0.14103855295492085,0.015147242476735287

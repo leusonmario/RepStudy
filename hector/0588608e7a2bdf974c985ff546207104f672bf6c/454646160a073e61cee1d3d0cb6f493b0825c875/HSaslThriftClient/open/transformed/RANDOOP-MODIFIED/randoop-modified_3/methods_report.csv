@@ -1,0 +1,38 @@
+Methods called,Number of times,Number of times (Normalized)
+"public javax.security.auth.login.AppConfigurationEntry[] me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration.getAppConfigurationEntry(java.lang.String)",4,2.1264153952474615E-4
+"java.lang.String[1]",5445,0.2894582956780607
+"java.lang.String[0]",59,0.003136462707990006
+"java.lang.String[3]",1101,0.05852958375418638
+"public javax.security.auth.login.Configuration$Parameters javax.security.auth.login.Configuration.getParameters()",17284,0.9188240922864281
+"java.lang.String[5]",26,0.00138217000691085
+"public static javax.security.auth.login.Configuration javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters,java.lang.String) throws java.security.NoSuchProviderException,java.security.NoSuchAlgorithmException",4,2.1264153952474615E-4
+"public static javax.security.auth.login.Configuration javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters) throws java.security.NoSuchAlgorithmException",2,1.0632076976237308E-4
+"public static javax.security.auth.login.Configuration javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters,java.security.Provider) throws java.security.NoSuchAlgorithmException",2,1.0632076976237308E-4
+"java.lang.String[4]",474,0.02519802243368242
+"public java.util.HashMap me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration.getDEFAULT_KERBEROS_OPTIONS()",5,2.658019244059327E-4
+"public java.util.HashMap me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration.options",6,3.1896230928711924E-4
+"java.lang.String[6]",253,0.013449577374940194
+"public java.lang.String javax.security.auth.login.Configuration.getType()",13816,0.7344638775184732
+"public void me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration.setoptions(java.util.HashMap)",1,5.316038488118654E-5
+"public void javax.security.auth.login.Configuration.refresh()",11817,0.6281962681409814
+"public java.lang.String[] me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration.getrecognizedOptions()",2,1.0632076976237308E-4
+"public void org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters.requireClientAuth(boolean)",4356,0.23156663654244858
+"public final native java.lang.Class java.lang.Object.getClass()",2665,0.14167242570836214
+"org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters(java.lang.String, [Ljava.lang.String;)",55264,2.937855510073893
+"org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters(java.lang.String, [Ljava.lang.String;, boolean)",45032,2.393918451969592
+"org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters()",200,0.010632076976237309
+"me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration()",12,6.379246185742385E-4
+"public static final java.util.HashMap me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration.DEFAULT_KERBEROS_OPTIONS",5,2.658019244059327E-4
+"public static void javax.security.auth.login.Configuration.setConfiguration(javax.security.auth.login.Configuration)",9239,0.49114879591728244
+"public void org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters.setTrustStore(java.lang.String,java.lang.String)",4583,0.2436340439104779
+"public void org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters.setTrustStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String)",4590,0.24400616660464622
+"public static org.apache.thrift.transport.TTransport me.prettyprint.cassandra.connection.client.HSaslThriftClient.openKerberosTransport(org.apache.thrift.transport.TTransport,java.lang.String) throws javax.security.auth.login.LoginException,org.apache.thrift.transport.TTransportException",2,1.0632076976237308E-4
+"public java.security.Provider javax.security.auth.login.Configuration.getProvider()",10557,0.5612141831906863
+"public java.util.HashMap me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration.getoptions()",4,2.1264153952474615E-4
+"public void org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters.setKeyStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String)",4811,0.2557546116633884
+"public void org.apache.thrift.transport.TSSLTransportFactory$TSSLTransportParameters.setKeyStore(java.lang.String,java.lang.String)",4912,0.2611238105363883
+"public static javax.security.auth.login.Configuration javax.security.auth.login.Configuration.getConfiguration()",5535,0.2942427303173675
+"public static final java.util.Map me.prettyprint.cassandra.connection.client.HSaslThriftClient.SASL_PROPS",1,5.316038488118654E-5
+"public static final java.lang.String[] me.prettyprint.cassandra.connection.client.HSaslThriftClient$KerberosUserConfiguration.recognizedOptions",5619,0.2987082026473872
+"public static org.slf4j.Logger me.prettyprint.cassandra.connection.client.HSaslThriftClient.log",2,1.0632076976237308E-4
+"public static org.slf4j.Logger me.prettyprint.cassandra.connection.client.HSaslThriftClient.log",2,1.0632076976237308E-4

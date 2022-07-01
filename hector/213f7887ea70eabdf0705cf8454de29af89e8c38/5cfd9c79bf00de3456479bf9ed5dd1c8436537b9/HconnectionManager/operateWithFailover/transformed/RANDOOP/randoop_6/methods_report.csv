@@ -1,0 +1,4 @@
+Methods called,Number of times,Number of times (Normalized)
+"me.prettyprint.cassandra.service.VirtualKeyspaceOperation(me.prettyprint.cassandra.service.Operation, java.nio.ByteBuffer)",8,0.8888888888888888
+"java.lang.Object()",1,0.1111111111111111
+"public final native java.lang.Class java.lang.Object.getClass()",1,0.1111111111111111

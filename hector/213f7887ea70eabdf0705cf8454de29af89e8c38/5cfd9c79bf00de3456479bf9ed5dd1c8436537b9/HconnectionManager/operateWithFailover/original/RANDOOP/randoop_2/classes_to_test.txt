@@ -1,0 +1,2 @@
+me.prettyprint.cassandra.connection.HconnectionManager
+me.prettyprint.cassandra.service.VirtualKeyspaceOperation
