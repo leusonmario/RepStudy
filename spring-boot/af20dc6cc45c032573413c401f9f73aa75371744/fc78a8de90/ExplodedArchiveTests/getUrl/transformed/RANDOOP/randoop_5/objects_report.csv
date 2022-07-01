@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.junit.rules.TemporaryFolder,26282,1,1.5088122165451519,5.74085768413801E-5
+class org.springframework.boot.loader.archive.ExplodedArchiveTests,58710,15992,3.370457546357426,0.9180779608473506
+class java.lang.Class,870,2,0.04994546185200069,1.148171536827602E-4

@@ -1,0 +1,17 @@
+Methods called,Number of times,Number of times (Normalized)
+"org.springframework.boot.jta.atomikos.AtomikosPropertiesTests()",98448,11.582117647058823
+"java.lang.String[0]",2534,0.29811764705882354
+"public void org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.testDefaultProperties()",16297,1.9172941176470588
+"java.lang.String[2]",1,1.1764705882352942E-4
+"java.lang.String[5]",15,0.0017647058823529412
+"java.lang.String[4]",1,1.1764705882352942E-4
+"java.lang.String[6]",8088,0.9515294117647058
+"public org.assertj.core.data.MapEntry[] org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.defaultOf(java.util.Properties,java.lang.String[])",20001,2.3530588235294116
+"public org.springframework.boot.jta.atomikos.AtomikosProperties org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.getproperties()",53390,6.281176470588235
+"public void org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.setproperties(org.springframework.boot.jta.atomikos.AtomikosProperties)",13917,1.6372941176470588
+"public void org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.assertProperty(java.lang.String,java.lang.String)",1818,0.21388235294117647
+"public final native java.lang.Class java.lang.Object.getClass()",1799,0.2116470588235294
+"public void org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.testProperties()",38458,4.524470588235294
+"public java.util.Properties org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.loadDefaultSettings()",37012,4.3543529411764705
+"public org.springframework.boot.jta.atomikos.AtomikosProperties org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.properties",67299,7.917529411764706
+"public org.springframework.boot.jta.atomikos.AtomikosProperties org.springframework.boot.jta.atomikos.AtomikosPropertiesTests.properties",47832,5.627294117647059

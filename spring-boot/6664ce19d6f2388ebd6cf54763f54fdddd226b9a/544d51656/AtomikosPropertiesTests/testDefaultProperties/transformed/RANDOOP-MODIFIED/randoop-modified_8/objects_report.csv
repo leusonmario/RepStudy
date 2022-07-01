@@ -1,0 +1,7 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.springframework.boot.jta.atomikos.AtomikosProperties,120907,2,14.166022261277094,2.3432923257176333E-4
+class org.springframework.boot.jta.atomikos.AtomikosPropertiesTests,98850,55123,11.581722319859402,6.458465143526655
+class [Lorg.assertj.core.data.MapEntry;,19983,6,2.341300527240773,7.0298769771529E-4
+class java.lang.Class,1808,5,0.21183362624487403,5.858230814294083E-4
+class java.util.Properties,37164,1,4.354305799648506,1.1716461628588167E-4
+class [Ljava.lang.String;,10676,10,1.2508494434680726,0.0011716461628588166

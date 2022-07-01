@@ -1,0 +1,117 @@
+Methods called,Number of times,Number of times (Normalized)
+"public int com.mongodb.MongoClientOptions.getHeartbeatConnectTimeout()",6473,0.6566906766764735
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.addCommandListener(com.mongodb.event.CommandListener)",189,0.01917419093030334
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.minConnectionsPerHost(int)",516,0.052348584762098
+"public boolean com.mongodb.MongoClientOptions.equals(java.lang.Object)",1227,0.12448006492847723
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.uri",723,0.07334888911433499
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.uri",497,0.05042102059450137
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.getAuthenticationDatabase()",368,0.03733387440397687
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.socketKeepAlive(boolean)",12010,1.2184234554123974
+"public boolean com.mongodb.MongoClientOptions.isSslEnabled()",1038,0.10530587399817389
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.setPassword(char[])",2619,0.26569950289134625
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.socketTimeout(int)",7121,0.7224307598660851
+"public int com.mongodb.MongoClientOptions.getHeartbeatSocketTimeout()",874,0.08866795170944507
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.alwaysUseMBeans(boolean)",654,0.06634878766358933
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.maxConnectionLifeTime(int)",538,0.05458050116668357
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.localThreshold(int)",840,0.08521862635690372
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.readConcern(com.mongodb.ReadConcern)",735,0.07456629806229076
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.getDatabase()",2568,0.2605255148625342
+"public boolean com.mongodb.MongoClientOptions.isAlwaysUseMBeans()",905,0.09181292482499746
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.heartbeatConnectTimeout(int)",1524,0.15461093639038248
+"public int org.springframework.boot.autoconfigure.mongo.MongoProperties.determinePort(org.springframework.core.env.Environment)",736,0.07466774880795374
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.readPreference(com.mongodb.ReadPreference)",770,0.07811707416049508
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.setHost(java.lang.String)",615,0.06239220858273308
+"public com.mongodb.ReadPreference com.mongodb.MongoClientOptions.getReadPreference()",3018,0.30617835041087554
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.maxWaitTime(int)",1686,0.17104595718778534
+"public int org.springframework.boot.autoconfigure.mongo.MongoProperties.getDEFAULT_PORT()",418,0.0424064116871259
+"char[3]",1215,0.12326265598052145
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.gridFsDatabase",579,0.05873998173886578
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.gridFsDatabase",967,0.09810287105610226
+"char[2]",2,2.0290149132596124E-4
+"char[1]",1600,0.162321193060769
+"public java.lang.Integer org.springframework.boot.autoconfigure.mongo.MongoProperties.getPort()",739,0.07497210104494267
+"char[0]",71,0.007203002942071624
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.authenticationDatabase",3154,0.3199756518210409
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.setPort(java.lang.Integer)",563,0.05711676980825809
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.authenticationDatabase",555,0.056305163842954246
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.sslEnabled(boolean)",2454,0.24896012985695445
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.connectTimeout(int)",582,0.05904433397585472
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.heartbeatSocketTimeout(int)",855,0.08674038754184843
+"public boolean com.mongodb.MongoClientOptions.isSslInvalidHostNameAllowed()",733,0.0743633965709648
+"public org.bson.codecs.configuration.CodecRegistry com.mongodb.MongoClientOptions.getCodecRegistry()",2812,0.28527949680430154
+"public com.mongodb.DBEncoderFactory com.mongodb.MongoClientOptions.getDbEncoderFactory()",1337,0.1356396469514051
+"public int com.mongodb.MongoClientOptions.getMaxConnectionLifeTime()",1041,0.10561022623516284
+"public int com.mongodb.MongoClientOptions.getHeartbeatFrequency()",1084,0.10997260829867099
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.setAuthenticationDatabase(java.lang.String)",3966,0.40235365729938116
+"public com.mongodb.MongoClientOptions$Builder org.springframework.boot.autoconfigure.mongo.MongoProperties.builder(com.mongodb.MongoClientOptions)",3605,0.3657299381150452
+"public final native java.lang.Class java.lang.Object.getClass()",689,0.06989956376179365
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.description(java.lang.String)",8598,0.8722735112103074
+"public com.mongodb.MongoClientOptions com.mongodb.MongoClientOptions$Builder.build()",8876,0.900476818504616
+"public char[] org.springframework.boot.autoconfigure.mongo.MongoProperties.getPassword()",1481,0.1502485543268743
+"public java.lang.Class org.springframework.boot.autoconfigure.mongo.MongoProperties.getFieldNamingStrategy()",1041,0.10561022623516284
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.setUsername(java.lang.String)",1257,0.12752358729836663
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.serverSelectionTimeout(int)",1330,0.13492949173176422
+"public com.mongodb.MongoClient org.springframework.boot.autoconfigure.mongo.MongoProperties.createMongoClient(com.mongodb.MongoClientOptions,org.springframework.core.env.Environment) throws java.net.UnknownHostException",1610,0.1633357005173988
+"org.springframework.boot.autoconfigure.mongo.MongoProperties()",9290,0.94247742720909
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.requiredReplicaSetName(java.lang.String)",1611,0.1634371512630618
+"public java.util.List com.mongodb.MongoClientOptions.getCommandListeners()",1707,0.17317642284670792
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.setGridFsDatabase(java.lang.String)",714,0.07243583240336816
+"public char[] org.springframework.boot.autoconfigure.mongo.MongoProperties.password",2109,0.21395962260322612
+"public char[] org.springframework.boot.autoconfigure.mongo.MongoProperties.password",761,0.07720401744952825
+"public com.mongodb.WriteConcern com.mongodb.MongoClientOptions.getWriteConcern()",1102,0.11179872172060465
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.getGridFsDatabase()",663,0.06726184437455615
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.getMongoClientDatabase()",485,0.0492036116465456
+"public javax.net.SocketFactory com.mongodb.MongoClientOptions.getSocketFactory()",924,0.0937404889925941
+"public int com.mongodb.MongoClientOptions.getConnectionsPerHost()",2293,0.23262655980521457
+"public int com.mongodb.MongoClientOptions.getSocketTimeout()",1230,0.12478441716546616
+"public boolean com.mongodb.MongoClientOptions.isCursorFinalizerEnabled()",1098,0.11139291873795272
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.clearPassword()",1484,0.15055290656386325
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.setDatabase(java.lang.String)",608,0.06168205336309222
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.cursorFinalizerEnabled(boolean)",9197,0.9330425078624328
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.getHost()",5268,0.534442528152582
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.username",651,0.06604443542660038
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.username",1341,0.136045449934057
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.minHeartbeatFrequency(int)",886,0.08988536065740083
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.dbDecoderFactory(com.mongodb.DBDecoderFactory)",499,0.05062392208582733
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.connectionsPerHost(int)",666,0.0675661966115451
+"public int com.mongodb.MongoClientOptions.getConnectTimeout()",646,0.06553718169828548
+"public int com.mongodb.MongoClientOptions.getMaxConnectionIdleTime()",5433,0.5511819011869737
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.heartbeatFrequency(int)",401,0.04068174901085523
+"public boolean org.springframework.boot.autoconfigure.mongo.MongoProperties.hasCustomAddress()",431,0.04372527138074465
+"public static final int org.springframework.boot.autoconfigure.mongo.MongoProperties.DEFAULT_PORT",1,1.0145074566298062E-4
+"public com.mongodb.DBDecoderFactory com.mongodb.MongoClientOptions.getDbDecoderFactory()",1564,0.15866896621690169
+"public boolean com.mongodb.MongoClientOptions.isSocketKeepAlive()",921,0.09343613675560515
+"com.mongodb.MongoClientOptions$Builder()",12958,1.314598762300903
+"com.mongodb.MongoClientOptions$Builder(com.mongodb.MongoClientOptions)",1114,0.11301613066856041
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.database",3300,0.33478746068783605
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.database",666,0.0675661966115451
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.getUsername()",1901,0.19285786750532616
+"public java.lang.String com.mongodb.MongoClientOptions.getRequiredReplicaSetName()",677,0.06868215481383788
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.legacyDefaults()",1777,0.18027797504311657
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.codecRegistry(org.bson.codecs.configuration.CodecRegistry)",616,0.06249365932839606
+"public int com.mongodb.MongoClientOptions.getMinHeartbeatFrequency()",970,0.0984072232930912
+"public int com.mongodb.MongoClientOptions.getMaxWaitTime()",595,0.06036319366947347
+"public int com.mongodb.MongoClientOptions.getServerSelectionTimeout()",1579,0.1601907274018464
+"public java.lang.Integer org.springframework.boot.autoconfigure.mongo.MongoProperties.port",745,0.07558080551892056
+"public java.lang.Integer org.springframework.boot.autoconfigure.mongo.MongoProperties.port",485,0.0492036116465456
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.writeConcern(com.mongodb.WriteConcern)",560,0.05681241757126915
+"public boolean org.springframework.boot.autoconfigure.mongo.MongoProperties.hasCustomCredentials()",328,0.03327584457745764
+"public int com.mongodb.MongoClientOptions.getLocalThreshold()",819,0.08308816069798113
+"public void org.springframework.boot.autoconfigure.mongo.MongoProperties.setUri(java.lang.String)",765,0.07760982043218018
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.maxConnectionIdleTime(int)",10501,1.0653342802069594
+"public static com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions.builder(com.mongodb.MongoClientOptions)",936,0.09495789794054986
+"public int com.mongodb.MongoClientOptions.getThreadsAllowedToBlockForConnectionMultiplier()",821,0.0832910621893071
+"public static com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions.builder()",4,4.058029826519225E-4
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.getUri()",1255,0.12732068580704067
+"public com.mongodb.ReadConcern com.mongodb.MongoClientOptions.getReadConcern()",1914,0.1941767271989449
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.host",3977,0.40346961550167393
+"public java.lang.String org.springframework.boot.autoconfigure.mongo.MongoProperties.host",631,0.06401542051334078
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.sslInvalidHostNameAllowed(boolean)",8932,0.906158060261743
+"java.lang.Object()",1,1.0145074566298062E-4
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.dbEncoderFactory(com.mongodb.DBEncoderFactory)",1175,0.11920462615400224
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.threadsAllowedToBlockForConnectionMultiplier(int)",528,0.05356599371005377
+"public java.lang.String com.mongodb.MongoClientOptions.getDescription()",1345,0.13645125291670893
+"public com.mongodb.MongoClientOptions$Builder com.mongodb.MongoClientOptions$Builder.socketFactory(javax.net.SocketFactory)",408,0.041391904230496095
+"public java.lang.Class org.springframework.boot.autoconfigure.mongo.MongoProperties.fieldNamingStrategy",650,0.0659429846809374
+"public java.lang.Class org.springframework.boot.autoconfigure.mongo.MongoProperties.fieldNamingStrategy",694,0.07040681749010855
+"public int com.mongodb.MongoClientOptions.getMinConnectionsPerHost()",919,0.0932332352642792

@@ -1,0 +1,61 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.addContextCustomizers(org.springframework.boot.context.embedded.tomcat.TomcatContextCustomizer[])",4280,0.47318960751796574
+"public java.lang.String org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getUriEncoding()",1481,0.16373687119955777
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setContextPath(java.lang.String)",1279,0.141404090657822
+"org.apache.catalina.LifecycleListener[1]",1724,0.1906025428413488
+"org.apache.catalina.LifecycleListener[0]",555,0.06135986733001658
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.addContextLifecycleListeners(org.apache.catalina.LifecycleListener[])",4011,0.44344941956882256
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setRegisterDefaultServlet(boolean)",2207,0.24400221116639026
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.setProtocol(java.lang.String)",2121,0.23449419568822555
+"public java.util.List org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getAdditionalTomcatConnectors()",2643,0.2922056384742952
+"public java.util.Set org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getErrorPages()",4729,0.5228302929795468
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setDocumentRoot(java.io.File)",31963,3.5337755666113875
+"public boolean org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.isRegisterJspServlet()",2880,0.31840796019900497
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.addInitializers(org.springframework.boot.context.embedded.ServletContextInitializer[])",17375,1.9209508015478165
+"public org.springframework.boot.context.embedded.MimeMappings org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getMimeMappings()",6683,0.7388612493090105
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setSessionTimeout(int,java.util.concurrent.TimeUnit)",481,0.053178551686014375
+"public boolean org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.isRegisterDefaultServlet()",4369,0.4830292979546711
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setSessionTimeout(int)",2670,0.29519071310116085
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setPort(int)",3817,0.42200110558319515
+"public java.lang.String org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getContextPath()",16337,1.8061912658927584
+"org.apache.catalina.connector.Connector[0]",1,1.105583195135434E-4
+"org.apache.catalina.connector.Connector[1]",1695,0.18739635157545606
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",3512,0.3882808181315644
+"public java.util.Collection org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getTomcatConnectorCustomizers()",8182,0.9045881702598121
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.addConnectorCustomizers(org.springframework.boot.context.embedded.tomcat.TomcatConnectorCustomizer[])",3537,0.39104477611940297
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.addErrorPages(org.springframework.boot.context.embedded.ErrorPage[])",4238,0.4685461580983969
+"org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory(java.lang.String, int)",37007,4.091431730237701
+"org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory()",822,0.09087893864013268
+"org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory(int)",1632,0.18043117744610282
+"org.springframework.boot.context.embedded.ErrorPage[0]",2446,0.27042564953012715
+"org.springframework.boot.context.embedded.tomcat.TomcatContextCustomizer[0]",1670,0.18463239358761746
+"public java.util.Collection org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getValves()",2013,0.22255389718076285
+"org.springframework.boot.context.embedded.ErrorPage[1]",1559,0.17236042012161415
+"org.springframework.boot.context.embedded.tomcat.TomcatContextCustomizer[1]",5,5.52791597567717E-4
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.setResourceLoader(org.springframework.core.io.ResourceLoader)",2397,0.2650082918739635
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.setBaseDirectory(java.io.File)",2991,0.3306799336650083
+"public int org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getSessionTimeout()",2923,0.3231619679380873
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setJspServletClassName(java.lang.String)",2038,0.22531785516860145
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setAddress(java.net.InetAddress)",2193,0.24245439469320065
+"java.util.ArrayList()",1075,0.11885019347705915
+"org.springframework.boot.context.embedded.tomcat.TomcatConnectorCustomizer[0]",1841,0.2035378662244334
+"public java.util.Collection org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getContextLifecycleListeners()",8855,0.9789939192924267
+"org.springframework.boot.context.embedded.tomcat.TomcatConnectorCustomizer[1]",930,0.10281923714759536
+"public final native java.lang.Class java.lang.Object.getClass()",505,0.05583195135433942
+"org.apache.catalina.Valve[1]",5370,0.593698175787728
+"public java.io.File org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getDocumentRoot()",4741,0.5241569928137092
+"org.apache.catalina.Valve[0]",376,0.041569928137092316
+"java.util.LinkedHashSet()",2437,0.26943062465450524
+"public int org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getPort()",3245,0.3587617468214483
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.setTldSkip(java.lang.String)",5255,0.5809839690436706
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.setTomcatConnectorCustomizers(java.util.Collection)",3097,0.3423991155334439
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.addContextValves(org.apache.catalina.Valve[])",10560,1.1674958540630183
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.setUriEncoding(java.lang.String)",1758,0.19436152570480927
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setMimeMappings(org.springframework.boot.context.embedded.MimeMappings)",3463,0.38286346047540076
+"public java.net.InetAddress org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getAddress()",3509,0.38794914317302376
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setRegisterJspServlet(boolean)",1876,0.2074074074074074
+"public void org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.addAdditionalTomcatConnectors(org.apache.catalina.connector.Connector[])",3667,0.4054173576561636
+"public java.util.Collection org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getTomcatContextCustomizers()",4072,0.4501934770591487
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setErrorPages(java.util.Set)",5147,0.5690436705362079
+"org.springframework.boot.context.embedded.ServletContextInitializer[1]",18,0.001990049751243781
+"org.springframework.boot.context.embedded.ServletContextInitializer[0]",10506,1.1615257048092869

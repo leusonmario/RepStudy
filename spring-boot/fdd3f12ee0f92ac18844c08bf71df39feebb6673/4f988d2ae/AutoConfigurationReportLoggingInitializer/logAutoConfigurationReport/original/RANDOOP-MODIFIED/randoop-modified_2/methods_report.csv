@@ -1,0 +1,6 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.initialize(org.springframework.context.ConfigurableApplicationContext)",11120,0.45170200666179217
+"org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer()",24617,0.9999593793159477
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport(boolean)",402682,16.3572182955561
+"java.lang.Object()",1,4.062068405231944E-5
+"public final native java.lang.Class java.lang.Object.getClass()",11084,0.4502396620359087

@@ -1,0 +1,16 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class com.mongodb.WriteConcern,1382,2,0.15226972234464523,2.2036139268400177E-4
+class com.mongodb.DefaultDBEncoder$DefaultFactory,1632,1,0.17981489643014545,1.1018069634200089E-4
+class java.lang.String,5975,20,0.6583296606434552,0.0022036139268400176
+class com.mongodb.ReadPreference$PrimaryReadPreference,4513,1,0.49724548259144996,1.1018069634200089E-4
+class org.springframework.boot.autoconfigure.mongo.MongoProperties,5113,875,0.5633539003966505,0.09640810929925077
+class [C,2523,12,0.2779858968708682,0.0013221683561040105
+class com.mongodb.MongoClientOptions,11975,215,1.3194138386954606,0.02368884971353019
+class java.lang.Long,2453,3,0.27027324812692816,3.3054208902600263E-4
+class java.lang.Boolean,11452,2,1.261789334508594,2.2036139268400177E-4
+class com.mongodb.MongoClientOptions$Builder,62755,3243,6.9143895989422655,0.35731599823710886
+class java.lang.Integer,30872,15,3.401498457470251,0.0016527104451300133
+class com.mongodb.DefaultDBDecoder$DefaultFactory,1631,1,0.17970471573380345,1.1018069634200089E-4
+class java.lang.Class,229,10,0.025231379462318203,0.0011018069634200088
+class javax.net.DefaultSocketFactory,1460,1,0.16086381665932128,1.1018069634200089E-4
+class com.mongodb.MongoClient,4718,4718,0.5198325253415601,0.5198325253415601

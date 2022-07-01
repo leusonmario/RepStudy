@@ -1,0 +1,17 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,16407,89,1.4505348775528246,0.007868446644858987
+class java.lang.Short,10,1,8.840951286358412E-4,8.840951286358412E-5
+class java.lang.Long,20553,19,1.8170807178852444,0.0016797807444080984
+class java.lang.Integer,12531,17,1.1078596056935726,0.00150296171868093
+class org.springframework.boot.jta.atomikos.AtomikosProperties,15241,15156,1.3474493855538856,1.339934576960481
+class java.lang.Byte,9,1,7.95685615772257E-4,8.840951286358412E-5
+class java.util.Collections$EmptyEnumeration,2265,1,0.20024754663601804,8.840951286358412E-5
+class org.springframework.boot.jta.atomikos.AtomikosProperties$Recovery,7331,713,0.6481301388029352,0.06303598267173548
+class java.lang.Double,62,2,0.005481389797542215,1.7681902572716824E-4
+class org.springframework.boot.jta.atomikos.AtomikosLoggingLevel,2332,1,0.20617098399787817,8.840951286358412E-5
+class java.util.Properties,34202,2922,3.0237821589603042,0.2583325965873928
+class java.lang.Boolean,26264,2,2.321987445849173,1.7681902572716824E-4
+class java.lang.Class,236,9,0.020864645035805852,7.95685615772257E-4
+class java.util.Collections$SynchronizedSet,3593,287,0.31765537971885777,0.025373530191848643
+class java.util.Hashtable$Enumerator,4658,353,0.4118115109185748,0.031208558040845196
+class java.util.Collections$SynchronizedCollection,902,853,0.07974538060295287,0.07541331447263726

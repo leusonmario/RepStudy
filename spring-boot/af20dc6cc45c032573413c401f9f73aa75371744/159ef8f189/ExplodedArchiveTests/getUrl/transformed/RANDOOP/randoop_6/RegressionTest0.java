@@ -1,0 +1,15272 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest0 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test00001() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00001");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00002() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00002");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.InputStream inputStream1 = null;
+        java.io.OutputStream outputStream2 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream1, outputStream2);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00003() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00003");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00004() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00004");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.Archive archive2 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap3 = explodedArchiveTests0.getEntriesMap(archive2);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00005() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00005");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00006() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00006");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.Archive archive3 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap4 = explodedArchiveTests0.getEntriesMap(archive3);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00007() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00007");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00008() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00008");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00009() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00009");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00010() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00010");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        java.io.InputStream inputStream5 = null;
+        java.io.OutputStream outputStream6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream5, outputStream6);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00011() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00011");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00012() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00012");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.Archive archive4 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap5 = explodedArchiveTests0.getEntriesMap(archive4);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00013() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00013");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00014() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00014");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00015() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00015");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00016() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00016");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00017() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00017");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+    }
+
+    @Test
+    public void test00018() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00018");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.InputStream inputStream2 = null;
+        java.io.OutputStream outputStream3 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream2, outputStream3);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00019() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00019");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00020() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00020");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00021() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00021");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.lang.Class<?> wildcardClass1 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass1);
+    }
+
+    @Test
+    public void test00022() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00022");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+    }
+
+    @Test
+    public void test00023() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00023");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00024() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00024");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00025() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00025");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00026() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00026");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00027() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00027");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00028() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00028");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00029() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00029");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00030() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00030");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00031() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00031");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00032() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00032");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        java.io.InputStream inputStream5 = null;
+        java.io.OutputStream outputStream6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream5, outputStream6);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00033() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00033");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00034() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00034");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests7.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests7.temporaryFolder = temporaryFolder12;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder12;
+        java.lang.Class<?> wildcardClass15 = temporaryFolder12.getClass();
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test00035() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00035");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00036() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00036");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00037() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00037");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        org.springframework.boot.loader.archive.Archive archive9 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap10 = explodedArchiveTests0.getEntriesMap(archive9);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00038() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00038");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00039() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00039");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00040() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00040");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00041() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00041");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests7.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests7.temporaryFolder = temporaryFolder12;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder12;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00042() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00042");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00043() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00043");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00044() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00044");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00045() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00045");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00046() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00046");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00047() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00047");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.setrootFolder(file3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00048() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00048");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00049() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00049");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.InputStream inputStream3 = null;
+        java.io.OutputStream outputStream4 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream3, outputStream4);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00050() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00050");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.lang.Class<?> wildcardClass4 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(wildcardClass4);
+    }
+
+    @Test
+    public void test00051() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00051");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00052() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00052");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00053() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00053");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00054() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00054");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00055() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00055");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00056() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00056");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.Archive archive5 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap6 = explodedArchiveTests0.getEntriesMap(archive5);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00057() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00057");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00058() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00058");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00059() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00059");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00060() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00060");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+    }
+
+    @Test
+    public void test00061() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00061");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00062() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00062");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests0.archive = explodedArchive20;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00063() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00063");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00064() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00064");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00065() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00065");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00066() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00066");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        java.lang.Class<?> wildcardClass2 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNotNull(wildcardClass2);
+    }
+
+    @Test
+    public void test00067() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00067");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00068() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00068");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00069() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00069");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00070() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00070");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.Archive archive2 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap3 = explodedArchiveTests0.getEntriesMap(archive2);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00071() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00071");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00072() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00072");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00073() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00073");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = null;
+        explodedArchiveTests0.setrootFolder(file18);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00074() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00074");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder12);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00075() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00075");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00076() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00076");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00077() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00077");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.Archive archive7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap8 = explodedArchiveTests0.getEntriesMap(archive7);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00078() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00078");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+    }
+
+    @Test
+    public void test00079() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00079");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00080() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00080");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00081() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00081");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests7.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests7.temporaryFolder = temporaryFolder12;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder12;
+        java.lang.Class<?> wildcardClass15 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test00082() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00082");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.io.InputStream inputStream4 = null;
+        java.io.OutputStream outputStream5 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream4, outputStream5);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00083() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00083");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00084() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00084");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00085() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00085");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        java.lang.Class<?> wildcardClass14 = temporaryFolder13.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test00086() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00086");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.setarchive(explodedArchive5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00087() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00087");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00088() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00088");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00089() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00089");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00090() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00090");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests0.setarchive(explodedArchive7);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00091() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00091");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00092() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00092");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00093() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00093");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00094() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00094");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00095() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00095");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.setrootFolder(file3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.archive = explodedArchive5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00096() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00096");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+    }
+
+    @Test
+    public void test00097() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00097");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.archive = explodedArchive3;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00098() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00098");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00099() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00099");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00100() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00100");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+    }
+
+    @Test
+    public void test00101() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00101");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00102() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00102");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00103() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00103");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.InputStream inputStream9 = null;
+        java.io.OutputStream outputStream10 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream9, outputStream10);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00104() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00104");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.lang.Class<?> wildcardClass9 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test00105() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00105");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00106() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00106");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.lang.Class<?> wildcardClass5 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNotNull(wildcardClass5);
+    }
+
+    @Test
+    public void test00107() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00107");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00108() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00108");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests7.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests7.temporaryFolder = temporaryFolder12;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder12;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00109() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00109");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.Archive archive12 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap13 = explodedArchiveTests0.getEntriesMap(archive12);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00110() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00110");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00111() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00111");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00112() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00112");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.setarchive(explodedArchive5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00113() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00113");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = null;
+        explodedArchiveTests0.setrootFolder(file12);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00114() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00114");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00115() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00115");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests6 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file7 = explodedArchiveTests6.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests6.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests6.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00116() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00116");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests6 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file7 = explodedArchiveTests6.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests6.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests6.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00117() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00117");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00118() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00118");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        java.io.File file21 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(file21);
+    }
+
+    @Test
+    public void test00119() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00119");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file18);
+    }
+
+    @Test
+    public void test00120() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00120");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00121() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00121");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00122() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00122");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(file12);
+    }
+
+    @Test
+    public void test00123() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00123");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+    }
+
+    @Test
+    public void test00124() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00124");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests7.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests7.temporaryFolder = temporaryFolder12;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder12;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00125() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00125");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00126() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00126");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+    }
+
+    @Test
+    public void test00127() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00127");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00128() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00128");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+    }
+
+    @Test
+    public void test00129() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00129");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        java.io.InputStream inputStream8 = null;
+        java.io.OutputStream outputStream9 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream8, outputStream9);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00130() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00130");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.archive;
+        java.lang.Class<?> wildcardClass10 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test00131() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00131");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = null;
+        explodedArchiveTests9.rootFolder = file20;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder23;
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        java.io.File file27 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+        org.junit.Assert.assertNull(file27);
+    }
+
+    @Test
+    public void test00132() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00132");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        java.io.File file10 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file10);
+    }
+
+    @Test
+    public void test00133() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00133");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file18);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+    }
+
+    @Test
+    public void test00134() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00134");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00135() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00135");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        java.io.InputStream inputStream4 = null;
+        java.io.OutputStream outputStream5 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream4, outputStream5);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00136() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00136");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.setarchive(explodedArchive5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00137() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00137");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00138() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00138");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.lang.Class<?> wildcardClass11 = temporaryFolder9.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(wildcardClass11);
+    }
+
+    @Test
+    public void test00139() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00139");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00140() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00140");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.io.File file4 = explodedArchiveTests0.rootFolder;
+        java.io.File file5 = null;
+        explodedArchiveTests0.rootFolder = file5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00141() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00141");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00142() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00142");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file14 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file14);
+    }
+
+    @Test
+    public void test00143() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00143");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = null;
+        explodedArchiveTests9.rootFolder = file20;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder23;
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+    }
+
+    @Test
+    public void test00144() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00144");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+    }
+
+    @Test
+    public void test00145() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00145");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.archive = explodedArchive3;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00146() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00146");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = null;
+        explodedArchiveTests0.setrootFolder(file18);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00147() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00147");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        org.springframework.boot.loader.archive.Archive archive10 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap11 = explodedArchiveTests0.getEntriesMap(archive10);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00148() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00148");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00149() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00149");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(explodedArchive7);
+    }
+
+    @Test
+    public void test00150() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00150");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder12);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00151() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00151");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        java.io.File file8 = null;
+        explodedArchiveTests0.setrootFolder(file8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00152() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00152");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00153() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00153");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder17;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+    }
+
+    @Test
+    public void test00154() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00154");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.InputStream inputStream19 = null;
+        java.io.OutputStream outputStream20 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream19, outputStream20);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+    }
+
+    @Test
+    public void test00155() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00155");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        java.io.File file10 = null;
+        explodedArchiveTests0.setrootFolder(file10);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00156() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00156");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass5 = explodedArchive4.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00157() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00157");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        java.io.File file8 = null;
+        explodedArchiveTests0.setrootFolder(file8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00158() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00158");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00159() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00159");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00160() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00160");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00161() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00161");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        org.springframework.boot.loader.archive.Archive archive7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap8 = explodedArchiveTests0.getEntriesMap(archive7);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00162() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00162");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00163() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00163");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00164() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00164");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.setrootFolder(file3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.archive = explodedArchive5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00165() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00165");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests0.setarchive(explodedArchive7);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00166() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00166");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00167() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00167");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+    }
+
+    @Test
+    public void test00168() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00168");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.archive = explodedArchive13;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00169() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00169");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00170() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00170");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00171() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00171");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = null;
+        explodedArchiveTests0.setrootFolder(file12);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00172() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00172");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+    }
+
+    @Test
+    public void test00173() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00173");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.temporaryFolder;
+        java.lang.Class<?> wildcardClass5 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNotNull(wildcardClass5);
+    }
+
+    @Test
+    public void test00174() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00174");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00175() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00175");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        java.io.File file8 = null;
+        explodedArchiveTests0.setrootFolder(file8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00176() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00176");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00177() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00177");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive11);
+    }
+
+    @Test
+    public void test00178() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00178");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests7.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests7.temporaryFolder;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder10);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder10;
+        java.lang.Class<?> wildcardClass13 = temporaryFolder10.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNotNull(temporaryFolder10);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test00179() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00179");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00180() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00180");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.io.File file4 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00181() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00181");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00182() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00182");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.springframework.boot.loader.archive.Archive archive1 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap2 = explodedArchiveTests0.getEntriesMap(archive1);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00183() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00183");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests0.setarchive(explodedArchive9);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00184() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00184");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00185() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00185");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00186() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00186");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.archive;
+        java.io.File file10 = null;
+        explodedArchiveTests0.rootFolder = file10;
+        java.lang.Class<?> wildcardClass12 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test00187() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00187");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests11 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file12 = explodedArchiveTests11.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = explodedArchiveTests11.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests11.temporaryFolder;
+        explodedArchiveTests9.settemporaryFolder(temporaryFolder14);
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests9.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder17;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(file12);
+        org.junit.Assert.assertNull(explodedArchive13);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00188() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00188");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00189() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00189");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        java.lang.Class<?> wildcardClass9 = temporaryFolder8.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test00190() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00190");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        java.io.InputStream inputStream7 = null;
+        java.io.OutputStream outputStream8 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream7, outputStream8);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00191() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00191");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests0.gettemporaryFolder();
+        java.lang.Class<?> wildcardClass20 = temporaryFolder19.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file18);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test00192() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00192");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00193() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00193");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder2 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNotNull(temporaryFolder2);
+    }
+
+    @Test
+    public void test00194() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00194");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file14 = explodedArchiveTests0.rootFolder;
+        java.lang.Class<?> wildcardClass15 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file14);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test00195() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00195");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00196() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00196");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.archive = explodedArchive13;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00197() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00197");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(explodedArchive14);
+    }
+
+    @Test
+    public void test00198() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00198");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests0.archive = explodedArchive20;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive22 = null;
+        explodedArchiveTests0.archive = explodedArchive22;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00199() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00199");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = null;
+        explodedArchiveTests0.setrootFolder(file2);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00200() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00200");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests6 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests6.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder7);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00201() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00201");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.archive = explodedArchive3;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00202() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00202");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00203() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00203");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        java.io.File file8 = null;
+        explodedArchiveTests0.setrootFolder(file8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00204() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00204");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        java.io.InputStream inputStream10 = null;
+        java.io.OutputStream outputStream11 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream10, outputStream11);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00205() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00205");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00206() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00206");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00207() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00207");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00208() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00208");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+    }
+
+    @Test
+    public void test00209() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00209");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00210() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00210");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder2 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNotNull(temporaryFolder2);
+    }
+
+    @Test
+    public void test00211() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00211");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = null;
+        explodedArchiveTests0.setrootFolder(file12);
+        java.io.File file14 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(file14);
+    }
+
+    @Test
+    public void test00212() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00212");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00213() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00213");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.setrootFolder(file3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.archive = explodedArchive5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00214() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00214");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.Archive archive13 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap14 = explodedArchiveTests0.getEntriesMap(archive13);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(file12);
+    }
+
+    @Test
+    public void test00215() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00215");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.settemporaryFolder(temporaryFolder17);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive19 = explodedArchiveTests12.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder20);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(explodedArchive19);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+    }
+
+    @Test
+    public void test00216() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00216");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests0.archive = explodedArchive20;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00217() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00217");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        java.io.File file10 = null;
+        explodedArchiveTests0.setrootFolder(file10);
+        java.io.InputStream inputStream12 = null;
+        java.io.OutputStream outputStream13 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream12, outputStream13);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00218() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00218");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests2.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests2.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests7.setarchive(explodedArchive9);
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests7.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder11;
+        java.io.File file13 = null;
+        explodedArchiveTests2.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests15.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder16;
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests2.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+    }
+
+    @Test
+    public void test00219() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00219");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.io.File file4 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.Archive archive5 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap6 = explodedArchiveTests0.getEntriesMap(archive5);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00220() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00220");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00221() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00221");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00222() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00222");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00223() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00223");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = null;
+        explodedArchiveTests9.rootFolder = file20;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder23;
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        org.springframework.boot.loader.archive.Archive archive27 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap28 = explodedArchiveTests0.getEntriesMap(archive27);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+    }
+
+    @Test
+    public void test00224() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00224");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00225() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00225");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00226() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00226");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder10;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00227() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00227");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(explodedArchive7);
+    }
+
+    @Test
+    public void test00228() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00228");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = null;
+        explodedArchiveTests9.rootFolder = file20;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder23;
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+    }
+
+    @Test
+    public void test00229() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00229");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00230() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00230");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        java.io.File file8 = null;
+        explodedArchiveTests0.rootFolder = file8;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00231() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00231");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00232() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00232");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00233() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00233");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.io.File file4 = explodedArchiveTests0.rootFolder;
+        java.io.File file5 = null;
+        explodedArchiveTests0.rootFolder = file5;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests7.setarchive(explodedArchive9);
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests7.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder11);
+        java.io.InputStream inputStream13 = null;
+        java.io.OutputStream outputStream14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream13, outputStream14);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+    }
+
+    @Test
+    public void test00234() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00234");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00235() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00235");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests2.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests2.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests7.setarchive(explodedArchive9);
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests7.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder11;
+        java.io.File file13 = null;
+        explodedArchiveTests2.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests15.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder16;
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests2.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder18);
+        java.lang.Class<?> wildcardClass20 = temporaryFolder18.getClass();
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test00236() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00236");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests0.gettemporaryFolder();
+        java.lang.Class<?> wildcardClass19 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test00237() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00237");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00238() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00238");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file4 = explodedArchiveTests3.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests5.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests5.temporaryFolder;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder8);
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests3.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests3.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.settemporaryFolder(temporaryFolder17);
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests12.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests12.gettemporaryFolder();
+        explodedArchiveTests3.temporaryFolder = temporaryFolder20;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder20);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNull(explodedArchive7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNotNull(temporaryFolder10);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+    }
+
+    @Test
+    public void test00239() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00239");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00240() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00240");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00241() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00241");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00242() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00242");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00243() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00243");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.archive = explodedArchive5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+    }
+
+    @Test
+    public void test00244() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00244");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive19 = null;
+        explodedArchiveTests0.archive = explodedArchive19;
+        java.lang.Class<?> wildcardClass21 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(wildcardClass21);
+    }
+
+    @Test
+    public void test00245() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00245");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive6);
+    }
+
+    @Test
+    public void test00246() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00246");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00247() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00247");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests4.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests4.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder6);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00248() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00248");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00249() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00249");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00250() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00250");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file4 = explodedArchiveTests3.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests3.setarchive(explodedArchive5);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests3.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00251() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00251");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00252() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00252");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        java.io.File file21 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests22.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(file21);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+    }
+
+    @Test
+    public void test00253() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00253");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00254() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00254");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file7 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00255() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00255");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+    }
+
+    @Test
+    public void test00256() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00256");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests15.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests15.temporaryFolder;
+        java.io.File file22 = explodedArchiveTests15.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive23 = explodedArchiveTests15.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(temporaryFolder20);
+        org.junit.Assert.assertNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file22);
+        org.junit.Assert.assertNull(explodedArchive23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+    }
+
+    @Test
+    public void test00257() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00257");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        java.io.File file21 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests22.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(file21);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+    }
+
+    @Test
+    public void test00258() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00258");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00259() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00259");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00260() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00260");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = null;
+        explodedArchiveTests0.setrootFolder(file18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+    }
+
+    @Test
+    public void test00261() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00261");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00262() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00262");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests12.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests12.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder16;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+    }
+
+    @Test
+    public void test00263() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00263");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00264() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00264");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00265() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00265");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder12);
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = null;
+        explodedArchiveTests0.archive = explodedArchive15;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+    }
+
+    @Test
+    public void test00266() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00266");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00267() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00267");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file4 = explodedArchiveTests3.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests3.setarchive(explodedArchive5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests3.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive10 = null;
+        explodedArchiveTests8.setarchive(explodedArchive10);
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests8.gettemporaryFolder();
+        explodedArchiveTests3.temporaryFolder = temporaryFolder12;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder12);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00268() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00268");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00269() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00269");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = null;
+        explodedArchiveTests0.rootFolder = file6;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00270() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00270");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00271() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00271");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(temporaryFolder14);
+    }
+
+    @Test
+    public void test00272() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00272");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00273() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00273");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00274() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00274");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder12);
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+    }
+
+    @Test
+    public void test00275() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00275");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file14 = explodedArchiveTests13.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = null;
+        explodedArchiveTests13.setarchive(explodedArchive15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests13.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file19 = explodedArchiveTests18.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests18.setarchive(explodedArchive20);
+        org.junit.rules.TemporaryFolder temporaryFolder22 = explodedArchiveTests18.gettemporaryFolder();
+        explodedArchiveTests13.temporaryFolder = temporaryFolder22;
+        java.io.File file24 = null;
+        explodedArchiveTests13.rootFolder = file24;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests26 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder27 = explodedArchiveTests26.gettemporaryFolder();
+        explodedArchiveTests13.temporaryFolder = temporaryFolder27;
+        java.io.File file29 = explodedArchiveTests13.getrootFolder();
+        java.io.File file30 = explodedArchiveTests13.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests31 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder32 = null;
+        explodedArchiveTests31.settemporaryFolder(temporaryFolder32);
+        org.junit.rules.TemporaryFolder temporaryFolder34 = null;
+        explodedArchiveTests31.settemporaryFolder(temporaryFolder34);
+        org.junit.rules.TemporaryFolder temporaryFolder36 = explodedArchiveTests31.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder37 = explodedArchiveTests31.temporaryFolder;
+        java.io.File file38 = explodedArchiveTests31.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests39 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder40 = null;
+        explodedArchiveTests39.settemporaryFolder(temporaryFolder40);
+        org.junit.rules.TemporaryFolder temporaryFolder42 = null;
+        explodedArchiveTests39.settemporaryFolder(temporaryFolder42);
+        org.junit.rules.TemporaryFolder temporaryFolder44 = explodedArchiveTests39.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder45 = explodedArchiveTests39.temporaryFolder;
+        java.io.File file46 = explodedArchiveTests39.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive47 = explodedArchiveTests39.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests48 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file49 = explodedArchiveTests48.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive50 = null;
+        explodedArchiveTests48.setarchive(explodedArchive50);
+        org.junit.rules.TemporaryFolder temporaryFolder52 = explodedArchiveTests48.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests53 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file54 = explodedArchiveTests53.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive55 = null;
+        explodedArchiveTests53.setarchive(explodedArchive55);
+        org.junit.rules.TemporaryFolder temporaryFolder57 = explodedArchiveTests53.gettemporaryFolder();
+        explodedArchiveTests48.temporaryFolder = temporaryFolder57;
+        java.io.File file59 = null;
+        explodedArchiveTests48.rootFolder = file59;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests61 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder62 = explodedArchiveTests61.gettemporaryFolder();
+        explodedArchiveTests48.temporaryFolder = temporaryFolder62;
+        org.junit.rules.TemporaryFolder temporaryFolder64 = explodedArchiveTests48.gettemporaryFolder();
+        explodedArchiveTests39.settemporaryFolder(temporaryFolder64);
+        explodedArchiveTests31.settemporaryFolder(temporaryFolder64);
+        explodedArchiveTests13.temporaryFolder = temporaryFolder64;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder64;
+        java.io.InputStream inputStream69 = null;
+        java.io.OutputStream outputStream70 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream69, outputStream70);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(file14);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file19);
+        org.junit.Assert.assertNotNull(temporaryFolder22);
+        org.junit.Assert.assertNotNull(temporaryFolder27);
+        org.junit.Assert.assertNull(file29);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNull(temporaryFolder36);
+        org.junit.Assert.assertNull(temporaryFolder37);
+        org.junit.Assert.assertNull(file38);
+        org.junit.Assert.assertNull(temporaryFolder44);
+        org.junit.Assert.assertNull(temporaryFolder45);
+        org.junit.Assert.assertNull(file46);
+        org.junit.Assert.assertNull(explodedArchive47);
+        org.junit.Assert.assertNull(file49);
+        org.junit.Assert.assertNotNull(temporaryFolder52);
+        org.junit.Assert.assertNull(file54);
+        org.junit.Assert.assertNotNull(temporaryFolder57);
+        org.junit.Assert.assertNotNull(temporaryFolder62);
+        org.junit.Assert.assertNotNull(temporaryFolder64);
+    }
+
+    @Test
+    public void test00276() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00276");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        java.io.File file8 = null;
+        explodedArchiveTests0.rootFolder = file8;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00277() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00277");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00278() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00278");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file16 = explodedArchiveTests15.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests15.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests15.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests15.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder19;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+    }
+
+    @Test
+    public void test00279() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00279");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        java.io.File file17 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass18 = file17.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNull(file17);
+    }
+
+    @Test
+    public void test00280() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00280");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests0.archive = explodedArchive20;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00281() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00281");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.io.File file4 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00282() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00282");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00283() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00283");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00284() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00284");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+    }
+
+    @Test
+    public void test00285() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00285");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        java.lang.Class<?> wildcardClass19 = temporaryFolder15.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(wildcardClass19);
+    }
+
+    @Test
+    public void test00286() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00286");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00287() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00287");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file18);
+    }
+
+    @Test
+    public void test00288() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00288");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+    }
+
+    @Test
+    public void test00289() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00289");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests16 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests16.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file19 = explodedArchiveTests18.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = explodedArchiveTests18.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests18.temporaryFolder;
+        explodedArchiveTests16.temporaryFolder = temporaryFolder21;
+        java.io.File file23 = null;
+        explodedArchiveTests16.rootFolder = file23;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests25 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file26 = explodedArchiveTests25.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive27 = explodedArchiveTests25.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests25.temporaryFolder;
+        explodedArchiveTests16.settemporaryFolder(temporaryFolder28);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder28);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file19);
+        org.junit.Assert.assertNull(explodedArchive20);
+        org.junit.Assert.assertNotNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file26);
+        org.junit.Assert.assertNull(explodedArchive27);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+    }
+
+    @Test
+    public void test00290() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00290");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00291() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00291");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.rootFolder = file3;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.archive = explodedArchive5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00292() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00292");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+    }
+
+    @Test
+    public void test00293() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00293");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00294() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00294");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests12.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests12.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder16;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+    }
+
+    @Test
+    public void test00295() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00295");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        java.lang.Class<?> wildcardClass13 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test00296() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00296");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.rootFolder = file3;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.archive = explodedArchive5;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00297() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00297");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests15.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests15.temporaryFolder;
+        java.io.File file22 = explodedArchiveTests15.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive23 = explodedArchiveTests15.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        org.junit.rules.TemporaryFolder temporaryFolder43 = explodedArchiveTests0.gettemporaryFolder();
+        java.lang.Class<?> wildcardClass44 = temporaryFolder43.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(temporaryFolder20);
+        org.junit.Assert.assertNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file22);
+        org.junit.Assert.assertNull(explodedArchive23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+        org.junit.Assert.assertNotNull(temporaryFolder43);
+        org.junit.Assert.assertNotNull(wildcardClass44);
+    }
+
+    @Test
+    public void test00298() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00298");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file4 = explodedArchiveTests3.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests3.setarchive(explodedArchive5);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests3.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00299() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00299");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive19 = null;
+        explodedArchiveTests0.archive = explodedArchive19;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+    }
+
+    @Test
+    public void test00300() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00300");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests15.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests15.temporaryFolder;
+        java.io.File file22 = explodedArchiveTests15.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive23 = explodedArchiveTests15.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive43 = null;
+        explodedArchiveTests0.setarchive(explodedArchive43);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(temporaryFolder20);
+        org.junit.Assert.assertNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file22);
+        org.junit.Assert.assertNull(explodedArchive23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+    }
+
+    @Test
+    public void test00301() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00301");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests2.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests2.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests7.setarchive(explodedArchive9);
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests7.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder11;
+        java.io.File file13 = null;
+        explodedArchiveTests2.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests15.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder16;
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests2.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder18);
+        org.springframework.boot.loader.archive.Archive archive20 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap21 = explodedArchiveTests0.getEntriesMap(archive20);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+    }
+
+    @Test
+    public void test00302() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00302");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        java.io.File file4 = null;
+        explodedArchiveTests0.setrootFolder(file4);
+        java.io.File file6 = null;
+        explodedArchiveTests0.rootFolder = file6;
+        java.lang.Class<?> wildcardClass8 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(wildcardClass8);
+    }
+
+    @Test
+    public void test00303() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00303");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = explodedArchiveTests0.getrootFolder();
+        java.io.InputStream inputStream7 = null;
+        java.io.OutputStream outputStream8 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream7, outputStream8);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00304() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00304");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.archive = explodedArchive2;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00305() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00305");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        java.io.File file19 = null;
+        explodedArchiveTests0.rootFolder = file19;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+    }
+
+    @Test
+    public void test00306() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00306");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        org.springframework.boot.loader.archive.Archive archive14 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap15 = explodedArchiveTests0.getEntriesMap(archive14);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00307() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00307");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00308() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00308");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file14 = explodedArchiveTests0.rootFolder;
+        java.io.InputStream inputStream15 = null;
+        java.io.OutputStream outputStream16 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream15, outputStream16);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file14);
+    }
+
+    @Test
+    public void test00309() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00309");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        java.io.InputStream inputStream9 = null;
+        java.io.OutputStream outputStream10 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream9, outputStream10);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00310() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00310");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00311() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00311");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00312() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00312");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests7.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests7.temporaryFolder = temporaryFolder12;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder12;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00313() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00313");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.archive;
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(explodedArchive5);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00314() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00314");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder2 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder2);
+    }
+
+    @Test
+    public void test00315() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00315");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNull(explodedArchive7);
+    }
+
+    @Test
+    public void test00316() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00316");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+    }
+
+    @Test
+    public void test00317() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00317");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        java.io.File file4 = null;
+        explodedArchiveTests0.setrootFolder(file4);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00318() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00318");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass6 = temporaryFolder5.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00319() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00319");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests12.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests12.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder14);
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+    }
+
+    @Test
+    public void test00320() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00320");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = null;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder8);
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests5.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests5.temporaryFolder;
+        java.io.File file12 = explodedArchiveTests5.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = null;
+        explodedArchiveTests13.settemporaryFolder(temporaryFolder14);
+        org.junit.rules.TemporaryFolder temporaryFolder16 = null;
+        explodedArchiveTests13.settemporaryFolder(temporaryFolder16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests13.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests13.temporaryFolder;
+        java.io.File file20 = explodedArchiveTests13.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive21 = explodedArchiveTests13.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file23 = explodedArchiveTests22.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive24 = null;
+        explodedArchiveTests22.setarchive(explodedArchive24);
+        org.junit.rules.TemporaryFolder temporaryFolder26 = explodedArchiveTests22.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests27 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file28 = explodedArchiveTests27.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive29 = null;
+        explodedArchiveTests27.setarchive(explodedArchive29);
+        org.junit.rules.TemporaryFolder temporaryFolder31 = explodedArchiveTests27.gettemporaryFolder();
+        explodedArchiveTests22.temporaryFolder = temporaryFolder31;
+        java.io.File file33 = null;
+        explodedArchiveTests22.rootFolder = file33;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests35 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder36 = explodedArchiveTests35.gettemporaryFolder();
+        explodedArchiveTests22.temporaryFolder = temporaryFolder36;
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests22.gettemporaryFolder();
+        explodedArchiveTests13.settemporaryFolder(temporaryFolder38);
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder38);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder38);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(temporaryFolder10);
+        org.junit.Assert.assertNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file12);
+        org.junit.Assert.assertNull(temporaryFolder18);
+        org.junit.Assert.assertNull(temporaryFolder19);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(explodedArchive21);
+        org.junit.Assert.assertNull(file23);
+        org.junit.Assert.assertNotNull(temporaryFolder26);
+        org.junit.Assert.assertNull(file28);
+        org.junit.Assert.assertNotNull(temporaryFolder31);
+        org.junit.Assert.assertNotNull(temporaryFolder36);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+    }
+
+    @Test
+    public void test00321() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00321");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNull(explodedArchive16);
+    }
+
+    @Test
+    public void test00322() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00322");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive10 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(explodedArchive10);
+    }
+
+    @Test
+    public void test00323() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00323");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.setarchive(explodedArchive5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00324() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00324");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = null;
+        explodedArchiveTests0.setrootFolder(file12);
+        java.io.File file14 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(file14);
+    }
+
+    @Test
+    public void test00325() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00325");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file4);
+    }
+
+    @Test
+    public void test00326() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00326");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = null;
+        explodedArchiveTests0.setrootFolder(file18);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests0.archive = explodedArchive20;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00327() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00327");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00328() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00328");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+    }
+
+    @Test
+    public void test00329() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00329");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = null;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder8);
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests5.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests5.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests12.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.temporaryFolder = temporaryFolder17;
+        explodedArchiveTests5.temporaryFolder = temporaryFolder17;
+        explodedArchiveTests2.settemporaryFolder(temporaryFolder17);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder17);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(temporaryFolder10);
+        org.junit.Assert.assertNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00330() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00330");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests0.getarchive();
+        java.io.InputStream inputStream7 = null;
+        java.io.OutputStream outputStream8 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream7, outputStream8);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive6);
+    }
+
+    @Test
+    public void test00331() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00331");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file4 = null;
+        explodedArchiveTests0.rootFolder = file4;
+        java.lang.Class<?> wildcardClass6 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNotNull(wildcardClass6);
+    }
+
+    @Test
+    public void test00332() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00332");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(temporaryFolder14);
+    }
+
+    @Test
+    public void test00333() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00333");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = null;
+        explodedArchiveTests9.rootFolder = file20;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder23;
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive27 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+        org.junit.Assert.assertNull(explodedArchive27);
+    }
+
+    @Test
+    public void test00334() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00334");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests0.setarchive(explodedArchive9);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00335() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00335");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = null;
+        explodedArchiveTests12.setarchive(explodedArchive14);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests12.setarchive(explodedArchive16);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder19);
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests18.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive22 = explodedArchiveTests18.getarchive();
+        java.io.File file23 = explodedArchiveTests18.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests24.temporaryFolder;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder25);
+        explodedArchiveTests12.temporaryFolder = temporaryFolder25;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(temporaryFolder21);
+        org.junit.Assert.assertNull(explodedArchive22);
+        org.junit.Assert.assertNull(file23);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+    }
+
+    @Test
+    public void test00336() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00336");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        java.io.File file21 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests22.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests43 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file44 = explodedArchiveTests43.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive45 = explodedArchiveTests43.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests46 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder47 = null;
+        explodedArchiveTests46.settemporaryFolder(temporaryFolder47);
+        org.junit.rules.TemporaryFolder temporaryFolder49 = null;
+        explodedArchiveTests46.settemporaryFolder(temporaryFolder49);
+        org.junit.rules.TemporaryFolder temporaryFolder51 = explodedArchiveTests46.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder52 = explodedArchiveTests46.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests53 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder54 = explodedArchiveTests53.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests55 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file56 = explodedArchiveTests55.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive57 = explodedArchiveTests55.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder58 = explodedArchiveTests55.temporaryFolder;
+        explodedArchiveTests53.temporaryFolder = temporaryFolder58;
+        explodedArchiveTests46.temporaryFolder = temporaryFolder58;
+        explodedArchiveTests43.settemporaryFolder(temporaryFolder58);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder58;
+        java.io.InputStream inputStream63 = null;
+        java.io.OutputStream outputStream64 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream63, outputStream64);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(file21);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+        org.junit.Assert.assertNull(file44);
+        org.junit.Assert.assertNull(explodedArchive45);
+        org.junit.Assert.assertNull(temporaryFolder51);
+        org.junit.Assert.assertNull(temporaryFolder52);
+        org.junit.Assert.assertNotNull(temporaryFolder54);
+        org.junit.Assert.assertNull(file56);
+        org.junit.Assert.assertNull(explodedArchive57);
+        org.junit.Assert.assertNotNull(temporaryFolder58);
+    }
+
+    @Test
+    public void test00337() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00337");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        java.io.File file21 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests22.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(file21);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+    }
+
+    @Test
+    public void test00338() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00338");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = null;
+        explodedArchiveTests0.setrootFolder(file18);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests0.archive = explodedArchive20;
+        java.io.File file22 = null;
+        explodedArchiveTests0.rootFolder = file22;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00339() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00339");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00340() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00340");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        java.io.File file14 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(file14);
+    }
+
+    @Test
+    public void test00341() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00341");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+    }
+
+    @Test
+    public void test00342() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00342");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNull(explodedArchive16);
+    }
+
+    @Test
+    public void test00343() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00343");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests0.setarchive(explodedArchive9);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00344() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00344");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        java.io.File file10 = explodedArchiveTests0.getrootFolder();
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file10);
+    }
+
+    @Test
+    public void test00345() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00345");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        java.io.File file4 = null;
+        explodedArchiveTests0.setrootFolder(file4);
+        java.io.File file6 = null;
+        explodedArchiveTests0.rootFolder = file6;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00346() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00346");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        java.io.File file10 = explodedArchiveTests0.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.Archive archive12 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap13 = explodedArchiveTests0.getEntriesMap(archive12);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+    }
+
+    @Test
+    public void test00347() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00347");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        java.io.File file12 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file12);
+    }
+
+    @Test
+    public void test00348() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00348");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(explodedArchive7);
+    }
+
+    @Test
+    public void test00349() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00349");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests10.setarchive(explodedArchive12);
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests10.gettemporaryFolder();
+        explodedArchiveTests5.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = null;
+        explodedArchiveTests5.rootFolder = file16;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests18.gettemporaryFolder();
+        explodedArchiveTests5.temporaryFolder = temporaryFolder19;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests21 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder22 = explodedArchiveTests21.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests23 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file24 = explodedArchiveTests23.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive25 = explodedArchiveTests23.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder26 = explodedArchiveTests23.temporaryFolder;
+        explodedArchiveTests21.temporaryFolder = temporaryFolder26;
+        java.io.File file28 = null;
+        explodedArchiveTests21.rootFolder = file28;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests30 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file31 = explodedArchiveTests30.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive32 = explodedArchiveTests30.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests30.temporaryFolder;
+        explodedArchiveTests21.settemporaryFolder(temporaryFolder33);
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder33);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder33);
+        java.lang.Class<?> wildcardClass37 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+        org.junit.Assert.assertNotNull(temporaryFolder22);
+        org.junit.Assert.assertNull(file24);
+        org.junit.Assert.assertNull(explodedArchive25);
+        org.junit.Assert.assertNotNull(temporaryFolder26);
+        org.junit.Assert.assertNull(file31);
+        org.junit.Assert.assertNull(explodedArchive32);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(wildcardClass37);
+    }
+
+    @Test
+    public void test00350() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00350");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        java.io.File file10 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass11 = file10.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file10);
+    }
+
+    @Test
+    public void test00351() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00351");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests6 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file7 = explodedArchiveTests6.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests6.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests6.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests11 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file12 = explodedArchiveTests11.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests11.setarchive(explodedArchive13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests11.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests16 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file17 = explodedArchiveTests16.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive18 = null;
+        explodedArchiveTests16.setarchive(explodedArchive18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests16.gettemporaryFolder();
+        explodedArchiveTests11.temporaryFolder = temporaryFolder20;
+        java.io.File file22 = null;
+        explodedArchiveTests11.setrootFolder(file22);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        java.io.File file40 = explodedArchiveTests24.getrootFolder();
+        java.io.File file41 = explodedArchiveTests24.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests42 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder43 = null;
+        explodedArchiveTests42.settemporaryFolder(temporaryFolder43);
+        org.junit.rules.TemporaryFolder temporaryFolder45 = null;
+        explodedArchiveTests42.settemporaryFolder(temporaryFolder45);
+        org.junit.rules.TemporaryFolder temporaryFolder47 = explodedArchiveTests42.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder48 = explodedArchiveTests42.temporaryFolder;
+        java.io.File file49 = explodedArchiveTests42.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests50 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder51 = null;
+        explodedArchiveTests50.settemporaryFolder(temporaryFolder51);
+        org.junit.rules.TemporaryFolder temporaryFolder53 = null;
+        explodedArchiveTests50.settemporaryFolder(temporaryFolder53);
+        org.junit.rules.TemporaryFolder temporaryFolder55 = explodedArchiveTests50.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder56 = explodedArchiveTests50.temporaryFolder;
+        java.io.File file57 = explodedArchiveTests50.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive58 = explodedArchiveTests50.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests59 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file60 = explodedArchiveTests59.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive61 = null;
+        explodedArchiveTests59.setarchive(explodedArchive61);
+        org.junit.rules.TemporaryFolder temporaryFolder63 = explodedArchiveTests59.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests64 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file65 = explodedArchiveTests64.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive66 = null;
+        explodedArchiveTests64.setarchive(explodedArchive66);
+        org.junit.rules.TemporaryFolder temporaryFolder68 = explodedArchiveTests64.gettemporaryFolder();
+        explodedArchiveTests59.temporaryFolder = temporaryFolder68;
+        java.io.File file70 = null;
+        explodedArchiveTests59.rootFolder = file70;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests72 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder73 = explodedArchiveTests72.gettemporaryFolder();
+        explodedArchiveTests59.temporaryFolder = temporaryFolder73;
+        org.junit.rules.TemporaryFolder temporaryFolder75 = explodedArchiveTests59.gettemporaryFolder();
+        explodedArchiveTests50.settemporaryFolder(temporaryFolder75);
+        explodedArchiveTests42.settemporaryFolder(temporaryFolder75);
+        explodedArchiveTests24.temporaryFolder = temporaryFolder75;
+        explodedArchiveTests11.temporaryFolder = temporaryFolder75;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder75;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive81 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(file12);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNull(file17);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNull(file40);
+        org.junit.Assert.assertNull(file41);
+        org.junit.Assert.assertNull(temporaryFolder47);
+        org.junit.Assert.assertNull(temporaryFolder48);
+        org.junit.Assert.assertNull(file49);
+        org.junit.Assert.assertNull(temporaryFolder55);
+        org.junit.Assert.assertNull(temporaryFolder56);
+        org.junit.Assert.assertNull(file57);
+        org.junit.Assert.assertNull(explodedArchive58);
+        org.junit.Assert.assertNull(file60);
+        org.junit.Assert.assertNotNull(temporaryFolder63);
+        org.junit.Assert.assertNull(file65);
+        org.junit.Assert.assertNotNull(temporaryFolder68);
+        org.junit.Assert.assertNotNull(temporaryFolder73);
+        org.junit.Assert.assertNotNull(temporaryFolder75);
+        org.junit.Assert.assertNull(explodedArchive81);
+    }
+
+    @Test
+    public void test00352() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00352");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests11 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file12 = explodedArchiveTests11.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = explodedArchiveTests11.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests11.temporaryFolder;
+        explodedArchiveTests9.settemporaryFolder(temporaryFolder14);
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests9.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder17;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(file12);
+        org.junit.Assert.assertNull(explodedArchive13);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00353() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00353");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive10 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(explodedArchive10);
+    }
+
+    @Test
+    public void test00354() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00354");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.setarchive(explodedArchive5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00355() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00355");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder2 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.archive = explodedArchive3;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder2);
+    }
+
+    @Test
+    public void test00356() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00356");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00357() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00357");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00358() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00358");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests2.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests2.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests7.setarchive(explodedArchive9);
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests7.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder11;
+        java.io.File file13 = null;
+        explodedArchiveTests2.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests15.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder16;
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests2.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+    }
+
+    @Test
+    public void test00359() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00359");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder2 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.archive = explodedArchive3;
+        java.io.InputStream inputStream5 = null;
+        java.io.OutputStream outputStream6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream5, outputStream6);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder2);
+    }
+
+    @Test
+    public void test00360() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00360");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00361() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00361");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00362() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00362");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.archive = explodedArchive3;
+        java.io.InputStream inputStream5 = null;
+        java.io.OutputStream outputStream6 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream5, outputStream6);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00363() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00363");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00364() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00364");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests16 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests16.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file19 = explodedArchiveTests18.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = explodedArchiveTests18.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests18.temporaryFolder;
+        explodedArchiveTests16.temporaryFolder = temporaryFolder21;
+        java.io.File file23 = null;
+        explodedArchiveTests16.rootFolder = file23;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests25 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file26 = explodedArchiveTests25.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive27 = explodedArchiveTests25.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests25.temporaryFolder;
+        explodedArchiveTests16.settemporaryFolder(temporaryFolder28);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder28);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file19);
+        org.junit.Assert.assertNull(explodedArchive20);
+        org.junit.Assert.assertNotNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file26);
+        org.junit.Assert.assertNull(explodedArchive27);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(explodedArchive31);
+    }
+
+    @Test
+    public void test00365() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00365");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.Archive archive15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap16 = explodedArchiveTests0.getEntriesMap(archive15);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(file12);
+    }
+
+    @Test
+    public void test00366() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00366");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass7 = file6.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00367() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00367");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.archive = explodedArchive13;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+    }
+
+    @Test
+    public void test00368() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00368");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = null;
+        explodedArchiveTests9.rootFolder = file20;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder23;
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive27 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+        org.junit.Assert.assertNull(explodedArchive27);
+    }
+
+    @Test
+    public void test00369() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00369");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests6 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file7 = explodedArchiveTests6.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests6.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests6.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests11 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file12 = explodedArchiveTests11.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests11.setarchive(explodedArchive13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests11.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests16 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file17 = explodedArchiveTests16.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive18 = null;
+        explodedArchiveTests16.setarchive(explodedArchive18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests16.gettemporaryFolder();
+        explodedArchiveTests11.temporaryFolder = temporaryFolder20;
+        java.io.File file22 = null;
+        explodedArchiveTests11.setrootFolder(file22);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        java.io.File file40 = explodedArchiveTests24.getrootFolder();
+        java.io.File file41 = explodedArchiveTests24.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests42 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder43 = null;
+        explodedArchiveTests42.settemporaryFolder(temporaryFolder43);
+        org.junit.rules.TemporaryFolder temporaryFolder45 = null;
+        explodedArchiveTests42.settemporaryFolder(temporaryFolder45);
+        org.junit.rules.TemporaryFolder temporaryFolder47 = explodedArchiveTests42.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder48 = explodedArchiveTests42.temporaryFolder;
+        java.io.File file49 = explodedArchiveTests42.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests50 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder51 = null;
+        explodedArchiveTests50.settemporaryFolder(temporaryFolder51);
+        org.junit.rules.TemporaryFolder temporaryFolder53 = null;
+        explodedArchiveTests50.settemporaryFolder(temporaryFolder53);
+        org.junit.rules.TemporaryFolder temporaryFolder55 = explodedArchiveTests50.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder56 = explodedArchiveTests50.temporaryFolder;
+        java.io.File file57 = explodedArchiveTests50.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive58 = explodedArchiveTests50.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests59 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file60 = explodedArchiveTests59.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive61 = null;
+        explodedArchiveTests59.setarchive(explodedArchive61);
+        org.junit.rules.TemporaryFolder temporaryFolder63 = explodedArchiveTests59.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests64 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file65 = explodedArchiveTests64.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive66 = null;
+        explodedArchiveTests64.setarchive(explodedArchive66);
+        org.junit.rules.TemporaryFolder temporaryFolder68 = explodedArchiveTests64.gettemporaryFolder();
+        explodedArchiveTests59.temporaryFolder = temporaryFolder68;
+        java.io.File file70 = null;
+        explodedArchiveTests59.rootFolder = file70;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests72 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder73 = explodedArchiveTests72.gettemporaryFolder();
+        explodedArchiveTests59.temporaryFolder = temporaryFolder73;
+        org.junit.rules.TemporaryFolder temporaryFolder75 = explodedArchiveTests59.gettemporaryFolder();
+        explodedArchiveTests50.settemporaryFolder(temporaryFolder75);
+        explodedArchiveTests42.settemporaryFolder(temporaryFolder75);
+        explodedArchiveTests24.temporaryFolder = temporaryFolder75;
+        explodedArchiveTests11.temporaryFolder = temporaryFolder75;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder75;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive81 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(file12);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNull(file17);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNull(file40);
+        org.junit.Assert.assertNull(file41);
+        org.junit.Assert.assertNull(temporaryFolder47);
+        org.junit.Assert.assertNull(temporaryFolder48);
+        org.junit.Assert.assertNull(file49);
+        org.junit.Assert.assertNull(temporaryFolder55);
+        org.junit.Assert.assertNull(temporaryFolder56);
+        org.junit.Assert.assertNull(file57);
+        org.junit.Assert.assertNull(explodedArchive58);
+        org.junit.Assert.assertNull(file60);
+        org.junit.Assert.assertNotNull(temporaryFolder63);
+        org.junit.Assert.assertNull(file65);
+        org.junit.Assert.assertNotNull(temporaryFolder68);
+        org.junit.Assert.assertNotNull(temporaryFolder73);
+        org.junit.Assert.assertNotNull(temporaryFolder75);
+        org.junit.Assert.assertNull(explodedArchive81);
+    }
+
+    @Test
+    public void test00370() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00370");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+    }
+
+    @Test
+    public void test00371() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00371");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file5);
+    }
+
+    @Test
+    public void test00372() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00372");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+    }
+
+    @Test
+    public void test00373() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00373");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00374() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00374");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.setarchive(explodedArchive5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+    }
+
+    @Test
+    public void test00375() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00375");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.setrootFolder(file3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00376() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00376");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests0.setarchive(explodedArchive9);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00377() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00377");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests0.setarchive(explodedArchive20);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file18);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+    }
+
+    @Test
+    public void test00378() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00378");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = null;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder8);
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests5.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests5.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests12.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.temporaryFolder = temporaryFolder17;
+        explodedArchiveTests5.temporaryFolder = temporaryFolder17;
+        explodedArchiveTests2.settemporaryFolder(temporaryFolder17);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder17);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(temporaryFolder10);
+        org.junit.Assert.assertNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00379() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00379");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file4 = null;
+        explodedArchiveTests0.rootFolder = file4;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+    }
+
+    @Test
+    public void test00380() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00380");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.Archive archive13 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap14 = explodedArchiveTests0.getEntriesMap(archive13);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00381() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00381");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        java.io.File file17 = null;
+        explodedArchiveTests10.rootFolder = file17;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests19 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file20 = explodedArchiveTests19.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive21 = explodedArchiveTests19.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder22 = explodedArchiveTests19.temporaryFolder;
+        explodedArchiveTests10.settemporaryFolder(temporaryFolder22);
+        org.junit.rules.TemporaryFolder temporaryFolder24 = explodedArchiveTests10.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder24;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(explodedArchive21);
+        org.junit.Assert.assertNotNull(temporaryFolder22);
+        org.junit.Assert.assertNotNull(temporaryFolder24);
+        org.junit.Assert.assertNull(explodedArchive26);
+    }
+
+    @Test
+    public void test00382() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00382");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+    }
+
+    @Test
+    public void test00383() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00383");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.settemporaryFolder(temporaryFolder17);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive19 = explodedArchiveTests12.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder20);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive22 = null;
+        explodedArchiveTests0.archive = explodedArchive22;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(explodedArchive19);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+    }
+
+    @Test
+    public void test00384() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00384");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00385() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00385");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        java.io.File file5 = explodedArchiveTests0.rootFolder;
+        java.io.InputStream inputStream6 = null;
+        java.io.OutputStream outputStream7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream6, outputStream7);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(file5);
+    }
+
+    @Test
+    public void test00386() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00386");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder2 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.archive = explodedArchive3;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder2);
+    }
+
+    @Test
+    public void test00387() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00387");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file14 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.Archive archive15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap16 = explodedArchiveTests0.getEntriesMap(archive15);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file14);
+    }
+
+    @Test
+    public void test00388() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00388");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00389() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00389");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file4 = explodedArchiveTests0.getrootFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.rootFolder = file5;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00390() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00390");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        java.io.File file17 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder19);
+        org.junit.rules.TemporaryFolder temporaryFolder21 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder21);
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests18.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder24 = explodedArchiveTests18.temporaryFolder;
+        java.io.File file25 = explodedArchiveTests18.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests26 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder27 = null;
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder27);
+        org.junit.rules.TemporaryFolder temporaryFolder29 = null;
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder29);
+        org.junit.rules.TemporaryFolder temporaryFolder31 = explodedArchiveTests26.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder32 = explodedArchiveTests26.temporaryFolder;
+        java.io.File file33 = explodedArchiveTests26.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive34 = explodedArchiveTests26.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests35 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file36 = explodedArchiveTests35.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive37 = null;
+        explodedArchiveTests35.setarchive(explodedArchive37);
+        org.junit.rules.TemporaryFolder temporaryFolder39 = explodedArchiveTests35.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests40 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file41 = explodedArchiveTests40.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive42 = null;
+        explodedArchiveTests40.setarchive(explodedArchive42);
+        org.junit.rules.TemporaryFolder temporaryFolder44 = explodedArchiveTests40.gettemporaryFolder();
+        explodedArchiveTests35.temporaryFolder = temporaryFolder44;
+        java.io.File file46 = null;
+        explodedArchiveTests35.rootFolder = file46;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests48 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder49 = explodedArchiveTests48.gettemporaryFolder();
+        explodedArchiveTests35.temporaryFolder = temporaryFolder49;
+        org.junit.rules.TemporaryFolder temporaryFolder51 = explodedArchiveTests35.gettemporaryFolder();
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder51);
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder51);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder51;
+        java.io.File file55 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNull(file17);
+        org.junit.Assert.assertNull(temporaryFolder23);
+        org.junit.Assert.assertNull(temporaryFolder24);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNull(temporaryFolder31);
+        org.junit.Assert.assertNull(temporaryFolder32);
+        org.junit.Assert.assertNull(file33);
+        org.junit.Assert.assertNull(explodedArchive34);
+        org.junit.Assert.assertNull(file36);
+        org.junit.Assert.assertNotNull(temporaryFolder39);
+        org.junit.Assert.assertNull(file41);
+        org.junit.Assert.assertNotNull(temporaryFolder44);
+        org.junit.Assert.assertNotNull(temporaryFolder49);
+        org.junit.Assert.assertNotNull(temporaryFolder51);
+        org.junit.Assert.assertNull(file55);
+    }
+
+    @Test
+    public void test00391() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00391");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00392() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00392");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00393() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00393");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.setarchive(explodedArchive5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00394() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00394");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests18.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests20 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file21 = explodedArchiveTests20.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive22 = explodedArchiveTests20.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests20.temporaryFolder;
+        explodedArchiveTests18.temporaryFolder = temporaryFolder23;
+        java.io.File file25 = null;
+        explodedArchiveTests18.setrootFolder(file25);
+        java.io.File file27 = explodedArchiveTests18.rootFolder;
+        java.io.File file28 = explodedArchiveTests18.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder29 = explodedArchiveTests18.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder29);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+        org.junit.Assert.assertNull(file21);
+        org.junit.Assert.assertNull(explodedArchive22);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNull(file27);
+        org.junit.Assert.assertNull(file28);
+        org.junit.Assert.assertNotNull(temporaryFolder29);
+    }
+
+    @Test
+    public void test00395() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00395");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests7.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests7.temporaryFolder;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests5.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests5.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder13;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNotNull(temporaryFolder10);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+    }
+
+    @Test
+    public void test00396() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00396");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00397() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00397");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00398() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00398");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file5 = null;
+        explodedArchiveTests0.rootFolder = file5;
+        java.lang.Class<?> wildcardClass7 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test00399() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00399");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests7.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests7.temporaryFolder;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder10);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder10;
+        java.io.File file13 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNotNull(temporaryFolder10);
+        org.junit.Assert.assertNull(file13);
+    }
+
+    @Test
+    public void test00400() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00400");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.io.File file4 = explodedArchiveTests0.rootFolder;
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file5);
+    }
+
+    @Test
+    public void test00401() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00401");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.archive;
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(explodedArchive5);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00402() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00402");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests9.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests9.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder12);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00403() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00403");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive19 = null;
+        explodedArchiveTests0.setarchive(explodedArchive19);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+    }
+
+    @Test
+    public void test00404() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00404");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests6 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = null;
+        explodedArchiveTests6.settemporaryFolder(temporaryFolder7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests6.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive10 = explodedArchiveTests6.getarchive();
+        java.io.File file11 = explodedArchiveTests6.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests6.settemporaryFolder(temporaryFolder13);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder13;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive10);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+    }
+
+    @Test
+    public void test00405() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00405");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00406() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00406");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00407() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00407");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00408() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00408");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive11);
+    }
+
+    @Test
+    public void test00409() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00409");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        java.io.File file5 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests6 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests6.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder7);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00410() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00410");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests15.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests15.temporaryFolder;
+        java.io.File file22 = explodedArchiveTests15.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive23 = explodedArchiveTests15.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(temporaryFolder20);
+        org.junit.Assert.assertNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file22);
+        org.junit.Assert.assertNull(explodedArchive23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+    }
+
+    @Test
+    public void test00411() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00411");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests16 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests16.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file19 = explodedArchiveTests18.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = explodedArchiveTests18.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests18.temporaryFolder;
+        explodedArchiveTests16.temporaryFolder = temporaryFolder21;
+        java.io.File file23 = null;
+        explodedArchiveTests16.rootFolder = file23;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests25 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file26 = explodedArchiveTests25.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive27 = explodedArchiveTests25.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests25.temporaryFolder;
+        explodedArchiveTests16.settemporaryFolder(temporaryFolder28);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder28);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file19);
+        org.junit.Assert.assertNull(explodedArchive20);
+        org.junit.Assert.assertNotNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file26);
+        org.junit.Assert.assertNull(explodedArchive27);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+    }
+
+    @Test
+    public void test00412() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00412");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests15.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests15.temporaryFolder;
+        java.io.File file22 = explodedArchiveTests15.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive23 = explodedArchiveTests15.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        org.junit.rules.TemporaryFolder temporaryFolder43 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(temporaryFolder20);
+        org.junit.Assert.assertNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file22);
+        org.junit.Assert.assertNull(explodedArchive23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+        org.junit.Assert.assertNotNull(temporaryFolder43);
+    }
+
+    @Test
+    public void test00413() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00413");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = null;
+        explodedArchiveTests0.setrootFolder(file18);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00414() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00414");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = null;
+        explodedArchiveTests9.rootFolder = file20;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder23;
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        java.io.File file27 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive28 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(explodedArchive8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+        org.junit.Assert.assertNull(file27);
+        org.junit.Assert.assertNull(explodedArchive28);
+    }
+
+    @Test
+    public void test00415() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00415");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00416() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00416");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.rootFolder = file3;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00417() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00417");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        java.lang.Class<?> wildcardClass15 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test00418() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00418");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(explodedArchive5);
+    }
+
+    @Test
+    public void test00419() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00419");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass3 = file2.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00420() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00420");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive10 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(explodedArchive10);
+    }
+
+    @Test
+    public void test00421() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00421");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = null;
+        explodedArchiveTests0.setrootFolder(file2);
+        java.io.File file4 = null;
+        explodedArchiveTests0.rootFolder = file4;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00422() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00422");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = null;
+        explodedArchiveTests0.setrootFolder(file2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00423() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00423");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.archive;
+        java.io.File file18 = null;
+        explodedArchiveTests0.rootFolder = file18;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00424() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00424");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNull(explodedArchive7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00425() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00425");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests0.archive = explodedArchive9;
+        java.io.InputStream inputStream11 = null;
+        java.io.OutputStream outputStream12 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream11, outputStream12);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00426() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00426");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.settemporaryFolder(temporaryFolder17);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive19 = explodedArchiveTests12.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder20);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive22 = null;
+        explodedArchiveTests0.archive = explodedArchive22;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(explodedArchive19);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+    }
+
+    @Test
+    public void test00427() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00427");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.archive = explodedArchive3;
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+    }
+
+    @Test
+    public void test00428() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00428");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        java.io.File file17 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder19);
+        org.junit.rules.TemporaryFolder temporaryFolder21 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder21);
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests18.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder24 = explodedArchiveTests18.temporaryFolder;
+        java.io.File file25 = explodedArchiveTests18.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests26 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder27 = null;
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder27);
+        org.junit.rules.TemporaryFolder temporaryFolder29 = null;
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder29);
+        org.junit.rules.TemporaryFolder temporaryFolder31 = explodedArchiveTests26.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder32 = explodedArchiveTests26.temporaryFolder;
+        java.io.File file33 = explodedArchiveTests26.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive34 = explodedArchiveTests26.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests35 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file36 = explodedArchiveTests35.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive37 = null;
+        explodedArchiveTests35.setarchive(explodedArchive37);
+        org.junit.rules.TemporaryFolder temporaryFolder39 = explodedArchiveTests35.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests40 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file41 = explodedArchiveTests40.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive42 = null;
+        explodedArchiveTests40.setarchive(explodedArchive42);
+        org.junit.rules.TemporaryFolder temporaryFolder44 = explodedArchiveTests40.gettemporaryFolder();
+        explodedArchiveTests35.temporaryFolder = temporaryFolder44;
+        java.io.File file46 = null;
+        explodedArchiveTests35.rootFolder = file46;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests48 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder49 = explodedArchiveTests48.gettemporaryFolder();
+        explodedArchiveTests35.temporaryFolder = temporaryFolder49;
+        org.junit.rules.TemporaryFolder temporaryFolder51 = explodedArchiveTests35.gettemporaryFolder();
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder51);
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder51);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder51;
+        org.junit.rules.TemporaryFolder temporaryFolder55 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNull(file17);
+        org.junit.Assert.assertNull(temporaryFolder23);
+        org.junit.Assert.assertNull(temporaryFolder24);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNull(temporaryFolder31);
+        org.junit.Assert.assertNull(temporaryFolder32);
+        org.junit.Assert.assertNull(file33);
+        org.junit.Assert.assertNull(explodedArchive34);
+        org.junit.Assert.assertNull(file36);
+        org.junit.Assert.assertNotNull(temporaryFolder39);
+        org.junit.Assert.assertNull(file41);
+        org.junit.Assert.assertNotNull(temporaryFolder44);
+        org.junit.Assert.assertNotNull(temporaryFolder49);
+        org.junit.Assert.assertNotNull(temporaryFolder51);
+        org.junit.Assert.assertNotNull(temporaryFolder55);
+    }
+
+    @Test
+    public void test00429() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00429");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = explodedArchiveTests0.rootFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = null;
+        explodedArchiveTests0.setarchive(explodedArchive20);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file18);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+    }
+
+    @Test
+    public void test00430() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00430");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+    }
+
+    @Test
+    public void test00431() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00431");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests0.archive = explodedArchive9;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00432() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00432");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        java.io.File file4 = explodedArchiveTests0.rootFolder;
+        java.io.File file5 = null;
+        explodedArchiveTests0.rootFolder = file5;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests7.setarchive(explodedArchive9);
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests7.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder11);
+        java.lang.Class<?> wildcardClass13 = temporaryFolder11.getClass();
+        org.junit.Assert.assertNull(explodedArchive3);
+        org.junit.Assert.assertNull(file4);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test00433() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00433");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        java.io.InputStream inputStream21 = null;
+        java.io.OutputStream outputStream22 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream21, outputStream22);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+    }
+
+    @Test
+    public void test00434() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00434");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests0.temporaryFolder;
+        java.io.InputStream inputStream14 = null;
+        java.io.OutputStream outputStream15 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream14, outputStream15);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+    }
+
+    @Test
+    public void test00435() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00435");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(explodedArchive7);
+        org.junit.Assert.assertNotNull(temporaryFolder10);
+    }
+
+    @Test
+    public void test00436() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00436");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.rootFolder = file3;
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00437() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00437");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00438() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00438");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(temporaryFolder12);
+    }
+
+    @Test
+    public void test00439() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00439");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.setrootFolder(file3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+    }
+
+    @Test
+    public void test00440() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00440");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00441() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00441");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+    }
+
+    @Test
+    public void test00442() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00442");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        java.io.File file21 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests22 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests22.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests22.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        org.junit.rules.TemporaryFolder temporaryFolder43 = explodedArchiveTests0.gettemporaryFolder();
+        java.lang.Class<?> wildcardClass44 = temporaryFolder43.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(file21);
+        org.junit.Assert.assertNotNull(temporaryFolder23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+        org.junit.Assert.assertNotNull(temporaryFolder43);
+        org.junit.Assert.assertNotNull(wildcardClass44);
+    }
+
+    @Test
+    public void test00443() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00443");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests12.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests12.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder14);
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        java.io.File file17 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNull(file17);
+    }
+
+    @Test
+    public void test00444() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00444");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.settemporaryFolder(temporaryFolder17);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive19 = explodedArchiveTests12.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder20);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive22 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(explodedArchive19);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+        org.junit.Assert.assertNull(explodedArchive22);
+    }
+
+    @Test
+    public void test00445() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00445");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        java.io.File file17 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder19);
+        org.junit.rules.TemporaryFolder temporaryFolder21 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder21);
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests18.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder24 = explodedArchiveTests18.temporaryFolder;
+        java.io.File file25 = explodedArchiveTests18.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests26 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder27 = null;
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder27);
+        org.junit.rules.TemporaryFolder temporaryFolder29 = null;
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder29);
+        org.junit.rules.TemporaryFolder temporaryFolder31 = explodedArchiveTests26.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder32 = explodedArchiveTests26.temporaryFolder;
+        java.io.File file33 = explodedArchiveTests26.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive34 = explodedArchiveTests26.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests35 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file36 = explodedArchiveTests35.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive37 = null;
+        explodedArchiveTests35.setarchive(explodedArchive37);
+        org.junit.rules.TemporaryFolder temporaryFolder39 = explodedArchiveTests35.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests40 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file41 = explodedArchiveTests40.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive42 = null;
+        explodedArchiveTests40.setarchive(explodedArchive42);
+        org.junit.rules.TemporaryFolder temporaryFolder44 = explodedArchiveTests40.gettemporaryFolder();
+        explodedArchiveTests35.temporaryFolder = temporaryFolder44;
+        java.io.File file46 = null;
+        explodedArchiveTests35.rootFolder = file46;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests48 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder49 = explodedArchiveTests48.gettemporaryFolder();
+        explodedArchiveTests35.temporaryFolder = temporaryFolder49;
+        org.junit.rules.TemporaryFolder temporaryFolder51 = explodedArchiveTests35.gettemporaryFolder();
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder51);
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder51);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder51;
+        java.io.File file55 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNull(file17);
+        org.junit.Assert.assertNull(temporaryFolder23);
+        org.junit.Assert.assertNull(temporaryFolder24);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNull(temporaryFolder31);
+        org.junit.Assert.assertNull(temporaryFolder32);
+        org.junit.Assert.assertNull(file33);
+        org.junit.Assert.assertNull(explodedArchive34);
+        org.junit.Assert.assertNull(file36);
+        org.junit.Assert.assertNotNull(temporaryFolder39);
+        org.junit.Assert.assertNull(file41);
+        org.junit.Assert.assertNotNull(temporaryFolder44);
+        org.junit.Assert.assertNotNull(temporaryFolder49);
+        org.junit.Assert.assertNotNull(temporaryFolder51);
+        org.junit.Assert.assertNull(file55);
+    }
+
+    @Test
+    public void test00446() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00446");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests11 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file12 = explodedArchiveTests11.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = explodedArchiveTests11.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests11.temporaryFolder;
+        explodedArchiveTests9.settemporaryFolder(temporaryFolder14);
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests9.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder17;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests19 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file20 = explodedArchiveTests19.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive21 = null;
+        explodedArchiveTests19.setarchive(explodedArchive21);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive23 = null;
+        explodedArchiveTests19.setarchive(explodedArchive23);
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests19.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder25);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNull(file12);
+        org.junit.Assert.assertNull(explodedArchive13);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+    }
+
+    @Test
+    public void test00447() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00447");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests11 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file12 = explodedArchiveTests11.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests11.setarchive(explodedArchive13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests11.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests16 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file17 = explodedArchiveTests16.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive18 = null;
+        explodedArchiveTests16.setarchive(explodedArchive18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests16.gettemporaryFolder();
+        explodedArchiveTests11.temporaryFolder = temporaryFolder20;
+        java.io.File file22 = null;
+        explodedArchiveTests11.rootFolder = file22;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests11.temporaryFolder = temporaryFolder25;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder25;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(file12);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNull(file17);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+    }
+
+    @Test
+    public void test00448() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00448");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests2.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests2.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests7.setarchive(explodedArchive9);
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests7.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder11;
+        java.io.File file13 = null;
+        explodedArchiveTests2.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests15.gettemporaryFolder();
+        explodedArchiveTests2.temporaryFolder = temporaryFolder16;
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests2.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder18);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive21 = null;
+        explodedArchiveTests0.archive = explodedArchive21;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNull(explodedArchive20);
+    }
+
+    @Test
+    public void test00449() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00449");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = null;
+        explodedArchiveTests0.rootFolder = file6;
+        java.io.File file8 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file8);
+    }
+
+    @Test
+    public void test00450() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00450");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = explodedArchiveTests0.getarchive();
+        java.io.File file14 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests16 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file17 = explodedArchiveTests16.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive18 = null;
+        explodedArchiveTests16.setarchive(explodedArchive18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests16.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests21 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file22 = explodedArchiveTests21.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive23 = null;
+        explodedArchiveTests21.setarchive(explodedArchive23);
+        org.junit.rules.TemporaryFolder temporaryFolder25 = explodedArchiveTests21.gettemporaryFolder();
+        explodedArchiveTests16.temporaryFolder = temporaryFolder25;
+        java.io.File file27 = null;
+        explodedArchiveTests16.rootFolder = file27;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder30 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests16.temporaryFolder = temporaryFolder30;
+        org.junit.rules.TemporaryFolder temporaryFolder32 = explodedArchiveTests16.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive33 = explodedArchiveTests16.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests34 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder35 = explodedArchiveTests34.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests36 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file37 = explodedArchiveTests36.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive38 = explodedArchiveTests36.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder39 = explodedArchiveTests36.temporaryFolder;
+        explodedArchiveTests34.temporaryFolder = temporaryFolder39;
+        java.io.File file41 = null;
+        explodedArchiveTests34.setrootFolder(file41);
+        java.io.File file43 = explodedArchiveTests34.rootFolder;
+        java.io.File file44 = explodedArchiveTests34.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder45 = explodedArchiveTests34.gettemporaryFolder();
+        explodedArchiveTests16.settemporaryFolder(temporaryFolder45);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder45);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(temporaryFolder12);
+        org.junit.Assert.assertNull(explodedArchive13);
+        org.junit.Assert.assertNull(file14);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNull(file17);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+        org.junit.Assert.assertNull(file22);
+        org.junit.Assert.assertNotNull(temporaryFolder25);
+        org.junit.Assert.assertNotNull(temporaryFolder30);
+        org.junit.Assert.assertNotNull(temporaryFolder32);
+        org.junit.Assert.assertNull(explodedArchive33);
+        org.junit.Assert.assertNotNull(temporaryFolder35);
+        org.junit.Assert.assertNull(file37);
+        org.junit.Assert.assertNull(explodedArchive38);
+        org.junit.Assert.assertNotNull(temporaryFolder39);
+        org.junit.Assert.assertNull(file43);
+        org.junit.Assert.assertNull(file44);
+        org.junit.Assert.assertNotNull(temporaryFolder45);
+    }
+
+    @Test
+    public void test00451() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00451");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        java.io.File file14 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(file14);
+    }
+
+    @Test
+    public void test00452() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00452");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.setrootFolder(file3);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.archive = explodedArchive5;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests7 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file8 = explodedArchiveTests7.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests7.setarchive(explodedArchive9);
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests7.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = null;
+        explodedArchiveTests12.setarchive(explodedArchive14);
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests12.gettemporaryFolder();
+        explodedArchiveTests7.temporaryFolder = temporaryFolder16;
+        java.io.File file18 = null;
+        explodedArchiveTests7.rootFolder = file18;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests20 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests20.gettemporaryFolder();
+        explodedArchiveTests7.temporaryFolder = temporaryFolder21;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder21;
+        org.springframework.boot.loader.archive.Archive archive24 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap25 = explodedArchiveTests0.getEntriesMap(archive24);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(file8);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNotNull(temporaryFolder21);
+    }
+
+    @Test
+    public void test00453() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00453");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test00454() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00454");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+    }
+
+    @Test
+    public void test00455() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00455");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.rootFolder = file3;
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.gettemporaryFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+    }
+
+    @Test
+    public void test00456() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00456");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = null;
+        explodedArchiveTests5.settemporaryFolder(temporaryFolder8);
+        org.junit.rules.TemporaryFolder temporaryFolder10 = explodedArchiveTests5.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests5.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests12.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.temporaryFolder = temporaryFolder17;
+        explodedArchiveTests5.temporaryFolder = temporaryFolder17;
+        explodedArchiveTests2.settemporaryFolder(temporaryFolder17);
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder17);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(temporaryFolder10);
+        org.junit.Assert.assertNull(temporaryFolder11);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00457() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00457");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = null;
+        explodedArchiveTests0.setarchive(explodedArchive3);
+        java.io.File file5 = null;
+        explodedArchiveTests0.rootFolder = file5;
+        java.io.File file7 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.Archive archive8 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap9 = explodedArchiveTests0.getEntriesMap(archive8);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(file7);
+    }
+
+    @Test
+    public void test00458() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00458");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        java.io.File file21 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive22 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+        org.junit.Assert.assertNull(file21);
+        org.junit.Assert.assertNull(explodedArchive22);
+    }
+
+    @Test
+    public void test00459() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00459");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = null;
+        explodedArchiveTests9.setrootFolder(file20);
+        java.io.File file22 = null;
+        explodedArchiveTests9.rootFolder = file22;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder25 = null;
+        explodedArchiveTests24.settemporaryFolder(temporaryFolder25);
+        org.junit.rules.TemporaryFolder temporaryFolder27 = null;
+        explodedArchiveTests24.settemporaryFolder(temporaryFolder27);
+        org.junit.rules.TemporaryFolder temporaryFolder29 = explodedArchiveTests24.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder30 = explodedArchiveTests24.temporaryFolder;
+        java.io.File file31 = explodedArchiveTests24.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive32 = explodedArchiveTests24.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests33 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file34 = explodedArchiveTests33.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive35 = null;
+        explodedArchiveTests33.setarchive(explodedArchive35);
+        org.junit.rules.TemporaryFolder temporaryFolder37 = explodedArchiveTests33.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests38 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file39 = explodedArchiveTests38.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive40 = null;
+        explodedArchiveTests38.setarchive(explodedArchive40);
+        org.junit.rules.TemporaryFolder temporaryFolder42 = explodedArchiveTests38.gettemporaryFolder();
+        explodedArchiveTests33.temporaryFolder = temporaryFolder42;
+        java.io.File file44 = null;
+        explodedArchiveTests33.rootFolder = file44;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests46 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder47 = explodedArchiveTests46.gettemporaryFolder();
+        explodedArchiveTests33.temporaryFolder = temporaryFolder47;
+        org.junit.rules.TemporaryFolder temporaryFolder49 = explodedArchiveTests33.gettemporaryFolder();
+        explodedArchiveTests24.settemporaryFolder(temporaryFolder49);
+        explodedArchiveTests9.temporaryFolder = temporaryFolder49;
+        org.junit.rules.TemporaryFolder temporaryFolder52 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder52);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNull(temporaryFolder29);
+        org.junit.Assert.assertNull(temporaryFolder30);
+        org.junit.Assert.assertNull(file31);
+        org.junit.Assert.assertNull(explodedArchive32);
+        org.junit.Assert.assertNull(file34);
+        org.junit.Assert.assertNotNull(temporaryFolder37);
+        org.junit.Assert.assertNull(file39);
+        org.junit.Assert.assertNotNull(temporaryFolder42);
+        org.junit.Assert.assertNotNull(temporaryFolder47);
+        org.junit.Assert.assertNotNull(temporaryFolder49);
+        org.junit.Assert.assertNotNull(temporaryFolder52);
+    }
+
+    @Test
+    public void test00460() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00460");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        org.junit.rules.TemporaryFolder temporaryFolder12 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(temporaryFolder12);
+        org.junit.Assert.assertNull(explodedArchive13);
+    }
+
+    @Test
+    public void test00461() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00461");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests0.archive = explodedArchive9;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+    }
+
+    @Test
+    public void test00462() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00462");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = null;
+        explodedArchiveTests0.setarchive(explodedArchive5);
+        java.lang.Class<?> wildcardClass7 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(wildcardClass7);
+    }
+
+    @Test
+    public void test00463() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00463");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+    }
+
+    @Test
+    public void test00464() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00464");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        java.io.File file19 = null;
+        explodedArchiveTests0.rootFolder = file19;
+        java.io.InputStream inputStream21 = null;
+        java.io.OutputStream outputStream22 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.copy(inputStream21, outputStream22);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+    }
+
+    @Test
+    public void test00465() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00465");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = explodedArchiveTests0.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = explodedArchiveTests0.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests0.temporaryFolder;
+        java.lang.Class<?> wildcardClass22 = temporaryFolder21.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file18);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+        org.junit.Assert.assertNull(explodedArchive20);
+        org.junit.Assert.assertNotNull(temporaryFolder21);
+        org.junit.Assert.assertNotNull(wildcardClass22);
+    }
+
+    @Test
+    public void test00466() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00466");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        java.io.File file17 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNull(file17);
+    }
+
+    @Test
+    public void test00467() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00467");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests14.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests14.temporaryFolder;
+        explodedArchiveTests12.settemporaryFolder(temporaryFolder17);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive19 = explodedArchiveTests12.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder20);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive22 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNull(explodedArchive16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(explodedArchive19);
+        org.junit.Assert.assertNotNull(temporaryFolder20);
+        org.junit.Assert.assertNull(explodedArchive22);
+    }
+
+    @Test
+    public void test00468() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00468");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = null;
+        explodedArchiveTests0.setrootFolder(file12);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00469() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00469");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive17 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder18;
+        java.io.File file20 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+        org.junit.Assert.assertNull(explodedArchive17);
+        org.junit.Assert.assertNull(file20);
+    }
+
+    @Test
+    public void test00470() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00470");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests0.setarchive(explodedArchive7);
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests9 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file10 = explodedArchiveTests9.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = null;
+        explodedArchiveTests9.setarchive(explodedArchive11);
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests9.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests14 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file15 = explodedArchiveTests14.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = null;
+        explodedArchiveTests14.setarchive(explodedArchive16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = explodedArchiveTests14.gettemporaryFolder();
+        explodedArchiveTests9.temporaryFolder = temporaryFolder18;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive20 = explodedArchiveTests9.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests9.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder21);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file10);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNull(file15);
+        org.junit.Assert.assertNotNull(temporaryFolder18);
+        org.junit.Assert.assertNull(explodedArchive20);
+        org.junit.Assert.assertNotNull(temporaryFolder21);
+    }
+
+    @Test
+    public void test00471() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00471");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.Archive archive18 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap19 = explodedArchiveTests0.getEntriesMap(archive18);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+    }
+
+    @Test
+    public void test00472() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00472");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive5 = explodedArchiveTests0.archive;
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.Archive archive7 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.util.Map<java.lang.String, org.springframework.boot.loader.archive.Archive.Entry> strMap8 = explodedArchiveTests0.getEntriesMap(archive7);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNull(explodedArchive5);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00473() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00473");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder9);
+        java.io.File file11 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests12.archive;
+        org.junit.rules.TemporaryFolder temporaryFolder16 = explodedArchiveTests12.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder16;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNotNull(temporaryFolder8);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNotNull(temporaryFolder16);
+    }
+
+    @Test
+    public void test00474() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00474");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file5 = null;
+        explodedArchiveTests0.setrootFolder(file5);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(explodedArchive7);
+    }
+
+    @Test
+    public void test00475() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00475");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder5);
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests8 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file9 = explodedArchiveTests8.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file11 = explodedArchiveTests10.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = explodedArchiveTests10.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests10.temporaryFolder;
+        explodedArchiveTests8.settemporaryFolder(temporaryFolder13);
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests8.temporaryFolder;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        org.junit.rules.TemporaryFolder temporaryFolder17 = explodedArchiveTests0.gettemporaryFolder();
+        java.io.File file18 = explodedArchiveTests0.getrootFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file11);
+        org.junit.Assert.assertNull(explodedArchive12);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+        org.junit.Assert.assertNotNull(temporaryFolder17);
+        org.junit.Assert.assertNull(file18);
+        org.junit.Assert.assertNotNull(temporaryFolder19);
+    }
+
+    @Test
+    public void test00476() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00476");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        java.io.File file6 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00477() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00477");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = explodedArchiveTests0.rootFolder;
+        java.io.File file3 = null;
+        explodedArchiveTests0.rootFolder = file3;
+        java.io.File file5 = explodedArchiveTests0.rootFolder;
+        java.io.File file6 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(file2);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(file6);
+    }
+
+    @Test
+    public void test00478() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00478");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive10 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(explodedArchive10);
+    }
+
+    @Test
+    public void test00479() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00479");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass5 = explodedArchive4.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+    }
+
+    @Test
+    public void test00480() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00480");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        java.io.File file2 = null;
+        explodedArchiveTests0.rootFolder = file2;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+    }
+
+    @Test
+    public void test00481() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00481");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests2 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file3 = explodedArchiveTests2.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests2.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests2.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder5;
+        java.io.File file7 = null;
+        explodedArchiveTests0.setrootFolder(file7);
+        java.io.File file9 = explodedArchiveTests0.rootFolder;
+        java.io.File file10 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.setup();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+        org.junit.Assert.assertNull(file3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(temporaryFolder5);
+        org.junit.Assert.assertNull(file9);
+        org.junit.Assert.assertNull(file10);
+    }
+
+    @Test
+    public void test00482() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00482");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests15 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder16 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder16);
+        org.junit.rules.TemporaryFolder temporaryFolder18 = null;
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder18);
+        org.junit.rules.TemporaryFolder temporaryFolder20 = explodedArchiveTests15.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder21 = explodedArchiveTests15.temporaryFolder;
+        java.io.File file22 = explodedArchiveTests15.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive23 = explodedArchiveTests15.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests24 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file25 = explodedArchiveTests24.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive26 = null;
+        explodedArchiveTests24.setarchive(explodedArchive26);
+        org.junit.rules.TemporaryFolder temporaryFolder28 = explodedArchiveTests24.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests29 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file30 = explodedArchiveTests29.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive31 = null;
+        explodedArchiveTests29.setarchive(explodedArchive31);
+        org.junit.rules.TemporaryFolder temporaryFolder33 = explodedArchiveTests29.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder33;
+        java.io.File file35 = null;
+        explodedArchiveTests24.rootFolder = file35;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests37 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder38 = explodedArchiveTests37.gettemporaryFolder();
+        explodedArchiveTests24.temporaryFolder = temporaryFolder38;
+        org.junit.rules.TemporaryFolder temporaryFolder40 = explodedArchiveTests24.gettemporaryFolder();
+        explodedArchiveTests15.settemporaryFolder(temporaryFolder40);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder40;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrl();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(temporaryFolder20);
+        org.junit.Assert.assertNull(temporaryFolder21);
+        org.junit.Assert.assertNull(file22);
+        org.junit.Assert.assertNull(explodedArchive23);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNotNull(temporaryFolder28);
+        org.junit.Assert.assertNull(file30);
+        org.junit.Assert.assertNotNull(temporaryFolder33);
+        org.junit.Assert.assertNotNull(temporaryFolder38);
+        org.junit.Assert.assertNotNull(temporaryFolder40);
+    }
+
+    @Test
+    public void test00483() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00483");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder3);
+        org.junit.rules.TemporaryFolder temporaryFolder5 = explodedArchiveTests0.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive8 = null;
+        explodedArchiveTests0.setarchive(explodedArchive8);
+        java.io.File file10 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(temporaryFolder5);
+        org.junit.Assert.assertNull(temporaryFolder6);
+        org.junit.Assert.assertNull(file7);
+        org.junit.Assert.assertNull(file10);
+    }
+
+    @Test
+    public void test00484() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00484");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = explodedArchiveTests0.archive;
+        java.io.File file8 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNull(explodedArchive7);
+        org.junit.Assert.assertNull(file8);
+    }
+
+    @Test
+    public void test00485() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00485");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        java.io.File file16 = explodedArchiveTests0.rootFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNull(file16);
+    }
+
+    @Test
+    public void test00486() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00486");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifestEvenIfNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00487() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00487");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder1);
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = explodedArchiveTests0.archive;
+        java.lang.Class<?> wildcardClass5 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(temporaryFolder3);
+        org.junit.Assert.assertNull(explodedArchive4);
+        org.junit.Assert.assertNotNull(wildcardClass5);
+    }
+
+    @Test
+    public void test00488() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00488");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.setrootFolder(file11);
+        java.io.File file13 = null;
+        explodedArchiveTests0.rootFolder = file13;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getUrlWithSpaceInPath();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNull(file16);
+    }
+
+    @Test
+    public void test00489() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00489");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder1 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file2 = null;
+        explodedArchiveTests0.rootFolder = file2;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStreamNonRecursive();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNotNull(temporaryFolder1);
+    }
+
+    @Test
+    public void test00490() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00490");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests3 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder4 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = null;
+        explodedArchiveTests3.settemporaryFolder(temporaryFolder6);
+        org.junit.rules.TemporaryFolder temporaryFolder8 = explodedArchiveTests3.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests3.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests10 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests10.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file13 = explodedArchiveTests12.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive14 = explodedArchiveTests12.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder15 = explodedArchiveTests12.temporaryFolder;
+        explodedArchiveTests10.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests3.temporaryFolder = temporaryFolder15;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder15);
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(temporaryFolder8);
+        org.junit.Assert.assertNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+        org.junit.Assert.assertNull(file13);
+        org.junit.Assert.assertNull(explodedArchive14);
+        org.junit.Assert.assertNotNull(temporaryFolder15);
+    }
+
+    @Test
+    public void test00491() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00491");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests13 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests13.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder14;
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        java.io.File file17 = explodedArchiveTests0.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests18 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder19 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder19);
+        org.junit.rules.TemporaryFolder temporaryFolder21 = null;
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder21);
+        org.junit.rules.TemporaryFolder temporaryFolder23 = explodedArchiveTests18.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder24 = explodedArchiveTests18.temporaryFolder;
+        java.io.File file25 = explodedArchiveTests18.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests26 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder27 = null;
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder27);
+        org.junit.rules.TemporaryFolder temporaryFolder29 = null;
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder29);
+        org.junit.rules.TemporaryFolder temporaryFolder31 = explodedArchiveTests26.gettemporaryFolder();
+        org.junit.rules.TemporaryFolder temporaryFolder32 = explodedArchiveTests26.temporaryFolder;
+        java.io.File file33 = explodedArchiveTests26.getrootFolder();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive34 = explodedArchiveTests26.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests35 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file36 = explodedArchiveTests35.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive37 = null;
+        explodedArchiveTests35.setarchive(explodedArchive37);
+        org.junit.rules.TemporaryFolder temporaryFolder39 = explodedArchiveTests35.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests40 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file41 = explodedArchiveTests40.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive42 = null;
+        explodedArchiveTests40.setarchive(explodedArchive42);
+        org.junit.rules.TemporaryFolder temporaryFolder44 = explodedArchiveTests40.gettemporaryFolder();
+        explodedArchiveTests35.temporaryFolder = temporaryFolder44;
+        java.io.File file46 = null;
+        explodedArchiveTests35.rootFolder = file46;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests48 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder49 = explodedArchiveTests48.gettemporaryFolder();
+        explodedArchiveTests35.temporaryFolder = temporaryFolder49;
+        org.junit.rules.TemporaryFolder temporaryFolder51 = explodedArchiveTests35.gettemporaryFolder();
+        explodedArchiveTests26.settemporaryFolder(temporaryFolder51);
+        explodedArchiveTests18.settemporaryFolder(temporaryFolder51);
+        explodedArchiveTests0.temporaryFolder = temporaryFolder51;
+        org.junit.rules.TemporaryFolder temporaryFolder55 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getEntries();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+        org.junit.Assert.assertNull(file17);
+        org.junit.Assert.assertNull(temporaryFolder23);
+        org.junit.Assert.assertNull(temporaryFolder24);
+        org.junit.Assert.assertNull(file25);
+        org.junit.Assert.assertNull(temporaryFolder31);
+        org.junit.Assert.assertNull(temporaryFolder32);
+        org.junit.Assert.assertNull(file33);
+        org.junit.Assert.assertNull(explodedArchive34);
+        org.junit.Assert.assertNull(file36);
+        org.junit.Assert.assertNotNull(temporaryFolder39);
+        org.junit.Assert.assertNull(file41);
+        org.junit.Assert.assertNotNull(temporaryFolder44);
+        org.junit.Assert.assertNotNull(temporaryFolder49);
+        org.junit.Assert.assertNotNull(temporaryFolder51);
+        org.junit.Assert.assertNotNull(temporaryFolder55);
+    }
+
+    @Test
+    public void test00492() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00492");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive3 = explodedArchiveTests0.archive;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.createArchive("hi!");
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalStateException; message: the temporary folder has not yet been created");
+        } catch (java.lang.IllegalStateException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNull(explodedArchive3);
+    }
+
+    @Test
+    public void test00493() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00493");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive16 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNonRecursiveManifest();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+        org.junit.Assert.assertNull(explodedArchive16);
+    }
+
+    @Test
+    public void test00494() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00494");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive11 = explodedArchiveTests0.archive;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests12 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        org.junit.rules.TemporaryFolder temporaryFolder13 = explodedArchiveTests12.temporaryFolder;
+        org.junit.rules.TemporaryFolder temporaryFolder14 = explodedArchiveTests12.gettemporaryFolder();
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder14);
+        java.io.File file16 = explodedArchiveTests0.getrootFolder();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getNestedArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive11);
+        org.junit.Assert.assertNotNull(temporaryFolder13);
+        org.junit.Assert.assertNotNull(temporaryFolder14);
+        org.junit.Assert.assertNull(file16);
+    }
+
+    @Test
+    public void test00495() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00495");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.gettemporaryFolder();
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests5 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file6 = explodedArchiveTests5.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive7 = null;
+        explodedArchiveTests5.setarchive(explodedArchive7);
+        org.junit.rules.TemporaryFolder temporaryFolder9 = explodedArchiveTests5.gettemporaryFolder();
+        explodedArchiveTests0.temporaryFolder = temporaryFolder9;
+        java.io.File file11 = null;
+        explodedArchiveTests0.rootFolder = file11;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive15 = explodedArchiveTests0.getarchive();
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getResourceAsStream();
+            org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException; message: Invalid source folder src/test/resources/root");
+        } catch (java.lang.IllegalArgumentException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+        org.junit.Assert.assertNull(file6);
+        org.junit.Assert.assertNotNull(temporaryFolder9);
+        org.junit.Assert.assertNull(explodedArchive15);
+    }
+
+    @Test
+    public void test00496() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00496");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        java.io.File file2 = null;
+        explodedArchiveTests0.setrootFolder(file2);
+        org.junit.rules.TemporaryFolder temporaryFolder4 = explodedArchiveTests0.temporaryFolder;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder4);
+    }
+
+    @Test
+    public void test00497() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00497");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = null;
+        explodedArchiveTests0.rootFolder = file12;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.nestedDirArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+    }
+
+    @Test
+    public void test00498() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00498");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.getrootFolder();
+        java.io.File file2 = null;
+        explodedArchiveTests0.rootFolder = file2;
+        java.lang.Class<?> wildcardClass4 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(wildcardClass4);
+    }
+
+    @Test
+    public void test00499() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00499");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = null;
+        explodedArchiveTests0.setarchive(explodedArchive2);
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive4 = null;
+        explodedArchiveTests0.setarchive(explodedArchive4);
+        org.junit.rules.TemporaryFolder temporaryFolder6 = explodedArchiveTests0.temporaryFolder;
+        java.io.File file7 = null;
+        explodedArchiveTests0.rootFolder = file7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = null;
+        explodedArchiveTests0.archive = explodedArchive9;
+        org.junit.rules.TemporaryFolder temporaryFolder11 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive12 = null;
+        explodedArchiveTests0.archive = explodedArchive12;
+        // The following exception was thrown during execution in test generation
+        try {
+            explodedArchiveTests0.getFilteredArchive();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNotNull(temporaryFolder6);
+        org.junit.Assert.assertNotNull(temporaryFolder11);
+    }
+
+    @Test
+    public void test00500() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test00500");
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests0 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file1 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive2 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder3 = explodedArchiveTests0.temporaryFolder;
+        org.springframework.boot.loader.archive.ExplodedArchiveTests explodedArchiveTests4 = new org.springframework.boot.loader.archive.ExplodedArchiveTests();
+        java.io.File file5 = explodedArchiveTests4.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive6 = explodedArchiveTests4.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder7 = explodedArchiveTests4.temporaryFolder;
+        explodedArchiveTests0.temporaryFolder = temporaryFolder7;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive9 = explodedArchiveTests0.getarchive();
+        org.junit.rules.TemporaryFolder temporaryFolder10 = null;
+        explodedArchiveTests0.settemporaryFolder(temporaryFolder10);
+        java.io.File file12 = explodedArchiveTests0.rootFolder;
+        org.springframework.boot.loader.archive.ExplodedArchive explodedArchive13 = null;
+        explodedArchiveTests0.setarchive(explodedArchive13);
+        java.lang.Class<?> wildcardClass15 = explodedArchiveTests0.getClass();
+        org.junit.Assert.assertNull(file1);
+        org.junit.Assert.assertNull(explodedArchive2);
+        org.junit.Assert.assertNotNull(temporaryFolder3);
+        org.junit.Assert.assertNull(file5);
+        org.junit.Assert.assertNull(explodedArchive6);
+        org.junit.Assert.assertNotNull(temporaryFolder7);
+        org.junit.Assert.assertNull(explodedArchive9);
+        org.junit.Assert.assertNull(file12);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+}
+

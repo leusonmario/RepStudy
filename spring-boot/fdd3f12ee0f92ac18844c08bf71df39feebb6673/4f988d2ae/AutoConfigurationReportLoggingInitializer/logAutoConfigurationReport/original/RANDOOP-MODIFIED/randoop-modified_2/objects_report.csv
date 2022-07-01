@@ -1,0 +1,4 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Object,1,1,4.062068405231944E-5,4.062068405231944E-5
+class org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer,24617,1,0.9999593793159477,4.062068405231944E-5
+class java.lang.Class,11084,2,0.4502396620359087,8.124136810463888E-5

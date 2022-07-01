@@ -1,0 +1,69 @@
+Methods called,Number of times,Number of times (Normalized)
+"public synchronized java.lang.Object java.util.Hashtable.clone()",2143,0.22902639734957786
+"public void java.util.Properties.save(java.io.OutputStream,java.lang.String)",307,0.032809661216201776
+"public boolean org.springframework.boot.jta.atomikos.AtomikosProperties.isThreadedTwoPhaseCommit()",1451,0.155071069787325
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setLogBaseDir(java.lang.String)",843,0.09009297851875601
+"public boolean org.springframework.boot.jta.atomikos.AtomikosProperties.isEnableLogging()",5011,0.5355348936624986
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setCheckpointInterval(long)",3340,0.35695201453457304
+"public synchronized void java.util.Properties.load(java.io.InputStream) throws java.io.IOException",279,0.02981724911830715
+"public synchronized void java.util.Properties.load(java.io.Reader) throws java.io.IOException",276,0.029496633536389868
+"public synchronized boolean java.util.Hashtable.isEmpty()",20050,2.142780805813829
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setForceShutdownOnVmExit(boolean)",2381,0.2544619001816822
+"public synchronized void java.util.Hashtable.clear()",923,0.09864272736988351
+"public java.lang.String org.springframework.boot.jta.atomikos.AtomikosProperties.getLogBaseName()",2056,0.2197285454739767
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setDefaultJtaTimeout(long)",1171,0.12514694880837876
+"public void java.util.Properties.storeToXML(java.io.OutputStream,java.lang.String) throws java.io.IOException",299,0.03195468633108903
+"public java.util.Set java.util.Hashtable.keySet()",13504,1.4431976060703218
+"public void java.util.Properties.storeToXML(java.io.OutputStream,java.lang.String,java.lang.String) throws java.io.IOException",286,0.030565352142780805
+"public java.util.Set java.util.Properties.stringPropertyNames()",8371,0.8946243454098536
+"public long org.springframework.boot.jta.atomikos.AtomikosProperties.getMaxTimeout()",1955,0.20893448754942823
+"public synchronized java.lang.Object java.util.Hashtable.get(java.lang.Object)",1233,0.13177300416800256
+"public synchronized void java.util.Hashtable.putAll(java.util.Map)",1083,0.11574222507213851
+"public void java.util.Properties.store(java.io.OutputStream,java.lang.String) throws java.io.IOException",295,0.03152719888853265
+"public void java.util.Properties.store(java.io.Writer,java.lang.String) throws java.io.IOException",289,0.030885967724698087
+"public java.util.Properties org.springframework.boot.jta.atomikos.AtomikosProperties.asProperties()",4505,0.48145773217911725
+"public void java.util.Properties.list(java.io.PrintStream)",288,0.030779095864058994
+"public void java.util.Properties.list(java.io.PrintWriter)",274,0.029282889815111682
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setService(java.lang.String)",1501,0.16041466281927969
+"public java.lang.String org.springframework.boot.jta.atomikos.AtomikosProperties.getService()",3440,0.36763920059848243
+"public synchronized java.lang.Object java.util.Hashtable.replace(java.lang.Object,java.lang.Object)",1545,0.1651170246873998
+"public synchronized boolean java.util.Hashtable.replace(java.lang.Object,java.lang.Object,java.lang.Object)",969,0.10355883295928182
+"public synchronized java.lang.Object java.util.Hashtable.getOrDefault(java.lang.Object,java.lang.Object)",1062,0.11349791599871754
+"public synchronized java.lang.Object java.util.Properties.setProperty(java.lang.String,java.lang.String)",3974,0.4247087741797585
+"public synchronized java.lang.Object java.util.Hashtable.remove(java.lang.Object)",26671,2.8503793951052687
+"public synchronized boolean java.util.Hashtable.remove(java.lang.Object,java.lang.Object)",3651,0.3901891631933312
+"public boolean org.springframework.boot.jta.atomikos.AtomikosProperties.isSerialJtaTransactions()",5700,0.6091696056428343
+"public boolean org.springframework.boot.jta.atomikos.AtomikosProperties.isForceShutdownOnVmExit()",2650,0.28321043069359836
+"public synchronized void java.util.Properties.loadFromXML(java.io.InputStream) throws java.io.IOException,java.util.InvalidPropertiesFormatException",286,0.030565352142780805
+"public synchronized java.lang.Object java.util.Hashtable.putIfAbsent(java.lang.Object,java.lang.Object)",2736,0.29240141070856046
+"public synchronized java.lang.String java.util.Hashtable.toString()",1733,0.18520893448754944
+"public java.util.Set java.util.Hashtable.entrySet()",7342,0.7846532008122261
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setTransactionManagerUniqueName(java.lang.String)",2464,0.2633322646147269
+"public synchronized java.util.Enumeration java.util.Hashtable.elements()",18311,1.9569306401624453
+"public synchronized boolean java.util.Hashtable.equals(java.lang.Object)",1638,0.17505610772683552
+"public long org.springframework.boot.jta.atomikos.AtomikosProperties.getCheckpointInterval()",1207,0.12899433579138614
+"public java.util.Enumeration java.util.Properties.propertyNames()",2495,0.26664529229453887
+"public synchronized int java.util.Hashtable.size()",3818,0.40803676392005983
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setMaxTimeout(long)",5109,0.5460083360051299
+"public synchronized boolean java.util.Hashtable.contains(java.lang.Object)",2121,0.2266752164155178
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setEnableLogging(boolean)",2989,0.31943999145025115
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setLogBaseName(java.lang.String)",1244,0.13294859463503259
+"public final native java.lang.Class java.lang.Object.getClass()",466,0.049802287057817675
+"java.util.Properties()",31806,3.399166399487015
+"java.util.Properties(java.util.Properties)",4075,0.43550283210430696
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setThreadedTwoPhaseCommit(boolean)",11213,1.198354173346158
+"public synchronized boolean java.util.Hashtable.containsKey(java.lang.Object)",3529,0.37715079619536174
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setSerialJtaTransactions(boolean)",16078,1.7182857753553489
+"public long org.springframework.boot.jta.atomikos.AtomikosProperties.getDefaultJtaTimeout()",1179,0.1260019236934915
+"public void org.springframework.boot.jta.atomikos.AtomikosProperties.setMaxActives(int)",1605,0.17152933632574544
+"public java.lang.String java.util.Properties.getProperty(java.lang.String,java.lang.String)",294,0.03142032702789355
+"public java.lang.String java.util.Properties.getProperty(java.lang.String)",3107,0.3320508710056642
+"public synchronized java.lang.Object java.util.Hashtable.put(java.lang.Object,java.lang.Object)",4424,0.47280111146735065
+"public boolean java.util.Hashtable.containsValue(java.lang.Object)",5517,0.5896120551458801
+"public java.lang.String org.springframework.boot.jta.atomikos.AtomikosProperties.getLogBaseDir()",924,0.09874959923052261
+"public java.lang.String org.springframework.boot.jta.atomikos.AtomikosProperties.getTransactionManagerUniqueName()",2394,0.25585123436999035
+"public int org.springframework.boot.jta.atomikos.AtomikosProperties.getMaxActives()",2759,0.2948594635032596
+"public java.util.Collection java.util.Hashtable.values()",7373,0.787966228492038
+"java.lang.Object()",98,0.010473442342631185
+"org.springframework.boot.jta.atomikos.AtomikosProperties()",14217,1.5193972427059954
+"public synchronized java.util.Enumeration java.util.Hashtable.keys()",7477,0.7990809019985038

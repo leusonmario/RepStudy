@@ -1,0 +1,27 @@
+Methods called,Number of times,Number of times (Normalized)
+"public org.springframework.boot.autoconfigure.condition.ConditionEvaluationReport org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.report",12587,0.740150535105257
+"public org.springframework.boot.autoconfigure.condition.ConditionEvaluationReport org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.report",9874,0.5806186051981653
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport()",1405,0.08261789956485946
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport(boolean)",9549,0.5615077031635893
+"public java.util.Map org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.orderByName(java.util.Map)",1496,0.08796895213454076
+"public org.springframework.context.ConfigurableApplicationContext org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.applicationContext",20630,1.2131012583793954
+"public org.springframework.context.ConfigurableApplicationContext org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.applicationContext",11325,0.665941432435611
+"org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer$AutoConfigurationReportListener(org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer)",9880,0.5809714218511114
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.onApplicationEvent(org.springframework.context.ApplicationEvent)",15270,0.8979183817476185
+"public static final int org.springframework.core.Ordered.HIGHEST_PRECEDENCE",1,5.880277549100318E-5
+"public final native java.lang.Class java.lang.Object.getClass()",1395,0.08202987180994943
+"public int org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer$AutoConfigurationReportListener.getOrder()",872,0.05127602022815477
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.initialize(org.springframework.context.ConfigurableApplicationContext)",1402,0.08244149123838646
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer$AutoConfigurationReportListener.onApplicationEvent(org.springframework.context.ApplicationEvent)",836,0.04915912031047866
+"public java.lang.StringBuilder org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.getLogMessage(org.springframework.boot.autoconfigure.condition.ConditionEvaluationReport)",1429,0.08402916617664354
+"public boolean org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer$AutoConfigurationReportListener.supportsEventType(org.springframework.core.ResolvableType)",579,0.03404680700929084
+"public static final int org.springframework.core.Ordered.LOWEST_PRECEDENCE",1,5.880277549100318E-5
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.addLogMessage(java.lang.StringBuilder,java.lang.String,org.springframework.boot.autoconfigure.condition.ConditionEvaluationReport$ConditionAndOutcomes)",1466,0.08620486886981066
+"public org.springframework.context.ConfigurableApplicationContext org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.getapplicationContext()",9246,0.5436904621898153
+"public org.springframework.boot.autoconfigure.condition.ConditionEvaluationReport org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.getreport()",11432,0.6722333294131483
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.setapplicationContext(org.springframework.context.ConfigurableApplicationContext)",18084,1.0633893919793014
+"public org.apache.commons.logging.Log org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.getlogger()",6862,0.4035046454192638
+"org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer()",17002,0.999764788898036
+"java.lang.Object()",1,5.880277549100318E-5
+"public void org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.setreport(org.springframework.boot.autoconfigure.condition.ConditionEvaluationReport)",13116,0.7712572033399977
+"public final org.apache.commons.logging.Log org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer.logger",7836,0.4607785487475009

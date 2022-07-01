@@ -1,0 +1,27 @@
+Methods called,Number of times,Number of times (Normalized)
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.getNonRecursiveManifestEvenIfNonRecursive() throws java.lang.Exception",1066,0.06119754291291119
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.getResourceAsStreamNonRecursive() throws java.lang.Exception",1042,0.059819737068718064
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.copy(java.io.InputStream,java.io.OutputStream) throws java.io.IOException",1044,0.05993455422240083
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.ExplodedArchiveTests.getarchive()",63650,3.6540559159538435
+"public java.util.Map org.springframework.boot.loader.archive.ExplodedArchiveTests.getEntriesMap(org.springframework.boot.loader.archive.Archive)",1045,0.05999196279924221
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchiveTests.getrootFolder()",55380,3.1792869854756303
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.settemporaryFolder(org.junit.rules.TemporaryFolder)",31013,1.7804121935817212
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.getManifest() throws java.lang.Exception",1051,0.06033641426029049
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchiveTests.rootFolder",33388,1.916757563579999
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchiveTests.rootFolder",13352,0.7665193179861072
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.ExplodedArchiveTests.archive",38411,2.205120845054251
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.ExplodedArchiveTests.archive",13308,0.7639933406050864
+"public final native java.lang.Class java.lang.Object.getClass()",1072,0.06154199437395947
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.setarchive(org.springframework.boot.loader.archive.ExplodedArchive)",35660,2.0471898501636145
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.getNestedArchive() throws java.lang.Exception",1079,0.06194385441184913
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.getUrl() throws java.lang.Exception",1052,0.06039382283713187
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.getEntries() throws java.lang.Exception",1057,0.06068086572133877
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.setrootFolder(java.io.File)",13727,0.7880475343016247
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.setup() throws java.lang.Exception",1067,0.06125495148975257
+"org.springframework.boot.loader.archive.ExplodedArchiveTests()",58710,3.370457546357426
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.nestedDirArchive() throws java.lang.Exception",1091,0.06263275733394569
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.getResourceAsStream() throws java.lang.Exception",1103,0.06332166025604226
+"public void org.springframework.boot.loader.archive.ExplodedArchiveTests.getNonRecursiveManifest() throws java.lang.Exception",1069,0.06136976864343533
+"public org.junit.rules.TemporaryFolder org.springframework.boot.loader.archive.ExplodedArchiveTests.temporaryFolder",63181,3.6271312934152364
+"public org.junit.rules.TemporaryFolder org.springframework.boot.loader.archive.ExplodedArchiveTests.temporaryFolder",27102,1.5558872495550835
+"public org.junit.rules.TemporaryFolder org.springframework.boot.loader.archive.ExplodedArchiveTests.gettemporaryFolder()",29512,1.6942419197428096

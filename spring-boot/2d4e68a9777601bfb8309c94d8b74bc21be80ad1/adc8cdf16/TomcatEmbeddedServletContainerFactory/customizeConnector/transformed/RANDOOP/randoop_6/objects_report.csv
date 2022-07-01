@@ -1,0 +1,18 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,23753,6,2.8652593486127866,7.237635705669482E-4
+class java.util.LinkedHashSet,2016,2,0.24318455971049457,2.4125452352231604E-4
+class java.io.File,2760,2703,0.33293124246079614,0.3260554885404101
+class [Lorg.springframework.boot.context.embedded.tomcat.TomcatConnectorCustomizer;,829,2,0.1,2.4125452352231604E-4
+class java.lang.Integer,3891,9,0.46936067551266586,0.0010856453558504221
+class [Lorg.springframework.boot.context.embedded.ErrorPage;,1036,2,0.12496984318455971,2.4125452352231604E-4
+class org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory$StoreMergedWebXmlListener,1350,1,0.16284680337756333,1.2062726176115802E-4
+class org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory,42150,4703,5.084439083232811,0.5673100120627261
+class [Lorg.springframework.boot.context.embedded.ServletContextInitializer;,1646,2,0.1985524728588661,2.4125452352231604E-4
+class [Lorg.apache.catalina.LifecycleListener;,1883,321,0.22714113389626056,0.038721351025331724
+class org.springframework.boot.context.embedded.MimeMappings,17430,1,2.1025331724969845,1.2062726176115802E-4
+class java.lang.Boolean,4592,2,0.5539203860072376,2.4125452352231604E-4
+class java.lang.Class,237,13,0.02858866103739445,0.0015681544028950543
+class java.util.ArrayList,41954,114,5.060796139927624,0.013751507840772014
+class [Lorg.apache.catalina.connector.Connector;,1105,2,0.13329312424607961,2.4125452352231604E-4
+class [Lorg.apache.catalina.Valve;,1070,2,0.12907117008443908,2.4125452352231604E-4
+class [Lorg.springframework.boot.context.embedded.tomcat.TomcatContextCustomizer;,594,2,0.07165259348612786,2.4125452352231604E-4

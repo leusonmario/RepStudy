@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.mongo.MongoProperties
+com.mongodb.MongoClientOptions
+com.mongodb.MongoClientOptions$Builder
