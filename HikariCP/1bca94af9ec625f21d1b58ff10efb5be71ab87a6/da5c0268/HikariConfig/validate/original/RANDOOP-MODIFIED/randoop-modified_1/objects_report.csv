@@ -1,0 +1,9 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Boolean,35739,2,1.4024093548893424,7.848061528802385E-5
+class java.lang.Object,1,1,3.924030764401193E-5,3.924030764401193E-5
+class java.lang.String,6818,2746,0.26754041751687335,0.10775388479045676
+class java.lang.Integer,18299,11,0.7180583895777742,4.316433840841312E-4
+class com.zaxxer.hikari.HikariConfig,53831,52350,2.1123450007848064,2.0542301051640246
+class java.lang.Class,776,3,0.030450478731753258,1.1772092293203579E-4
+class java.lang.Long,23906,16,0.9380787945377492,6.278449223041908E-4
+class java.util.Properties,13351,405,0.5238973473552032,0.01589232459582483

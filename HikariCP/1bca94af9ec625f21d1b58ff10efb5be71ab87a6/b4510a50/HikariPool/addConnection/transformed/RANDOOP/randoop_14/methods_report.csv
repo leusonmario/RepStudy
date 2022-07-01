@@ -1,0 +1,4 @@
+Methods called,Number of times,Number of times (Normalized)
+"com.zaxxer.hikari.HikariPool$HouseKeeper(com.zaxxer.hikari.HikariPool)",1,0.5
+"java.lang.Object()",1,0.5
+"public final native java.lang.Class java.lang.Object.getClass()",1,0.5
