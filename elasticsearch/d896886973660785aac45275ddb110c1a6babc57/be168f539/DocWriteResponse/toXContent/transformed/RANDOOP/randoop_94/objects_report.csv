@@ -1,0 +1,10 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,102348,4,5.919833420093701,2.3136098097055932E-4
+class java.lang.Object,1,1,5.784024524263983E-5,5.784024524263983E-5
+class org.elasticsearch.action.DocWriteResponse$Fields,8793,1,0.508589276418532,5.784024524263983E-5
+class org.elasticsearch.common.xcontent.ToXContent$1,1,1,5.784024524263983E-5,5.784024524263983E-5
+class [Ljava.lang.String;,8413,5956,0.48660998322632887,0.3444965006651628
+class org.elasticsearch.common.xcontent.ToXContent$MapParams,67,1,0.0038752964312568686,5.784024524263983E-5
+class [Lorg.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo$Failure;,1,1,5.784024524263983E-5,5.784024524263983E-5
+class java.lang.Class,3563,6,0.2060847937995257,3.4704147145583897E-4
+class org.joda.time.format.DateTimeFormatter,1,1,5.784024524263983E-5,5.784024524263983E-5

@@ -1,0 +1,20 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,3463,2,0.62792384406165,3.6264732547597464E-4
+class org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest,57684,16,10.45947416137806,0.002901178603807797
+class org.elasticsearch.cluster.metadata.MetaDataCreateIndexService,4631,4631,0.8397098821396192,0.8397098821396192
+class [Ljava.lang.String;,171,6,0.03100634632819583,0.0010879419764279238
+class [Lorg.elasticsearch.cluster.metadata.IndexTemplateFilter;,3829,3829,0.6942883046237533,0.6942883046237533
+class org.elasticsearch.cluster.metadata.IndexMetaData$State,2878,1,0.5218495013599275,1.8132366273798732E-4
+class org.elasticsearch.action.LatchedActionListener,3066,1459,0.5559383499546691,0.26455122393472347
+class java.lang.Boolean,19312,2,3.501722574796011,3.6264732547597464E-4
+class org.elasticsearch.cluster.metadata.IndexTemplateFilter$Compound,1791,1364,0.32475067996373524,0.24732547597461468
+class [Lorg.elasticsearch.action.admin.indices.alias.Alias;,10195,1,1.8485947416137807,1.8132366273798732E-4
+class java.lang.Integer,1414,1,0.25639165911151407,1.8132366273798732E-4
+class [Lorg.elasticsearch.cluster.block.ClusterBlock;,131,1,0.023753399818676336,1.8132366273798732E-4
+class java.util.HashSet,3930,1,0.7126019945602902,1.8132366273798732E-4
+class java.util.LinkedHashSet,14326,3833,2.597642792384406,0.6950135992747053
+class java.lang.Class,180,11,0.032638259292837715,0.0019945602901178605
+class org.elasticsearch.common.settings.Settings,6325,1,1.1468721668177697,1.8132366273798732E-4
+class java.util.HashMap,4044,1,0.7332728921124206,1.8132366273798732E-4
+class org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$DefaultIndexTemplateFilter,8365,1,1.5167724388032637,1.8132366273798732E-4
+class java.util.ArrayList,922,1,0.1671804170444243,1.8132366273798732E-4

@@ -1,0 +1,65 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.lang.String[1]",355,0.023236025657808614
+"java.lang.String[0]",6,3.927215604136667E-4
+"java.lang.String[3]",472,0.030894096085875115
+"java.lang.String[2]",491,0.03213771436051839
+"java.lang.String[5]",468,0.030632281712266004
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withLocale(java.util.Locale)",11213,0.7339311428197408
+"java.lang.String[4]",473,0.03095954967927739
+"java.lang.String[6]",497,0.032530435920932056
+"public org.joda.time.DateTime org.joda.time.format.DateTimeFormatter.parseDateTime(java.lang.String)",2118,0.13863071082602435
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;)",1037,0.06787537635816206
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;, boolean)",1183,0.07743160099489461
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream)",1,6.545359340227778E-5
+"public org.joda.time.LocalDateTime org.joda.time.format.DateTimeFormatter.parseLocalDateTime(java.lang.String)",1398,0.09150412357638435
+"public java.lang.Boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,java.lang.Boolean)",217,0.014203429768294279
+"public boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,boolean)",223,0.014596151328707946
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withChronology(org.joda.time.Chronology)",9882,0.6468124100013091
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withOffsetParsed()",3860,0.2526508705327922
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String)",153,0.010014399790548502
+"public org.joda.time.MutableDateTime org.joda.time.format.DateTimeFormatter.parseMutableDateTime(java.lang.String)",5560,0.3639219793166645
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String,java.lang.String)",341,0.022319675350176725
+"org.elasticsearch.common.xcontent.ToXContent$MapParams(java.util.Map)",934,0.06113365623772745
+"public org.joda.time.format.DateTimePrinter org.joda.time.format.DateTimeFormatter.getPrinter()",19115,1.25114543788454
+"public static final org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo$Failure[] org.elasticsearch.action.support.replication.ReplicationResponse.EMPTY",1,6.545359340227778E-5
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withPivotYear(int)",8621,0.5642754287210368
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withPivotYear(java.lang.Integer)",5340,0.3495221887681634
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.io.Writer,org.joda.time.ReadablePartial) throws java.io.IOException",311,0.02035606754810839
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuilder,long)",358,0.023432386438015446
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.Appendable,long) throws java.io.IOException",336,0.021992407383165335
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial)",292,0.019112449273465112
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.Appendable,org.joda.time.ReadableInstant) throws java.io.IOException",330,0.02159968582275167
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuilder,org.joda.time.ReadableInstant)",279,0.018261552559235502
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuffer,long)",323,0.021141510668935725
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.io.Writer,org.joda.time.ReadableInstant) throws java.io.IOException",325,0.02127241785574028
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuffer,org.joda.time.ReadableInstant)",283,0.018523366932844613
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.io.Writer,long) throws java.io.IOException",326,0.021337871449142558
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.Appendable,org.joda.time.ReadablePartial) throws java.io.IOException",320,0.020945149888728892
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuilder,org.joda.time.ReadablePartial)",327,0.021403325042544837
+"public java.lang.String org.joda.time.format.DateTimeFormatter.print(long)",6746,0.44154994109176593
+"public java.lang.String org.joda.time.format.DateTimeFormatter.print(org.joda.time.ReadablePartial)",4191,0.27431600994894617
+"public java.lang.String org.joda.time.format.DateTimeFormatter.print(org.joda.time.ReadableInstant)",2479,0.16225945804424663
+"public boolean org.joda.time.format.DateTimeFormatter.isOffsetParsed()",1541,0.10086398743291007
+"public org.joda.time.LocalTime org.joda.time.format.DateTimeFormatter.parseLocalTime(java.lang.String)",5516,0.36104202120696427
+"public boolean org.joda.time.format.DateTimeFormatter.isPrinter()",1790,0.11716193219007724
+"public static final org.joda.time.format.DateTimeFormatter org.elasticsearch.common.xcontent.XContentBuilder.defaultDatePrinter",55827,3.654077758868962
+"public int org.joda.time.format.DateTimeFormatter.parseInto(org.joda.time.ReadWritableInstant,java.lang.String,int)",2778,0.18183008247152768
+"public org.joda.time.LocalDate org.joda.time.format.DateTimeFormatter.parseLocalDate(java.lang.String)",1011,0.06617358292970284
+"public org.joda.time.format.DateTimeParser org.joda.time.format.DateTimeFormatter.getParser()",12413,0.8124754549024742
+"public org.joda.time.Chronology org.joda.time.format.DateTimeFormatter.getChronology()",3365,0.22025134179866473
+"public final native java.lang.Class java.lang.Object.getClass()",341,0.022319675350176725
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withDefaultYear(int)",3487,0.22823668019374263
+"public java.lang.Integer org.joda.time.format.DateTimeFormatter.getPivotYear()",3005,0.19668804817384475
+"public int org.joda.time.format.DateTimeFormatter.getDefaultYear()",3658,0.23942924466553214
+"org.joda.time.format.DateTimeFormatter(org.joda.time.format.DateTimePrinter, org.joda.time.format.DateTimeParser)",39974,2.6164419426626524
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withZone(org.joda.time.DateTimeZone)",18385,1.203364314700877
+"public long org.joda.time.format.DateTimeFormatter.parseMillis(java.lang.String)",1793,0.11735829297028406
+"public org.joda.time.DateTimeZone org.joda.time.format.DateTimeFormatter.getZone()",31621,2.0697080769734257
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[],boolean) throws java.io.IOException",280,0.01832700615263778
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[]) throws java.io.IOException",268,0.017541563031810446
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent) throws java.io.IOException",1,6.545359340227778E-5
+"public org.joda.time.Chronology org.joda.time.format.DateTimeFormatter.getChronolgy()",1880,0.12305275559628223
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withZoneUTC()",31543,2.064602696688048
+"public boolean org.joda.time.format.DateTimeFormatter.isParser()",3727,0.2439455426102893
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1,6.545359340227778E-5
+"public java.util.Locale org.joda.time.format.DateTimeFormatter.getLocale()",6021,0.3940960858751145

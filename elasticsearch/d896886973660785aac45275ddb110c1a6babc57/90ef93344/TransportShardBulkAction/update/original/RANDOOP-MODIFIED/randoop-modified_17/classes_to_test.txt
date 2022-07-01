@@ -1,0 +1,8 @@
+org.elasticsearch.action.bulk.TransportShardBulkAction
+org.elasticsearch.cluster.metadata.IndexMetaData
+org.elasticsearch.action.bulk.BulkShardRequest
+org.elasticsearch.index.shard.IndexShard
+org.elasticsearch.index.VersionType
+org.elasticsearch.index.translog.Translog$Location
+org.elasticsearch.action.bulk.BulkItemRequest
+org.elasticsearch.common.collect.Tuple

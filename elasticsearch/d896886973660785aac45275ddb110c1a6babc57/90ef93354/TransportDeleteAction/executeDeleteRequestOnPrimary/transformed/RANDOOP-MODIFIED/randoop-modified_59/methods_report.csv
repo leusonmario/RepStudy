@@ -1,0 +1,63 @@
+Methods called,Number of times,Number of times (Normalized)
+"public org.elasticsearch.common.transport.TransportAddress org.elasticsearch.transport.TransportMessage.remoteAddress()",2021,0.17845474613686535
+"public void org.elasticsearch.transport.TransportMessage.remoteAddress(org.elasticsearch.common.transport.TransportAddress)",1043,0.0920971302428256
+"public void org.elasticsearch.action.delete.DeleteRequest.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",364,0.032141280353200886
+"public void org.elasticsearch.action.support.replication.ReplicationRequest.seqNo(long)",832,0.07346578366445916
+"public long org.elasticsearch.action.support.replication.ReplicationRequest.seqNo()",1265,0.11169977924944813
+"org.elasticsearch.action.delete.DeleteRequest(java.lang.String)",1965,0.17350993377483442
+"org.elasticsearch.action.delete.DeleteRequest()",15675,1.3841059602649006
+"org.elasticsearch.action.delete.DeleteRequest(java.lang.String, java.lang.String, java.lang.String)",4082,0.3604415011037528
+"org.elasticsearch.index.shard.SearchOperationListener[0]",2,1.7660044150110375E-4
+"public org.elasticsearch.index.VersionType org.elasticsearch.action.delete.DeleteRequest.versionType()",3714,0.32794701986754965
+"public void org.elasticsearch.action.delete.DeleteRequest.readFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",291,0.025695364238410595
+"public org.elasticsearch.action.delete.DeleteRequest org.elasticsearch.action.delete.DeleteRequest.versionType(org.elasticsearch.index.VersionType)",2723,0.24044150110375276
+"public org.elasticsearch.action.delete.DeleteRequest org.elasticsearch.action.delete.DeleteRequest.refresh(boolean)",3911,0.3453421633554084
+"public boolean org.elasticsearch.action.delete.DeleteRequest.refresh()",1243,0.10975717439293599
+"public org.elasticsearch.action.ActionRequestValidationException org.elasticsearch.action.delete.DeleteRequest.validate()",3326,0.29368653421633556
+"public java.lang.String org.elasticsearch.action.support.replication.ReplicationRequest.index()",1864,0.1645916114790287
+"public final org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.index(java.lang.String)",1974,0.17430463576158942
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",4,3.532008830022075E-4
+"public final java.lang.Throwable org.elasticsearch.index.shard.IndexShard$ShardFailure.cause",1144,0.10101545253863135
+"public java.lang.String org.elasticsearch.action.delete.DeleteRequest.routing()",13151,1.1612362030905077
+"public org.elasticsearch.action.delete.DeleteRequest org.elasticsearch.action.delete.DeleteRequest.routing(java.lang.String)",7190,0.634878587196468
+"public final java.lang.String org.elasticsearch.index.shard.IndexShard$ShardFailure.indexUUID",342,0.030198675496688743
+"public static void org.elasticsearch.action.support.replication.TransportReplicationAction.setPhase(org.elasticsearch.action.support.replication.ReplicationTask,java.lang.String)",120,0.010596026490066225
+"public final org.elasticsearch.cluster.routing.ShardRouting org.elasticsearch.index.shard.IndexShard$ShardFailure.routing",372,0.0328476821192053
+"public static org.elasticsearch.index.engine.Engine$Delete org.elasticsearch.action.delete.TransportDeleteAction.executeDeleteRequestOnReplica(org.elasticsearch.action.delete.DeleteRequest,org.elasticsearch.index.shard.IndexShard)",323,0.028520971302428255
+"public org.elasticsearch.action.delete.DeleteRequest org.elasticsearch.action.delete.DeleteRequest.parent(java.lang.String)",2956,0.26101545253863134
+"public java.lang.String org.elasticsearch.action.delete.DeleteRequest.parent()",883,0.0779690949227373
+"public java.lang.String org.elasticsearch.action.delete.DeleteRequest.type()",1199,0.1058719646799117
+"public org.elasticsearch.action.delete.DeleteRequest org.elasticsearch.action.delete.DeleteRequest.type(java.lang.String)",1636,0.14445916114790286
+"public void org.elasticsearch.transport.TransportRequest.setParentTask(org.elasticsearch.tasks.TaskId)",1917,0.16927152317880795
+"public void org.elasticsearch.transport.TransportRequest.setParentTask(java.lang.String,long)",944,0.08335540838852097
+"public org.elasticsearch.common.unit.TimeValue org.elasticsearch.action.support.replication.ReplicationRequest.timeout()",2664,0.2352317880794702
+"public final org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.timeout(java.lang.String)",318,0.0280794701986755
+"public final org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.timeout(org.elasticsearch.common.unit.TimeValue)",3101,0.27381898454746134
+"public java.lang.String[] org.elasticsearch.action.support.replication.ReplicationRequest.indices()",4131,0.36476821192052983
+"public java.lang.String org.elasticsearch.action.support.replication.ReplicationRequest.getDescription()",1022,0.09024282560706402
+"public java.lang.String org.elasticsearch.action.delete.DeleteRequest.toString()",1160,0.10242825607064018
+"public long org.elasticsearch.action.support.replication.ReplicationRequest.primaryTerm()",1816,0.1603532008830022
+"public void org.elasticsearch.action.support.replication.ReplicationRequest.primaryTerm(long)",1264,0.11161147902869757
+"public static final java.util.EnumSet org.elasticsearch.index.shard.IndexShard.writeAllowedStatesForPrimary",1,8.830022075055188E-5
+"public org.elasticsearch.tasks.TaskId org.elasticsearch.transport.TransportRequest.getParentTask()",6132,0.5414569536423841
+"public org.elasticsearch.tasks.Task org.elasticsearch.action.support.replication.ReplicationRequest.createTask(long,java.lang.String,java.lang.String,org.elasticsearch.tasks.TaskId)",1542,0.136158940397351
+"java.util.ArrayList()",4,3.532008830022075E-4
+"public final native java.lang.Class java.lang.Object.getClass()",323,0.028520971302428255
+"org.elasticsearch.index.shard.IndexingOperationListener[0]",2,1.7660044150110375E-4
+"public long org.elasticsearch.action.delete.DeleteRequest.version()",1054,0.09306843267108168
+"public org.elasticsearch.action.delete.DeleteRequest org.elasticsearch.action.delete.DeleteRequest.version(long)",2678,0.23646799116997794
+"public final java.lang.String org.elasticsearch.index.shard.IndexShard$ShardFailure.reason",430,0.037969094922737305
+"org.elasticsearch.index.shard.IndexShard$ShardFailure(org.elasticsearch.cluster.routing.ShardRouting, java.lang.String, java.lang.Throwable, java.lang.String)",13525,1.1942604856512142
+"org.elasticsearch.action.delete.TransportDeleteAction(org.elasticsearch.common.settings.Settings, org.elasticsearch.transport.TransportService, org.elasticsearch.cluster.service.ClusterService, org.elasticsearch.indices.IndicesService, org.elasticsearch.threadpool.ThreadPool, org.elasticsearch.cluster.action.shard.ShardStateAction, org.elasticsearch.action.admin.indices.create.TransportCreateIndexAction, org.elasticsearch.action.support.ActionFilters, org.elasticsearch.cluster.metadata.IndexNameExpressionResolver, org.elasticsearch.action.support.AutoCreateIndex)",1,8.830022075055188E-5
+"org.elasticsearch.index.shard.IndexShard(org.elasticsearch.cluster.routing.ShardRouting, org.elasticsearch.index.IndexSettings, org.elasticsearch.index.shard.ShardPath, org.elasticsearch.index.store.Store, org.elasticsearch.index.cache.IndexCache, org.elasticsearch.index.mapper.MapperService, org.elasticsearch.index.similarity.SimilarityService, org.elasticsearch.index.fielddata.IndexFieldDataService, org.elasticsearch.index.engine.EngineFactory, org.elasticsearch.index.shard.IndexEventListener, org.elasticsearch.index.shard.IndexSearcherWrapper, org.elasticsearch.threadpool.ThreadPool, org.elasticsearch.common.util.BigArrays, org.elasticsearch.index.engine.Engine$Warmer, java.lang.Runnable, java.util.List, java.util.List)",4,3.532008830022075E-4
+"public org.elasticsearch.index.shard.ShardId org.elasticsearch.action.support.replication.ReplicationRequest.shardId()",1227,0.10834437086092716
+"public org.elasticsearch.action.delete.DeleteRequest org.elasticsearch.action.delete.DeleteRequest.id(java.lang.String)",22682,2.002825607064018
+"public java.lang.String org.elasticsearch.action.delete.DeleteRequest.id()",1035,0.0913907284768212
+"public static org.elasticsearch.action.support.replication.TransportReplicationAction$WriteResult org.elasticsearch.action.delete.TransportDeleteAction.executeDeleteRequestOnPrimary(org.elasticsearch.action.delete.DeleteRequest,org.elasticsearch.index.shard.IndexShard)",299,0.02640176600441501
+"public boolean org.elasticsearch.action.ActionRequest.getShouldPersistResult()",1485,0.13112582781456952
+"public org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.setShardId(org.elasticsearch.index.shard.ShardId)",3191,0.28176600441501104
+"public final org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.consistencyLevel(org.elasticsearch.action.WriteConsistencyLevel)",6824,0.602560706401766
+"public org.elasticsearch.action.WriteConsistencyLevel org.elasticsearch.action.support.replication.ReplicationRequest.consistencyLevel()",2792,0.24653421633554085
+"public static final org.elasticsearch.common.unit.TimeValue org.elasticsearch.action.support.replication.ReplicationRequest.DEFAULT_TIMEOUT",1062,0.09377483443708609
+"public static void org.elasticsearch.action.delete.TransportDeleteAction.resolveAndValidateRouting(org.elasticsearch.cluster.metadata.MetaData,java.lang.String,org.elasticsearch.action.delete.DeleteRequest)",344,0.030375275938189845
+"public org.elasticsearch.action.support.IndicesOptions org.elasticsearch.action.support.replication.ReplicationRequest.indicesOptions()",3492,0.30834437086092714

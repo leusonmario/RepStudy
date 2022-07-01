@@ -1,0 +1,10 @@
+Methods called,Number of times,Number of times (Normalized)
+"OPEN_INDEX_CREATE_TRANSLOG",2,0.18181818181818182
+"org.elasticsearch.index.engine.InternalEngine(org.elasticsearch.index.engine.EngineConfig)",1,0.09090909090909091
+"org.elasticsearch.index.engine.EngineConfig(org.elasticsearch.index.engine.EngineConfig$OpenMode, org.elasticsearch.index.shard.ShardId, org.elasticsearch.threadpool.ThreadPool, org.elasticsearch.index.IndexSettings, org.elasticsearch.index.engine.Engine$Warmer, org.elasticsearch.index.store.Store, org.apache.lucene.index.SnapshotDeletionPolicy, org.apache.lucene.index.MergePolicy, org.apache.lucene.analysis.Analyzer, org.apache.lucene.search.similarities.Similarity, org.elasticsearch.index.codec.CodecService, org.elasticsearch.index.engine.Engine$EventListener, org.elasticsearch.index.shard.TranslogRecoveryPerformer, org.apache.lucene.search.QueryCache, org.apache.lucene.search.QueryCachingPolicy, org.elasticsearch.index.translog.TranslogConfig, org.elasticsearch.common.unit.TimeValue)",4,0.36363636363636365
+"CREATE_INDEX_AND_TRANSLOG",2,0.18181818181818182
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.index.engine.EngineConfig.INDEX_CODEC_SETTING",1,0.09090909090909091
+"public static final java.lang.String org.elasticsearch.index.engine.Engine.SYNC_COMMIT_ID",1,0.09090909090909091
+"java.lang.Object()",1,0.09090909090909091
+"public final native java.lang.Class java.lang.Object.getClass()",5,0.45454545454545453
+"OPEN_INDEX_AND_TRANSLOG",2,0.18181818181818182

@@ -1,0 +1,28 @@
+Methods called,Number of times,Number of times (Normalized)
+"public org.elasticsearch.common.settings.Setting$Property org.elasticsearch.common.settings.AbstractScopedSettings.getScope()",21427,1.3979904743263523
+"public final boolean org.elasticsearch.common.settings.IndexScopedSettings.isPrivateSetting(java.lang.String)",13987,0.9125725843283096
+"public static final org.elasticsearch.common.settings.IndexScopedSettings org.elasticsearch.common.settings.IndexScopedSettings.DEFAULT_SCOPED_SETTINGS",15319,0.999478045279572
+"public final java.lang.String org.elasticsearch.common.component.AbstractComponent.nodeName()",15992,1.0433874861355776
+"public java.util.Set org.elasticsearch.common.settings.IndexScopedSettings.getBUILT_IN_INDEX_SETTINGS()",14337,0.9354081033470346
+"public void org.elasticsearch.common.settings.IndexScopedSettings.validateSettingKey(org.elasticsearch.common.settings.Setting)",975,0.06361323155216285
+"public synchronized org.elasticsearch.common.settings.Settings org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(org.elasticsearch.common.settings.Settings)",994,0.06485287401317935
+"public org.elasticsearch.common.settings.IndexScopedSettings org.elasticsearch.common.settings.IndexScopedSettings.copy(org.elasticsearch.common.settings.Settings,org.elasticsearch.cluster.metadata.IndexMetaData)",1014,0.06615776081424936
+"public boolean org.elasticsearch.common.settings.AbstractScopedSettings.updateSettings(org.elasticsearch.common.settings.Settings,org.elasticsearch.common.settings.Settings$Builder,org.elasticsearch.common.settings.Settings$Builder,java.lang.String)",1014,0.06615776081424936
+"public org.elasticsearch.common.settings.Settings org.elasticsearch.common.settings.AbstractScopedSettings.diff(org.elasticsearch.common.settings.Settings,org.elasticsearch.common.settings.Settings)",990,0.06459189665296536
+"public boolean org.elasticsearch.common.settings.AbstractScopedSettings.updateDynamicSettings(org.elasticsearch.common.settings.Settings,org.elasticsearch.common.settings.Settings$Builder,org.elasticsearch.common.settings.Settings$Builder,java.lang.String)",1049,0.06844131271612187
+"public static final java.util.Set org.elasticsearch.common.settings.IndexScopedSettings.BUILT_IN_INDEX_SETTINGS",1,6.524434005350036E-5
+"public boolean org.elasticsearch.common.settings.AbstractScopedSettings.hasDynamicSetting(java.lang.String)",11621,0.7582044757617277
+"public final native java.lang.Class java.lang.Object.getClass()",1060,0.06915900045671038
+"public static final java.util.function.Predicate org.elasticsearch.common.settings.IndexScopedSettings.INDEX_SETTINGS_KEY_PREDICATE",1,6.524434005350036E-5
+"public org.elasticsearch.common.settings.IndexScopedSettings org.elasticsearch.common.settings.IndexScopedSettings.getDEFAULT_SCOPED_SETTINGS()",25235,1.6464409212500815
+"public final void org.elasticsearch.common.settings.AbstractScopedSettings.validate(java.lang.String,org.elasticsearch.common.settings.Settings)",1065,0.06948522215697789
+"public final void org.elasticsearch.common.settings.AbstractScopedSettings.validate(org.elasticsearch.common.settings.Settings$Builder)",997,0.06504860703333985
+"public final void org.elasticsearch.common.settings.AbstractScopedSettings.validate(org.elasticsearch.common.settings.Settings)",983,0.06413518627259085
+"public org.elasticsearch.common.settings.Settings org.elasticsearch.common.settings.AbstractScopedSettings.archiveUnknownOrBrokenSettings(org.elasticsearch.common.settings.Settings)",945,0.06165590135055784
+"public org.elasticsearch.common.settings.Setting org.elasticsearch.common.settings.AbstractScopedSettings.get(java.lang.String)",15691,1.0237489397794741
+"public static final java.lang.String org.elasticsearch.common.settings.AbstractScopedSettings.ARCHIVED_SETTINGS_PREFIX",1,6.524434005350036E-5
+"public java.util.function.Predicate org.elasticsearch.common.settings.IndexScopedSettings.getINDEX_SETTINGS_KEY_PREDICATE()",15088,0.9844066027272134
+"org.elasticsearch.common.settings.IndexScopedSettings(org.elasticsearch.common.settings.Settings, org.elasticsearch.common.settings.IndexScopedSettings, org.elasticsearch.cluster.metadata.IndexMetaData)",960,0.06263456645136034
+"public static boolean org.elasticsearch.common.settings.AbstractScopedSettings.isValidKey(java.lang.String)",3,1.9573302016050108E-4
+"public synchronized org.elasticsearch.common.settings.Settings org.elasticsearch.common.settings.AbstractScopedSettings.dryRun(org.elasticsearch.common.settings.Settings)",1035,0.06752789195537287
+"java.lang.Object()",1,6.524434005350036E-5

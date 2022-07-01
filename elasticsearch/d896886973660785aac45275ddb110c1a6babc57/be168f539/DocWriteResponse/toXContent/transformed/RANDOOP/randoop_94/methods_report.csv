@@ -1,0 +1,33 @@
+Methods called,Number of times,Number of times (Normalized)
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_ID()",31503,1.8221412458788826
+"public static final org.joda.time.format.DateTimeFormatter org.elasticsearch.common.xcontent.XContentBuilder.defaultDatePrinter",1,5.784024524263983E-5
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;, boolean)",2236,0.12933078836254266
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;)",1992,0.11521776852333854
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream)",1,5.784024524263983E-5
+"org.elasticsearch.action.DocWriteResponse$Fields()",8793,0.508589276418532
+"java.lang.String[4]",2160,0.12493492972410203
+"public java.lang.Boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,java.lang.Boolean)",12,6.940829429116779E-4
+"public boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,boolean)",12,6.940829429116779E-4
+"java.lang.String[5]",2487,0.14384868991844527
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_INDEX()",25283,1.4623749204696628
+"java.lang.String[6]",2446,0.14147723986349703
+"java.lang.String[0]",6,3.4704147145583897E-4
+"java.lang.String[1]",36,0.002082248828735034
+"java.lang.String[2]",216,0.012493492972410203
+"java.lang.String[3]",1062,0.0614263404476835
+"public final native java.lang.Class java.lang.Object.getClass()",3563,0.2060847937995257
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String,java.lang.String)",36,0.002082248828735034
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String)",6,3.4704147145583897E-4
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._VERSION",1,5.784024524263983E-5
+"org.elasticsearch.common.xcontent.ToXContent$MapParams(java.util.Map)",67,0.0038752964312568686
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_TYPE()",20939,1.2111168951356355
+"public static final org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo$Failure[] org.elasticsearch.action.support.replication.ReplicationResponse.EMPTY",1,5.784024524263983E-5
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[]) throws java.io.IOException",1952,0.11290415871363295
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[],boolean) throws java.io.IOException",2239,0.12950430909827057
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_VERSION()",24619,1.42396899762855
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent) throws java.io.IOException",1,5.784024524263983E-5
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._TYPE",1,5.784024524263983E-5
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._ID",1,5.784024524263983E-5
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._INDEX",1,5.784024524263983E-5
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1,5.784024524263983E-5
+"java.lang.Object()",1,5.784024524263983E-5

@@ -1,0 +1,85 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.lang.String[1]",310,0.017184988081379235
+"org.elasticsearch.index.shard.ShardId(java.lang.String, java.lang.String, int)",4502,0.24957037529796552
+"java.lang.String[0]",6,3.326126725428239E-4
+"java.lang.String[3]",479,0.026553578358002105
+"java.lang.String[2]",540,0.02993514052885415
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withLocale(java.util.Locale)",9975,0.5529685681024447
+"java.lang.String[5]",499,0.027662287266478187
+"java.lang.String[4]",493,0.02732967459393536
+"public org.joda.time.DateTime org.joda.time.format.DateTimeFormatter.parseDateTime(java.lang.String)",411,0.022783968069183435
+"java.lang.String[6]",485,0.02688619103054493
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;, boolean)",1076,0.05964853927601308
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;)",1094,0.06064637729364156
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream)",1,5.543544542380398E-5
+"public org.joda.time.LocalDateTime org.joda.time.format.DateTimeFormatter.parseLocalDateTime(java.lang.String)",392,0.02173069460613116
+"org.elasticsearch.action.DocWriteResponse$Fields()",512,0.02838294805698764
+"public boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,boolean)",190,0.010532734630522756
+"public java.lang.Boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,java.lang.Boolean)",198,0.010976218193913189
+"public boolean org.elasticsearch.index.shard.ShardId.equals(java.lang.Object)",525,0.02910360884749709
+"public java.lang.String org.elasticsearch.index.shard.ShardId.toString()",679,0.037640667442762905
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withChronology(org.joda.time.Chronology)",5453,0.30228948389600313
+"public static org.elasticsearch.index.shard.ShardId org.elasticsearch.index.shard.ShardId.readShardId(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",1,5.543544542380398E-5
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withOffsetParsed()",4946,0.2741837130661345
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String)",120,0.0066522534508564775
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String,java.lang.String)",380,0.02106546926104551
+"public org.joda.time.MutableDateTime org.joda.time.format.DateTimeFormatter.parseMutableDateTime(java.lang.String)",416,0.023061145296302456
+"public org.elasticsearch.index.Index org.elasticsearch.index.shard.ShardId.getIndex()",228,0.012639281556627307
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._VERSION",1,5.543544542380398E-5
+"public int org.elasticsearch.index.shard.ShardId.compareTo(org.elasticsearch.index.shard.ShardId)",1152,0.06386163312822218
+"org.elasticsearch.common.xcontent.ToXContent$MapParams(java.util.Map)",888,0.04922667553633794
+"public org.joda.time.format.DateTimePrinter org.joda.time.format.DateTimeFormatter.getPrinter()",2166,0.12007317478795942
+"public java.lang.String org.elasticsearch.index.shard.ShardId.getIndexName()",741,0.04107766505903875
+"public static final org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo$Failure[] org.elasticsearch.action.support.replication.ReplicationResponse.EMPTY",1,5.543544542380398E-5
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withPivotYear(java.lang.Integer)",9585,0.5313487443871612
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withPivotYear(int)",3531,0.19574255779145186
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_VERSION()",913,0.05061256167193304
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.io.Writer,org.joda.time.ReadablePartial) throws java.io.IOException",396,0.021952436387826377
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial)",358,0.019845889461721826
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.Appendable,org.joda.time.ReadablePartial) throws java.io.IOException",353,0.019568712234602804
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuffer,org.joda.time.ReadableInstant)",406,0.022506790842064417
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.io.Writer,org.joda.time.ReadableInstant) throws java.io.IOException",342,0.01895892233494096
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.Appendable,long) throws java.io.IOException",389,0.02156438826985975
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuilder,org.joda.time.ReadableInstant)",360,0.019956760352569432
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.io.Writer,long) throws java.io.IOException",367,0.02034480847053606
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.Appendable,org.joda.time.ReadableInstant) throws java.io.IOException",361,0.020012195797993237
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuffer,long)",372,0.020621985697655082
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuilder,long)",339,0.01879261599866955
+"public void org.joda.time.format.DateTimeFormatter.printTo(java.lang.StringBuilder,org.joda.time.ReadablePartial)",357,0.01979045401629802
+"public java.lang.String org.joda.time.format.DateTimeFormatter.print(long)",388,0.021508952824435944
+"public java.lang.String org.joda.time.format.DateTimeFormatter.print(org.joda.time.ReadablePartial)",382,0.02117634015189312
+"public java.lang.String org.joda.time.format.DateTimeFormatter.print(org.joda.time.ReadableInstant)",361,0.020012195797993237
+"public boolean org.joda.time.format.DateTimeFormatter.isOffsetParsed()",8171,0.4529630245579023
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._ID",1,5.543544542380398E-5
+"public org.joda.time.LocalTime org.joda.time.format.DateTimeFormatter.parseLocalTime(java.lang.String)",375,0.020788292033926493
+"public int org.elasticsearch.index.shard.ShardId.id()",686,0.03802871556072953
+"public boolean org.joda.time.format.DateTimeFormatter.isPrinter()",5670,0.31431897555296856
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_ID()",1347,0.07467154498586397
+"public void org.elasticsearch.index.shard.ShardId.readFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",353,0.019568712234602804
+"public static final org.joda.time.format.DateTimeFormatter org.elasticsearch.common.xcontent.XContentBuilder.defaultDatePrinter",1,5.543544542380398E-5
+"public int org.joda.time.format.DateTimeFormatter.parseInto(org.joda.time.ReadWritableInstant,java.lang.String,int)",383,0.021231775597316923
+"public org.joda.time.format.DateTimeParser org.joda.time.format.DateTimeFormatter.getParser()",2031,0.11258938965574589
+"public org.joda.time.LocalDate org.joda.time.format.DateTimeFormatter.parseLocalDate(java.lang.String)",360,0.019956760352569432
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_INDEX()",1246,0.06907256499805976
+"public org.joda.time.Chronology org.joda.time.format.DateTimeFormatter.getChronology()",8865,0.4914352236820223
+"public final native java.lang.Class java.lang.Object.getClass()",354,0.01962414768002661
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withDefaultYear(int)",4276,0.23704196463218583
+"public void org.elasticsearch.index.shard.ShardId.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",343,0.019014357780364765
+"public java.lang.Integer org.joda.time.format.DateTimeFormatter.getPivotYear()",1769,0.09806530295470924
+"public int org.joda.time.format.DateTimeFormatter.getDefaultYear()",6073,0.3366594600587616
+"org.joda.time.format.DateTimeFormatter(org.joda.time.format.DateTimePrinter, org.joda.time.format.DateTimeParser)",18856,1.045290758911248
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withZone(org.joda.time.DateTimeZone)",13672,0.757913409834248
+"public long org.joda.time.format.DateTimeFormatter.parseMillis(java.lang.String)",399,0.02211874272409779
+"public int org.elasticsearch.index.shard.ShardId.getId()",742,0.041133100504462554
+"public org.joda.time.DateTimeZone org.joda.time.format.DateTimeFormatter.getZone()",8534,0.47308609124674317
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_TYPE()",953,0.052829979488885195
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent) throws java.io.IOException",1,5.543544542380398E-5
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[],boolean) throws java.io.IOException",315,0.017462165308498253
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[]) throws java.io.IOException",333,0.018460003326126725
+"public org.joda.time.Chronology org.joda.time.format.DateTimeFormatter.getChronolgy()",4955,0.2746826320749487
+"public org.joda.time.format.DateTimeFormatter org.joda.time.format.DateTimeFormatter.withZoneUTC()",24099,1.335938799268252
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._TYPE",1,5.543544542380398E-5
+"public boolean org.joda.time.format.DateTimeFormatter.isParser()",4929,0.2732413104939298
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1,5.543544542380398E-5
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._INDEX",1,5.543544542380398E-5
+"public java.util.Locale org.joda.time.format.DateTimeFormatter.getLocale()",3918,0.217196075170464

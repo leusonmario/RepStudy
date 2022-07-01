@@ -1,0 +1,51 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.lang.String[1]",1250,0.16164489848700375
+"java.lang.String[3]",96,0.012414328203801887
+"java.lang.String[2]",6087,0.7871459976723134
+"public static void org.elasticsearch.ElasticsearchException.renderThrowable(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params,java.lang.Throwable) throws java.io.IOException",468,0.06051984999353421
+"public java.lang.Throwable org.elasticsearch.ElasticsearchException.unwrapCause()",5597,0.723781197465408
+"java.lang.String[5]",3,3.87947756368809E-4
+"java.lang.String[4]",33,0.004267425320056899
+"java.lang.String[6]",599,0.07746023535497219
+"public void org.elasticsearch.ElasticsearchException.setShard(java.lang.String,int)",7104,0.9186602870813397
+"public void org.elasticsearch.ElasticsearchException.setShard(org.elasticsearch.index.shard.ShardId)",5896,0.7624466571834992
+"public void org.elasticsearch.ElasticsearchException.setResources(java.lang.String,java.lang.String[])",4670,0.6039053407474461
+"public java.lang.String org.elasticsearch.ElasticsearchException.getDetailedMessage()",3197,0.4134229923703608
+"public void org.elasticsearch.ElasticsearchException.setIndex(org.elasticsearch.index.Index)",19682,2.545195913616966
+"public void org.elasticsearch.ElasticsearchException.setIndex(java.lang.String)",8843,1.1435406698564594
+"public java.lang.String org.elasticsearch.ElasticsearchException.toString()",2772,0.3584637268847795
+"public static java.lang.String org.elasticsearch.ElasticsearchException.getExceptionName(java.lang.Throwable)",2225,0.2877279193068667
+"public org.elasticsearch.index.Index org.elasticsearch.ElasticsearchException.getIndex()",1042,0.13474718737876631
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",3173,0.4103194103194103
+"public static final boolean org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_CAUSE_DEFAULT",1,1.29315918789603E-4
+"public java.util.Set org.elasticsearch.ElasticsearchException.getHeaderKeys()",3073,0.39738781844045
+"public final synchronized void java.lang.Throwable.addSuppressed(java.lang.Throwable)",2870,0.3711366869261606
+"public final synchronized java.lang.Throwable[] java.lang.Throwable.getSuppressed()",3680,0.47588258114573906
+"public java.lang.Throwable org.elasticsearch.ElasticsearchException.getRootCause()",3024,0.3910513384197595
+"public org.elasticsearch.index.shard.ShardId org.elasticsearch.ElasticsearchException.getShardId()",1559,0.20160351739299107
+"public static final boolean org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_STACK_TRACE_DEFAULT",1,1.29315918789603E-4
+"public static java.lang.Throwable org.elasticsearch.ElasticsearchException.readStackTrace(java.lang.Throwable,org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",501,0.0647872753135911
+"public void org.elasticsearch.ElasticsearchException.addHeader(java.lang.String,java.util.List)",9516,1.2305702832018621
+"public void org.elasticsearch.ElasticsearchException.addHeader(java.lang.String,java.lang.String[])",7384,0.9548687443424285
+"public static final java.lang.String org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_STACK_TRACE",1,1.29315918789603E-4
+"java.util.ArrayList()",3173,0.4103194103194103
+"public void org.elasticsearch.ElasticsearchException.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",526,0.06802017328333118
+"public static final java.lang.String org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_CAUSE",1,1.29315918789603E-4
+"public static java.lang.Throwable org.elasticsearch.ElasticsearchException.writeStackTraces(java.lang.Throwable,org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",523,0.06763222552696237
+"public static void org.elasticsearch.ElasticsearchException.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params,java.lang.Throwable) throws java.io.IOException",471,0.060907797749903014
+"public org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.ElasticsearchException.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",567,0.0733221259537049
+"public java.util.List org.elasticsearch.ElasticsearchException.getResourceId()",2038,0.2635458424932109
+"public final native java.lang.Class java.lang.Object.getClass()",531,0.06866675287727919
+"public org.elasticsearch.rest.RestStatus org.elasticsearch.ElasticsearchException.status()",2480,0.32070347859821546
+"java.lang.String[39]",9,0.001163843269106427
+"public static org.elasticsearch.ElasticsearchException[] org.elasticsearch.ElasticsearchException.guessRootCauses(java.lang.Throwable)",5725,0.7403336350704772
+"public org.elasticsearch.ElasticsearchException[] org.elasticsearch.ElasticsearchException.guessRootCauses()",9874,1.27686538212854
+"public java.util.List org.elasticsearch.ElasticsearchException.getHeader(java.lang.String)",5934,0.7673606620975042
+"public static org.elasticsearch.ElasticsearchException org.elasticsearch.ElasticsearchException.readException(org.elasticsearch.common.io.stream.StreamInput,int) throws java.io.IOException",19,0.002457002457002457
+"public java.lang.String org.elasticsearch.ElasticsearchException.getResourceType()",3801,0.491529807319281
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1419,0.18349928876244664
+"java.lang.String[9]",3,3.87947756368809E-4
+"org.elasticsearch.action.support.replication.TransportReplicationAction$RetryOnReplicaException(org.elasticsearch.common.io.stream.StreamInput)",1,1.29315918789603E-4
+"org.elasticsearch.action.support.replication.TransportReplicationAction$RetryOnReplicaException(org.elasticsearch.index.shard.ShardId, java.lang.String)",23883,3.0884520884520885
+"java.lang.Object()",1,1.29315918789603E-4
+"java.lang.String[12]",35,0.004526057157636105

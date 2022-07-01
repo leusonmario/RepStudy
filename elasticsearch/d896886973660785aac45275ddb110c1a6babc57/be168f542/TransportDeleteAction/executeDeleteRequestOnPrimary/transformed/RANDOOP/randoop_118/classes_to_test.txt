@@ -1,0 +1,4 @@
+org.elasticsearch.action.delete.TransportDeleteAction
+org.elasticsearch.action.delete.DeleteRequest
+org.elasticsearch.index.shard.IndexShard
+org.elasticsearch.action.support.replication.TransportReplicationAction$WriteResult

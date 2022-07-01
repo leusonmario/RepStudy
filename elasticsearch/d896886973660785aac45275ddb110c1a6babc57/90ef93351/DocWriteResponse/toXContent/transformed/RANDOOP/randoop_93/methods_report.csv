@@ -1,0 +1,37 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final org.elasticsearch.action.ReplicationResponse$ShardInfo$Failure[] org.elasticsearch.action.ReplicationResponse.EMPTY",1,5.7188608029280565E-5
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_ID()",19933,1.1399405238476497
+"public static final org.joda.time.format.DateTimeFormatter org.elasticsearch.common.xcontent.XContentBuilder.defaultDatePrinter",1,5.7188608029280565E-5
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream)",1,5.7188608029280565E-5
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;)",1729,0.0988791032826261
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;, boolean)",1886,0.10785771474322314
+"org.elasticsearch.action.DocWriteResponse$Fields()",10077,0.5762896031110603
+"java.lang.String[4]",1795,0.10265355141255862
+"public java.lang.Boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,java.lang.Boolean)",16,9.15017728468489E-4
+"public boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,boolean)",16,9.15017728468489E-4
+"java.lang.String[5]",1877,0.10734301727095963
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_INDEX()",19524,1.1165503831636738
+"java.lang.String[6]",1802,0.10305387166876358
+"java.lang.String[0]",6,3.431316481756834E-4
+"java.lang.String[1]",48,0.0027450531854054674
+"java.lang.String[2]",378,0.021617293835068056
+"java.lang.String[3]",1380,0.07892027908040718
+"public final native java.lang.Class java.lang.Object.getClass()",2866,0.1639025506119181
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_SHARD_ID()",16265,0.9301727095962484
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String,java.lang.String)",64,0.003660070913873956
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String)",8,4.575088642342445E-4
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._SHARD_ID",1,5.7188608029280565E-5
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._VERSION",1,5.7188608029280565E-5
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._SEQ_NO",1,5.7188608029280565E-5
+"org.elasticsearch.common.xcontent.ToXContent$MapParams(java.util.Map)",105,0.00600480384307446
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_TYPE()",15799,0.9035228182546037
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[],boolean) throws java.io.IOException",1863,0.1065423767585497
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[]) throws java.io.IOException",1814,0.10374013496511494
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent) throws java.io.IOException",1,5.7188608029280565E-5
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_VERSION()",16407,0.9382934919364063
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._ID",1,5.7188608029280565E-5
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._TYPE",1,5.7188608029280565E-5
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1,5.7188608029280565E-5
+"public static final java.lang.String org.elasticsearch.action.DocWriteResponse$Fields._INDEX",1,5.7188608029280565E-5
+"java.lang.Object()",1,5.7188608029280565E-5
+"public java.lang.String org.elasticsearch.action.DocWriteResponse$Fields.get_SEQ_NO()",16018,0.9160471234130161

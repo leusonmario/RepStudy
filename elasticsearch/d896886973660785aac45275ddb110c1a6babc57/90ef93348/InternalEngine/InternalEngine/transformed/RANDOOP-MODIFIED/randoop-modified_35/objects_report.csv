@@ -1,0 +1,7 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,3,3,0.1875,0.1875
+class java.lang.Object,1,1,0.0625,0.0625
+class org.elasticsearch.index.engine.EngineConfig$OpenMode,6,3,0.375,0.1875
+class java.lang.Integer,1,1,0.0625,0.0625
+class org.elasticsearch.common.settings.Setting,1,1,0.0625,0.0625
+class java.lang.Class,5,3,0.3125,0.1875

@@ -1,0 +1,24 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final org.joda.time.format.DateTimeFormatter org.elasticsearch.common.xcontent.XContentBuilder.defaultDatePrinter",1,0.0012674271229404308
+"org.elasticsearch.common.xcontent.ToXContent$MapParams(java.util.Map)",15,0.019011406844106463
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream)",1,0.0012674271229404308
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;)",128,0.16223067173637515
+"org.elasticsearch.common.xcontent.XContentBuilder(org.elasticsearch.common.xcontent.XContent, java.io.OutputStream, [Ljava.lang.String;, boolean)",256,0.3244613434727503
+"public static final org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo$Failure[] org.elasticsearch.action.support.replication.ReplicationResponse.EMPTY",1,0.0012674271229404308
+"public boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,boolean)",4,0.005069708491761723
+"public java.lang.Boolean org.elasticsearch.common.xcontent.ToXContent$MapParams.paramAsBoolean(java.lang.String,java.lang.Boolean)",4,0.005069708491761723
+"java.lang.String[4]",96,0.12167300380228137
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[],boolean) throws java.io.IOException",256,0.3244613434727503
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent,java.lang.String[]) throws java.io.IOException",128,0.16223067173637515
+"public static org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.XContentBuilder.builder(org.elasticsearch.common.xcontent.XContent) throws java.io.IOException",1,0.0012674271229404308
+"java.lang.String[5]",192,0.24334600760456274
+"java.lang.String[6]",384,0.4866920152091255
+"java.lang.String[0]",6,0.0076045627376425855
+"java.lang.String[1]",12,0.015209125475285171
+"java.lang.String[2]",24,0.030418250950570342
+"java.lang.String[3]",48,0.060836501901140684
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1,0.0012674271229404308
+"java.lang.Object()",1,0.0012674271229404308
+"public final native java.lang.Class java.lang.Object.getClass()",5,0.0063371356147021544
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String,java.lang.String)",4,0.005069708491761723
+"public java.lang.String org.elasticsearch.common.xcontent.ToXContent$MapParams.param(java.lang.String)",2,0.0025348542458808617

@@ -1,0 +1,4 @@
+org.elasticsearch.index.IndexSettings
+org.elasticsearch.cluster.metadata.IndexMetaData
+org.elasticsearch.common.settings.Settings
+org.elasticsearch.common.settings.IndexScopedSettings

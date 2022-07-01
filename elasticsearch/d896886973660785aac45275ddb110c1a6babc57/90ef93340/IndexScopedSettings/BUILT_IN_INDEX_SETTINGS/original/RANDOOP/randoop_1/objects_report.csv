@@ -1,0 +1,9 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,28220,2,1.6825661817314572,1.1924636298592893E-4
+class java.lang.Object,1,1,5.9623181492964464E-5,5.9623181492964464E-5
+class org.elasticsearch.common.settings.IndexScopedSettings$$Lambda$51/1486371051,1,1,5.9623181492964464E-5,5.9623181492964464E-5
+class org.elasticsearch.common.settings.IndexScopedSettings,16765,1,0.9995826377295493,5.9623181492964464E-5
+class org.elasticsearch.common.settings.Setting$Property,35410,1,2.1112568566658716,5.9623181492964464E-5
+class java.lang.Boolean,43807,1,2.611912711662294,5.9623181492964464E-5
+class java.util.Collections$UnmodifiableSet,1,1,5.9623181492964464E-5,5.9623181492964464E-5
+class java.lang.Class,1260,5,0.07512520868113523,2.981159074648223E-4

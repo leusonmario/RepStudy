@@ -1,0 +1,17 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class [Ljava.lang.String;,2796,2598,0.15805539853024309,0.14686263425664217
+class java.lang.String,10549,200,0.5963256076879593,0.011305822498586773
+class org.elasticsearch.index.shard.ShardId,4269,1865,0.24132278123233467,0.10542679479932165
+class org.joda.time.format.DateTimeFormatter,87431,354,4.9423968343697,0.020011305822498587
+class org.joda.time.UTCDateTimeZone,1172,1,0.06625211984171848,5.652911249293386E-5
+class org.joda.time.format.InternalParserDateTimeParser,2086,1,0.11791972866026003,5.652911249293386E-5
+class org.joda.time.format.InternalPrinterDateTimePrinter,388,1,0.02193329564725834,5.652911249293386E-5
+class java.lang.Boolean,11874,2,0.6712266817410967,1.1305822498586772E-4
+class org.elasticsearch.common.xcontent.ToXContent$MapParams,886,1,0.0500847936687394,5.652911249293386E-5
+class java.lang.Integer,4897,32,0.2768230638778971,0.0018089315997738835
+class org.elasticsearch.common.xcontent.ToXContent$1,1,1,5.652911249293386E-5,5.652911249293386E-5
+class java.lang.Class,334,5,0.01888072357263991,2.826455624646693E-4
+class [Lorg.elasticsearch.action.ReplicationResponse$ShardInfo$Failure;,1,1,5.652911249293386E-5,5.652911249293386E-5
+class org.elasticsearch.action.DocWriteResponse$Fields,944,1,0.053363482193329564,5.652911249293386E-5
+class org.elasticsearch.index.Index,226,169,0.012775579423403053,0.009553420011305823
+class org.joda.time.LocalDateTime,28,1,0.0015828151498021481,5.652911249293386E-5

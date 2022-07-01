@@ -1,0 +1,19 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.joda.time.LocalTime,5382,88,0.35227123969105906,0.005759916219400445
+class org.joda.time.DateTime,1982,130,0.12972902212331458,0.008508967142296112
+class java.lang.String,13387,442,0.8762272548762927,0.02893048828380678
+class org.elasticsearch.common.xcontent.ToXContent$1,1,1,6.545359340227778E-5,6.545359340227778E-5
+class [Ljava.lang.String;,2762,2589,0.18078282497709125,0.16945935331849718
+class org.joda.time.UTCDateTimeZone,31237,1,2.044573897106951,6.545359340227778E-5
+class org.joda.time.format.InternalPrinterDateTimePrinter,19105,1,1.250490901950517,6.545359340227778E-5
+class java.lang.Long,1646,95,0.10773661474014923,0.0062180913732163895
+class org.joda.time.LocalDate,870,9,0.05694462625998167,5.890823406205001E-4
+class org.joda.time.format.InternalParserDateTimeParser,11313,1,0.7404765021599686,6.545359340227778E-5
+class java.lang.Boolean,7058,2,0.4619714622332766,1.3090718680455556E-4
+class org.joda.time.MutableDateTime,5404,134,0.35371121874590916,0.008770781515905223
+class java.lang.Integer,6384,24,0.4178557402801414,0.0015708862416546668
+class org.joda.time.LocalDateTime,1227,85,0.08031155910459484,0.005563555439193612
+class org.elasticsearch.common.xcontent.ToXContent$MapParams,934,1,0.06113365623772745,6.545359340227778E-5
+class [Lorg.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo$Failure;,1,1,6.545359340227778E-5,6.545359340227778E-5
+class org.joda.time.format.DateTimeFormatter,188132,374,12.313915433957325,0.024479643932451892
+class java.lang.Class,325,11,0.02127241785574028,7.199895274250557E-4

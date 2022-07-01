@@ -1,0 +1,15 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,14933,140,1.6008790737564322,0.015008576329331046
+class org.elasticsearch.action.support.replication.ReplicationOperation$RetryOnPrimaryException,41756,10048,4.476415094339623,1.0771869639794167
+class org.elasticsearch.index.shard.ShardId,11,8,0.0011792452830188679,8.576329331046312E-4
+class org.elasticsearch.index.Index,5,4,5.360205831903945E-4,4.288164665523156E-4
+class [Lorg.elasticsearch.ElasticsearchException;,6027,5136,0.6461192109777015,0.5506003430531733
+class java.util.ArrayList,2698,7,0.2892367066895369,7.504288164665523E-4
+class java.util.Arrays$ArrayList,1072,5,0.11492281303602059,5.360205831903945E-4
+class java.util.HashMap$KeySet,7721,1,0.8277229845626072,1.072041166380789E-4
+class java.lang.Boolean,11822,2,1.2673670668953687,2.144082332761578E-4
+class [Ljava.lang.Throwable;,3945,349,0.4229202401372213,0.03741423670668954
+class org.elasticsearch.common.xcontent.ToXContent$1,1553,1,0.16648799313893653,1.072041166380789E-4
+class [Ljava.lang.String;,11820,20,1.2671526586620927,0.002144082332761578
+class java.lang.Class,592,8,0.0634648370497427,8.576329331046312E-4
+class org.elasticsearch.rest.RestStatus,4329,1,0.4640866209262436,1.072041166380789E-4

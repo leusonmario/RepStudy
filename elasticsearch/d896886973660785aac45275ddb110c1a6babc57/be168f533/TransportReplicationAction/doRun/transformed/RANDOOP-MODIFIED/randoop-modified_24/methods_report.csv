@@ -1,0 +1,52 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.lang.String[1]",3554,0.45616737260942114
+"java.lang.String[0]",14,0.0017969451931716084
+"java.lang.String[3]",1378,0.17687074829931973
+"java.lang.String[2]",11879,1.5247079964061097
+"public static void org.elasticsearch.ElasticsearchException.renderThrowable(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params,java.lang.Throwable) throws java.io.IOException",482,0.0618662559363368
+"public java.lang.Throwable org.elasticsearch.ElasticsearchException.unwrapCause()",3972,0.509819021948402
+"java.lang.String[5]",62,0.00795790014118855
+"java.lang.String[4]",85,0.010910024387113335
+"java.lang.String[6]",1,1.283532280836863E-4
+"public void org.elasticsearch.ElasticsearchException.setShard(java.lang.String,int)",2597,0.3333333333333333
+"public void org.elasticsearch.ElasticsearchException.setShard(org.elasticsearch.index.shard.ShardId)",2881,0.36978565010910025
+"public void org.elasticsearch.ElasticsearchException.setResources(java.lang.String,java.lang.String[])",6704,0.860480041073033
+"public java.lang.String org.elasticsearch.ElasticsearchException.getDetailedMessage()",8026,1.0301630085996663
+"public void org.elasticsearch.ElasticsearchException.setIndex(org.elasticsearch.index.Index)",1186,0.15222692850725195
+"public void org.elasticsearch.ElasticsearchException.setIndex(java.lang.String)",1985,0.2547811577461173
+"public java.lang.String org.elasticsearch.ElasticsearchException.toString()",7455,0.9568733153638814
+"public static java.lang.String org.elasticsearch.ElasticsearchException.getExceptionName(java.lang.Throwable)",4258,0.5465280451803363
+"public org.elasticsearch.index.Index org.elasticsearch.ElasticsearchException.getIndex()",8072,1.036067257091516
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",9192,1.1798228725452444
+"public static final boolean org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_CAUSE_DEFAULT",1,1.283532280836863E-4
+"public java.util.Set org.elasticsearch.ElasticsearchException.getHeaderKeys()",2250,0.28879476318829417
+"public static void org.elasticsearch.action.support.replication.TransportReplicationAction.setPhase(org.elasticsearch.action.support.replication.ReplicationTask,java.lang.String)",97,0.012450263124117572
+"public final synchronized void java.lang.Throwable.addSuppressed(java.lang.Throwable)",2836,0.3640097548453344
+"public final synchronized java.lang.Throwable[] java.lang.Throwable.getSuppressed()",5283,0.6780901039661148
+"public java.lang.Throwable org.elasticsearch.ElasticsearchException.getRootCause()",1805,0.2316775766910538
+"public org.elasticsearch.index.shard.ShardId org.elasticsearch.ElasticsearchException.getShardId()",2972,0.3814657938647157
+"public void org.elasticsearch.ElasticsearchException.addHeader(java.lang.String,java.util.List)",12406,1.5923501476062123
+"public static java.lang.Throwable org.elasticsearch.ElasticsearchException.readStackTrace(java.lang.Throwable,org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",478,0.061352843024002054
+"public static final boolean org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_STACK_TRACE_DEFAULT",1,1.283532280836863E-4
+"public void org.elasticsearch.ElasticsearchException.addHeader(java.lang.String,java.lang.String[])",10389,1.333461686561417
+"public static final java.lang.String org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_STACK_TRACE",1,1.283532280836863E-4
+"java.util.ArrayList()",9192,1.1798228725452444
+"public static final java.lang.String org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_CAUSE",1,1.283532280836863E-4
+"public void org.elasticsearch.ElasticsearchException.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",485,0.06225131562058786
+"public static java.lang.Throwable org.elasticsearch.ElasticsearchException.writeStackTraces(java.lang.Throwable,org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",489,0.0627647285329226
+"public org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.ElasticsearchException.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",462,0.05929919137466307
+"public java.util.List org.elasticsearch.ElasticsearchException.getResourceId()",9435,1.2110127069695802
+"public static void org.elasticsearch.ElasticsearchException.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params,java.lang.Throwable) throws java.io.IOException",513,0.06584520600693107
+"public final native java.lang.Class java.lang.Object.getClass()",508,0.06520343986651264
+"public org.elasticsearch.rest.RestStatus org.elasticsearch.ElasticsearchException.status()",2567,0.32948273649082277
+"public static org.elasticsearch.ElasticsearchException[] org.elasticsearch.ElasticsearchException.guessRootCauses(java.lang.Throwable)",7436,0.9544346040302913
+"public org.elasticsearch.ElasticsearchException[] org.elasticsearch.ElasticsearchException.guessRootCauses()",3559,0.4568091387498396
+"public java.util.List org.elasticsearch.ElasticsearchException.getHeader(java.lang.String)",4459,0.5723270440251572
+"public java.lang.String org.elasticsearch.ElasticsearchException.getResourceType()",5444,0.6987549736875882
+"public static org.elasticsearch.ElasticsearchException org.elasticsearch.ElasticsearchException.readException(org.elasticsearch.common.io.stream.StreamInput,int) throws java.io.IOException",19,0.00243871133359004
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1361,0.17468874342189705
+"org.elasticsearch.action.support.replication.TransportReplicationAction$RetryOnReplicaException(org.elasticsearch.index.shard.ShardId, java.lang.String)",22855,2.9335130278526504
+"org.elasticsearch.action.support.replication.TransportReplicationAction$RetryOnReplicaException(org.elasticsearch.common.io.stream.StreamInput)",1,1.283532280836863E-4
+"java.lang.Object()",1,1.283532280836863E-4
+"java.lang.String[15]",7,8.984725965858042E-4
+"java.lang.String[14]",2,2.567064561673726E-4

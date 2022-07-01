@@ -1,0 +1,222 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_BLOCKS_WRITE_SETTING",1,1.2966804979253112E-4
+"public boolean org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.success()",126,0.016338174273858922
+"public final org.elasticsearch.action.update.UpdateResponse org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.noopResult",146,0.018931535269709542
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.removeAllAliases()",1299,0.16843879668049794
+"public final org.elasticsearch.action.update.UpdateHelper$Result org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.result",116,0.01504149377593361
+"public org.elasticsearch.index.VersionType org.elasticsearch.index.VersionType.versionTypeForReplicationAndRecovery()",367,0.04758817427385892
+"public static org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData.builder(java.lang.String)",1964,0.2546680497925311
+"public static org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData.builder(org.elasticsearch.cluster.metadata.IndexMetaData)",3971,0.514911825726141
+"public java.util.Set org.elasticsearch.cluster.metadata.IndexMetaData.activeAllocationIds(int)",416,0.05394190871369295
+"public static org.elasticsearch.action.bulk.BulkItemRequest org.elasticsearch.action.bulk.BulkItemRequest.readBulkItem(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",1,1.2966804979253112E-4
+"public static final org.elasticsearch.cluster.block.ClusterBlock org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_METADATA_BLOCK",1,1.2966804979253112E-4
+"public org.elasticsearch.cluster.node.DiscoveryNodeFilters org.elasticsearch.cluster.metadata.IndexMetaData.requireFilters()",992,0.12863070539419086
+"public long org.elasticsearch.cluster.metadata.IndexMetaData$Builder.primaryTerm(int)",90,0.011670124481327801
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.primaryTerm(int,long)",93,0.012059128630705395
+"public java.lang.Object org.elasticsearch.common.collect.Tuple.v2()",299,0.038770746887966806
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_SHARED_FS_ALLOW_RECOVERY_ON_ANY_NODE",1,1.2966804979253112E-4
+"public org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.cluster.metadata.IndexMetaData.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",86,0.011151452282157677
+"public org.elasticsearch.cluster.metadata.IndexMetaData$State org.elasticsearch.cluster.metadata.IndexMetaData.getState()",396,0.05134854771784232
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_VERSION_CREATED",1,1.2966804979253112E-4
+"public java.lang.Object org.elasticsearch.common.collect.Tuple.v1()",205,0.02658195020746888
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.putAlias(org.elasticsearch.cluster.metadata.AliasMetaData$Builder)",75,0.009725103734439834
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.putAlias(org.elasticsearch.cluster.metadata.AliasMetaData)",88,0.011410788381742738
+"public org.elasticsearch.cluster.metadata.IndexMetaData org.elasticsearch.cluster.metadata.IndexMetaData.readFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",87,0.011281120331950207
+"public static final org.elasticsearch.gateway.MetaDataStateFormat org.elasticsearch.cluster.metadata.IndexMetaData.FORMAT",14,0.0018153526970954357
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.creationDate(long)",299,0.038770746887966806
+"public java.lang.String org.elasticsearch.common.collect.Tuple.toString()",61,0.007909751037344398
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_STATE_FILE_PREFIX",1,1.2966804979253112E-4
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.settings(org.elasticsearch.common.settings.Settings$Builder)",75,0.009725103734439834
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.settings(org.elasticsearch.common.settings.Settings)",820,0.10632780082987552
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_VERSION_UPGRADED_STRING",1,1.2966804979253112E-4
+"public void org.elasticsearch.transport.TransportRequest.setParentTask(org.elasticsearch.tasks.TaskId)",2457,0.31859439834024894
+"public void org.elasticsearch.transport.TransportRequest.setParentTask(java.lang.String,long)",293,0.037992738589211615
+"public static org.elasticsearch.common.settings.Settings org.elasticsearch.cluster.metadata.IndexMetaData.addHumanReadableSettings(org.elasticsearch.common.settings.Settings)",394,0.05108921161825726
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_SHADOW_REPLICAS",1,1.2966804979253112E-4
+"public java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.getIndexUUID()",184,0.023858921161825725
+"org.elasticsearch.action.bulk.TransportShardBulkAction(org.elasticsearch.common.settings.Settings, org.elasticsearch.transport.TransportService, org.elasticsearch.cluster.service.ClusterService, org.elasticsearch.indices.IndicesService, org.elasticsearch.threadpool.ThreadPool, org.elasticsearch.cluster.action.shard.ShardStateAction, org.elasticsearch.cluster.action.index.MappingUpdatedAction, org.elasticsearch.action.update.UpdateHelper, org.elasticsearch.action.support.ActionFilters, org.elasticsearch.cluster.metadata.IndexNameExpressionResolver)",275,0.035658713692946056
+"public org.elasticsearch.Version org.elasticsearch.cluster.metadata.IndexMetaData.getCreationVersion()",1121,0.1453578838174274
+"public org.elasticsearch.tasks.TaskId org.elasticsearch.transport.TransportRequest.getParentTask()",883,0.11449688796680497
+"public org.elasticsearch.cluster.metadata.IndexMetaData org.elasticsearch.cluster.metadata.IndexMetaData.fromXContent(org.elasticsearch.common.xcontent.XContentParser,org.elasticsearch.common.ParseFieldMatcher) throws java.io.IOException",65,0.008428423236514522
+"EXTERNAL",6,7.780082987551867E-4
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_ROUTING_EXCLUDE_GROUP_SETTING",4,5.186721991701245E-4
+"org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult(org.elasticsearch.action.update.UpdateHelper$Result, org.elasticsearch.action.ActionRequest, boolean, java.lang.Throwable, org.elasticsearch.action.support.replication.TransportReplicationAction$WriteResult)",9420,1.2214730290456433
+"org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult(org.elasticsearch.action.update.UpdateHelper$Result, org.elasticsearch.action.ActionRequest, org.elasticsearch.action.support.replication.TransportReplicationAction$WriteResult)",1957,0.2537603734439834
+"public org.elasticsearch.common.collect.ImmutableOpenMap org.elasticsearch.cluster.metadata.IndexMetaData.getAliases()",1046,0.13563278008298754
+"org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult(org.elasticsearch.action.update.UpdateHelper$Result, org.elasticsearch.action.update.UpdateResponse)",19,0.002463692946058091
+"public org.elasticsearch.cluster.metadata.MappingMetaData org.elasticsearch.cluster.metadata.IndexMetaData.mappingOrDefault(java.lang.String)",312,0.04045643153526971
+"public byte org.elasticsearch.index.VersionType.getValue()",294,0.03812240663900415
+"public abstract boolean org.elasticsearch.index.VersionType.isVersionConflictForReads(long,long)",378,0.04901452282157676
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_VERSION_MINIMUM_COMPATIBLE",1,1.2966804979253112E-4
+"org.elasticsearch.index.shard.IndexShard(org.elasticsearch.cluster.routing.ShardRouting, org.elasticsearch.index.IndexSettings, org.elasticsearch.index.shard.ShardPath, org.elasticsearch.index.store.Store, org.elasticsearch.index.cache.IndexCache, org.elasticsearch.index.mapper.MapperService, org.elasticsearch.index.similarity.SimilarityService, org.elasticsearch.index.fielddata.IndexFieldDataService, org.elasticsearch.index.engine.EngineFactory, org.elasticsearch.index.shard.IndexEventListener, org.elasticsearch.index.shard.IndexSearcherWrapper, org.elasticsearch.threadpool.ThreadPool, org.elasticsearch.common.util.BigArrays, org.elasticsearch.index.engine.Engine$Warmer, java.lang.Runnable, java.util.List, java.util.List)",4,5.186721991701245E-4
+"public static org.elasticsearch.index.VersionType org.elasticsearch.index.VersionType.fromString(java.lang.String,org.elasticsearch.index.VersionType)",72,0.00933609958506224
+"public static org.elasticsearch.index.VersionType org.elasticsearch.index.VersionType.fromString(java.lang.String)",51,0.006613070539419087
+"org.elasticsearch.action.bulk.BulkItemRequest(int, org.elasticsearch.action.ActionRequest)",19513,2.5302126556016598
+"public abstract boolean org.elasticsearch.index.VersionType.validateVersionForReads(long)",497,0.06444502074688796
+"java.lang.String[31]",3,3.8900414937759333E-4
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_BLOCKS_READ_SETTING",1,1.2966804979253112E-4
+"public boolean org.elasticsearch.action.ActionRequest.getShouldPersistResult()",759,0.09841804979253112
+"public org.elasticsearch.action.ActionRequest org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.request()",464,0.06016597510373444
+"java.lang.String[23]",1,1.2966804979253112E-4
+"public long org.elasticsearch.cluster.metadata.IndexMetaData.getVersion()",270,0.0350103734439834
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",209,0.027100622406639005
+"public static org.elasticsearch.cluster.metadata.IndexMetaData$State org.elasticsearch.cluster.metadata.IndexMetaData$State.fromString(java.lang.String)",51,0.006613070539419087
+"public org.elasticsearch.cluster.Diff org.elasticsearch.cluster.metadata.IndexMetaData.diff(org.elasticsearch.cluster.metadata.IndexMetaData)",1344,0.17427385892116182
+"java.lang.String[13]",21,0.0027230290456431534
+"org.elasticsearch.common.collect.Tuple(java.lang.Object, java.lang.Object)",15384,1.9948132780082988
+"java.lang.String[12]",26,0.0033713692946058093
+"public org.elasticsearch.common.collect.ImmutableOpenMap org.elasticsearch.cluster.metadata.IndexMetaData.getMappings()",238,0.030860995850622408
+"java.lang.String[2]",1805,0.23405082987551867
+"public void org.elasticsearch.action.support.replication.ReplicationRequest.seqNo(long)",1386,0.17971991701244813
+"public long org.elasticsearch.action.support.replication.ReplicationRequest.seqNo()",402,0.05212655601659751
+"public final boolean org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.retry",96,0.012448132780082987
+"public void org.elasticsearch.action.bulk.BulkShardRequest.readFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",88,0.011410788381742738
+"org.elasticsearch.action.bulk.BulkShardRequest()",14672,1.9024896265560165
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.numberOfReplicas(int)",1395,0.1808869294605809
+"public int org.elasticsearch.cluster.metadata.IndexMetaData$Builder.numberOfReplicas()",183,0.023729253112033194
+"public org.elasticsearch.common.settings.Settings org.elasticsearch.cluster.metadata.IndexMetaData.getSettings()",1048,0.1358921161825726
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_PRIORITY",1,1.2966804979253112E-4
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_DATA_PATH_SETTING",1,1.2966804979253112E-4
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_READ_ONLY",1,1.2966804979253112E-4
+"public org.elasticsearch.cluster.Diff org.elasticsearch.cluster.metadata.IndexMetaData.readDiffFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",79,0.010243775933609959
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_PRIORITY_SETTING",18,0.00233402489626556
+"public abstract void org.elasticsearch.common.io.stream.Writeable.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",72,0.00933609958506224
+"public static org.elasticsearch.cluster.metadata.IndexMetaData$State org.elasticsearch.cluster.metadata.IndexMetaData$State.fromId(byte)",20,0.0025933609958506223
+"public void org.elasticsearch.action.bulk.BulkItemRequest.readFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",80,0.01037344398340249
+"public final java.lang.String org.elasticsearch.index.shard.IndexShard$ShardFailure.indexUUID",72,0.00933609958506224
+"public final org.elasticsearch.cluster.routing.ShardRouting org.elasticsearch.index.shard.IndexShard$ShardFailure.routing",97,0.012577800829875519
+"public abstract boolean org.elasticsearch.index.VersionType.isVersionConflictForWrites(long,long,boolean)",1699,0.22030601659751037
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_NUMBER_OF_REPLICAS_SETTING",44,0.005705394190871369
+"public final org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.timeout(java.lang.String)",100,0.012966804979253113
+"public org.elasticsearch.common.unit.TimeValue org.elasticsearch.action.support.replication.ReplicationRequest.timeout()",2228,0.2889004149377593
+"INTERNAL",42,0.005446058091286307
+"public final org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.timeout(org.elasticsearch.common.unit.TimeValue)",789,0.10230809128630705
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_SHARED_FS_ALLOW_RECOVERY_ON_ANY_NODE_SETTING",61,0.007909751037344398
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_ROUTING_REQUIRE_GROUP_SETTING",1,1.2966804979253112E-4
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_BLOCKS_WRITE",1,1.2966804979253112E-4
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.KEY_PRIMARY_TERMS",1,1.2966804979253112E-4
+"public long org.elasticsearch.cluster.metadata.IndexMetaData.getCreationDate()",1225,0.1588433609958506
+"public java.lang.String[] org.elasticsearch.action.bulk.BulkShardRequest.indices()",83,0.010762448132780083
+"public static final java.lang.String org.elasticsearch.action.bulk.TransportShardBulkAction.ACTION_NAME",1,1.2966804979253112E-4
+"public static final java.util.EnumSet org.elasticsearch.index.shard.IndexShard.writeAllowedStatesForPrimary",1735,0.2249740663900415
+"public java.lang.String org.elasticsearch.action.bulk.BulkShardRequest.toString()",78,0.010114107883817428
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_READ_ONLY_SETTING",1,1.2966804979253112E-4
+"public static final org.elasticsearch.cluster.block.ClusterBlock org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_READ_BLOCK",4,5.186721991701245E-4
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_BLOCKS_READ",1,1.2966804979253112E-4
+"public static boolean org.elasticsearch.cluster.metadata.IndexMetaData.isIndexUsingShadowReplicas(org.elasticsearch.common.settings.Settings)",277,0.03591804979253112
+"java.util.HashSet()",21,0.0027230290456431534
+"public static void org.elasticsearch.cluster.metadata.IndexMetaData.registerPrototype(java.lang.String,org.elasticsearch.cluster.metadata.IndexMetaData$Custom)",57,0.007391078838174274
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_NUMBER_OF_SHARDS_SETTING",14,0.0018153526970954357
+"public abstract java.lang.String org.elasticsearch.index.VersionType.explainConflictForReads(long,long)",140,0.01815352697095436
+"public static boolean org.elasticsearch.cluster.metadata.IndexMetaData.isOnSharedFilesystem(org.elasticsearch.common.settings.Settings)",211,0.027359958506224066
+"public static org.elasticsearch.index.VersionType org.elasticsearch.index.VersionType.readFromStream(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",1,1.2966804979253112E-4
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_SHRINK_SOURCE_NAME",1,1.2966804979253112E-4
+"public final java.lang.String org.elasticsearch.index.shard.IndexShard$ShardFailure.reason",77,0.009984439834024895
+"org.elasticsearch.index.shard.IndexShard$ShardFailure(org.elasticsearch.cluster.routing.ShardRouting, java.lang.String, java.lang.Throwable, java.lang.String)",6111,0.7924014522821576
+"public static final java.lang.String org.elasticsearch.action.bulk.TransportShardBulkAction.OP_TYPE_DELETE",1,1.2966804979253112E-4
+"public abstract long org.elasticsearch.index.VersionType.updateVersion(long,long)",317,0.041104771784232365
+"OPEN",10,0.0012966804979253112
+"public org.elasticsearch.cluster.metadata.IndexMetaData org.elasticsearch.cluster.metadata.IndexMetaData$Builder.build()",161,0.02087655601659751
+"public java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData$Builder.index()",264,0.03423236514522822
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.index(java.lang.String)",186,0.02411825726141079
+"public org.elasticsearch.cluster.metadata.MappingMetaData org.elasticsearch.cluster.metadata.IndexMetaData.mapping(java.lang.String)",654,0.08480290456431536
+"public org.elasticsearch.cluster.metadata.MappingMetaData org.elasticsearch.cluster.metadata.IndexMetaData$Builder.mapping(java.lang.String)",223,0.02891597510373444
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_DATA_PATH",1,1.2966804979253112E-4
+"public org.elasticsearch.cluster.node.DiscoveryNodeFilters org.elasticsearch.cluster.metadata.IndexMetaData.includeFilters()",2196,0.28475103734439833
+"public abstract org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.common.xcontent.ToXContent.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",57,0.007391078838174274
+"public int org.elasticsearch.cluster.metadata.IndexMetaData$Builder.numberOfShards()",2120,0.274896265560166
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.numberOfShards(int)",257,0.0333246887966805
+"public int org.elasticsearch.cluster.metadata.IndexMetaData.getNumberOfReplicas()",294,0.03812240663900415
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_VERSION_UPGRADED",1,1.2966804979253112E-4
+"public boolean org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.failure()",178,0.02308091286307054
+"public static org.elasticsearch.index.VersionType org.elasticsearch.index.VersionType.fromValue(byte)",49,0.006353734439834025
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_VERSION_CREATED_STRING",1,1.2966804979253112E-4
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_SETTING_PREFIX",1,1.2966804979253112E-4
+"org.elasticsearch.index.shard.SearchOperationListener[0]",2,2.5933609958506224E-4
+"public byte org.elasticsearch.cluster.metadata.IndexMetaData$State.id()",251,0.032546680497925314
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_UUID_NA_VALUE",1,1.2966804979253112E-4
+"public final org.elasticsearch.action.ActionRequest org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.actionRequest",173,0.022432572614107884
+"EXTERNAL_GTE",116,0.01504149377593361
+"public void org.elasticsearch.cluster.metadata.IndexMetaData.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",85,0.011021784232365146
+"public java.lang.String org.elasticsearch.action.support.replication.ReplicationRequest.index()",831,0.10775414937759337
+"public final org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.index(java.lang.String)",1013,0.13135373443983403
+"public static void org.elasticsearch.cluster.metadata.IndexMetaData$Builder.toXContent(org.elasticsearch.cluster.metadata.IndexMetaData,org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",60,0.007780082987551867
+"public final java.lang.Throwable org.elasticsearch.index.shard.IndexShard$ShardFailure.cause",99,0.01283713692946058
+"public boolean org.elasticsearch.common.collect.Tuple.equals(java.lang.Object)",223,0.02891597510373444
+"public final org.elasticsearch.action.support.replication.TransportReplicationAction$WriteResult org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.writeResult",136,0.017634854771784232
+"public static void org.elasticsearch.action.support.replication.TransportReplicationAction.setPhase(org.elasticsearch.action.support.replication.ReplicationTask,java.lang.String)",47,0.006094398340248963
+"public static org.elasticsearch.cluster.metadata.IndexMetaData org.elasticsearch.cluster.metadata.IndexMetaData$Builder.readFrom(org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",1,1.2966804979253112E-4
+"public void org.elasticsearch.action.bulk.BulkItemRequest.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",78,0.010114107883817428
+"public org.apache.lucene.util.Version org.elasticsearch.cluster.metadata.IndexMetaData.getMinimumCompatibleVersion()",379,0.049144190871369293
+"public void org.elasticsearch.action.support.replication.ReplicationRequest.primaryTerm(long)",460,0.05964730290456432
+"public long org.elasticsearch.action.support.replication.ReplicationRequest.primaryTerm()",285,0.03695539419087137
+"public static org.elasticsearch.common.collect.Tuple org.elasticsearch.common.collect.Tuple.tuple(java.lang.Object,java.lang.Object)",896,0.11618257261410789
+"public org.elasticsearch.tasks.Task org.elasticsearch.action.support.replication.ReplicationRequest.createTask(long,java.lang.String,java.lang.String,org.elasticsearch.tasks.TaskId)",62,0.008039419087136929
+"java.util.ArrayList()",34,0.004408713692946058
+"public int org.elasticsearch.action.bulk.BulkItemRequest.id()",151,0.0195798755186722
+"public org.elasticsearch.Version org.elasticsearch.cluster.metadata.IndexMetaData.getUpgradedVersion()",508,0.06587136929460581
+"public static final org.elasticsearch.cluster.block.ClusterBlock org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_READ_ONLY_BLOCK",1,1.2966804979253112E-4
+"public int org.elasticsearch.cluster.metadata.IndexMetaData.getNumberOfShards()",509,0.06600103734439834
+"public final native java.lang.Class java.lang.Object.getClass()",124,0.016078838174273857
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_SHARED_FILESYSTEM_SETTING",2,2.5933609958506224E-4
+"java.util.LinkedHashSet()",1805,0.23405082987551867
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.putCustom(java.lang.String,org.elasticsearch.cluster.metadata.IndexMetaData$Custom)",213,0.027619294605809128
+"public boolean org.elasticsearch.cluster.metadata.IndexMetaData.equals(java.lang.Object)",625,0.08104253112033195
+"public java.lang.String org.elasticsearch.action.bulk.BulkItemRequest.index()",76,0.009854771784232365
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.removeAlias(java.lang.String)",675,0.0875259336099585
+"public org.elasticsearch.index.shard.ShardId org.elasticsearch.action.support.replication.ReplicationRequest.shardId()",2534,0.32857883817427386
+"public abstract boolean org.elasticsearch.index.VersionType.validateVersionForWrites(long)",261,0.03384336099585062
+"public org.elasticsearch.cluster.node.DiscoveryNodeFilters org.elasticsearch.cluster.metadata.IndexMetaData.getInitialRecoveryFilters()",349,0.04525414937759336
+"public static final org.elasticsearch.cluster.metadata.IndexMetaData org.elasticsearch.cluster.metadata.IndexMetaData.PROTO",4822,0.6252593360995851
+"public org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.setShardId(org.elasticsearch.index.shard.ShardId)",672,0.08713692946058091
+"public final org.elasticsearch.action.support.replication.ReplicationRequest org.elasticsearch.action.support.replication.ReplicationRequest.consistencyLevel(org.elasticsearch.action.WriteConsistencyLevel)",662,0.0858402489626556
+"public org.elasticsearch.action.WriteConsistencyLevel org.elasticsearch.action.support.replication.ReplicationRequest.consistencyLevel()",440,0.05705394190871369
+"public static final org.elasticsearch.common.unit.TimeValue org.elasticsearch.action.support.replication.ReplicationRequest.DEFAULT_TIMEOUT",24,0.0031120331950207467
+"public org.elasticsearch.action.support.IndicesOptions org.elasticsearch.action.support.replication.ReplicationRequest.indicesOptions()",640,0.08298755186721991
+"public org.elasticsearch.common.transport.TransportAddress org.elasticsearch.transport.TransportMessage.remoteAddress()",501,0.0649636929460581
+"public void org.elasticsearch.transport.TransportMessage.remoteAddress(org.elasticsearch.common.transport.TransportAddress)",619,0.08026452282157677
+"public void org.elasticsearch.action.bulk.BulkShardRequest.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",91,0.011799792531120332
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_CREATION_DATE_STRING",1,1.2966804979253112E-4
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_BLOCKS_METADATA_SETTING",1,1.2966804979253112E-4
+"public org.elasticsearch.action.ActionRequest org.elasticsearch.action.bulk.BulkItemRequest.request()",151,0.0195798755186722
+"public org.elasticsearch.cluster.node.DiscoveryNodeFilters org.elasticsearch.cluster.metadata.IndexMetaData.excludeFilters()",423,0.05484958506224066
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_NUMBER_OF_REPLICAS",1,1.2966804979253112E-4
+"public long org.elasticsearch.cluster.metadata.IndexMetaData.primaryTerm(int)",116,0.01504149377593361
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_SHRINK_SOURCE_UUID",22,0.0028526970954356845
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_ROUTING_INCLUDE_GROUP_SETTING",1,1.2966804979253112E-4
+"CLOSE",87,0.011281120331950207
+"public final java.lang.Throwable org.elasticsearch.action.bulk.TransportShardBulkAction$UpdateResult.error",148,0.019190871369294607
+"public void org.elasticsearch.index.VersionType.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",77,0.009984439834024895
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_BLOCKS_METADATA",1,1.2966804979253112E-4
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.KEY_ACTIVE_ALLOCATIONS",1,1.2966804979253112E-4
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_AUTO_EXPAND_REPLICAS",1,1.2966804979253112E-4
+"public static final java.lang.String org.elasticsearch.action.bulk.TransportShardBulkAction.OP_TYPE_UPDATE",1,1.2966804979253112E-4
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_CREATION_DATE",1,1.2966804979253112E-4
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",1860,0.2411825726141079
+"public static java.util.Map org.elasticsearch.cluster.metadata.IndexMetaData.customPrototypes",115,0.01491182572614108
+"public static final org.elasticsearch.cluster.block.ClusterBlock org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_WRITE_BLOCK",27,0.0035010373443983404
+"public static java.util.Map org.elasticsearch.cluster.metadata.IndexMetaData.customPrototypes",33,0.004279045643153527
+"public boolean org.elasticsearch.cluster.metadata.IndexMetaData.isSameUUID(java.lang.String)",289,0.03747406639004149
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.putMapping(org.elasticsearch.cluster.metadata.MappingMetaData)",75,0.009725103734439834
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.putMapping(java.lang.String,java.lang.String) throws java.io.IOException",90,0.011670124481327801
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_SHARED_FILESYSTEM",1,1.2966804979253112E-4
+"public static org.elasticsearch.cluster.metadata.IndexMetaData org.elasticsearch.cluster.metadata.IndexMetaData$Builder.fromXContent(org.elasticsearch.common.xcontent.XContentParser) throws java.io.IOException",1,1.2966804979253112E-4
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.state(org.elasticsearch.cluster.metadata.IndexMetaData$State)",711,0.09219398340248963
+"public java.lang.String org.elasticsearch.action.support.replication.ReplicationRequest.getDescription()",82,0.010632780082987552
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_NUMBER_OF_SHARDS",1,1.2966804979253112E-4
+"FORCE",767,0.09945539419087136
+"public org.elasticsearch.action.ActionRequestValidationException org.elasticsearch.action.support.replication.ReplicationRequest.validate()",1273,0.1650674273858921
+"public static final java.lang.String org.elasticsearch.cluster.metadata.IndexMetaData.SETTING_INDEX_UUID",1,1.2966804979253112E-4
+"public abstract java.lang.String org.elasticsearch.index.VersionType.explainConflictForWrites(long,long,boolean)",114,0.014782157676348547
+"org.elasticsearch.index.shard.IndexingOperationListener[0]",2,2.5933609958506224E-4
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.putActiveAllocationIds(int,java.util.Set)",3093,0.4010632780082988
+"public org.elasticsearch.cluster.metadata.IndexMetaData$Builder org.elasticsearch.cluster.metadata.IndexMetaData$Builder.version(long)",353,0.04577282157676348
+"public long org.elasticsearch.cluster.metadata.IndexMetaData$Builder.version()",236,0.030601659751037343
+"public org.elasticsearch.common.collect.ImmutableOpenIntMap org.elasticsearch.cluster.metadata.IndexMetaData.getActiveAllocationIds()",2892,0.375
+"public org.elasticsearch.common.collect.ImmutableOpenMap org.elasticsearch.cluster.metadata.IndexMetaData.getCustoms()",294,0.03812240663900415
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_SHADOW_REPLICAS_SETTING",1,1.2966804979253112E-4
+"public static final org.elasticsearch.common.settings.Setting org.elasticsearch.cluster.metadata.IndexMetaData.INDEX_ROUTING_INITIAL_RECOVERY_GROUP_SETTING",1,1.2966804979253112E-4
+"public int org.elasticsearch.cluster.metadata.IndexMetaData.getTotalNumberOfShards()",333,0.04317946058091286
+"org.elasticsearch.cluster.metadata.IndexMetaData$Builder(java.lang.String)",1482,0.19216804979253113
+"org.elasticsearch.cluster.metadata.IndexMetaData$Builder(org.elasticsearch.cluster.metadata.IndexMetaData)",3088,0.4004149377593361
+"public org.elasticsearch.index.Index org.elasticsearch.cluster.metadata.IndexMetaData.getMergeSourceIndex()",386,0.050051867219917015

@@ -1,0 +1,51 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static void org.elasticsearch.ElasticsearchException.renderThrowable(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params,java.lang.Throwable) throws java.io.IOException",559,0.06045857668180835
+"public java.lang.Throwable org.elasticsearch.ElasticsearchException.unwrapCause()",15030,1.6255678131083713
+"public void org.elasticsearch.ElasticsearchException.setShard(org.elasticsearch.index.shard.ShardId)",9420,1.018818948734588
+"public void org.elasticsearch.ElasticsearchException.setShard(java.lang.String,int)",4933,0.5335280121133463
+"public void org.elasticsearch.ElasticsearchException.setResources(java.lang.String,java.lang.String[])",12851,1.389898334414882
+"public java.lang.String org.elasticsearch.ElasticsearchException.getDetailedMessage()",7036,0.7609777200951763
+"java.lang.String[4]",2846,0.30780878217607616
+"java.lang.String[5]",148,0.01600692191217824
+"java.lang.String[6]",342,0.03698896820246593
+"java.lang.String[0]",202,0.021847285312567598
+"java.lang.String[1]",8790,0.9506813757300454
+"public void org.elasticsearch.ElasticsearchException.setIndex(java.lang.String)",17923,1.9384598745403419
+"public void org.elasticsearch.ElasticsearchException.setIndex(org.elasticsearch.index.Index)",10057,1.0877136058836254
+"java.lang.String[3]",1,1.0815487778498811E-4
+"public java.lang.String org.elasticsearch.ElasticsearchException.toString()",3095,0.3347393467445382
+"public static java.lang.String org.elasticsearch.ElasticsearchException.getExceptionName(java.lang.Throwable)",5866,0.6344365130867402
+"java.lang.String[21]",9,9.73393900064893E-4
+"java.lang.String[16]",1,1.0815487778498811E-4
+"public org.elasticsearch.index.Index org.elasticsearch.ElasticsearchException.getIndex()",2356,0.254812892061432
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",6455,0.6981397361020982
+"public static final boolean org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_CAUSE_DEFAULT",1,1.0815487778498811E-4
+"java.lang.String[8]",160,0.017304780445598095
+"public java.util.Set org.elasticsearch.ElasticsearchException.getHeaderKeys()",2982,0.32251784555483454
+"java.lang.String[36]",15,0.0016223231667748216
+"public final synchronized void java.lang.Throwable.addSuppressed(java.lang.Throwable)",8019,0.8672939649578196
+"public final synchronized java.lang.Throwable[] java.lang.Throwable.getSuppressed()",4348,0.4702574086091283
+"public java.lang.Throwable org.elasticsearch.ElasticsearchException.getRootCause()",11855,1.282176076141034
+"public org.elasticsearch.index.shard.ShardId org.elasticsearch.ElasticsearchException.getShardId()",2325,0.25146009085009735
+"public void org.elasticsearch.ElasticsearchException.addHeader(java.lang.String,java.util.List)",10416,1.1265412070084362
+"public static java.lang.Throwable org.elasticsearch.ElasticsearchException.readStackTrace(java.lang.Throwable,org.elasticsearch.common.io.stream.StreamInput) throws java.io.IOException",649,0.07019251568245728
+"public static final boolean org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_STACK_TRACE_DEFAULT",1,1.0815487778498811E-4
+"public void org.elasticsearch.ElasticsearchException.addHeader(java.lang.String,java.lang.String[])",4940,0.5342850962578413
+"public static final java.lang.String org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_STACK_TRACE",1,1.0815487778498811E-4
+"java.util.ArrayList()",6455,0.6981397361020982
+"public static final java.lang.String org.elasticsearch.ElasticsearchException.REST_EXCEPTION_SKIP_CAUSE",1,1.0815487778498811E-4
+"public void org.elasticsearch.ElasticsearchException.writeTo(org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",565,0.06110750594851828
+"public static java.lang.Throwable org.elasticsearch.ElasticsearchException.writeStackTraces(java.lang.Throwable,org.elasticsearch.common.io.stream.StreamOutput) throws java.io.IOException",638,0.06900281202682242
+"public org.elasticsearch.common.xcontent.XContentBuilder org.elasticsearch.ElasticsearchException.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params) throws java.io.IOException",686,0.07419424616050184
+"public static void org.elasticsearch.ElasticsearchException.toXContent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.xcontent.ToXContent$Params,java.lang.Throwable) throws java.io.IOException",581,0.06283798399307809
+"public java.util.List org.elasticsearch.ElasticsearchException.getResourceId()",5567,0.6020982046290287
+"public final native java.lang.Class java.lang.Object.getClass()",627,0.06781310837118754
+"public org.elasticsearch.rest.RestStatus org.elasticsearch.ElasticsearchException.status()",3170,0.3428509625784123
+"public org.elasticsearch.ElasticsearchException[] org.elasticsearch.ElasticsearchException.guessRootCauses()",4332,0.46852693056456846
+"public static org.elasticsearch.ElasticsearchException[] org.elasticsearch.ElasticsearchException.guessRootCauses(java.lang.Throwable)",2369,0.2562189054726368
+"public java.util.List org.elasticsearch.ElasticsearchException.getHeader(java.lang.String)",9060,0.9798831927319922
+"public java.lang.String org.elasticsearch.ElasticsearchException.getResourceType()",4762,0.5150335280121133
+"public static org.elasticsearch.ElasticsearchException org.elasticsearch.ElasticsearchException.readException(org.elasticsearch.common.io.stream.StreamInput,int) throws java.io.IOException",19,0.002054942677914774
+"public static final org.elasticsearch.common.xcontent.ToXContent$Params org.elasticsearch.common.xcontent.ToXContent.EMPTY_PARAMS",1739,0.1880813324680943
+"org.elasticsearch.action.support.replication.TransportReplicationAction$RetryOnReplicaException(org.elasticsearch.index.shard.ShardId, java.lang.String)",32747,3.5417477828250052
+"org.elasticsearch.action.support.replication.TransportReplicationAction$RetryOnReplicaException(org.elasticsearch.common.io.stream.StreamInput)",1,1.0815487778498811E-4

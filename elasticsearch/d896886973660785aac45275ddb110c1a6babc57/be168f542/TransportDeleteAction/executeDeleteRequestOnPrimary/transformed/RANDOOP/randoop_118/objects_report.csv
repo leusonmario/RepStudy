@@ -1,0 +1,20 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,20037,153,2.206232107465316,0.0168465095793878
+class java.lang.Long,3769,10,0.4149966967628276,0.001101079057476327
+class [Lorg.elasticsearch.index.shard.SearchOperationListener;,2,1,2.2021581149526536E-4,1.1010790574763268E-4
+class org.elasticsearch.action.WriteConsistencyLevel,10988,1,1.209865668354988,1.1010790574763268E-4
+class java.util.ArrayList,4,1,4.404316229905307E-4,1.1010790574763268E-4
+class [Lorg.elasticsearch.index.shard.IndexingOperationListener;,2,1,2.2021581149526536E-4,1.1010790574763268E-4
+class org.elasticsearch.action.support.WriteRequest$RefreshPolicy,4452,2,0.4902003963884607,2.2021581149526536E-4
+class org.elasticsearch.action.delete.DeleteRequest,103664,2730,11.414225941422593,0.3005945826910372
+class org.elasticsearch.index.shard.IndexShard$ShardFailure,1641,1494,0.18068707333186523,0.16450121118696323
+class org.elasticsearch.action.support.replication.ReplicationTask,929,929,0.10229024443955076,0.10229024443955076
+class org.elasticsearch.index.VersionType$1,1808,1,0.19907509359171988,1.1010790574763268E-4
+class org.elasticsearch.common.unit.TimeValue,2910,1,0.3204140057256111,1.1010790574763268E-4
+class org.elasticsearch.tasks.TaskId,4369,18,0.4810614402114072,0.001981942303457388
+class java.util.RegularEnumSet,1,1,1.1010790574763268E-4,1.1010790574763268E-4
+class java.lang.Boolean,1347,1,0.14831534904206123,1.1010790574763268E-4
+class org.elasticsearch.action.ActionRequestValidationException,1660,1011,0.18277912354107026,0.11131909271085665
+class java.lang.Class,326,11,0.035895177273728256,0.0012111869632239595
+class [Ljava.lang.String;,1890,28,0.20810394186302578,0.0030830213609337152
+class org.elasticsearch.action.support.IndicesOptions,1029,1,0.11330103501431403,1.1010790574763268E-4

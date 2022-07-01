@@ -1,0 +1,70 @@
+Methods called,Number of times,Number of times (Normalized)
+"java.lang.String[1]",82,0.01486854034451496
+"java.lang.String[2]",89,0.01613780598368087
+"public org.elasticsearch.common.settings.IndexScopedSettings org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getindexScopedSettings()",554,0.10045330915684497
+"public java.lang.String org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.cause()",790,0.14324569356300998
+"public final org.elasticsearch.common.settings.IndexScopedSettings org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.indexScopedSettings",637,0.11550317316409792
+"public org.elasticsearch.cluster.ack.ClusterStateUpdateRequest org.elasticsearch.cluster.ack.ClusterStateUpdateRequest.ackTimeout(org.elasticsearch.common.unit.TimeValue)",2084,0.37787851314596554
+"public org.elasticsearch.common.unit.TimeValue org.elasticsearch.cluster.ack.ClusterStateUpdateRequest.ackTimeout()",544,0.09864007252946509
+"public static void org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.prepareShrinkIndexSettings(org.elasticsearch.cluster.ClusterState,java.util.Set,org.elasticsearch.common.settings.Settings$Builder,org.elasticsearch.index.Index,java.lang.String)",14,0.002538531278331822
+"public org.elasticsearch.indices.IndicesService org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getindicesService()",1514,0.2745240253853128
+"org.elasticsearch.cluster.block.ClusterBlock[0]",131,0.023753399818676336
+"public org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.state(org.elasticsearch.cluster.metadata.IndexMetaData$State)",10659,1.9327289211242067
+"public org.elasticsearch.cluster.metadata.IndexMetaData$State org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.state()",3324,0.6027198549410698
+"public final org.elasticsearch.cluster.service.ClusterService org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.clusterService",616,0.11169537624660018
+"org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest(org.elasticsearch.transport.TransportMessage, java.lang.String, java.lang.String, boolean)",15962,2.8942883046237533
+"public int org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getMAX_INDEX_NAME_BYTES()",1413,0.2562103354487761
+"public final org.elasticsearch.index.NodeServicesProvider org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.nodeServicesProvider",805,0.14596554850407978
+"public final org.elasticsearch.env.Environment org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.env",1198,0.2172257479601088
+"public org.elasticsearch.Version org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getversion()",653,0.11840435176790572
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",14326,2.597642792384406
+"public java.lang.String org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.index()",1527,0.2768812330009066
+"org.elasticsearch.action.admin.indices.alias.Alias[0]",10195,1.8485947416137807
+"org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$DefaultIndexTemplateFilter()",7662,1.3893019038984586
+"public static final org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$DefaultIndexTemplateFilter org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.DEFAULT_INDEX_TEMPLATE_FILTER",9,0.0016319129646418858
+"public org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.mappings(java.util.Map)",974,0.17660924750679963
+"public java.util.Map org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.mappings()",1311,0.23771532184950137
+"public boolean org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.updateAllTypes()",4986,0.9040797824116047
+"public void org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest,org.elasticsearch.cluster.ClusterState)",97,0.017588395285584767
+"public final org.elasticsearch.cluster.routing.allocation.AllocationService org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.allocationService",1373,0.24895738893925656
+"public static final int org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.MAX_INDEX_NAME_BYTES",1,1.8132366273798732E-4
+"public static java.util.List org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateShrinkIndex(org.elasticsearch.cluster.ClusterState,java.lang.String,java.util.Set,java.lang.String,org.elasticsearch.common.settings.Settings)",170,0.030825022665457842
+"public final org.elasticsearch.cluster.metadata.AliasValidator org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.aliasValidator",2835,0.514052583862194
+"public org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$DefaultIndexTemplateFilter org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getDEFAULT_INDEX_TEMPLATE_FILTER()",694,0.12583862194016318
+"public org.elasticsearch.index.NodeServicesProvider org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getnodeServicesProvider()",1086,0.1969174977334542
+"public org.elasticsearch.env.Environment org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getenv()",689,0.12493200362647325
+"public org.elasticsearch.transport.TransportMessage org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.originalMessage()",1230,0.2230281051677244
+"public org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.aliases(java.util.Set)",11179,2.02701722574796
+"public java.util.Set org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.aliases()",1850,0.3354487760652765
+"org.elasticsearch.cluster.metadata.MetaDataCreateIndexService(org.elasticsearch.common.settings.Settings, org.elasticsearch.cluster.service.ClusterService, org.elasticsearch.indices.IndicesService, org.elasticsearch.cluster.routing.allocation.AllocationService, org.elasticsearch.Version, org.elasticsearch.cluster.metadata.AliasValidator, java.util.Set, org.elasticsearch.env.Environment, org.elasticsearch.index.NodeServicesProvider, org.elasticsearch.common.settings.IndexScopedSettings)",4674,0.8475067996373526
+"public final java.lang.String org.elasticsearch.common.component.AbstractComponent.nodeName()",1191,0.2159564823209429
+"public void org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.createIndex(org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest,org.elasticsearch.action.ActionListener)",113,0.020489573889392567
+"public org.elasticsearch.cluster.service.ClusterService org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getclusterService()",1024,0.185675430643699
+"public final org.elasticsearch.indices.IndicesService org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.indicesService",1517,0.27506799637352675
+"public org.elasticsearch.cluster.ack.ClusterStateUpdateRequest org.elasticsearch.cluster.ack.ClusterStateUpdateRequest.masterNodeTimeout(org.elasticsearch.common.unit.TimeValue)",7015,1.271985494106981
+"public org.elasticsearch.common.unit.TimeValue org.elasticsearch.cluster.ack.ClusterStateUpdateRequest.masterNodeTimeout()",1008,0.1827742520398912
+"public org.elasticsearch.cluster.routing.allocation.AllocationService org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getallocationService()",705,0.12783318223028106
+"public final native java.lang.Class java.lang.Object.getClass()",215,0.038984587488667274
+"org.elasticsearch.action.LatchedActionListener(org.elasticsearch.action.ActionListener, java.util.concurrent.CountDownLatch)",3066,0.5559383499546691
+"public java.util.Map org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.customs()",2733,0.4955575702629193
+"public org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.customs(java.util.Map)",2150,0.3898458748866727
+"java.util.LinkedHashSet()",14326,2.597642792384406
+"public org.elasticsearch.common.settings.Settings org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.settings()",6472,1.1735267452402538
+"public org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.settings(org.elasticsearch.common.settings.Settings)",4145,0.7515865820489573
+"public void org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(java.lang.String,org.elasticsearch.cluster.ClusterState)",199,0.036083408884859475
+"public org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.blocks(java.util.Set)",1573,0.28522212148685405
+"public java.util.Set org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.blocks()",2080,0.3771532184950136
+"public final org.elasticsearch.Version org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.version",571,0.10353581142339076
+"public org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.shrinkFrom(org.elasticsearch.index.Index)",1976,0.35829555757026293
+"public org.elasticsearch.index.Index org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest.shrinkFrom()",941,0.17062556663644607
+"org.elasticsearch.cluster.metadata.IndexTemplateFilter[2]",3828,0.6941069809610154
+"org.elasticsearch.cluster.metadata.IndexTemplateFilter[1]",1,1.8132366273798732E-4
+"public java.util.List org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.findTemplates(org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest,org.elasticsearch.cluster.ClusterState,org.elasticsearch.cluster.metadata.IndexTemplateFilter) throws java.io.IOException",31,0.005621033544877607
+"public final org.elasticsearch.cluster.metadata.IndexTemplateFilter org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.indexTemplateFilter",628,0.11387126019945602
+"public org.elasticsearch.cluster.metadata.AliasValidator org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getaliasValidator()",822,0.14904805077062558
+"public void org.elasticsearch.action.LatchedActionListener.onFailure(java.lang.Throwable)",130,0.02357207615593835
+"public void org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexSettings(java.lang.String,org.elasticsearch.common.settings.Settings) throws org.elasticsearch.indices.IndexCreationException",564,0.10226654578422484
+"public boolean org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$DefaultIndexTemplateFilter.apply(org.elasticsearch.action.admin.indices.create.CreateIndexClusterStateUpdateRequest,org.elasticsearch.cluster.metadata.IndexTemplateMetaData)",117,0.021214868540344513
+"public void org.elasticsearch.action.LatchedActionListener.onResponse(java.lang.Object)",176,0.03191296464188577
+"public org.elasticsearch.cluster.metadata.IndexTemplateFilter org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getindexTemplateFilter()",1163,0.21087941976427924
+"public java.util.List org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.getIndexSettingsValidationErrors(org.elasticsearch.common.settings.Settings)",931,0.16881233000906617
