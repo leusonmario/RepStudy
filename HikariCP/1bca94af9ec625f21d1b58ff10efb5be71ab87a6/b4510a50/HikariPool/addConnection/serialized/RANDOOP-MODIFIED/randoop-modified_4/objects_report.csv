@@ -1,0 +1,6 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,158,1,0.07923771313941826,5.015045135406219E-4
+class org.slf4j.impl.SimpleLogger,369,1,0.18505516549648948,5.015045135406219E-4
+class java.lang.Class,61,3,0.030591775325977934,0.0015045135406218655
+class java.util.concurrent.atomic.AtomicInteger,1886,1,0.9458375125376128,5.015045135406219E-4
+class com.zaxxer.hikari.SerializedObjectSupporter,1993,1,0.9994984954864594,5.015045135406219E-4

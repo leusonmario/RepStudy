@@ -1,0 +1,22 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,826,3,0.23983739837398374,8.710801393728223E-4
+class java.util.Collections$EmptySet,808,1,0.2346109175377468,2.9036004645760743E-4
+class java.lang.Integer,1410,7,0.4094076655052265,0.0020325203252032522
+class sun.misc.Launcher$AppClassLoader,514,1,0.14924506387921022,2.9036004645760743E-4
+class org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourcemanager,528,381,0.15331010452961671,0.11062717770034843
+class java.util.LinkedHashSet,1062,2,0.3083623693379791,5.807200929152149E-4
+class [Lorg.springframework.boot.context.embedded.undertow.UndertowDeploymentInfoCustomizer;,397,2,0.11527293844367015,5.807200929152149E-4
+class org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter,1883,1,0.5467479674796748,2.9036004645760743E-4
+class org.springframework.boot.context.embedded.MimeMappings,294,1,0.08536585365853659,2.9036004645760743E-4
+class io.undertow.server.handlers.resource.ResourceManager$1,212,1,0.06155632984901278,2.9036004645760743E-4
+class [Lorg.springframework.boot.context.embedded.ErrorPage;,304,2,0.08826945412311266,5.807200929152149E-4
+class java.util.ArrayList,1221,5,0.35452961672473865,0.0014518002322880372
+class org.springframework.boot.context.embedded.InitParameterConfiguringServletContextInitializer,11,1,0.003193960511033682,2.9036004645760743E-4
+class io.undertow.Undertow$Builder,351,351,0.1019163763066202,0.1019163763066202
+class org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainer,234,163,0.06794425087108014,0.04732868757259001
+class org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory,4248,1111,1.2334494773519165,0.3225900116144019
+class [Lorg.springframework.boot.context.embedded.ServletContextInitializer;,1772,3,0.5145180023228804,8.710801393728223E-4
+class java.lang.Boolean,1252,2,0.3635307781649245,5.807200929152149E-4
+class java.lang.Class,49,8,0.014227642276422764,0.0023228803716608595
+class [Lorg.springframework.boot.context.embedded.undertow.UndertowBuilderCustomizer;,347,2,0.10075493612078978,5.807200929152149E-4
+class org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$Initializer,1057,352,0.30691056910569103,0.10220673635307782

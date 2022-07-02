@@ -1,0 +1,44 @@
+Methods called,Number of times,Number of times (Normalized)
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig16() throws java.io.IOException",846,0.4504792332268371
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig1() throws java.io.IOException",271,0.1443024494142705
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig13() throws java.io.IOException",223,0.1187433439829606
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig14() throws java.io.IOException",976,0.5197018104366348
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig2() throws java.io.IOException",509,0.27103301384451545
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig5() throws java.io.IOException",324,0.17252396166134185
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig17() throws java.io.IOException",228,0.12140575079872204
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag14() throws java.io.IOException",397,0.211395101171459
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig15() throws java.io.IOException",373,0.19861554845580404
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig3() throws java.io.IOException",332,0.17678381256656017
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig6() throws java.io.IOException",232,0.1235356762513312
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig9() throws java.io.IOException",370,0.19701810436634717
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig7() throws java.io.IOException",219,0.11661341853035144
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig8() throws java.io.IOException",604,0.32161874334398294
+"public java.util.concurrent.atomic.AtomicInteger com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectAtomicInteger3() throws java.io.IOException",302,0.16080937167199147
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig11() throws java.io.IOException",305,0.16240681576144836
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag16() throws java.io.IOException",440,0.23429179978700745
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag17() throws java.io.IOException",546,0.29073482428115016
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag1() throws java.io.IOException",425,0.22630457933972312
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag15() throws java.io.IOException",338,0.1799787007454739
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag2() throws java.io.IOException",145,0.077209797657082
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag12() throws java.io.IOException",244,0.1299254526091587
+"public java.lang.String com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectString2() throws java.io.IOException",171,0.09105431309904154
+"public final native java.lang.Class java.lang.Object.getClass()",93,0.04952076677316294
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag13() throws java.io.IOException",269,0.14323748668796593
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag10() throws java.io.IOException",206,0.10969116080937168
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag11() throws java.io.IOException",359,0.19116080937167199
+"public java.util.concurrent.atomic.AtomicInteger com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectAtomicInteger1() throws java.io.IOException",138,0.07348242811501597
+"public java.util.concurrent.atomic.AtomicInteger com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectAtomicInteger4() throws java.io.IOException",424,0.22577209797657083
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig10() throws java.io.IOException",802,0.42705005324813633
+"public java.util.concurrent.atomic.AtomicInteger com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectAtomicInteger2() throws java.io.IOException",630,0.3354632587859425
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag9() throws java.io.IOException",184,0.0979765708200213
+"public java.util.concurrent.atomic.AtomicInteger com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectAtomicInteger5() throws java.io.IOException",416,0.2215122470713525
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag7() throws java.io.IOException",409,0.21778487752928646
+"com.zaxxer.hikari.HikariPool$HouseKeeper(com.zaxxer.hikari.HikariPool)",1,5.324813631522897E-4
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag8() throws java.io.IOException",254,0.13525026624068157
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag5() throws java.io.IOException",374,0.19914802981895632
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag6() throws java.io.IOException",208,0.11075612353567625
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag3() throws java.io.IOException",282,0.1501597444089457
+"public com.zaxxer.hikari.util.ConcurrentBag com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectConcurrentBag4() throws java.io.IOException",176,0.09371671991480299
+"public org.slf4j.impl.SimpleLogger com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectLogger1() throws java.io.IOException",330,0.1757188498402556
+"com.zaxxer.hikari.SerializedObjectSupporter()",1877,0.9994675186368477
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig4() throws java.io.IOException",325,0.17305644302449413

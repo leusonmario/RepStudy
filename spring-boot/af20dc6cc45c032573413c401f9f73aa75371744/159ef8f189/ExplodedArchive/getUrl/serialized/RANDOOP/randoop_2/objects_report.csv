@@ -1,0 +1,26 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Long,647,9,0.2952989502510269,0.004107713372889092
+class java.lang.Integer,635,8,0.2898219990871748,0.003651300775901415
+class sun.net.www.content.text.PlainTextInputStream,16,16,0.00730260155180283,0.00730260155180283
+class java.util.Collections$EmptyMap,81,1,0.03696942035600183,4.5641259698767686E-4
+class java.util.jar.Manifest,849,1,0.38749429484253767,4.5641259698767686E-4
+class java.io.ByteArrayInputStream,7,1,0.003194888178913738,4.5641259698767686E-4
+class [Ljava.lang.Class;,58,8,0.02647193062528526,0.003651300775901415
+class org.springframework.boot.loader.util.AsciiBytes,881,1,0.4020994979461433,4.5641259698767686E-4
+class org.springframework.boot.loader.archive.SerializedObjectSupporter,6277,1,2.864901871291648,4.5641259698767686E-4
+class java.lang.Class,32,4,0.01460520310360566,0.0018256503879507074
+class org.springframework.boot.loader.archive.ExplodedArchive$FileEntry,1316,268,0.6006389776357828,0.1223185759926974
+class java.lang.String,2975,29,1.3578274760383386,0.01323596531264263
+class java.io.File,9455,32,4.315381104518485,0.01460520310360566
+class java.net.URL,3374,2813,1.5399361022364217,1.283888635326335
+class java.util.HashSet,2837,1,1.2948425376540393,4.5641259698767686E-4
+class java.util.Collections$UnmodifiableCollection,56,55,0.025559105431309903,0.02510269283432223
+class java.util.Collections$UnmodifiableMap,395,310,0.18028297581013236,0.14148790506617984
+class java.security.AllPermission,44,1,0.020082154267457783,4.5641259698767686E-4
+class org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection,893,286,0.4075764491099954,0.13053400273847557
+class java.net.URLConnection$1,3,1,0.0013692377909630307,4.5641259698767686E-4
+class java.net.URI,1,1,4.5641259698767686E-4,4.5641259698767686E-4
+class org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler,2193,146,1.0009128251939754,0.06663623916020082
+class sun.net.www.protocol.file.FileURLConnection,5,5,0.0022820629849383844,0.0022820629849383844
+class java.lang.Boolean,788,2,0.3596531264262894,9.128251939753537E-4
+class org.springframework.boot.loader.archive.ExplodedArchive,3981,3467,1.8169785486079415,1.5823824737562757

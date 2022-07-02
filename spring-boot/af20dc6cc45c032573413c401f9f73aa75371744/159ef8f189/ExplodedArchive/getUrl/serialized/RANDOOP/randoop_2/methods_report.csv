@@ -1,0 +1,164 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static java.lang.String java.net.URLConnection.getDefaultRequestProperty(java.lang.String)",18,0.008215426745778184
+"public final java.io.InputStream java.net.URL.openStream() throws java.io.IOException",32,0.01460520310360566
+"org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler(org.springframework.boot.loader.archive.ExplodedArchive)",2194,1.001369237790963
+"public java.lang.String java.net.URL.getAuthority()",207,0.09447740757644911
+"public java.lang.String java.net.URL.getProtocol()",106,0.048379735280693746
+"public java.lang.String java.net.URLConnection.toString()",55,0.02510269283432223
+"public java.util.List org.springframework.boot.loader.archive.ExplodedArchive.getNestedArchives(org.springframework.boot.loader.archive.Archive$EntryFilter) throws java.io.IOException",26,0.011866727521679598
+"org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection(java.net.URL, java.lang.String)",877,0.4002738475581926
+"public final org.springframework.boot.loader.util.AsciiBytes org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.name",31,0.014148790506617983
+"public java.lang.String java.net.URL.getFile()",215,0.09812870835235052
+"public java.security.Permission java.net.URLConnection.getPermission() throws java.io.IOException",44,0.020082154267457783
+"public java.lang.String java.net.URLConnection.getContentEncoding()",38,0.01734367868553172
+"public static synchronized void java.net.URLConnection.setContentHandlerFactory(java.net.ContentHandlerFactory)",1,4.5641259698767686E-4
+"public org.springframework.boot.loader.util.AsciiBytes org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.getName()",172,0.07850296668188042
+"public void java.net.URLConnection.setAllowUserInteraction(boolean)",102,0.04655408489274304
+"public int java.net.URLConnection.getContentLength()",262,0.11958010041077134
+"public int java.net.URLConnection.getConnectTimeout()",155,0.07074395253308992
+"public boolean java.net.URLConnection.getUseCaches()",32,0.01460520310360566
+"public static final java.util.Set org.springframework.boot.loader.archive.ExplodedArchive.SKIPPED_NAMES",1,4.5641259698767686E-4
+"public void java.net.URLConnection.setRequestProperty(java.lang.String,java.lang.String)",59,0.026928343222272933
+"public boolean java.net.URLConnection.getDoInput()",64,0.02921040620721132
+"public java.lang.String java.net.URLConnection.getHeaderFieldKey(int)",69,0.0314924691921497
+"public org.springframework.boot.loader.util.AsciiBytes org.springframework.boot.loader.archive.ExplodedArchive.getMANIFEST_ENTRY_NAME()",151,0.0689183021451392
+"public long java.net.URLConnection.getDate()",60,0.02738475581926061
+"public long java.net.URLConnection.getIfModifiedSince()",53,0.024189867640346873
+"public org.springframework.boot.loader.archive.Archive org.springframework.boot.loader.archive.ExplodedArchive.getNestedArchive(org.springframework.boot.loader.archive.Archive$Entry) throws java.io.IOException",24,0.010953902327704245
+"public long java.net.URLConnection.getHeaderFieldLong(java.lang.String,long)",139,0.06344135098128709
+"public void java.net.URLConnection.setConnectTimeout(int)",45,0.020538566864445457
+"public long java.net.URLConnection.getLastModified()",107,0.048836147877681424
+"public java.util.jar.Manifest org.springframework.boot.loader.archive.ExplodedArchive.getManifest() throws java.io.IOException",133,0.06070287539936102
+"public void java.net.URLConnection.setUseCaches(boolean)",185,0.08443633044272023
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive8() throws java.io.IOException",58,0.02647193062528526
+"public int java.net.URL.getDefaultPort()",52,0.023733455043359195
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive.filtered",78,0.035600182565038795
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive.filtered",90,0.041077133728890915
+"public java.util.Map java.net.URLConnection.getRequestProperties()",44,0.020082154267457783
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile1() throws java.io.IOException",108,0.0492925604746691
+"public java.lang.String java.net.URLConnection.getHeaderField(java.lang.String)",428,0.1953445915107257
+"public java.lang.String java.net.URLConnection.getHeaderField(int)",58,0.02647193062528526
+"public void java.net.URLConnection.setDoOutput(boolean)",123,0.056138749429484255
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile3() throws java.io.IOException",205,0.09356458238247375
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile4() throws java.io.IOException",72,0.032861706983112735
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive9() throws java.io.IOException",130,0.05933363760839799
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile2() throws java.io.IOException",44,0.020082154267457783
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile7() throws java.io.IOException",136,0.06207211319032405
+"org.springframework.boot.loader.archive.ExplodedArchive(java.io.File)",3883,1.7722501141031493
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile8() throws java.io.IOException",1219,0.5563669557279781
+"org.springframework.boot.loader.archive.ExplodedArchive(java.io.File, java.util.Map)",126,0.05750798722044728
+"org.springframework.boot.loader.archive.ExplodedArchive(java.io.File, boolean)",28,0.012779552715654952
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile5() throws java.io.IOException",67,0.03057964399817435
+"org.springframework.boot.loader.archive.SerializedObjectSupporter()",5976,2.727521679598357
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile6() throws java.io.IOException",162,0.07393884071200366
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive1() throws java.io.IOException",41,0.018712916476494753
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile9() throws java.io.IOException",4174,1.9050661798265631
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive2() throws java.io.IOException",812,0.3706070287539936
+"public final native java.lang.Class java.lang.Object.getClass()",33,0.015061615700593337
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.getFile()",258,0.11775445002282063
+"public java.lang.String java.net.URL.toExternalForm()",48,0.02190780465540849
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive3() throws java.io.IOException",39,0.017800091282519397
+"public java.io.InputStream java.net.URLConnection.getInputStream() throws java.io.IOException",36,0.016430853491556367
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive4() throws java.io.IOException",57,0.02601551802829758
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive5() throws java.io.IOException",335,0.15289821999087175
+"public java.lang.String org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection.getname()",29,0.01323596531264263
+"public java.util.HashSet org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectSet1() throws java.io.IOException",56,0.025559105431309903
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive6() throws java.io.IOException",55,0.02510269283432223
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive7() throws java.io.IOException",211,0.09630305796439982
+"public long java.net.URLConnection.getHeaderFieldDate(java.lang.String,long)",61,0.02784116841624829
+"public boolean org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.isDirectory()",24,0.010953902327704245
+"public java.lang.Object java.net.URLConnection.getContent() throws java.io.IOException",25,0.011410314924691922
+"public java.lang.Object java.net.URLConnection.getContent(java.lang.Class[]) throws java.io.IOException",29,0.01323596531264263
+"public void org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection.connect() throws java.io.IOException",34,0.015518028297581013
+"public void java.net.URLConnection.setIfModifiedSince(long)",67,0.03057964399817435
+"public java.lang.String java.net.URLConnection.getRequestProperty(java.lang.String)",55,0.02510269283432223
+"public org.springframework.boot.loader.archive.SerializedObjectSupporter org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.serializedObjectSupporter",300,0.13692377909630304
+"public org.springframework.boot.loader.archive.SerializedObjectSupporter org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.serializedObjectSupporter",213,0.09721588315837518
+"public java.lang.String java.net.URL.getHost()",798,0.36421725239616615
+"public final java.io.File org.springframework.boot.loader.archive.ExplodedArchive.root",43,0.019625741670470105
+"public java.util.Map java.net.URLConnection.getHeaderFields()",41,0.018712916476494753
+"public java.net.URL org.springframework.boot.loader.archive.ExplodedArchive.getUrl() throws java.net.MalformedURLException",101,0.046097672295755364
+"public long java.net.URLConnection.getExpiration()",176,0.08032861706983113
+"java.net.URL(java.lang.String)",270,0.12323140118667275
+"java.net.URL(java.lang.String, java.lang.String, int, java.lang.String)",32,0.01460520310360566
+"java.net.URL(java.lang.String, java.lang.String, java.lang.String)",25,0.011410314924691922
+"java.net.URL(java.lang.String, java.lang.String, int, java.lang.String, java.net.URLStreamHandler)",1511,0.6896394340483797
+"java.net.URL(java.net.URL, java.lang.String, java.net.URLStreamHandler)",462,0.2108626198083067
+"java.net.URL(java.net.URL, java.lang.String)",867,0.39570972158831585
+"public void java.net.URLConnection.setReadTimeout(int)",47,0.021451392058420813
+"public java.lang.String java.net.URL.getQuery()",104,0.04746691008671839
+"public void java.net.URLConnection.setDefaultUseCaches(boolean)",622,0.283888635326335
+"public java.lang.String java.net.URLConnection.getContentType()",328,0.14970333181195802
+"public boolean java.net.URLConnection.getDoOutput()",92,0.04198995892286627
+"public static void java.net.URLConnection.setDefaultAllowUserInteraction(boolean)",2,9.128251939753537E-4
+"public java.net.URLConnection org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler.openConnection(java.net.URL) throws java.io.IOException",22,0.010041077133728891
+"public static void java.net.URLConnection.setFileNameMap(java.net.FileNameMap)",8,0.003651300775901415
+"public boolean java.net.URLConnection.getDefaultUseCaches()",45,0.020538566864445457
+"java.lang.Class[0]",51,0.02327704244637152
+"java.lang.Class[1]",2,9.128251939753537E-4
+"java.lang.Class[2]",1,4.5641259698767686E-4
+"java.lang.Class[3]",2,9.128251939753537E-4
+"java.lang.Class[4]",1,4.5641259698767686E-4
+"public void java.net.URLConnection.addRequestProperty(java.lang.String,java.lang.String)",42,0.019169329073482427
+"public void java.net.URLConnection.setDoInput(boolean)",47,0.021451392058420813
+"public java.lang.String java.net.URL.getUserInfo()",1020,0.4655408489274304
+"public org.springframework.boot.loader.archive.SerializedObjectSupporter org.springframework.boot.loader.archive.ExplodedArchive.serializedObjectSupporter",66,0.030123231401186674
+"public org.springframework.boot.loader.archive.SerializedObjectSupporter org.springframework.boot.loader.archive.ExplodedArchive.serializedObjectSupporter",61,0.02784116841624829
+"public java.io.File org.springframework.boot.loader.archive.ExplodedArchive.getroot()",1141,0.5207667731629393
+"public final java.lang.Object java.net.URL.getContent(java.lang.Class[]) throws java.io.IOException",106,0.048379735280693746
+"public final java.lang.Object java.net.URL.getContent() throws java.io.IOException",45,0.020538566864445457
+"public static void java.net.URL.setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)",1,4.5641259698767686E-4
+"public static java.lang.String java.net.URLConnection.guessContentTypeFromStream(java.io.InputStream) throws java.io.IOException",7,0.003194888178913738
+"public java.util.Set org.springframework.boot.loader.archive.ExplodedArchive.getSKIPPED_NAMES()",2780,1.2688270196257416
+"public static java.net.FileNameMap java.net.URLConnection.getFileNameMap()",3,0.0013692377909630307
+"public static final org.springframework.boot.loader.util.AsciiBytes org.springframework.boot.loader.archive.ExplodedArchive.MANIFEST_ENTRY_NAME",527,0.2405294386125057
+"public java.lang.String org.springframework.boot.loader.archive.Archive.getMainClass() throws java.lang.Exception",27,0.012323140118667275
+"public int java.net.URLConnection.getReadTimeout()",45,0.020538566864445457
+"public java.lang.String java.net.URL.getRef()",65,0.029666818804198997
+"public java.util.jar.Manifest org.springframework.boot.loader.archive.ExplodedArchive.manifest",114,0.05203103605659516
+"public java.util.jar.Manifest org.springframework.boot.loader.archive.ExplodedArchive.manifest",284,0.12962117754450023
+"org.springframework.boot.loader.archive.ExplodedArchive$FileEntry(org.springframework.boot.loader.archive.ExplodedArchive, org.springframework.boot.loader.util.AsciiBytes, java.io.File)",1318,0.6015518028297581
+"public final java.lang.String org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection.name",74,0.03377453217708809
+"public int java.net.URLConnection.getHeaderFieldInt(java.lang.String,int)",76,0.03468735737106344
+"public java.net.URI java.net.URL.toURI() throws java.net.URISyntaxException",19,0.00867183934276586
+"public java.util.Collection org.springframework.boot.loader.archive.ExplodedArchive.getEntries()",57,0.02601551802829758
+"public long java.net.URLConnection.getContentLengthLong()",51,0.02327704244637152
+"public java.net.URLConnection java.net.URL.openConnection(java.net.Proxy) throws java.io.IOException",33,0.015061615700593337
+"public java.net.URLConnection java.net.URL.openConnection() throws java.io.IOException",27,0.012323140118667275
+"public org.springframework.boot.loader.archive.SerializedObjectSupporter org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler.serializedObjectSupporter",208,0.09493382017343678
+"public org.springframework.boot.loader.archive.SerializedObjectSupporter org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler.serializedObjectSupporter",114,0.05203103605659516
+"public org.springframework.boot.loader.archive.SerializedObjectSupporter org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection.serializedObjectSupporter",116,0.05294386125057052
+"public org.springframework.boot.loader.archive.SerializedObjectSupporter org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection.serializedObjectSupporter",57,0.02601551802829758
+"public java.net.URL java.net.URLConnection.getURL()",193,0.08808763121862163
+"public static java.lang.String java.net.URLConnection.guessContentTypeFromName(java.lang.String)",14,0.006389776357827476
+"public java.io.OutputStream java.net.URLConnection.getOutputStream() throws java.io.IOException",31,0.014148790506617983
+"public boolean java.net.URL.equals(java.lang.Object)",26,0.011866727521679598
+"public static boolean java.net.URLConnection.getDefaultAllowUserInteraction()",1,4.5641259698767686E-4
+"public int java.net.URL.getPort()",45,0.020538566864445457
+"public java.util.jar.Manifest org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectManifest1() throws java.io.IOException",824,0.37608397991784576
+"public boolean java.net.URLConnection.getAllowUserInteraction()",249,0.11364673664993154
+"public org.springframework.boot.loader.archive.Archive org.springframework.boot.loader.archive.ExplodedArchive.getFilteredArchive(org.springframework.boot.loader.archive.Archive$EntryRenameFilter) throws java.io.IOException",21,0.009584664536741214
+"public java.lang.String java.net.URL.toString()",28,0.012779552715654952
+"public static void java.net.URLConnection.setDefaultRequestProperty(java.lang.String,java.lang.String)",36,0.016430853491556367
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile11() throws java.io.IOException",111,0.05066179826563213
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile10() throws java.io.IOException",190,0.08671839342765861
+"public void org.springframework.boot.loader.archive.ExplodedArchive.buildEntries(java.io.File,boolean)",30,0.013692377909630305
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile15() throws java.io.IOException",470,0.21451392058420812
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile14() throws java.io.IOException",550,0.25102692834322227
+"public final java.io.File org.springframework.boot.loader.archive.ExplodedArchive$FileEntry.file",50,0.022820629849383843
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile13() throws java.io.IOException",313,0.14285714285714285
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile12() throws java.io.IOException",71,0.03240529438612506
+"public java.util.Map org.springframework.boot.loader.archive.ExplodedArchive.entries",680,0.31036056595162026
+"public java.util.Map org.springframework.boot.loader.archive.ExplodedArchive.entries",393,0.179370150616157
+"java.lang.Class[5]",1,4.5641259698767686E-4
+"public java.io.File org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectFile16() throws java.io.IOException",71,0.03240529438612506
+"public boolean java.net.URL.sameFile(java.net.URL)",166,0.07576449109995435
+"public java.lang.String org.springframework.boot.loader.archive.Archive.toString()",192,0.08763121862163396
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive15() throws java.io.IOException",950,0.433591967138293
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive16() throws java.io.IOException",114,0.05203103605659516
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive13() throws java.io.IOException",48,0.02190780465540849
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive14() throws java.io.IOException",740,0.3377453217708809
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive11() throws java.io.IOException",4264,1.9461433135554542
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive12() throws java.io.IOException",230,0.10497489730716568
+"public java.lang.String java.net.URL.getPath()",1243,0.5673208580556823
+"public org.springframework.boot.loader.archive.ExplodedArchive org.springframework.boot.loader.archive.SerializedObjectSupporter.deserializeObjectExplodedArchive10() throws java.io.IOException",73,0.03331811958010041

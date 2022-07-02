@@ -1,0 +1,2 @@
+com.zaxxer.hikari.HikariPool
+com.zaxxer.hikari.SerializedObjectSupporter

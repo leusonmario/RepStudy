@@ -1,0 +1,277 @@
+Methods called,Number of times,Number of times (Normalized)
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument370() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument250() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder88() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder85() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString62() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.after(java.lang.String)",1,0.00546448087431694
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.clone()",5,0.0273224043715847
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString61() throws java.io.IOException",14,0.07650273224043716
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder232() throws java.io.IOException",5,0.0273224043715847
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder111() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString66() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument376() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString60() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument139() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString65() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder82() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode400() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString67() throws java.io.IOException",7,0.03825136612021858
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder241() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder361() throws java.io.IOException",1,0.00546448087431694
+"public boolean org.jsoup.nodes.Document$OutputSettings.prettyPrint()",1,0.00546448087431694
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.prettyPrint(boolean)",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder244() throws java.io.IOException",7,0.03825136612021858
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder367() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode404() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode401() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder74() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument122() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument245() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument129() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument128() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder370() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder252() throws java.io.IOException",8,0.04371584699453552
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder130() throws java.io.IOException",13,0.07103825136612021
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder139() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument150() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument270() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode21() throws java.io.IOException",7,0.03825136612021858
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument390() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument279() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument158() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument397() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument157() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString83() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder210() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString85() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode185() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder344() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder343() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument90() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder105() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument152() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode29() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode26() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.String org.jsoup.nodes.TextNode.text",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder346() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument96() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.TextNode.nodeName()",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder96() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode183() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder342() throws java.io.IOException",20,0.1092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode167() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument145() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder350() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode174() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder231() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode173() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder355() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder233() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode17() throws java.io.IOException",4,0.02185792349726776
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder356() throws java.io.IOException",4,0.02185792349726776
+"public java.lang.String org.jsoup.nodes.TextNode.attr(java.lang.String)",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument262() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder358() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode15() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument336() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode46() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode43() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder397() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder165() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder168() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument208() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode208() throws java.io.IOException",5,0.0273224043715847
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder288() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder162() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode47() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode328() throws java.io.IOException",4,0.02185792349726776
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode204() throws java.io.IOException",8,0.04371584699453552
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode49() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode205() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument74() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument325() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder5() throws java.io.IOException",4,0.02185792349726776
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder180() throws java.io.IOException",4,0.02185792349726776
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode35() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode34() throws java.io.IOException",24,0.13114754098360656
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument202() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument323() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder2() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument322() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder9() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument317() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode38() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument81() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode313() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode61() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument116() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument356() throws java.io.IOException",1,0.00546448087431694
+"public boolean org.jsoup.nodes.Document$OutputSettings.forceAllElementAsBlock()",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder391() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument238() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode422() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder142() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder141() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder385() throws java.io.IOException",2,0.01092896174863388
+"org.jsoup.nodes.Document$OutputSettings()",12,0.06557377049180328
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder267() throws java.io.IOException",8,0.04371584699453552
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument109() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode307() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode427() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode303() throws java.io.IOException",6,0.03278688524590164
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument350() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode429() throws java.io.IOException",3,0.01639344262295082
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder148() throws java.io.IOException",3,0.01639344262295082
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder269() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument105() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument226() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode57() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument103() throws java.io.IOException",1,0.00546448087431694
+"public void org.jsoup.nodes.Node.replaceWith(org.jsoup.nodes.Node)",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument223() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument349() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument68() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument65() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder152() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder156() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder159() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString9() throws java.io.IOException",8,0.04371584699453552
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString3() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString1() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode112() throws java.io.IOException",9,0.04918032786885246
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument408() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode246() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument34() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode245() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.Document$OutputSettings org.jsoup.nodes.Document$OutputSettings.indentAmount(int)",1,0.00546448087431694
+"public int org.jsoup.nodes.Document$OutputSettings.indentAmount()",1,0.00546448087431694
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.before(java.lang.String)",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument406() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode369() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode126() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.unwrap()",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder419() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString122() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode72() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString120() throws java.io.IOException",1,0.00546448087431694
+"public static org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode.createFromEncoded(java.lang.String,java.lang.String)",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument400() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString129() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode222() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode114() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode353() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode350() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder416() throws java.io.IOException",8,0.04371584699453552
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode234() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString114() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode358() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode238() throws java.io.IOException",11,0.060109289617486336
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString130() throws java.io.IOException",9,0.04918032786885246
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument41() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder25() throws java.io.IOException",1,0.00546448087431694
+"org.jsoup.nodes.TextNode(java.lang.String, java.lang.String)",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument315() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode345() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder183() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode342() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument427() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode221() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument12() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder29() throws java.io.IOException",5,0.0273224043715847
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode229() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode105() throws java.io.IOException",61,0.3333333333333333
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument15() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder27() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument303() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString101() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode98() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode95() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode99() throws java.io.IOException",34,0.18579234972677597
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument19() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder194() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument21() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder197() throws java.io.IOException",1,0.00546448087431694
+"public java.nio.charset.CharsetEncoder org.jsoup.nodes.Document$OutputSettings.charsetEncoder",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument25() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder18() throws java.io.IOException",42,0.22950819672131148
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode218() throws java.io.IOException",4,0.02185792349726776
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder15() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode338() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder16() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder40() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder42() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode172() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument179() throws java.io.IOException",1,0.00546448087431694
+"public static final java.lang.String org.jsoup.nodes.TextNode.TEXT_KEY",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode169() throws java.io.IOException",3,0.01639344262295082
+"public java.nio.charset.Charset org.jsoup.nodes.Document$OutputSettings.charset",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder321() throws java.io.IOException",6,0.03278688524590164
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode285() throws java.io.IOException",5,0.0273224043715847
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument8() throws java.io.IOException",1,0.00546448087431694
+"public boolean org.jsoup.nodes.Document$OutputSettings.getprettyPrint()",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder327() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder49() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder32() throws java.io.IOException",1,0.00546448087431694
+"org.jsoup.nodes.SerializedObjectSupporter()",167,0.912568306010929
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument281() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder33() throws java.io.IOException",8,0.04371584699453552
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument280() throws java.io.IOException",1,0.00546448087431694
+"public boolean org.jsoup.nodes.Document$OutputSettings.getforceAllElementAsBlock()",2,0.01092896174863388
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument166() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode281() throws java.io.IOException",4,0.02185792349726776
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode160() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode266() throws java.io.IOException",8,0.04371584699453552
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode276() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode394() throws java.io.IOException",1,0.00546448087431694
+"public static java.lang.String org.jsoup.nodes.TextNode.normaliseWhitespace(java.lang.String)",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode154() throws java.io.IOException",1,0.00546448087431694
+"public java.nio.charset.Charset org.jsoup.nodes.Document$OutputSettings.charset()",9,0.04918032786885246
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder212() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode393() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder211() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString13() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode274() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder336() throws java.io.IOException",7,0.03825136612021858
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder219() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument195() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument192() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder63() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode392() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument199() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder67() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode391() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString41() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode255() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString45() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode383() throws java.io.IOException",3,0.01639344262295082
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString47() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder306() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode8() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder420() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode4() throws java.io.IOException",16,0.08743169398907104
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder301() throws java.io.IOException",2,0.01092896174863388
+"public java.nio.charset.CharsetEncoder org.jsoup.nodes.Document$OutputSettings.encoder()",4,0.02185792349726776
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder425() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Document org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectDocument196() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder424() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.Node org.jsoup.nodes.Node.nextSibling()",1,0.00546448087431694
+"public java.lang.String org.jsoup.nodes.TextNode.absUrl(java.lang.String)",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.TextNode.splitText(int)",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder55() throws java.io.IOException",3,0.01639344262295082
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode260() throws java.io.IOException",1,0.00546448087431694
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder56() throws java.io.IOException",4,0.02185792349726776
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString37() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode372() throws java.io.IOException",51,0.2786885245901639
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode251() throws java.io.IOException",4,0.02185792349726776
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder317() throws java.io.IOException",6,0.03278688524590164
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode377() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode374() throws java.io.IOException",2,0.01092896174863388
+"public java.lang.String org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectString35() throws java.io.IOException",3,0.01639344262295082
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder310() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode252() throws java.io.IOException",8,0.04371584699453552
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder312() throws java.io.IOException",7,0.03825136612021858
+"public java.lang.StringBuilder org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectStringBuilder316() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode379() throws java.io.IOException",2,0.01092896174863388
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode258() throws java.io.IOException",1,0.00546448087431694
+"public org.jsoup.nodes.TextNode org.jsoup.nodes.SerializedObjectSupporter.deserializeObjectTextNode139() throws java.io.IOException",6,0.03278688524590164
