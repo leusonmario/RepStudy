@@ -1,0 +1,23 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,27,14,0.015419760137064534,0.00799543118218161
+class java.util.HashMap$KeySet,2,1,0.001142204454597373,5.711022272986865E-4
+class java.lang.Long,41,1,0.023415191319246145,5.711022272986865E-4
+class java.lang.Integer,205,5,0.11707595659623073,0.0028555111364934323
+class org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior,6526,6526,3.727013135351228,3.727013135351228
+class org.activiti.engine.impl.persistence.entity.ExecutionEntity,3176,2791,1.8138206739006282,1.593946316390634
+class org.activiti.engine.impl.bpmn.behavior.SerializedObjectSupporter,1358,1,0.7755568246716162,5.711022272986865E-4
+class org.activiti.engine.impl.task.TaskDefinition,1391,1391,0.7944031981724728,0.7944031981724728
+class java.util.HashMap,55,4,0.03141062250142775,0.002284408909194746
+class org.activiti.engine.impl.pvm.process.TransitionImpl,2,2,0.001142204454597373,0.001142204454597373
+class java.util.Arrays$ArrayList,16,3,0.009137635636778984,0.0017133066818960593
+class org.activiti.engine.impl.pvm.process.ActivityImpl,2,2,0.001142204454597373,0.001142204454597373
+class [Lorg.activiti.engine.impl.pvm.PvmTransition;,1,1,5.711022272986865E-4,5.711022272986865E-4
+class [Lorg.activiti.engine.impl.persistence.entity.JobEntity;,6,1,0.0034266133637921186,5.711022272986865E-4
+class java.util.ArrayList,41,11,0.023415191319246145,0.006282124500285551
+class [Lorg.activiti.engine.impl.persistence.entity.ExecutionEntity;,1,1,5.711022272986865E-4,5.711022272986865E-4
+class [Ljava.lang.String;,4,4,0.002284408909194746,0.002284408909194746
+class [Lorg.activiti.engine.impl.persistence.entity.EventSubscriptionEntity;,10,1,0.0057110222729868645,5.711022272986865E-4
+class java.lang.Boolean,361,2,0.20616790405482582,0.001142204454597373
+class java.lang.Class,5,2,0.0028555111364934323,0.001142204454597373
+class org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity,2,2,0.001142204454597373,0.001142204454597373
+class [Lorg.activiti.engine.impl.persistence.entity.VariableInstanceEntity;,7,1,0.003997715591090805,5.711022272986865E-4

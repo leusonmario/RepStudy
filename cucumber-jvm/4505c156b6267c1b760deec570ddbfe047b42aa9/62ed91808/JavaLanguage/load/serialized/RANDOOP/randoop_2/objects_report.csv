@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,1807,2,1.6472196900638103,0.0018231540565177757
+class java.lang.Object,1,1,9.115770282588879E-4,9.115770282588879E-4
+class java.util.ArrayList,28,3,0.02552415679124886,0.0027347310847766638
+class cuke4duke.internal.java.JavaLanguage,2838,2838,2.587055606198724,2.587055606198724
+class cuke4duke.internal.java.SerializedObjectSupporter,2054,1,1.8723792160437558,9.115770282588879E-4
+class cuke4duke.internal.java.PicoFactory,2484,143,2.2643573381950777,0.13035551504102097
+class java.lang.Class,158,5,0.1440291704649043,0.004557885141294439

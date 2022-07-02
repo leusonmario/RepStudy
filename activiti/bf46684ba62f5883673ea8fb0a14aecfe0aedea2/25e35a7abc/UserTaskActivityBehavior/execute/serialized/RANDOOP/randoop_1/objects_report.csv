@@ -1,0 +1,24 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,28,18,0.019635343618513323,0.012622720897615708
+class java.lang.Long,10,1,0.0070126227208976155,7.012622720897616E-4
+class org.activiti.engine.impl.pvm.process.ActivityImpl,2,2,0.001402524544179523,0.001402524544179523
+class java.util.HashMap$KeySet,3,1,0.0021037868162692847,7.012622720897616E-4
+class java.lang.Integer,35,5,0.024544179523141654,0.0035063113604488078
+class [Lorg.activiti.engine.impl.persistence.entity.JobEntity;,1,1,7.012622720897616E-4,7.012622720897616E-4
+class [Lorg.activiti.engine.impl.persistence.entity.TaskEntity;,1,1,7.012622720897616E-4,7.012622720897616E-4
+class org.activiti.engine.impl.persistence.entity.ExecutionEntity,3020,2921,2.11781206171108,2.0483870967741935
+class org.activiti.engine.impl.bpmn.behavior.SerializedObjectSupporter,1354,1,0.9495091164095372,7.012622720897616E-4
+class java.util.HashMap,2,2,0.001402524544179523,0.001402524544179523
+class java.util.HashSet,1,1,7.012622720897616E-4,7.012622720897616E-4
+class org.slf4j.impl.Log4jLoggerAdapter,5,1,0.0035063113604488078,7.012622720897616E-4
+class org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior,4732,4732,3.3183730715287516,3.3183730715287516
+class java.util.Arrays$ArrayList,2,2,0.001402524544179523,0.001402524544179523
+class [Lorg.activiti.engine.impl.persistence.entity.VariableInstanceEntity;,18,1,0.012622720897615708,7.012622720897616E-4
+class org.activiti.engine.impl.task.TaskDefinition,3145,3145,2.2054698457223,2.2054698457223
+class org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity,3,3,0.0021037868162692847,0.0021037868162692847
+class java.util.ArrayList,37,3,0.025946704067321177,0.0021037868162692847
+class org.activiti.engine.impl.pvm.process.TransitionImpl,1,1,7.012622720897616E-4,7.012622720897616E-4
+class [Ljava.lang.String;,2,2,0.001402524544179523,0.001402524544179523
+class java.lang.Boolean,183,2,0.12833099579242638,0.001402524544179523
+class java.lang.Class,3,1,0.0021037868162692847,7.012622720897616E-4
+class [Lorg.activiti.engine.impl.persistence.entity.IdentityLinkEntity;,1,1,7.012622720897616E-4,7.012622720897616E-4

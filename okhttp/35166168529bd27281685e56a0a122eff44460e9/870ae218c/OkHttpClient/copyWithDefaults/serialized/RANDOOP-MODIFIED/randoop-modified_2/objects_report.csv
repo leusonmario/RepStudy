@@ -1,0 +1,17 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,10,6,0.006506180871828237,0.003903708523096942
+class java.net.InetSocketAddress,8,4,0.00520494469746259,0.002602472348731295
+class com.squareup.okhttp.internal.tls.OkHostnameVerifier,1,1,6.506180871828237E-4,6.506180871828237E-4
+class com.squareup.okhttp.SerializedObjectSupporter,1484,1,0.9655172413793104,6.506180871828237E-4
+class com.squareup.okhttp.OkHttpClient,8364,61,5.441769681197138,0.039687703318152245
+class java.util.Collections$SynchronizedSet,12,1,0.007807417046193884,6.506180871828237E-4
+class sun.security.ssl.SSLSocketImpl,29,29,0.018867924528301886,0.018867924528301886
+class java.lang.Boolean,71,2,0.04619388418998048,0.0013012361743656475
+class java.util.LinkedHashSet,3,1,0.001951854261548471,6.506180871828237E-4
+class java.lang.Integer,11,1,0.0071567989590110605,6.506180871828237E-4
+class java.net.Proxy,1719,10,1.118412491867274,0.006506180871828237
+class java.net.Proxy$Type,10,2,0.006506180871828237,0.0013012361743656475
+class java.lang.Class,5,2,0.0032530904359141183,0.0013012361743656475
+class [Lcom.squareup.okhttp.Route;,3,1,0.001951854261548471,6.506180871828237E-4
+class sun.security.ssl.SSLSocketFactoryImpl,23,3,0.014964216005204945,0.001951854261548471
+class com.squareup.okhttp.ConnectionPool,123,123,0.08002602472348731,0.08002602472348731

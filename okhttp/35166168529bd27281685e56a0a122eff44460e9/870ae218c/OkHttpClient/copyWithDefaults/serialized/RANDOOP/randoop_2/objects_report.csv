@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class com.squareup.okhttp.OkHttpClient,9457,21,7.057462686567164,0.015671641791044775
+class sun.security.ssl.SSLSocketFactoryImpl,19,19,0.014179104477611941,0.014179104477611941
+class java.lang.Boolean,5,1,0.0037313432835820895,7.462686567164179E-4
+class java.net.Proxy,331,9,0.24701492537313433,0.006716417910447761
+class java.lang.Class,3,2,0.002238805970149254,0.0014925373134328358
+class java.util.Collections$SynchronizedSet,22,1,0.016417910447761194,7.462686567164179E-4
+class com.squareup.okhttp.SerializedObjectSupporter,1369,1,1.0216417910447761,7.462686567164179E-4
