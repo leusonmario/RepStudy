@@ -1,0 +1,16 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class [Ljava.lang.String;,4,2,0.0033444816053511705,0.0016722408026755853
+class java.lang.String,8,8,0.006688963210702341,0.006688963210702341
+class org.activiti.engine.impl.persistence.entity.ExecutionEntity,4265,4261,3.5660535117056855,3.5627090301003346
+class java.util.HashMap,4,2,0.0033444816053511705,0.0016722408026755853
+class org.activiti.engine.impl.pvm.process.ActivityImpl,8,8,0.006688963210702341,0.006688963210702341
+class org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior,4003,4003,3.346989966555184,3.346989966555184
+class java.lang.Long,3,1,0.002508361204013378,8.361204013377926E-4
+class [Lorg.activiti.engine.impl.pvm.PvmTransition;,1,1,8.361204013377926E-4,8.361204013377926E-4
+class java.util.ArrayList,28,4,0.023411371237458192,0.0033444816053511705
+class java.lang.Boolean,40,2,0.033444816053511704,0.0016722408026755853
+class [Lorg.activiti.engine.impl.persistence.entity.TaskEntity;,1,1,8.361204013377926E-4,8.361204013377926E-4
+class java.lang.Integer,12,5,0.010033444816053512,0.004180602006688963
+class java.util.Arrays$ArrayList,2,1,0.0016722408026755853,8.361204013377926E-4
+class org.activiti.engine.impl.bpmn.behavior.SerializedObjectSupporter,1221,1,1.0209030100334449,8.361204013377926E-4
+class org.activiti.engine.impl.task.TaskDefinition,1998,1998,1.6705685618729098,1.6705685618729098

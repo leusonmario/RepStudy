@@ -1,0 +1,25 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,20,17,0.013271400132714002,0.0112806901128069
+class [Ljava.lang.String;,1,1,6.635700066357001E-4,6.635700066357001E-4
+class java.util.Arrays$ArrayList,2,2,0.0013271400132714001,0.0013271400132714001
+class [Lorg.activiti.engine.impl.persistence.entity.IdentityLinkEntity;,2,1,0.0013271400132714001,6.635700066357001E-4
+class org.activiti.engine.impl.persistence.entity.ExecutionEntity,4276,4275,2.8374253483742535,2.836761778367618
+class java.util.HashMap$KeySet,1,1,6.635700066357001E-4,6.635700066357001E-4
+class java.util.HashMap,1,1,6.635700066357001E-4,6.635700066357001E-4
+class [Lorg.activiti.engine.impl.persistence.entity.VariableInstanceEntity;,2,1,0.0013271400132714001,6.635700066357001E-4
+class org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior,4170,4170,2.7670869276708694,2.7670869276708694
+class org.activiti.engine.impl.pvm.process.ActivityImpl,13,13,0.008626410086264101,0.008626410086264101
+class java.lang.Long,4,1,0.0026542800265428003,6.635700066357001E-4
+class [Lorg.activiti.engine.impl.pvm.delegate.ActivityExecution;,1,1,6.635700066357001E-4,6.635700066357001E-4
+class java.util.HashSet,3,2,0.0019907100199071004,0.0013271400132714001
+class org.slf4j.impl.Log4jLoggerAdapter,3,1,0.0019907100199071004,6.635700066357001E-4
+class java.lang.Boolean,48,2,0.03185136031851361,0.0013271400132714001
+class java.util.ArrayList,28,3,0.0185799601857996,0.0019907100199071004
+class [Lorg.activiti.engine.impl.persistence.entity.JobEntity;,1,1,6.635700066357001E-4,6.635700066357001E-4
+class [Lorg.activiti.engine.impl.pvm.PvmTransition;,2,1,0.0013271400132714001,6.635700066357001E-4
+class java.lang.Integer,19,4,0.012607830126078301,0.0026542800265428003
+class org.activiti.engine.impl.bpmn.behavior.SerializedObjectSupporter,1585,1,1.0517584605175847,6.635700066357001E-4
+class java.lang.Class,3,3,0.0019907100199071004,0.0019907100199071004
+class org.activiti.engine.impl.task.TaskDefinition,2087,2087,1.384870603848706,1.384870603848706
+class org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity,8,8,0.0053085600530856005,0.0053085600530856005
+class org.activiti.engine.impl.pvm.process.TransitionImpl,3,3,0.0019907100199071004,0.0019907100199071004
