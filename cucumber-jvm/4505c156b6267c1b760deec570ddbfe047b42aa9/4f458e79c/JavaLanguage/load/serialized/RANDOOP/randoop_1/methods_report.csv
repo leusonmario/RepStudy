@@ -1,0 +1,28 @@
+Methods called,Number of times,Number of times (Normalized)
+"public cuke4duke.internal.java.SerializedObjectSupporter cuke4duke.internal.java.JavaLanguage.serializedObjectSupporter",3406,1.7556701030927835
+"public cuke4duke.internal.java.SerializedObjectSupporter cuke4duke.internal.java.JavaLanguage.serializedObjectSupporter",859,0.44278350515463916
+"public java.lang.String cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectComparator1() throws java.io.IOException",142,0.0731958762886598
+"public java.lang.String cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectString2() throws java.io.IOException",898,0.46288659793814435
+"cuke4duke.internal.java.JavaLanguage(cuke4duke.internal.language.LanguageMixin)",1,5.154639175257732E-4
+"public void cuke4duke.internal.java.JavaLanguage.registerAfterMaybe(java.lang.reflect.Method)",142,0.0731958762886598
+"public void cuke4duke.internal.java.JavaLanguage.begin_scenario()",671,0.3458762886597938
+"public java.util.List cuke4duke.internal.language.ProgrammingLanguage.step_definitions_for(java.lang.String) throws java.lang.Exception",232,0.11958762886597939
+"public void cuke4duke.internal.java.JavaLanguage.registerStepDefinitionsFor(java.lang.Class)",894,0.4608247422680412
+"public java.lang.Class cuke4duke.internal.java.JavaLanguage.loadClass(java.lang.String) throws java.lang.ClassNotFoundException",271,0.13969072164948454
+"public final cuke4duke.internal.java.ObjectFactory cuke4duke.internal.java.JavaLanguage.objectFactory",1108,0.5711340206185567
+"cuke4duke.internal.java.SerializedObjectSupporter()",6044,3.1154639175257732
+"public void cuke4duke.internal.java.JavaLanguage.registerStepDefinitionMaybe(java.lang.reflect.Method)",142,0.0731958762886598
+"public final native java.lang.Class java.lang.Object.getClass()",613,0.31597938144329896
+"public void cuke4duke.internal.language.ProgrammingLanguage.addStepDefinition(cuke4duke.internal.language.StepDefinition)",1349,0.695360824742268
+"public void cuke4duke.internal.java.JavaLanguage.end_scenario()",192,0.09896907216494845
+"public cuke4duke.internal.java.PicoFactory cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectObjectFactory1() throws java.io.IOException",698,0.3597938144329897
+"public final cuke4duke.internal.language.LanguageMixin cuke4duke.internal.java.JavaLanguage.languageMixin",719,0.37061855670103094
+"public cuke4duke.internal.java.PicoFactory cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectObjectFactory2() throws java.io.IOException",1272,0.6556701030927835
+"public void cuke4duke.internal.java.JavaLanguage.registerBeforeMaybe(java.lang.reflect.Method)",143,0.07371134020618557
+"public cuke4duke.internal.java.JavaLanguage cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectJavaLanguage2() throws java.io.IOException",1108,0.5711340206185567
+"public cuke4duke.internal.java.JavaLanguage cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectJavaLanguage1() throws java.io.IOException",7016,3.6164948453608248
+"public java.lang.String cuke4duke.internal.java.SerializedObjectSupporter.deserializeObjectString1() throws java.io.IOException",4249,2.1902061855670105
+"public cuke4duke.internal.language.LanguageMixin cuke4duke.internal.java.JavaLanguage.getlanguageMixin()",1580,0.8144329896907216
+"public cuke4duke.internal.java.ObjectFactory cuke4duke.internal.java.JavaLanguage.getobjectFactory()",3429,1.7675257731958762
+"public void cuke4duke.internal.java.JavaLanguage.load(java.lang.String) throws java.lang.ClassNotFoundException",160,0.08247422680412371
+"java.lang.Object()",115,0.059278350515463915

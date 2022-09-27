@@ -1,0 +1,2 @@
+com.zaxxer.hikari.HikariConfig
+com.zaxxer.hikari.SerializedObjectSupporter

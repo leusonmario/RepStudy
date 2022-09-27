@@ -1,0 +1,24 @@
+Methods called,Number of times,Number of times (Normalized)
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient12() throws java.io.IOException",163,0.048310610551274454
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient5() throws java.io.IOException",178,0.05275637225844695
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient4() throws java.io.IOException",166,0.04919976289270895
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient3() throws java.io.IOException",199,0.05898043864848844
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient16() throws java.io.IOException",173,0.05127445168938945
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient2() throws java.io.IOException",184,0.054534676941315946
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient11() throws java.io.IOException",181,0.05364552459988144
+"me.prettyprint.cassandra.connection.client.SerializedObjectSupporter()",3374,1.0
+"public org.slf4j.impl.Log4jLoggerAdapter me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectLogger1() throws java.io.IOException",4453,1.3197984588026082
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient10() throws java.io.IOException",162,0.048014226437462955
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient9() throws java.io.IOException",176,0.05216360403082395
+"public java.lang.String me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectString1() throws java.io.IOException",5253,1.556905749851808
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient8() throws java.io.IOException",185,0.054831061055127445
+"public me.prettyprint.cassandra.service.CassandraHost me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectCassandraHost1() throws java.io.IOException",3013,0.8930053349140487
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient7() throws java.io.IOException",182,0.05394190871369295
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient6() throws java.io.IOException",172,0.05097806757557795
+"public java.util.HashMap me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectMap1() throws java.io.IOException",4230,1.2537048014226437
+"public java.util.concurrent.atomic.AtomicLong me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectAtomicLong1() throws java.io.IOException",4875,1.444872554831061
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient13() throws java.io.IOException",158,0.04682868998221695
+"public final native java.lang.Class java.lang.Object.getClass()",205,0.06075874333135744
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient15() throws java.io.IOException",186,0.05512744516893894
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient14() throws java.io.IOException",174,0.051570835803200946
+"public me.prettyprint.cassandra.connection.client.HThriftClient me.prettyprint.cassandra.connection.client.SerializedObjectSupporter.deserializeObjectHThriftClient1() throws java.io.IOException",173,0.05127445168938945

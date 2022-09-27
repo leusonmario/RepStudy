@@ -1,0 +1,20 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,4,4,0.003189792663476874,0.003189792663476874
+class java.lang.Long,11,11,0.008771929824561403,0.008771929824561403
+class org.opentripplanner.routing.core.RoutingContext,1,1,7.974481658692185E-4,7.974481658692185E-4
+class java.lang.Integer,2,2,0.001594896331738437,0.001594896331738437
+class org.opentripplanner.routing.core.RoutingRequest,5,5,0.003987240829346092,0.003987240829346092
+class java.util.ArrayList,4,1,0.003189792663476874,7.974481658692185E-4
+class org.opentripplanner.routing.spt.MultiShortestPathTree,16,3,0.012759170653907496,0.0023923444976076554
+class java.util.IdentityHashMap,4,2,0.003189792663476874,0.001594896331738437
+class org.opentripplanner.routing.spt.SerializedObjectSupporter,1262,1,1.0063795853269537,7.974481658692185E-4
+class org.opentripplanner.routing.vertextype.IntersectionVertex,125,125,0.09968102073365231,0.09968102073365231
+class ch.qos.logback.classic.Logger,16,2,0.012759170653907496,0.001594896331738437
+class java.lang.Double,5,4,0.003987240829346092,0.003189792663476874
+class org.opentripplanner.routing.core.StateData,4,4,0.003189792663476874,0.003189792663476874
+class org.opentripplanner.routing.edgetype.StreetEdge,453,453,0.361244019138756,0.361244019138756
+class java.lang.Boolean,17,2,0.013556618819776715,0.001594896331738437
+class java.lang.Class,2,2,0.001594896331738437,0.001594896331738437
+class org.opentripplanner.routing.core.TraverseMode,3,1,0.0023923444976076554,7.974481658692185E-4
+class org.opentripplanner.routing.core.State,8232,8230,6.564593301435407,6.562998405103668
+class java.util.IdentityHashMap$KeySet,6,1,0.004784688995215311,7.974481658692185E-4

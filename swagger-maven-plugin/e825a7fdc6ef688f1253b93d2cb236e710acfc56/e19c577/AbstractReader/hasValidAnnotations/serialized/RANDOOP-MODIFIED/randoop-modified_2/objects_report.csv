@@ -1,0 +1,20 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.util.HashSet,15,1,0.009457755359394703,6.305170239596469E-4
+class java.lang.String,31,8,0.019546027742749054,0.005044136191677175
+class com.github.kongchen.swagger.docgen.reader.SerializedObjectSupporter,1692,1,1.0668348045397227,6.305170239596469E-4
+class java.util.ArrayList,68,2,0.04287515762925599,0.0012610340479192938
+class [Ljava.lang.reflect.Type;,8,3,0.005044136191677175,0.0018915510718789407
+class com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader,6792,6792,4.282471626733922,4.282471626733922
+class [Ljava.lang.String;,73,8,0.046027742749054225,0.005044136191677175
+class io.swagger.models.Swagger,22,14,0.013871374527112233,0.008827238335435058
+class java.util.LinkedHashSet,3,2,0.0018915510718789407,0.0012610340479192938
+class [Ljava.lang.reflect.Method;,9,1,0.005674653215636823,6.305170239596469E-4
+class com.github.kongchen.swagger.docgen.LogAdapter,16,16,0.01008827238335435,0.01008827238335435
+class java.lang.Boolean,61,2,0.038461538461538464,0.0012610340479192938
+class [Lio.swagger.models.parameters.Parameter;,1,1,6.305170239596469E-4,6.305170239596469E-4
+class [Ljava.lang.annotation.Annotation;,14,1,0.008827238335435058,6.305170239596469E-4
+class java.util.HashMap,10,1,0.006305170239596469,6.305170239596469E-4
+class com.github.kongchen.swagger.docgen.reader.JaxrsReader,3063,3063,1.9312736443883984,1.9312736443883984
+class [Lio.swagger.models.SecurityRequirement;,21,1,0.013240857503152586,6.305170239596469E-4
+class java.lang.Class,17,3,0.010718789407313998,0.0018915510718789407
+class [Lio.swagger.annotations.ResponseHeader;,3,2,0.0018915510718789407,0.0012610340479192938

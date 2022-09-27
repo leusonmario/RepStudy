@@ -1,0 +1,23 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,21647,57,2.1859032616378875,0.005755831566192063
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,7400,12,0.7472483085933556,0.0012117540139351712
+class org.elasticsearch.script.ScriptService$CacheKey,55,55,0.005553872563869535,0.005553872563869535
+class java.lang.Long,202,1,0.02039785923457538,1.0097950116126426E-4
+class org.elasticsearch.river.mongodb.SerializedObjectSupporter,1010,1,0.1019892961728769,1.0097950116126426E-4
+class java.lang.Integer,3265,10,0.32969807129152784,0.0010097950116126427
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,43415,3232,4.384025042916288,0.3263657477532061
+class [Ljava.lang.String;,1467,8,0.14813692820357469,8.078360092901141E-4
+class org.elasticsearch.common.unit.TimeValue,120,1,0.012117540139351712,1.0097950116126426E-4
+class com.mongodb.BasicDBObject,6334,3,0.6396041603554479,3.029385034837928E-4
+class sun.security.ssl.SSLSocketFactoryImpl,1,1,1.0097950116126426E-4,1.0097950116126426E-4
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,4013,1,0.4052307381601535,1.0097950116126426E-4
+class org.elasticsearch.common.unit.ByteSizeValue,745,1,0.07522972836514187,1.0097950116126426E-4
+class org.elasticsearch.common.logging.log4j.Log4jESLogger,118,1,0.011915581137029183,1.0097950116126426E-4
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,4427,370,0.44703625164091687,0.03736241542966778
+class org.elasticsearch.river.RiverSettings,821,2,0.08290417045339796,2.0195900232252852E-4
+class java.lang.Boolean,14014,2,1.4151267292739573,2.0195900232252852E-4
+class java.lang.Class,57,8,0.005755831566192063,8.078360092901141E-4
+class java.util.LinkedHashSet,1537,9,0.15520549328486316,9.088155104513784E-4
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,1.0097950116126426E-4,1.0097950116126426E-4
+class java.util.ArrayList,1347,3,0.13601938806422295,3.029385034837928E-4
+class [Lcom.mongodb.ServerAddress;,1,1,1.0097950116126426E-4,1.0097950116126426E-4

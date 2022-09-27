@@ -1,0 +1,16 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.opentripplanner.routing.vertextype.IntersectionVertex,353,353,0.23408488063660476,0.23408488063660476
+class ch.qos.logback.classic.Logger,3,1,0.001989389920424403,6.63129973474801E-4
+class java.util.ArrayList,4,2,0.002652519893899204,0.001326259946949602
+class java.lang.String,7,4,0.004641909814323607,0.002652519893899204
+class java.lang.Double,19,13,0.012599469496021221,0.008620689655172414
+class org.opentripplanner.routing.edgetype.StreetEdge,1359,1359,0.9011936339522546,0.9011936339522546
+class org.opentripplanner.routing.spt.MultiShortestPathTree,11,2,0.007294429708222812,0.001326259946949602
+class java.lang.Long,3,1,0.001989389920424403,6.63129973474801E-4
+class java.lang.Boolean,13,2,0.008620689655172414,0.001326259946949602
+class org.opentripplanner.routing.graph.Vertex$ValidEdgeTypes,5,1,0.0033156498673740055,6.63129973474801E-4
+class java.lang.Integer,12,6,0.007957559681697613,0.003978779840848806
+class com.vividsolutions.jts.geom.Coordinate,1,1,6.63129973474801E-4,6.63129973474801E-4
+class java.util.Arrays$ArrayList,3,1,0.001989389920424403,6.63129973474801E-4
+class org.opentripplanner.routing.spt.SerializedObjectSupporter,1518,1,1.006631299734748,6.63129973474801E-4
+class org.opentripplanner.routing.graph.Edge$ValidVertexTypes,1,1,6.63129973474801E-4,6.63129973474801E-4

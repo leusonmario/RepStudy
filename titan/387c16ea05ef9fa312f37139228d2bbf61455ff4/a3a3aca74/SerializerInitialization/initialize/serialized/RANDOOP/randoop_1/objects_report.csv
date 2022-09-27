@@ -1,0 +1,14 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Integer,78,3,0.052525252525252523,0.00202020202020202
+class com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer$2,9,9,0.006060606060606061,0.006060606060606061
+class java.util.HashMap,7,1,0.0047138047138047135,6.734006734006734E-4
+class com.thinkaurelius.titan.graphdb.database.serialize.SerializedObjectSupporter,1495,1,1.0067340067340067,6.734006734006734E-4
+class com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoDataOutput,9,9,0.006060606060606061,0.006060606060606061
+class com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization,25,18,0.016835016835016835,0.012121212121212121
+class com.google.common.cache.LocalCache$LocalManualCache,9,1,0.006060606060606061,6.734006734006734E-4
+class com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer$1,6,1,0.00404040404040404,6.734006734006734E-4
+class java.lang.Boolean,32,2,0.02154882154882155,0.0013468013468013469
+class java.lang.Class,8,2,0.0053872053872053875,0.0013468013468013469
+class com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer,11553,11553,7.77979797979798,7.77979797979798
+class com.esotericsoftware.kryo.Kryo,10,10,0.006734006734006734,0.006734006734006734
+class com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer$TypeRegistration,1,1,6.734006734006734E-4,6.734006734006734E-4

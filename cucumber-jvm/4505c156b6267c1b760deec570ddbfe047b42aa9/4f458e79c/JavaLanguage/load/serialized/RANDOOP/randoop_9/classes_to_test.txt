@@ -1,2 +1,0 @@
-cuke4duke.internal.java.JavaLanguage
-cuke4duke.internal.java.SerializedObjectSupporter

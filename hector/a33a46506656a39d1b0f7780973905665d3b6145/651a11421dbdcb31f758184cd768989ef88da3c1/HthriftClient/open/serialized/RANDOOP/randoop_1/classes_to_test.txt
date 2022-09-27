@@ -1,0 +1,2 @@
+me.prettyprint.cassandra.connection.client.HthriftClient
+me.prettyprint.cassandra.connection.client.SerializedObjectSupporter

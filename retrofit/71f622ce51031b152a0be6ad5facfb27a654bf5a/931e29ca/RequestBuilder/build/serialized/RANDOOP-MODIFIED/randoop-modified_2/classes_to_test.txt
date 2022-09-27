@@ -1,0 +1,3 @@
+retrofit.RequestBuilder
+retrofit.client.Request
+retrofit.SerializedObjectSupporter

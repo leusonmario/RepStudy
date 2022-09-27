@@ -1,0 +1,15 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,38,1,0.023661270236612703,6.226650062266501E-4
+class java.util.IdentityHashMap$KeySet,113,1,0.07036114570361146,6.226650062266501E-4
+class java.lang.Long,5,1,0.00311332503113325,6.226650062266501E-4
+class org.opentripplanner.routing.edgetype.StreetEdge,1940,1940,1.207970112079701,1.207970112079701
+class java.lang.Integer,74,2,0.0460772104607721,0.0012453300124533001
+class java.util.Collections$EmptyList,7,1,0.0043586550435865505,6.226650062266501E-4
+class java.util.ArrayList,15,1,0.00933997509339975,6.226650062266501E-4
+class org.opentripplanner.routing.spt.MultiShortestPathTree,163,2,0.10149439601494396,0.0012453300124533001
+class java.util.IdentityHashMap,142,8,0.08841843088418432,0.0049813200498132005
+class ch.qos.logback.classic.Logger,1,1,6.226650062266501E-4,6.226650062266501E-4
+class org.opentripplanner.routing.spt.SerializedObjectSupporter,1471,1,0.9159402241594022,6.226650062266501E-4
+class java.lang.Double,90,2,0.05603985056039851,0.0012453300124533001
+class org.opentripplanner.routing.vertextype.IntersectionVertex,273,273,0.16998754669987548,0.16998754669987548
+class java.lang.Class,13,3,0.00809464508094645,0.0018679950186799503

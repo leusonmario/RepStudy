@@ -1,0 +1,3 @@
+com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization
+com.thinkaurelius.titan.graphdb.database.serialize.kryo.KryoSerializer
+com.thinkaurelius.titan.graphdb.database.serialize.SerializedObjectSupporter

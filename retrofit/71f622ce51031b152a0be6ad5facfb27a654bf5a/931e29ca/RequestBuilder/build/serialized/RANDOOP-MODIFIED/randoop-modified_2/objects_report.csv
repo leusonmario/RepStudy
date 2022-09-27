@@ -1,0 +1,10 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Boolean,320,1,0.2763385146804836,8.635578583765112E-4
+class [Lretrofit.client.Header;,320,1,0.2763385146804836,8.635578583765112E-4
+class retrofit.converter.GsonConverter,4026,4026,3.476683937823834,3.476683937823834
+class java.lang.String,2066,4,1.7841105354058722,0.0034542314335060447
+class retrofit.client.Request,1081,16,0.9335060449050087,0.013816925734024179
+class retrofit.SerializedObjectSupporter,829,1,0.7158894645941278,8.635578583765112E-4
+class java.util.Collections$UnmodifiableRandomAccessList,291,1,0.25129533678756477,8.635578583765112E-4
+class java.lang.Class,85,5,0.07340241796200346,0.004317789291882556
+class java.util.ArrayList,1531,3,1.3221070811744386,0.0025906735751295338

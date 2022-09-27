@@ -1,0 +1,4 @@
+com.github.javafaker.Faker
+java.util.Locale
+java.util.Random
+com.github.javafaker.SerializedObjectSupporter

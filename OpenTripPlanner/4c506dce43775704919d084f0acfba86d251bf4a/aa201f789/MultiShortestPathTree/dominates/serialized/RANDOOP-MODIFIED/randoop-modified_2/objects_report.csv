@@ -1,0 +1,27 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.opentripplanner.routing.spt.SerializedObjectSupporter,1380,1,1.085759244689221,7.867820613690008E-4
+class [Lorg.onebusaway.gtfs.model.AgencyAndId;,22,1,0.01730920535011802,7.867820613690008E-4
+class org.opentripplanner.routing.core.RoutingRequest,67,66,0.05271439811172305,0.05192761605035405
+class java.lang.Long,9,6,0.007081038552321007,0.004720692368214005
+class com.vividsolutions.jts.geom.Coordinate,3,3,0.0023603461841070024,0.0023603461841070024
+class org.opentripplanner.routing.core.StateData,502,448,0.3949645948072384,0.35247836349331235
+class java.lang.Boolean,82,2,0.06451612903225806,0.0015735641227380016
+class [I,4,2,0.003147128245476003,0.0015735641227380016
+class java.lang.Integer,16,6,0.012588512981904013,0.004720692368214005
+class java.util.IdentityHashMap,1,1,7.867820613690008E-4,7.867820613690008E-4
+class java.util.Arrays$ArrayList,1,1,7.867820613690008E-4,7.867820613690008E-4
+class java.lang.Class,2,1,0.0015735641227380016,7.867820613690008E-4
+class [Lorg.opentripplanner.routing.graph.Edge;,2,1,0.0015735641227380016,7.867820613690008E-4
+class org.opentripplanner.routing.edgetype.StreetEdge,984,984,0.7741935483870968,0.7741935483870968
+class org.opentripplanner.routing.vertextype.IntersectionVertex,147,147,0.11565696302124312,0.11565696302124312
+class java.lang.String,8,7,0.006294256490952006,0.0055074744295830055
+class java.util.Collections$EmptyList,2,1,0.0015735641227380016,7.867820613690008E-4
+class org.opentripplanner.routing.graph.Vertex$ValidEdgeTypes,1,1,7.867820613690008E-4,7.867820613690008E-4
+class java.lang.Double,34,19,0.02675059008654603,0.014948859166011016
+class org.opentripplanner.routing.core.TraverseMode,6,1,0.004720692368214005,7.867820613690008E-4
+class org.opentripplanner.routing.core.State,7502,7498,5.902439024390244,5.899291896144768
+class [Ljava.lang.String;,2,1,0.0015735641227380016,7.867820613690008E-4
+class ch.qos.logback.classic.Logger,6,2,0.004720692368214005,0.0015735641227380016
+class java.util.LinkedHashSet,2,1,0.0015735641227380016,7.867820613690008E-4
+class org.opentripplanner.routing.spt.MultiShortestPathTree,151,60,0.11880409126671912,0.04720692368214005
+class java.util.ArrayList,1,1,7.867820613690008E-4,7.867820613690008E-4

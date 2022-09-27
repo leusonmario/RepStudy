@@ -1,0 +1,8 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.String,1024,1,0.6062759029011249,5.920663114268798E-4
+class java.util.HashMap,456,1,0.2699822380106572,5.920663114268798E-4
+class java.lang.Object,1,1,5.920663114268798E-4,5.920663114268798E-4
+class java.lang.Class,98,5,0.05802249851983422,0.002960331557134399
+class java.util.concurrent.atomic.AtomicLong,1734,1,1.0266429840142095,5.920663114268798E-4
+class org.slf4j.impl.Log4jLoggerAdapter,488,1,0.28892835997631733,5.920663114268798E-4
+class me.prettyprint.cassandra.connection.client.SerializedObjectSupporter,1688,1,0.9994079336885732,5.920663114268798E-4

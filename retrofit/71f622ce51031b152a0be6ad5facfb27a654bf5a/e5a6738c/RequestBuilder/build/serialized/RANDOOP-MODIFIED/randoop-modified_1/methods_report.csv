@@ -1,0 +1,27 @@
+Methods called,Number of times,Number of times (Normalized)
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter8() throws java.io.IOException",358,0.31130434782608696
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter6() throws java.io.IOException",179,0.15565217391304348
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter9() throws java.io.IOException",167,0.14521739130434783
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter4() throws java.io.IOException",301,0.2617391304347826
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter7() throws java.io.IOException",435,0.3782608695652174
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter2() throws java.io.IOException",272,0.23652173913043478
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter5() throws java.io.IOException",365,0.3173913043478261
+"public java.lang.String retrofit.client.Request.getMethod()",208,0.1808695652173913
+"java.util.ArrayList()",316,0.2747826086956522
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter3() throws java.io.IOException",298,0.2591304347826087
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter1() throws java.io.IOException",1295,1.126086956521739
+"public java.lang.String retrofit.SerializedObjectSupporter.deserializeObjectString2() throws java.io.IOException",1026,0.8921739130434783
+"public final native java.lang.Class java.lang.Object.getClass()",84,0.07304347826086957
+"public retrofit.converter.GsonConverter retrofit.SerializedObjectSupporter.deserializeObjectConverter10() throws java.io.IOException",340,0.2956521739130435
+"public java.lang.String retrofit.SerializedObjectSupporter.deserializeObjectString1() throws java.io.IOException",506,0.44
+"public java.lang.String retrofit.client.Request.getUrl()",314,0.27304347826086955
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",316,0.2747826086956522
+"retrofit.client.Header[0]",316,0.2747826086956522
+"public java.util.ArrayList retrofit.SerializedObjectSupporter.deserializeObjectList3() throws java.io.IOException",426,0.37043478260869567
+"public java.util.ArrayList retrofit.SerializedObjectSupporter.deserializeObjectList1() throws java.io.IOException",415,0.36086956521739133
+"retrofit.SerializedObjectSupporter()",825,0.717391304347826
+"retrofit.client.Request(java.lang.String, java.lang.String, java.util.List, retrofit.mime.TypedOutput)",1072,0.9321739130434783
+"public java.util.Collections retrofit.SerializedObjectSupporter.deserializeObjectList4() throws java.io.IOException",90,0.0782608695652174
+"public retrofit.mime.TypedOutput retrofit.client.Request.getBody()",168,0.14608695652173914
+"public java.util.List retrofit.client.Request.getHeaders()",285,0.24782608695652175
+"public java.util.ArrayList retrofit.SerializedObjectSupporter.deserializeObjectList2() throws java.io.IOException",366,0.3182608695652174

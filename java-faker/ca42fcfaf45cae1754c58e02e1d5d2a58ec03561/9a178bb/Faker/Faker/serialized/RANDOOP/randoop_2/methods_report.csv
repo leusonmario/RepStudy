@@ -1,0 +1,921 @@
+Methods called,Number of times,Number of times (Normalized)
+"public static final java.util.Locale java.util.Locale.UK",9,0.01056338028169014
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem18() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker162() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker161() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker163() throws java.io.IOException",15,0.017605633802816902
+"public static final java.util.Locale java.util.Locale.TRADITIONAL_CHINESE",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker160() throws java.io.IOException",1,0.0011737089201877935
+"public static final java.util.Locale java.util.Locale.US",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem21() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem19() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem28() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker164() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem27() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem26() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem22() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem20() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker166() throws java.io.IOException",138,0.1619718309859155
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker165() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker168() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker167() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime20() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime29() throws java.io.IOException",4,0.004694835680751174
+"public static java.util.List java.util.Locale$LanguageRange.parse(java.lang.String,java.util.Map)",3,0.0035211267605633804
+"public static java.util.List java.util.Locale$LanguageRange.parse(java.lang.String)",4,0.004694835680751174
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime25() throws java.io.IOException",18,0.02112676056338028
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber43() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime23() throws java.io.IOException",2,0.002347417840375587
+"MAP_EXTENDED_RANGES",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime24() throws java.io.IOException",10,0.011737089201877934
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber46() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber47() throws java.io.IOException",10,0.011737089201877934
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime22() throws java.io.IOException",2,0.002347417840375587
+"FORMAT",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber45() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber48() throws java.io.IOException",24,0.028169014084507043
+"public java.util.Locale$Builder java.util.Locale$Builder.setScript(java.lang.String)",3,0.0035211267605633804
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime19() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber40() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber41() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime54() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime52() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime50() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime51() throws java.io.IOException",40,0.046948356807511735
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime58() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime59() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook8() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook9() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime57() throws java.io.IOException",8,0.009389671361502348
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale66() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale67() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber57() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale68() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber58() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale69() throws java.io.IOException",10,0.011737089201877934
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber55() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook4() throws java.io.IOException",3,0.0035211267605633804
+"public static final java.util.Locale java.util.Locale.TAIWAN",51,0.05985915492957746
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem48() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook2() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem46() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber59() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem45() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale60() throws java.io.IOException",19,0.022300469483568074
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber50() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem42() throws java.io.IOException",1,0.0011737089201877935
+"public static synchronized void java.util.Locale.setDefault(java.util.Locale$Category,java.util.Locale)",2,0.002347417840375587
+"public static synchronized void java.util.Locale.setDefault(java.util.Locale)",3,0.0035211267605633804
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem41() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale61() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem40() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale62() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale63() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber53() throws java.io.IOException",5,0.005868544600938967
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale64() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker173() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker172() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker170() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem10() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker175() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem15() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem14() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem12() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem11() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker177() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker176() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker178() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions7() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime30() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions5() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions6() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime31() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions3() throws java.io.IOException",3,0.0035211267605633804
+"public double java.util.Random.nextDouble()",9,0.01056338028169014
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions4() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions1() throws java.io.IOException",19,0.022300469483568074
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions2() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker128() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime39() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.Faker.finance()",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime36() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime37() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions9() throws java.io.IOException",16,0.018779342723004695
+"public final com.github.javafaker.Book com.github.javafaker.Faker.book",28,0.03286384976525822
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions8() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime33() throws java.io.IOException",1,0.0011737089201877935
+"public final com.github.javafaker.Color com.github.javafaker.Faker.color",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker126() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker125() throws java.io.IOException",14,0.01643192488262911
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker127() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker122() throws java.io.IOException",12,0.014084507042253521
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem60() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker124() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker123() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker151() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker150() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem2() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem5() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker152() throws java.io.IOException",24,0.028169014084507043
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem7() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime61() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem6() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime60() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem8() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker153() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker159() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker158() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker155() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker154() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker157() throws java.io.IOException",196,0.2300469483568075
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker156() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.PhoneNumber com.github.javafaker.Faker.phoneNumber()",4,0.004694835680751174
+"public com.github.javafaker.Business com.github.javafaker.Faker.getbusiness()",1,0.0011737089201877935
+"public java.lang.String java.util.Locale.getUnicodeLocaleType(java.lang.String)",2,0.002347417840375587
+"public java.util.Locale$Builder java.util.Locale$Builder.setLanguageTag(java.lang.String)",3,0.0035211267605633804
+"public com.github.javafaker.Name com.github.javafaker.Faker.name()",7,0.008215962441314555
+"public static final char java.util.Locale.UNICODE_LOCALE_EXTENSION",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem9() throws java.io.IOException",9,0.01056338028169014
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale102() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale100() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale106() throws java.io.IOException",4,0.004694835680751174
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale104() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime43() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.Options com.github.javafaker.Faker.getoptions()",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime42() throws java.io.IOException",24,0.028169014084507043
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker130() throws java.io.IOException",4,0.004694835680751174
+"public final com.github.javafaker.PhoneNumber com.github.javafaker.Faker.phoneNumber",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem54() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker139() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale$Builder java.util.Locale$Builder.setRegion(java.lang.String)",19,0.022300469483568074
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime47() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime48() throws java.io.IOException",3,0.0035211267605633804
+"public final com.github.javafaker.Name com.github.javafaker.Faker.name",6,0.007042253521126761
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime45() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime46() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime44() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem59() throws java.io.IOException",13,0.015258215962441314
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem57() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem56() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem55() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker137() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem53() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker136() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem52() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem51() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker138() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem50() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker133() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker135() throws java.io.IOException",8,0.009389671361502348
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale89() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor35() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor34() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor33() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor32() throws java.io.IOException",12,0.014084507042253521
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor31() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor30() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale80() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale81() throws java.io.IOException",8,0.009389671361502348
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale82() throws java.io.IOException",1,0.0011737089201877935
+"public static final java.util.Locale java.util.Locale.CHINESE",12,0.014084507042253521
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale85() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale86() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor39() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale87() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Set java.util.Locale.getExtensionKeys()",13,0.015258215962441314
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor58() throws java.io.IOException",1,0.0011737089201877935
+"public void java.util.Random.nextBytes(byte[])",4,0.004694835680751174
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService10() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker118() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker115() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor61() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker114() throws java.io.IOException",16,0.018779342723004695
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker116() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker111() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker110() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker113() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker112() throws java.io.IOException",3,0.0035211267605633804
+"public final com.github.javafaker.Options com.github.javafaker.Faker.options",1,0.0011737089201877935
+"public static java.util.Locale java.util.Locale.getDefault()",7,0.008215962441314555
+"public static java.util.Locale java.util.Locale.getDefault(java.util.Locale$Category)",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale90() throws java.io.IOException",18,0.02112676056338028
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance7() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance8() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance5() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.Faker.getcompany()",5,0.005868544600938967
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance6() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.Faker.options()",3,0.0035211267605633804
+"public java.lang.String java.util.Locale.getDisplayVariant(java.util.Locale)",11,0.012910798122065728
+"public final java.lang.String java.util.Locale.getDisplayVariant()",5,0.005868544600938967
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale99() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor46() throws java.io.IOException",464,0.5446009389671361
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor45() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor44() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor43() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance4() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor42() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor41() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale91() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany10() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale92() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale93() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale95() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale97() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor49() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale98() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor48() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor25() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany8() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany4() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany5() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany6() throws java.io.IOException",3,0.0035211267605633804
+"public java.lang.String com.github.javafaker.Faker.bothify(java.lang.String)",3,0.0035211267605633804
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany1() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany2() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany3() throws java.io.IOException",23,0.02699530516431925
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale44() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale45() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale46() throws java.io.IOException",5,0.005868544600938967
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale47() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale48() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale40() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale41() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale42() throws java.io.IOException",20,0.023474178403755867
+"public java.util.stream.DoubleStream java.util.Random.doubles(double,double)",6,0.007042253521126761
+"public java.util.stream.DoubleStream java.util.Random.doubles()",2,0.002347417840375587
+"public java.util.stream.DoubleStream java.util.Random.doubles(long)",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale1() throws java.io.IOException",22,0.025821596244131457
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor14() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale2() throws java.io.IOException",15,0.017605633802816902
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale3() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale4() throws java.io.IOException",6,0.007042253521126761
+"public final com.github.javafaker.service.FakeValuesService com.github.javafaker.Faker.fakeValuesService",6,0.007042253521126761
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.Faker.getfakeValuesService()",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale5() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale6() throws java.io.IOException",9,0.01056338028169014
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale7() throws java.io.IOException",4,0.004694835680751174
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",15,0.017605633802816902
+"public java.util.Locale$Builder java.util.Locale$Builder.clearExtensions()",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale77() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale78() throws java.io.IOException",20,0.023474178403755867
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor24() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale79() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor23() throws java.io.IOException",1,0.0011737089201877935
+"public static java.util.Locale java.util.Locale.forLanguageTag(java.lang.String)",3,0.0035211267605633804
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor21() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor20() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale70() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale71() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale72() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor29() throws java.io.IOException",16,0.018779342723004695
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale74() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor28() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.Faker.getcolor()",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale76() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor26() throws java.io.IOException",3,0.0035211267605633804
+"public synchronized void java.util.Random.setSeed(long)",4,0.004694835680751174
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor60() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor57() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor56() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor55() throws java.io.IOException",2,0.002347417840375587
+"public java.lang.String java.util.Locale.getLanguage()",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker108() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor54() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor52() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor51() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker109() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale8() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor50() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale9() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker103() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker100() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker102() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker101() throws java.io.IOException",5,0.005868544600938967
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale55() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale56() throws java.io.IOException",4,0.004694835680751174
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale57() throws java.io.IOException",21,0.02464788732394366
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale58() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale59() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber60() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber61() throws java.io.IOException",7,0.008215962441314555
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale50() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale51() throws java.io.IOException",4,0.004694835680751174
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale52() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale53() throws java.io.IOException",36,0.04225352112676056
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale54() throws java.io.IOException",5,0.005868544600938967
+"public static final java.util.Locale java.util.Locale.CANADA_FRENCH",4,0.004694835680751174
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber3() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber2() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber5() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber4() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber9() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber8() throws java.io.IOException",65,0.07629107981220658
+"public final com.github.javafaker.Address com.github.javafaker.Faker.address",1,0.0011737089201877935
+"public java.util.stream.LongStream java.util.Random.longs()",9,0.01056338028169014
+"public java.util.stream.LongStream java.util.Random.longs(long,long,long)",2,0.002347417840375587
+"public java.util.stream.LongStream java.util.Random.longs(long,long)",3,0.0035211267605633804
+"public java.util.stream.LongStream java.util.Random.longs(long)",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber7() throws java.io.IOException",2,0.002347417840375587
+"public long java.util.Random.nextLong()",2,0.002347417840375587
+"public java.lang.Object java.util.Locale.clone()",2,0.002347417840375587
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor13() throws java.io.IOException",2,0.002347417840375587
+"public static final java.util.Locale java.util.Locale.ROOT",4,0.004694835680751174
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor11() throws java.io.IOException",85,0.09976525821596244
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor10() throws java.io.IOException",1,0.0011737089201877935
+"java.util.Locale$LanguageRange[1]",1,0.0011737089201877935
+"java.util.Locale$LanguageRange[0]",5,0.005868544600938967
+"com.github.javafaker.Faker(java.util.Locale)",36,0.04225352112676056
+"com.github.javafaker.Faker(java.util.Locale, java.util.Random)",19,0.022300469483568074
+"com.github.javafaker.Faker(java.util.Random)",9,0.01056338028169014
+"com.github.javafaker.Faker()",4,0.004694835680751174
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor19() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor18() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor16() throws java.io.IOException",1,0.0011737089201877935
+"byte[4]",3,0.0035211267605633804
+"public java.util.Locale$Builder java.util.Locale$Builder.setLanguage(java.lang.String)",5,0.005868544600938967
+"public java.lang.String java.util.Locale.getISO3Country() throws java.util.MissingResourceException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber47() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber46() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber49() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber48() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber42() throws java.io.IOException",1,0.0011737089201877935
+"java.util.Random(long)",30,0.035211267605633804
+"java.util.Random()",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber44() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber41() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber40() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Lorem com.github.javafaker.Faker.getlorem()",2,0.002347417840375587
+"java.util.Locale(java.lang.String, java.lang.String, java.lang.String)",18,0.02112676056338028
+"public java.lang.String java.util.Locale.getDisplayScript()",3,0.0035211267605633804
+"java.util.Locale(java.lang.String)",1,0.0011737089201877935
+"public java.lang.String java.util.Locale.getDisplayScript(java.util.Locale)",1,0.0011737089201877935
+"public static final java.util.Locale java.util.Locale.FRANCE",1,0.0011737089201877935
+"public static java.lang.String[] java.util.Locale.getISOLanguages()",1,0.0011737089201877935
+"public java.util.Locale$Builder java.util.Locale$Builder.addUnicodeLocaleAttribute(java.lang.String)",2,0.002347417840375587
+"public java.lang.String com.github.javafaker.Faker.resolve(java.lang.String)",2,0.002347417840375587
+"public java.lang.String com.github.javafaker.Faker.numerify(java.lang.String)",2,0.002347417840375587
+"public float java.util.Random.nextFloat()",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker33() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker32() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker25() throws java.io.IOException",1,0.0011737089201877935
+"public static final java.util.Locale java.util.Locale.FRENCH",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker23() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Internet com.github.javafaker.Faker.getinternet()",6,0.007042253521126761
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale108() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale110() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale107() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale113() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale112() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale111() throws java.io.IOException",4,0.004694835680751174
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale117() throws java.io.IOException",118,0.13849765258215962
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale115() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker141() throws java.io.IOException",1,0.0011737089201877935
+"public final com.github.javafaker.Number com.github.javafaker.Faker.number",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker142() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale$Builder java.util.Locale$Builder.setVariant(java.lang.String)",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker148() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker147() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker149() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker144() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker143() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness6() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.Faker.number()",2,0.002347417840375587
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness3() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness2() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness8() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Set java.util.Locale.getUnicodeLocaleKeys()",1,0.0011737089201877935
+"public static java.util.List java.util.Locale$LanguageRange.mapEquivalents(java.util.List,java.util.Map)",4,0.004694835680751174
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale119() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale121() throws java.io.IOException",1,0.0011737089201877935
+"public static final double java.util.Locale$LanguageRange.MIN_WEIGHT",1,0.0011737089201877935
+"public com.github.javafaker.Address com.github.javafaker.Faker.getaddress()",4,0.004694835680751174
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale118() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem29() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem39() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem38() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem37() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem36() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem35() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem33() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.Faker.getcode()",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem31() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.SerializedObjectSupporter.deserializeObjectLorem30() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime10() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime18() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime17() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime14() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime12() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime11() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime3() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime4() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime1() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.DateAndTime com.github.javafaker.SerializedObjectSupporter.deserializeObjectDateAndTime7() throws java.io.IOException",3,0.0035211267605633804
+"public static final java.util.Locale java.util.Locale.PRC",10,0.011737089201877934
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance10() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance11() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance12() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance13() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance14() throws java.io.IOException",1,0.0011737089201877935
+"public java.lang.String java.util.Locale.getISO3Language() throws java.util.MissingResourceException",35,0.04107981220657277
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker63() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker61() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker66() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker65() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker64() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker59() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker58() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker57() throws java.io.IOException",2,0.002347417840375587
+"public final com.github.javafaker.DateAndTime com.github.javafaker.Faker.dateAndTime",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker56() throws java.io.IOException",2,0.002347417840375587
+"public final com.github.javafaker.Lorem com.github.javafaker.Faker.lorem",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker52() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker51() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker50() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker55() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker54() throws java.io.IOException",28,0.03286384976525822
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker49() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker48() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker47() throws java.io.IOException",10,0.011737089201877934
+"public com.github.javafaker.DateAndTime com.github.javafaker.Faker.getdateAndTime()",13,0.015258215962441314
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker46() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance38() throws java.io.IOException",121,0.142018779342723
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance39() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker80() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.PhoneNumber com.github.javafaker.Faker.getphoneNumber()",2,0.002347417840375587
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance40() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker85() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker84() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker82() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker88() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker87() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance37() throws java.io.IOException",2,0.002347417840375587
+"public static final java.util.Locale java.util.Locale.CHINA",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker79() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker81() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance43() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance46() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance47() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance49() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance51() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker74() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker73() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker72() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker71() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker76() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance48() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker75() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker69() throws java.io.IOException",10,0.011737089201877934
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker70() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance50() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance52() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance53() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance54() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance55() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker67() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.SerializedObjectSupporter com.github.javafaker.Faker.serializedObjectSupporter",5,0.005868544600938967
+"public com.github.javafaker.SerializedObjectSupporter com.github.javafaker.Faker.serializedObjectSupporter",4,0.004694835680751174
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance57() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance58() throws java.io.IOException",18,0.02112676056338028
+"AUTOSELECT_FILTERING",2,0.002347417840375587
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance16() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance17() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance18() throws java.io.IOException",1,0.0011737089201877935
+"java.util.Locale$LanguageRange(java.lang.String, double)",2,0.002347417840375587
+"java.util.Locale$LanguageRange(java.lang.String)",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker22() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker21() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance15() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker20() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker16() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker14() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker19() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker18() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance20() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance21() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance22() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance23() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance24() throws java.io.IOException",64,0.07511737089201878
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance25() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance27() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance29() throws java.io.IOException",4,0.004694835680751174
+"public static final char java.util.Locale.PRIVATE_USE_EXTENSION",1,0.0011737089201877935
+"public com.github.javafaker.Internet com.github.javafaker.Faker.internet()",3,0.0035211267605633804
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance30() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance31() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance33() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance36() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber18() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber17() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber16() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber15() throws java.io.IOException",2,0.002347417840375587
+"public final com.github.javafaker.Internet com.github.javafaker.Faker.internet",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker41() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber10() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker44() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker43() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker42() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker38() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker37() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker36() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker35() throws java.io.IOException",1,0.0011737089201877935
+"public static java.util.List java.util.Locale.filter(java.util.List,java.util.Collection)",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions10() throws java.io.IOException",3,0.0035211267605633804
+"public java.lang.String java.util.Locale.getVariant()",5,0.005868544600938967
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber34() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber36() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber35() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber37() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions60() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber31() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber30() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions57() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions56() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.DateAndTime com.github.javafaker.Faker.date()",6,0.007042253521126761
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber23() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.stream.IntStream java.util.Random.ints(long)",4,0.004694835680751174
+"public java.util.stream.IntStream java.util.Random.ints()",2,0.002347417840375587
+"public java.util.stream.IntStream java.util.Random.ints(int,int)",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber29() throws java.io.IOException",5,0.005868544600938967
+"public static final java.util.Locale java.util.Locale.JAPAN",10,0.011737089201877934
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber25() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber24() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber27() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber21() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber20() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber22() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions31() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions30() throws java.io.IOException",1,0.0011737089201877935
+"java.util.ArrayList()",15,0.017605633802816902
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions32() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions24() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions26() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions25() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions28() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions29() throws java.io.IOException",3,0.0035211267605633804
+"public final native java.lang.Class java.lang.Object.getClass()",7,0.008215962441314555
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber56() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions22() throws java.io.IOException",9,0.01056338028169014
+"public static java.lang.String[] java.util.Locale.getISOCountries()",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber58() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber59() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber54() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber53() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber55() throws java.io.IOException",12,0.014084507042253521
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber52() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber51() throws java.io.IOException",28,0.03286384976525822
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions51() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions52() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions45() throws java.io.IOException",2,0.002347417840375587
+"java.lang.String[6]",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions48() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions47() throws java.io.IOException",3,0.0035211267605633804
+"java.lang.String[1]",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions49() throws java.io.IOException",14,0.01643192488262911
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions44() throws java.io.IOException",5,0.005868544600938967
+"java.lang.String[8]",1,0.0011737089201877935
+"java.util.Locale$Builder()",23,0.02699530516431925
+"public java.util.Locale$Builder java.util.Locale$Builder.removeUnicodeLocaleAttribute(java.lang.String)",1,0.0011737089201877935
+"public boolean java.util.Locale.hasExtensions()",2,0.002347417840375587
+"public static final java.util.Locale java.util.Locale.ITALIAN",4,0.004694835680751174
+"public com.github.javafaker.Number com.github.javafaker.SerializedObjectSupporter.deserializeObjectNumber61() throws java.io.IOException",10,0.011737089201877934
+"public java.lang.String java.util.Locale.getExtension(char)",2,0.002347417840375587
+"public static java.lang.String java.util.Locale.lookupTag(java.util.List,java.util.Collection)",5,0.005868544600938967
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions40() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions42() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions41() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions43() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Set java.util.Locale.getUnicodeLocaleAttributes()",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions34() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions37() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions36() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions39() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions38() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions33() throws java.io.IOException",30,0.035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness35() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany56() throws java.io.IOException",72,0.08450704225352113
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany59() throws java.io.IOException",122,0.1431924882629108
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService61() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness38() throws java.io.IOException",7,0.008215962441314555
+"public static final java.util.Locale java.util.Locale.GERMAN",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness37() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany57() throws java.io.IOException",10,0.011737089201877934
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness36() throws java.io.IOException",42,0.04929577464788732
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService60() throws java.io.IOException",4,0.004694835680751174
+"public final java.lang.String java.util.Locale.toString()",4,0.004694835680751174
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService58() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness42() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService59() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService56() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness40() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService57() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany61() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness45() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.Faker.business()",2,0.002347417840375587
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness44() throws java.io.IOException",3,0.0035211267605633804
+"public java.lang.String java.util.Locale$LanguageRange.getRange()",1,0.0011737089201877935
+"public java.util.Locale$Builder java.util.Locale$Builder.clear()",18,0.02112676056338028
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany23() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany26() throws java.io.IOException",19,0.022300469483568074
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany27() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany24() throws java.io.IOException",2,0.002347417840375587
+"public static java.util.List java.util.Locale.filterTags(java.util.List,java.util.Collection)",3,0.0035211267605633804
+"public static java.util.List java.util.Locale.filterTags(java.util.List,java.util.Collection,java.util.Locale$FilteringMode)",3,0.0035211267605633804
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany25() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany28() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale33() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany29() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale34() throws java.io.IOException",5,0.005868544600938967
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale35() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany30() throws java.io.IOException",1,0.0011737089201877935
+"public final com.github.javafaker.Business com.github.javafaker.Faker.business",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale37() throws java.io.IOException",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale38() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany33() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany31() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness11() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness10() throws java.io.IOException",1,0.0011737089201877935
+"com.github.javafaker.SerializedObjectSupporter()",707,0.82981220657277
+"public static final java.util.Locale java.util.Locale.ITALY",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale32() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness13() throws java.io.IOException",17,0.01995305164319249
+"public synchronized double java.util.Random.nextGaussian()",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany34() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany37() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness17() throws java.io.IOException",1,0.0011737089201877935
+"public final java.lang.String java.util.Locale.getDisplayLanguage()",2,0.002347417840375587
+"public java.lang.String java.util.Locale.getDisplayLanguage(java.util.Locale)",3,0.0035211267605633804
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany35() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness15() throws java.io.IOException",14,0.01643192488262911
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany36() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany39() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness19() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness18() throws java.io.IOException",80,0.09389671361502347
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany40() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook33() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook32() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany44() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook30() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness23() throws java.io.IOException",12,0.014084507042253521
+"public static final java.util.Locale java.util.Locale.CANADA",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany42() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness21() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany43() throws java.io.IOException",1,0.0011737089201877935
+"public static final java.util.Locale java.util.Locale.KOREA",4,0.004694835680751174
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook39() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook38() throws java.io.IOException",16,0.018779342723004695
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook37() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook36() throws java.io.IOException",65,0.07629107981220658
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook35() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale11() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale$Builder java.util.Locale$Builder.setLocale(java.util.Locale)",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale13() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale16() throws java.io.IOException",7,0.008215962441314555
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale17() throws java.io.IOException",16,0.018779342723004695
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale18() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale java.util.Locale$Builder.build()",7,0.008215962441314555
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale10() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService8() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany12() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany16() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany14() throws java.io.IOException",1,0.0011737089201877935
+"public final com.github.javafaker.Company com.github.javafaker.Faker.company",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany19() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany17() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany18() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService20() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService14() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService15() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService5() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService6() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService13() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService18() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany22() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService4() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService1() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany20() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService16() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService17() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany21() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService11() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService9() throws java.io.IOException",3,0.0035211267605633804
+"REJECT_EXTENDED_RANGES",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService50() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness49() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness48() throws java.io.IOException",30,0.035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness47() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions20() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService52() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions21() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness53() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions13() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService48() throws java.io.IOException",45,0.0528169014084507
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions12() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness52() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService45() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions15() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions14() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService46() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions17() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions16() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness55() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions18() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness54() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService44() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Options com.github.javafaker.SerializedObjectSupporter.deserializeObjectOptions11() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness57() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale$Builder java.util.Locale$Builder.setUnicodeLocaleKeyword(java.lang.String,java.lang.String)",3,0.0035211267605633804
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness59() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness58() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness60() throws java.io.IOException",1,0.0011737089201877935
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale24() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness61() throws java.io.IOException",4,0.004694835680751174
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale27() throws java.io.IOException",2,0.002347417840375587
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale29() throws java.io.IOException",5,0.005868544600938967
+"java.util.Locale[23]",3,0.0035211267605633804
+"public java.util.Locale com.github.javafaker.SerializedObjectSupporter.deserializeObjectLocale21() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService19() throws java.io.IOException",34,0.03990610328638498
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany45() throws java.io.IOException",17,0.01995305164319249
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode37() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany46() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode36() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany47() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode35() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode33() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Company com.github.javafaker.Faker.company()",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode32() throws java.io.IOException",11,0.012910798122065728
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService30() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService31() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany51() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService25() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService26() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService23() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany50() throws java.io.IOException",37,0.04342723004694836
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService24() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany55() throws java.io.IOException",5,0.005868544600938967
+"DISPLAY",1,0.0011737089201877935
+"public com.github.javafaker.Company com.github.javafaker.SerializedObjectSupporter.deserializeObjectCompany53() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService27() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode39() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService28() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode38() throws java.io.IOException",9,0.01056338028169014
+"public com.github.javafaker.service.RandomService com.github.javafaker.SerializedObjectSupporter.deserializeObjectRandomService2() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.RandomService com.github.javafaker.SerializedObjectSupporter.deserializeObjectRandomService1() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService22() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.RandomService com.github.javafaker.SerializedObjectSupporter.deserializeObjectRandomService3() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode40() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.Faker.getbook()",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode47() throws java.io.IOException",51,0.05985915492957746
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode46() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode44() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode43() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook55() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook51() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook58() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook57() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode14() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode13() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode12() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode10() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance59() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode41() throws java.io.IOException",1,0.0011737089201877935
+"public boolean java.util.Random.nextBoolean()",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode19() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance60() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Finance com.github.javafaker.SerializedObjectSupporter.deserializeObjectFinance61() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode18() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode16() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber9() throws java.io.IOException",26,0.03051643192488263
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker7() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Name com.github.javafaker.Faker.getname()",4,0.004694835680751174
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode26() throws java.io.IOException",11,0.012910798122065728
+"public java.util.Locale$Builder java.util.Locale$Builder.setExtension(char,java.lang.String)",5,0.005868544600938967
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode24() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode22() throws java.io.IOException",6,0.007042253521126761
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode21() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService41() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService42() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode20() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService36() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker2() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker3() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService37() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService34() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker1() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService35() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker6() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker4() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker5() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService39() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker9() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.service.FakeValuesService com.github.javafaker.SerializedObjectSupporter.deserializeObjectFakeValuesService33() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook56() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber18() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber19() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber21() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber25() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber22() throws java.io.IOException",13,0.015258215962441314
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber28() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook61() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber26() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook60() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber27() throws java.io.IOException",1,0.0011737089201877935
+"public final java.lang.String java.util.Locale.getDisplayCountry()",2,0.002347417840375587
+"public java.lang.String java.util.Locale.getDisplayCountry(java.util.Locale)",3,0.0035211267605633804
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook45() throws java.io.IOException",44,0.051643192488262914
+"public int java.util.Random.nextInt(int)",6,0.007042253521126761
+"public int java.util.Random.nextInt()",3,0.0035211267605633804
+"public final com.github.javafaker.service.RandomService com.github.javafaker.Faker.randomService",2,0.002347417840375587
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber29() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber5() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber4() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber3() throws java.io.IOException",1,0.0011737089201877935
+"public java.lang.String java.util.Locale.getScript()",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber2() throws java.io.IOException",8,0.009389671361502348
+"public static final java.util.Locale java.util.Locale.SIMPLIFIED_CHINESE",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber32() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber7() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber6() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber35() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber36() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook11() throws java.io.IOException",10,0.011737089201877934
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber33() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook10() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber34() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber1() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber39() throws java.io.IOException",1,0.0011737089201877935
+"public final com.github.javafaker.Code com.github.javafaker.Faker.code",3,0.0035211267605633804
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber37() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook19() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook18() throws java.io.IOException",16,0.018779342723004695
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook17() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber31() throws java.io.IOException",8,0.009389671361502348
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook14() throws java.io.IOException",16,0.018779342723004695
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook13() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook34() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode50() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Lorem com.github.javafaker.Faker.lorem()",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode59() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode58() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode57() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode56() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode55() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode54() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode53() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook44() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook42() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook41() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook40() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook49() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook48() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook47() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode9() throws java.io.IOException",2,0.002347417840375587
+"public final java.lang.String java.util.Locale.getDisplayName()",2,0.002347417840375587
+"public java.lang.String java.util.Locale.getDisplayName(java.util.Locale)",3,0.0035211267605633804
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode60() throws java.io.IOException",4,0.004694835680751174
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode4() throws java.io.IOException",13,0.015258215962441314
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode5() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker90() throws java.io.IOException",76,0.0892018779342723
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode6() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Code com.github.javafaker.SerializedObjectSupporter.deserializeObjectCode7() throws java.io.IOException",4,0.004694835680751174
+"public static final double java.util.Locale$LanguageRange.MAX_WEIGHT",1,0.0011737089201877935
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker94() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker93() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber10() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber13() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber14() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber11() throws java.io.IOException",17,0.01995305164319249
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker92() throws java.io.IOException",5,0.005868544600938967
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber17() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber15() throws java.io.IOException",2,0.002347417840375587
+"IGNORE_EXTENDED_RANGES",1,0.0011737089201877935
+"public com.github.javafaker.PhoneNumber com.github.javafaker.SerializedObjectSupporter.deserializeObjectPhoneNumber16() throws java.io.IOException",1,0.0011737089201877935
+"public java.lang.String com.github.javafaker.Faker.letterify(java.lang.String)",3,0.0035211267605633804
+"public com.github.javafaker.Faker com.github.javafaker.SerializedObjectSupporter.deserializeObjectFaker89() throws java.io.IOException",10,0.011737089201877934
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook12() throws java.io.IOException",1,0.0011737089201877935
+"EXTENDED_FILTERING",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness28() throws java.io.IOException",35,0.04107981220657277
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor9() throws java.io.IOException",1,0.0011737089201877935
+"public java.lang.String java.util.Locale.toLanguageTag()",2,0.002347417840375587
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness27() throws java.io.IOException",1,0.0011737089201877935
+"public static final java.util.Locale java.util.Locale.KOREAN",2,0.002347417840375587
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor7() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness26() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness29() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor1() throws java.io.IOException",10,0.011737089201877934
+"public java.lang.String java.util.Locale.getCountry()",5,0.005868544600938967
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness30() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook22() throws java.io.IOException",2,0.002347417840375587
+"public static final java.util.Locale java.util.Locale.ENGLISH",20,0.023474178403755867
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook21() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook20() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Code com.github.javafaker.Faker.code()",4,0.004694835680751174
+"public com.github.javafaker.Business com.github.javafaker.SerializedObjectSupporter.deserializeObjectBusiness34() throws java.io.IOException",4,0.004694835680751174
+"public java.util.Random com.github.javafaker.SerializedObjectSupporter.deserializeObjectRandom2() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor3() throws java.io.IOException",3,0.0035211267605633804
+"public com.github.javafaker.Color com.github.javafaker.SerializedObjectSupporter.deserializeObjectColor2() throws java.io.IOException",18,0.02112676056338028
+"public java.util.Random com.github.javafaker.SerializedObjectSupporter.deserializeObjectRandom1() throws java.io.IOException",21,0.02464788732394366
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook29() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook28() throws java.io.IOException",7,0.008215962441314555
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook27() throws java.io.IOException",1,0.0011737089201877935
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook25() throws java.io.IOException",2,0.002347417840375587
+"public com.github.javafaker.Book com.github.javafaker.SerializedObjectSupporter.deserializeObjectBook24() throws java.io.IOException",4,0.004694835680751174

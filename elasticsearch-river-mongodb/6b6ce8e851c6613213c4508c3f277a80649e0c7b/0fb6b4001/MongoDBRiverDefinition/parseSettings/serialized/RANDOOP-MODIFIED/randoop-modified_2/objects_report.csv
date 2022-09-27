@@ -1,0 +1,22 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition$Builder,41752,3148,4.1289556962025316,0.3113132911392405
+class [Lcom.mongodb.ServerAddress;,238,1,0.02353639240506329,9.889240506329114E-5
+class java.lang.String,18594,58,1.8388053797468353,0.005735759493670886
+class org.elasticsearch.common.unit.TimeValue,145,1,0.014339398734177215,9.889240506329114E-5
+class org.elasticsearch.script.ScriptService$CacheKey,546,546,0.053995253164556965,0.053995253164556965
+class org.elasticsearch.river.mongodb.MongoDBRiverDefinition,16252,705,1.6071993670886076,0.06971914556962025
+class java.util.ArrayList,1352,2,0.1337025316455696,1.9778481012658228E-4
+class org.elasticsearch.common.unit.ByteSizeValue,75,1,0.007416930379746835,9.889240506329114E-5
+class [Ljava.lang.String;,3141,6,0.31062104430379744,5.933544303797469E-4
+class java.lang.Boolean,15824,2,1.5648734177215189,1.9778481012658228E-4
+class [Lorg.elasticsearch.script.ScriptEngineService;,1,1,9.889240506329114E-5,9.889240506329114E-5
+class com.mongodb.BasicDBObject,2240,4,0.22151898734177214,3.9556962025316455E-4
+class sun.security.ssl.SSLSocketFactoryImpl,1,1,9.889240506329114E-5,9.889240506329114E-5
+class org.elasticsearch.common.logging.log4j.Log4jESLogger,112,1,0.011075949367088608,9.889240506329114E-5
+class java.lang.Integer,2283,10,0.22577136075949367,9.889240506329115E-4
+class org.elasticsearch.script.ScriptService$DocScoreNativeScriptFactory,172,1,0.017009493670886076,9.889240506329114E-5
+class org.elasticsearch.script.ScriptService$DocScoreSearchScript,873,13,0.08633306962025317,0.0012856012658227847
+class org.elasticsearch.river.RiverSettings,230,2,0.022745253164556962,1.9778481012658228E-4
+class java.util.LinkedHashSet,3384,7,0.3346518987341772,6.92246835443038E-4
+class java.lang.Class,51,5,0.005043512658227848,4.944620253164557E-4
+class org.elasticsearch.river.mongodb.SerializedObjectSupporter,1317,1,0.13024129746835442,9.889240506329114E-5

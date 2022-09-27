@@ -1,0 +1,156 @@
+Methods called,Number of times,Number of times (Normalized)
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource16() throws java.io.IOException",393,0.059437386569872956
+"public volatile long com.zaxxer.hikari.HikariConfig.idleTimeout",287,0.04340592861464005
+"public volatile long com.zaxxer.hikari.HikariConfig.idleTimeout",407,0.061554748941318814
+"public void com.zaxxer.hikari.HikariConfig.setMaxLifetime(long)",256,0.03871748336358137
+"public void com.zaxxer.hikari.HikariConfig.setConnectionCustomizerClassName(java.lang.String)",240,0.036297640653357534
+"public long com.zaxxer.hikari.HikariConfig.getConnectionTimeout()",206,0.031155474894131882
+"public static final long com.zaxxer.hikari.HikariConfig.CONNECTION_TIMEOUT",1,1.5124016938898973E-4
+"public boolean com.zaxxer.hikari.HikariConfig.getisAutoCommit()",210,0.03176043557168784
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource11() throws java.io.IOException",305,0.046128251663641866
+"public void com.zaxxer.hikari.HikariConfig.copyState(com.zaxxer.hikari.HikariConfig)",363,0.05490018148820327
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource10() throws java.io.IOException",413,0.06246218995765275
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource13() throws java.io.IOException",446,0.06745311554748941
+"public com.zaxxer.hikari.IConnectionCustomizer com.zaxxer.hikari.HikariConfig.getConnectionCustomizer()",2845,0.4302782819116757
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource12() throws java.io.IOException",186,0.028130671506352088
+"public volatile long com.zaxxer.hikari.HikariConfig.leakDetectionThreshold",284,0.04295220810647308
+"public volatile long com.zaxxer.hikari.HikariConfig.leakDetectionThreshold",191,0.028886872353297035
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource15() throws java.io.IOException",248,0.03750756200846945
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource14() throws java.io.IOException",188,0.028433151845130067
+"public int com.zaxxer.hikari.HikariConfig.getmaxPoolSize()",238,0.035995160314579555
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource17() throws java.io.IOException",280,0.04234724742891712
+"public void com.zaxxer.hikari.HikariConfig.setConnectionTestQuery(java.lang.String)",181,0.027374470659407138
+"public void com.zaxxer.hikari.HikariConfig.setDataSourceProperties(java.util.Properties)",337,0.05096793708408953
+"public long com.zaxxer.hikari.HikariConfig.getIDLE_TIMEOUT()",171,0.02586206896551724
+"public java.lang.String com.zaxxer.hikari.HikariConfig.gettransactionIsolationName()",1212,0.18330308529945555
+"public void com.zaxxer.hikari.HikariConfig.setInitializationFailFast(boolean)",365,0.05520266182698125
+"public void com.zaxxer.hikari.HikariConfig.setisJdbc4connectionTest(boolean)",226,0.034180278281911676
+"public void com.zaxxer.hikari.HikariConfig.setUseInstrumentation(boolean)",2148,0.3248638838475499
+"public void com.zaxxer.hikari.HikariConfig.setLeakDetectionThreshold(long)",234,0.03539019963702359
+"public static int com.zaxxer.hikari.HikariConfig.poolNumber",56,0.008469449485783424
+"public static int com.zaxxer.hikari.HikariConfig.poolNumber",1,1.5124016938898973E-4
+"public com.zaxxer.hikari.SerializedObjectSupporter com.zaxxer.hikari.HikariConfig.serializedObjectSupporter",251,0.03796128251663642
+"public com.zaxxer.hikari.SerializedObjectSupporter com.zaxxer.hikari.HikariConfig.serializedObjectSupporter",757,0.11448880822746521
+"public int com.zaxxer.hikari.HikariConfig.getMaximumPoolSize()",345,0.052177858439201454
+"public long com.zaxxer.hikari.HikariConfig.getMaxLifetime()",351,0.05308529945553539
+"public void com.zaxxer.hikari.HikariConfig.setisRegisterMbeans(boolean)",226,0.034180278281911676
+"public static final org.slf4j.Logger com.zaxxer.hikari.HikariConfig.LOGGER",1,1.5124016938898973E-4
+"public void com.zaxxer.hikari.HikariConfig.validate()",96,0.014519056261343012
+"public boolean com.zaxxer.hikari.HikariConfig.isJdbc4connectionTest",257,0.038868723532970356
+"public boolean com.zaxxer.hikari.HikariConfig.isJdbc4connectionTest",172,0.02601330913490623
+"public javax.sql.DataSource com.zaxxer.hikari.HikariConfig.dataSource",1141,0.17256503327283726
+"public javax.sql.DataSource com.zaxxer.hikari.HikariConfig.dataSource",242,0.03660012099213551
+"public int com.zaxxer.hikari.HikariConfig.transactionIsolation",220,0.03327283726557774
+"public int com.zaxxer.hikari.HikariConfig.transactionIsolation",260,0.03932244404113733
+"public void com.zaxxer.hikari.HikariConfig.setTransactionIsolation(java.lang.String)",401,0.06064730792498488
+"public void com.zaxxer.hikari.HikariConfig.setpoolNumber(int)",167,0.025257108287961284
+"public void com.zaxxer.hikari.HikariConfig.setisAutoCommit(boolean)",376,0.056866303690260134
+"public com.zaxxer.hikari.IConnectionCustomizer com.zaxxer.hikari.HikariConfig.connectionCustomizer",211,0.03191167574107683
+"public com.zaxxer.hikari.IConnectionCustomizer com.zaxxer.hikari.HikariConfig.connectionCustomizer",250,0.03781004234724743
+"public final native java.lang.Class java.lang.Object.getClass()",87,0.013157894736842105
+"public long com.zaxxer.hikari.HikariConfig.getMAX_LIFETIME()",374,0.056563823351482155
+"public int com.zaxxer.hikari.HikariConfig.getMinimumPoolSize()",215,0.03251663641863279
+"public java.lang.String com.zaxxer.hikari.HikariConfig.getConnectionInitSql()",211,0.03191167574107683
+"public java.lang.String com.zaxxer.hikari.HikariConfig.getPoolName()",207,0.03130671506352087
+"public java.lang.String com.zaxxer.hikari.HikariConfig.connectionCustomizerClassName",350,0.052934059286146404
+"public java.lang.String com.zaxxer.hikari.HikariConfig.connectionCustomizerClassName",302,0.045674531155474894
+"public java.lang.String com.zaxxer.hikari.HikariConfig.connectionInitSql",871,0.13173018753781005
+"public void com.zaxxer.hikari.HikariConfig.setAcquireRetryDelay(long)",282,0.0426497277676951
+"public java.lang.String com.zaxxer.hikari.HikariConfig.connectionInitSql",256,0.03871748336358137
+"public long com.zaxxer.hikari.HikariConfig.getAcquireRetryDelay()",179,0.02707199032062916
+"public void com.zaxxer.hikari.HikariConfig.setAcquireIncrement(int)",121,0.018300060496067756
+"public java.util.Properties com.zaxxer.hikari.HikariConfig.dataSourceProperties",549,0.08303085299455536
+"public java.util.Properties com.zaxxer.hikari.HikariConfig.dataSourceProperties",632,0.0955837870538415
+"public boolean com.zaxxer.hikari.HikariConfig.isAutoCommit",191,0.028886872353297035
+"public boolean com.zaxxer.hikari.HikariConfig.isAutoCommit",336,0.050816696914700546
+"public org.slf4j.Logger com.zaxxer.hikari.HikariConfig.getLOGGER()",325,0.04915305505142166
+"public java.lang.String com.zaxxer.hikari.HikariConfig.dataSourceClassName",752,0.11373260738052027
+"public java.lang.String com.zaxxer.hikari.HikariConfig.dataSourceClassName",365,0.05520266182698125
+"public void com.zaxxer.hikari.HikariConfig.setminPoolSize(int)",201,0.030399274047186932
+"com.zaxxer.hikari.SerializedObjectSupporter()",1940,0.29340592861464004
+"public void com.zaxxer.hikari.HikariConfig.setConnectionTimeout(long)",218,0.03297035692679976
+"public int com.zaxxer.hikari.HikariConfig.getpoolNumber()",258,0.03901996370235935
+"public int com.zaxxer.hikari.HikariConfig.getAcquireIncrement()",279,0.04219600725952813
+"public boolean com.zaxxer.hikari.HikariConfig.isJdbc4ConnectionTest()",247,0.03735632183908046
+"public int com.zaxxer.hikari.HikariConfig.getminPoolSize()",284,0.04295220810647308
+"public com.zaxxer.hikari.HikariConfig com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig1() throws java.io.IOException",850,0.12855414398064124
+"public void com.zaxxer.hikari.HikariConfig.setisInitializationFailFast(boolean)",285,0.04310344827586207
+"public com.zaxxer.hikari.HikariConfig com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig2() throws java.io.IOException",1007,0.15229885057471265
+"public java.lang.String com.zaxxer.hikari.HikariConfig.connectionTestQuery",180,0.02722323049001815
+"public java.lang.String com.zaxxer.hikari.HikariConfig.connectionTestQuery",194,0.029340592861464006
+"public java.util.Properties com.zaxxer.hikari.HikariConfig.getDataSourceProperties()",912,0.13793103448275862
+"public boolean com.zaxxer.hikari.HikariConfig.isAutoCommit()",324,0.04900181488203267
+"public com.zaxxer.hikari.HikariConfig com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariConfig3() throws java.io.IOException",900,0.13611615245009073
+"public void com.zaxxer.hikari.HikariConfig.setRegisterMbeans(boolean)",408,0.06170598911070781
+"public void com.zaxxer.hikari.HikariConfig.setDataSource(javax.sql.DataSource)",690,0.10435571687840291
+"public boolean com.zaxxer.hikari.HikariConfig.isRegisterMbeans",208,0.03145795523290986
+"public boolean com.zaxxer.hikari.HikariConfig.isRegisterMbeans",390,0.05898366606170599
+"public java.lang.String com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectString7() throws java.io.IOException",588,0.08892921960072596
+"public boolean com.zaxxer.hikari.HikariConfig.isRegisterMbeans()",845,0.1277979431336963
+"public long com.zaxxer.hikari.HikariConfig.getIdleTimeout()",389,0.058832425892317
+"public java.lang.String com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectString8() throws java.io.IOException",234,0.03539019963702359
+"public static final long com.zaxxer.hikari.HikariConfig.IDLE_TIMEOUT",1,1.5124016938898973E-4
+"public java.lang.String com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectString2() throws java.io.IOException",831,0.12568058076225044
+"public long com.zaxxer.hikari.HikariConfig.getLeakDetectionThreshold()",197,0.029794313369630974
+"public java.lang.String com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectString3() throws java.io.IOException",279,0.04219600725952813
+"public static final long com.zaxxer.hikari.HikariConfig.MAX_LIFETIME",1,1.5124016938898973E-4
+"public java.lang.String com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectString6() throws java.io.IOException",283,0.042800967937084086
+"public java.lang.String com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectString4() throws java.io.IOException",267,0.04038112522686026
+"public void com.zaxxer.hikari.HikariConfig.setCatalog(java.lang.String)",208,0.03145795523290986
+"public void com.zaxxer.hikari.HikariConfig.setIdleTimeout(long)",288,0.043557168784029036
+"public java.lang.String com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectString5() throws java.io.IOException",473,0.07153660012099214
+"public java.lang.String com.zaxxer.hikari.HikariConfig.transactionIsolationName",331,0.050060496067755596
+"public java.lang.String com.zaxxer.hikari.HikariConfig.transactionIsolationName",299,0.04522081064730792
+"public void com.zaxxer.hikari.HikariConfig.setAutoCommit(boolean)",353,0.05338777979431337
+"public void com.zaxxer.hikari.HikariConfig.addDataSourceProperty(java.lang.String,java.lang.Object)",173,0.02616454930429522
+"public volatile int com.zaxxer.hikari.HikariConfig.acquireRetries",227,0.03433151845130067
+"public volatile int com.zaxxer.hikari.HikariConfig.acquireRetries",221,0.033424077434966726
+"public org.slf4j.impl.SimpleLogger com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectLogger1() throws java.io.IOException",398,0.060193587416817906
+"public void com.zaxxer.hikari.HikariConfig.setJdbc4ConnectionTest(boolean)",312,0.047186932849364795
+"public java.lang.String com.zaxxer.hikari.HikariConfig.getConnectionTestQuery()",2136,0.32304900181488205
+"public volatile long com.zaxxer.hikari.HikariConfig.connectionTimeout",574,0.0868118572292801
+"public volatile long com.zaxxer.hikari.HikariConfig.connectionTimeout",273,0.04128856624319419
+"public java.util.Properties com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectProperties1() throws java.io.IOException",272,0.0411373260738052
+"public void com.zaxxer.hikari.HikariConfig.setPoolName(java.lang.String)",377,0.05701754385964912
+"public java.lang.String com.zaxxer.hikari.HikariConfig.getConnectionCustomizerClassName()",2501,0.3782516636418633
+"public void com.zaxxer.hikari.HikariConfig.setConnectionInitSql(java.lang.String)",534,0.08076225045372051
+"public void com.zaxxer.hikari.HikariConfig.setDataSourceClassName(java.lang.String)",1494,0.22595281306715065
+"public volatile int com.zaxxer.hikari.HikariConfig.minPoolSize",1321,0.1997882637628554
+"public volatile int com.zaxxer.hikari.HikariConfig.minPoolSize",159,0.024047186932849365
+"public void com.zaxxer.hikari.HikariConfig.setmaxPoolSize(int)",212,0.03206291591046582
+"public java.lang.String com.zaxxer.hikari.HikariConfig.getDataSourceClassName()",783,0.11842105263157894
+"public int com.zaxxer.hikari.HikariConfig.getAcquireRetries()",334,0.05051421657592257
+"public volatile int com.zaxxer.hikari.HikariConfig.maxPoolSize",3492,0.5281306715063521
+"public volatile int com.zaxxer.hikari.HikariConfig.maxPoolSize",266,0.040229885057471264
+"public void com.zaxxer.hikari.HikariConfig.setAcquireRetries(int)",266,0.040229885057471264
+"public void com.zaxxer.hikari.HikariConfig.setMaximumPoolSize(int)",392,0.05928614640048397
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource7() throws java.io.IOException",626,0.09467634603750756
+"public boolean com.zaxxer.hikari.HikariConfig.getisRegisterMbeans()",290,0.043859649122807015
+"public volatile long com.zaxxer.hikari.HikariConfig.maxLifetime",146,0.022081064730792497
+"public volatile long com.zaxxer.hikari.HikariConfig.maxLifetime",276,0.041742286751361164
+"public javax.sql.DataSource com.zaxxer.hikari.HikariConfig.getDataSource()",366,0.05535390199637023
+"public boolean com.zaxxer.hikari.HikariConfig.isInitializationFailFast",1046,0.15819721718088325
+"public boolean com.zaxxer.hikari.HikariConfig.isInitializationFailFast",170,0.02571082879612825
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource2() throws java.io.IOException",156,0.023593466424682397
+"public boolean com.zaxxer.hikari.HikariConfig.getisInitializationFailFast()",179,0.02707199032062916
+"public java.lang.String com.zaxxer.hikari.HikariConfig.getCatalog()",2646,0.40018148820326677
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource4() throws java.io.IOException",171,0.02586206896551724
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource1() throws java.io.IOException",1021,0.1544162129461585
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource6() throws java.io.IOException",377,0.05701754385964912
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource3() throws java.io.IOException",218,0.03297035692679976
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource8() throws java.io.IOException",411,0.06215970961887477
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource5() throws java.io.IOException",438,0.0662431941923775
+"public int com.zaxxer.hikari.HikariConfig.getTransactionIsolation()",954,0.1442831215970962
+"public com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.SerializedObjectSupporter.deserializeObjectHikariDataSource9() throws java.io.IOException",154,0.023290986085904415
+"public java.lang.String com.zaxxer.hikari.HikariConfig.poolName",223,0.033726557773744704
+"public java.lang.String com.zaxxer.hikari.HikariConfig.poolName",377,0.05701754385964912
+"com.zaxxer.hikari.HikariConfig(java.lang.String)",163,0.024652147610405323
+"com.zaxxer.hikari.HikariConfig(java.util.Properties)",7467,1.1293103448275863
+"com.zaxxer.hikari.HikariConfig()",165,0.0249546279491833
+"public java.lang.String com.zaxxer.hikari.HikariConfig.catalog",416,0.06291591046581972
+"public java.lang.String com.zaxxer.hikari.HikariConfig.catalog",220,0.03327283726557774
+"public void com.zaxxer.hikari.HikariConfig.setMinimumPoolSize(int)",166,0.025105868118572294
+"public boolean com.zaxxer.hikari.HikariConfig.getisJdbc4connectionTest()",217,0.03281911675741077
+"public void com.zaxxer.hikari.HikariConfig.settransactionIsolationName(java.lang.String)",547,0.08272837265577737
+"public long com.zaxxer.hikari.HikariConfig.getCONNECTION_TIMEOUT()",225,0.03402903811252268
+"public boolean com.zaxxer.hikari.HikariConfig.isInitializationFailFast()",356,0.05384150030248034

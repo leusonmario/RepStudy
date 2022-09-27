@@ -1,0 +1,177 @@
+Methods called,Number of times,Number of times (Normalized)
+"public final java.lang.String org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.jarPath",68,0.025092250922509225
+"public javax.net.ssl.KeyManager[] org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getKeyManagers()",34,0.012546125461254613
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory26() throws java.io.IOException",450,0.16605166051660517
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setRegisterDefaultServlet(boolean)",123,0.04538745387453875
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory25() throws java.io.IOException",130,0.04797047970479705
+"public java.util.Collection org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getDeploymentInfoCustomizers()",423,0.15608856088560885
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory24() throws java.io.IOException",624,0.23025830258302582
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory23() throws java.io.IOException",139,0.05129151291512915
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory22() throws java.io.IOException",97,0.03579335793357934
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory21() throws java.io.IOException",1280,0.47232472324723246
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.configureAccessLog(io.undertow.servlet.api.DeploymentInfo)",28,0.010332103321033211
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory20() throws java.io.IOException",327,0.12066420664206642
+"public java.util.Collections org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectSet1() throws java.io.IOException",32,0.011808118081180811
+"public java.lang.String org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getDisplayName()",76,0.028044280442804426
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.addInitializers(org.springframework.boot.context.embedded.ServletContextInitializer[])",167,0.06162361623616236
+"public org.springframework.boot.context.embedded.MimeMappings org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getMimeMappings()",140,0.05166051660516605
+"public boolean org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.isRegisterDefaultServlet()",138,0.05092250922509225
+"public org.xnio.XnioWorker org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.createWorker() throws java.io.IOException",265,0.09778597785977859
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setCompression(org.springframework.boot.context.embedded.Compression)",72,0.026568265682656828
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory29() throws java.io.IOException",239,0.08819188191881919
+"public boolean org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.isAccessLogEnabled()",231,0.08523985239852398
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory27() throws java.io.IOException",129,0.04760147601476015
+"public org.springframework.boot.context.embedded.EmbeddedServletContainer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getEmbeddedServletContainer(org.springframework.boot.context.embedded.ServletContextInitializer[])",80,0.02952029520295203
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getUndertowEmbeddedServletContainer(io.undertow.Undertow$Builder,io.undertow.servlet.api.DeploymentManager,int)",87,0.032103321033210334
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.configureSsl(org.springframework.boot.context.embedded.Ssl,int,io.undertow.Undertow$Builder)",30,0.01107011070110701
+"public boolean org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.accessLogEnabled",63,0.023247232472324724
+"public boolean org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.accessLogEnabled",65,0.023985239852398525
+"public org.springframework.core.io.ResourceLoader org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.resourceLoader",60,0.02214022140221402
+"public org.springframework.core.io.ResourceLoader org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.resourceLoader",34,0.012546125461254613
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.addErrorPages(org.springframework.boot.context.embedded.ErrorPage[])",1111,0.4099630996309963
+"public org.springframework.boot.context.embedded.Compression org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getCompression()",59,0.021771217712177122
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.addBuilderCustomizers(org.springframework.boot.context.embedded.undertow.UndertowBuilderCustomizer[])",161,0.05940959409594096
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory30() throws java.io.IOException",1128,0.41623616236162364
+"org.springframework.boot.context.embedded.undertow.UndertowDeploymentInfoCustomizer[0]",410,0.15129151291512916
+"public java.lang.Integer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.ioThreads",95,0.03505535055350553
+"public java.lang.Integer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.ioThreads",52,0.01918819188191882
+"org.springframework.boot.context.embedded.undertow.UndertowDeploymentInfoCustomizer[1]",1,3.6900369003690036E-4
+"public java.util.Collection org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getBuilderCustomizers()",132,0.04870848708487085
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setDirectBuffers(java.lang.Boolean)",283,0.1044280442804428
+"public org.springframework.boot.context.embedded.JspServlet org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getJspServlet()",144,0.053136531365313655
+"org.springframework.boot.context.embedded.ServletContextInitializer[5]",2,7.380073800738007E-4
+"org.springframework.boot.context.embedded.ServletContextInitializer[6]",3,0.001107011070110701
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.removeResourceChangeListener(io.undertow.server.handlers.resource.ResourceChangeListener)",35,0.012915129151291513
+"org.springframework.boot.context.embedded.ServletContextInitializer[3]",2,7.380073800738007E-4
+"org.springframework.boot.context.embedded.ServletContextInitializer[4]",33,0.012177121771217712
+"org.springframework.boot.context.embedded.ServletContextInitializer[1]",1,3.6900369003690036E-4
+"org.springframework.boot.context.embedded.ServletContextInitializer[2]",2,7.380073800738007E-4
+"org.springframework.boot.context.embedded.ServletContextInitializer[0]",489,0.18044280442804428
+"public java.lang.Integer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.bufferSize",258,0.0952029520295203
+"public java.lang.Integer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.bufferSize",209,0.07712177121771217
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.createAccessLogDirectoryIfNecessary()",40,0.014760147601476014
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setBuffersPerRegion(java.lang.Integer)",431,0.15904059040590407
+"public io.undertow.server.handlers.resource.Resource org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.getResource(java.lang.String) throws java.io.IOException",26,0.00959409594095941
+"public java.io.File org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.accessLogDirectory",254,0.09372693726937269
+"public java.io.File org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.accessLogDirectory",57,0.02103321033210332
+"java.util.ArrayList()",47,0.01734317343173432
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setIoThreads(java.lang.Integer)",58,0.021402214022140223
+"public final native java.lang.Class java.lang.Object.getClass()",31,0.011439114391143911
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.configureMimeMappings(io.undertow.servlet.api.DeploymentInfo)",40,0.014760147601476014
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.configureErrorPages(io.undertow.servlet.api.DeploymentInfo)",76,0.028044280442804426
+"public final org.springframework.boot.context.embedded.ServletContextInitializer[] org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$Initializer.initializers",326,0.12029520295202951
+"java.util.LinkedHashSet()",3,0.001107011070110701
+"public static final io.undertow.server.handlers.resource.ResourceManager io.undertow.server.handlers.resource.ResourceManager.EMPTY_RESOURCE_MANAGER",1,3.6900369003690036E-4
+"public org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$Initializer.serializedObjectSupporter",503,0.1856088560885609
+"public org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$Initializer.serializedObjectSupporter",117,0.04317343173431734
+"org.springframework.boot.context.embedded.ErrorPage[1]",944,0.34833948339483395
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setJspServlet(org.springframework.boot.context.embedded.JspServlet)",149,0.05498154981549815
+"org.springframework.boot.context.embedded.ErrorPage[0]",3,0.001107011070110701
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory9() throws java.io.IOException",169,0.062361623616236164
+"public org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.serializedObjectSupporter",124,0.045756457564575644
+"public org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.serializedObjectSupporter",253,0.09335793357933579
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory5() throws java.io.IOException",482,0.17785977859778598
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory3() throws java.io.IOException",468,0.17269372693726937
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory4() throws java.io.IOException",74,0.02730627306273063
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory1() throws java.io.IOException",262,0.09667896678966789
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory2() throws java.io.IOException",505,0.1863468634686347
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setMimeMappings(org.springframework.boot.context.embedded.MimeMappings)",56,0.020664206642066422
+"public io.undertow.server.handlers.accesslog.AccessLogHandler org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.createAccessLogHandler(io.undertow.server.HttpHandler)",36,0.013284132841328414
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setSessionStoreDir(java.io.File)",168,0.06199261992619926
+"public org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.serializedObjectSupporter",86,0.03173431734317343
+"public org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.serializedObjectSupporter",88,0.03247232472324723
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setErrorPages(java.util.Set)",48,0.017712177121771217
+"public io.undertow.Undertow$Builder org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.createBuilder(int)",145,0.05350553505535055
+"public static final java.util.Set org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.NO_CLASSES",1,3.6900369003690036E-4
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setContextPath(java.lang.String)",110,0.04059040590405904
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setPersistSession(boolean)",49,0.01808118081180812
+"public org.xnio.SslClientAuthMode org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getSslClientAuthMode(org.springframework.boot.context.embedded.Ssl)",77,0.02841328413284133
+"public java.util.Set org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getErrorPages()",530,0.19557195571955718
+"public java.lang.Boolean org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.directBuffers",42,0.015498154981549815
+"public java.lang.Boolean org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.directBuffers",76,0.028044280442804426
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setDocumentRoot(java.io.File)",110,0.04059040590405904
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setSessionTimeout(int,java.util.concurrent.TimeUnit)",30,0.01107011070110701
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setSessionTimeout(int)",95,0.03505535055350553
+"public java.lang.ClassLoader org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getServletClassLoader()",82,0.03025830258302583
+"public java.io.File org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getSessionStoreDir()",101,0.03726937269372694
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setPort(int)",84,0.03099630996309963
+"public boolean org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.useForwardHeaders",113,0.04169741697416974
+"public boolean org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.useForwardHeaders",343,0.12656826568265683
+"public java.lang.String org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getContextPath()",67,0.024723247232472326
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setSsl(org.springframework.boot.context.embedded.Ssl)",88,0.03247232472324723
+"org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$Initializer([Lorg.springframework.boot.context.embedded.ServletContextInitializer;)",677,0.24981549815498155
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory40() throws java.io.IOException",273,0.1007380073800738
+"public static boolean java.util.Collections.addAll(java.util.Collection,java.lang.Object[])",50,0.01845018450184502
+"org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager(java.io.File)",238,0.08782287822878229
+"org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager(java.lang.String)",189,0.06974169741697417
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory37() throws java.io.IOException",68,0.025092250922509225
+"public org.springframework.boot.context.embedded.Ssl org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getSsl()",436,0.16088560885608857
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory36() throws java.io.IOException",216,0.07970479704797048
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory35() throws java.io.IOException",402,0.14833948339483394
+"public boolean org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.isResourceChangeListenerSupported()",50,0.01845018450184502
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory34() throws java.io.IOException",465,0.17158671586715868
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory33() throws java.io.IOException",115,0.042435424354243544
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory32() throws java.io.IOException",126,0.04649446494464945
+"org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory(int)",2233,0.8239852398523986
+"org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory(java.lang.String, int)",42,0.015498154981549815
+"org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory()",101,0.03726937269372694
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory31() throws java.io.IOException",1293,0.47712177121771215
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setBufferSize(java.lang.Integer)",110,0.04059040590405904
+"public java.lang.String org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getListenAddress()",59,0.021771217712177122
+"public io.undertow.servlet.api.ErrorPage org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getUndertowErrorPage(org.springframework.boot.context.embedded.ErrorPage)",37,0.013653136531365314
+"public int org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getSessionTimeout()",83,0.030627306273062732
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setResourceLoader(org.springframework.core.io.ResourceLoader)",69,0.025461254612546124
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.registerResourceChangeListener(io.undertow.server.handlers.resource.ResourceChangeListener)",18,0.006642066420664207
+"public java.util.List org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.deploymentInfoCustomizers",551,0.2033210332103321
+"public java.util.List org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.deploymentInfoCustomizers",131,0.048339483394833946
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory39() throws java.io.IOException",113,0.04169741697416974
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory38() throws java.io.IOException",109,0.040221402214022144
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setJspServletClassName(java.lang.String)",88,0.03247232472324723
+"public java.lang.Integer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.buffersPerRegion",288,0.10627306273062731
+"public java.lang.Integer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.buffersPerRegion",58,0.021402214022140223
+"public java.lang.String org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.accessLogPattern",88,0.03247232472324723
+"public java.lang.String org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.accessLogPattern",60,0.02214022140221402
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setUseForwardHeaders(boolean)",58,0.021402214022140223
+"public java.util.List org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.builderCustomizers",81,0.02988929889298893
+"public java.util.List org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.builderCustomizers",84,0.03099630996309963
+"public java.lang.Integer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.workerThreads",271,0.1
+"public java.lang.Integer org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.workerThreads",38,0.014022140221402213
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setAddress(java.net.InetAddress)",55,0.02029520295202952
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.close() throws java.io.IOException",201,0.07416974169741697
+"public java.lang.String org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$JarResourceManager.getjarPath()",117,0.04317343173431734
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory43() throws java.io.IOException",286,0.1055350553505535
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory42() throws java.io.IOException",140,0.05166051660516605
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.registerServletContainerInitializerToDriveServletContextInitializers(io.undertow.servlet.api.DeploymentInfo,org.springframework.boot.context.embedded.ServletContextInitializer[])",31,0.011439114391143911
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory41() throws java.io.IOException",294,0.10848708487084871
+"public java.util.ArrayList org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectList1() throws java.io.IOException",647,0.23874538745387455
+"public java.io.File org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getDocumentRoot()",287,0.1059040590405904
+"public int org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getPort()",75,0.027675276752767528
+"org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter()",2663,0.9826568265682657
+"public org.springframework.boot.context.embedded.ServletContextInitializer[] org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory$Initializer.getinitializers()",111,0.04095940959409594
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setDisplayName(java.lang.String)",87,0.032103321033210334
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setAccessLogDirectory(java.io.File)",150,0.055350553505535055
+"public void org.springframework.boot.context.embedded.InitParameterConfiguringServletContextInitializer.onStartup(javax.servlet.ServletContext) throws javax.servlet.ServletException",1,3.6900369003690036E-4
+"public boolean org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.isPersistSession()",120,0.04428044280442804
+"org.springframework.boot.context.embedded.undertow.UndertowBuilderCustomizer[0]",20,0.007380073800738007
+"org.springframework.boot.context.embedded.undertow.UndertowBuilderCustomizer[1]",77,0.02841328413284133
+"public io.undertow.server.handlers.resource.ResourceManager org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getDocumentRootResourceManager()",72,0.026568265682656828
+"public javax.net.ssl.TrustManager[] org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getTrustManagers()",33,0.012177121771217712
+"public java.util.Set org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.getNO_CLASSES()",113,0.04169741697416974
+"public io.undertow.servlet.api.DeploymentManager org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.createDeploymentManager(org.springframework.boot.context.embedded.ServletContextInitializer[])",189,0.06974169741697417
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory15() throws java.io.IOException",534,0.1970479704797048
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory14() throws java.io.IOException",253,0.09335793357933579
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory13() throws java.io.IOException",133,0.04907749077490775
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setWorkerThreads(java.lang.Integer)",57,0.02103321033210332
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory12() throws java.io.IOException",129,0.04760147601476015
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory11() throws java.io.IOException",176,0.06494464944649446
+"public java.net.InetAddress org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.getAddress()",240,0.08856088560885608
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory10() throws java.io.IOException",162,0.05977859778597786
+"org.springframework.boot.context.embedded.InitParameterConfiguringServletContextInitializer(java.util.Map)",172,0.06346863468634686
+"public void org.springframework.boot.context.embedded.AbstractConfigurableEmbeddedServletContainer.setRegisterJspServlet(boolean)",289,0.1066420664206642
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.addDeploymentInfoCustomizers(org.springframework.boot.context.embedded.undertow.UndertowDeploymentInfoCustomizer[])",817,0.3014760147601476
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setAccessLogEnabled(boolean)",72,0.026568265682656828
+"public void org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.setAccessLogPattern(java.lang.String)",37,0.013653136531365314
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory19() throws java.io.IOException",163,0.06014760147601476
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory18() throws java.io.IOException",399,0.14723247232472325
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory17() throws java.io.IOException",517,0.1907749077490775
+"public org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory org.springframework.boot.context.embedded.undertow.SerializedObjectSupporter.deserializeObjectUndertowEmbeddedServletContainerFactory16() throws java.io.IOException",1294,0.4774907749077491

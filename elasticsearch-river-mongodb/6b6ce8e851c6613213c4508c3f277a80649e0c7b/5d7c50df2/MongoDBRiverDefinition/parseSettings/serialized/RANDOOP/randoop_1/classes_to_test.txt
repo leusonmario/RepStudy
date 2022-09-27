@@ -1,0 +1,4 @@
+org.elasticsearch.river.mongodb.MongoDBRiverDefinition
+org.elasticsearch.river.RiverSettings
+org.elasticsearch.script.ScriptService
+org.elasticsearch.river.mongodb.SerializedObjectSupporter

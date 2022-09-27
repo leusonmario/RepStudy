@@ -1,0 +1,27 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.lang.Short,21,5,0.006090487238979118,0.0014501160092807424
+class org.jboss.netty.handler.codec.frame.SerializedObjectSupporter,3424,1,0.9930394431554525,2.900232018561485E-4
+class java.lang.Long,36,9,0.010440835266821345,0.0026102088167053363
+class java.lang.Integer,91,23,0.026392111368909513,0.006670533642691415
+class java.lang.Float,4,4,0.001160092807424594,0.001160092807424594
+class [Ljava.nio.ByteBuffer;,3,3,8.700696055684454E-4,8.700696055684454E-4
+class org.jboss.netty.handler.codec.embedder.EmbeddedChannel,113,113,0.03277262180974478,0.03277262180974478
+class java.lang.Byte,5,5,0.0014501160092807424,0.0014501160092807424
+class org.jboss.netty.buffer.SlicedChannelBuffer,3,3,8.700696055684454E-4,8.700696055684454E-4
+class java.lang.Class,2,2,5.80046403712297E-4,5.80046403712297E-4
+class org.jboss.netty.buffer.TruncatedChannelBuffer,2,2,5.80046403712297E-4,5.80046403712297E-4
+class org.jboss.netty.buffer.BigEndianHeapChannelBuffer,8260,448,2.3955916473317864,0.12993039443155452
+class org.jboss.netty.handler.codec.frame.LengthFieldBasedFrameDecoder,102,3,0.029582366589327145,8.700696055684454E-4
+class java.lang.String,2,2,5.80046403712297E-4,5.80046403712297E-4
+class java.nio.ByteOrder,9,1,0.0026102088167053363,2.900232018561485E-4
+class org.jboss.netty.buffer.DuplicatedChannelBuffer,9,7,0.0026102088167053363,0.0020301624129930394
+class org.jboss.netty.buffer.HeapChannelBufferFactory,17,3,0.004930394431554524,8.700696055684454E-4
+class java.lang.Character,13,4,0.0037703016241299302,0.001160092807424594
+class org.jboss.netty.handler.codec.serialization.ObjectDecoder,10866,10142,3.1513921113689096,2.941415313225058
+class org.jboss.netty.handler.codec.embedder.EmbeddedSocketAddress,3,1,8.700696055684454E-4,2.900232018561485E-4
+class org.jboss.netty.channel.DefaultChannelConfig,3,3,8.700696055684454E-4,8.700696055684454E-4
+class org.jboss.netty.buffer.DynamicChannelBuffer,3492,3361,1.0127610208816706,0.9747679814385151
+class java.nio.HeapByteBuffer,20,13,0.00580046403712297,0.0037703016241299302
+class java.lang.Double,4,4,0.001160092807424594,0.001160092807424594
+class [B,19,8,0.005510440835266821,0.002320185614849188
+class java.lang.Boolean,55,2,0.015951276102088168,5.80046403712297E-4

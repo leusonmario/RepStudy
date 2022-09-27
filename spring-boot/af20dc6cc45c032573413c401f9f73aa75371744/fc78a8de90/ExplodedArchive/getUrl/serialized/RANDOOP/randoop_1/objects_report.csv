@@ -1,0 +1,26 @@
+Classes of objects created,Number of objects created,Number of unique objects manipulated,Number of objects created (Normalized),Number of unique objects manipulated (Normalized)
+class java.util.Spliterators$IteratorSpliterator,53,53,0.035522788203753354,0.035522788203753354
+class java.util.AbstractList$Itr,3,1,0.0020107238605898124,6.702412868632708E-4
+class java.lang.Integer,633,9,0.4242627345844504,0.006032171581769437
+class org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator,292,292,0.19571045576407506,0.19571045576407506
+class java.util.Collections$ReverseComparator2,22,20,0.014745308310991957,0.013404825737265416
+class java.io.ByteArrayInputStream,25,1,0.01675603217158177,6.702412868632708E-4
+class java.util.Collections$UnmodifiableRandomAccessList,22,1,0.014745308310991957,6.702412868632708E-4
+class java.util.Collections$EmptyIterator,52,1,0.03485254691689008,6.702412868632708E-4
+class [Ljava.lang.Class;,98,5,0.06568364611260054,0.003351206434316354
+class org.springframework.boot.loader.archive.ExplodedArchive$FileEntry,218,96,0.14611260053619302,0.064343163538874
+class java.util.LinkedList,77,46,0.05160857908847185,0.030831099195710455
+class java.lang.Class,304,7,0.2037533512064343,0.004691689008042895
+class org.springframework.boot.loader.archive.ExplodedArchive$FileEntryIterator$EntryComparator,612,419,0.4101876675603217,0.2808310991957105
+class java.lang.String,1045,16,0.7004021447721179,0.010723860589812333
+class java.io.File,6188,43,4.1474530831099194,0.028820375335120642
+class sun.net.www.protocol.file.FileURLConnection,127,127,0.08512064343163539,0.08512064343163539
+class java.net.URI,25,4,0.01675603217158177,0.002680965147453083
+class java.util.HashSet,98,1,0.06568364611260054,6.702412868632708E-4
+class org.springframework.boot.loader.archive.SerializedObjectSupporter,2592,1,1.737265415549598,6.702412868632708E-4
+class sun.net.www.content.text.PlainTextInputStream,249,249,0.16689008042895442,0.16689008042895442
+class java.util.Comparator$$Lambda$222/865115260,248,1,0.16621983914209115,6.702412868632708E-4
+class java.net.URL,857,31,0.574396782841823,0.020777479892761394
+class java.util.jar.Manifest,181,1,0.12131367292225201,6.702412868632708E-4
+class org.springframework.boot.loader.archive.ExplodedArchive,6412,126,4.297587131367292,0.08445040214477212
+class java.lang.Boolean,655,2,0.4390080428954424,0.0013404825737265416
